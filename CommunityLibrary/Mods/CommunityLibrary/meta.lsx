@@ -6,7 +6,7 @@
             <children>
                 <node id="Dependencies"/>
                 <node id="ModuleInfo">
-                    <attribute id="Author" type="LSWString" value="NellsRelo"/>
+                    <attribute id="Author" type="LSWString" value="BG3 Community"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSWString" value="Community-Developed collection of Data for use in Baldur's Gate 3 Mods"/>
                     <attribute id="Folder" type="LSWString" value="CommunityLibrary"/>

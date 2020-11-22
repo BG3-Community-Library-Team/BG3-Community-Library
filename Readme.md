@@ -5,8 +5,8 @@ assist modders in creating new content.
 
 ## Installation
 This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual
-Installations. Candor is by far the simplest method, and as such is the
-recommended one.
+Installations. Candor and Laughing Leader's mod managers are by far the simplest
+methods, and as such are the recommended one.
 
 [![Compatible with Vortex Mod Manager](https://i.imgur.com/loTUWPA.png)](https://www.nexusmods.com/about/vortex/) [![Compatible with Candor Mod Manager](https://i.imgur.com/UXk5kuH.png)](https://www.nexusmods.com/baldursgate3/mods/22) [![Compatible with Laughing Leader's Baldur's Gate 3 Mod Manager](https://i.imgur.com/SHk8JTc.png)](https://github.com/LaughingLeader/BG3ModManager)
 ### Candor
@@ -20,6 +20,7 @@ recommended one.
 2. Open Laughing Leader's Mod Manager, or if already open hit "Refresh"
 3. Select desired profile
 4. Drag CommunityLibrary to the Left pane, at the top
+5. Hit "Save Load Order to File" or "Export Order to Game"
 
 ### Vortex
 1. Install this mod via the "Mod Manager Download" button on Nexus Mods
@@ -57,12 +58,15 @@ block:
 
 ## Other Recommended Mods
 - [ImprovedUI](https://www.nexusmods.com/baldursgate3/mods/13)
+  - Makes improvements to the UI during Character Creation, and removed an error
+  that only appears when using mods.
 
 ## Acknowledgements
 - Larian Software, for working on Baldur's Gate 3 and bringing 5th Edition to PC
 - The Baldur's Gate 3 Modding Community
 - [https://github.com/ShinyHobo](ShinyHobo) for their work easing the process of
 creating .pak files
+- Alana for the creation of the Mod Manager Compatibility Images
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
