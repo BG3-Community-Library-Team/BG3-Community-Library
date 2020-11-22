@@ -1,0 +1,15 @@
+new entry "CL_Passive_Frostbite_Level_5"
+type "PassiveData"
+data "DisplayName" "Frostbite Upgrade"
+data "Conditions" "SpellId('CL_Target_Frostbite') and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "DealDamage(1d6,Cold)"
+data "StatsFunctorContext" "OnAttack"
+
+// Duplicating for Level 11 and Level 17, as they should work in concert
+new entry "CL_Passive_Frostbite_Level_11"
+type "PassiveData"
+using "CL_Passive_Frostbite_Level_5"
+
+new entry "CL_Passive_Frostbite_Level_17"
+type "PassiveData"
+using "CL_Passive_Frostbite_Level_5"
