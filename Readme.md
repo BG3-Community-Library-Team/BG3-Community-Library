@@ -84,7 +84,7 @@ it, and if all goes well, we'll either add your contribution, or provide
 reasoning as to why we won't.
 
 #### Making Suggestions
-This is the easiest way to contribute - Create an [Issue](https://github.com/khuckins/BG3-Community-Library/issues)
+This is the easiest way to contribute - Create an [Issue](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/issues)
 with either a Bug Report or Feature Request template, depending on whether you
 are encountering a bug or requesting a feature be added. Please be very detailed
 when creating an issue - the more detail you add, the easier it is to be
