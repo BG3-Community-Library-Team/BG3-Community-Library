@@ -1,9 +1,12 @@
 # Baldur's Gate 3 Community Library
-Baldur's Gate 3 Community Library exists to provide a common collection of Spells, Scripts, Items, Statuses, Passives, and other useful material that will assist modders in creating new content.
-
+Baldur's Gate 3 Community Library exists to provide a common collection of
+Spells, Scripts, Items, Statuses, Passives, and other useful material that will
+assist modders in creating new content.
 
 ## Installation
-This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual Installations. Candor is by far the simplest method, and as such is the recommended one.
+This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual
+Installations. Candor is by far the simplest method, and as such is the
+recommended one.
 
 ![Compatible with Vortex Mod Manager](https://i.imgur.com/loTUWPA.png) ![Compatible with Vortex Mod Manager](https://i.imgur.com/UXk5kuH.png)
 ### Candor
@@ -20,7 +23,8 @@ This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual Installat
               <attribute id="UUID" type="FixedString" value="396c5966-09b0-40a1-af3f-93a5e9ce71c0"/>
             </node>
 ```
-4. Place this under the Mods Children Node, beneath the Gustav ModuleShortDesc block:
+4. Place this under the Mods Children Node, beneath the Gustav ModuleShortDesc
+block:
 ```
             <node id="ModuleShortDesc">
               <attribute id="Folder" type="LSWString" value="CommunityLibrary"/>
@@ -37,6 +41,29 @@ This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual Installat
 - [Vortex Mod Manager](https://www.nexusmods.com/about/vortex/)
 
 ## Acknowledgements
-- Larion Software, for working on Baldur's Gate 3 and bringing 5th Edition to PC
+- Larian Software, for working on Baldur's Gate 3 and bringing 5th Edition to PC
 - The Baldur's Gate 3 Modding Community
-- [https://github.com/ShinyHobo](ShinyHobo) for their work easing the process of creating .pak files
+- [https://github.com/ShinyHobo](ShinyHobo) for their work easing the process of
+creating .pak files
+
+## Contributing
+If you would like to contribute to Baldur's Gate 3 Community Library, there are
+a few ways: You can join the team, make independent contributions, or make
+suggestions!
+
+#### Joining the Team
+Reach out to me on the #bg3-modding channel of the Larian Studios discord, and
+we'll get you set up!
+
+#### Independent Contribution
+If you'd like to make contributions, please make a fork of the repository, add
+and test your changes, and then submit a pullrequest to this repo. We'll review
+it, and if all goes well, we'll either add your contribution, or provide
+reasoning as to why we won't.
+
+#### Making Suggestions
+This is the easiest way to contribute - Create an [Issue](https://github.com/khuckins/BG3-Community-Library/issues)
+with either a Bug Report or Feature Request template, depending on whether you
+are encountering a bug or requesting a feature be added. Please be very detailed
+when creating an issue - the more detail you add, the easier it is to be
+addressed.
