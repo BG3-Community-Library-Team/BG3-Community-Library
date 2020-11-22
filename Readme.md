@@ -1,4 +1,7 @@
-# Baldur's Gate 3 Community Library [![Discord](https://img.shields.io/discord/780145965398097951.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/vpEv3HJ)
+# Baldur's Gate 3 Community Library
+[![Discord](https://img.shields.io/discord/780145965398097951.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/T5SB5gQkrg) [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/Naereen/StrapDown.js/v1.1.svg)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
+
+
 
 Baldur's Gate 3 Community Library exists to provide a common collection of
 Spells, Scripts, Items, Statuses, Passives, and other useful material that will
@@ -12,7 +15,8 @@ suggestions!
 #### Joining the Team
 Join our [Discord](https://discord.gg/T5SB5gQkrg), and we'll get you set up!
 
-#### Independent Contribution
+#### Independent Contribution [![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/network/)
+
 If you'd like to make contributions, please make a fork of the repository, add
 and test your changes, and then submit a pullrequest to this repo. We'll review
 it, and if all goes well, we'll either add your contribution, or provide
