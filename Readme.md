@@ -1,7 +1,5 @@
 # Baldur's Gate 3 Community Library
-[![Discord](https://img.shields.io/discord/780145965398097951.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/T5SB5gQkrg) [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/Naereen/StrapDown.js/v1.1.svg)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
-
-
+[![Discord](https://img.shields.io/discord/780145965398097951?color=738adb&label=Discord&logo=discord&logoColor=white)](https://discord.gg/T5SB5gQkrg) [![GitHub release](https://img.shields.io/github/v/tag/BG3-Community-Library-Team/BG3-Community-Library?label=Latest%20Version)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/BG3-Community-Library-Team/BG3-Community-Library/1.1.0.1/main)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
 
 Baldur's Gate 3 Community Library exists to provide a common collection of
 Spells, Scripts, Items, Statuses, Passives, and other useful material that will
