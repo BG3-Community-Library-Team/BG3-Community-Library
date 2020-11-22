@@ -246,6 +246,9 @@
                                 <node id="Target">
                                     <attribute id="Object" type="FixedString" value="Story"/>
                                 </node>
+                                <node id="Target">
+                                    <attribute id="Object" type="FixedString" value="GM"/>
+                                </node>
                             </children>
                         </node>
                     </children>
