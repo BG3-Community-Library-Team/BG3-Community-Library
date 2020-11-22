@@ -8,7 +8,7 @@ This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual
 Installations. Candor and Laughing Leader's mod managers are by far the simplest
 methods, and as such are the recommended one.
 
-[![Compatible with Vortex Mod Manager](https://i.imgur.com/loTUWPA.png)](https://www.nexusmods.com/about/vortex/) [![Compatible with Candor Mod Manager](https://i.imgur.com/UXk5kuH.png)](https://www.nexusmods.com/baldursgate3/mods/22) [![Compatible with Laughing Leader's Baldur's Gate 3 Mod Manager](https://i.imgur.com/SHk8JTc.png)](https://github.com/LaughingLeader/BG3ModManager)
+[![Compatible with Vortex Mod Manager](https://i.imgur.com/YsYq10i.png)](https://www.nexusmods.com/about/vortex/) [![Compatible with Candor Mod Manager](https://i.imgur.com/gCOAPRl.png)](https://www.nexusmods.com/baldursgate3/mods/22) [![Compatible with Laughing Leader's Baldur's Gate 3 Mod Manager](https://i.imgur.com/qtdx2Yq.png)](https://github.com/LaughingLeader/BG3ModManager)
 ### Candor
 1. Select Baldur's Gate 3 in Candor Mod Manager
 2. Select "Add Mods" and choose the .zip file containing this mod
