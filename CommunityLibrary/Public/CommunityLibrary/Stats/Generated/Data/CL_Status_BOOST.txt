@@ -1,0 +1,21 @@
+// Barkskin currently adds 16AC. Let's have an alternative spell that fixes this.
+new entry "CL_STATUS_BARKSKIN"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BARKSKIN"
+data "Boosts" "ACOverrideMinimum(16)"
+
+// Player version of Duergar's Enlarge has some hybridization with ENLARGE and
+// ENLARGE_DUERGAR
+new entry "CL_STATUS_ENLARGE_DERGAR_PLAYER"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+data "DisplayName" "Status_POLYMORPHED_ENLARGE_DUERGAR_DisplayName"
+data "Description" "Status_POLYMORPHED_ENLARGE_DUERGAR_Description"
+data "Icon" "statIcons_Enlarged"
+data "StatusEffect" "VFX_Status_Duergar_Enlarge_01:;VFX_Status_Duergar_Enlarge_EyeFX_L_01:Dummy_EyeFX_02:;VFX_Status_Duergar_Enlarge_EyeFX_R_01:Dummy_EyeFX_01"
+data "SoundVocalStart" "SHOUT"
+data "StackId" "SIZE"
+data "Boosts" "Advantage(Ability, Strength); Advantage(SavingThrow, Strength);"
+data "Rules" "Enlarge"
+data "StatusGroups" "SG_Polymorph"
