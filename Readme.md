@@ -1,7 +1,32 @@
-# Baldur's Gate 3 Community Library
+# Baldur's Gate 3 Community Library [![Discord](https://img.shields.io/discord/780145965398097951.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/vpEv3HJ)
+
 Baldur's Gate 3 Community Library exists to provide a common collection of
 Spells, Scripts, Items, Statuses, Passives, and other useful material that will
 assist modders in creating new content.
+
+## Contributing
+If you would like to contribute to Baldur's Gate 3 Community Library, there are
+a few ways: You can join the team, make independent contributions, or make
+suggestions!
+
+#### Joining the Team
+Join our [Discord](https://discord.gg/T5SB5gQkrg), and we'll get you set up!
+
+#### Independent Contribution
+If you'd like to make contributions, please make a fork of the repository, add
+and test your changes, and then submit a pullrequest to this repo. We'll review
+it, and if all goes well, we'll either add your contribution, or provide
+reasoning as to why we won't.
+
+#### Making Suggestions
+This is the easiest way to contribute - Create an [Issue](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/issues)
+with either a Bug Report or Feature Request template, depending on whether you
+are encountering a bug or requesting a feature be added. Please be very detailed
+when creating an issue - the more detail you add, the easier it is to be
+addressed.
+
+More detail on making contributions can be found [here](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Making-Contributions).
+
 
 ## Installation
 This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual
@@ -56,10 +81,13 @@ block:
 - [Laughing Leader's Mod Manager](https://github.com/LaughingLeader/BG3ModManager)
 - [Vortex Mod Manager](https://www.nexusmods.com/about/vortex/)
 
-## Other Recommended Mods
+## Other Recommended Mods/Pages
 - [ImprovedUI](https://www.nexusmods.com/baldursgate3/mods/13)
   - Makes improvements to the UI during Character Creation, and removed an error
   that only appears when using mods.
+- [Larian Studios Discord](https://discord.com/invite/larianstudios)
+  - #bg3-modding and #bg3-scripting are useful channels for learning how to mod, and connecting with the modding community
+- [BG3 Best Practices Wiki](https://github.com/Baldurs-Gate-3-modders/Best-Practices-Wiki/wiki)
 
 ## Acknowledgements
 - Larian Software, for working on Baldur's Gate 3 and bringing 5th Edition to PC
@@ -67,25 +95,3 @@ block:
 - [https://github.com/ShinyHobo](ShinyHobo) for their work easing the process of
 creating .pak files
 - Alana for the creation of the Mod Manager Compatibility Images
-
-## Contributing
-If you would like to contribute to Baldur's Gate 3 Community Library, there are
-a few ways: You can join the team, make independent contributions, or make
-suggestions!
-
-#### Joining the Team
-Reach out to me on the #bg3-modding channel of the Larian Studios discord, and
-we'll get you set up!
-
-#### Independent Contribution
-If you'd like to make contributions, please make a fork of the repository, add
-and test your changes, and then submit a pullrequest to this repo. We'll review
-it, and if all goes well, we'll either add your contribution, or provide
-reasoning as to why we won't.
-
-#### Making Suggestions
-This is the easiest way to contribute - Create an [Issue](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/issues)
-with either a Bug Report or Feature Request template, depending on whether you
-are encountering a bug or requesting a feature be added. Please be very detailed
-when creating an issue - the more detail you add, the easier it is to be
-addressed.
