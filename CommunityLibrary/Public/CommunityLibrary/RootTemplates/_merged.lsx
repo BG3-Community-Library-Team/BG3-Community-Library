@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="51" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Battleaxe." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Battleaxe" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Battleaxe_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="095a3034-1efe-491a-9958-3e548b9819cc" />
+                    <attribute id="Name" type="LSString" value="CL_WPN_Bound_Battleaxe" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="a086b825-8f17-4f0e-855b-178f8cdc515a" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="1b25ac78-7c94-15fb-a5ee-c42eeae95717" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Battleaxe" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="4115f937-0466-0f4e-b3c8-a8e0d8738347" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Greataxe." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Greataxe" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greataxe_B_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="75ce2ae2-328d-46dc-9f2e-eb71ee9e5878" />
+                    <attribute id="Name" type="LSString" value="BoundGreataxe" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="14bf5ab0-26f0-2901-b063-d94dd7420f4f" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="afbfaee7-e2cd-48e7-8c46-d2377c7320e3" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Greataxe" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="ee9789f8-7607-96fc-e2f9-c3cfc8049657" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741864" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Dagger." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Dagger" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="bc910df4-9a7a-4282-a075-8ff902fcc92e" />
+                    <attribute id="Name" type="LSString" value="BoundDagger" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="1eab180b-5bf9-48ea-aece-7ba20d1deb78" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="56184af3-63ea-442e-b111-fe81bff2c2f4" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Dagger" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="564ac843-ea39-4fd9-b9ee-b37cee7e6734" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741864" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Mace." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Mace" handle="" version="2" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Mace_A_1" />
+                    <attribute id="MapKey" type="FixedString" value="3c784b52-a3d4-455f-8e5c-68f30410b6c1" />
+                    <attribute id="Name" type="LSString" value="BoundMace" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5a948b12-ca43-4256-9821-0d151036dbd1" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Mace" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6dc26dce-d673-035d-3a6c-3356dd53437d" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="db11795d-0f5e-bed1-bd63-ea18edd71d1d" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741872" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Warhammer." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Warhammer" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_WarHammer_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="33b4fb4f-d12e-4a9b-95e4-7c42b9123688" />
+                    <attribute id="Name" type="LSString" value="BoundWarhammer" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="3e1b3db9-036e-4931-ab92-c3730a1c3d5f" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Warhammer" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6bb18eb2-5a66-4a54-744b-f1d286c39c19" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="1cb1363c-f955-e949-a701-de0acca84839" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741854" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Trident." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Trident" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Trident_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="96206511-c213-4363-b10d-a1be6566450e" />
+                    <attribute id="Name" type="LSString" value="BoundTrident" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="2fab5801-76b1-4669-95d9-7df76bed12dd" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="07466ede-c702-c2e3-a40d-ad149a5bda18" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Trident" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="81fd031f-c2b1-fdd8-070f-13730e972d5b" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741854" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Spear." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Spear" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Spear_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="ce45c0d9-db27-4efe-b255-857d08c16f1f" />
+                    <attribute id="Name" type="LSString" value="BoundSpear" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="158e6f29-89e9-4279-8f8f-85078f047225" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="1510539e-fe3e-f00e-4ae8-7d63af62f880" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Spear" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="af7ce227-b222-33f9-3ef2-d276d3d0edc6" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Pike." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Pike" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Pike_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="fbabe3ff-a923-4a38-a0e2-a97f5737597f" />
+                    <attribute id="Name" type="LSString" value="BoundPike" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="40fa8049-b6c1-4463-b212-52ad13b5d687" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6a7b0d14-23f8-e8bd-5cb7-b65aab45182c" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Pike" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="230f4be9-be3e-8924-3a57-bfddadcc4b1d" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Shortsword." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Shortsword" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortsword_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="a097bd64-d169-48ec-8a0c-4adfc5333fa3" />
+                    <attribute id="Name" type="LSString" value="BoundShortsword" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="261b946f-154b-4f75-8985-cab6531034a2" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="3ff6c1b6-56b8-1db7-5b5f-e19da23d4c84" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Shortsword" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="9fecddcb-0f52-f5f7-cce9-7c7442704866" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Longsword." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Longsword" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longsword_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="a9eed011-b11d-4162-b09d-6bb198499378" />
+                    <attribute id="Name" type="LSString" value="BoundLongsword" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="cd4a8a69-8f43-bfe1-5998-5831c52ffd19" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Longsword" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Greatsword." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Greatsword" handle="" version="2" />
+                    <attribute id="MapKey" type="FixedString" value="c8b14f84-0701-45b2-8151-a6fb30b8d6c3" />
+                    <attribute id="Name" type="LSString" value="BoundGreatsword" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Greatsword" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="91a755e7-f02c-19cd-8d61-3da7192a8396" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Light Crossbow." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Light Crossbow" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_LightCrossbow_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="16bb802c-bcd5-4a34-90e1-deef9f764208" />
+                    <attribute id="Name" type="LSString" value="Bound LightCrossbow" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="509dd5c3-7c72-4335-9b23-19a14a884f2e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="18ab88e3-8121-3a94-e02c-4024507581d3" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_LightCrossbow" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="dec76708-f94c-d5bf-bad6-03077e3be1b4" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Heavy Crossbow." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Heavy Crossbow" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="WPN_HUM_HeavyCrossbow_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="a2fcd6fd-cfcc-45f1-88eb-5678ab1fd308" />
+                    <attribute id="Name" type="LSString" value="Bound HeavyCrossbow" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="6af59cba-cc38-4511-9c3b-75caac4b96b5" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="7e5ab773-7db8-a4ce-4c3e-288ffd5c8d78" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_HeavyCrossbow" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b5e395e3-3a77-1346-b2d2-caf99e292837" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Shortbow." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="Bound Shortbow" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortbow_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="4f9bc4cd-d152-4c0e-b724-dd957a40ce93" />
+                    <attribute id="Name" type="LSString" value="BoundShortbow" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="a46173b7-afd6-48e0-9c76-817acd027574" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="acd603f2-ecae-a285-a65a-258f2f6e1b23" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Shortbow" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="e97dc5f0-e494-b296-3079-b8c616722a15" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" value="A malleable extraplanar being, shaped into the form of a Longbow." handle="" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" value="BoundLongbow" handle="" version="2" />
+                    <attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longbow_A_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="c9cb9cbf-11e9-40c8-99b2-234e17b2ebaf" />
+                    <attribute id="Name" type="LSString" value="Bound Longbow" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="dbcf0c3a-97e2-776a-719e-e5a1f1ae215c" />
+                    <attribute id="ReadinessFlags" type="uint32" value="144" />
+                    <attribute id="Stats" type="FixedString" value="CL_WPN_Bound_Longbow" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="6bf602f5-fc45-196a-d6c6-b7a69fd24b98" />
+                    <attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

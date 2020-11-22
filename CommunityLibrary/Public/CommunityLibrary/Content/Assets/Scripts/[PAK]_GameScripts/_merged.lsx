@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="51" />
+	<region id="ScriptBank">
+		<node id="ScriptBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="f0ace8e7-d6ad-461f-ac67-72c86e149dc3" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundBattleaxe" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="e2b6e950-a65f-4650-b951-0d57379e8e9d" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundGreataxe" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="ba7cc9fa-03d0-4045-8ab9-e2e37ae30787" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundDagger" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="e9c398a9-d8af-4699-b9cb-1645bc325133" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundMace" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="9a9d05e9-8d1e-4135-8700-c4951b1be8fa" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundWarhammer" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="ab67ad85-10d9-4b85-9b0e-c1980bb283bb" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundTrident" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="62811923-f21b-4870-a356-91030499f424" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundSpear" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="a0d7312d-c07b-4975-97f1-64e744bf7f70" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundPike" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="1384b46c-59a0-4544-9875-b36edbec5fe1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundShortsword" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="b3011db6-fd41-4ffb-b688-41a715d09df1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundLongsword" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="18971beb-a4eb-4ea6-9bae-c607be3af621" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundGreatsword" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="15845a94-6c65-4580-9f21-190f0716417c" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundLightCrossbow" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="bc1ddda3-fb7a-472e-91d0-8c2ea5962329" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundHeavyCrossbow" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="c16b4e6d-afdb-4a4b-a17a-61741eb0b184" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundShortbow" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="d68879b9-c026-4264-8dc9-891a78abfb85" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_CharacterSummonBoundLongbow" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/SummonBoundWeapon.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
