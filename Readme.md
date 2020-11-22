@@ -8,22 +8,37 @@ This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual
 Installations. Candor is by far the simplest method, and as such is the
 recommended one.
 
-![Compatible with Vortex Mod Manager](https://i.imgur.com/loTUWPA.png) ![Compatible with Vortex Mod Manager](https://i.imgur.com/UXk5kuH.png)
+[![Compatible with Vortex Mod Manager](https://i.imgur.com/loTUWPA.png)](https://www.nexusmods.com/about/vortex/) [![Compatible with Candor Mod Manager](https://i.imgur.com/UXk5kuH.png)](https://www.nexusmods.com/baldursgate3/mods/22) [![Compatible with Laughing Leader's Baldur's Gate 3 Mod Manager](https://i.imgur.com/SHk8JTc.png)](https://github.com/LaughingLeader/BG3ModManager)
 ### Candor
 1. Select Baldur's Gate 3 in Candor Mod Manager
 2. Select "Add Mods" and choose the .zip file containing this mod
-3. Check "CommunityLibrary" and hit "Install Selected Mods"
+3. Ensure "CommunityLibrary" is at the top of your mod list
+4. Check "CommunityLibrary" and hit "Install Selected Mods"
+
+### Laughing Leader's
+1. Unzip CommunityLibrary.pak from the .zip file into your Documents\Larian Studios\Baldur's Gate 3\Mods
+2. Open Laughing Leader's Mod Manager, or if already open hit "Refresh"
+3. Select desired profile
+4. Drag CommunityLibrary to the Left pane, at the top
+
+### Vortex
+1. Install this mod via the "Mod Manager Download" button on Nexus Mods
+2. Enable the mod
+3. Go to the Load Order section
+4. Hit "Refresh List" or select your profile again
+5. Move this mod to the top of the list
+6. Hit "Deploy Mods"
 
 ### Manual
 1. Place the included .pak file into \Documents\Larian Studios\Baldur's Gate 3\Mods\
 2. Edit \Documents\Larian Studios\Baldur's Gate 3\PlayerProfiles\[Profile Name]\modsettings.lsx:
-3. Place this under the ModOrder children node: (This step is technically unnecessary)
+3. Place this under the ModOrder children node, above any other entries in this section:
 ```
             <node id="Module">
               <attribute id="UUID" type="FixedString" value="396c5966-09b0-40a1-af3f-93a5e9ce71c0"/>
             </node>
 ```
-4. Place this under the Mods Children Node, beneath the Gustav ModuleShortDesc
+4. Place this under the Mods Children Node, directly beneath the Gustav ModuleShortDesc
 block:
 ```
             <node id="ModuleShortDesc">
@@ -39,6 +54,9 @@ block:
 - [Candor Mod Manager](https://www.nexusmods.com/baldursgate3/mods/22)
 - [Laughing Leader's Mod Manager](https://github.com/LaughingLeader/BG3ModManager)
 - [Vortex Mod Manager](https://www.nexusmods.com/about/vortex/)
+
+## Other Recommended Mods
+- [ImprovedUI](https://www.nexusmods.com/baldursgate3/mods/13)
 
 ## Acknowledgements
 - Larian Software, for working on Baldur's Gate 3 and bringing 5th Edition to PC
