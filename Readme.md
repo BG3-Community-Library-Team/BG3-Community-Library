@@ -5,6 +5,19 @@ Baldur's Gate 3 Community Library exists to provide a common collection of
 Spells, Scripts, Items, Statuses, Passives, and other useful material that will
 assist modders in creating new content.
 
+## For Mod Authors:
+In addition to the stated purpose of this mod, feel free to use the contents of
+this mod as examples of how to create certain content for Baldur's Gate 3 if you
+wish.
+
+You're welcome to submit pieces of your mod that you think would be useful for
+others to use in their mods as well, be it scripts, spells, statuses, passives,
+models, textures, sounds, etc.
+
+## For Players:
+Some mods will rely on this one, and require it as a dependency. So alone, this
+mod will appear to do everything. It just needs to be utilized by other mods.
+
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
 a few ways: You can join the team, make independent contributions, or make
@@ -13,12 +26,18 @@ suggestions!
 #### Joining the Team
 Join our [Discord](https://discord.gg/T5SB5gQkrg), and we'll get you set up!
 
-#### Independent Contribution [![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/network/)
+#### Independent Contribution
+[![GitHub forks](https://img.shields.io/github/forks/BG3-Community-Library-Team/BG3-Community-Library)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/network/)
 
 If you'd like to make contributions, please make a fork of the repository, add
 and test your changes, and then submit a pullrequest to this repo. We'll review
 it, and if all goes well, we'll either add your contribution, or provide
 reasoning as to why we won't.
+
+Whether you join the team or want to make an independent contribution, there's
+a [quick summary](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Making-Contributions)
+and a [more in-depth](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Setting-up-a-Development-Environment)
+guide on contributing to the project.
 
 #### Making Suggestions
 This is the easiest way to contribute - Create an [Issue](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/issues)
@@ -29,6 +48,9 @@ addressed.
 
 More detail on making contributions can be found [here](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Making-Contributions).
 
+#### Not interesting in contributing, but want to make use of the pack, or just curious?
+That's what this pack is here for! Feel free to join our [Discord](https://discord.gg/T5SB5gQkrg)
+to follow development.
 
 ## Installation
 This mod works with Candor Mod Manager, Vortex Mod Manager, and Manual
