@@ -16,7 +16,7 @@ models, textures, sounds, etc.
 
 ## For Players:
 Some mods will rely on this one, and require it as a dependency. So alone, this
-mod will appear to do everything. It just needs to be utilized by other mods.
+mod won't appear to do anything. It just needs to be utilized by other mods.
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
