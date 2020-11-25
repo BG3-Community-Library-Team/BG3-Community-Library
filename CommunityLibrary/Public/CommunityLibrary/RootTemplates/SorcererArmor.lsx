@@ -103,9 +103,6 @@
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="d9692091-0b96-4058-bd50-3f64cd5c9794" />
                                                 </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="f0d258d2-e455-8c1e-cd8d-90e32862c559" />
-                                                </node>
                                             </children>
                                         </node>
                                         <node id="Object">
@@ -113,9 +110,6 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="50bb1877-57b2-4c17-b8a3-102f2158a5da" />
-                                                </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="2d0f8f38-2383-125f-eb37-02d0916958d1" />
                                                 </node>
                                             </children>
                                         </node>
@@ -125,9 +119,6 @@
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="3fd98edd-e62d-4e8d-8c47-e2f1d29baa9c" />
                                                 </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="cd54ff9e-8166-ed27-d017-36e5d6ce27cf" />
-                                                </node>
                                             </children>
                                         </node>
                                         <node id="Object">
@@ -135,9 +126,6 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="fe1157a5-0f7b-45ed-9600-7ee79c0168db" />
-                                                </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="956c67aa-d353-1e0c-82be-169b00bf70c8" />
                                                 </node>
                                             </children>
                                         </node>
@@ -147,9 +135,6 @@
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="56bb77a3-9fae-4ae2-bbaa-c06d6d4ae785" />
                                                 </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="64ab37be-810e-79c7-d54c-a3cb3add0ba8" />
-                                                </node>
                                             </children>
                                         </node>
                                         <node id="Object">
@@ -157,9 +142,6 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="717fd499-5451-48ca-bfd9-fb295ff640e1" />
-                                                </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="4312f271-9552-f7de-0af4-00de6a2b9c15" />
                                                 </node>
                                             </children>
                                         </node>
@@ -169,9 +151,6 @@
                                                 <node id="MapValue"><!-- Male Halflings don't have this asset yet -->
                                                     <attribute id="Object" type="FixedString" value="606afe8d-0e23-4235-b030-aa4711cce78c" />
                                                 </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="2403a22b-d5ba-76bf-f804-0c829d8ef88c" />
-                                                </node>
                                             </children>
                                         </node>
                                         <node id="Object">
@@ -179,9 +158,6 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="b13a1662-c14f-f81c-a9ad-5d2fe7b64bb8" />
-                                                </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="fbea613c-fcf2-8b03-62eb-9e0f308d92f6" />
                                                 </node>
                                             </children>
                                         </node>
@@ -191,9 +167,6 @@
                                                 <node id="MapValue"><!-- Male Gnomes don't have this asset yet -->
                                                     <attribute id="Object" type="FixedString" value="c1ec9ec0-ee2b-4e84-05c2-42bc6f5ec678" />
                                                 </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="9af60b2f-38a6-555e-b10e-53fb6889c338" />
-                                                </node>
                                             </children>
                                         </node>
                                         <node id="Object">
@@ -201,9 +174,6 @@
                                             <children>
                                                 <node id="MapValue">
                                                     <attribute id="Object" type="FixedString" value="0fe028d5-728f-3c92-2d8f-86fbdd1b1146" />
-                                                </node>
-                                                <node id="MapValue">
-                                                    <attribute id="Object" type="FixedString" value="86cbb677-4fc6-302a-3912-9a17fb2e28f5" />
                                                 </node>
                                             </children>
                                         </node>

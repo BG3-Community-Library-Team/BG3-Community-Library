@@ -47,7 +47,9 @@ data "Priority" "1"
 data "MinLevel" "1"
 data "Armor Class Ability" "Dexterity"
 
-// NOTE: No assets exist for Male Halflings and Gnomes
+// NOTE: No assets exist for Male Halflings and Gnomes, defaults to drow
+// disguise cowl - not ideal
+// TODO: Find a better default hood
 new entry "CL_ARM_Sorcerer_Hood"
 type "Armor"
 using "_Head"
@@ -55,14 +57,14 @@ data "RootTemplate" "0628cb2d-2fd8-4cc4-95a6-8a1a1f53ef58"
 data "ValueOverride" "3"
 data "ArmorType" "Cloth"
 
-// NOTE: No assets exist for Male Halflings and Gnomes
+// NOTE: No assets exist for Male Halflings and Gnomes, default to Leather Gloves
 new entry "CL_ARM_Sorcerer_Gloves"
 type "Armor"
 using "_Hand"
 data "RootTemplate" "396da9fd-4e27-4101-96cc-68d2ff389665"
 data "ValueOverride" "20"
 
-// NOTE: No assets exist for Male Halflings and Gnomes
+// NOTE: No assets exist for Male Halflings and Gnomes, default to Leather Boots
 new entry "CL_ARM_Sorcerer_Boots"
 type "Armor"
 using "_Foot"
