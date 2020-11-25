@@ -43,3 +43,13 @@
   - CL_Passive_Frostbite_Level_11
   - CL_Passive_Frostbite_Level_17
 - Petpal: CL_Passive_Petpal
+
+# 1.2
+## Armors
+- Barbarian Armor: CL_ARM_Barbarian_Armor
+- Barbarian Bracers: CL_ARM_Barbarian_Bracers
+- Barbarian Boots: CL_ARM_Barbarian_Boots
+- Sorcerer Robe: CL_ARM_Sorcerer_Robe (Character underwear overlaps, some races assets are incomplete)
+- Sorcerer Hood: CL_ARM_Sorcerer_Hood (Female Dwarf, Male Gnomes & Halflings do not have this asset yet)
+- Sorcerer Gloves: CL_ARM_Sorcerer_Gloves (Female Dwarf, Male Gomes & Halflings do not have this asset yet)
+- Sorcerer Gloves: CL_ARM_Sorcerer_Boots (Female Dwarf, Male Gomes & Halflings do not have this asset yet)
