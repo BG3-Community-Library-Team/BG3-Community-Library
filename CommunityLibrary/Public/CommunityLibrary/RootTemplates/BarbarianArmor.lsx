@@ -9,8 +9,8 @@
                     <attribute id="CanClimbOn" type="bool" value="False" />
                     <attribute id="CanShootThrough" type="bool" value="True" />
                     <attribute id="CoverAmount" type="uint8" value="0" />
-                    <attribute id="Description" type="TranslatedString" handle="h6fcaf22agf760g4c84gae29gd47af2d38b4c" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h9618be2dg6e9fg46d7g96a2g302d2b15d035" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="1e83add3-75f6-4d0b-92cd-0c1f2cca9771" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="8c7bd6bd-fd32-49e2-9515-d328da060c06" version="1" />
                     <attribute id="Icon" type="FixedString" value="Item_ARM_Hide" />
                     <attribute id="IsPointerBlocker" type="bool" value="False" />
                     <attribute id="LevelName" type="FixedString" value="" />
@@ -198,8 +198,8 @@
                 <attribute id="CanClimbOn" type="bool" value="False" />
                 <attribute id="CanShootThrough" type="bool" value="True" />
                 <attribute id="CoverAmount" type="uint8" value="0" />
-                <attribute id="Description" type="TranslatedString" handle="h24b04323gd226g45a5gbc6ag4d079b7231f1" version="1" />
-                <attribute id="DisplayName" type="TranslatedString" handle="h9bf9d513gc6b3g4a7dgb0b5g01f3892547f6" version="3" />
+                <attribute id="Description" type="TranslatedString" handle="731a1183-8948-43e4-8253-6a7351416939" version="1" />
+                <attribute id="DisplayName" type="TranslatedString" handle="d3e35ec7-0a12-49bc-a15d-d36270278555" version="3" />
                 <attribute id="Icon" type="FixedString" value="Item_ARM_Gloves_Leather" />
                 <attribute id="IsPointerBlocker" type="bool" value="False" />
                 <attribute id="LevelName" type="FixedString" value="" />
@@ -328,8 +328,8 @@
             </node>
             <node id="GameObjects">
                 <attribute id="CanShootThrough" type="bool" value="True" />
-                <attribute id="Description" type="TranslatedString" handle="h9c0710a1g68bbg4d2ag8719gcad11f27d405" version="1" />
-                <attribute id="DisplayName" type="TranslatedString" handle="hb6225389g5245g4fcbg879egda127c83b5d1" version="2" />
+                <attribute id="Description" type="TranslatedString" handle="f7573711-2589-4006-8735-4e8abfe82b01" version="1" />
+                <attribute id="DisplayName" type="TranslatedString" handle="eb24baa4-faff-44aa-a8d2-75b83a1ab9c4" version="2" />
                 <attribute id="Flag" type="int32" value="0" />
                 <attribute id="Icon" type="FixedString" value="Item_ARM_Boots_Leather" />
                 <attribute id="LevelName" type="FixedString" value="" />

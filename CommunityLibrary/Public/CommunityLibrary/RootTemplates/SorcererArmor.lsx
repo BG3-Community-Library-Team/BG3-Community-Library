@@ -9,8 +9,8 @@
                     <attribute id="CanClimbOn" type="bool" value="False" />
                     <attribute id="CanShootThrough" type="bool" value="True" />
                     <attribute id="CoverAmount" type="uint8" value="0" />
-                    <attribute id="Description" type="TranslatedString" handle="he775db24g6620g4a87gade9geef6c82dbd55" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h092c1109gdf31g42abga589gba29cb4be22b" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="75122192-1b24-47db-bf52-57fe56c7e5f0" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="c12f65ef-0b82-484d-8959-6b191b7545fb" version="1" />
                     <attribute id="Icon" type="FixedString" value="Item_ARM_Robe" />
                     <attribute id="IsPointerBlocker" type="bool" value="False" />
                     <attribute id="LevelName" type="FixedString" value="" />
@@ -184,8 +184,8 @@
                     </children>
                 </node>
 				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="h5fe9b0d8g85a9g4676g9139gc10f0e8f23e2" version="2" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h20b4a569gfb93g4fd0g93d4g44f5bf6a7f56" version="3" />
+					<attribute id="Description" type="TranslatedString" handle="81a99667-1eaf-4302-85ee-878698ec3265" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="050dedc8-7918-4edf-8e48-42dd516b7756" version="3" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="0628cb2d-2fd8-4cc4-95a6-8a1a1f53ef58" />
 					<attribute id="Name" type="LSString" value="CL_ARM_Sorcerer_Hood" />
@@ -302,8 +302,8 @@
 					<attribute id="CanClimbOn" type="bool" value="False" />
 					<attribute id="CanShootThrough" type="bool" value="True" />
 					<attribute id="CoverAmount" type="uint8" value="0" />
-					<attribute id="Description" type="TranslatedString" handle="h24b04323gd226g45a5gbc6ag4d079b7231f1" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h9bf9d513gc6b3g4a7dgb0b5g01f3892547f6" version="3" />
+					<attribute id="Description" type="TranslatedString" handle="0e3b3a40-6d6c-4490-b764-a3e361ea3ec2" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="1d56c194-ce5b-4b3f-8c92-2b998a42a7c7" version="3" />
 					<attribute id="Icon" type="FixedString" value="Item_ARM_Gloves_Leather" />
 					<attribute id="IsPointerBlocker" type="bool" value="False" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -432,8 +432,8 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="CanShootThrough" type="bool" value="True" />
-					<attribute id="Description" type="TranslatedString" handle="h9c0710a1g68bbg4d2ag8719gcad11f27d405" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hb6225389g5245g4fcbg879egda127c83b5d1" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="77f93d55-807f-483a-a5c7-daac860aa327" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="bee20ed8-198d-40a8-82b0-c0a96bcbe1f6" version="2" />
 					<attribute id="Flag" type="int32" value="0" />
 					<attribute id="Icon" type="FixedString" value="Item_ARM_Boots_Leather" />
 					<attribute id="LevelName" type="FixedString" value="" />
