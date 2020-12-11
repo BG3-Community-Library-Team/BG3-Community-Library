@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_SlashingImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_SlashingImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_SlashingImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="f77568c6-1fa2-40d3-8e95-78c86790d4cd"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_PiercingImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_PiercingImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_PiercingImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="238cbbf5-bffb-42a1-8f4d-75ea522936a6"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_BludgeoningImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_BludgeoningImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_BludgeoningImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="530aa634-7314-4cb5-903e-7acdce58512d"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_PoisonImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_PoisonImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_PoisonImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="b3b8dbab-4bc6-4212-9b59-f8faf92f0dc3"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_AcidImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_AcidImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_AcidImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="5cea1ad0-13b4-4ffd-be4c-86b198827062"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_FireImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_FireImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_FireImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="2a114c57-63b2-46f6-83b1-4f2084b015f9"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_ColdImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_ColdImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_ColdImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="a6aa806c-965e-45ca-9928-e58e024a97da"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_RadiantImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_RadiantImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_RadiantImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="534f7e33-df29-413c-85eb-8355c90be653"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_NecroticImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_NecroticImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_NecroticImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="54135bdb-19f8-449c-8900-60d2ab2d5dd8"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_LightningImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_LightningImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_LightningImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="c99c2885-65b7-484a-aa02-688fe066a399"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_ThunderImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_ThunderImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_ThunderImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="7a759034-2efa-4c79-8f42-0d017d3daa1d"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_ForceImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_ForceImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_ForceImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="953dfbd4-2690-4ad5-860c-19a3ca88c78e"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_PsychicImmunity_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_PsychicImmunity_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_PsychicImmunity"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="030e25b1-4cf7-45bb-97ed-cdfac22be6d6"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
