@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_SlashingResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_SlashingResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_SlashingResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="7d963ed2-5ebf-44e8-b6fd-77f09e40756e"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_PiercingResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_PiercingResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_PiercingResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="83b89cb8-c8a2-49b0-a1b4-64cae186ad6f"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_BludgeoningResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_BludgeoningResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_BludgeoningResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="f52eb1e9-5953-4afa-85ee-6253ee1eff4f"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_PoisonResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_PoisonResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_PoisonResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="e97796f5-42be-4631-895f-9a29596b498a"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_AcidResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_AcidResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_AcidResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="704cad45-cd82-4eab-8a94-0d2d4c9af28c"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_FireResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_FireResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_FireResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="26ac9683-b8de-49e5-b1b6-a97f941d883e"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_ColdResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_ColdResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_ColdResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="d9aa4588-e926-443c-99b6-c31a9af4e239"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_RadiantResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_RadiantResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_RadiantResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="b115f572-f61f-4aa0-a99e-5fbb89940c84"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_NecroticResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_NecroticResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_NecroticResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="7947e6f1-ee52-4b5d-98fc-d801691a9075"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_LightningResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_LightningResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_LightningResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="4b05a2c4-168b-42c5-9acf-0bf5f59a5c25"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_ThunderResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_ThunderResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_ThunderResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="984b3e3f-e094-4f3c-917f-e7f6ef9fefe2"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_ForceResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_ForceResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_ForceResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="ff9e0df2-14bb-4860-92b2-581a3626a785"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="DisplayName" type="FixedString" value="CL_PsychicResistanceNonMagical_Name"/>
+                    <attribute id="Description" type="FixedString" value="CL_PsychicResistanceNonMagical_Desc"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_PsychicResistanceNonMagical"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Resistance"/>
+                    <attribute id="UUID" type="guid" value="7963b3de-18f3-4c2a-b872-bb6dfdbc64d6"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
