@@ -53,3 +53,22 @@
 - Sorcerer Hood: CL_ARM_Sorcerer_Hood (Female Dwarf, Male Gnomes & Halflings do not have this asset yet)
 - Sorcerer Gloves: CL_ARM_Sorcerer_Gloves (Female Dwarf, Male Gomes & Halflings do not have this asset yet)
 - Sorcerer Gloves: CL_ARM_Sorcerer_Boots (Female Dwarf, Male Gomes & Halflings do not have this asset yet)
+
+# 1.3
+## Passives:
+ - Resistances: (Append Magical or Non-Magical for Magic/Nonmagic only Resistance)
+   - CL_Passive_SlashingResistance
+   - CL_Passive_PiercingResistance
+   - CL_Passive_BludgeoningResistance
+   - CL_Passive_PoisonResistance
+   - CL_Passive_AcidResistance
+   - CL_Passive_FireResistance
+   - CL_Passive_ColdResistance
+   - CL_Passive_RadiantResistance
+   - CL_Passive_NecroticResistance
+   - CL_Passive_LightningResistance
+   - CL_Passive_ThunderResistance
+   - CL_Passive_ForceResistance
+   - CL_Passive_PsychicResistance
+ - Vulnerabilities: Above, replacing "Resistance" with "Vulnerability"
+ - Immunities: Above, replacing "Resistance" with "Immunity"
