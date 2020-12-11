@@ -1,0 +1,236 @@
+<contentList date="26/10/2020 01:10">
+    <content contentuid="2e57b4ad-19a6-4edb-9a7b-69dc02d41040" version="1">Slashing Resistance</content>
+    <content contentuid="9adba0f3-6660-4b3b-b8f9-1b3bca98d95a" version="1">You have Resistance to Slashing Damage, and take half as much damage from Slashing attacks.</content>
+    <content contentuid="9898b04b-49b5-4b10-9a13-de549452a69e" version="1">Piercing Resistance</content>
+    <content contentuid="f4382f6a-be67-4fe8-b211-b83cf43cfc51" version="1">You have Resistance to Piercing Damage, and take half as much damage from Piercing attacks.</content>
+    <content contentuid="b8b02060-e41a-4e3e-9657-abda565afe86" version="1">Bludgeoning Resistance</content>
+    <content contentuid="fb9945f6-1f39-4b36-97f5-07bd580bd929" version="1">You have Resistance to Bludgeoning Damage, and take half as much damage from Bludgeoning attacks.</content>
+    <content contentuid="9d05ac08-2ad6-404e-acc0-c4d37748054e" version="1">Poison Resistance</content>
+    <content contentuid="ee6b8fb7-ab75-466e-830a-735e1edd45ae" version="1">You have Resistance to Poison Damage, and take half as much damage from Poison attacks.</content>
+    <content contentuid="9410f2e9-e1fb-4e48-a916-998864f84f1a" version="1">Acid Resistance</content>
+    <content contentuid="19f39557-1dc7-40d0-8e98-b769bfb8d7f8" version="1">You have Resistance to Acid Damage, and take half as much damage from Acid attacks.</content>
+    <content contentuid="4aa663e6-b5a4-4d6e-a828-46e2a3f231e7" version="1">Fire Resistance</content>
+    <content contentuid="769566e6-f778-4db9-940b-7677e610e4ba" version="1">You have Resistance to Fire Damage, and take half as much damage from Fire attacks.</content>
+    <content contentuid="aed776ec-a0fe-417d-9fc1-156c8ab9c2f4" version="1">Cold Resistance</content>
+    <content contentuid="673878b2-af52-4788-9ac5-cb9799ee26eb" version="1">You have Resistance to Cold Damage, and take half as much damage from Cold attacks.</content>
+    <content contentuid="90b93450-60f3-428f-8f20-77a861e3c0e9" version="1">Radiant Resistance</content>
+    <content contentuid="5fc5c829-529c-478a-9e7b-806c710a29dc" version="1">You have Resistance to Radiant Damage, and take half as much damage from Radiant attacks.</content>
+    <content contentuid="6cec0349-408f-427d-8b5b-0f0578d66bca" version="1">Necrotic Resistance</content>
+    <content contentuid="183d58b6-443f-4786-af6b-21491305bc93" version="1">You have Resistance to Necrotic Damage, and take half as much damage from Necrotic attacks.</content>
+    <content contentuid="09e25b1f-9834-43c7-af6b-a46a32a3244a" version="1">Lightning Resistance</content>
+    <content contentuid="8eb73c15-a523-4f18-82bc-55b5ac43bf4b" version="1">You have Resistance to Lightning Damage, and take half as much damage from Lightningattacks.</content>
+    <content contentuid="f3217b57-3ae7-4dd4-9819-0bc28dec7629" version="1">Thunder Resistance</content>
+    <content contentuid="61d0b9eb-c388-42ad-82fc-e5e0f22024ae" version="1">You have Resistance to Thunder Damage, and take half as much damage from Thunder attacks.</content>
+    <content contentuid="5c8170c8-1fdc-4408-b245-35bbf63b5be1" version="1">Force Resistance</content>
+    <content contentuid="626f88c8-d15f-42cd-980e-83fc833b75db" version="1">You have Resistance to Force Damage, and take half as much damage from Force attacks.</content>
+    <content contentuid="0518b3de-95c3-4181-b12c-c2965dadbc51" version="1">Psychic Resistance</content>
+    <content contentuid="07bd2d16-c87e-42a5-b4e6-fb5675a39256" version="1">You have Resistance to Psychic Damage, and take half as much damage from Psychic attacks.</content>
+    <content contentuid="81c3c91a-194b-4a2d-a3c4-cc4e392ba773" version="1">Slashing Vulnerability</content>
+    <content contentuid="3aea7ff7-c819-4bec-9bda-63caaa566e07" version="1">You are Vulnerable to Slashing Damage, and take twice as much damage from Slashing attacks.</content>
+    <content contentuid="77d81480-7c8f-40bb-8d68-2b2c0e0368f9" version="1">Piercing Vulnerability</content>
+    <content contentuid="f9629f70-a226-4e3b-8701-c7997286e916" version="1">You are Vulnerable to Piercing Damage, and take twice as much damage from Piercing attacks.</content>
+    <content contentuid="3d7fde32-600d-4612-813d-45009c942f7a" version="1">Bludgeoning Vulnerability</content>
+    <content contentuid="05605509-ed05-44b0-8e87-e4a21f377a62" version="1">You are Vulnerable to Bludgeoning Damage, and take twice as much damage from Bludgeoning attacks.</content>
+    <content contentuid="ef96b14b-bfdf-4419-ae65-5ce2c4ed487c" version="1">Poison Vulnerability</content>
+    <content contentuid="bd7cfbd5-6e85-4576-8da6-52e060f5d8cf" version="1">You are Vulnerable to Poison Damage, and take twice as much damage from Poison attacks.</content>
+    <content contentuid="164a157d-209f-4794-a932-42ec9a91fd3a" version="1">Acid Vulnerability</content>
+    <content contentuid="ef8f6fa1-a325-4a49-ab68-fea1387ddc01" version="1">You are Vulnerable to Acid Damage, and take twice as much damage from Acid attacks.</content>
+    <content contentuid="52ea669a-435f-41e2-b611-d5238d60b8d1" version="1">Fire Vulnerability</content>
+    <content contentuid="a5571c16-971d-4c20-b77a-b4aef336632b" version="1">You are Vulnerable to Fire Damage, and take twice as much damage from Fire attacks.</content>
+    <content contentuid="50c48ff2-1389-4ed5-a1cc-52724b7a1c5d" version="1">Cold Vulnerability</content>
+    <content contentuid="00cd023a-f3fd-49b6-9d4a-8fb8f5ac2104" version="1">You are Vulnerable to Cold Damage, and take twice as much damage from Cold attacks.</content>
+    <content contentuid="b2c30f18-55a6-4a9a-a93d-4a4be9040206" version="1">Radiant Vulnerability</content>
+    <content contentuid="e3df77cf-86f1-4c45-b7d6-53d982574244" version="1">You are Vulnerable to Radiant Damage, and take twice as much damage from Radiant attacks.</content>
+    <content contentuid="a497f8cd-4f90-45ff-9c87-8858aba93f59" version="1">Necrotic Vulnerability</content>
+    <content contentuid="a642910e-eb35-424c-a0d2-b96131cbd1f9" version="1">You are Vulnerable to Necrotic Damage, and take twice as much damage from Necrotic attacks.</content>
+    <content contentuid="4f5f0de0-8c0b-4e20-bcd7-af321179e671" version="1">Lightning Vulnerability</content>
+    <content contentuid="8403f4ab-b8f9-4ac2-bc62-6865977c7135" version="1">You are Vulnerable to Lightning Damage, and take twice as much damage from Lightningattacks.</content>
+    <content contentuid="86ce39a1-0e9d-4e4b-a8a6-2631f419a3c3" version="1">Thunder Vulnerability</content>
+    <content contentuid="f06646db-d7e2-440c-8b77-e2fecdb78bff" version="1">You are Vulnerable to Thunder Damage, and take twice as much damage from Thunder attacks.</content>
+    <content contentuid="c58abf7e-6df4-44c1-94ca-dc7acdaaa2cc" version="1">Force Vulnerability</content>
+    <content contentuid="0769b606-a9a0-4ddb-ba68-9c26c5e3ff6a" version="1">You are Vulnerable to Force Damage, and take twice as much damage from Force attacks.</content>
+    <content contentuid="c319840f-403a-4d0b-9ded-00b65df8dbbe" version="1">Psychic Vulnerability</content>
+    <content contentuid="5ad5c6b5-70f2-4652-b0dc-00ac92d05131" version="1">You are Vulnerable to Psychic Damage, and take twice as much damage from Psychic attacks.</content>
+    <content contentuid="5041e983-61ff-491a-88fd-787049999cd4" version="1">Slashing Vulnerability (Magic)</content>
+    <content contentuid="58e6ff12-8ea3-4d0c-9a51-bc0460430c9f" version="1">You are Vulnerable to Slashing Damage, and take twice as much damage from Magical Slashing attacks.</content>
+    <content contentuid="c51b4fff-245b-4fe5-9b38-1bc22082dd4c" version="1">Piercing Vulnerability (Magic)</content>
+    <content contentuid="e98b58a1-3e4f-48f2-8498-ee0e3062ea14" version="1">You are Vulnerable to Piercing Damage, and take twice as much damage from Magical Piercing attacks.</content>
+    <content contentuid="d4c30a2e-ad72-481c-bc6e-d5657fd3d66a" version="1">Bludgeoning Vulnerability (Magic)</content>
+    <content contentuid="0e84d408-00cb-4bb8-af8f-30454db973cc" version="1">You are Vulnerable to Bludgeoning Damage, and take twice as much damage from Magical Bludgeoning attacks.</content>
+    <content contentuid="0545ff39-2501-49c9-92cc-52018b28a811" version="1">Poison Vulnerability (Magic)</content>
+    <content contentuid="7c0c11d8-c846-4363-8389-9d4c440ea63b" version="1">You are Vulnerable to Poison Damage, and take twice as much damage from Magical Poison attacks.</content>
+    <content contentuid="2c00a44a-6c36-4934-8c38-f33918e3193d" version="1">Acid Vulnerability (Magic)</content>
+    <content contentuid="2a05b9a2-515d-4948-966f-313bad669561" version="1">You are Vulnerable to Acid Damage, and take twice as much damage from Magical Acid attacks.</content>
+    <content contentuid="8bac8ae4-3d14-4bed-b2f2-41b0fdc91c87" version="1">Fire Vulnerability (Magic)</content>
+    <content contentuid="9da5892b-66dd-4763-bc86-44acb4da9a4d" version="1">You are Vulnerable to Fire Damage, and take twice as much damage from Magical Fire attacks.</content>
+    <content contentuid="2cf81c0c-28dd-4ed5-9ce2-8d3a05562919" version="1">Cold Vulnerability (Magic)</content>
+    <content contentuid="664f485c-5735-4d4f-bc46-e5510271f602" version="1">You are Vulnerable to Cold Damage, and take twice as much damage from Magical Cold attacks.</content>
+    <content contentuid="7b459026-dbc1-49e1-bfa9-9b35c1d0520f" version="1">Radiant Vulnerability (Magic)</content>
+    <content contentuid="98baf5ae-0333-4b4d-a45d-0ba1d81574c6" version="1">You are Vulnerable to Radiant Damage, and take twice as much damage from Magical Radiant attacks.</content>
+    <content contentuid="668386be-e4e6-435d-a669-f137a7af429a" version="1">Necrotic Vulnerability (Magic)</content>
+    <content contentuid="15aa459a-eca5-4618-9e80-0022bd6d6571" version="1">You are Vulnerable to Necrotic Damage, and take twice as much damage from Magical Necrotic attacks.</content>
+    <content contentuid="0242b238-9665-4578-8fff-cfc9f30a0fe9" version="1">Lightning Vulnerability (Magic)</content>
+    <content contentuid="47354f49-44cd-4657-8236-99675291f97b" version="1">You are Vulnerable to Lightning Damage, and take twice as much damage from Magical Lightningattacks.</content>
+    <content contentuid="a30f7879-536e-47c8-add6-a32d85f98c62" version="1">Thunder Vulnerability (Magic)</content>
+    <content contentuid="fbd37369-c63d-4c83-b959-2c96e3a355d1" version="1">You are Vulnerable to Thunder Damage, and take twice as much damage from Magical Thunder attacks.</content>
+    <content contentuid="c8b52d13-974e-45c0-91c6-a2404a2e9d3f" version="1">Force Vulnerability (Magic)</content>
+    <content contentuid="71de62a0-1aea-4dcb-ac56-1a307370687a" version="1">You are Vulnerable to Force Damage, and take twice as much damage from Magical Force attacks.</content>
+    <content contentuid="adbaa560-1b1f-424e-aebc-697c8a0dfc43" version="1">Psychic Vulnerability (Magic)</content>
+    <content contentuid="f8724e27-bbe7-4557-8ac4-d0c29b9992c4" version="1">You are Vulnerable to Psychic Damage, and take twice as much damage from Magical Psychic attacks.</content>
+    <content contentuid="e0dfe108-9f63-4f5a-99a7-8dca41d2f6e7" version="1">Slashing Resistance (Magic)</content>
+    <content contentuid="e8918c5c-fc46-456b-9328-aec8ce7e0aa3" version="1">You have Resistance to Slashing Damage, and take half as much damage from Magical Slashing attacks.</content>
+    <content contentuid="536d3c0f-aef1-4b11-91e1-569702aca788" version="1">Piercing Resistance (Magic)</content>
+    <content contentuid="c6f60368-816a-41af-9127-5dacca33f27e" version="1">You have Resistance to Piercing Damage, and take half as much damage from Magical Piercing attacks.</content>
+    <content contentuid="9048d275-240f-405a-9e2d-20366c1a3fc4" version="1">Bludgeoning Resistance (Magic)</content>
+    <content contentuid="38e78ae9-78f9-4db1-8c5d-1fb93f0f2552" version="1">You have Resistance to Bludgeoning Damage, and take half as much damage from Magical Bludgeoning attacks.</content>
+    <content contentuid="3ffe16a5-803a-4205-b384-48e146eb0430" version="1">Poison Resistance (Magic)</content>
+    <content contentuid="25cc2275-9019-4b90-be8f-e9d85852b78b" version="1">You have Resistance to Poison Damage, and take half as much damage from Magical Poison attacks.</content>
+    <content contentuid="aba37917-0de1-4ca8-9448-4d88f89b6c9f" version="1">Acid Resistance (Magic)</content>
+    <content contentuid="43c7202c-c82c-41be-8dda-44794a7a7034" version="1">You have Resistance to Acid Damage, and take half as much damage from Magical Acid attacks.</content>
+    <content contentuid="7e3372b5-833a-4e9d-b106-4c798bb58de9" version="1">Fire Resistance (Magic)</content>
+    <content contentuid="b8dc0acf-3c6d-4912-b984-8abcddb5d444" version="1">You have Resistance to Fire Damage, and take half as much damage from Magical Fire attacks.</content>
+    <content contentuid="f40135b7-82c6-4115-a9d2-62783fbafc0b" version="1">Cold Resistance (Magic)</content>
+    <content contentuid="473a83ae-ceac-4f37-89ac-fa2bbbbbac69" version="1">You have Resistance to Cold Damage, and take half as much damage from Magical Cold attacks.</content>
+    <content contentuid="3d1c3278-5f6e-4c67-bc38-3abcf336cd48" version="1">Radiant Resistance (Magic)</content>
+    <content contentuid="80387cc4-985c-48aa-924a-b808ae17ed75" version="1">You have Resistance to Radiant Damage, and take half as much damage from Magical Radiant attacks.</content>
+    <content contentuid="aa408fe2-25c1-454d-a190-bdb53dc12e64" version="1">Necrotic Resistance (Magic)</content>
+    <content contentuid="609917a8-0173-4be6-907d-bdf1a55e68d8" version="1">You have Resistance to Necrotic Damage, and take half as much damage from Magical Necrotic attacks.</content>
+    <content contentuid="8b9a6a8e-9ce8-4537-8657-8b8eedbf7dd5" version="1">Lightning Resistance (Magic)</content>
+    <content contentuid="45ee7098-fb7e-4650-a8b0-4758ec3b8708" version="1">You have Resistance to Lightning Damage, and take half as much damage from Magical Lightning attacks.</content>
+    <content contentuid="a61e71f9-fe40-4d1b-a127-39d869e649e2" version="1">Thunder Resistance (Magic)</content>
+    <content contentuid="49b7dc75-cd07-449c-a68c-3ff3261f4157" version="1">You have Resistance to Thunder Damage, and take half as much damage from Magical Thunder attacks.</content>
+    <content contentuid="1a200e07-8083-452f-ac5e-e813dc958495" version="1">Force Resistance (Magic)</content>
+    <content contentuid="cbf79086-6eb6-44bb-9692-8adbfde94045" version="1">You have Resistance to Force Damage, and take half as much damage from Magical Force attacks.</content>
+    <content contentuid="bbaddaf2-77e0-491b-a1a2-071ac0c3410e" version="1">Psychic Resistance (Magic)</content>
+    <content contentuid="cc71b2be-2642-436f-bce8-56af93fdbcc0" version="1">You have Resistance to Psychic Damage, and take half as much damage from Magical Psychic attacks.</content>
+    <content contentuid="35d0ce47-7232-49da-91c9-2e06ca0bcb18" version="1">Slashing Immunity</content>
+    <content contentuid="9b854b89-3ca9-4ce5-9965-638afa40fcdd" version="1">You are Immune to Slashing Damage.</content>
+    <content contentuid="04f98e7b-a6db-4ef4-b606-da76b7f5ef6d" version="1">Piercing Immunity</content>
+    <content contentuid="93d50901-b500-4b7e-aac9-19cf12c7add6" version="1">You are Immune to Piercing Damage.</content>
+    <content contentuid="5f366d58-5171-4c9d-bb7e-18a2c5df5201" version="1">Bludgeoning Immunity</content>
+    <content contentuid="34311608-ebb1-41df-b0b6-a3d51fa1bbb7" version="1">You are Immune to Bludgeoning Damage.</content>
+    <content contentuid="f75ba2d3-ca65-446d-a501-12422e1950b7" version="1">Poison Immunity</content>
+    <content contentuid="40d3fed8-b5ce-4c62-9e89-c6b3135d824a" version="1">You are Immune to Poison Damage.</content>
+    <content contentuid="31d705da-8d6b-4569-a6eb-478804d15f06" version="1">Acid Immunity</content>
+    <content contentuid="7b5d9933-1ccb-45ce-bf31-c8bead2deafc" version="1">You are Immune to Acid Damage.</content>
+    <content contentuid="f33b3b33-eb77-4d8b-b3b5-24b363bc8bf6" version="1">Fire Immunity</content>
+    <content contentuid="3e658432-6ec0-4fbc-8c07-969d7077a365" version="1">You are Immune to Fire Damage.</content>
+    <content contentuid="4dcbc0dd-e53c-4800-8482-8cd85d8927ec" version="1">Cold Immunity</content>
+    <content contentuid="e3404dd7-af79-4bc5-85dd-1f3166acd343" version="1">You are Immune to Cold Damage.</content>
+    <content contentuid="28ba2469-15f6-4c65-9a61-b7decf81f7e3" version="1">Radiant Immunity</content>
+    <content contentuid="ec582451-fd77-401c-8fe3-ad533ad77923" version="1">You are Immune to Radiant Damage.</content>
+    <content contentuid="2c4d2f33-81fa-487e-b8aa-160410b46f71" version="1">Necrotic Immunity</content>
+    <content contentuid="904c20c3-c782-49ac-a287-a4166a6926f2" version="1">You are Immune to Necrotic Damage.</content>
+    <content contentuid="dd520838-03ab-496a-8f64-881f78b02a61" version="1">Lightning Immunity</content>
+    <content contentuid="9e50c4b5-167f-479f-a523-d202e4f1a922" version="1">You are Immune to Lightning Damage.</content>
+    <content contentuid="62a592f7-3cb5-4fe4-94b6-88f8f0c2c3d2" version="1">Thunder Immunity</content>
+    <content contentuid="172e8c30-fdb9-4626-b25a-a904b334f313" version="1">You are Immune to Thunder Damage.</content>
+    <content contentuid="aadbaf17-3450-4d28-9c7d-a546ccc4d693" version="1">Force Immunity</content>
+    <content contentuid="5f9c1a48-2135-4745-a41f-bce1649848f0" version="1">You are Immune to Force Damage.</content>
+    <content contentuid="3546bb7c-336e-4671-9001-72d91be544d0" version="1">Psychic Immunity</content>
+    <content contentuid="c853f2e4-b46b-443d-b5f1-388525f4e684" version="1">You are Immune to Psychic Damage.</content>
+    <content contentuid="398aedbf-eef3-4874-9cbf-dfebe7fef8f4" version="1">Slashing Immunity (Non-Magical)</content>
+    <content contentuid="4ea5dbb0-fef5-4313-a7f9-3cadff418597" version="1">You are Immune to Slashing Damage from Non-Magical Sources.</content>
+    <content contentuid="ec68523e-faed-4e9f-aadc-c9004291b2fd" version="1">Piercing Immunity (Non-Magical)</content>
+    <content contentuid="44c54c30-6eb1-411a-bab0-2df3036e61b8" version="1">You are Immune to Piercing Damage from Non-Magical Sources.</content>
+    <content contentuid="4259c16b-3449-415c-94bd-b2667b5f386e" version="1">Bludgeoning Immunity (Non-Magical)</content>
+    <content contentuid="785d75c8-f53a-4494-964c-db2bd447e4bf" version="1">You are Immune to Bludgeoning Damage from Non-Magical Sources.</content>
+    <content contentuid="16c9814d-06d4-4c81-8e43-1767df04f0dc" version="1">Poison Immunity (Non-Magical)</content>
+    <content contentuid="d8a645f2-eab1-4d5a-8f8a-28d27dd42b1e" version="1">You are Immune to Poison Damage from Non-Magical Sources.</content>
+    <content contentuid="38a74584-6807-4ac8-bead-b7ff1e035621" version="1">Acid Immunity (Non-Magical)</content>
+    <content contentuid="8168074f-3a57-434e-b7ec-65477d39dab4" version="1">You are Immune to Acid Damage from Non-Magical Sources.</content>
+    <content contentuid="9c592d47-26db-4e47-90ca-f9bb25e28c6c" version="1">Fire Immunity (Non-Magical)</content>
+    <content contentuid="14e8e837-0ba3-40d3-acf1-a9dc16edeb00" version="1">You are Immune to Fire Damage from Non-Magical Sources.</content>
+    <content contentuid="e872b976-1b14-4542-8e9e-d4ed78634744" version="1">Cold Immunity (Non-Magical)</content>
+    <content contentuid="0b7ba82d-b124-424d-b33d-86b2308086ae" version="1">You are Immune to Cold Damage from Non-Magical Sources.</content>
+    <content contentuid="944c18b8-a5d5-418d-953a-b2f14107be69" version="1">Radiant Immunity (Non-Magical)</content>
+    <content contentuid="8831d48a-3708-4287-9d0c-64d7f9b6ff1f" version="1">You are Immune to Radiant Damage from Non-Magical Sources.</content>
+    <content contentuid="4761eb7d-c09c-4cc4-9082-518d449a7384" version="1">Necrotic Immunity (Non-Magical)</content>
+    <content contentuid="13d032e0-c385-4296-97bf-449ed9d059b9" version="1">You are Immune to Necrotic Damage from Non-Magical Sources.</content>
+    <content contentuid="cfdef981-f25e-4ed1-a176-7e8ab0c7e46b" version="1">Lightning Immunity (Non-Magical)</content>
+    <content contentuid="7a42827b-b2d7-4d7b-9e64-6699b5dbaa47" version="1">You are Immune to Lightning Damage from Non-Magical Sources.</content>
+    <content contentuid="5f7adc77-3484-437a-b4f5-a385a260f6d5" version="1">Thunder Immunity (Non-Magical)</content>
+    <content contentuid="746e888b-3578-4c71-bf35-8788c997cf44" version="1">You are Immune to Thunder Damage from Non-Magical Sources.</content>
+    <content contentuid="22a2fbb8-abd8-4866-b734-478029241276" version="1">Force Immunity (Non-Magical)</content>
+    <content contentuid="b15cbd2d-b058-4e6a-9b34-849bf6e7f1f0" version="1">You are Immune to Force Damage from Non-Magical Sources.</content>
+    <content contentuid="a31d9f56-95e7-4ba6-9690-6fc4478e5b7d" version="1">Psychic Immunity (Non-Magical)</content>
+    <content contentuid="18cfec19-a389-4493-9a9e-b435fd6765bc" version="1">You are Immune to Psychic Damage from Non-Magical Sources.</content>
+    <content contentuid="54c33c5d-ff26-44d1-87bf-0a8fc9d45eda" version="1">Slashing Immunity (Magic)</content>
+    <content contentuid="f4f9717f-e15a-4915-8f62-f7d9bf1a6247" version="1">You are Immune to Slashing Damage from Magical Sources.</content>
+    <content contentuid="a31d9d04-f1ce-4635-b735-172eebf362f4" version="1">Piercing Immunity (Magic)</content>
+    <content contentuid="3c58705a-1f87-4741-9e8a-afa7c59fad84" version="1">You are Immune to Piercing Damage from Magical Sources.</content>
+    <content contentuid="886a589c-c464-40b2-8a34-4bf3e4295fb4" version="1">Bludgeoning Immunity (Magic)</content>
+    <content contentuid="6f78a9f4-bc7e-4e81-a2a7-99af4586c10a" version="1">You are Immune to Bludgeoning Damage from Magical Sources.</content>
+    <content contentuid="c962f6a6-1809-41ba-9900-e3461396b693" version="1">Poison Immunity (Magic)</content>
+    <content contentuid="18fd674e-8439-4467-af5b-a9d2d3c0ae41" version="1">You are Immune to Poison Damage from Magical Sources.</content>
+    <content contentuid="37193336-99fc-4180-bb14-ce7e1f5fce44" version="1">Acid Immunity (Magic)</content>
+    <content contentuid="8d65e560-acd7-48d7-a3c6-06ee222f3741" version="1">You are Immune to Acid Damage from Magical Sources.</content>
+    <content contentuid="46977e4e-4ae4-4123-b8a0-33bba18f4f4c" version="1">Fire Immunity (Magic)</content>
+    <content contentuid="0b41870d-190b-436b-ad01-9d38c23af882" version="1">You are Immune to Fire Damage from Magical Sources.</content>
+    <content contentuid="9e87ef8b-7cde-4908-abd6-ad7947bbbeda" version="1">Cold Immunity (Magic)</content>
+    <content contentuid="c5ef6583-5b05-4b58-95cd-64fd27ff7cae" version="1">You are Immune to Cold Damage from Magical Sources.</content>
+    <content contentuid="8303c2f1-33e8-4bf4-838a-5e66b1ac0283" version="1">Radiant Immunity (Magic)</content>
+    <content contentuid="feb8c72d-6f86-49ef-9558-29c3771b6305" version="1">You are Immune to Radiant Damage from Magical Sources.</content>
+    <content contentuid="ab0cceb8-1dc4-4fc1-95d6-874cca45c198" version="1">Necrotic Immunity (Magic)</content>
+    <content contentuid="2ebcb43f-87c4-476e-a428-99da026d6df7" version="1">You are Immune to Necrotic Damage from Magical Sources.</content>
+    <content contentuid="8dd05a90-2223-4819-a972-66c7bc75d464" version="1">Lightning Immunity (Magic)</content>
+    <content contentuid="5eacaa08-c6ab-4de5-a979-8a8c8ec3a979" version="1">You are Immune to Lightning Damage from Magical Sources.</content>
+    <content contentuid="5493705d-3a27-4ee7-a3ed-3fe145699d80" version="1">Thunder Immunity (Magic)</content>
+    <content contentuid="9676a546-350d-4b34-8f2d-5c3aba505d7f" version="1">You are Immune to Thunder Damage from Magical Sources.</content>
+    <content contentuid="eb2d4fd4-7566-4f38-8b46-72c758ed94e8" version="1">Force Immunity (Magic)</content>
+    <content contentuid="caf89f13-be5b-4687-a08f-03befcb566f6" version="1">You are Immune to Force Damage from Magical Sources.</content>
+    <content contentuid="7d085d88-c3bb-4c50-8f65-51d548b62dc8" version="1">Psychic Immunity (Magic)</content>
+    <content contentuid="06dbb8c2-c4e3-45e9-a395-d0c7784fcc81" version="1">You are Immune to Psychic Damage from Magical Sources.</content>
+    <content contentuid="5845ed5c-4090-4b9b-8f2b-001eec97a5ed" version="1">Slashing Vulnerability (Non-Magical)</content>
+    <content contentuid="be548884-ed8b-4b7b-86bc-602fce766591" version="1">You are Vulnerable to Slashing Damage, and take twice as much damage from Non-Magical Slashing attacks.</content>
+    <content contentuid="e34465ab-e336-46d3-a176-88d38d35c8a1" version="1">Piercing Vulnerability (Non-Magical)</content>
+    <content contentuid="a0af3002-24f7-451d-a5ed-95b86a07837e" version="1">You are Vulnerable to Piercing Damage, and take twice as much damage from Non-Magical Piercing attacks.</content>
+    <content contentuid="ae573336-d27a-46c3-804f-27af76934e0d" version="1">Bludgeoning Vulnerability (Non-Magical)</content>
+    <content contentuid="9db025a8-9cdb-46cc-8bca-9ad5b946ebe0" version="1">You are Vulnerable to Bludgeoning Damage, and take twice as much damage from Non-Magical Bludgeoning attacks.</content>
+    <content contentuid="8ee73ea7-0ed4-4c14-b75c-b4db92a990c6" version="1">Poison Vulnerability (Non-Magical)</content>
+    <content contentuid="c4d6437b-e21d-4685-a829-8d8fd684c1b9" version="1">You are Vulnerable to Poison Damage, and take twice as much damage from Non-Magical Poison attacks.</content>
+    <content contentuid="f155d5e7-9db0-485e-afe4-f7e62d5d5a37" version="1">Acid Vulnerability (Non-Magical)</content>
+    <content contentuid="00a3762a-db32-4659-9362-0e66ee7dc69e" version="1">You are Vulnerable to Acid Damage, and take twice as much damage from Non-Magical Acid attacks.</content>
+    <content contentuid="6a5b4453-f442-4f06-b4f8-45aa1e8ae808" version="1">Fire Vulnerability (Non-Magical)</content>
+    <content contentuid="ce1502de-6fe7-4c63-aaa8-9313436c6bb1" version="1">You are Vulnerable to Fire Damage, and take twice as much damage from Non-Magical Fire attacks.</content>
+    <content contentuid="52d1813e-9bd6-4c61-b508-59811d6a62d1" version="1">Cold Vulnerability (Non-Magical)</content>
+    <content contentuid="602dddeb-97ef-4112-a353-3d6cf3778617" version="1">You are Vulnerable to Cold Damage, and take twice as much damage from Non-Magical Cold attacks.</content>
+    <content contentuid="8b6a17ed-fb4c-4c64-a426-e806e63a39a3" version="1">Radiant Vulnerability (Non-Magical)</content>
+    <content contentuid="ace675d1-36ec-468e-8b93-8a1ef6de0f82" version="1">You are Vulnerable to Radiant Damage, and take twice as much damage from Non-Magical Radiant attacks.</content>
+    <content contentuid="b307c1bd-459c-41ed-bfd8-54d9520b188f" version="1">Necrotic Vulnerability (Non-Magical)</content>
+    <content contentuid="4067d418-2254-41c1-934a-ae382813726b" version="1">You are Vulnerable to Necrotic Damage, and take twice as much damage from Non-Magical Necrotic attacks.</content>
+    <content contentuid="786f47ee-de37-417a-9fc2-02f4c2655c32" version="1">Lightning Vulnerability (Non-Magical)</content>
+    <content contentuid="7e246d1c-b601-4561-a03e-6ea97d52c032" version="1">You are Vulnerable to Lightning Damage, and take twice as much damage from Non-Magical Lightningattacks.</content>
+    <content contentuid="7ad8a24a-7142-4d2e-9e14-3a25cf3f0c05" version="1">Thunder Vulnerability (Non-Magical)</content>
+    <content contentuid="166a2609-6754-4968-921c-6729b832f8e8" version="1">You are Vulnerable to Thunder Damage, and take twice as much damage from Non-Magical Thunder attacks.</content>
+    <content contentuid="0ef8bcb3-9521-4784-a2eb-a9795e7d96b9" version="1">Force Vulnerability (Non-Magical)</content>
+    <content contentuid="997e4c34-42e1-473f-b014-2d19f28670c6" version="1">You are Vulnerable to Force Damage, and take twice as much damage from Non-Magical Force attacks.</content>
+    <content contentuid="dc4d494e-e320-426d-9e6e-dd9a0a99e115" version="1">Psychic Vulnerability (Non-Magical)</content>
+    <content contentuid="d8aa4589-1bb4-4fc7-b9f5-2d53d9c51508" version="1">You are Vulnerable to Psychic Damage, and take twice as much damage from Non-Magical Psychic attacks.</content>
+    <content contentuid="b72c3212-24a8-4a43-8821-78488ab73826" version="1">Slashing Resistance (Non-Magical)</content>
+    <content contentuid="b34ea8d5-fbdd-4c83-948b-1e66d8213206" version="1">You have Resistance to Slashing Damage, and take half as much damage from Non-Magical Slashing attacks.</content>
+    <content contentuid="55033523-436f-40bb-8e34-3cf885909ac2" version="1">Piercing Resistance (Non-Magical)</content>
+    <content contentuid="1ae3a631-ae4f-4e84-adc6-d1de1e8aae75" version="1">You have Resistance to Piercing Damage, and take half as much damage from Non-Magical Piercing attacks.</content>
+    <content contentuid="0bf7bb5b-f718-428b-ae69-30b4012ba171" version="1">Bludgeoning Resistance (Non-Magical)</content>
+    <content contentuid="5afd1c50-eb1d-4bbd-aa80-178f5097d4ef" version="1">You have Resistance to Bludgeoning Damage, and take half as much damage from Non-Magical Bludgeoning attacks.</content>
+    <content contentuid="70047dab-624e-452e-a67b-abe8d6c26f33" version="1">Poison Resistance (Non-Magical)</content>
+    <content contentuid="cd9ceb65-fc5b-4536-b3a6-541a0b775d28" version="1">You have Resistance to Poison Damage, and take half as much damage from Non-Magical Poison attacks.</content>
+    <content contentuid="c7cf432f-4ee8-42e8-ac09-d35a0b35ca7a" version="1">Acid Resistance (Non-Magical)</content>
+    <content contentuid="422d7181-380e-41d1-ae38-fa0d82931006" version="1">You have Resistance to Acid Damage, and take half as much damage from Non-Magical Acid attacks.</content>
+    <content contentuid="caa45ff7-2856-46a7-bfef-d6494506ec11" version="1">Fire Resistance (Non-Magical)</content>
+    <content contentuid="a5659239-704f-4d6d-a2d2-941b0c09d9bc" version="1">You have Resistance to Fire Damage, and take half as much damage from Non-Magical Fire attacks.</content>
+    <content contentuid="87c2e767-9363-4348-9da2-7f82d707e9cd" version="1">Cold Resistance (Non-Magical)</content>
+    <content contentuid="09874615-1d7b-4e67-b7fe-0638d29e3f4e" version="1">You have Resistance to Cold Damage, and take half as much damage from Non-Magical Cold attacks.</content>
+    <content contentuid="147f0de1-632d-49d8-ae09-36d46185aa69" version="1">Radiant Resistance (Non-Magical)</content>
+    <content contentuid="8e5f040f-86a6-4dcc-85d6-44e324f3c8e5" version="1">You have Resistance to Radiant Damage, and take half as much damage from Non-Magical Radiant attacks.</content>
+    <content contentuid="1758d4aa-a22f-4aea-986e-310388b6a7ac" version="1">Necrotic Resistance (Non-Magical)</content>
+    <content contentuid="46b13d39-ca06-43b7-8ad7-ee2cc0bd0231" version="1">You have Resistance to Necrotic Damage, and take half as much damage from Non-Magical Necrotic attacks.</content>
+    <content contentuid="eb09cc96-476e-449e-8fa7-7838252f65b0" version="1">Lightning Resistance (Non-Magical)</content>
+    <content contentuid="20d7f6d2-43ec-419e-ae35-43f86b777e2a" version="1">You have Resistance to Lightning Damage, and take half as much damage from Non-Magical Lightning attacks.</content>
+    <content contentuid="a5fde2c8-5396-4da6-9c3e-67d79b0cd13b" version="1">Thunder Resistance (Non-Magical)</content>
+    <content contentuid="8a01c979-0cde-4fb9-ba83-4e721bcf9837" version="1">You have Resistance to Thunder Damage, and take half as much damage from Non-Magical Thunder attacks.</content>
+    <content contentuid="5b76ce92-0ac0-4d0a-b39e-d482e0d263d8" version="1">Force Resistance (Non-Magical)</content>
+    <content contentuid="f5f936e5-3432-42fc-934b-1ad532304073" version="1">You have Resistance to Force Damage, and take half as much damage from Non-Magical Force attacks.</content>
+    <content contentuid="a27ed05a-964a-4a0f-9467-33311326e6b0" version="1">Psychic Resistance (Non-Magical)</content>
+    <content contentuid="e54ee71e-828d-43e1-a677-20574343eda9" version="1">You have Resistance to Psychic Damage, and take half as much damage from Non-Magical Psychic attacks.</content>
+</contentList>
