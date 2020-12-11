@@ -1,0 +1,13 @@
+EVENTS
+
+EVENT CL_LockItemViaArcaneLock
+VARS
+    ITEM:_Item
+ON
+    FetchItemApplyStatusData(_Item, CL_STATUS_ARCANE_LOCK)
+ACTIONS
+    IF "!c1"
+       ItemIsLocked(_Item)
+    THEN
+       ItemLock(_Item)
+    ENDIF

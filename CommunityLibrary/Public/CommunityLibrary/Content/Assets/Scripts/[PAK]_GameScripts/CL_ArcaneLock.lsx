@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="51" />
+	<region id="ScriptBank">
+		<node id="ScriptBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="71433cfe-5ae2-4488-a91a-7ec576642627" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_LockItemViaArcaneLock" />
+                    <attribute id="SourceFile" type="LSWString" value="Public/CommunityLibrary/Scripts/Game/CL_ArcaneLock.gameScript" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741866" />
+					<children>
+						<node id="Parameters" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
