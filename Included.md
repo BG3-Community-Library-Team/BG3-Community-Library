@@ -73,4 +73,8 @@
  - Vulnerabilities: Above, replacing "Resistance" with "Vulnerability"
  - Immunities: Above, replacing "Resistance" with "Immunity"
 ## Spells:
-  - Arcane Lock: CL_Target_ArcaneLock
+  - Arcane Lock: CL_Target_ArcaneLock / CL_Target_ArcaneLock_Password
+    - Helper Statuses:
+      - CL_STATUS_ARCANE_LOCK
+      - CL_STATUS_ARCANE_LOCK_CASTER
+      - CL_STATUS_ARCANE_LOCK_PASSWORD
