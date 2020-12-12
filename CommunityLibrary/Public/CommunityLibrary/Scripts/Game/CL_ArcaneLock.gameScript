@@ -1,0 +1,39 @@
+EVENTS
+
+EVENT CL_ArcaneLock_Set
+VARS
+    ITEM:_Item
+ON
+    OnItemStatus(_Item, CL_STATUS_ARCANE_LOCK)
+ACTIONS
+    ItemLock(_Item)
+    DisplayText(_Item, "CL_ArcaneLockDisplayText_Name", 5.0)
+
+EVENT CL_ArcaneLock_Expire
+VARS
+    ITEM:_Item
+ON
+    OnItemStatusRemoved(_Item, CL_STATUS_ARCANE_LOCK)
+ACTIONS
+    ItemUnlock(_Item)
+
+EVENT CL_ArcaneLockPassword_Set
+VARS
+    ITEM:_Item
+ON
+    OnItemStatus(_Item, CL_STATUS_ARCANE_LOCK_PASSWORD)
+ACTIONS
+    ItemUnlock(_Item)
+    DisplayText(_Item, "CL_ArcaneLockPasswordDisplayText_Desc", 5.0)
+
+EVENT CL_ArcaneLockPassword_Expire
+VARS
+    ITEM:_Item
+ON
+    OnItemStatusRemoved(_Item, CL_STATUS_ARCANE_LOCK_PASSWORD)
+ACTIONS
+    IF "c1"
+        ItemHasStatus(_Item, CL_STATUS_ARCANE_LOCK)
+    THEN
+        ItemLock(_Item)
+    ENDIF
