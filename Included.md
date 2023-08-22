@@ -78,3 +78,13 @@
       - CL_STATUS_ARCANE_LOCK
       - CL_STATUS_ARCANE_LOCK_CASTER
       - CL_STATUS_ARCANE_LOCK_PASSWORD
+
+# 2.0
+## Removed
+- Armors
+- Bound Weapons
+- Arcane Lock
+- Frostbite
+- Barkskin
+- Additional Wildshapes
+- Enlarge

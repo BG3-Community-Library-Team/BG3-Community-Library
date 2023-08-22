@@ -1,21 +1,5 @@
-new entry "CL_Passive_Frostbite_Level_5"
-type "PassiveData"
-data "DisplayName" "Frostbite Upgrade"
-data "Conditions" "SpellId('CL_Target_Frostbite') and HasDamageEffectFlag(DamageFlags.Hit)"
-data "StatsFunctors" "DealDamage(1d6,Cold)"
-data "StatsFunctorContext" "OnAttack"
-
-// Duplicating for Level 11 and Level 17, as they should work in concert
-new entry "CL_Passive_Frostbite_Level_11"
-type "PassiveData"
-using "CL_Passive_Frostbite_Level_5"
-
-new entry "CL_Passive_Frostbite_Level_17"
-type "PassiveData"
-using "CL_Passive_Frostbite_Level_5"
-
 new entry "CL_Passive_Petpal"
 type "PassiveData"
-data "DisplayName" "Pet Pal"
-data "Description" "You may converse with animals"
+data "DisplayName" "cbf9d5ed-d5f0-4dc4-8841-927aab5466bf"
+data "Description" "e4cf7429-8984-498d-a08d-48a899b5563e"
 data "Boosts" "ApplyStatus(PETPAL,100,-1)"
