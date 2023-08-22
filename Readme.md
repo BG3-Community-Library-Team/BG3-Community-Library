@@ -10,7 +10,8 @@ Note that some of this information may be out of date - we're working on cleanin
 ## For Mod Authors:
 In addition to the stated purpose of this mod, feel free to use the contents of
 this mod as examples of how to create certain content for Baldur's Gate 3 if you
-wish.
+wish. See [here](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Using-Community-Library-Content) to find out how to use the
+library's content in your own mods!
 
 You're welcome to submit pieces of your mod that you think would be useful for
 others to use in their mods as well, be it scripts, spells, statuses, passives,
@@ -51,7 +52,7 @@ addressed.
 More detail on making contributions can be found [here](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Making-Contributions).
 
 #### Not interesting in contributing, but want to make use of the pack, or just curious?
-That's what this pack is here for!
+That's what this pack is here for! See how to use content from this library in your own mods [here!](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Using-Community-Library-Content)
 
 ## Installation
 This mod works with [Baldur's Gate 3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager), and possible Vortex and Manual
