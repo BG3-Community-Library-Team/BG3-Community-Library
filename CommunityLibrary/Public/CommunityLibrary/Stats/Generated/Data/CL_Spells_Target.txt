@@ -1,4 +1,7 @@
 // Useful elemental weakness spells - Might be unbalanced for 2nd level?
+// Note - Needs a Spell Animation still. Probably place in BASE spell, or
+// leave it to modders to implement in their own mod using 
+// `using CL_Target_Weakness`
 new entry "CL_Target_Weakness_BASE"
 type "SpellData"
 data "SpellType" "Target"
