@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="h89240859gc671g49efg828eg5d4e7c403fcd" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="hcbbb0c35g4534g4892ga604gc2ec1fc9696c" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="RQBlessing"/>
+          <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="aa939ea4-fca0-4db2-8828-d9402dc72d45"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

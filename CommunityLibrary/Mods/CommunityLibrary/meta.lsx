@@ -1,273 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="0" revision="0" build="49"/>
-    <region id="Config">
-        <node id="root">
-            <children>
-                <node id="Dependencies"/>
-                <node id="ModuleInfo">
-                    <attribute id="Author" type="LSWString" value="BG3 Community"/>
-                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
-                    <attribute id="Description" type="LSWString" value="Community-Developed collection of Data for use in Baldur's Gate 3 Mods"/>
-                    <attribute id="Folder" type="LSWString" value="CommunityLibrary"/>
-                    <attribute id="GMTemplate" type="FixedString" value=""/>
-                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value=""/>
-                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
-                    <attribute id="MenuLevelName" type="FixedString" value=""/>
-                    <attribute id="Name" type="FixedString" value="CommunityLibrary"/>
-                    <attribute id="NumPlayers" type="uint8" value="4"/>
-                    <attribute id="PhotoBooth" type="FixedString" value=""/>
-                    <attribute id="StartupLevelName" type="FixedString" value=""/>
-                    <attribute id="Tags" type="LSWString" value="API;Core;Library"/>
-                    <attribute id="Type" type="FixedString" value="Add-on"/>
-					<attribute id="UUID" type="FixedString" value="396c5966-09b0-40a1-af3f-93a5e9ce71c0"/>
-					<attribute id="Version" type="int64" value="1"/>
-                    <children>
-                        <node id="PublishVersion">
-                            <attribute id="Version" type="int64" value="268435456"/>
-                        </node>
-                        <node id="Scripts">
-                            <children>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="f0ace8e7-d6ad-461f-ac67-72c86e149dc3"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="e2b6e950-a65f-4650-b951-0d57379e8e9d"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="ba7cc9fa-03d0-4045-8ab9-e2e37ae30787"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="e9c398a9-d8af-4699-b9cb-1645bc325133"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="9a9d05e9-8d1e-4135-8700-c4951b1be8fa"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="ab67ad85-10d9-4b85-9b0e-c1980bb283bb"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="62811923-f21b-4870-a356-91030499f424"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="a0d7312d-c07b-4975-97f1-64e744bf7f70"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="1384b46c-59a0-4544-9875-b36edbec5fe1"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="b3011db6-fd41-4ffb-b688-41a715d09df1"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="18971beb-a4eb-4ea6-9bae-c607be3af621"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="15845a94-6c65-4580-9f21-190f0716417c"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="bc1ddda3-fb7a-472e-91d0-8c2ea5962329"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="c16b4e6d-afdb-4a4b-a17a-61741eb0b184"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="d68879b9-c026-4264-8dc9-891a78abfb85"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                                <node id="Script">
-                                    <attribute id="UUID" type="FixedString" value="71433cfe-5ae2-4488-a91a-7ec576642627"/>
-                                    <children>
-                                        <node id="Parameters">
-                                            <children>
-                                                <node id="Parameter">
-                                                    <attribute id="MapKey" type="FixedString" value="HardcoreOnly"/>
-                                                    <attribute id="Type" type="int32" value="1"/>
-                                                    <attribute id="Value" type="LSString" value="0"/>
-                                                </node>
-                                            </children>
-                                        </node>
-                                    </children>
-                                </node>
-                            </children>
-                        </node>
-                        <node id="TargetModes">
-                            <children>
-                                <node id="Target">
-                                    <attribute id="Object" type="FixedString" value="Story"/>
-                                </node>
-                                <node id="Target">
-                                    <attribute id="Object" type="FixedString" value="GM"/>
-                                </node>
-                            </children>
-                        </node>
-                    </children>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Config">
+    <node id="root">
+      <children>
+        <node id="Dependencies"/>
+        <node id="ModuleInfo">
+          <attribute id="Author" type="LSWString" value="BG3 Community"/>
+          <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+          <attribute id="Description" type="LSWString" value="Community-Developed collection of Data for use in Baldur's Gate 3 Mods"/>
+          <attribute id="Folder" type="LSWString" value="CommunityLibrary"/>
+          <attribute id="GMTemplate" type="FixedString" value=""/>
+          <attribute id="LobbyLevelName" type="FixedString" value=""/>
+          <attribute id="MD5" type="LSString" value=""/>
+          <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
+          <attribute id="MenuLevelName" type="FixedString" value=""/>
+          <attribute id="Name" type="FixedString" value="CommunityLibrary"/>
+          <attribute id="NumPlayers" type="uint8" value="4"/>
+          <attribute id="PhotoBooth" type="FixedString" value=""/>
+          <attribute id="StartupLevelName" type="FixedString" value=""/>
+          <attribute id="Tags" type="LSWString" value="API;Core;Library"/>
+          <attribute id="Type" type="FixedString" value="Add-on"/>
+          <attribute id="UUID" type="FixedString" value="396c5966-09b0-40a1-af3f-93a5e9ce71c0"/>
+          <attribute id="Version" type="int64" value="1"/>
+          <children>
+            <node id="PublishVersion">
+                <attribute id="Version" type="int64" value="268435456"/>
+            </node>
+            <node id="Scripts" />
+            <node id="TargetModes">
+              <children>
+                <node id="Target">
+                  <attribute id="Object" type="FixedString" value="Story"/>
                 </node>
-            </children>
+              </children>
+            </node>
+          </children>
         </node>
-    </region>
+      </children>
+    </node>
+  </region>
 </save>

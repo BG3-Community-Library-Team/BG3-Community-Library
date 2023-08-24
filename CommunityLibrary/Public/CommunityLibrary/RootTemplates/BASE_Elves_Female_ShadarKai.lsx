@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="51" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="27410506-9276-48e7-b4b4-38d861aa1be7" />
+          <attribute id="Name" type="LSString" value="BASE_Elves_Female_ShadarKai" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="Type" type="FixedString" value="character" />
+          <attribute id="ParentTemplateId" type="FixedString" value="4c3d8aa0-2e31-4dce-a792-84fc07fa63d8" />
+          <attribute id="VisualTemplate" type="FixedString" value="" />
+          <attribute id="Icon" type="FixedString" value="24bcc44f-4168-1468-222a-b1bb6370e000-_(Icon_Elf_Female)" />
+          <attribute id="CharacterVisualResourceID" type="FixedString" value="f89e3922-f92e-4279-809e-4a95336a75a9" />
+          <attribute id="Race" type="guid" value="27844147-3e0f-4b2e-8377-8d015b8384df" />
+          <children>
+            <node id="GameMaster" />
+            <node id="LocomotionParams" />
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
