@@ -1,0 +1,80 @@
+<contentList date="26/10/2020 01:10">
+    <content contentuid="h9aeba33cgbef7g43deg9208g12857130396b" version="1">Slashing Immunity</content>
+    <content contentuid="h9af4470fg7ae5g4f8fgb282g6282b7b415af" version="1">You are Immune to Slashing Damage.</content>
+    <content contentuid="h946f0f2agf9f9g4765gb2a6gf506d0b8d900" version="1">Piercing Immunity</content>
+    <content contentuid="h065ca7f8g98deg45d0g8b9dg1b88c0a106f6" version="1">You are Immune to Piercing Damage.</content>
+    <content contentuid="h82848dc0ge313g41b4g941agf01ff1391918" version="1">Bludgeoning Immunity</content>
+    <content contentuid="he705a647g1650g41f4g9da7g2e5d1c637e87" version="1">You are Immune to Bludgeoning Damage.</content>
+    <content contentuid="h24a76c24g5a84g4434gb1e9g8a1c017404bb" version="1">Poison Immunity</content>
+    <content contentuid="h9da2e396g47deg4e61gb40eg29961d16795f" version="1">You are Immune to Poison Damage.</content>
+    <content contentuid="hcdda7b3eg60acg456bg8dd4gc2b6feffc6d1" version="1">Acid Immunity</content>
+    <content contentuid="hc9e75998g3d57g405agba3egf7d420a1afda" version="1">You are Immune to Acid Damage.</content>
+    <content contentuid="ha7562770g7b33g4d21ga855ga3f36d0d4700" version="1">Fire Immunity</content>
+    <content contentuid="h84ae57c9g9c09g43acg8058gd26c30d4dc9a" version="1">You are Immune to Fire Damage.</content>
+    <content contentuid="h39a75f84gb9c6g4058gad96ged3c0496af04" version="1">Cold Immunity</content>
+    <content contentuid="h84b637ccg8f92g4494g8dabg06015e02d62e" version="1">You are Immune to Cold Damage.</content>
+    <content contentuid="haf69c849g97b7g458agb08cgfa4989356abf" version="1">Radiant Immunity</content>
+    <content contentuid="hadfaa9f4gacddg4c93g8125ga6df111c2ed0" version="1">You are Immune to Radiant Damage.</content>
+    <content contentuid="hc3996fbagc192g4882g8df8g15f3dc96f7b0" version="1">Necrotic Immunity</content>
+    <content contentuid="hffe4552bgd403g4c1ag8e5egd353a68de83b" version="1">You are Immune to Necrotic Damage.</content>
+    <content contentuid="h8c0a01afg8c61g49e8g8c44gdcdab9d8aa93" version="1">Lightning Immunity</content>
+    <content contentuid="hcb96ec72g6aeag437agb2ecg068bbffbeba6" version="1">You are Immune to Lightning Damage.</content>
+    <content contentuid="h1b3a0993g776fg45c3ga0ddg01db3b4f4084" version="1">Thunder Immunity</content>
+    <content contentuid="h89273b1bg26ebg49a9gba08gc12403459556" version="1">You are Immune to Thunder Damage.</content>
+    <content contentuid="h8d6b73edga767g464dgaad8g5cda0d8a6e92" version="1">Force Immunity</content>
+    <content contentuid="h955d5c20gdc4dg4869gb64bgec39752de39a" version="1">You are Immune to Force Damage.</content>
+    <content contentuid="h06d6ee48g076ag467dg936ag08262fdb236f" version="1">Psychic Immunity</content>
+    <content contentuid="h0d0e452bg7c31g43dag86b4ge668bfb6d87e" version="1">You are Immune to Psychic Damage.</content>
+    <content contentuid="h49e1d7f2geac7g4c2agb40bg0f900e47f653" version="1">Slashing Immunity (Magic)</content>
+    <content contentuid="h3ceeea28g2c68g4132g8accg6f833e09dfcd" version="1">You are Immune to Slashing Damage from Magical Sources.</content>
+    <content contentuid="h93a7982bg1dafg4310g88c9gbdb2c3304fa1" version="1">Piercing Immunity (Magic)</content>
+    <content contentuid="h6c9269fdg0527g4185g9130g3805984ddaa0" version="1">You are Immune to Piercing Damage from Magical Sources.</content>
+    <content contentuid="h1650d993g2141g4bf7g9e71gad141e75f494" version="1">Bludgeoning Immunity (Magic)</content>
+    <content contentuid="h87354a18g3d47g4721g8487g6c7d56ce1fed" version="1">You are Immune to Bludgeoning Damage from Magical Sources.</content>
+    <content contentuid="h1207ac8egc1f3g473ag908cgd941ee93b1d7" version="1">Poison Immunity (Magic)</content>
+    <content contentuid="h9f5c5c78g6479g4bafg98acgfc731a243a0b" version="1">You are Immune to Poison Damage from Magical Sources.</content>
+    <content contentuid="hf1808160g5220g409dg9e00g3934dea2982d" version="1">Acid Immunity (Magic)</content>
+    <content contentuid="hb2688e9eg6b88g4cc1gbcacg534358741c3e" version="1">You are Immune to Acid Damage from Magical Sources.</content>
+    <content contentuid="h842d12d5g096cg4279gb098g3d4ff1f06d58" version="1">Fire Immunity (Magic)</content>
+    <content contentuid="h56edccd9ge3dag4ecbgb4dag0564aa48506d" version="1">You are Immune to Fire Damage from Magical Sources.</content>
+    <content contentuid="h36ada4b7ga420g48dfgaa50gd0157c191ed2" version="1">Cold Immunity (Magic)</content>
+    <content contentuid="h9ad5c5a4g433cg4bfdga44dg9d54482a3a02" version="1">You are Immune to Cold Damage from Magical Sources.</content>
+    <content contentuid="h556e990egdedbg4f25gada1g92b92ed6181d" version="1">Radiant Immunity (Magic)</content>
+    <content contentuid="he5df0a82gb2a2g4c41g8398gd2832a0b92a3" version="1">You are Immune to Radiant Damage from Magical Sources.</content>
+    <content contentuid="hfe344a41g43c9g4992gad62gc4466fdab875" version="1">Necrotic Immunity (Magic)</content>
+    <content contentuid="h036e2aaegb795g4301g8187g45939f628cf6" version="1">You are Immune to Necrotic Damage from Magical Sources.</content>
+    <content contentuid="h9467cd5bg1eefg42bcga67eg20adecde97d6" version="1">Lightning Immunity (Magic)</content>
+    <content contentuid="hae41850bgce5bg4d18g8777gff85a9ec98a8" version="1">You are Immune to Lightning Damage from Magical Sources.</content>
+    <content contentuid="hffef7409g7fb5g493agb380gaefe114abf57" version="1">Thunder Immunity (Magic)</content>
+    <content contentuid="h850116dcg5d78g47aag9f4agca082e3a0238" version="1">You are Immune to Thunder Damage from Magical Sources.</content>
+    <content contentuid="h1915e7e0ga6d2g4b92g8a77ga4072ac438b8" version="1">Force Immunity (Magic)</content>
+    <content contentuid="h85ed954fg2d9bg4afagb26egab1ccebb2ce2" version="1">You are Immune to Force Damage from Magical Sources.</content>
+    <content contentuid="h51168bc4g439eg4f7fgab12g8b36fb166a51" version="1">Psychic Immunity (Magic)</content>
+    <content contentuid="h707f1281g008bg4e14g9de8gbb390a97b51c" version="1">You are Immune to Psychic Damage from Magical Sources.</content>
+    <content contentuid="h1be23a43g6594g4cedg9f38g491e629020b8" version="1">Slashing Immunity (Non-Magical)</content>
+    <content contentuid="h11978b00gff5dg459agaed7ga2959a3422a1" version="1">You are Immune to Slashing Damage from Non-Magical Sources.</content>
+    <content contentuid="hdf443c0ege7b2g4d93gae8cgd9916b96fccc" version="1">Piercing Immunity (Non-Magical)</content>
+    <content contentuid="h23fa7f9bgec26g4099ga511gb64750022be2" version="1">You are Immune to Piercing Damage from Non-Magical Sources.</content>
+    <content contentuid="h8edd48ccg7400g476cga69ag33cd7b8e4d30" version="1">Bludgeoning Immunity (Non-Magical)</content>
+    <content contentuid="h1810f63eg64bbg412dg90a7g8bd645dc49c9" version="1">You are Immune to Bludgeoning Damage from Non-Magical Sources.</content>
+    <content contentuid="h445995begd4b6g41ffga1begf88938fab10c" version="1">Poison Immunity (Non-Magical)</content>
+    <content contentuid="h8fd0845eg7263g45d2gaa92gde1ab7d7ae4e" version="1">You are Immune to Poison Damage from Non-Magical Sources.</content>
+    <content contentuid="h89570a8agd723g4aefgb05ag7f3e0c52c5eb" version="1">Acid Immunity (Non-Magical)</content>
+    <content contentuid="h5887ee56g029ag446ag8d51gcc79c208ee6d" version="1">You are Immune to Acid Damage from Non-Magical Sources.</content>
+    <content contentuid="h41897832gf1e2g4f4fgb099gc755bc54aa56" version="1">Fire Immunity (Non-Magical)</content>
+    <content contentuid="h9ab91832gcdc3g4f91gaa7bgf4a67c3c7788" version="1">You are Immune to Fire Damage from Non-Magical Sources.</content>
+    <content contentuid="h6a55c5fbg0474g46a6g977bgf92fc815632c" version="1">Cold Immunity (Non-Magical)</content>
+    <content contentuid="h180c53b8ge2c5g4ae7ga86bg3524d094d09f" version="1">You are Immune to Cold Damage from Non-Magical Sources.</content>
+    <content contentuid="h26813b91gdf5dg444fgb6a4gb0f04f66178c" version="1">Radiant Immunity (Non-Magical)</content>
+    <content contentuid="h19ed8d03gb604g4a87ga7c1g96e7790d2f66" version="1">You are Immune to Radiant Damage from Non-Magical Sources.</content>
+    <content contentuid="hcdfcd0cdg223eg4f9bg92ccgd8527ce874b6" version="1">Necrotic Immunity (Non-Magical)</content>
+    <content contentuid="h2b5b44d8g378fg43beg8f35g3dbb756e0c70" version="1">You are Immune to Necrotic Damage from Non-Magical Sources.</content>
+    <content contentuid="h40b0ec59gf771g4746g9b48geb6aec738faf" version="1">Lightning Immunity (Non-Magical)</content>
+    <content contentuid="h039124fagcf0eg4b91g8bf9gc0bc4c59c306" version="1">You are Immune to Lightning Damage from Non-Magical Sources.</content>
+    <content contentuid="h67b91d02g3a67g48e1g8c45g0267c608ed07" version="1">Thunder Immunity (Non-Magical)</content>
+    <content contentuid="ha031ad73g6b0dg4eebga5c8gb0ce9e317e51" version="1">You are Immune to Thunder Damage from Non-Magical Sources.</content>
+    <content contentuid="h8ee01759gd175g4d31g9ee7gc3ad4649288d" version="1">Force Immunity (Non-Magical)</content>
+    <content contentuid="h33f3cc6dg80dcg406bgbd21g67c8e3b4dec5" version="1">You are Immune to Force Damage from Non-Magical Sources.</content>
+    <content contentuid="h019b52c0g4b5fg498cgb73cg8abcdbd0f21b" version="1">Psychic Immunity (Non-Magical)</content>
+    <content contentuid="h137cff5cgcd84g4ef8gb85dg298372e192a1" version="1">You are Immune to Psychic Damage from Non-Magical Sources.</content>
+</contentList>
