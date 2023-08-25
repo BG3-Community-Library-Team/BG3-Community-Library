@@ -25,3 +25,14 @@ data "StatusEffect" "VFX_Status_Debuff_01"
 data "DisplayName" "2762e5aa-d3e1-408a-a83a-6ad2cd02bf14"
 data "Description" "702597ec-acc8-495e-9cfd-c2e1db3f4be1"
 data "Boosts" "Resistance(Lightning, Vulnerable)"
+
+// CL27 - NellsRelo Mod Data
+// Raven Queen's Blessing
+new entry "CL_STATUS_RAVEN_QUEEN_BLESSING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Action_Ranger_RangersCompanion_Raven"
+data "DisplayName" "h5bcb3c31gc511g4bc3gbf7bgde64d29ab296"
+data "Description" "he532d929gb391g4befg918cgec1288843693"
+data "TickType" "StartTurn"
+data "Boosts" "Resistance(Slashing, Resistant);Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Fire, Resistant);Resistance(Cold, Resistant);Resistance(Psychic, Resistant);Resistance(Force, Resistant);Resistance(Thunder, Resistant);Resistance(Lightning, Resistant);Resistance(Poison, Resistant);Resistance(Acid, Resistant);Resistance(Radiant, Resistant)"

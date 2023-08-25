@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                  <!-- Soft Incompatibility with PHB Racial Ability Score (ASI), use the commented out boost for compatability -->
+                  <!-- attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RQBlessing,2,0);ActionResource(Movement,9,0)" -->
+                  <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RQBlessing,2,0)"/>
+                  <attribute id="Level" type="uint8" value="1"/>
+                  <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
+                  <attribute id="PassivesAdded" type="LSString" value="CL_Passive_NecroticResistance;CL_KeenSenses"/>
+                  <attribute id="ProgressionType" type="uint8" value="2"/>
+                  <attribute id="Selectors" type="LSString" value="AddSpells(cdea5ca8-e43f-4830-a265-76fec11ab79a,,,,AlwaysPrepared)"/>
+                  <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
+                  <attribute id="UUID" type="guid" value="2f7edf7e-0a6b-4018-9715-1cb8aa238e4a"/>
+                </node>
+                <node id="Progression">
+                  <attribute id="Level" type="uint8" value="3"/>
+                  <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
+                  <attribute id="PassivesAdded" type="LSString" value="CL_Passive_RavenQueenBlessing"/>
+                  <attribute id="ProgressionType" type="uint8" value="2"/>
+                  <attribute id="Selectors" type="LSString" value=""/>
+                  <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
+                  <attribute id="UUID" type="guid" value="f2d55a86-433b-4f79-b381-7510cafef385"/>
+                </node>
+                <node id="Progression">
+                  <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+                  <attribute id="Level" type="uint8" value="5"/>
+                  <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
+                  <attribute id="ProgressionType" type="uint8" value="1"/>
+                  <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
+                  <attribute id="UUID" type="guid" value="e297cd19-6dd1-41b2-9a70-3552cb48ad2d"/>
+                </node>
+                <node id="Progression">
+                  <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+                  <attribute id="Level" type="uint8" value="9"/>
+                  <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
+                  <attribute id="ProgressionType" type="uint8" value="1"/>
+                  <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
+                  <attribute id="UUID" type="guid" value="a252f1bf-f5e5-440c-9a79-8bfbcdd0a4a5"/>
+                </node>
+                <node id="Progression">
+                  <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+                  <attribute id="Level" type="uint8" value="13"/>
+                  <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
+                  <attribute id="ProgressionType" type="uint8" value="1"/>
+                  <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
+                  <attribute id="UUID" type="guid" value="807611e3-5663-4ce6-9a7d-cc56aa6a851a"/>
+                </node>
+                <node id="Progression">
+                  <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+                  <attribute id="Level" type="uint8" value="17"/>
+                  <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
+                  <attribute id="ProgressionType" type="uint8" value="1"/>
+                  <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
+                  <attribute id="UUID" type="guid" value="a9cc7994-b6bf-407b-909a-c0fa63f29ce0"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

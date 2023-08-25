@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="51" />
+  <region id="CharacterVisualBank">
+    <node id="CharacterVisualBank">
+      <children>
+        <node id="Resource">
+          <attribute id="BaseVisual" type="FixedString" value="4deb74a3-fe9a-723f-89b5-799a97335cc4" />
+          <attribute id="BodySetVisual" type="FixedString" value="017534b5-2b56-4160-9d8c-7712d3a413ea" />
+          <attribute id="ID" type="FixedString" value="b8e49e88-a0bd-480d-9e8b-8a24a4444376" />
+          <attribute id="Localized" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="BASE_Elves_Male_ShadarKai" />
+          <attribute id="ShowEquipmentVisuals" type="bool" value="False" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725056" />
+          <children>
+            <node id="MaterialOverrides">
+              <attribute id="MaterialResource" type="FixedString" value="" />
+              <children>
+                <node id="ColorPreset">
+                  <attribute id="ForcePresetValues" type="bool" value="True" />
+                  <attribute id="GroupName" type="FixedString" value="" />
+                  <attribute id="MaterialPresetResource" type="FixedString" value="" />
+                </node>
+                <node id="MaterialPresets">
+                  <children>
+                    <node id="Object">
+                      <attribute id="ForcePresetValues" type="bool" value="True" />
+                      <attribute id="GroupName" type="FixedString" value="02Skin Properties" />
+                      <attribute id="MapKey" type="FixedString" value="02Skin Properties" />
+                      <attribute id="MaterialPresetResource" type="FixedString" value="ace8e94a-4ec0-45b3-6ff0-46a6a4a008ed" />
+                    </node>
+                  </children>
+                </node>
+              </children>
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Head" />
+              <attribute id="VisualResource" type="FixedString" value="c1c97ff6-04b6-37c0-b855-681b18447fc4" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Body" />
+              <attribute id="VisualResource" type="FixedString" value="123ff6f0-f424-61f1-1881-2cefaaf5f8ec" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Body" />
+              <attribute id="VisualResource" type="FixedString" value="7a0fbf45-3619-b7f9-f405-2fd48bfd08cb" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Footwear" />
+              <attribute id="VisualResource" type="FixedString" value="2627cae6-0565-7a31-466c-2ef8c283d9e3" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Hair" />
+              <attribute id="VisualResource" type="FixedString" value="b801b19c-a373-0c0b-0a8c-30758b460178" />
+            </node>
+          </children>
+        </node>
+        <node id="Resource">
+          <attribute id="BaseVisual" type="FixedString" value="c05cb1dc-81eb-647b-3e03-e9bf4301fcc4" />
+          <attribute id="BodySetVisual" type="FixedString" value="db6e5918-8514-4dcc-8363-e8fd3c50cce5" />
+          <attribute id="ID" type="FixedString" value="f89e3922-f92e-4279-809e-4a95336a75a9" />
+          <attribute id="Localized" type="bool" value="False" />
+          <attribute id="Name" type="LSString" value="BASE_Elves_Female_ShadarKai" />
+          <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725056" />
+          <children>
+            <node id="MaterialOverrides">
+              <attribute id="MaterialResource" type="FixedString" value="" />
+              <children>
+                <node id="ColorPreset">
+                  <attribute id="ForcePresetValues" type="bool" value="True" />
+                  <attribute id="GroupName" type="FixedString" value="" />
+                  <attribute id="MaterialPresetResource" type="FixedString" value="" />
+                </node>
+                <node id="MaterialPresets" />
+              </children>
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Head" />
+              <attribute id="VisualResource" type="FixedString" value="555b1e26-9a79-c11b-134d-a557b317bd93" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Body" />
+              <attribute id="VisualResource" type="FixedString" value="fb2968d6-a8a5-571a-f803-8b91a2cd5346" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Footwear" />
+              <attribute id="VisualResource" type="FixedString" value="40ce2f73-4850-4f66-9778-21b402f7ba19" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Hair" />
+              <attribute id="VisualResource" type="FixedString" value="4ba9f25a-0270-1b1b-89da-bca465851b17" />
+            </node>
+            <node id="Slots">
+              <attribute id="Slot" type="FixedString" value="Body" />
+              <attribute id="VisualResource" type="FixedString" value="2d0f8f38-2383-125f-eb37-02d0916958d1" />
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -1,2 +1,4 @@
 /Release
 *.zip
+*.loca
+*.lsf
