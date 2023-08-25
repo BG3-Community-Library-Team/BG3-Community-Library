@@ -1,0 +1,80 @@
+<contentList date="26/10/2020 01:10">
+    <content contentuid="hd64cc084gab6bg4c4eg9a99g2c7c9b6ac612" version="1">Slashing Resistance</content>
+    <content contentuid="h1dd7d6b5gc865g4e7agabf0g93cbae0479c4" version="1">You have Resistance to Slashing Damage, and take half as much damage from Slashing attacks.</content>
+    <content contentuid="hb896ca5dg17b3g4b98g87e1g5347b38727c6" version="1">Piercing Resistance</content>
+    <content contentuid="hb1b76fd9ga631g4143gb0f2g8d048e114d69" version="1">You have Resistance to Piercing Damage, and take half as much damage from Piercing attacks.</content>
+    <content contentuid="h7f970522g7c0ag430fg8cf7gf8ebfbb5ad0c" version="1">Bludgeoning Resistance</content>
+    <content contentuid="h381df730g9d87g4784g9af0g0f68db483fbd" version="1">You have Resistance to Bludgeoning Damage, and take half as much damage from Bludgeoning attacks.</content>
+    <content contentuid="he6da59e1g706cg4d4bgac07gcb6f7ac66f8c" version="1">Poison Resistance</content>
+    <content contentuid="h140cf914g26d6g4226g8f98g215220642a14" version="1">You have Resistance to Poison Damage, and take half as much damage from Poison attacks.</content>
+    <content contentuid="he2ff2bb1g5b23g4035gaa4eg540c391f5771" version="1">Acid Resistance</content>
+    <content contentuid="hd1ef54b8gf1efg467cg9fa5gadcc00b83f04" version="1">You have Resistance to Acid Damage, and take half as much damage from Acid attacks.</content>
+    <content contentuid="h3fa80088g64ffg48aeg8574g03ffe671f06a" version="1">Fire Resistance</content>
+    <content contentuid="haed44b46g57f4g4229g8fbfg3e7f55dd3563" version="1">You have Resistance to Fire Damage, and take half as much damage from Fire attacks.</content>
+    <content contentuid="h7ad74347g5cc6g476dgac15g2f5e5752c5e4" version="1">Cold Resistance</content>
+    <content contentuid="h215e3eb6g4c20g45a0g9b0bg2eb64af7547a" version="1">You have Resistance to Cold Damage, and take half as much damage from Cold attacks.</content>
+    <content contentuid="h954f60c0gcda1g4144g9f98g6401584770b9" version="1">Radiant Resistance</content>
+    <content contentuid="h559ded40g3500g4351g9232g78b4455e71b2" version="1">You have Resistance to Radiant Damage, and take half as much damage from Radiant attacks.</content>
+    <content contentuid="h9e6f8100gd66ag45b2ga56dga1f6d37bb1e5" version="1">Necrotic Resistance</content>
+    <content contentuid="h2479c82ag7e96g4932g8a6eg4b2119791e72" version="1">You have Resistance to Necrotic Damage, and take half as much damage from Necrotic attacks.</content>
+    <content contentuid="h029c6846g7db7g4054g8344gb9ae723b9072" version="1">Lightning Resistance</content>
+    <content contentuid="h9578e5a2ge293g4ca2gbbc1g96b9477cf9c7" version="1">You have Resistance to Lightning Damage, and take half as much damage from Lightningattacks.</content>
+    <content contentuid="h99d2a556g12b7g42f4g9ae3gc9c637350d9d" version="1">Thunder Resistance</content>
+    <content contentuid="h536ab112ge250g4205g9f3egbfa28d4f6fb9" version="1">You have Resistance to Thunder Damage, and take half as much damage from Thunder attacks.</content>
+    <content contentuid="h84fb5b6cg8bb1g45e0g87e4gf1a0d1a28408" version="1">Force Resistance</content>
+    <content contentuid="he22d8806gc872g4018gb149ge6ce71937844" version="1">You have Resistance to Force Damage, and take half as much damage from Force attacks.</content>
+    <content contentuid="h3de4f0bbgf2d7g4e00gad24g39e06beb510c" version="1">Psychic Resistance</content>
+    <content contentuid="h4ca10386gef02g4fdcg8c9cga4941d3cb0fe" version="1">You have Resistance to Psychic Damage, and take half as much damage from Psychic attacks.</content>
+    <content contentuid="hbda76f09g5944g4bb8g9b7cg3eaf2d7324be" version="1">Slashing Resistance (Magic)</content>
+    <content contentuid="ha7665a04g405ag4880g9999gb661a931c065" version="1">You have Resistance to Slashing Damage, and take half as much damage from Magical Slashing attacks.</content>
+    <content contentuid="h5935157fg8303g4dfegad88g9d09a211059b" version="1">Piercing Resistance (Magic)</content>
+    <content contentuid="h90b38049g2787g4f6cgbdb9ga29608342d60" version="1">You have Resistance to Piercing Damage, and take half as much damage from Magical Piercing attacks.</content>
+    <content contentuid="h8ced425fg87cbg47e2ga761g694e22e5fbc5" version="1">Bludgeoning Resistance (Magic)</content>
+    <content contentuid="h7186057bg93ccg4c07g888cg3faf6330269b" version="1">You have Resistance to Bludgeoning Damage, and take half as much damage from Magical Bludgeoning attacks.</content>
+    <content contentuid="ha41dc759g120dg4685gaa25g9280dec013ed" version="1">Poison Resistance (Magic)</content>
+    <content contentuid="hb078caaag96deg4b51ga521g7a982ce30a6b" version="1">You have Resistance to Poison Damage, and take half as much damage from Magical Poison attacks.</content>
+    <content contentuid="h4084b88bg2255g4d73g8ed7g8a1730b70718" version="1">Acid Resistance (Magic)</content>
+    <content contentuid="hb920879bg63ecg4487ga904g1b4e0a263c22" version="1">You have Resistance to Acid Damage, and take half as much damage from Magical Acid attacks.</content>
+    <content contentuid="he97f92adgf178g4a5dgb9efge97099dc7e6e" version="1">Fire Resistance (Magic)</content>
+    <content contentuid="hd6647ddfgbd58g4de3g94eeg96725ddeb1ca" version="1">You have Resistance to Fire Damage, and take half as much damage from Magical Fire attacks.</content>
+    <content contentuid="he9058b52g74a9g4337gb45eg000383911460" version="1">Cold Resistance (Magic)</content>
+    <content contentuid="h950f976ag689dg494eg8f77g7d15a971f009" version="1">You have Resistance to Cold Damage, and take half as much damage from Magical Cold attacks.</content>
+    <content contentuid="h931091afgadc0g4e5egbf59g1b7630afefc5" version="1">Radiant Resistance (Magic)</content>
+    <content contentuid="h962a4961g92c1g4cb8gb368gbbc10cbefd41" version="1">You have Resistance to Radiant Damage, and take half as much damage from Magical Radiant attacks.</content>
+    <content contentuid="h5fdffc80gd741g4095g83fdgb50780c211c4" version="1">Necrotic Resistance (Magic)</content>
+    <content contentuid="h8b2d9006g2cefg4937ga54bgfd95a81ff11e" version="1">You have Resistance to Necrotic Damage, and take half as much damage from Magical Necrotic attacks.</content>
+    <content contentuid="hdb0f57d1gd53ag4d3agb472ga87e05d56d37" version="1">Lightning Resistance (Magic)</content>
+    <content contentuid="had52fc61gf17fg48b3gae8agb5a5e7d06eef" version="1">You have Resistance to Lightning Damage, and take half as much damage from Magical Lightning attacks.</content>
+    <content contentuid="h2da54355g8779g4db8g9ac0ga10c1bcea368" version="1">Thunder Resistance (Magic)</content>
+    <content contentuid="h280474aeg24f0g448eg8babge0befbc3f6c9" version="1">You have Resistance to Thunder Damage, and take half as much damage from Magical Thunder attacks.</content>
+    <content contentuid="h8de54e09g681dg445fg85f5g3a9dc9595453" version="1">Force Resistance (Magic)</content>
+    <content contentuid="h7109a2e7g7cf7g41efg8ba8g940457a588c9" version="1">You have Resistance to Force Damage, and take half as much damage from Magical Force attacks.</content>
+    <content contentuid="hed9de06cge25bg4628g9c73gd79590c32798" version="1">Psychic Resistance (Magic)</content>
+    <content contentuid="h26ac7917gc1dfg4a56g892cg9587721eb2cd" version="1">You have Resistance to Psychic Damage, and take half as much damage from Magical Psychic attacks.</content>
+    <content contentuid="h7aa9b978gbcbbg4bc4g9407gaa03986fc9b4" version="1">Slashing Resistance (Non-Magical)</content>
+    <content contentuid="h01622943g8a67g4de2gb7d5g4bf1188257e6" version="1">You have Resistance to Slashing Damage, and take half as much damage from Non-Magical Slashing attacks.</content>
+    <content contentuid="hdf1db1b3g29aag4336g98cdg9d704c7f4f79" version="1">Piercing Resistance (Non-Magical)</content>
+    <content contentuid="h3e4a041cgd5a6g47c8g8d7bgc19e3ad98eb5" version="1">You have Resistance to Piercing Damage, and take half as much damage from Non-Magical Piercing attacks.</content>
+    <content contentuid="h4a6f2cfag651eg4194ga19fg061a9ac6f32f" version="1">Bludgeoning Resistance (Non-Magical)</content>
+    <content contentuid="h51d740b3g19e4g4e0eg8d69g21ec4277a50b" version="1">You have Resistance to Bludgeoning Damage, and take half as much damage from Non-Magical Bludgeoning attacks.</content>
+    <content contentuid="h28324b3age67dg4041g96e9g05fa5fb7e0c0" version="1">Poison Resistance (Non-Magical)</content>
+    <content contentuid="hd19f9825gc072g4032g8c38gb0238f435121" version="1">You have Resistance to Poison Damage, and take half as much damage from Non-Magical Poison attacks.</content>
+    <content contentuid="h67608914gf84fg45e8g943bg2861c017cc89" version="1">Acid Resistance (Non-Magical)</content>
+    <content contentuid="hcda67f1dg28a9g406ag960cg6a2997fc91f2" version="1">You have Resistance to Acid Damage, and take half as much damage from Non-Magical Acid attacks.</content>
+    <content contentuid="hbe239fb9gbb4eg484cg8e8dg81e54a2c3881" version="1">Fire Resistance (Non-Magical)</content>
+    <content contentuid="h70176885g6296g426agbf84g1a128f378498" version="1">You have Resistance to Fire Damage, and take half as much damage from Non-Magical Fire attacks.</content>
+    <content contentuid="h399b72f8gc2aeg49b0gb877g3b2d31a1f758" version="1">Cold Resistance (Non-Magical)</content>
+    <content contentuid="h3d45cb65g3e9bg4f92gbee3g59e972154801" version="1">You have Resistance to Cold Damage, and take half as much damage from Non-Magical Cold attacks.</content>
+    <content contentuid="hd8b4ddfag1f32g4afcg8d1fge1c2ee67096b" version="1">Radiant Resistance (Non-Magical)</content>
+    <content contentuid="h60f3c59fgb4a4g46a5g8868g899aa5a04966" version="1">You have Resistance to Radiant Damage, and take half as much damage from Non-Magical Radiant attacks.</content>
+    <content contentuid="h53f6cdf3gdc70g4847g8497ga284a55f451d" version="1">Necrotic Resistance (Non-Magical)</content>
+    <content contentuid="hb23f2c15g1156g4e44g9f9egb9b789865418" version="1">You have Resistance to Necrotic Damage, and take half as much damage from Non-Magical Necrotic attacks.</content>
+    <content contentuid="hda3b0bb6g52fbg4786g8c33g5950b017e03f" version="1">Lightning Resistance (Non-Magical)</content>
+    <content contentuid="hb2470222g896fg480egaddfg4cbc4391db4a" version="1">You have Resistance to Lightning Damage, and take half as much damage from Non-Magical Lightning attacks.</content>
+    <content contentuid="he18551bdgccb0g4f90g9b88ga90ec7b71b13" version="1">Thunder Resistance (Non-Magical)</content>
+    <content contentuid="h6f108e99g8410g4358gb900g6c8cb0ca4656" version="1">You have Resistance to Thunder Damage, and take half as much damage from Non-Magical Thunder attacks.</content>
+    <content contentuid="h4b7fa185g8ebeg4f6egbaffgcd0a4a95edb1" version="1">Force Resistance (Non-Magical)</content>
+    <content contentuid="hb34ee0b1gc303g4a80g9246g762f2c8f0bac" version="1">You have Resistance to Force Damage, and take half as much damage from Non-Magical Force attacks.</content>
+    <content contentuid="ha3346819gb521g4c8agb8e0gbc3ffdcd42de" version="1">Psychic Resistance (Non-Magical)</content>
+    <content contentuid="h1381e59cg15d1g4db7g9b1bg7adfaf07eff3" version="1">You have Resistance to Psychic Damage, and take half as much damage from Non-Magical Psychic attacks.</content>
+</contentList>

@@ -1,7 +1,7 @@
 new entry "CL_Passive_Petpal"
 type "PassiveData"
-data "DisplayName" "cbf9d5ed-d5f0-4dc4-8841-927aab5466bf"
-data "Description" "e4cf7429-8984-498d-a08d-48a899b5563e"
+data "DisplayName" "he617ad50g9705g4074gb9a5ge11b1fb04aec"
+data "Description" "haa2a6bafg712dg477egb241gbcdcd360b364"
 data "Boosts" "ApplyStatus(PETPAL,100,-1)"
 
 // CL27 - NellsRelo Mod Data
