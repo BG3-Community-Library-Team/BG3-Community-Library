@@ -24,3 +24,12 @@ type "PassiveData"
 data "Boosts" "ProficiencyBonus(Skill, Preception)"
 data "DisplayName" "hb6fb87d2g3ad0g4a43ga8d2g035790d59ebb"
 data "Description" "h6f280908g2afbg45fcga2f9ge6136d5b5604"
+
+// Give this passive to the Character data you want to be indestructible and ignored by the AI
+// Might want to give the Flag InvulnerableAndInteractive to the Character was well
+new entry "CL_IndestructibleSummon_AI_Ignore"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "DisplayName" "h944f4b4fg2729g407eg938bg212cef76a9ea;1"
+data "Description" "h944f4b4fg2729g407eg938bg212cef76a9ea;1"
+data "Boosts" "Tag(AI_IGNORED_TARGET);Invulnerable();IncreaseMaxHP(990);AC(90);Resistance(Bludgeoning,Immune);Resistance(Slashing,Immune);Resistance(Piercing,Immune);Resistance(Acid,Immune);Resistance(Cold,Immune);Resistance(Fire,Immune);Resistance(Force,Immune);Resistance(Lightning,Immune);Resistance(Necrotic,Immune);Resistance(Poison,Immune);Resistance(Psychic,Immune);Resistance(Radiant,Immune);Resistance(Thunder,Immune);StatusImmunity(SG_Condition);StatusImmunity(SG_Blinded);StatusImmunity(SG_Charmed);StatusImmunity(SG_Cursed);StatusImmunity(SG_Disease);StatusImmunity(SG_Exhausted);StatusImmunity(SG_Frightened);StatusImmunity(SG_Incapacitated);StatusImmunity(SG_Invisible);StatusImmunity(SG_Poisoned);StatusImmunity(SG_Prone);StatusImmunity(SG_Restrained);StatusImmunity(SG_Stunned);StatusImmunity(SG_Unconscious);StatusImmunity(SG_Polymorph);StatusImmunity(SG_Paralyzed);StatusImmunity(SG_Petrified);StatusImmunity(SG_Drunk);StatusImmunity(SG_Sleeping);StatusImmunity(SG_CanBePickedUp);StatusImmunity(SG_Approaching);StatusImmunity(SG_Taunted);StatusImmunity(SG_Dominated);StatusImmunity(SG_Fleeing);StatusImmunity(SG_Confused);StatusImmunity(SG_Mad);"
