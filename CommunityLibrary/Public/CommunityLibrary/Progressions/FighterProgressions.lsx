@@ -20,6 +20,9 @@
                   <node id="SubClass">
                     <attribute id="Object" type="guid" value="b722614a-303f-411a-bb19-a1882ad1f4cc"/>
                   </node>
+                  <node id="SubClass">
+                    <attribute id="Object" type="guid" value="0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf"/>
+                  </node>
                   <!-- Place Mod-added Subclass Nodes here --> 
                 </children>
               </node>

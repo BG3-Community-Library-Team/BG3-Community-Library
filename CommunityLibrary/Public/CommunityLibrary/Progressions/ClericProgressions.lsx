@@ -5,28 +5,79 @@
     <node id="root">
       <children>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons)"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Morningstars);Proficiency(Flails)"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="Cleric"/>
-          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
+          <attribute id="PassivesAdded" type="LSString" value="DomainSpells;UnlockedSpellSlotLevel1"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="Selectors" type="LSString" value="SelectSkills(6cb9d731-a518-46f0-b20e-9e2bf18e6acd,2);SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,3,0,,,,AlwaysPrepared);AddSpells(269d1a3b-eed8-4131-8901-a562238f5289)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSkills(6cb9d731-a518-46f0-b20e-9e2bf18e6acd,2);SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,3,0,,,,AlwaysPrepared);AddSpells(269d1a3b-eed8-4131-8901-a562238f5289);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
           <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
           <attribute id="UUID" type="guid" value="1dbce574-fff1-49be-b7da-704f9b73cad9"/>
           <children>
             <node id="SubClasses">
-                <children>
-                    <node id="SubClass">
-                      <attribute id="Object" type="guid" value="4b5da2f5-b999-4623-8bff-a63df5560fb3"/>
-                    </node>
-                    <node id="SubClass">
-                      <attribute id="Object" type="guid" value="c54d7591-b305-4f22-b2a7-1bf5c4a3470a"/>
-                    </node>
-                    <node id="SubClass">
-                      <attribute id="Object" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
-                    </node>
-                    <!-- Place Mod-added Subclass Nodes here --> 
-                </children>
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="4b5da2f5-b999-4623-8bff-a63df5560fb3"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="c54d7591-b305-4f22-b2a7-1bf5c4a3470a"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="ebe18794-b5e1-41c4-befa-4b9d6922b0ec"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="6dec76d0-df22-411c-8a78-3d6fb843ae50"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="89bacf1b-8f15-4972-ada7-bf59c7c78441"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6"/>
+                </node>
+                  <!-- Place Mod-added Subclass Nodes here --> 
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(Morningstars);Proficiency(Flails)"/>
+          <attribute id="IsMulticlass" type="bool" value="true"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Cleric"/>
+          <attribute id="PassivesAdded" type="LSString" value="DomainSpells;UnlockedSpellSlotLevel1"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(2f43a103-5bf1-4534-b14f-663decc0c525,3,0,,,,AlwaysPrepared);AddSpells(269d1a3b-eed8-4131-8901-a562238f5289)"/>
+          <attribute id="TableUUID" type="guid" value="64474b62-b4f5-46b3-b94a-c676c6da3116"/>
+          <attribute id="UUID" type="guid" value="366cde9c-db0c-43ce-a49c-fb140e084b3c"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="4b5da2f5-b999-4623-8bff-a63df5560fb3"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="c54d7591-b305-4f22-b2a7-1bf5c4a3470a"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="ebe18794-b5e1-41c4-befa-4b9d6922b0ec"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="6dec76d0-df22-411c-8a78-3d6fb843ae50"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="89bacf1b-8f15-4972-ada7-bf59c7c78441"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6"/>
+                </node>
+                  <!-- Place Mod-added Subclass Nodes here --> 
+              </children>
             </node>
           </children>
         </node>
