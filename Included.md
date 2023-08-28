@@ -118,7 +118,7 @@
 
 ### Fighter
 - [Marksman - Fighter's Subclass](https://www.nexusmods.com/baldursgate3/mods/1278) by [afftor](https://www.nexusmods.com/baldursgate3/users/968899)
-
+- [Diamon's Mystic Manual - Fighter Subclasses](https://www.nexusmods.com/baldursgate3/mods/1599) by [Backburner26](https://www.nexusmods.com/baldursgate3/users/19603604)
 ### Monk
 - [Monk Subclass -- Way of the Kensei](https://www.nexusmods.com/baldursgate3/mods/1330) by [YuukaYunna](https://www.nexusmods.com/baldursgate3/users/45490107)
 - [Way of the Sun Soul (Monk Subclass)](https://www.nexusmods.com/baldursgate3/mods/1467) by [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)
