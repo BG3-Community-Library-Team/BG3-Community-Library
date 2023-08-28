@@ -23,13 +23,15 @@ Some mods will rely on this one, and require it as a dependency, as it provides 
 It also acts as a compatibility patch for an ever-growing list of subclass mods:
 | Class   | Mod                          | Author         |
 |---------|------------------------------|----------------|
-| Fighter | Marksman                     | afftor         |
-| Monk    | Kensei                       | YuukaYunna     |
-| Monk    | Sun Soul                     | Kingdomyoshi   |
-| Warlock | Necromancer - Dread Overlord | dreadoverlord  |
-| Warlock | Hexblade                     | Feriat111      |
-| Warlock | Celestial                    | FluffyDragon24 |
-| Wizard  | War Magic                    | fierrof        |
+| Fighter | [Marksman](https://www.nexusmods.com/baldursgate3/mods/1278)| [afftor](https://www.nexusmods.com/baldursgate3/users/968899)         |
+| Fighter | [Diamon's Mystic Manual Subclasses](https://www.nexusmods.com/baldursgate3/mods/1599)| [Backburner26](https://www.nexusmods.com/baldursgate3/users/19603604)|
+| Monk    | [Kensei](https://www.nexusmods.com/baldursgate3/mods/1330)| [YuukaYunna](https://www.nexusmods.com/baldursgate3/users/45490107)     |
+| Monk    | [Sun Soul](https://www.nexusmods.com/baldursgate3/mods/1467)| [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)   |
+| Sorcerer| [Shadow Sorcery](https://www.nexusmods.com/baldursgate3/mods/923)| [Baaleos](https://www.nexusmods.com/baldursgate3/users/1111397)   |
+| Warlock | [Necromancer - Dread Overlord](https://www.nexusmods.com/baldursgate3/mods/394) | [dreadoverlord](https://www.nexusmods.com/baldursgate3/users/88747523)  |
+| Warlock | [Hexblade](https://www.nexusmods.com/baldursgate3/mods/1100)| [Feriat111](https://www.nexusmods.com/baldursgate3/users/26820389)      |
+| Warlock | [Celestial](https://www.nexusmods.com/baldursgate3/mods/1567)| [FluffyDragon24](https://www.nexusmods.com/baldursgate3/users/130905368) |
+| Wizard  | [War Magic](https://www.nexusmods.com/baldursgate3/mods/924)| [fierrof](https://www.nexusmods.com/baldursgate3/users/466538)        |
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
