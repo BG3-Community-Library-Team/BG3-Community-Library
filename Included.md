@@ -88,3 +88,24 @@
 - Barkskin
 - Additional Wildshapes
 - Enlarge
+
+# 2.0.1.0
+## Races
+- CL_ShadarKai: Shadar-Kai Base Race
+- CL_Skeleton: Skeleton Race
+
+## Action Resources
+- (Raven Queen) Blessing 
+
+## Passives
+- CL_SkeletonResistance
+- CL_Passive_RavenQueenBlessing
+- CL_KeenSenses
+
+## Spells
+- CL_Target_SkeletonFinger
+- CL_Target_RavenQueenBlessing
+
+## Statuses
+- CL_STATUS_RAVEN_QUEEN_BLESSING
+

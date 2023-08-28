@@ -5,8 +5,6 @@
         <node id="root">
             <children>
                 <node id="Progression">
-                  <!-- Soft Incompatibility with PHB Racial Ability Score (ASI), use the commented out boost for compatability -->
-                  <!-- attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RQBlessing,2,0);ActionResource(Movement,9,0)" -->
                   <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RQBlessing,2,0)"/>
                   <attribute id="Level" type="uint8" value="1"/>
                   <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
