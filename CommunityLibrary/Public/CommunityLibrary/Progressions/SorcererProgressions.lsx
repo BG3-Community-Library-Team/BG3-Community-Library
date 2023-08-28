@@ -10,21 +10,50 @@
           <attribute id="Name" type="LSString" value="Sorcerer"/>
           <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="Selectors" type="LSString" value="SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,2);SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSkills(8743f14b-64de-4858-b056-50902a00df1a,2);SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
           <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
           <attribute id="UUID" type="guid" value="42af9bda-9ac0-4564-920b-f9ca1588d6ee"/>
           <children>
             <node id="SubClasses">
-                <children>
-                  <node id="SubClass">
-                    <attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2"/>
-                  </node>
-                  <node id="SubClass">
-                    <attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20"/>
-                  </node>
-                  <!-- Place Mod-added Subclass Nodes here --> 
-                </children>
-              </node>
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3"/>
+                </node>
+                <!-- Place Mod-added Subclass Nodes here --> 
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Progression">
+          <attribute id="IsMulticlass" type="bool" value="true"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Sorcerer"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(485a68b4-c678-4888-be63-4a702efbe391,4,0,SorcererCantrip,,,AlwaysPrepared);SelectSpells(92c4751f-6255-4f67-822c-a75d53830b27,2,0,SorcererSpell)"/>
+          <attribute id="TableUUID" type="guid" value="e2416b02-953a-4ce8-aa8f-eb98d549d86d"/>
+          <attribute id="UUID" type="guid" value="e115c732-80b1-4ae1-bf04-cee44660d64f"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3"/>
+                </node>
+                <!-- Place Mod-added Subclass Nodes here -->
+              </children>
+            </node>
           </children>
         </node>
       </children>

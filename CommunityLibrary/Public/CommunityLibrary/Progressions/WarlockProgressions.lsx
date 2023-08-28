@@ -10,21 +10,51 @@
           <attribute id="Name" type="LSString" value="Warlock"/>
           <attribute id="PassivesAdded" type="LSString" value="UnlockedWarlockSpellSlotLevel1"/>
           <attribute id="ProgressionType" type="uint8" value="0"/>
-          <attribute id="Selectors" type="LSString" value="SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared)"/>
+          <attribute id="Selectors" type="LSString" value="SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
           <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
           <attribute id="UUID" type="guid" value="a7767dc5-e6ab-4e05-96fd-f0424256121c"/>
           <children>
             <node id="SubClasses">
-                <children>
-                  <node id="SubClass">
-                    <attribute id="Object" type="guid" value="8866db28-7dda-4fd6-93ed-20eca16314f0"/>
-                  </node>
-                  <node id="SubClass">
-                    <attribute id="Object" type="guid" value="e1e4a21f-9405-46ec-81a0-ccc8d58d9736"/>
-                  </node>
-                  <!-- Place Mod-added Subclass Nodes here --> 
-                </children>
-              </node>
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="8866db28-7dda-4fd6-93ed-20eca16314f0"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="e1e4a21f-9405-46ec-81a0-ccc8d58d9736"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24"/>
+                </node>
+                <!-- Place Mod-added Subclass Nodes here --> 
+              </children>
+            </node>
+          </children>
+        </node>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
+          <attribute id="IsMulticlass" type="bool" value="true"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Warlock"/>
+          <attribute id="PassivesAdded" type="LSString" value="UnlockedWarlockSpellSlotLevel1"/>
+          <attribute id="ProgressionType" type="uint8" value="0"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared)"/>
+          <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
+          <attribute id="UUID" type="guid" value="20015e25-8aa9-41bf-b959-aa587ba0aa27"/>
+          <children>
+            <node id="SubClasses">
+              <children>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="8866db28-7dda-4fd6-93ed-20eca16314f0"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="e1e4a21f-9405-46ec-81a0-ccc8d58d9736"/>
+                </node>
+                <node id="SubClass">
+                  <attribute id="Object" type="guid" value="733ddf8c-9ec4-4c5a-85e3-c70fd3df3c24"/>
+                </node>
+                <!-- Place Mod-added Subclass Nodes here --> 
+              </children>
+            </node>
           </children>
         </node>
       </children>
