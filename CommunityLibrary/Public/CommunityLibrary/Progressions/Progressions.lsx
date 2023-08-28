@@ -278,6 +278,15 @@
                   <node id="SubClass"> <!-- FighterMarksman by afftor -->
                     <attribute id="Object" type="guid" value="a9d9450b-52e3-4412-8559-322b6f5f7d7d"/>
                   </node>
+                  <node id="SubClass"> <!-- Combat Medic by Backburner26 -->
+                    <attribute id="Object" type="guid" value="c0af79a7-67d2-4a20-acd4-b0ee331ca5ad"/>
+                  </node>
+                  <node id="SubClass"> <!-- Psychopath by Backburner26 -->
+                    <attribute id="Object" type="guid" value="082e45c3-f102-42ea-8241-dd6fbd6bc307"/>
+                  </node>
+                  <node id="SubClass"> <!-- Artful Dodger by Backburner26 -->
+                    <attribute id="Object" type="guid" value="ae652c3b-f9e1-4ff7-9419-344e8d9f922d"/>
+                  </node>
                 </children>
               </node>
             </children>
