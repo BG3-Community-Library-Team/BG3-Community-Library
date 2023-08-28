@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+            <attribute id="AllowImprovement" type="bool" value="false"/>
+            <attribute id="Level" type="uint8" value="3"/>
+            <attribute id="Name" type="LSString" value="Fighter"/>
+            <attribute id="ProgressionType" type="uint8" value="0"/>
+            <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
+            <attribute id="UUID" type="guid" value="23eacff0-9efe-4ea6-b031-19075cc96b63"/>
+            <children>
+              <node id="SubClasses">
+                <children>
+                  <node id="SubClass">
+                    <attribute id="Object" type="guid" value="e668c6f1-5149-4b10-ab7e-3637ed444066"/>
+                  </node>
+                  <node id="SubClass">
+                    <attribute id="Object" type="guid" value="b722614a-303f-411a-bb19-a1882ad1f4cc"/>
+                  </node>
+                  <!-- Place Mod-added Subclass Nodes here --> 
+                </children>
+              </node>
+            </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
