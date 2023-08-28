@@ -109,3 +109,26 @@
 ## Statuses
 - CL_STATUS_RAVEN_QUEEN_BLESSING
 
+# 2.0.2.0
+
+## Passives
+- CL_IndestructibleSummon_AI_Ignore
+
+## Subclass Compatibility Patches
+
+### Fighter
+- [Marksman - Fighter's Subclass](https://www.nexusmods.com/baldursgate3/mods/1278) by [afftor](https://www.nexusmods.com/baldursgate3/users/968899)
+
+### Monk
+- [Monk Subclass -- Way of the Kensei](https://www.nexusmods.com/baldursgate3/mods/1330) by [YuukaYunna](https://www.nexusmods.com/baldursgate3/users/45490107)
+- [Way of the Sun Soul (Monk Subclass)](https://www.nexusmods.com/baldursgate3/mods/1467) by [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)
+### Sorcerer
+- [Shadow Sorcerer - Subclass](https://www.nexusmods.com/baldursgate3/mods/923) by [Baaleos](https://www.nexusmods.com/baldursgate3/users/1111397)
+
+### Warlock
+- [Necromancer Subclass for Warlock - Dread Overlord](https://www.nexusmods.com/baldursgate3/mods/394) by [dreadoverlord](https://www.nexusmods.com/baldursgate3/users/88747523)
+- [Hexblade Subclass](https://www.nexusmods.com/baldursgate3/mods/1100) by [Feriat111](https://www.nexusmods.com/baldursgate3/users/26820389)
+- [Celestial Warlock](https://www.nexusmods.com/baldursgate3/mods/1567) by [FluffyDragon24](https://www.nexusmods.com/baldursgate3/users/130905368)
+
+### Wizard
+- [Wizard Traditions - War Magic](https://www.nexusmods.com/baldursgate3/mods/924) by [fierrof](https://www.nexusmods.com/baldursgate3/users/466538)

@@ -18,8 +18,18 @@ others to use in their mods as well, be it scripts, spells, statuses, passives,
 models, textures, sounds, etc.
 
 ## For Players:
-Some mods will rely on this one, and require it as a dependency. So alone, this
-mod won't appear to do anything. It just needs to be utilized by other mods.
+Some mods will rely on this one, and require it as a dependency, as it provides the content it contains. 
+
+It also acts as a compatibility patch for an ever-growing list of subclass mods:
+| Class   | Mod                          | Author         |
+|---------|------------------------------|----------------|
+| Fighter | Marksman                     | afftor         |
+| Monk    | Kensei                       | YuukaYunna     |
+| Monk    | Sun Soul                     | Kingdomyoshi   |
+| Warlock | Necromancer - Dread Overlord | dreadoverlord  |
+| Warlock | Hexblade                     | Feriat111      |
+| Warlock | Celestial                    | FluffyDragon24 |
+| Wizard  | War Magic                    | fierrof        |
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
