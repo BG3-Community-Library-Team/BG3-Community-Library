@@ -68,8 +68,7 @@ That's what this pack is here for! See how to use content from this library in y
 
 ## Installation
 This mod works with [Baldur's Gate 3 Mod Manager](https://github.com/LaughingLeader/BG3ModManager), and possible Vortex and Manual
-Installations.BG3 Mod Managers is by far the simplest
-method, and as such is recommended one.
+Installations. BG3 Mod Managers is by far the simplest method, and as such is recommended one.
 
 [![Compatible with Laughing Leader's Baldur's Gate 3 Mod Manager](https://i.imgur.com/qtdx2Yq.png)](https://github.com/LaughingLeader/BG3ModManager)
 
@@ -77,9 +76,11 @@ method, and as such is recommended one.
 1. Download the latest release, and unzip the .pak file.
 2. Open BG3 Mod Manager, click File->Import Mod
 3. Select CommunityLibrary.pak
-4. Once imported hit refresh
-5. Drag CommunityLibrary to the top of the Left pane
-6. Hit "Save Load Order to File"
+4. Do this again for CommunityLibraryDummies.pak
+5. Once imported hit refresh
+6. Drag CommunityLibrary to the top of the Left pane, but beneath any mods that add Subclasses
+7. Drag CommunityLibraryDummies to the very top of the Left pane
+8. Hit "Save Load Order to File"
 
 ## Recommended Mod Management Tools
 - [Laughing Leader's Mod Manager](https://github.com/LaughingLeader/BG3ModManager)
