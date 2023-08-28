@@ -1,0 +1,9 @@
+<!-- 
+    For any Localized Strings that are needed by the Sublass
+    compatability Part of the library, but doesn't work in
+    the CommunityLibraryDummies module.
+-->
+<contentList date="26/10/2019 01:10">
+  <!-- From Kensei Mod to avoid breaking things -->
+  <content contentuid="hc618e111g93b1g43d0g917bgd04ea82af8f6" version="1">Way of Kensei</content>
+</contentList>
