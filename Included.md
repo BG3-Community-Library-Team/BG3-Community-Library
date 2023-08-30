@@ -133,7 +133,7 @@
 ### Wizard
 - [Wizard Traditions - War Magic](https://www.nexusmods.com/baldursgate3/mods/924) by [fierrof](https://www.nexusmods.com/baldursgate3/users/466538)
 
-# 2.0.2.2
+# 2.0.3.0
 ## Passives
 - CL_AbilityDeterioration_Charisma
 - CL_AbilityDeterioration_Constitution
