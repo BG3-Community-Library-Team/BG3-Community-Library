@@ -140,9 +140,51 @@
 - CL_AbilityDeterioration_Dexterity
 - CL_AbilityDeterioration_Intelligence
 
+## Spells
+- CL_Target_AlterWeapon
+- CL_Target_AlterWeapon_Enflame
+- CL_Target_AlterWeapon_HealingStrike
+- CL_Target_AlterWeapon_HealingStrike_2
+- CL_Target_AlterWeapon_HealingStrike_Melee_Action
+- CL_Target_AlterWeapon_StaticBite
+- CL_Target_AlterWeapon_SwiftStrike
+- CL_Target_AlterWeapon_ScreamingCleave
+- CL_Target_AlterWeapon_ViscousTear
+- CL_Target_Lucksap
+- CL_Target_Lucksap_Foil
+- CL_Target_Lucksap_Fumble
+- CL_Target_Lucksap_Foul
+  
 ## Statuses
 - PACT_BLADE_STR
 - PACT_BLADE_DEX
 - PACT_BLADE_INT
 - PACT_BLADE_WIS
 - PACT_BLADE_CON
+- CL_STATUS_SPELLSTRIKE
+- CL_STATUS_ALTERWEAPON_ENFLAME
+- CL_STATUS_ALTERWEAPON_HEALINGSTRIKE
+- CL_STATUS_ALTERWEAPON_HEALINGSTRIKE_2
+- CL_STATUS_ALTERWEAPON_HEALINGSTRIKE_CASTER
+- CL_STATUS_ALTERWEAPON_STATICBITE
+- CL_STATUS_ALTERWEAPON_SWIFTTRIKE
+- CL_STATUS_ALTERWEAPON_SCREAMINGCLEAVE
+- CL_STATUS_ALTERWEAPON_VICIOUSTEAR
+- CL_STATUS_FOIL
+- CL_STATUS_FUMBLE
+- CL_STATUS_FOUL
+
+## Subclass Compatibility Patches
+
+### Bard
+- [Bard's Subclass - College of Glamour](https://www.nexusmods.com/baldursgate3/mods/741) by [Bonebreaker687](https://www.nexusmods.com/baldursgate3/users/9228502)
+
+### Cleric
+- [Cleric Subclasses - Release](https://www.nexusmods.com/baldursgate3/mods/432) by [beltavi](https://www.nexusmods.com/baldursgate3/users/6366410)
+  
+### Rogue
+- [Mastermind (Rogue Subclass)](https://www.nexusmods.com/baldursgate3/mods/1611) by [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)
+- [Mastermind (Rogues Extra Fullgameready)](https://www.nexusmods.com/baldursgate3/mods/189) by [lostsoulman](https://www.nexusmods.com/baldursgate3/users/55895062)
+
+### Wizard
+- [Expansion (Bladesinger Only)](https://www.nexusmods.com/baldursgate3/mods/279) by [DiZ91891](https://www.nexusmods.com/baldursgate3/users/57776731)
