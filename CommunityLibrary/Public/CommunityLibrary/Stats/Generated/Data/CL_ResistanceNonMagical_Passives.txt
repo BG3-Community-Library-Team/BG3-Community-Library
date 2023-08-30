@@ -50,6 +50,7 @@ new entry "CL_Passive_NecroticResistanceNonMagical"
 type "PassiveData"
 data "DisplayName" "h53f6cdf3gdc70g4847g8497ga284a55f451d"
 data "Description" "hb23f2c15g1156g4e44g9f9egb9b789865418"
+data "Icon" "GenericIcon_DamageType_Necrotic"
 data "Boosts" "Resistance(Necrotic, ResistantToNonMagical)"
 
 new entry "CL_Passive_LightningResistanceNonMagical"
