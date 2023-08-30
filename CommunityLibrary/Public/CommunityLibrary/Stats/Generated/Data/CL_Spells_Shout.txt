@@ -2,7 +2,7 @@
 new entry "CL_Shout_Spellstrike"
 type "SpellData"
 data "SpellType" "Shout"
-data "Icon" "unknown"
+data "Icon" "GenericIcon_DamageType_Force"
 data "Level" "2"
 data "SpellSchool" "Enchantment"
 data "DisplayName" "hb76ab008g2ab4g4fd2g8b99gb3573e3e7e33"
