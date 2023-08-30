@@ -55,3 +55,11 @@ new entry "CL_AbilityDeterioration_Intelligence"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Intelligence, -1)"
+
+// Misc Batch from AGtT
+new entry "CL_Passive_Spellstrike"
+type "PassiveData"
+data "DisplayName" "h8650857ag3b36g4bfdg8270g8b1ad613d9df"
+data "Description" "h310edba2gc8a3g4ed1g95f5g4dc2692eb452"
+data "StatsFunctors" "Force(2.5);"
+data "StatsFunctorContext" "OnAttack"
