@@ -68,7 +68,7 @@
           <attribute id="Name" type="LSString" value="Skeleton"/>
           <attribute id="PassivesAdded" type="LSString" value="Darkvision;CL_SkeletonResistance"/>
           <attribute id="ProgressionType" type="uint8" value="2"/>
-          <attribute id="Selectors" type="LSString" value="AddSpells(7b88446a-f86b-41ed-b746-44a6e7950b54,,,,AlwaysPrepared,UntilShortRest"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(7b88446a-f86b-41ed-b746-44a6e7950b54,,,,AlwaysPrepared,UntilShortRest)"/>
           <attribute id="TableUUID" type="guid" value="413b0749-12f7-494a-a4a3-bbf630d09e48"/>
           <attribute id="UUID" type="guid" value="4557ea74-7d63-4621-9198-f43d8a5e5d02"/>
         </node>

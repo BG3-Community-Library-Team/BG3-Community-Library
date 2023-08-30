@@ -2,4 +2,20 @@
   <content contentuid="h35069ed4g06a4g481ag8dfdg03963b207d18" version="1">Skeleton Key</content>
   <content contentuid="h7a726ec1g6911g4cadg8e91g36207c377083" version="1">You poke your finger into the lock, opening any lock.</content>
   <content contentuid="h234b5017g929bg4403g9031gdc09713fbb1a" version="1">Magically teleport up to 9m to an unoccupied space you can see.</content>
+  <content contentuid="hbd4ca9b4gf9b3g4f09gbdcbg3791f0d55c8a" version="1">Alter Weapon</content>
+  <content contentuid="hd582799ag1ab4g45fega132g97077fa1c873" version="1">While holding a melee weapon, you channel Magicka into it, altering its properties: Enflame: In addition to its regular attack, your weapon now deals an additional 1d6 Fire damage. | Healing Strike: Your weapon now heals its targets for the damage it would otherwise cause. Undead targets instead take the regular amount as Radiant damage. | Static Bite: Your weapon now deals an additional 1d7 Lightning damage. | Swift Strike: You have advantage on attack rolls with this weapon. | Screaming Cleave: Your weapon now deals an additional 1d6 Thunder damage. | Viscous Tear: Regardless of the weapon's damage type, it now deals an additional 1d8 Slashing damage.</content>
+  <content contentuid="hac303a04g7304g4347gb4bagf8c982a0d353" version="1">Enflame</content>
+  <content contentuid="h8fe35118gdf18g417ag9711g68cdfd0fdcde" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1]</content>
+  <content contentuid="hc5b32ab2g0c10g4e96ga8d0gdbfe5f463113" version="1">Healing Strike</content>
+  <content contentuid="hf9ad20bagea97g4d01g824dgf5a168ad40a4" version="1">While holding a weapon, you channel Magicka into it, altering its properties to be able to Heal targets for [1], or deal Radiant damage if undead.</content>
+  <content contentuid="he88ba08bg809bg4830gbeafge8436c004586" version="1">You may make a Weapon attack to Heal targets for [1], or deal the equivalent amount as Radiant damage to Undead targets.</content>
+  <content contentuid="h6bd5856egfa5bg451bg88bcgb4162c288d38" version="1">Static Bite</content>
+  <content contentuid="h09447d46gffc8g4cd8gb094gc6582f2a26c5" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1].</content>
+  <content contentuid="h9b72a2e1gbd32g4deag834fgc801ed961ab4" version="1">Swift Strike</content>
+  <content contentuid="ha903bd60g9b04g485bgafcdg0000814a42af" version="1">While holding a weapon, you channel Magicka into it, altering its properties to always give you Advantage when attacking.</content>
+  <content contentuid="h1518fe43gb8e7g4a7ag8eb4g257b6e516083" version="1">Screaming Cleave</content>
+  <content contentuid="hcc2fae69gf884g4f02g8f42g78463a46a68b" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1].</content>
+  <content contentuid="h0af79943g0d9ag4c81g8751g1490fd5c3cd8" version="1">Vicious Tear</content>
+  <content contentuid="h1b7862a6g4ae0g41aag85beg07a9ab8fd7fb" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1].</content>
+  <content contentuid="hadf69a32g4178g4b92ga206gb896e800b661" version="1">This Manifests itself as an extra Action in your hotbar.</content>
 </contentList>

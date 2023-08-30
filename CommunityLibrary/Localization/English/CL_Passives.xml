@@ -7,4 +7,6 @@
   <content contentuid="h5bcb3c31gc511g4bc3gbf7bgde64d29ab296" version="1">Blessing of the Raven Queen</content>
   <content contentuid="h6dc6d54fgbbdeg4b6cgadc8g3922b34328e3" version="1">You gain resistance to all damage until the start of your next turn after using Blessing of the Raven Queen.</content>
   <content contentuid="h944f4b4fg2729g407eg938bg212cef76a9ea" version="1">Intangible Summon.</content><!-- CL_IndestructibleSummon_AI_Ignore -->
+  <content contentuid="h8650857ag3b36g4bfdg8270g8b1ad613d9df" version="1">Spell Strike</content>
+  <content contentuid="h310edba2gc8a3g4ed1g95f5g4dc2692eb452" version="1">This character is able to add its Wisdom modifier for Melee and Ranged weapon attacks, and deals an additional 1d4 Force damage.</content>
 </contentList>

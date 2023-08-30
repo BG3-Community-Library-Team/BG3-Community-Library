@@ -1,4 +1,12 @@
 <contentList date="26/10/2020 01:10">
   <!-- CL27 - NellsRelo Mod Data-->
   <content contentuid="he532d929gb391g4befg918cgec1288843693" version="1">This creature has resistance to all damage until the start of its next turn.</content>
+  <content contentuid="h1874af3dg174dg4fb4g9ea3gc072156ffc69" version="1">This character is able to add its Wisdom modifier for Melee and Ranged weapon attacks, and deals an additional 1d4 Force damage.</content>
+  <!-- Moved from AGtT -->
+  <content contentuid="h4816023bg609eg4311gb7efg4cdde4a7fd5e" version="1">This weapon is magically sharpened.</content>
+  <content contentuid="h82584beeg2d5dg4888g8113g261ce593ff40" version="1">This weapon is covered in magical vibrations.</content>
+  <content contentuid="h013948degad3eg4b66gac01gbe90fa957b90" version="1">You have advantage on attack rolls while using this weapon.</content>
+  <content contentuid="hd06659ceg0129g43fdg8428gafbf9ca96f0a" version="1">This weapon is covered in magical electricity.</content>
+  <content contentuid="hfe18aba5ge8bcg431cga5fbgcf0664f0d99c" version="1">This weapon may heal [1] instead of damage.</content>
+  <content contentuid="h46aacc84gda5eg4397gb69cg22e26d34b881" version="1">This weapon is covered in magical fire.</content>
 </contentList>
