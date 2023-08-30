@@ -144,6 +144,9 @@
                   <attribute id="Object" type="guid" value="c4bd5252-d68a-4330-9431-5e8ab24c5f29"/>
                 </node>
                 <!-- Place Mod-added Subclass Nodes here --> 
+                <node id="SubClass"> <!-- College of Glamour by Bonebreaker687 -->
+                  <attribute id="Object" type="guid" value="3450a3cb-1831-4387-9214-70a9267b5a4b"/>
+                </node>
               </children>
             </node>
           </children>
@@ -183,7 +186,28 @@
                 <node id="SubClass">
                   <attribute id="Object" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6"/>
                 </node>
-                  <!-- Place Mod-added Subclass Nodes here --> 
+                  <!-- Place Mod-added Subclass Nodes here -->
+                <node id="SubClass"> <!-- Death Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="f0f90719-e27a-403a-b891-4d739b4bf589"/>
+                </node>
+                <node id="SubClass"> <!-- Forge Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="af5d4ccc-e144-41aa-9c92-325618fb1a76"/>
+                </node>
+                <node id="SubClass"> <!-- Grave Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="394a1640-4c1d-49e3-aedd-7cc4fa38fd0e"/>
+                </node>
+                <node id="SubClass"> <!-- Order Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="4d6f7d28-2f87-4012-aab2-71045c1f61ad"/>
+                </node>
+                <node id="SubClass"> <!-- Arcana Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="e7fc0b04-a1b6-4539-af0e-f309a76d2427"/>
+                </node>
+                <node id="SubClass"> <!-- Twilight Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="828350d9-d916-48fa-ad87-a531c03099cc"/>
+                </node>
+                <node id="SubClass"> <!-- Prace Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="edf303e8-f04b-4e7b-96f1-97624c977822"/>
+                </node>
               </children>
             </node>
           </children>
@@ -223,6 +247,27 @@
                   <attribute id="Object" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6"/>
                 </node>
                   <!-- Place Mod-added Subclass Nodes here --> 
+                <node id="SubClass"> <!-- Death Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="f0f90719-e27a-403a-b891-4d739b4bf589"/>
+                </node>
+                <node id="SubClass"> <!-- Forge Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="af5d4ccc-e144-41aa-9c92-325618fb1a76"/>
+                </node>
+                <node id="SubClass"> <!-- Grave Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="394a1640-4c1d-49e3-aedd-7cc4fa38fd0e"/>
+                </node>
+                <node id="SubClass"> <!-- Order Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="4d6f7d28-2f87-4012-aab2-71045c1f61ad"/>
+                </node>
+                <node id="SubClass"> <!-- Arcana Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="e7fc0b04-a1b6-4539-af0e-f309a76d2427"/>
+                </node>
+                <node id="SubClass"> <!-- Twilight Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="828350d9-d916-48fa-ad87-a531c03099cc"/>
+                </node>
+                <node id="SubClass"> <!-- Prace Domain by baltavi -->
+                  <attribute id="Object" type="guid" value="edf303e8-f04b-4e7b-96f1-97624c977822"/>
+                </node>
               </children>
             </node>
           </children>
@@ -373,6 +418,27 @@
                     <attribute id="Object" type="guid" value="b53a8061-f31d-4985-adfe-d4d691a918d9"/>
                   </node>
                   <!-- Place Mod-added Subclass Nodes here --> 
+                  <node id="SubClass"> <!-- Phantom by lostsoulman -->
+                    <attribute id="Object" type="guid" value="e4d07723-a782-4c77-8907-c225724e8cb2"/>
+                  </node>
+                  <node id="SubClass"> <!-- Inquisitive by lostsoulman -->
+                    <attribute id="Object" type="guid" value="30fa5210-8dac-4c7a-902c-453375ee31e2"/>
+                  </node>
+                  <node id="SubClass"> <!-- Mastermind by lostsoulman -->
+                    <attribute id="Object" type="guid" value="eeaf288b-96d4-474a-b061-8cdcb7f1aa8d"/>
+                  </node>
+                  <node id="SubClass"> <!-- Mastermind by Kingdomyoshi -->
+                    <attribute id="Object" type="guid" value="c869ae04-2560-463d-9fab-9c25411ee038"/>
+                  </node>
+                  <node id="SubClass"> <!-- Scout by lostsoulman -->
+                    <attribute id="Object" type="guid" value="77b17b01-df39-474d-bfe8-34678ea5277f"/>
+                  </node>
+                  <node id="SubClass"> <!-- Soulknife by lostsoulman -->
+                    <attribute id="Object" type="guid" value="fdc1d56d-17b5-4830-ab40-d49330b87b4b"/>
+                  </node>
+                  <node id="SubClass"> <!-- Swashbuckler by lostsoulman -->
+                    <attribute id="Object" type="guid" value="5f88f78b-2884-4434-9a7a-27c961183b15"/>
+                  </node>
                 </children>
               </node>
           </children>
@@ -550,6 +616,9 @@
                   <!-- Place Mod-added Subclass Nodes here --> 
                   <node id="SubClass"> <!-- Wizard Traditions - War Magic by fierrof -->
                     <attribute id="Object" type="guid" value="bec3ead5-a59a-4241-b778-27fb17f28e54"/>
+                  </node>
+                  <node id="SubClass"> <!-- Expansion (Bladesinger Only) by DiZ91891 -->
+                    <attribute id="Object" type="guid" value="3fd79523-a973-4373-a973-732344acc959"/>
                   </node>
                 </children>
               </node>
