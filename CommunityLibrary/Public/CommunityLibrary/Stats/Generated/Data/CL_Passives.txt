@@ -70,13 +70,11 @@ data "StatsFunctors" "Force(2.5);"
 data "StatsFunctorContext" "OnAttack"
 
 // Donated by MailMe from their Death Knight Mod
-new entry "CL_NecroRes"
+new entry "CL_DK_NecroRes"
 type "PassiveData"
-data "DisplayName" "hcd3a67eag4adbg4153g9ce9g822e5cfd65d5;1"
-data "Description" "he8fd6620g4874g4c6cgbff6g2f6d4bbd144a;1"
+using CL_Passive_NecroticResistance
 data "Icon" "Mailme_DK_Disintegrate"
 data "Properties" "Highlighted"
-data "Boosts" "Resistance(Necrotic,Resistant)"
 
 new entry "CL_BoneCage"
 type "PassiveData"

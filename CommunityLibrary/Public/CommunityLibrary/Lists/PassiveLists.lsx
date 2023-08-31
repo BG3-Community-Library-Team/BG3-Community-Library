@@ -5,7 +5,7 @@
     <node id="root">
       <children>
         <node id="PassiveList"> <!-- Death Knight - MailMe -->
-          <attribute id="Passives" type="LSString" value="CL_NecroRes"/>
+          <attribute id="Passives" type="LSString" value="CL_DK_NecroRes"/>
           <attribute id="UUID" type="guid" value="bb09a5f6-a14f-4aaa-a278-55f7fc7bc22a"/>
         </node>
         <node id="PassiveList"> <!-- Death Knight - MailMe -->
