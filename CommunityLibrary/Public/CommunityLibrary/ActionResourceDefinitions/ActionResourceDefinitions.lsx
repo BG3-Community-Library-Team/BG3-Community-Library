@@ -13,6 +13,20 @@
           <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
           <attribute id="UUID" type="guid" value="aa939ea4-fca0-4db2-8828-d9402dc72d45"/>
         </node>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="99d7b8be73b16957796985f19d597e5b6cb0c" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="99d7b8be73b16957796985f19d597e5b6cb0c" version="1"/>
+          <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
+          <attribute id="IsSpellResource" type="bool" value="false"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="MaxValue" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="Spite"/>
+          <attribute id="PartyActionResource" type="bool" value="false"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="ad424027-b2ea-4d05-8366-77b8e340b1de"/>
+          <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+        </node>
       </children>
     </node>
   </region>
