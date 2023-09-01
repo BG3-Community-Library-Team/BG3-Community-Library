@@ -365,6 +365,9 @@
                   <node id="SubClass"> <!-- Sun Soul by Kingdomyoshi -->
                     <attribute id="Object" type="guid" value="62db00d9-2298-43a3-9fd8-64cdfed3a0df"/>
                   </node>
+                  <node id="SubClass"> <!-- Mercy by PlatypusVenom -->
+                    <attribute id="Object" type="guid" value="54bdda89-b5a1-4f4e-9366-3057b079613f"/>
+                  </node>
                 </children>
               </node>
           </children>
