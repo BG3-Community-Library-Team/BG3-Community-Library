@@ -14,6 +14,9 @@
           <attribute id="RaceSoundSwitch" type="FixedString" value="Elf"/>
           <attribute id="UUID" type="guid" value="27844147-3e0f-4b2e-8377-8d015b8384df"/>
           <children>
+            <node id="Tags">
+              <attribute id="Object" type="guid" value="18e053a8-3887-4ffa-9315-8e188572e4a4"/>
+            </node>
             <node id="MakeupColors">
                 <attribute id="Object" type="guid" value="2d0b5625-5820-4e1e-a239-7c1ccfc2e1a0"/>
             </node>
