@@ -427,6 +427,9 @@
                   <node id="SubClass"> <!-- Inquisitive by lostsoulman -->
                     <attribute id="Object" type="guid" value="30fa5210-8dac-4c7a-902c-453375ee31e2"/>
                   </node>
+                  <node id="SubClass"> <!-- Inquisitive by Kingdomyoshi -->
+                    <attribute id="Object" type="guid" value="dd277e29-a530-433f-92b8-3a1a212fcc88"/>
+                  </node>
                   <node id="SubClass"> <!-- Mastermind by lostsoulman -->
                     <attribute id="Object" type="guid" value="eeaf288b-96d4-474a-b061-8cdcb7f1aa8d"/>
                   </node>
@@ -441,6 +444,12 @@
                   </node>
                   <node id="SubClass"> <!-- Swashbuckler by lostsoulman -->
                     <attribute id="Object" type="guid" value="5f88f78b-2884-4434-9a7a-27c961183b15"/>
+                  </node>
+                  <node id="SubClass"> <!-- Swashbuckler by wesslen -->
+                    <attribute id="Object" type="guid" value="3ba354bc-1a05-43c8-9e7f-ebdc971a4708"/>
+                  </node>
+                  <node id="SubClass"> <!-- Swashbuckler* by wesslen -->
+                    <attribute id="Object" type="guid" value="e23f6e6b-7317-4f1c-90d5-f40bd9f2fbe1"/>
                   </node>
                 </children>
               </node>

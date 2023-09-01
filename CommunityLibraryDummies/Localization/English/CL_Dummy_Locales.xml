@@ -92,8 +92,12 @@
   <content contentuid="h958ffa92g50c9g4cf5g9494gd0a8f27d49e0" version="1">The Phantom Subclass is not currently installed. To use this Subclass, you must download the mod Rogues Extra FullGameReady by lostsoulman, which can be found here: https://www.nexusmods.com/baldursgate3/mods/189.
   
   If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
-  <content contentuid="h14d2a95fg4077g421egac9agd43cf10254f8" version="1">(Not Installed) Inquisitive</content>
+  <content contentuid="h14d2a95fg4077g421egac9agd43cf10254f8" version="1">(Not Installed) Inquisitive (lostsoulman)</content>
   <content contentuid="h2c50484egf465g4d09g9453g727c6e4f1317" version="1">The Inquisitive Subclass is not currently installed. To use this Subclass, you must download the mod Rogues Extra FullGameReady by lostsoulman, which can be found here: https://www.nexusmods.com/baldursgate3/mods/189.
+  
+  If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
+  <content contentuid="h14d2a95fg4077g421egac9agd43cf10254f8" version="1">(Not Installed) Inquisitive (Kingdomyoshi) </content>
+  <content contentuid="h2c50484egf465g4d09g9453g727c6e4f1317" version="1">The Inquisitive Subclass is not currently installed. To use this Subclass, you must download the mod Inquisitive (Rogue Subclass) by Kingdomyoshi, which can be found here: https://www.nexusmods.com/baldursgate3/mods/1728.
   
   If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
   <content contentuid="h9efbf4aag235fg4d51g9d2ag334b8025e112" version="1">(Not Installed) Mastermind (lostsoulman)</content>
@@ -112,8 +116,16 @@
   <content contentuid="hbb46a62fg6784g4303g8acag17c6f679f7fd" version="1">The Soulknife Subclass is not currently installed. To use this Subclass, you must download the mod Rogues Extra FullGameReady by lostsoulman, which can be found here: https://www.nexusmods.com/baldursgate3/mods/189.
   
   If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
-  <content contentuid="hef710679g8c20g4be2g8b92g32b33a15dc4d" version="1">(Not Installed) Swashbuckler</content>
+  <content contentuid="hef710679g8c20g4be2g8b92g32b33a15dc4d" version="1">(Not Installed) Swashbuckler (lostsoulman)</content>
   <content contentuid="h14ac1fd7g0728g4cbcg9e8cgce6230253685" version="1">The Swashbuckler Subclass is not currently installed. To use this Subclass, you must download the mod Rogues Extra FullGameReady by lostsoulman, which can be found here: https://www.nexusmods.com/baldursgate3/mods/189.
+  
+  If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
+  <content contentuid="hef710679g8c20g4be2g8b92g32b33a15dc4d" version="1">(Not Installed) Swashbuckler (wesslen)</content>
+  <content contentuid="h14ac1fd7g0728g4cbcg9e8cgce6230253685" version="1">The Swashbuckler Subclass is not currently installed. To use this Subclass, you must download the mod Swashbuckler by wesslen, which can be found here: https://www.nexusmods.com/baldursgate3/mods/507.
+  
+  If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
+  <content contentuid="hef710679g8c20g4be2g8b92g32b33a15dc4d" version="1">(Not Installed) Swashbuckler* (wesslen)</content>
+  <content contentuid="h14ac1fd7g0728g4cbcg9e8cgce6230253685" version="1">The Swashbuckler* Subclass is not currently installed. To use this Subclass, you must download the mod Swashbuckler by wesslen, which can be found here: https://www.nexusmods.com/baldursgate3/mods/507.
   
   If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
 </contentList>

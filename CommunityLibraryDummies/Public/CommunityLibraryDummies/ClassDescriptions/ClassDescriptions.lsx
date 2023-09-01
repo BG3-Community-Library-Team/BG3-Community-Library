@@ -307,6 +307,32 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="0"/>
                     <attribute id="UUID" type="guid" value="5f88f78b-2884-4434-9a7a-27c961183b15"/>
                 </node>
+                <node id="ClassDescription"> <!-- Swashbuckler by wesslen -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h14ac1fd7g0728g4cbcg9e8cgce6230253685" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hef710679g8c20g4be2g8b92g32b33a15dc4d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="DWE_UASwashbuckler"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="43c75b78-757b-4875-9932-427bc95278a0"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="3ba354bc-1a05-43c8-9e7f-ebdc971a4708"/>
+                </node>
+                <node id="ClassDescription"> <!-- Swashbuckler* by wesslen -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h14ac1fd7g0728g4cbcg9e8cgce6230253685" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hef710679g8c20g4be2g8b92g32b33a15dc4d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="DWE_UASwashbucklerX"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="43c75b78-757b-4875-9932-427bc95278a0"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="e23f6e6b-7317-4f1c-90d5-f40bd9f2fbe1"/>
+                </node>
                 <node id="ClassDescription"> <!-- Mastermind by Kingdomyoshi -->
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h1637de77g8c01g4d08g9a18g16fe07d003a9" version="2"/>
@@ -319,6 +345,19 @@
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="0"/>
                     <attribute id="UUID" type="guid" value="c869ae04-2560-463d-9fab-9c25411ee038"/>
+                </node>
+                <node id="ClassDescription"> <!-- Inquisitive by Kingdomyoshi -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h2c50484egf465g4d09g9453g727c6e4f1317" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h14d2a95fg4077g421egac9agd43cf10254f8" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Inquisitive"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="43c75b78-757b-4875-9932-427bc95278a0"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="dd277e29-a530-433f-92b8-3a1a212fcc88"/>
                 </node>
 
                 <!-- Sorcerer Dummies - Default to Storm -->
