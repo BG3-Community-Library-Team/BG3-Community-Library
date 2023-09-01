@@ -52,4 +52,6 @@
   <content contentuid="h96627ba0gb7deg4d7cg8a8bg06978375f49e" version="1">You are resistant to Bludgeoning damage.</content>
   <content contentuid="h9d4a0716gce96g43e8gb439g1e4356383243" version="1">The creature you touch is branded with an ancient inscription, granting them resistance to all Bludgeoning damage for 10 minutes.</content>
   <content contentuid="h5567e608gafccg4881gb7cfgabb487e33ad8" version="1">The target of this spell becomes very physically beautiful. A subtle glow surrounds the target in darkness or shadows, and tiny motes of light cling to them in daylight. The target gains advantage on any Charisma checks.</content>
+  <content contentuid="h991644b5g2a46g44e7gba7cg45daf9ec2b5b" version="1">HeartStrike</content> 
+  <content contentuid="ha91ed8ddged86g447agb8aag6363f3a8ee17" version="1">Strike your foes to gain temp hp equal to your Level plus Wisdom Modifier</content>
 </contentList>
