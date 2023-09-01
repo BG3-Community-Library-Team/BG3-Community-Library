@@ -6,7 +6,7 @@
       <children>
         <node id="SpellList"> <!-- ShadarKai - NellsRelo -->
           <attribute id="Comment" type="LSString" value="Raven Queen's Blessing Ability"/>
-          <attribute id="Spells" type="LSString" value="CL_Target_RavenQueenBlessing;CL_Target_Muffle;CL_Shout_FireShield;CL_Shout_Nightshield;CL_Shout_Spelldrinker;CL_Teleportation_ProjectObject"/>
+          <attribute id="Spells" type="LSString" value="CL_Target_RavenQueenBlessing"/>
           <attribute id="UUID" type="guid" value="cdea5ca8-e43f-4830-a265-76fec11ab79a"/>
         </node>
         <node id="SpellList"> <!-- Playable Skeletons - NellsRelo -->

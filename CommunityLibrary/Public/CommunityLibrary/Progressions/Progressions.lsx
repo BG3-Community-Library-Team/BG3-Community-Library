@@ -265,7 +265,7 @@
                 <node id="SubClass"> <!-- Twilight Domain by baltavi -->
                   <attribute id="Object" type="guid" value="828350d9-d916-48fa-ad87-a531c03099cc"/>
                 </node>
-                <node id="SubClass"> <!-- Prace Domain by baltavi -->
+                <node id="SubClass"> <!-- Peace Domain by baltavi -->
                   <attribute id="Object" type="guid" value="edf303e8-f04b-4e7b-96f1-97624c977822"/>
                 </node>
               </children>
@@ -427,7 +427,7 @@
                   <node id="SubClass"> <!-- Inquisitive by lostsoulman -->
                     <attribute id="Object" type="guid" value="30fa5210-8dac-4c7a-902c-453375ee31e2"/>
                   </node>
-                  <node id="SubClass"> <!-- Inquisitive by Kingdomyoshi -->
+                  <node id="SubClass">  <!-- Inquisitive by Kingdomyoshi -->
                     <attribute id="Object" type="guid" value="dd277e29-a530-433f-92b8-3a1a212fcc88"/>
                   </node>
                   <node id="SubClass"> <!-- Mastermind by lostsoulman -->
@@ -445,7 +445,7 @@
                   <node id="SubClass"> <!-- Swashbuckler by lostsoulman -->
                     <attribute id="Object" type="guid" value="5f88f78b-2884-4434-9a7a-27c961183b15"/>
                   </node>
-                  <node id="SubClass"> <!-- Swashbuckler by wesslen -->
+                  <node id="SubClass">  <!--  Swashbuckler by wesslen --> 
                     <attribute id="Object" type="guid" value="3ba354bc-1a05-43c8-9e7f-ebdc971a4708"/>
                   </node>
                   <node id="SubClass"> <!-- Swashbuckler* by wesslen -->
@@ -632,9 +632,9 @@
                   <node id="SubClass"> <!-- Expansion (Bladesinger Only) by DiZ91891 -->
                     <attribute id="Object" type="guid" value="3fd79523-a973-4373-a973-732344acc959"/>
                   </node>
-                  <node id="SubClass"> <!-- Sorcerey Arcane Tradition by fmsette -->
+                  <!--node id="SubClass"> <!-- Sorcerey Arcane Tradition by fmsette -->
                     <attribute id="Object" type="guid" value="6aa381bc-3dc2-11ee-be56-0242ac120002"/>
-                  </node>
+                  </node-->
                 </children>
               </node>
           </children>
