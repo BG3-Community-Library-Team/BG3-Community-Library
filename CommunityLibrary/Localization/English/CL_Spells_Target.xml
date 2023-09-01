@@ -3,20 +3,20 @@
   <content contentuid="h7a726ec1g6911g4cadg8e91g36207c377083" version="1">You poke your finger into the lock, opening any lock.</content>
   <content contentuid="h234b5017g929bg4403g9031gdc09713fbb1a" version="1">Magically teleport up to 9m to an unoccupied space you can see.</content>
   <content contentuid="hbd4ca9b4gf9b3g4f09gbdcbg3791f0d55c8a" version="1">Alter Weapon</content>
-  <content contentuid="hd582799ag1ab4g45fega132g97077fa1c873" version="1">While holding a melee weapon, you channel Magicka into it, altering its properties: Enflame: In addition to its regular attack, your weapon now deals an additional 1d6 Fire damage. | Healing Strike: Your weapon now heals its targets for the damage it would otherwise cause. Undead targets instead take the regular amount as Radiant damage. | Static Bite: Your weapon now deals an additional 1d7 Lightning damage. | Swift Strike: You have advantage on attack rolls with this weapon. | Screaming Cleave: Your weapon now deals an additional 1d6 Thunder damage. | Viscous Tear: Regardless of the weapon's damage type, it now deals an additional 1d8 Slashing damage.</content>
+  <content contentuid="hd582799ag1ab4g45fega132g97077fa1c873" version="1">While holding a melee weapon, you channel magic into it, altering its properties: Enflame: In addition to its regular attack, your weapon now deals an additional 1d6 Fire damage. | Healing Strike: Your weapon now heals its targets for the damage it would otherwise cause. Undead targets instead take the regular amount as Radiant damage. | Static Bite: Your weapon now deals an additional 1d7 Lightning damage. | Swift Strike: You have advantage on attack rolls with this weapon. | Screaming Cleave: Your weapon now deals an additional 1d6 Thunder damage. | Viscous Tear: Regardless of the weapon's damage type, it now deals an additional 1d8 Slashing damage.</content>
   <content contentuid="hac303a04g7304g4347gb4bagf8c982a0d353" version="1">Enflame</content>
-  <content contentuid="h8fe35118gdf18g417ag9711g68cdfd0fdcde" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1]</content>
+  <content contentuid="h8fe35118gdf18g417ag9711g68cdfd0fdcde" version="1">While holding a weapon, you channel magic into it, altering its properties to deal an additional [1]</content>
   <content contentuid="hc5b32ab2g0c10g4e96ga8d0gdbfe5f463113" version="1">Healing Strike</content>
-  <content contentuid="hf9ad20bagea97g4d01g824dgf5a168ad40a4" version="1">While holding a weapon, you channel Magicka into it, altering its properties to be able to Heal targets for [1], or deal Radiant damage if undead.</content>
+  <content contentuid="hf9ad20bagea97g4d01g824dgf5a168ad40a4" version="1">While holding a weapon, you channel magic into it, altering its properties to be able to Heal targets for [1], or deal Radiant damage if undead.</content>
   <content contentuid="he88ba08bg809bg4830gbeafge8436c004586" version="1">You may make a Weapon attack to Heal targets for [1], or deal the equivalent amount as Radiant damage to Undead targets.</content>
   <content contentuid="h6bd5856egfa5bg451bg88bcgb4162c288d38" version="1">Static Bite</content>
-  <content contentuid="h09447d46gffc8g4cd8gb094gc6582f2a26c5" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1].</content>
+  <content contentuid="h09447d46gffc8g4cd8gb094gc6582f2a26c5" version="1">While holding a weapon, you channel magic into it, altering its properties to deal an additional [1].</content>
   <content contentuid="h9b72a2e1gbd32g4deag834fgc801ed961ab4" version="1">Swift Strike</content>
-  <content contentuid="ha903bd60g9b04g485bgafcdg0000814a42af" version="1">While holding a weapon, you channel Magicka into it, altering its properties to always give you Advantage when attacking.</content>
+  <content contentuid="ha903bd60g9b04g485bgafcdg0000814a42af" version="1">While holding a weapon, you channel magic into it, altering its properties to always give you Advantage when attacking.</content>
   <content contentuid="h1518fe43gb8e7g4a7ag8eb4g257b6e516083" version="1">Screaming Cleave</content>
-  <content contentuid="hcc2fae69gf884g4f02g8f42g78463a46a68b" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1].</content>
+  <content contentuid="hcc2fae69gf884g4f02g8f42g78463a46a68b" version="1">While holding a weapon, you channel magic into it, altering its properties to deal an additional [1].</content>
   <content contentuid="h0af79943g0d9ag4c81g8751g1490fd5c3cd8" version="1">Vicious Tear</content>
-  <content contentuid="h1b7862a6g4ae0g41aag85beg07a9ab8fd7fb" version="1">While holding a weapon, you channel Magicka into it, altering its properties to deal an additional [1].</content>
+  <content contentuid="h1b7862a6g4ae0g41aag85beg07a9ab8fd7fb" version="1">While holding a weapon, you channel magic into it, altering its properties to deal an additional [1].</content>
   <content contentuid="hadf69a32g4178g4b92ga206gb896e800b661" version="1">This Manifests itself as an extra Action in your hotbar.</content>
   <content contentuid="hfd9fbc4egcaabg4d26ga986g6a3cf65ef932" version="1">Lucksap</content>
   <content contentuid="h2f97f2bag2cedg451agab31g05591f4979d1" version="1">When you cast this spell, you bestow a minor curse on a creature you can see within range. That creature must make a successful Wisdom saving throw, or suffer your choice of on of the following effects for the duration: Foil: The target has disadvantage on Intelligence and Wisdom saving throws. | Fumble: The target has disadvantage on Attack rolls. | Foul: Whenever the target is attacked, they deal an extra [1].</content>
@@ -29,4 +29,27 @@
   <content contentuid="h2d00c05ag4854g48b3g9aaag1f0efc0c7763" version="1">Foul</content>
   <content contentuid="h3b99d74egb2bfg4b6eg83b3gd4b59f8e1b53" version="1">Whenever this creature is attacked, it takes additional damage.</content>
   <content contentuid="h578af80bg5ec9g4174gadceg5a4b742a7f90" version="1">Whenever the target is attacked, it takes [1].</content>
+  <content contentuid="h6ccf0c85gdc55g4596g90c1gbc45c6d7a222" version="1">Bravery</content>
+  <content contentuid="h0b675858ga668g4da9g845egc2c7bdc2c5a3" version="1">This charater has advantage on all saving throws against being Frightened.</content>
+  <content contentuid="hcae3dba6g66d0g4f1bg8077g507addbc5487" version="1">When you cast this spell, a glittering mantle of courage settles upon a creature you touch. The target has advantage on saving throws against being frightened for the duration.</content>
+  <content contentuid="h01828aa6gea5bg4fa7gbbc0g92d5ed31fe51" version="1">Spike Growth</content>
+  <content contentuid="h581722bbgb7b9g4b81ga35dg951264bdf258" version="1">The ground twists and sprouts hard spikes and thorns. The area is covered in thorny vines for the duration of the spell.</content>
+  <content contentuid="heb0249a6gc1bag4292gb636geabc3e42be7c" version="1">Thundering Armor</content>
+  <content contentuid="h72a65006g3bd8g4d09gadfdg7c7a5c941ca2" version="1">You infuse a creature's armor or clothing with pulsing energy, increasing its protection by +2 AC.</content>
+  <content contentuid="h3c1867ecg2570g4c3cga989gd89b5e104cc7" version="1">The target also gains the ability sacrifice the spell's effects to blast nearby enemies away.</content>
+  <content contentuid="hae17cadeg0d13g4efcgab76g6313e3db81b4" version="1">Release Energy</content>
+  <content contentuid="h917114bfg780cg4787ga38ag1953c354fe71" version="1">You release the energy pulsing through your armor from the Thundering Armor into a single creature, dealing [1] and pushing them away.</content>
+  <content contentuid="h7ab24283g959bg4fe2g868aga7345a5ad519" version="1">Release Energy (Area)</content>
+  <content contentuid="ha257b8aegdd61g43d2gbc90g33242b215c9c" version="1">You release the energy pulsing through your armor from the Thundering Armor, dealing force damage and pushing away nearby creatures.</content>
+  <content contentuid="h8198fc32g499fg401ag975eg9d35bf711345" version="1">Misdirected Mark</content>
+  <content contentuid="h805bbf01gf211g4215g8ad9ge54594b12e81" version="1">You conceal your arcane attack, mentally influencing your foe into both believing the attack came from one of your allies, and focusing on that ally obsessively. Make a ranged spell attack against a target within range. On a hit, the target takes [1]. As a free action, you choose an Ally who this target will believe made the attack.</content>
+  <content contentuid="h392ef12ag8001g4e8cgb07cg7f5374f0e4fc" version="1">Mark Ally</content>
+  <content contentuid="hb733faddg6852g45c3ga96fgb491d85b310d" version="1">Using this unlocks a free action to mark an ally.</content>
+  <content contentuid="hf9a9f86cg511eg4b2fg984bgcf4739576e84" version="1">Mark an Ally. The target of Misdirected Mark will not have disadvantage on Attack Rolls against this target.</content>
+  <content contentuid="hfe63dd0eg49b9g4fe3gbc44gfcca5adc019c" version="1">Muffle</content>
+  <content contentuid="he6d4dac1g73aeg46b5g8ba9gd2c5fb511911" version="1">For the duration, all sound created by a target creature or object that you can see within range is muffled. Creatures affected have advantage on any stealth roll.</content>
+  <content contentuid="h7d3d70afg88b6g4403g9d58g30dec833dd83" version="1">Lesser Ward</content>
+  <content contentuid="h96627ba0gb7deg4d7cg8a8bg06978375f49e" version="1">You are resistant to Bludgeoning damage.</content>
+  <content contentuid="h9d4a0716gce96g43e8gb439g1e4356383243" version="1">The creature you touch is branded with an ancient inscription, granting them resistance to all Bludgeoning damage for 10 minutes.</content>
+  <content contentuid="h5567e608gafccg4881gb7cfgabb487e33ad8" version="1">The target of this spell becomes very physically beautiful. A subtle glow surrounds the target in darkness or shadows, and tiny motes of light cling to thm in daylought. The target gains advantage on any Charisma checks.</content>
 </contentList>

@@ -1,0 +1,21 @@
+<contentList date="08/24/2023 01:10">
+  <content contentuid="h53662f6fg863dg4684gb425gb2355bc8023a" version="1">Candlelight</content>
+  <content contentuid="hc42a9957g5559g4088g9eafg53dcfe1539c9" version="1">A magical light follows your every move.</content>
+  <content contentuid="h32e80497gbd1ag49a7g9e68g8932d7ff43f8" version="1">Dismiss Candlelight</content>
+  <content contentuid="h374e8c0bgb794g4e36g8fbbg28c7f1b7885e" version="1">Allow the Candlelight spell to fade.</content>
+  <content contentuid="h1249de57g9339g44eag905bgd25ed6cb6925" version="1">Magesoap</content>
+  <content contentuid="hb66c3785g9b09g4bf8gbc4agee11d8fd566e" version="1">A creature you touch is cleansed of all dirt and grime. The target regains [1], and has advantage on Charisma checks.</content>
+  <content contentuid="hff8fafd2gb71dg4f34g84b6gfdae7081cb47" version="1">Project Object</content>
+  <content contentuid="h83949c3egba87g4ae6g85f5g8430fe91bfd7" version="1">Your force of will moves any nearby object a short distance away.</content>
+  <content contentuid="h7ea34630gb77fg425bg8690ge56d606c9feb" version="1">Earwig</content>
+  <content contentuid="h8f768cc5g64f3g41ecga859g19b7a6b66262" version="1">This creature has disadvantage on Perception checks.</content>
+  <content contentuid="hdd8ddf67g6da7g469cgad20g62d4a59a224d" version="1">You cause a song, thought, or story to get stuck in a single creature within range's head. For the duration of the spell, the creature has disadvantage on Perception rolls.</content>
+  <content contentuid="hec3896cbg0446g4a71gb804g996da1d413a2" version="1">Fleabite</content>
+  <content contentuid="haac6047dg7df9g4446ga294gc1e176110a93" version="1">A creature that you can see, within 10ft, takes [1].</content>
+  <content contentuid="hd18d552eg12adg4a1ag9174gbb4943d644a7" version="1">Frostwind Blade</content>
+  <content contentuid="h5c7c1146g954fg444dgb950g07a45d461c8d" version="1">Magical ice encrusts your weapon, causing its attack to deal Cold damage.</content>
+  <content contentuid="ha9a599a3g04aag4553gb879gfbac33b413dd" version="1">Chill</content>
+  <content contentuid="h910a5465g4709g44d0gbc47g3ea332b4f31b" version="1">The Target begins to feel unnaturally cold. Unless they are resistant to cold damage, they will become chilled and distracted, giving them disadvantage on Perception checks.</content>
+  <content contentuid="ha893fa2dga107g43ccg9ed2geeafea14cf0c" version="1">Melt</content>
+  <content contentuid="h49060678ge152g4d7ega334gb744bea23403" version="1">Your hands become unnaturally warm. You may touch someone to deal [1]. The target also loses the Chilled status, if they already had it.</content>
+</contentList>
