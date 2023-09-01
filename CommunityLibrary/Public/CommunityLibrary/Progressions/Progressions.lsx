@@ -632,9 +632,9 @@
                   <node id="SubClass"> <!-- Expansion (Bladesinger Only) by DiZ91891 -->
                     <attribute id="Object" type="guid" value="3fd79523-a973-4373-a973-732344acc959"/>
                   </node>
-                  <!--node id="SubClass"> <!-- Sorcerey Arcane Tradition by fmsette -->
+                  <node id="SubClass"> <!--Sorcerey Arcane Tradition by fmsette -->
                     <attribute id="Object" type="guid" value="6aa381bc-3dc2-11ee-be56-0242ac120002"/>
-                  </node-->
+                  </node>
                 </children>
               </node>
           </children>
