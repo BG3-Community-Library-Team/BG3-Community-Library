@@ -214,6 +214,19 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
                     <attribute id="UUID" type="guid" value="62db00d9-2298-43a3-9fd8-64cdfed3a0df"/>
                 </node>
+                <node id="ClassDescription"> <!-- Mercy by PlatypusVenom -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hb2b77551gd842g4c6cgba1cg8cd752a8066c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h178b6920g9c39g403eg900age572af0c923f" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SunSoul"/> 
+                    <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="54bdda89-b5a1-4f4e-9366-3057b079613f"/>
+                </node>
 
                 <!-- Rogue Dummies - Default to Assassin -->
                 <node id="ClassDescription"> <!-- Phantom by lostsoulman -->
