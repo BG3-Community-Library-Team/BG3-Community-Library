@@ -22,6 +22,14 @@
           <attribute id="Spells" type="LSString" value="CL_Shout_Spite"/> 
           <attribute id="UUID" type="guid" value="6673fc08-4751-4d9a-9028-9f6fd73a7edb"/>
         </node>
+        <node id="SpellList"> <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Target_HoldPerson"/> 
+          <attribute id="UUID" type="guid" value="99d330e3-b525-41fe-93a0-eceabebfd827"/>
+        </node>
+        <node id="SpellList"> <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Projectile_Fireball"/> 
+          <attribute id="UUID" type="guid" value="afa8e343-4b99-4ff8-9cb2-27ff880778dd"/>
+        </node>
       </children>
     </node>
   </region>

@@ -27,6 +27,18 @@
           <attribute id="UUID" type="guid" value="ad424027-b2ea-4d05-8366-77b8e340b1de"/>
           <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
         </node>
+        <node id="ActionResourceDefinition">
+          <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_4_Error"/>
+          <attribute id="IsSpellResource" type="bool" value="false"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="MaxValue" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="DK_Hold"/>
+          <attribute id="PartyActionResource" type="bool" value="false"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="ad424027-b2ea-4d05-8366-77b8e340b1de"/>
+          <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+        </node>
       </children>
     </node>
   </region>

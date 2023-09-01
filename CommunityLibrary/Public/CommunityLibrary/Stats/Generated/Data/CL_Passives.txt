@@ -72,7 +72,7 @@ data "StatsFunctorContext" "OnAttack"
 // Donated by MailMe from their Death Knight Mod
 new entry "CL_DK_NecroRes"
 type "PassiveData"
-using CL_Passive_NecroticResistance
+using "CL_Passive_NecroticResistance"
 data "Icon" "Mailme_DK_Disintegrate"
 data "Properties" "Highlighted"
 
