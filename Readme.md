@@ -20,27 +20,7 @@ models, textures, sounds, etc.
 ## For Players:
 Some mods will rely on this one, and require it as a dependency, as it provides the content it contains. 
 
-It also acts as a compatibility patch for an ever-growing list of subclass mods:
-| Class   | Mod                          | Author         |
-|---------|------------------------------|----------------|
-| Bard | [College of Glamour](https://www.nexusmods.com/baldursgate3/mods/741)| [Bonebreaker687](https://www.nexusmods.com/baldursgate3/users/9228502)         |
-| Cleric | [Cleric Subclasses](https://www.nexusmods.com/baldursgate3/mods/432)| [baltavi](https://www.nexusmods.com/baldursgate3/users/6366410)         |
-| Fighter | [Marksman](https://www.nexusmods.com/baldursgate3/mods/1278)| [afftor](https://www.nexusmods.com/baldursgate3/users/968899)         |
-| Fighter | [Diamon's Mystic Manual Subclasses](https://www.nexusmods.com/baldursgate3/mods/1599)| [Backburner26](https://www.nexusmods.com/baldursgate3/users/19603604)|
-| Monk    | [Kensei](https://www.nexusmods.com/baldursgate3/mods/1330)| [YuukaYunna](https://www.nexusmods.com/baldursgate3/users/45490107)     |
-| Monk    | [Sun Soul](https://www.nexusmods.com/baldursgate3/mods/1467)| [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)   |
-| Monk    | [Way of Mercy](https://www.nexusmods.com/baldursgate3/mods/1749)| [PlatypusVenom](https://www.nexusmods.com/users/159098228)   |
-| Rogue   | [Mastermind](https://www.nexusmods.com/baldursgate3/mods/1611)| [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)   |
-| Rogue   | [Inquisitive](https://www.nexusmods.com/baldursgate3/mods/1728)| [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)   |
-| Rogue   | [Swashbuckler](https://www.nexusmods.com/baldursgate3/mods/507)| [wesslen](https://www.nexusmods.com/baldursgate3/users/89809)   |
-| Rogue   | [Rogues Extra](https://www.nexusmods.com/baldursgate3/mods/189)| [lostsoulman](https://www.nexusmods.com/baldursgate3/users/55895062)   |
-| Sorcerer| [Shadow Sorcery](https://www.nexusmods.com/baldursgate3/mods/923)| [Baaleos](https://www.nexusmods.com/baldursgate3/users/1111397)   |
-| Warlock | [Necromancer - Dread Overlord](https://www.nexusmods.com/baldursgate3/mods/394) | [dreadoverlord](https://www.nexusmods.com/baldursgate3/users/88747523)  |
-| Warlock | [Hexblade](https://www.nexusmods.com/baldursgate3/mods/1100)| [Feriat111](https://www.nexusmods.com/baldursgate3/users/26820389)      |
-| Warlock | [Celestial](https://www.nexusmods.com/baldursgate3/mods/1567)| [FluffyDragon24](https://www.nexusmods.com/baldursgate3/users/130905368) |
-| Wizard  | [Bladesinger](https://www.nexusmods.com/baldursgate3/mods/279)| [DiZ91891](https://www.nexusmods.com/baldursgate3/users/57776731)        |
-| Wizard  | [Sorcery](https://www.nexusmods.com/baldursgate3/mods/446)| [fmsette](https://www.nexusmods.com/baldursgate3/users/129362963)        |
-| Wizard  | [War Magic](https://www.nexusmods.com/baldursgate3/mods/924)| [fierrof](https://www.nexusmods.com/baldursgate3/users/466538)        |
+It also acts as a compatibility patch for an ever-growing list of subclass mods. You can see [a list of subclasses supported here](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Subclass-Compatibility-Framework)
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
