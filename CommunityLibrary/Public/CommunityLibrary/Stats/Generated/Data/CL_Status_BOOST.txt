@@ -399,13 +399,6 @@ data "StatusType" "BOOST"
 using "CL_STATUS_THUNDERINGARMOR"
 data "Boosts" "AC(2);Resistance(Force,Resistant);UnlockSpell(CL_Target_ThunderingArmor_Release_2);UnlockSpell(CL_Zone_ThunderingArmor_Release_2)"
 
-//
-new entry "CL_Base_necrofx_1"
-type "StatusData"
-data "StatusType" "BOOST"
-data "StackId" "CL_Base_necrofx_1"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusEffect" "9c94e468-751d-4967-870a-15f368cd5e3a"
 
 // Donated by MailMe from their Death Knight Mod
 new entry "CL_Base_necrofx_1"
