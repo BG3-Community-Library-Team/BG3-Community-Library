@@ -22,4 +22,6 @@
   <content contentuid="h6cc4593dg5c73g449ag9721g526ad738973c" version="1">For a moment, a phantasmal image of the sign of the Atronach appears around you. For the duration of the spell, whever a spell is cast against you, restore a 1st-Level spell slot.</content>
   <content contentuid="h51b94ed3g01bdg4706g9183gd64620e3b307" version="1">Hearth Heal</content>
   <content contentuid="hdd618935g7de3g4420g9bdbg668fa51c06be" version="1">Healing energy surrounds you, restoring your health by [1].</content>
+  <content contentuid="h23c4a6degfb87g44b5ga366g06003a47830d" version="1">Spite</content>
+  <content contentuid="h8e1dde8eg0684g475cga8eeg0cad2f5abc48" version="1">Deal Damage within 3m equal to your wis modifier and Goad foes who fail a Wis save</content>
 </contentList>
