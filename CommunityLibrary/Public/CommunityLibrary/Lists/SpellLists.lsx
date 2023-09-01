@@ -4,15 +4,31 @@
   <region id="SpellLists">
     <node id="root">
       <children>
-        <node id="SpellList">
+        <node id="SpellList"> <!-- ShadarKai - NellsRelo -->
           <attribute id="Comment" type="LSString" value="Raven Queen's Blessing Ability"/>
           <attribute id="Spells" type="LSString" value="CL_Target_RavenQueenBlessing;CL_Target_Muffle;CL_Shout_FireShield;CL_Shout_Nightshield;CL_Shout_Spelldrinker;CL_Teleportation_ProjectObject"/>
           <attribute id="UUID" type="guid" value="cdea5ca8-e43f-4830-a265-76fec11ab79a"/>
         </node>
-        <node id="SpellList">
+        <node id="SpellList"> <!-- Playable Skeletons - NellsRelo -->
           <attribute id="Comment" type="LSString" value="Skeleton Finger Ability"/>
           <attribute id="Spells" type="LSString" value="CL_Target_SkeletonFinger"/>
           <attribute id="UUID" type="guid" value="7b88446a-f86b-41ed-b746-44a6e7950b54"/>
+        </node>
+        <node id="SpellList"> <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_Target_Heartstrike"/> 
+          <attribute id="UUID" type="guid" value="f8799582-ef4c-49b7-88eb-2120aecab569"/>
+        </node>
+        <node id="SpellList"> <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_Shout_Spite"/> 
+          <attribute id="UUID" type="guid" value="6673fc08-4751-4d9a-9028-9f6fd73a7edb"/>
+        </node>
+        <node id="SpellList"> <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Target_HoldPerson"/> 
+          <attribute id="UUID" type="guid" value="99d330e3-b525-41fe-93a0-eceabebfd827"/>
+        </node>
+        <node id="SpellList"> <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Projectile_Fireball"/> 
+          <attribute id="UUID" type="guid" value="afa8e343-4b99-4ff8-9cb2-27ff880778dd"/>
         </node>
       </children>
     </node>
