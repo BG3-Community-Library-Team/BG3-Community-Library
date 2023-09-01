@@ -15,13 +15,13 @@
           <attribute id="CharacterVisualResourceID" type="FixedString" value="b8e49e88-a0bd-480d-9e8b-8a24a4444376" />
           <attribute id="Race" type="guid" value="27844147-3e0f-4b2e-7783-018d835bdf84" />
           <children>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="18e053a8-3887-4ffa-1593-128e7285a4e4" />
-								</node>
-							</children>
-						</node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="18e053a8-3887-4ffa-1593-128e7285a4e4" />
+                </node>
+              </children>
+            </node>
             <node id="GameMaster" />
             <node id="LocomotionParams" />
           </children>
