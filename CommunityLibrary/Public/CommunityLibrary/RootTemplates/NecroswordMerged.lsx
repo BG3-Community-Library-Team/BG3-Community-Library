@@ -38,7 +38,7 @@
 						<node id="StatusList">
     <children>
         <node id="Status">
-            <attribute id="Object" type="FixedString" value="Base_necrofx_1" />
+            <attribute id="Object" type="FixedString" value="CL_Base_necrofx_1" />
         </node>
     </children>
 </node>
