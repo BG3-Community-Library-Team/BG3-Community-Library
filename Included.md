@@ -188,3 +188,97 @@
 
 ### Wizard
 - [Expansion (Bladesinger Only)](https://www.nexusmods.com/baldursgate3/mods/279) by [DiZ91891](https://www.nexusmods.com/baldursgate3/users/57776731)
+
+# 2.0.4.0
+
+## Classes
+- DeathKnight (MailMe)
+
+## Tags
+- CL_ShadarKai
+
+## Action Resources
+- Spite
+- DK_Hold
+
+## Cantrips
+- CL_Shout_Candlelight
+- CL_Shout_Candlelight_Dismiss
+- CL_Target_Chill
+- CL_Target_Earwig
+- CL_Target_Fleabite
+- CL_Target_FrostwindBlade
+- CL_Target_LesserWard
+- CL_Target_Melt
+- CL_Throw_ProjectObject
+
+## Spells
+- CL_DeathKnight_Projectile_Fireball
+- CL_Shout_HearthHeal
+- CL_Shout_FireShield
+- CL_Shout_DismissFireShield
+- CL_Shout_FrostBarrier
+- CL_Shout_DismissFrostBarrier
+- CL_Shout_LightningShield
+- CL_Shout_DismissLightningShield
+- CL_Shout_Nightshield
+- CL_Shout_Spelldrinker
+- CL_Shout_FalseLife_MMNecroblade
+- CL_Shout_Spite
+- CL_Target_Bravery
+- CL_Target_Glamour
+- CL_Target_Magesoap
+- CL_Target_MisdirectedMark
+- CL_Target_MisdirectedMark_HeDidIt
+- CL_Target_Muffle
+- CL_Target_SpikeGrowth
+- CL_Target_ThunderingArmor
+- CL_Target_ThunderingArmor_Release
+- CL_Zone_ThunderingArmor_Release
+- CL_Target_Heartstrike
+- CL_DeathKnight_Target_HoldPerson
+
+## Statuses
+- CL_STATUS_BRAVERY
+- CL_STATUS_BRAVERY_HPBONUS
+- CL_STATUS_CANDLELIGHT
+- CL_CHILLED
+- CL_STATUS_EARWIG
+- CL_STATUS_FIRESHIELD
+- CL_STATUS_FROSTSHIELD
+- CL_STATUS_GLAMOUR
+- CL_STATUS_LESSER_WARD
+- CL_STATUS_LIGHTNINGSHIELD
+- CL_STATUS_MAGESOAP
+- CL_STATUS_MISDIRECTEDMARK
+- CL_STATUS_MISDIRECTEDMARK_HEDIDIT
+- CL_STATUS_MISDIRECTEDMARK_OWNER
+- CL_STATUS_MUFFLE
+- CL_STATUS_NIGHTSHIELD
+- CL_STATUS_SPELLDRINKER
+- CL_STATUS_THUNDERINGARMOR
+- CL_STATUS_THUNDERINGARMOR_2
+- CL_Base_necrofx_1
+- CL_STATUS_BONECAGERESIST
+- CL_STATUS_BLOODBARRIER_AC
+- CL_STATUS_HEARTSTRIKE
+
+## Items
+- DK_StarterHelmet
+- WPN_Necrosword
+
+## Equipment Set
+- EQP_CC_DeathKnight
+
+## Icons
+- Death Knight Set
+
+## Subclass Compatibility Patches
+### Monk
+- [Way of Mercy](https://www.nexusmods.com/baldursgate3/mods/1749) by [PlatypusVenom](https://www.nexusmods.com/users/159098228)
+### Rogue
+- [Inquisitive](https://www.nexusmods.com/baldursgate3/mods/1728) by [Kingdomyoshi](https://www.nexusmods.com/baldursgate3/users/27186944)
+- [Swashbuckler](https://www.nexusmods.com/baldursgate3/mods/507) by [wesslen](https://www.nexusmods.com/baldursgate3/users/89809)
+### Wizard
+- [Sorcery Arcane Tradition](https://www.nexusmods.com/baldursgate3/mods/446) by [fmsette](https://www.nexusmods.com/baldursgate3/users/129362963)
+

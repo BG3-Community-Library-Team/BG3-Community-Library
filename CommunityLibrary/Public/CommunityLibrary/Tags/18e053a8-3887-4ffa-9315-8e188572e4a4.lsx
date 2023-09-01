@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <save>
-	<version major="4" minor="0" revision="0" build="58" />
-	<region id="Tags">
-		<node id="Tags">
-			<attribute id="Description" type="LSString" value="|Shadar-Kai|" />
-			<attribute id="DisplayDescription" type="TranslatedString" handle="h38c61b04g98b8g4cc4g8cfcga1b205b26d13" version="1" />
-			<attribute id="DisplayName" type="TranslatedString" handle="h976d56ddgba92g413agbd32gd85dd2551d8f" version="2" />
-			<attribute id="Icon" type="FixedString" value="" />
-			<attribute id="Name" type="FixedString" value="CL_ShadarKai" />
-			<attribute id="UUID" type="guid" value="18e053a8-3887-4ffa-1593-128e7285a4e4" />
-			<children>
-				<node id="Categories">
-					<children>
-						<node id="Category">
-							<attribute id="Name" type="LSString" value="Code" />
-						</node>
-						<node id="Category">
-							<attribute id="Name" type="LSString" value="Dialog" />
-						</node>
-						<node id="Category">
-							<attribute id="Name" type="LSString" value="Race" />
-						</node>
-						<node id="Category">
-							<attribute id="Name" type="LSString" value="PlayerRace" />
-						</node>
-						<node id="Category">
-							<attribute id="Name" type="LSString" value="CharacterSheet" />
-						</node>
-					</children>
-				</node>
-			</children>
-		</node>
-	</region>
+  <version major="4" minor="0" revision="0" build="58" />
+  <region id="Tags">
+    <node id="Tags">
+      <attribute id="Description" type="LSString" value="|Shadar-Kai|" />
+      <attribute id="DisplayDescription" type="TranslatedString" handle="h38c61b04g98b8g4cc4g8cfcga1b205b26d13" version="1" />
+      <attribute id="DisplayName" type="TranslatedString" handle="h976d56ddgba92g413agbd32gd85dd2551d8f" version="2" />
+      <attribute id="Icon" type="FixedString" value="" />
+      <attribute id="Name" type="FixedString" value="CL_ShadarKai" />
+      <attribute id="UUID" type="guid" value="18e053a8-3887-4ffa-1593-128e7285a4e4" />
+      <children>
+        <node id="Categories">
+          <children>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Code" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Dialog" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="Race" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="PlayerRace" />
+            </node>
+            <node id="Category">
+              <attribute id="Name" type="LSString" value="CharacterSheet" />
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
 </save>
