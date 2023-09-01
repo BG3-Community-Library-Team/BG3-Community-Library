@@ -413,6 +413,20 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="4"/>
                     <attribute id="UUID" type="guid" value="3fd79523-a973-4373-a973-732344acc959"/>
                 </node>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/> <!-- Sorcerey Arcane Tradition by fmsette -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h79b5a87cg074fg4a67g8f8cg43cb4d29b3d9" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h03726318g09bag4778ga3feg0ee5fe4e69c7" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Sorcery"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1c1d48af-42b7-4fac-a3ce-ca3525f1ccbe"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="6aa381bc-3dc2-11ee-be56-0242ac120002"/>
+                </node>
             </children>
         </node>
     </region>
