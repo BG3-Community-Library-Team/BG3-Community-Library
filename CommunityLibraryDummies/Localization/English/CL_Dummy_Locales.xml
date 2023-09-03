@@ -128,4 +128,9 @@
   <content contentuid="h14ac1fd7g0728g4cbcg9e8cgce6230253685" version="1">The Swashbuckler* Subclass is not currently installed. To use this Subclass, you must download the mod Swashbuckler by wesslen, which can be found here: https://www.nexusmods.com/baldursgate3/mods/507.
   
   If you select this Subclass without the subclass mod installed, you will use the progressions from the Assassin Subclass.</content>
+  <content contentuid="h9c37ccfdg11b1g4250ga128g57ca6fdb054d" version="1">(Not Installed) Death Domain (CrackerJackGCO)</content>
+  <content contentuid="h21217429gf936g4f00g8d6egba6c2bf26894" version="1">The Death Domain is not currently installed. To use this Domain, you must download the mod Death Domain Subclass for Cleric by CrackerJackGCO, which can be found here: https://www.nexusmods.com/baldursgate3/mods/1552.
+  
+  If you select this Domain without the subclass mod installed, you will use the progressions from the Knowledge Domain.</content>
+
 </contentList>
