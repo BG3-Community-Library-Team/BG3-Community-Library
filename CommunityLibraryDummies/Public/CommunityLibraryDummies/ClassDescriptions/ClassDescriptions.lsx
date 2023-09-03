@@ -20,6 +20,22 @@
                 </node>
 
                 <!-- Cleric Dummies - Default to Knowledge Domain -->
+                <node id="ClassDescription"> <!-- Death Domain by CrackerJackGCO -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h21217429gf936g4f00g8d6egba6c2bf26894" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9c37ccfdg11b1g4250ga128g57ca6fdb054d" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="DeathDomainSA"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="4709e126-1b45-4baf-93a2-be66ed4487d2"/>
+                    <attribute id="ShortName" type="TranslatedString" handle="h333f3c0ag222eg453cga248ga524f9b21137" version="1"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Cleric"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="SpellList" type="guid" value="6e728725-5a3a-42f4-ae6c-93b803e5d979"/>
+                    <attribute id="UUID" type="guid" value="e64c5974-b64b-42b7-b86d-2fb368ae9d33"/>
+                </node>
                 <node id="ClassDescription"> <!-- Death Domain by baltavi -->
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h65cd4ad0gb797g4230g91a3g3061753b492e" version="2"/>

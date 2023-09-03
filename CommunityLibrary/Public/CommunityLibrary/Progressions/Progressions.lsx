@@ -186,7 +186,9 @@
                 <node id="SubClass">
                   <attribute id="Object" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6"/>
                 </node>
-                  <!-- Place Mod-added Subclass Nodes here -->
+				<node id="SubClass"> <!-- Death Domain by CrackerJackGCO -->
+                  <attribute id="Object" type="guid" value="e64c5974-b64b-42b7-b86d-2fb368ae9d33"/>
+                </node>             
                 <node id="SubClass"> <!-- Death Domain by baltavi -->
                   <attribute id="Object" type="guid" value="f0f90719-e27a-403a-b891-4d739b4bf589"/>
                 </node>
@@ -246,7 +248,9 @@
                 <node id="SubClass">
                   <attribute id="Object" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6"/>
                 </node>
-                  <!-- Place Mod-added Subclass Nodes here --> 
+				<node id="SubClass"> <!-- Death Domain by CrackerJackGCO -->
+                  <attribute id="Object" type="guid" value="e64c5974-b64b-42b7-b86d-2fb368ae9d33"/>
+                </node>             
                 <node id="SubClass"> <!-- Death Domain by baltavi -->
                   <attribute id="Object" type="guid" value="f0f90719-e27a-403a-b891-4d739b4bf589"/>
                 </node>
