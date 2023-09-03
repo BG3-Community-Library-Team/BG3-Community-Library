@@ -2,7 +2,7 @@
 new equipment "EQP_CC_DeathKnight"
 add initialweaponset "Melee"
 add equipmentgroup
-add equipment entry "WPN_Necrosword"
+add equipment entry "CL_WPN_Necrosword"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
@@ -12,7 +12,7 @@ add equipment entry "ARM_Boots_Leather"
 add equipmentgroup
 add equipment entry "ARM_ChainMail_Body"
 add equipmentgroup
-add equipment entry "DK_StarterHelmet"
+add equipment entry "CL_DK_StarterHelmet"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
 add equipmentgroup

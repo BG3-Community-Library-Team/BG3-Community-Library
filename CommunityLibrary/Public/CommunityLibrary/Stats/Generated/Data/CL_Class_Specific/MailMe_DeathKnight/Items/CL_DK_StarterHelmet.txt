@@ -1,5 +1,5 @@
 // Donated by MailMe from their Death Knight Mod
-new entry "DK_StarterHelmet"
+new entry "CL_DK_StarterHelmet"
 type "Armor"
 using "_Head_Magic_Metal"
 data "RootTemplate" "8888628e-4eda-4eb5-bfb4-eb828782b051"

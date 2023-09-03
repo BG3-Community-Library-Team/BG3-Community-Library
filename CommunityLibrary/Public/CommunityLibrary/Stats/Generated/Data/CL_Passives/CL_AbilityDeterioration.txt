@@ -1,0 +1,20 @@
+// CL26 - Ability Deterioration Passives
+new entry "CL_AbilityDeterioration_Charisma"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, -1)"
+
+new entry "CL_AbilityDeterioration_Constitution"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, -1)"
+
+new entry "CL_AbilityDeterioration_Dexterity"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, -1)"
+
+new entry "CL_AbilityDeterioration_Intelligence"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, -1)"

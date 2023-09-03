@@ -13,7 +13,7 @@
           <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RacialProficiency,2,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
-          <attribute id="PassivesAdded" type="LSString" value="CL_Passive_NecroticResistance;CL_KeenSenses"/>
+          <attribute id="PassivesAdded" type="LSString" value="CL_Passive_NecroticResistance;CL_Passive_KeenSenses"/>
           <attribute id="ProgressionType" type="uint8" value="2"/>
           <attribute id="Selectors" type="LSString" value="AddSpells(cdea5ca8-e43f-4830-a265-76fec11ab79a,,,,AlwaysPrepared)"/>
           <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>

@@ -1,0 +1,9 @@
+// Ensures the bearer of this passive has an amount of Racial Proficiency Points equal
+// to their Proficiency Bonus
+new entry "RacialProficiency"
+type "PassiveData"
+data "DisplayName" "hcbbb0c35g4534g4892ga604gc2ec1fc9696c"
+data "Description" "h89240859gc671g49efg828eg5d4e7c403fcd"
+data "ExtraDescription" ""
+data "Boosts" "ActionResource(RacialProficiency,context.Source.ProficiencyBonus,0)"
+data "Properties" "IsHidden"

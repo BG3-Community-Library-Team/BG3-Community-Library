@@ -1,0 +1,6 @@
+new entry "CL_Passive_Petpal"
+type "PassiveData"
+data "DisplayName" "he617ad50g9705g4074gb9a5ge11b1fb04aec"
+data "Description" "haa2a6bafg712dg477egb241gbcdcd360b364"
+data "Icon" "Spell_Divination_SpeakWithAnimals"
+data "Boosts" "ApplyStatus(PETPAL,100,-1)"
