@@ -1,4 +1,6 @@
 /Release
+/.vscode
 *.zip
 *.loca
 *.lsf
+*.pak
