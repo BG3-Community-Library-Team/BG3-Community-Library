@@ -1,0 +1,42 @@
+function CL_AttackIsSpell(context)
+  return AttackType == (context.HitDescripton.AttackType.MeleeSpellAttack or AttackType.RangedSpellAttack)
+end
+
+function CL_ActiveWeaponHasStatus(statusName)
+  return HasStatus(statusName, GetActiveWeapon())
+end
+
+-- Needs Testing
+
+function CL_HasStatusFromArray(arr, entity)
+  for arrayItem in PACT_STATUSES do
+    if HasStatus(arrayItem, entity)
+      return true
+    end
+  end
+
+  return false
+end
+
+-- Needs Testing
+
+function CL_HasPactWeapon(entity, mainHand)
+  local entity or context.Source
+  local weaponEntity = (GetActiveWeapon(entity, true))
+
+  local PACT_STATUSES = [
+    'PACT_BLADE',
+    'CL_PACT_BLADE_STR',
+    'CL_PACT_BLADE_DEX',
+    'CL_PACT_BLADE_CON',
+    'CL_PACT_BLADE_INT',
+    'CL_PACT_BLADE_WIS'
+  ]
+
+  if weaponEntity.IsValid then
+
+    result = Character(entity) & HasStatusFromArray(weaponEntity)
+    return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+  end
+  return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+end
