@@ -10,7 +10,7 @@
 
         <!-- Shadar-Kai -->
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RQBlessing,2,0)"/>
+          <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RacialProficiency,2,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
           <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
           <attribute id="PassivesAdded" type="LSString" value="CL_Passive_NecroticResistance;CL_Passive_KeenSenses"/>
@@ -29,7 +29,7 @@
           <attribute id="UUID" type="guid" value="f2d55a86-433b-4f79-b381-7510cafef385"/>
         </node>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(RacialProficiency,1,0)"/>
           <attribute id="Level" type="uint8" value="5"/>
           <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -37,7 +37,7 @@
           <attribute id="UUID" type="guid" value="e297cd19-6dd1-41b2-9a70-3552cb48ad2d"/>
         </node>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(RacialProficiency,1,0)"/>
           <attribute id="Level" type="uint8" value="9"/>
           <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -45,7 +45,7 @@
           <attribute id="UUID" type="guid" value="a252f1bf-f5e5-440c-9a79-8bfbcdd0a4a5"/>
         </node>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(RacialProficiency,1,0)"/>
           <attribute id="Level" type="uint8" value="13"/>
           <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -53,7 +53,7 @@
           <attribute id="UUID" type="guid" value="807611e3-5663-4ce6-9a7d-cc56aa6a851a"/>
         </node>
         <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="ActionResource(RQBlessing,1,0)"/>
+          <attribute id="Boosts" type="LSString" value="ActionResource(RacialProficiency,1,0)"/>
           <attribute id="Level" type="uint8" value="17"/>
           <attribute id="Name" type="LSString" value="CL_ShadarKai"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -65,7 +65,7 @@
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="Ability(Constitution, 1);ActionResource(Movement,7.5,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSString" value="Skeleton"/>
+          <attribute id="Name" type="LSStrRQing" value="Skeleton"/>
           <attribute id="PassivesAdded" type="LSString" value="Darkvision;CL_SkeletonResistance"/>
           <attribute id="ProgressionType" type="uint8" value="2"/>
           <attribute id="Selectors" type="LSString" value="AddSpells(7b88446a-f86b-41ed-b746-44a6e7950b54,,,,AlwaysPrepared,UntilShortRest)"/>
