@@ -9,7 +9,7 @@ end
 -- Needs Testing
 
 function CL_HasStatusFromArray(arr, entity)
-  for arrayItem in PACT_STATUSES do
+  for arrayItem in arr do
     if HasStatus(arrayItem, entity)
       return true
     end
