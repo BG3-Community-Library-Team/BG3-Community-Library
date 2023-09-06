@@ -256,6 +256,19 @@
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
                     <attribute id="UUID" type="guid" value="54bdda89-b5a1-4f4e-9366-3057b079613f"/>
                 </node>
+				<node id="ClassDescription"> <!-- Drunken Master by Johnny -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h318b4596g805eg465bg9cfbgdb9a59dc284d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5f0aee46gdd6bg40f0g8052g824079615ccf" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="DrunkenMaster"/> 
+                    <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="bbd5e265-82f5-403f-8141-887480d41bba"/>
+                </node>
 
                 <!-- Rogue Dummies - Default to Assassin -->
                 <node id="ClassDescription"> <!-- Phantom by lostsoulman -->

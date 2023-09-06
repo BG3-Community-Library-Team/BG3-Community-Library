@@ -375,6 +375,9 @@
                   <node id="SubClass"> <!-- Mercy by PlatypusVenom -->
                     <attribute id="Object" type="guid" value="54bdda89-b5a1-4f4e-9366-3057b079613f"/>
                   </node>
+				  <node id="SubClass"> <!-- Drunken Master by Johnny -->
+					<attribute id="Object" type="guid" value="bbd5e265-82f5-403f-8141-887480d41bba"/>
+                  </node>
                 </children>
               </node>
           </children>
