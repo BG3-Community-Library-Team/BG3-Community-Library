@@ -18,9 +18,10 @@ others to use in their mods as well, be it scripts, spells, statuses, passives,
 models, textures, sounds, etc.
 
 ## For Players:
-Some mods will rely on this one, and require it as a dependency, as it provides the content it contains. 
+Some mods will rely on this one, and require it as a dependency, as it provides the content it contains. If none of your mods require this one, you don't need to install it.
 
-It also acts as a compatibility patch for an ever-growing list of subclass mods. You can see [a list of subclasses supported here](https://github.com/BG3-Community-Library-Team/BG3-Community-Library/wiki/Subclass-Compatibility-Framework)
+### I heard this mod makes Subclasses Compatible?
+As of 2.0.5.0, this mod no longer includes the [Subclass Compatibility Framework](https://github.com/BG3-Community-Library-Team/BG3-Subclass-Compatibility-Framework), which has been separated out into it's own project.
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
@@ -65,10 +66,8 @@ Installations. BG3 Mod Managers is by far the simplest method, and as such is re
 1. Download the latest release, and unzip the .pak file.
 2. Open BG3 Mod Manager, click File->Import Mod
 3. Select CommunityLibrary.pak
-4. Do this again for CommunityLibraryDummies.pak
 5. Once imported hit refresh
-6. Drag CommunityLibrary to the top of the Left pane, but beneath any mods that add Subclasses
-7. Drag CommunityLibraryDummies to the very top of the Left pane
+6. Drag CommunityLibrary to the top of the Left pane
 8. Hit "Save Load Order to File"
 
 ## Recommended Mod Management Tools
