@@ -1,5 +1,5 @@
 // Donated by MailMe from their Death Knight Mod
-new entry "WPN_Necrosword"
+new entry "CL_WPN_Necrosword"
 type "Weapon"
 using "_BaseWeapon"
 data "RootTemplate" "33e61c19-39ed-40d4-bb80-41e3149d651c"
@@ -14,3 +14,10 @@ data "Weapon Group" "MartialMeleeWeapon"
 data "Weapon Properties" "Heavy;Melee;Dippable"
 data "Proficiency Group" "Greatswords;MartialWeapons"
 data "DefaultBoosts" "WeaponProperty(Magical);IF(CharacterLevelGreaterThan(1) and not CharacterLevelGreaterThan(5)):WeaponDamage(1d4,Necrotic);IF(CharacterLevelGreaterThan(1) and not CharacterLevelGreaterThan(5)):WeaponEnchantment(1);IF(CharacterLevelGreaterThan(5) and not CharacterLevelGreaterThan(9)):WeaponDamage(1d6,Necrotic);IF(CharacterLevelGreaterThan(5) and not CharacterLevelGreaterThan(9)):WeaponEnchantment(2);IF(CharacterLevelGreaterThan(9)):WeaponDamage(1d10,Necrotic);IF(CharacterLevelGreaterThan(9)):WeaponEnchantment(3)"
+
+new entry "CL_Base_necrofx_1"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "CL_Base_necrofx_1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "VFX_Combat_Death_UniqueShdw_Overlay_01;VFX_Status_MAG_NECROTIC_WEAPON_REVOCATION_Overlay_01;VFX_Script_WPN_HUM_Staff_Carrion_A_01:Dummy_FX_01"

@@ -6,13 +6,13 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="8888628e-4eda-4eb5-bfb4-eb828782b051" />
-					<attribute id="Name" type="LSString" value="DK_StarterHelmet" />
+					<attribute id="Name" type="LSString" value="CL_DK_StarterHelmet" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="6958285e-808f-429d-8fa1-48684ea5e2f8" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h9b8f317cgbfcdg4d77g8dcfgbca848fdd9c4" version="2" />
 					<attribute id="Icon" type="FixedString" value="Item_ARM_Helmet_Metal_B_Magic" />
-					<attribute id="Stats" type="FixedString" value="DK_StarterHelmet" />
+					<attribute id="Stats" type="FixedString" value="CL_DK_StarterHelmet" />
 					<attribute id="Description" type="TranslatedString" handle="hfaafcf46g583dg4a61gaf8bge3c7c368ebf5" version="2" />
 					<children>
 						<node id="Tags">

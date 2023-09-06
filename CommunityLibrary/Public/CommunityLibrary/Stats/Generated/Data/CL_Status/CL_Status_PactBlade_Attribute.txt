@@ -1,0 +1,30 @@
+// CL32 - Pact Weapons with Different Modifiers
+new entry "CL_PACT_BLADE_STR"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Strength)"
+
+new entry "CL_PACT_BLADE_DEX"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Dexterity)"
+
+new entry "CL_PACT_BLADE_INT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Intelligence)"
+
+new entry "CL_PACT_BLADE_WIS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Wisdom)"
+
+new entry "CL_PACT_BLADE_CON"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PACT_BLADE"
+data "Boosts" "WeaponProperty(Magical);IntrinsicSummonerProficiency();IntrinsicSourceProficiency();ItemReturnToOwner();Attribute(InventoryBound);WeaponAttackRollAbilityOverride(Constitution)"
