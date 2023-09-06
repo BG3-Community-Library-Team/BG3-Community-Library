@@ -282,3 +282,10 @@
 ### Wizard
 - [Sorcery Arcane Tradition](https://www.nexusmods.com/baldursgate3/mods/446) by [fmsette](https://www.nexusmods.com/baldursgate3/users/129362963)
 
+# 2.0.5.0
+- Removal of Subclass Compatibility Framework
+- Restructuring of SpellData and other `stats/generated/data` files for better organization
+
+## Action Resources
+- Remove RQBlessing
+- Add RacialProficiency
