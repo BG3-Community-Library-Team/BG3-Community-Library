@@ -35,7 +35,7 @@ function CL_HasPactWeapon(entity, mainHand)
 
   if weaponEntity.IsValid then
 
-    result = Character(entity) & HasStatusFromArray(weaponEntity)
+    result = Character(entity) & CL_HasStatusFromArray(weaponEntity)
     return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
   end
   return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
