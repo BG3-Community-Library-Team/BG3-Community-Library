@@ -324,7 +324,10 @@
                     <attribute id="Object" type="guid" value="0a01dc6b-ab1a-4c0e-8a5e-4787fe1f2caf"/>
                   </node>
                   <!-- Place Mod-added Subclass Nodes here --> 
-                  <node id="SubClass"> <!-- FighterMarksman by afftor -->
+                  <node id="SubClass"> <!-- Arcane Archer by ShivasShadow -->
+                    <attribute id="Object" type="guid" value="a86356c9-9fdf-45fb-912f-9b0d4ca0c32c"/>
+                  </node>
+                  <node id="SubClass"> <!-- Marksman by afftor -->
                     <attribute id="Object" type="guid" value="a9d9450b-52e3-4412-8559-322b6f5f7d7d"/>
                   </node>
                   <node id="SubClass"> <!-- Combat Medic by Backburner26 -->

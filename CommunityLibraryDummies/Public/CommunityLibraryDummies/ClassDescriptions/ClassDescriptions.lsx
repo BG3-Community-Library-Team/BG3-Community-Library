@@ -150,6 +150,19 @@
                 </node>
 
                 <!-- Fighter Dummies - Default to Champion -->
+                <node id="ClassDescription"> <!-- Arcane Archer by ShivasShadow -->
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h84944469gb472g4e9dgb58cg2d5a25576822" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h363e3069g8ad3g45b2ga955g3983f23f573b" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Marksman"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9b2ff703-7924-4a66-b119-ae4d716a4522"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Fighter"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="a86356c9-9fdf-45fb-912f-9b0d4ca0c32c"/>
+                </node>
                 <node id="ClassDescription"> <!-- Marksman by afftor -->
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="h2f0f89daga976g46fag882dg0d6ecf06db13" version="1"/>
