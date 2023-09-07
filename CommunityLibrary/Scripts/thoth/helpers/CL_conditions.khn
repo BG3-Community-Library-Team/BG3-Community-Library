@@ -19,19 +19,13 @@ function CL_IsInArray(arr, entity)
 end
 ]]--
 
--- Currently crashes the game at start oops
---[[
+-- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
 function CL_HasPactWeapon(entity, mainHand)
-  local entity or context.Source
-  local weaponEntity = (GetActiveWeapon(entity, true))
-
-  result = HasAnyStatus({'CL_PACT_BLADE_STR','CL_PACT_BLADE_DEX','CL_PACT_BLADE_CON','CL_PACT_BLADE_INT','CL_PACT_BLADE_WIS','PACT_BLADE'}, {}, {}, weaponEntity)
-
-  if weaponEntity.IsValid then
-
-    result = Character(entity) & CL_HasStatusFromArray(weaponEntity)
-    return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
-  end
-  return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+    local entity = entity or context.Source
+    local weaponEntity = GetActiveWeapon(entity, true)
+    if weaponEntity.IsValid then
+        result = Character(entity) & HasAnyStatus({'CL_PACT_BLADE_STR','CL_PACT_BLADE_DEX','CL_PACT_BLADE_CON','CL_PACT_BLADE_INT','CL_PACT_BLADE_WIS','PACT_BLADE'}, {}, {}, weaponEntity)
+        return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+    end
+    return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
 end
-]]--
