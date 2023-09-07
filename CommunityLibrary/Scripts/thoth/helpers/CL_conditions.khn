@@ -1,3 +1,5 @@
+local __util = require 'larian.util'
+
 function CL_AttackIsSpell(context)
   return AttackType == (context.HitDescripton.AttackType.MeleeSpellAttack or AttackType.RangedSpellAttack)
 end
@@ -5,19 +7,6 @@ end
 function CL_ActiveWeaponHasStatus(statusName)
   return HasStatus(statusName, GetActiveWeapon())
 end
-
--- Needs Rework as it has nothing to do with Status now - also crashes the game at start oops
---[[
-function CL_IsInArray(arr, entity)
-  for arrayItem in arr do
-    if HasStatus(arrayItem, entity)
-      return true
-    end
-  end
-
-  return false
-end
-]]--
 
 -- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
 function CL_HasPactWeapon(entity, mainHand)
