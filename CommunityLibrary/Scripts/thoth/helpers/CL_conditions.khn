@@ -16,3 +16,22 @@ function CL_HasPactWeapon(entity, mainHand)
     end
     return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
 end
+
+--[[ Optional replacement for ApplyEquipmentStatus specific to Pact Statuses - 
+  Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
+  @positon: Is MainHand or OffHand, boolean, default to True (main)
+  @attribute: Attribute, string, default to 'CHA'
+  @chance: Chance to Apply, int, default to 100
+  @duration: Duration in Rounds, int, default to -1
+]]--
+function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
+    local weapon = weapon or true
+    local attribute = attribute or 'CHA'
+    local chance = chance or 100
+    local duration = duration or -1
+    local pact_stat = 'PACT_BLADE'
+    if attribute ~= 'CHA' then
+      pact_stat = 'CL_' .. pact_stat .. '_' .. attribute
+    end
+    return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
+end
