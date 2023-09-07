@@ -1,0 +1,20 @@
+local __util = require 'larian.util'
+
+function CL_AttackIsSpell(context)
+  return AttackType == (context.HitDescripton.AttackType.MeleeSpellAttack or AttackType.RangedSpellAttack)
+end
+
+function CL_ActiveWeaponHasStatus(statusName)
+  return HasStatus(statusName, GetActiveWeapon())
+end
+
+-- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
+function CL_HasPactWeapon(entity, mainHand)
+    local entity = entity or context.Source
+    local weaponEntity = GetActiveWeapon(entity, true)
+    if weaponEntity.IsValid then
+        result = Character(entity) & HasAnyStatus({'CL_PACT_BLADE_STR','CL_PACT_BLADE_DEX','CL_PACT_BLADE_CON','CL_PACT_BLADE_INT','CL_PACT_BLADE_WIS','PACT_BLADE'}, {}, {}, weaponEntity)
+        return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+    end
+    return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+end
