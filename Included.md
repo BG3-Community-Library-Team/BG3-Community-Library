@@ -282,3 +282,7 @@
 ### Wizard
 - [Sorcery Arcane Tradition](https://www.nexusmods.com/baldursgate3/mods/446) by [fmsette](https://www.nexusmods.com/baldursgate3/users/129362963)
 
+# 2.0.4.1
+- Split Out Subclass Compatibility Framework
+- Restructure Mod File & folder structure for better organization
+- Change Raven Queen's Blessing into Generic Racial Proficiency Action Resource
