@@ -286,3 +286,9 @@
 - Split Out Subclass Compatibility Framework
 - Restructure Mod File & folder structure for better organization
 - Change Raven Queen's Blessing into Generic Racial Proficiency Action Resource
+# 2.0.4.2
+
+## Scripts
+- `CL_AttackIsSpell`
+- `CL_ActiveWeaponHasStatus`
+- `CL_HasPactWeapon`

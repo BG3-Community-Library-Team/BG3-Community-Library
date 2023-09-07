@@ -1,5 +1,3 @@
-local __util = require 'larian.util'
-
 function CL_AttackIsSpell(context)
   return AttackType == (context.HitDescripton.AttackType.MeleeSpellAttack or AttackType.RangedSpellAttack)
 end
