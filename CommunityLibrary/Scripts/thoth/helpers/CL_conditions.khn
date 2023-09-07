@@ -6,8 +6,8 @@ function CL_ActiveWeaponHasStatus(statusName)
   return HasStatus(statusName, GetActiveWeapon())
 end
 
--- Needs Rework as it has nothing to do with Status now
-
+-- Needs Rework as it has nothing to do with Status now - also crashes the game at start oops
+--[[
 function CL_IsInArray(arr, entity)
   for arrayItem in arr do
     if HasStatus(arrayItem, entity)
@@ -17,9 +17,10 @@ function CL_IsInArray(arr, entity)
 
   return false
 end
+]]--
 
--- Needs Testing
-
+-- Currently crashes the game at start oops
+--[[
 function CL_HasPactWeapon(entity, mainHand)
   local entity or context.Source
   local weaponEntity = (GetActiveWeapon(entity, true))
@@ -33,3 +34,4 @@ function CL_HasPactWeapon(entity, mainHand)
   end
   return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
 end
+]]--
