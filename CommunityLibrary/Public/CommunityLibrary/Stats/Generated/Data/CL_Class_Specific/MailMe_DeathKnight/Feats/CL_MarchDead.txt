@@ -1,0 +1,7 @@
+new entry "CL_MarchDead"
+type "PassiveData"
+data "DisplayName" "h613431bfg3cd7g4978g8c67g9d667817f3e4;4"
+data "Description" "hc8b9a207gbb68g452cgaf74gbfb32c50c3b3;4"
+data "Icon" "PassiveFeature_LandsStride_DifficultTerrain"
+data "Properties" "Highlighted"
+data "Boosts" "StatusImmunity(SG_DifficultTerrain)"

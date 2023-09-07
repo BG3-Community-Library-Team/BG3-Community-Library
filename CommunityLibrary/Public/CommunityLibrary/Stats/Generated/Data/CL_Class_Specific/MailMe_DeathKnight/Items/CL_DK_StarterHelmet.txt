@@ -1,0 +1,8 @@
+// Donated by MailMe from their Death Knight Mod
+new entry "CL_DK_StarterHelmet"
+type "Armor"
+using "_Head_Magic_Metal"
+data "RootTemplate" "8888628e-4eda-4eb5-bfb4-eb828782b051"
+data "ValueUUID" "a229f048-70b0-4b0c-88cb-29b5c6bdb2d0"
+data "Rarity" "Uncommon"
+data "Boosts" "RollBonus(SavingThrow, 1, Constitution)"

@@ -1,0 +1,6 @@
+new entry "CL_Shout_FalseLife_MMNecroblade"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_FalseLife_2"
+data "DisplayName" "h2b5512c3g5315g4b75gb5c4gcaf1fed13056;1"
+data "UseCosts" "ActionPoint:1"

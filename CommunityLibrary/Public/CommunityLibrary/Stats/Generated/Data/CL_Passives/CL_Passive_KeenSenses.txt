@@ -1,0 +1,6 @@
+new entry "CL_Passive_KeenSenses"
+type "PassiveData"
+data "Boosts" "ProficiencyBonus(Skill, Preception)"
+data "Icon" "PassiveFeature_Darkvision"
+data "DisplayName" "hb6fb87d2g3ad0g4a43ga8d2g035790d59ebb"
+data "Description" "h6f280908g2afbg45fcga2f9ge6136d5b5604"
