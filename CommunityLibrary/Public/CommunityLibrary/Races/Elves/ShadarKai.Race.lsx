@@ -517,54 +517,6 @@
             </node>
           </children>
         </node>
-        <node id="Race">
-          <attribute id="Description" type="TranslatedString" handle="h7901179eg9a5ag4a33gb561g10acfe80a85c"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="h7365c7bega8e7g4746g9f64g50548db16e70"/>
-          <attribute id="Name" type="FixedString" value="CL_Skeleton"/>
-          <attribute id="ParentGuid" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5"/>
-          <attribute id="DisplayTypeUUID" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="413b0749-12f7-494a-a4a3-bbf630d09e48"/>
-          <attribute id="RaceSoundSwitch" type="FixedString" value="Undead"/>
-          <attribute id="UUID" type="guid" value="010abdd6-1ed3-41d0-8b95-a324f5dfb50c"/>
-          <children>
-            <node id="Tags">
-              <attribute id="Object" type="guid" value="146a89e7-802f-4926-bc21-4a41c2478502"/>
-              <attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140"/>
-            </node>
-          </children>
-        </node>
-        <node id="Race">
-          <attribute id="Description" type="TranslatedString" handle="h6eceafc6g4862g4117ga9f2gaa453724b9b1"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="h515f778eg01b0g41bagb385gef9be764943b"/>
-          <attribute id="Name" type="FixedString" value="CL_SturdySkeleton"/>
-          <attribute id="ParentGuid" type="guid" value="010abdd6-1ed3-41d0-8b95-a324f5dfb50c"/>
-          <attribute id="DisplayTypeUUID" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="ff1c6613-fcc0-411f-8825-0eb32bbe5491"/>
-          <attribute id="RaceSoundSwitch" type="FixedString" value="Undead"/>
-          <attribute id="UUID" type="guid" value="a263d3f9-26d5-43ed-8d20-08968ea14aeb"/>
-          <children>
-            <node id="Tags">
-              <attribute id="Object" type="guid" value="146a89e7-802f-4926-bc21-4a41c2478502"/>
-              <attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140"/>
-            </node>
-          </children>
-        </node>
-        <node id="Race">
-          <attribute id="Description" type="TranslatedString" handle="h5705fb92g95e4g4dcfgb700g5aff8ac0e26e"/>
-          <attribute id="DisplayName" type="TranslatedString" handle="h28b7fc0fgfe93g4631g8cabgcc2dba0a5cde"/>
-          <attribute id="Name" type="FixedString" value="CL_DextrousSkeleton"/>
-          <attribute id="ParentGuid" type="guid" value="010abdd6-1ed3-41d0-8b95-a324f5dfb50c"/>
-          <attribute id="DisplayTypeUUID" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5"/>
-          <attribute id="ProgressionTableUUID" type="guid" value="80b2552d-a325-424a-9581-c45d22c2a4d0"/>
-          <attribute id="RaceSoundSwitch" type="FixedString" value="Undead"/>
-          <attribute id="UUID" type="guid" value="9d3a02d5-27e9-4847-9a80-9011e9689bfb"/>
-          <children>
-            <node id="Tags">
-              <attribute id="Object" type="guid" value="146a89e7-802f-4926-bc21-4a41c2478502"/>
-              <attribute id="Object" type="guid" value="33c625aa-6982-4c27-904f-e47029a9b140"/>
-            </node>
-          </children>
-        </node>
       </children>
     </node>
   </region>

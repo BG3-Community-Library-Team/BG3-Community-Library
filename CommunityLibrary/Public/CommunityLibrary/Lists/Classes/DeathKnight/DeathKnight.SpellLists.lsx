@@ -4,16 +4,6 @@
   <region id="SpellLists">
     <node id="root">
       <children>
-        <node id="SpellList"> <!-- ShadarKai - NellsRelo -->
-          <attribute id="Comment" type="LSString" value="Raven Queen's Blessing Ability"/>
-          <attribute id="Spells" type="LSString" value="CL_Target_RavenQueenBlessing"/>
-          <attribute id="UUID" type="guid" value="cdea5ca8-e43f-4830-a265-76fec11ab79a"/>
-        </node>
-        <node id="SpellList"> <!-- Playable Skeletons - NellsRelo -->
-          <attribute id="Comment" type="LSString" value="Skeleton Finger Ability"/>
-          <attribute id="Spells" type="LSString" value="CL_Target_SkeletonFinger"/>
-          <attribute id="UUID" type="guid" value="7b88446a-f86b-41ed-b746-44a6e7950b54"/>
-        </node>
         <node id="SpellList"> <!-- Death Knight - MailMe -->
           <attribute id="Spells" type="LSString" value="CL_Target_Heartstrike"/> 
           <attribute id="UUID" type="guid" value="f8799582-ef4c-49b7-88eb-2120aecab569"/>
