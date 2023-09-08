@@ -1,4 +1,4 @@
-function CL_AttackIsSpell(context)
+function CL_AttackIsSpell()
   return AttackType == (context.HitDescripton.AttackType.MeleeSpellAttack or AttackType.RangedSpellAttack)
 end
 
@@ -17,12 +17,12 @@ function CL_HasPactWeapon(entity, mainHand)
     return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
 end
 
---[[ Optional replacement for ApplyEquipmentStatus specific to Pact Statuses - 
+--[[ 
   Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
   @positon: Is MainHand or OffHand, boolean, default to True (main)
   @attribute: Attribute, string, default to 'CHA'
   @chance: Chance to Apply, int, default to 100
-  @duration: Duration in Rounds, int, default to -1
+  @duration: Duration in Rounds, int, default Indefinite (-1)
 ]]--
 function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
     local weapon = weapon or true
@@ -34,4 +34,73 @@ function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
       pact_stat = 'CL_' .. pact_stat .. '_' .. attribute
     end
     return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
+end
+
+function HasWeaponInOffHand()
+
+end
+
+--[[
+  Optional replacement for ApplyEquipmentStatus, supporting multiple values to cut down on repeated calls
+  @weapons: List of weapon slots to apply statuses to. ex: {mainHand, rangedMainHand}
+  @statuses: List of statuses to apply to weapon slots. ex: {'PACT_BLADE', 'CL_CHILLED'}
+  @chances: List of chances to apply statuses (in order), default 100%
+  @durations: List of lengths of statuses (in order), default Indefinite (-1)
+
+  Anticipated Usage:
+  CL_ApplyEquipmentStatusBulk({mainHand, rangedMainHand}, {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {100, 55}, {-1, 3})
+]]
+function CL_ApplyEquipmentStatusBulk(weapons, statuses, chances, durations)
+  local weapons = weapons or {}
+  local statuses = statuses or {}
+  local chances = chances or {}
+  local durations = durations or {}
+  local count = 0
+
+  if weapons ~= nil & statuses ~= nil then
+    for _, weapon in ipairs(weapons) do
+        for _, status in ipairs(statuses) do
+          count = count + 1
+          if chances[count] = nil then
+            chances[count] = 100 
+          end
+
+          if durations[count] = nill then
+            durations[count] = -1
+          end
+
+          ApplyEquipmentStatus(weapon, status, chances[count], duration[count])
+        end
+    end
+  end
+
+  return false
+end
+
+--[[
+  Like the above, but chance and duration are the same for all statuses
+  @weapons: List of weapon slots to apply statuses to. ex: {mainHand, rangedMainHand}
+  @statuses: List of statuses to apply to weapon slots. ex: {'PACT_BLADE', 'CL_CHILLED'}
+  @chance: Optional chances to apply statuses, default 100%
+  @duration: Optional lengths of statuses, default Indefinite (-1)
+
+  Anticipated Usage:
+  CL_ApplyEquipmentStatusBulk_Static({mainHand, rangedMainHand}, {'PACT_BLADE', 'CL_STATUS_BRAVERY'})
+]]
+
+function CL_ApplyEquipmentStatusBulk_Static(weapons, statuses, chance, duration)
+  local weapons = weapons or {}
+  local statuses = statuses or {}
+  local chance = chance or 100
+  local duration = duration or -1
+
+  if weapons ~= nil & statuses ~= nil then
+    for _, weapon in ipairs(weapons) do
+        for _, status in ipairs(statuses) do
+          ApplyEquipmentStatus(weapon, status, chance, duration)
+        end
+    end
+  end
+
+  return false
 end
