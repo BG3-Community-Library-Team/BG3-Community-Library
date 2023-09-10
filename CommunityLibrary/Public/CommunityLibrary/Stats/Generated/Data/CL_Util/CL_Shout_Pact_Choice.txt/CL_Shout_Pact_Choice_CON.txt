@@ -1,0 +1,13 @@
+new entry "CL_Shout_Pact_Attribute_Choice_CON"
+type "SpellData"
+using "CL_Shout_Pact_Choice"
+data "DisplayName" "h3f369613g13b5g4761ga3b1g70d675e9eafb"
+data "Description" "h9935e0f5gaf1ag4419g80b0g838aa173722c;1"
+data "SpellContainerID" "CL_Shout_Pact_Choice"
+data "SpellProperties" "CL_RemovePactTags();ApplyStatus(SELF,CL_STATUS_PACT_CON_TAGGED,100,-1)"
+
+new entry "CL_STATUS_PACT_CON_TAGGED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Properties" "IsHidden"
+data "Boosts" "Tag(PACT_TAG_CON);UnlockSpell(CL_Shout_Pact_Attribute_Choice_Dismiss)"

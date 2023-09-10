@@ -7,25 +7,54 @@ function CL_ActiveWeaponHasStatus(statusName)
 end
 
 function CL_GetPactTagStatus(entity)
-  if Tagged('PACT_TAG_STR') then
+  if Tagged('PACT_TAG_STR', entity) then
     return 'CL_PACT_BLADE_STR'
   end
-  if Tagged('PACT_TAG_DEX') then
+  if Tagged('PACT_TAG_DEX', entity) then
     return 'CL_PACT_BLADE_DEX'
   end
-  if Tagged('PACT_TAG_CON') then
+  if Tagged('PACT_TAG_CON', entity) then
     return 'CL_PACT_BLADE_CON'
   end
-  if Tagged('PACT_TAG_INT') then
+  if Tagged('PACT_TAG_INT', entity) then
     return 'CL_PACT_BLADE_INT'
   end
-  if Tagged('PACT_TAG_WIS') then
+  if Tagged('PACT_TAG_WIS', entity) then
     return 'CL_PACT_BLADE_WIS'
   end
-  if Tagged('PACT_TAG_CHA') then
+  if Tagged('PACT_TAG_CHA', entity) then
     return 'PACT_BLADE'
   end
   return false
+end
+
+-- Simple Wrapper Function to remove multiple statuses
+function CL_RemoveAnyStatus(entity, statuses)
+  local entity = entity or context.Source
+  local statuses = statuses or {}
+
+  if statuses ~= nil then
+    for _, status in ipairs(statuses) do
+      if HasStatus(status, entity) then
+        RemoveStatus(status)
+      end
+    end
+  end
+end
+
+function CL_RemovePactStatus(entity)
+  local pact_statuses = {
+    CL_STATUS_PACT_CHA_TAGGED,
+    CL_STATUS_PACT_STR_TAGGED,
+    CL_STATUS_PACT_DEX_TAGGED,
+    CL_STATUS_PACT_CON_TAGGED,
+    CL_STATUS_PACT_INT_TAGGED,
+    CL_STATUS_PACT_WIS_TAGGED
+  }
+
+  if HasAnyStatus(pact_statuses) then
+    CL_RemoveAnyStatus(entity, pact_statuses)
+  end
 end
 
 -- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants

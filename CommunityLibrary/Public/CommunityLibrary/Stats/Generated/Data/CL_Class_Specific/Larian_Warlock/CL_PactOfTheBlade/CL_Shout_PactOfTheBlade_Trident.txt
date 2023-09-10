@@ -1,0 +1,6 @@
+new entry "CL_Shout_PactOfTheBlade_Trident"
+type "SpellData"
+data "SpellType" "Shout"
+using "CL_Shout_PactOfTheBlade_Trident"
+data "SpellContainerID" "CL_Shout_PactOfTheBlade"
+data "SpellProperties" "CL_SummonPactWeapon(fd1b4c45-e2df-4add-bc56-697d0339c4bd,Permanent)"

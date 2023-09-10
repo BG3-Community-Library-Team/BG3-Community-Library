@@ -1,0 +1,6 @@
+new entry "CL_Shout_PactOfTheBlade_Greatsword"
+type "SpellData"
+data "SpellType" "Shout"
+using "CL_Shout_PactOfTheBlade_Greatsword"
+data "SpellContainerID" "CL_Shout_PactOfTheBlade"
+data "SpellProperties" "CL_SummonPactWeapon(e90936db-7f65-446c-819d-c7fc6ba44d6c,Permanent)"
