@@ -70,15 +70,15 @@ function CL_ApplyEquipmentStatusBulk(weapons, statuses, chances, durations)
         for _, status in ipairs(statuses) do
           count = count + 1
 
-          if chances[count] == nil then
+          if chances[count] ~= nil then
             chance = chances[count] 
           end
 
-          if durations[count] == nil then
+          if durations[count] ~= nil then
             duration = durations[count]
           end
 
-          ApplyEquipmentStatus(weapon, status, chances, duration)
+          ApplyEquipmentStatus(weapon, status, chance, duration)
         end
     end
   end
@@ -119,11 +119,11 @@ function CL_ApplyStatusBulk(statuses, targets, chances, durations)
         target = targets[count]
       end
 
-      if chances[count] == nil then
+      if chances[count] ~= nil then
         chance = chances[count] 
       end
 
-      if durations[count] == nil then
+      if durations[count] ~= nil then
         duration = durations[count]
       end
 
