@@ -98,7 +98,7 @@ end
   have a chance equal to the first chance, and use the default duration (-1)
 
   Anticipated Usage:
-  CL_ApplyStatusBulk({mainHand, rangedMainHand}, {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {100, 55}, {-1, 3})
+  CL_ApplyStatusBulk( {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {mainHand, rangedMainHand}, {100, 55}, {-1, 3})
 ]]
 function CL_ApplyStatusBulk(statuses, targets, chances, durations)
   local target = targets or {}
