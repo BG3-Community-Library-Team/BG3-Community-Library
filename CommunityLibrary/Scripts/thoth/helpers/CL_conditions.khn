@@ -52,7 +52,7 @@ function CL_RemovePactStatus(entity)
     'CL_STATUS_PACT_WIS_TAGGED'
   }
 
-  if HasAnyStatus(pact_statuses) then
+  if HasAnyStatus(pact_statuses, {}, {}, entity) then
     CL_RemoveAnyStatus(entity, pact_statuses)
   end
 end
