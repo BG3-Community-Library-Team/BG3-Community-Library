@@ -25,7 +25,7 @@ function CL_GetPactTagStatus(entity)
   if Tagged('PACT_TAG_CHA', entity) then
     return 'PACT_BLADE'
   end
-  return false
+  return ''
 end
 
 -- Simple Wrapper Function to remove multiple statuses
@@ -36,7 +36,7 @@ function CL_RemoveAnyStatus(entity, statuses)
   if statuses ~= nil then
     for _, status in ipairs(statuses) do
       if HasStatus(status, entity) then
-        RemoveStatus(status)
+        RemoveStatus(entity, status)
       end
     end
   end
@@ -44,12 +44,12 @@ end
 
 function CL_RemovePactStatus(entity)
   local pact_statuses = {
-    CL_STATUS_PACT_CHA_TAGGED,
-    CL_STATUS_PACT_STR_TAGGED,
-    CL_STATUS_PACT_DEX_TAGGED,
-    CL_STATUS_PACT_CON_TAGGED,
-    CL_STATUS_PACT_INT_TAGGED,
-    CL_STATUS_PACT_WIS_TAGGED
+    'CL_STATUS_PACT_CHA_TAGGED',
+    'CL_STATUS_PACT_STR_TAGGED',
+    'CL_STATUS_PACT_DEX_TAGGED',
+    'CL_STATUS_PACT_CON_TAGGED',
+    'CL_STATUS_PACT_INT_TAGGED',
+    'CL_STATUS_PACT_WIS_TAGGED'
   }
 
   if HasAnyStatus(pact_statuses) then
@@ -88,10 +88,6 @@ function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
     return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
 end
 
-function HasWeaponInOffHand()
-
-end
-
 --[[ 
   Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
   @positon: Is MainHand or OffHand, boolean, default to True (main)
@@ -112,7 +108,7 @@ end
 function CL_SummonPactWeapon(guid, permanent)
   local pact_stat = CL_GetPactTagStatus(context.Source)
   
-  return SummonInInventory(guid,permanent,1,true,true,true,,,PactBlade,pact_status)
+  return SummonInInventory(guid,permanent,1,true,true,true,null,null,PactBlade,pact_status)
 end
 
 --[[
