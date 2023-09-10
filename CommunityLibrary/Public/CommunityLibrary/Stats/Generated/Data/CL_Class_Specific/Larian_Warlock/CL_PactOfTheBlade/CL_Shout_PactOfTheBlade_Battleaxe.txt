@@ -1,0 +1,6 @@
+new entry "CL_Shout_PactOfTheBlade_Battleaxe"
+type "SpellData"
+data "SpellType" "Shout"
+using "CL_Shout_PactOfTheBlade_Battleaxe"
+data "SpellContainerID" "CL_Shout_PactOfTheBlade"
+data "SpellProperties" "CL_SummonPactWeapon(407954e3-71e4-4611-9221-0ba3ea71d6e8,Permanent)"

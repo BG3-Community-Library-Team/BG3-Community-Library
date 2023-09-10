@@ -1,0 +1,6 @@
+new entry "CL_Shout_PactOfTheBlade_Bind"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PactOfTheBlade_Bind"
+data "SpellProperties" "CL_ApplyEquipmentPactStatus_v2(MainHand)"
+data "TooltipStatusApply" "ApplyStatus(PACT_BLADE,100, -1)"

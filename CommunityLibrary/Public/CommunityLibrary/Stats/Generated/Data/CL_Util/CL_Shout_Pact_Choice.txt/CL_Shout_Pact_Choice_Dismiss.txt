@@ -1,0 +1,7 @@
+new entry "CL_Shout_Pact_Attribute_Choice_Dismiss"
+type "SpellData"
+using "CL_Shout_Pact_Choice"
+data "DisplayName" "h6d72bd66g82deg4e26gb21eg85e85cdea1b3"
+data "Description" "h0618b761g0c55g433ega275g4afb455db063;1"
+data "SpellContainerID" "CL_Shout_Pact_Choice"
+data "SpellProperties" "CL_RemovePactStatus();

@@ -1,0 +1,6 @@
+new entry "CL_Shout_PactOfTheBlade_Rapier"
+type "SpellData"
+data "SpellType" "Shout"
+using "CL_Shout_PactOfTheBlade_Rapier"
+data "SpellContainerID" "CL_Shout_PactOfTheBlade"
+data "SpellProperties" "CL_SummonPactWeapon(705662e8-2a7f-4c7e-b0a0-e505395a45e3,Permanent)"

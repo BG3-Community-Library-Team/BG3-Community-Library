@@ -6,6 +6,57 @@ function CL_ActiveWeaponHasStatus(statusName)
   return HasStatus(statusName, GetActiveWeapon())
 end
 
+function CL_GetPactTagStatus(entity)
+  if Tagged('PACT_TAG_STR', entity) then
+    return 'CL_PACT_BLADE_STR'
+  end
+  if Tagged('PACT_TAG_DEX', entity) then
+    return 'CL_PACT_BLADE_DEX'
+  end
+  if Tagged('PACT_TAG_CON', entity) then
+    return 'CL_PACT_BLADE_CON'
+  end
+  if Tagged('PACT_TAG_INT', entity) then
+    return 'CL_PACT_BLADE_INT'
+  end
+  if Tagged('PACT_TAG_WIS', entity) then
+    return 'CL_PACT_BLADE_WIS'
+  end
+  if Tagged('PACT_TAG_CHA', entity) then
+    return 'PACT_BLADE'
+  end
+  return ''
+end
+
+-- Simple Wrapper Function to remove multiple statuses
+function CL_RemoveAnyStatus(entity, statuses)
+  local entity = entity or context.Source
+  local statuses = statuses or {}
+
+  if statuses ~= nil then
+    for _, status in ipairs(statuses) do
+      if HasStatus(status, entity) then
+        RemoveStatus(entity, status)
+      end
+    end
+  end
+end
+
+function CL_RemovePactStatus(entity)
+  local pact_statuses = {
+    'CL_STATUS_PACT_CHA_TAGGED',
+    'CL_STATUS_PACT_STR_TAGGED',
+    'CL_STATUS_PACT_DEX_TAGGED',
+    'CL_STATUS_PACT_CON_TAGGED',
+    'CL_STATUS_PACT_INT_TAGGED',
+    'CL_STATUS_PACT_WIS_TAGGED'
+  }
+
+  if HasAnyStatus(pact_statuses) then
+    CL_RemoveAnyStatus(entity, pact_statuses)
+  end
+end
+
 -- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
 function CL_HasPactWeapon(entity, mainHand)
     local entity = entity or context.Source
@@ -18,6 +69,7 @@ function CL_HasPactWeapon(entity, mainHand)
 end
 
 --[[ 
+            DEPRECATED, use CL_ApplyEquipmentPactStatus_v2
   Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
   @positon: Is MainHand or OffHand, boolean, default to True (main)
   @attribute: Attribute, string, default to 'CHA'
@@ -36,8 +88,27 @@ function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
     return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
 end
 
-function HasWeaponInOffHand()
+--[[ 
+  Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
+  @positon: Is MainHand or OffHand, boolean, default to True (main)
+  @chance: Chance to Apply, int, default to 100
+  @duration: Duration in Rounds, int, default Indefinite (-1)
+]]--
+function CL_ApplyEquipmentPactStatus_v2(weapon, chance, duration)
+  local weapon = weapon or true
+  local chance = chance or 100
+  local duration = duration or -1
 
+  local pact_stat = CL_GetPactTagStatus(context.Source)
+
+  return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
+end
+
+-- Simple wrapper function for SummonInInventory in relation to Pact Weapons
+function CL_SummonPactWeapon(guid, permanent)
+  local pact_stat = CL_GetPactTagStatus(context.Source)
+  
+  return SummonInInventory(guid,permanent,1,true,true,true,null,null,PactBlade,pact_status)
 end
 
 --[[
@@ -98,7 +169,7 @@ end
   have a chance equal to the first chance, and use the default duration (-1)
 
   Anticipated Usage:
-  CL_ApplyStatusBulk({mainHand, rangedMainHand}, {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {100, 55}, {-1, 3})
+  CL_ApplyStatusBulk( {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {mainHand, rangedMainHand}, {100, 55}, {-1, 3})
 ]]
 function CL_ApplyStatusBulk(statuses, targets, chances, durations)
   local target = targets or {}
