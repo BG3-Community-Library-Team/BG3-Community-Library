@@ -1,0 +1,99 @@
+local pact_statuses = {
+  'CL_STATUS_PACT_CHA_TAGGED',
+  'CL_STATUS_PACT_STR_TAGGED',
+  'CL_STATUS_PACT_DEX_TAGGED',
+  'CL_STATUS_PACT_CON_TAGGED',
+  'CL_STATUS_PACT_INT_TAGGED',
+  'CL_STATUS_PACT_WIS_TAGGED'
+}
+
+local pact_weapon_statuses = {
+  'PACT_BLADE',
+  'CL_PACT_BLADE_STR',
+  'CL_PACT_BLADE_DEX',
+  'CL_PACT_BLADE_CON',
+  'CL_PACT_BLADE_INT',
+  'CL_PACT_BLADE_WIS'
+}
+
+local pact_tags = {
+  'PACT_TAG_CHA',
+  'PACT_TAG_STR',
+  'PACT_TAG_DEX',
+  'PACT_TAG_CON',
+  'PACT_TAG_INT',
+  'PACT_TAG_WIS'
+}
+
+function CL_GetPactTagStatus(entity)
+  local count = 0
+
+  for _, tag in ipairs(pact_tags) do
+    count = count + 1
+    if Tagged(tag, entity) then
+      return pact_weapon_statuses[count]
+    end
+  end
+
+  return ''
+end
+
+function CL_RemovePactStatus(entity)
+  if HasAnyStatus(pact_statuses, {}, {}, entity) then
+    CL_RemoveAnyStatus(entity, pact_statuses)
+  end
+end
+
+-- Optional Replacement for HasPactWeapon(), if support is needed for PACT_BLADE variants
+function CL_HasPactWeapon(entity, mainHand)
+    local entity = entity or context.Source
+    local weaponEntity = GetActiveWeapon(entity, true)
+    if weaponEntity.IsValid then
+        result = Character(entity) & HasAnyStatus(pact_weapon_statuses, {}, {}, weaponEntity)
+        return ConditionResult(result.Result, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+    end
+    return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
+end
+
+--[[ 
+            DEPRECATED, use CL_ApplyEquipmentPactStatus_v2
+  Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
+  @positon: Is MainHand or OffHand, boolean, default to True (main)
+  @attribute: Attribute, string, default to 'CHA'
+  @chance: Chance to Apply, int, default to 100
+  @duration: Duration in Rounds, int, default Indefinite (-1)
+]]--
+function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
+    local weapon = weapon or true
+    local attribute = attribute or 'CHA'
+    local chance = chance or 100
+    local duration = duration or -1
+    local pact_stat = 'PACT_BLADE'
+    if attribute ~= 'CHA' then
+      pact_stat = 'CL_' .. pact_stat .. '_' .. attribute
+    end
+    return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
+end
+
+--[[ 
+  Optional replacement for ApplyEquipmentStatus specific to Pact Statuses:
+  @positon: Is MainHand or OffHand, boolean, default to True (main)
+  @chance: Chance to Apply, int, default to 100
+  @duration: Duration in Rounds, int, default Indefinite (-1)
+]]--
+function CL_ApplyEquipmentPactStatus_v2(weapon, chance, duration)
+  local weapon = weapon or true
+  local chance = chance or 100
+  local duration = duration or -1
+
+  local pact_stat = CL_GetPactTagStatus(context.Source)
+
+  return ApplyEquipmentStatus(weapon, pact_stat, chance, duration)
+end
+
+-- Simple wrapper function for SummonInInventory in relation to Pact Weapons
+function CL_SummonPactWeapon(guid, permanent)
+  local pact_stat = CL_GetPactTagStatus(context.Source)
+  
+  return SummonInInventory(guid,permanent,1,true,true,true,null,null,PactBlade,pact_status)
+end
