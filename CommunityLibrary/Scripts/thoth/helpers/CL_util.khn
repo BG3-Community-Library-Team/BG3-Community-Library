@@ -1,0 +1,107 @@
+-- Simple Wrapper Function to remove multiple statuses
+function CL_RemoveAnyStatus(entity, statuses)
+  local entity = entity or context.Source
+  local statuses = statuses or {}
+
+  if statuses ~= nil then
+    for _, status in ipairs(statuses) do
+      if HasStatus(status, entity) then
+        RemoveStatus(entity, status)
+      end
+    end
+  end
+end
+
+--[[
+  Optional replacement for ApplyEquipmentStatus, supporting multiple values to cut down on repeated calls
+  @weapons: List of weapon slots to apply statuses to. ex: {mainHand, rangedMainHand}
+  @statuses: List of statuses to apply to weapon slots. ex: {'PACT_BLADE', 'CL_CHILLED'}
+  @chances: List of chances to apply statuses (in order), default 100%
+  @durations: List of lengths of statuses (in order), default Indefinite (-1)
+
+  Chance, and Duration will be ordered the same as the status. If you supply 3 statuses, 
+  but 1 chance, and no duration, the third status will have a chance equal to the first
+  chance, and use the default duration (-1)
+
+  Anticipated Usage:
+  CL_ApplyEquipmentStatusBulk({mainHand, rangedMainHand}, {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {100, 55}, {-1, 3})
+]]
+function CL_ApplyEquipmentStatusBulk(weapons, statuses, chances, durations)
+  local weapons = weapons or {}
+  local statuses = statuses or {}
+  local chances = chances or {}
+  local durations = durations or {}
+
+  local count = 0
+  local target = targets[1] or context.Source
+  local chance = chances[1] or 100
+  local duration = durations[1] or -1
+
+  if weapons ~= nil & statuses ~= nil then
+    for _, weapon in ipairs(weapons) do
+        for _, status in ipairs(statuses) do
+          count = count + 1
+
+          if chances[count] ~= nil then
+            chance = chances[count] 
+          end
+
+          if durations[count] ~= nil then
+            duration = durations[count]
+          end
+
+          ApplyEquipmentStatus(weapon, status, chance, duration)
+        end
+    end
+  end
+
+  return false
+end
+
+--[[
+  Optional replacement for ApplyStatus, supporting multiple values to cut down on repeated calls
+  @statuses: List of statuses to apply to targets. ex: {'CL_BRAVERY', 'CL_CHILLED'}
+  @targets: List of weapon slots to apply statuses to. ex: {context.Target, context.Target}. 
+  @chances: List of chances to apply statuses (in order), default 100%
+  @durations: List of lengths of statuses (in order), default Indefinite (-1)
+
+  Target, Chance, and Duration will be ordered the same as the status. If you supply 3 statuses, 
+  but 2 targets, 1 chance, and no duration, the third status will apply to the second target, and
+  have a chance equal to the first chance, and use the default duration (-1)
+
+  Anticipated Usage:
+  CL_ApplyStatusBulk( {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {mainHand, rangedMainHand}, {100, 55}, {-1, 3})
+]]
+function CL_ApplyStatusBulk(statuses, targets, chances, durations)
+  local target = targets or {}
+  local statuses = statuses or {}
+  local chances = chances or {}
+  local durations = durations or {}
+
+  local count = 0
+  local target = targets[1] or context.Source
+  local chance = chances[1] or 100
+  local duration = durations[1] or -1
+
+  if statuses ~= nil then
+    for _, status in ipairs(statuses) do
+      count = count + 1
+
+      if targets[count] ~= nil then
+        target = targets[count]
+      end
+
+      if chances[count] ~= nil then
+        chance = chances[count] 
+      end
+
+      if durations[count] ~= nil then
+        duration = durations[count]
+      end
+
+      ApplyStatus(target, status, chance, duration)
+    end
+  end
+
+  return false
+end
