@@ -292,3 +292,41 @@
 - `CL_AttackIsSpell`
 - `CL_ActiveWeaponHasStatus`
 - `CL_HasPactWeapon`
+
+# 2.0.4.3
+
+## Scripts
+- `CL_GetPactTagStatus`
+- `CL_RemovePactStatus`
+- `CL_ApplyEquipmentPactStatus`
+- `CL_ApplyEquipmentPactStatus_v2`
+- `CL_SummonPactWeapon`
+- `CL_RemoveAnyStatus`
+- `CL_ApplyEquipmentStatusBulk`
+- `CL_ApplyStatusBulk`
+
+## Spells
+- `CL_Shout_PactOfTheBlade`
+- `CL_Shout_PactOfTheBlade_Battleaxe`
+- `CL_Shout_PactOfTheBlade_Glaive`
+- `CL_Shout_PactOfTheBlade_Greatsword`
+- `CL_Shout_PactOfTheBlade_Rapier`
+- `CL_Shout_PactOfTheBlade_Trident`
+- `CL_Shout_PactOfTheBlade_Warhammer`
+- `CL_Shout_PactOfTheBlade_Bind`
+- `CL_Shourt_Pact_Choice`
+- `CL_Shourt_Pact_Choice_CHA`
+- `CL_Shourt_Pact_Choice_CON`
+- `CL_Shourt_Pact_Choice_DEX`
+- `CL_Shourt_Pact_Choice_INT`
+- `CL_Shourt_Pact_Choice_STR`
+- `CL_Shourt_Pact_Choice_WIS`
+- `CL_Shourt_Pact_Choice_Dismiss`
+
+## Tags
+- `PACT_TAG_CHA`
+- `PACT_TAG_CON`
+- `PACT_TAG_DEX`
+- `PACT_TAG_INT`
+- `PACT_TAG_STR`
+- `PACT_TAG_WIS`
