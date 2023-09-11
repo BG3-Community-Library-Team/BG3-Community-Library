@@ -1,5 +1,5 @@
 # Baldur's Gate 3 Community Library
-[![GitHub release](https://img.shields.io/github/v/tag/BG3-Community-Library-Team/BG3-Community-Library?label=Latest%20Version)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/BG3-Community-Library-Team/BG3-Community-Library/2.0.4.0/main)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
+[![GitHub release](https://img.shields.io/github/v/tag/BG3-Community-Library-Team/BG3-Community-Library?label=Latest%20Version)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/BG3-Community-Library-Team/BG3-Community-Library/2.0.4.3/main)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
 
 Baldur's Gate 3 Community Library exists to provide a common collection of
 Spells, Scripts, Items, Statuses, Passives, and other useful material that will
@@ -21,7 +21,7 @@ models, textures, sounds, etc.
 Some mods will rely on this one, and require it as a dependency, as it provides the content it contains. If none of your mods require this one, you don't need to install it.
 
 ### I heard this mod makes Subclasses Compatible?
-As of 2.0.5.0, this mod no longer includes the [Subclass Compatibility Framework](https://github.com/BG3-Community-Library-Team/BG3-Subclass-Compatibility-Framework), which has been separated out into it's own project.
+As of 2.0.4.1, this mod no longer includes the [Subclass Compatibility Framework](https://github.com/BG3-Community-Library-Team/BG3-Subclass-Compatibility-Framework), which has been separated out into it's own project.
 
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
