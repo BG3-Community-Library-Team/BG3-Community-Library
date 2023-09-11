@@ -314,14 +314,14 @@
 - `CL_Shout_PactOfTheBlade_Trident`
 - `CL_Shout_PactOfTheBlade_Warhammer`
 - `CL_Shout_PactOfTheBlade_Bind`
-- `CL_Shourt_Pact_Choice`
-- `CL_Shourt_Pact_Choice_CHA`
-- `CL_Shourt_Pact_Choice_CON`
-- `CL_Shourt_Pact_Choice_DEX`
-- `CL_Shourt_Pact_Choice_INT`
-- `CL_Shourt_Pact_Choice_STR`
-- `CL_Shourt_Pact_Choice_WIS`
-- `CL_Shourt_Pact_Choice_Dismiss`
+- `CL_Shout_Pact_Choice`
+- `CL_Shout_Pact_Choice_CHA`
+- `CL_Shout_Pact_Choice_CON`
+- `CL_Shout_Pact_Choice_DEX`
+- `CL_Shout_Pact_Choice_INT`
+- `CL_Shout_Pact_Choice_STR`
+- `CL_Shout_Pact_Choice_WIS`
+- `CL_Shout_Pact_Choice_Dismiss`
 
 ## Tags
 - `PACT_TAG_CHA`
