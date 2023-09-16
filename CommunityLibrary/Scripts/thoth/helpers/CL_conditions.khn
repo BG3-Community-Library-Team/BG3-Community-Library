@@ -108,8 +108,6 @@ function CL_SummonPactWeapon(guid, permanent)
   return SummonInInventory(guid, permanent, 1, true, true, true, null, null, PactBlade, pact_status)
 end
 
-local io = require "io"
-
 -- Simple Wrapper Function to remove multiple statuses
 function CL_RemoveAnyStatus(entity, statuses)
   local entity = entity or context.Source
@@ -184,7 +182,7 @@ end
   CL_ApplyStatusBulk( {'PACT_BLADE', 'CL_STATUS_BRAVERY'}, {mainHand, rangedMainHand}, {100, 55}, {-1, 3})
 ]]
 function CL_ApplyStatusBulk(statuses, targets, chances, durations)
-  local target = targets or {}
+  local targets = targets or {}
   local statuses = statuses or {}
   local chances = chances or {}
   local durations = durations or {}
