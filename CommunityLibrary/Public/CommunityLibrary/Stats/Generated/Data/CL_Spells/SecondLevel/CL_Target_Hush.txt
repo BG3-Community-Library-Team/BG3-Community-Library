@@ -1,4 +1,4 @@
-new entry "AGTT_Target_Hush"
+new entry "CL_Target_Hush"
 type "SpellData"
 data "SpellType" "Target"
 data "Icon" "Spell_Illusion_Silence"

@@ -1,4 +1,4 @@
-new entry "AGTT_Target_DemoralizingTouch"
+new entry "CL_Target_DemoralizingTouch"
 type "SpellData"
 data "SpellType" "Target"
 data "Icon" "Status_Frightened"

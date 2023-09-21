@@ -1,4 +1,4 @@
-new entry "AGTT_Target_FrenzyingTouch"
+new entry "CL_Target_FrenzyingTouch"
 type "SpellData"
 data "SpellType" "Target"
 data "Icon" "Spell_Conjuration_MageHand"

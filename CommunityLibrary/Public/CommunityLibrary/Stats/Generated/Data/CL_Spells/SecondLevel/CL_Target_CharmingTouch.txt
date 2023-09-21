@@ -1,4 +1,4 @@
-new entry "AGTT_Target_CharmingTouch"
+new entry "CL_Target_CharmingTouch"
 type "SpellData"
 data "SpellType" "Target"
 data "Icon" "Status_Charmed"

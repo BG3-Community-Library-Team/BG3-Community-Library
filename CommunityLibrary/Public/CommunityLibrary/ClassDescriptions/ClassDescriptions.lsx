@@ -31,7 +31,7 @@
             <attribute id="Description" type="TranslatedString" handle="h3b0a2cc6g6a69g4dafga232g8b5d447a3856" version="2"/>
             <attribute id="DisplayName" type="TranslatedString" handle="h36ddddaeg1283g47b8ga667gb6e898fa8ca7" version="1"/>
             <attribute id="LearningStrategy" type="uint8" value="1"/>
-            <attribute id="Name" type="FixedString" value="AGtT_WayOfMarshmerrow"/>
+            <attribute id="Name" type="FixedString" value="CL_WayOfMarshmerrow"/>
             <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
             <attribute id="PrimaryAbility" type="uint8" value="5"/>
             <attribute id="ProgressionTableUUID" type="guid" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2"/>
