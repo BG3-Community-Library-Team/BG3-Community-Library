@@ -1,4 +1,26 @@
 <contentList date="08/24/2023 01:10">
+  <content contentuid="h31c654d1gb718g4de6g8557gf6c542946349" version="1">Charming Touch</content>
+  <content contentuid="h0cc1b517g24f5g4748g937fgc1fa9cec851d" version="1">You touch a nearby creature in an effort to charm it. It must make a Wisdom saving throw, and has advantage if you or your companions are fihgting it. If it fails, it is charmed by you for the duration of the spell, or until you or your companions do anything harmful to it. When the spell ends, it will know you have charmed it.</content>
+  <content contentuid="h518a5142g4fbbg49ecgb543g6d4722580ae7" version="1">Demoralizing Touch</content>
+  <content contentuid="h494276e3g68c0g4630gb5eege914eef8153f" version="1">You touch a nearby creature in an effort to Demoralize it. It must make a Wisdom saving throw. If it fails, it is frightened for the duration of the spell.</content>
+  <content contentuid="h96c88250g675fg49d1ga366g0c2e9dfa7e3f" version="1">Frenzying Touch</content>
+  <content contentuid="hc8b9bee9g795fg46a6gba32g2e0d6438cc61" version="1">You touch a nearby creature in an effort to rile it up. It must make a Wisdom saving throw. If it fails, it is frenzied for the duration of the spell.</content>
+  <content contentuid="h2d19bba1gc532g4419ga081g8a9a12b9ce90" version="1">Heroic Touch</content>
+  <content contentuid="h2c5acd82gc94eg4ce1g866bg9a71e98a350a" version="1">You touch a nearby creature in an effort to raise its courage. Until the spell ends, the creature is immune to being frightened, and gains temporary hit points equal to your Spellcasting ability.</content>
+  <content contentuid="hfa8c9662gb2e0g4561gba89g7bcb9a5ccf88" version="1">Frenzying Touch</content>
+  <content contentuid="hfa8c9662gb2e0g4561gba89g7bcb9a5ccf88" version="1">Frenzying Touch</content>
+  <content contentuid="hfa8c9662gb2e0g4561gba89g7bcb9a5ccf88" version="1">Eye-Maze</content>
+  <content contentuid="h4e08a7fdgedf9g42eeg9f87g18fe35b02de4" version="1">This creature is only partially visible, granting them +1 Stealth, and an additional +1 AC.</content>
+  <content contentuid="h7a2ac713g9ea9g4380gaa4fgb3b12ef0c036" version="1">This creature is only partially visible, granting them +2 Stealth, and an additional +1 AC.</content>
+  <content contentuid="hc40199ccgc729g4698g9bbbg88c9a389a67a" version="1">Your body shifts in and out of sight, granting you +1 AC, and +1 Stealth.</content>
+  <content contentuid="h839395a4g82dcg49d1ga693g17ae67569315" version="1">Chameleon</content>
+  <content contentuid="h5dc2b102g8931g4ebega27fg2ce3afec0bb3" version="1">This creature is only partially visible, granting them Advantage and Proficiency in Stealth rolls.</content>
+  <content contentuid="h8b37aac5ge924g47ddg9f9bg0454c9a98db3" version="1">You touch a willing target, causing the coloration and texture of its clothing to blend in with the creature's surroundings. They gain Advantage on and Proficiency in all Stealth rolls.</content>
+  <content contentuid="hf1fb07e7g4594g497ag8c4cg55bd93792f36" version="1">Psychic Shock</content>
+  <content contentuid="hacda281cg55ebg4339gb592g962c35fc90a0" version="1">You invade another creature's mind, and for one split second, you cause them to perceive some image, noise, or memory that would cause them stress. Choose a target you can see or hear. The creature makes an Intelligence saving throw. If it fails, the creature takes [1], and has Disadvantage on its Attack Rolls this round.</content>
+  <content contentuid="h81f6bfeegf3b9g4e47gb406g2a8ac5c7e714" version="1">This creature is reliving a painful memory, and has disadvantage on attack rolls.</content>
+  <content contentuid="h252d24e7g4336g443eg80dfg5ac0024ff3a8" version="1">Hush</content>
+  <content contentuid="hfc7b1c0aga9f9g4546gacc8g9da25cfe98d9" version="1">You cast an illusion into the mouth of a creature within range. If the creature fails a Wisdom saving throw, no words can come out of their mouth, and their connection to the Weave is severed for the duration of the spell.</content>
   <content contentuid="h35069ed4g06a4g481ag8dfdg03963b207d18" version="1">Skeleton Key</content>
   <content contentuid="h7a726ec1g6911g4cadg8e91g36207c377083" version="1">You poke your finger into the lock, opening any lock.</content>
   <content contentuid="h234b5017g929bg4403g9031gdc09713fbb1a" version="1">Magically teleport up to 9m to an unoccupied space you can see.</content>
