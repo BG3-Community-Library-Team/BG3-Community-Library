@@ -1,4 +1,6 @@
 <contentList date="08/24/2023 01:10">
+  <content contentuid="he64d5ac5gacc2g4d57gbf01gbf02e40063df" version="1">Calming Gaze</content>
+  <content contentuid="h5fc02e1fg9300g4816g9e9cg90a04ee22b86" version="1">Your gaze catches the eye of a creature within range of your choosing. They can make a Charisma saving throw. If successful, the spell fails and the creature remains in its emotional state. Otherwise, they will enter a calm state of mind for 8 hours, and refuse to fight. They will also no longer be frightened or Charmed.</content>
   <content contentuid="h31c654d1gb718g4de6g8557gf6c542946349" version="1">Charming Touch</content>
   <content contentuid="h0cc1b517g24f5g4748g937fgc1fa9cec851d" version="1">You touch a nearby creature in an effort to charm it. It must make a Wisdom saving throw, and has advantage if you or your companions are fihgting it. If it fails, it is charmed by you for the duration of the spell, or until you or your companions do anything harmful to it. When the spell ends, it will know you have charmed it.</content>
   <content contentuid="h518a5142g4fbbg49ecgb543g6d4722580ae7" version="1">Demoralizing Touch</content>
