@@ -4,7 +4,7 @@
   <region id="ClassDescriptions">
     <node id="root">
       <children>
-        <node id="ClassDescription"> 
+        <node id="ClassDescription"> <!-- Death Knight by MailMe -->
           <attribute id="BaseHp" type="int32" value="12"/>
           <attribute id="CanLearnSpells" type="bool" value="false"/>
           <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/> 
@@ -26,8 +26,20 @@
             </node>
           </children>
         </node>
+        <node id="ClassDescription"> <!-- Monk - Way of Marshmerrow by NellsRelo -->
+            <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+            <attribute id="Description" type="TranslatedString" handle="h3b0a2cc6g6a69g4dafga232g8b5d447a3856" version="2"/>
+            <attribute id="DisplayName" type="TranslatedString" handle="h36ddddaeg1283g47b8ga667gb6e898fa8ca7" version="1"/>
+            <attribute id="LearningStrategy" type="uint8" value="1"/>
+            <attribute id="Name" type="FixedString" value="AGtT_WayOfMarshmerrow"/>
+            <attribute id="ParentGuid" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
+            <attribute id="PrimaryAbility" type="uint8" value="5"/>
+            <attribute id="ProgressionTableUUID" type="guid" value="6c9fac23-d01a-4e0d-bfb1-28bed5581ee2"/>
+            <attribute id="SoundClassType" type="FixedString" value="Monk"/>
+            <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+            <attribute id="UUID" type="guid" value="h3b0a2cc6g6a69g4dafga232g8b5d447a3856"/>
+        </node>
       </children>
     </node>
   </region>
 </save>
-
