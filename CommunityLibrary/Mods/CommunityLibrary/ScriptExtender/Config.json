@@ -1,0 +1,5 @@
+{
+  "RequiredVersion": 3,
+  "ModTable": "BG3CommunityLibrary",
+  "FeatureFlags": ["Lua"]
+}
