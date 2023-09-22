@@ -1,0 +1,7 @@
+new entry "CL_Crown_Tenents"
+type "PassiveData"
+data "DisplayName" "hc8873c54gadb5g48edgb75dg400b616d6168;1"
+data "Description" "h684b40b3g24e0g4c7fg9860g975aef23dd36;1"
+data "ExtraDescription" "h987c5b0dg7b16g4a07gacd4g5ac78e018cb7;2"
+data "Icon" "Action_DivineIntervention_Weapon"
+data "Properties" "Highlighted"

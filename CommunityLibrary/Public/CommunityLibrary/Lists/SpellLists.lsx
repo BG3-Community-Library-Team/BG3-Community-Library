@@ -4,31 +4,71 @@
   <region id="SpellLists">
     <node id="root">
       <children>
-        <node id="SpellList"> <!-- ShadarKai - NellsRelo -->
+        <node id="SpellList">          <!-- ShadarKai - NellsRelo -->
           <attribute id="Comment" type="LSString" value="Raven Queen's Blessing Ability"/>
           <attribute id="Spells" type="LSString" value="CL_Target_RavenQueenBlessing"/>
           <attribute id="UUID" type="guid" value="cdea5ca8-e43f-4830-a265-76fec11ab79a"/>
         </node>
-        <node id="SpellList"> <!-- Playable Skeletons - NellsRelo -->
+        <node id="SpellList">          <!-- Playable Skeletons - NellsRelo -->
           <attribute id="Comment" type="LSString" value="Skeleton Finger Ability"/>
           <attribute id="Spells" type="LSString" value="CL_Target_SkeletonFinger"/>
           <attribute id="UUID" type="guid" value="7b88446a-f86b-41ed-b746-44a6e7950b54"/>
         </node>
-        <node id="SpellList"> <!-- Death Knight - MailMe -->
-          <attribute id="Spells" type="LSString" value="CL_Target_Heartstrike"/> 
+        <node id="SpellList">          <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_Target_Heartstrike"/>
           <attribute id="UUID" type="guid" value="f8799582-ef4c-49b7-88eb-2120aecab569"/>
         </node>
-        <node id="SpellList"> <!-- Death Knight - MailMe -->
-          <attribute id="Spells" type="LSString" value="CL_Shout_Spite"/> 
+        <node id="SpellList">          <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_Shout_Spite"/>
           <attribute id="UUID" type="guid" value="6673fc08-4751-4d9a-9028-9f6fd73a7edb"/>
         </node>
-        <node id="SpellList"> <!-- Death Knight - MailMe -->
-          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Target_HoldPerson"/> 
+        <node id="SpellList">          <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Target_HoldPerson"/>
           <attribute id="UUID" type="guid" value="99d330e3-b525-41fe-93a0-eceabebfd827"/>
         </node>
-        <node id="SpellList"> <!-- Death Knight - MailMe -->
-          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Projectile_Fireball"/> 
+        <node id="SpellList">          <!-- Death Knight - MailMe -->
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Projectile_Fireball"/>
           <attribute id="UUID" type="guid" value="afa8e343-4b99-4ff8-9cb2-27ff880778dd"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="MarshMerrow SLevel 3"/>
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle"/>
+          <attribute id="UUID" type="guid" value="8872ea32-5b93-4eaf-949b-0876871496d8"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 4" />
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura"/>
+          <attribute id="UUID" type="guid" value="3e2996a2-12d3-47fb-883d-47550ae9a12e"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow Subclass Feature Level 6" />
+          <attribute id="Spells" type="LSString" value="CL_Shout_Severance"/>
+          <attribute id="UUID" type="guid" value="a9c54ada-ef2d-4d35-bad0-f3e810ecd189"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 6" />
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear"/>
+          <attribute id="UUID" type="guid" value="6f29f0e3-df08-48ed-864d-48ced894f88b"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 8" />
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear;CL_MTB_PhantasmalKiller"/>
+          <attribute id="UUID" type="guid" value="a6ee0d7b-99df-4d43-9cf0-b717af69a746"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_Marshmerrow Subclass Feature Level 9" />
+          <attribute id="Spells" type="LSString" value="CL_Target_PeacefulEye"/>
+          <attribute id="UUID" type="guid" value="10bf7d43-8777-47ef-adec-ac1c196875dd"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 10" />
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear;CL_MTB_PhantasmalKiller;CL_MTB_Seeming"/>
+          <attribute id="UUID" type="guid" value="e5cf269d-e2fd-4040-bc03-fc4a2bb884bf"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow Subclass Feature Level 11" />
+          <attribute id="Spells" type="LSString" value="CL_Target_RoaringPalms"/>
+          <attribute id="UUID" type="guid" value="832e2475-eda3-49ba-aaf6-c90e0812a33d"/>
         </node>
       </children>
     </node>

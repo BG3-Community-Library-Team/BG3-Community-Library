@@ -2,8 +2,61 @@ function CL_AttackIsSpell()
   return AttackType == (context.HitDescripton.AttackType.MeleeSpellAttack or AttackType.RangedSpellAttack)
 end
 
+function CL_DistanceToSourceGreaterThan(value)
+  local errorTrue = {
+    ConditionError("DistanceGreaterThan_True", { ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance) }) }
+  local errorFalse = {
+    ConditionError("DistanceGreaterThan_False", { ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance) }) }
+  return ConditionResult(DistanceToSource() > value, errorFalse, errorTrue)
+end
+
 function CL_ActiveWeaponHasStatus(statusName)
   return HasStatus(statusName, GetActiveWeapon())
+end
+
+function IllusionSpellCheck()
+  return SpellId()
+end
+
+function CL_IsKin()
+  -- Need to figure out how to better handle half-drow
+  if Tagged('BALDURIAN', context.Source) and Tagged('BALDURIAN', context.Target) then
+    return true
+  end
+  if Tagged('LOLTH-SWORN', context.Source) and Tagged('LOLTH-SWORN', context.Target) then
+    return true
+  end
+  if Tagged('SELDARINE', context.Source) and Tagged('SELDARINE', context.Target) then
+    return true
+  end
+
+  if Tagged('GITHYANKI', context.Source) and Tagged('GITHYANKI', context.Target) then
+    return true
+  end
+
+  if Tagged('HALF-DROW', context.Source) and Tagged('HALF_DROW', context.Target) then
+    return true
+  end
+
+  if Tagged('DUERGAR', context.Source) and Tagged('DUERGAR', context.Target) then
+    return true
+  end
+
+  if Tagged('GNOME', context.Source) and Tagged('GNOME', context.Target) then
+    return true
+  end
+
+  -- Support Undead
+  if Tagged('UNDEAD', context.Source) and Tagged('UNDEAD', context.Target) then
+    return true
+  end
+
+  -- Support Shadar-Kai
+  if Tagged('SHADAR-KAI', context.Source) and Tagged('SHADAR-KAI', context.Target) then
+    return true
+  end
+
+  return false
 end
 
 local pact_statuses = {
@@ -71,7 +124,7 @@ end
   @chance: Chance to Apply, int, default to 100
   @duration: Duration in Rounds, int, default Indefinite (-1)
 ]]
-   --
+--
 function CL_ApplyEquipmentPactStatus(weapon, attribute, chance, duration)
   local weapon = weapon or true
   local attribute = attribute or 'CHA'
@@ -90,7 +143,7 @@ end
   @chance: Chance to Apply, int, default to 100
   @duration: Duration in Rounds, int, default Indefinite (-1)
 ]]
-   --
+--
 function CL_ApplyEquipmentPactStatus_v2(weapon, chance, duration)
   local weapon = weapon or true
   local chance = chance or 100
@@ -213,4 +266,29 @@ function CL_ApplyStatusBulk(statuses, targets, chances, durations)
   end
 
   return false
+end
+
+function CL_IsIllusionSpell()
+  return SpellId('CL_Target_Chameleon')
+  | SpellId('CL_Target_EyeMaze')
+  | SpellId('CL_Target_Muffle')
+  | SpellId('Zone_ColorSpray')
+  | SpellId('Shout_DisguiseSelf')
+  | SpellId('Shout_Blur')
+  | SpellId('Shout_MirrorImage')
+  | SpellId('Target_Invisibility')
+  | SpellId('Target_PhantasmalForce')
+  | SpellId('Target_Silence')
+  | SpellId('CL_Target_MisdirectedMark')
+  | SpellId('CL_Target_Hush')
+  | SpellId('CL_Target_Glamour')
+  | SpellId('CL_Target_HeroicTouch')
+  | SpellId('CL_Target_FrenzyingTouch')
+  | SpellId('CL_Target_DemoralizingTouch')
+  | SpellId('CL_Target_CharmingTouch')
+  | SpellId('CL_Shout_MagicAura')
+  | SpellId('Target_HypnoticPattern')
+  | SpellId('Zone_Fear')
+  | SpellId('Target_PhantasmalKiller')
+  | SpellId('Target_Seeming')
 end

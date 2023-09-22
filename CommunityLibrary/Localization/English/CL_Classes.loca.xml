@@ -1,4 +1,8 @@
 <contentList>
   <content contentuid="h0ac042b8g9c9eg40f3g88dag83496ad4b8a8" version="1">DeathKnight</content>
   <content contentuid="h8f688ae8g8104g4542g94cfge4d0b1d5318c" version="1">Knit your way to freedom</content>
+  <content contentuid="hc24328eag2d45g46a9gab60gab56fd7bea9d" version="1">Way of Marshmerrow</content>
+  <content contentuid="ha7cd9b16gccb8g4dbfga630gc87b4bf45922" version="1">One of the fastest growing Dunmeri martial arts, the Way of Marshmerrow is a relatively new creation, based on the teachings of Khajiit martial artists. Its teachings weave a practicioners willpower and spiritual essence with more traditional unarmed combat techniques.
+
+    Monks of this tradition are capable of utilizing their &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; to cast spells if they already know how to use magic, and can otherwise create effects similar to traditional Illusion spells using only their actions.</content>
 </contentList>
