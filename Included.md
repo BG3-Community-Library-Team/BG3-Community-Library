@@ -330,3 +330,32 @@
 - `PACT_TAG_INT`
 - `PACT_TAG_STR`
 - `PACT_TAG_WIS`
+
+# 2.0.5.0
+- Include initial Script Extender Support
+   - Utility Functions
+       - 
+- Add Various Spells/Status/Passives/Interrupts from Adventurer's Guide to Tamriel
+   - Magic Aura
+   - Oath of the Crown Tenets
+   - Charming Touch
+   - Frenzying Touch
+   - Demoralizing Touch
+   - Heroic Touch
+   - Eye-Maze
+   - Psychic Shock
+   - Hush
+   - Chameleon
+   - Misdirected Mark Improvements
+- Include Class Definitions, Abilities, and Icons for Monk Subclass: Way of Marshmerrow
+   - Class Icon
+   - Class Hotbar Icon
+   - CL_Shout/Interrupt_Severance
+   - CL_MartialArts_MoonlightStrike
+   - CL_Target_PeacefulEye
+   - CL_ManagingTheBreath + CL_MTB_ Illusion Spell Ki Variants
+   - CL_Target/Interrupt_RoaringPalm
+- Add Useful Scripts
+   - CL_IsKin()
+   - CL_DistanceToSourceGreaterThan()
+   - CL_IsIllusionSpell()
