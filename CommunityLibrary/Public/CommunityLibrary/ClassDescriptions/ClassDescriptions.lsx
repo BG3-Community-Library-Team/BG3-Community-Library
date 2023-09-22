@@ -37,8 +37,6 @@
           <attribute id="ProgressionTableUUID" type="guid" value="c1ae68ca-ea62-4c9d-a684-a51a77a20d03"/>
           <attribute id="SoundClassType" type="FixedString" value="Monk"/>
           <attribute id="SpellCastingAbility" type="uint8" value="5"/>
-          <attribute id="MustPrepareSpells" type="bool" value="false"/>
-          <attribute id="SpellList" type="guid" value="d76e6293-e2e3-4e63-9ef1-655556b18833"/>
           <attribute id="UUID" type="guid" value="f9a3c603-8896-46f4-a18e-e35e12357faf"/>
         </node>
       </children>

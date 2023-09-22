@@ -31,11 +31,6 @@
           <attribute id="UUID" type="guid" value="afa8e343-4b99-4ff8-9cb2-27ff880778dd"/>
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
-          <attribute id="Comment" type="LSString" value="CL_MarshMerrow spell scroll list"/>
-          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear;CL_MTB_PhantasmalKiller;CL_MTB_Seeming;"/>
-          <attribute id="UUID" type="guid" value="d76e6293-e2e3-4e63-9ef1-655556b18833"/>
-        </node>
-        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="MarshMerrow SLevel 3"/>
           <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle"/>
           <attribute id="UUID" type="guid" value="8872ea32-5b93-4eaf-949b-0876871496d8"/>
