@@ -1,4 +1,4 @@
 <contentList date="26/10/2020 01:10">
   <content contentuid="h97f8c3dcg1cd9g419cgb518g0040d95d529d" version="1">Severance</content>
-  <content contentuid="h603bf287g7bf2g4653ga30fgb6af1a84ee58" version="1">When you make an &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt; against an opponent, you may spend 3 &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; to leave them under the effects of the [1].</content>
+  <content contentuid="h603bf287g7bf2g4653ga30fgb6af1a84ee58" version="1">When you make an &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt; against an opponent, you may spend 3 &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; to leave them under the effects of &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silence&lt;/LSTag&gt; for 9 turns.</content>
 </contentList>

@@ -57,7 +57,7 @@
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_Marshmerrow Subclass Feature Level 9" />
-          <attribute id="Spells" type="LSString" value="CL_Target_CalmingGaze"/>
+          <attribute id="Spells" type="LSString" value="CL_Target_CalmingGaze_Monk"/>
           <attribute id="UUID" type="guid" value="10bf7d43-8777-47ef-adec-ac1c196875dd"/>
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
