@@ -42,7 +42,7 @@
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 4" />
-          <attribute id="Spells" type="LSString" value="CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura"/>
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura"/>
           <attribute id="UUID" type="guid" value="3e2996a2-12d3-47fb-883d-47550ae9a12e"/>
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
@@ -52,12 +52,12 @@
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 6" />
-          <attribute id="Spells" type="LSString" value="CL_MTB_HypnoticPattern;CL_MTB_Fear"/>
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear"/>
           <attribute id="UUID" type="guid" value="6f29f0e3-df08-48ed-864d-48ced894f88b"/>
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 8" />
-          <attribute id="Spells" type="LSString" value="CL_MTB_PhantasmalKiller"/>
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear;CL_MTB_PhantasmalKiller"/>
           <attribute id="UUID" type="guid" value="a6ee0d7b-99df-4d43-9cf0-b717af69a746"/>
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
@@ -67,7 +67,7 @@
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 10" />
-          <attribute id="Spells" type="LSString" value="CL_MTB_Seeming"/>
+          <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear;CL_MTB_PhantasmalKiller;CL_MTB_Seeming"/>
           <attribute id="UUID" type="guid" value="e5cf269d-e2fd-4040-bc03-fc4a2bb884bf"/>
         </node>
       </children>

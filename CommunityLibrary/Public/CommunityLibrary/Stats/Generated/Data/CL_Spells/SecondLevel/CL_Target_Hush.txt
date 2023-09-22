@@ -1,7 +1,7 @@
 new entry "CL_Target_Hush"
 type "SpellData"
 data "SpellType" "Target"
-data "Icon" "Spell_Illusion_Silence"
+data "Icon" "Spell_Enchantment_DissonantWhispers"
 data "Level" "2"
 data "TargetConditions" "Character() and not Dead()"
 data "TargetRadius" "9"

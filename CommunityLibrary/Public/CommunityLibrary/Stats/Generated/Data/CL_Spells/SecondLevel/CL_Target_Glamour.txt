@@ -1,7 +1,7 @@
 new entry "CL_Target_Glamour"
 type "SpellData"
 data "SpellType" "Target"
-data "Icon" "unknown"
+data "Icon" "Spell_Enchantment_Heroism"
 data "Level" "2"
 data "TargetConditions" "Character() and not Dead()"
 data "TargetRadius" "MeleeMainWeaponRange"
