@@ -1,7 +1,7 @@
 new entry "CL_Target_CharmingTouch"
 type "SpellData"
 data "SpellType" "Target"
-data "Icon" "Status_Charmed"
+data "Icon" "Spell_Enchantment_Friends"
 data "Level" "2"
 data "SpellSchool" "Illusion"
 data "DisplayName" "h31c654d1gb718g4de6g8557gf6c542946349"
