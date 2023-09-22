@@ -334,7 +334,10 @@
 # 2.0.5.0
 - Include initial Script Extender Support
    - Utility Functions
-       - 
+       - Utils.Stringify
+       - Utils.Info
+       - Utils.Error
+       - Utils.IsGuid
 - Add Various Spells/Status/Passives/Interrupts from Adventurer's Guide to Tamriel
    - Magic Aura
    - Oath of the Crown Tenets
