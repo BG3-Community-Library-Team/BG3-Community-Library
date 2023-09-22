@@ -1,4 +1,3 @@
-// Level 6
 new entry "CL_Shout_Severance"
 type "SpellData"
 using "Target_UnarmedStrike_Monk"
@@ -15,6 +14,8 @@ data "Description" "h603bf287g7bf2g4653ga30fgb6af1a84ee58"
 data "Icon" "Spell_Illusion_Silence"
 data "Cost" "ReactionActionPoint:1;KiPoint:3"
 data "InterruptDefaultValue" "Ask;Enabled"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
 data "Container" "YesNoDecision"
 data "Cooldown" "OncePerTurn"
 data "Conditions" "Self(context.Source,context.Observer) and IsMeleeAttack() and IsMonkWeaponAttack() and SpellId('Target_UnarmedStrike_Monk')"
