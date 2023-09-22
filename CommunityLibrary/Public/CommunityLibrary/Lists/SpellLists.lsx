@@ -57,13 +57,18 @@
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_Marshmerrow Subclass Feature Level 9" />
-          <attribute id="Spells" type="LSString" value="CL_Target_CalmingGaze_Monk"/>
+          <attribute id="Spells" type="LSString" value="CL_Target_PeacefulEye"/>
           <attribute id="UUID" type="guid" value="10bf7d43-8777-47ef-adec-ac1c196875dd"/>
         </node>
         <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
           <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 10" />
           <attribute id="Spells" type="LSString" value="CL_MTB_ColorSpray;CL_MTB_Chameleon;CL_MTB_Eyemaze;CL_MTB_Muffle;CL_MTB_Blur;CL_MTB_MirrorImage;CL_MTB_Invisibility;CL_MTB_PhantasmalForce;CL_MTB_Silence;CL_MTB_MisdirectedMark;CL_MTB_Hush;CL_MTB_Glamour;CL_MTB_HeroicTouch;CL_MTB_FrenzyingTouch;CL_MTB_DemoralizingTouch;CL_MTB_CharmingTouch;CL_MTB_MagicAura;CL_MTB_HypnoticPattern;CL_MTB_Fear;CL_MTB_PhantasmalKiller;CL_MTB_Seeming"/>
           <attribute id="UUID" type="guid" value="e5cf269d-e2fd-4040-bc03-fc4a2bb884bf"/>
+        </node>
+        <node id="SpellList">          <!-- Way of Marshmerrow - NellsRelo -->
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow SLevel 11" />
+          <attribute id="Spells" type="LSString" value="CL_Target_RoaringPalms"/>
+          <attribute id="UUID" type="guid" value="832e2475-eda3-49ba-aaf6-c90e0812a33d"/>
         </node>
       </children>
     </node>

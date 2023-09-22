@@ -1,8 +1,12 @@
 <contentList date="08/24/2023 01:10">
+  <content contentuid="hef8b663egda40g4814ga8a3g943884629173" version="1">Peaceful Eye</content>
+  <content contentuid="hc859716cg3d8cg4c7fgbf10g6397adca8841" version="1">Roaring Palm</content>
+  <content contentuid="hb5b16ef5g439bg4b54gbf3cga38398c12c3f" version="1">When using this action, the target must make a &lt;LSTag Tooltip="SavingThrow"&gt;Constitution Saving Throw&lt;/LSTag&gt;. If it fails, it is knocked unconscious. If it succeeds, it takes [1].</content>
+  <content contentuid="h4e802633g3b90g42ecg84e2gf18aad9dbb35" version="1">Whenever you use an &lt;LSTag Type="Spell" Tooltip="Target_UnarmedStrike_Monk"&gt;Unarmed Strike&lt;/LSTag&gt; against an opponent, you may spend 6 &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; to spread a 9m radius of pure &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;silence&lt;/LSTag&gt; centered around your target. In this area, sound will not travel, and any creature within the range cannot speak.</content>
   <content contentuid="he64d5ac5gacc2g4d57gbf01gbf02e40063df" version="1">Calming Gaze</content>
-  <content contentuid="h5fc02e1fg9300g4816g9e9cg90a04ee22b86" version="1">Your gaze catches the eye of a creature within range of your choosing. They can make a Charisma saving throw. If successful, the spell fails and the creature remains in its emotional state. Otherwise, they will enter a calm state of mind for 8 hours, and refuse to fight. They will also no longer be frightened or Charmed.</content>
+  <content contentuid="h5fc02e1fg9300g4816g9e9cg90a04ee22b86" version="1">Your gaze catches the eye of a creature within range of your choosing. They can make a &lt;LSTag Tooltip="SavingThrow"&gt;Charisma Saving Throw&lt;/LSTag&gt; saving throw. If successful, the spell fails and the creature remains in its emotional state. Otherwise, they will enter a calm state of mind for 8 hours, and refuse to fight. They will also no longer be frightened or Charmed.</content>
   <content contentuid="h31c654d1gb718g4de6g8557gf6c542946349" version="1">Charming Touch</content>
-  <content contentuid="h0cc1b517g24f5g4748g937fgc1fa9cec851d" version="1">You touch a nearby creature in an effort to charm it. It must make a Wisdom saving throw, and has advantage if you or your companions are fihgting it. If it fails, it is charmed by you for the duration of the spell, or until you or your companions do anything harmful to it. When the spell ends, it will know you have charmed it.</content>
+  <content contentuid="h0cc1b517g24f5g4748g937fgc1fa9cec851d" version="1">You touch a nearby creature in an effort to charm it. It must make a &lt;LSTag Tooltip="SavingThrow"&gt;Wisdom Saving Throw&lt;/LSTag&gt; saving throw, and has advantage if you or your companions are fihgting it. If it fails, it is charmed by you for the duration of the spell, or until you or your companions do anything harmful to it. When the spell ends, it will know you have charmed it.</content>
   <content contentuid="h518a5142g4fbbg49ecgb543g6d4722580ae7" version="1">Demoralizing Touch</content>
   <content contentuid="h494276e3g68c0g4630gb5eege914eef8153f" version="1">You touch a nearby creature in an effort to Demoralize it. It must make a Wisdom saving throw. If it fails, it is frightened for the duration of the spell.</content>
   <content contentuid="h96c88250g675fg49d1ga366g0c2e9dfa7e3f" version="1">Frenzying Touch</content>
@@ -77,6 +81,6 @@
   <content contentuid="h96627ba0gb7deg4d7cg8a8bg06978375f49e" version="1">You are resistant to Bludgeoning damage.</content>
   <content contentuid="h9d4a0716gce96g43e8gb439g1e4356383243" version="1">The creature you touch is branded with an ancient inscription, granting them resistance to all Bludgeoning damage for 10 minutes.</content>
   <content contentuid="h5567e608gafccg4881gb7cfgabb487e33ad8" version="1">The target of this spell becomes very physically beautiful. A subtle glow surrounds the target in darkness or shadows, and tiny motes of light cling to them in daylight. The target gains advantage on any Charisma checks.</content>
-  <content contentuid="h991644b5g2a46g44e7gba7cg45daf9ec2b5b" version="1">HeartStrike</content> 
+  <content contentuid="h991644b5g2a46g44e7gba7cg45daf9ec2b5b" version="1">HeartStrike</content>
   <content contentuid="ha91ed8ddged86g447agb8aag6363f3a8ee17" version="1">Strike your foes to gain temp hp equal to your Level plus Wisdom Modifier</content>
 </contentList>
