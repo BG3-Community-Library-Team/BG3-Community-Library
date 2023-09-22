@@ -267,3 +267,28 @@ function CL_ApplyStatusBulk(statuses, targets, chances, durations)
 
   return false
 end
+
+function CL_IsIllusionSpell()
+  return SpellId('CL_Target_Chameleon')
+  | SpellId('CL_Target_EyeMaze')
+  | SpellId('CL_Target_Muffle')
+  | SpellId('Zone_ColorSpray')
+  | SpellId('Shout_DisguiseSelf')
+  | SpellId('Shout_Blur')
+  | SpellId('Shout_MirrorImage')
+  | SpellId('Target_Invisibility')
+  | SpellId('Target_PhantasmalForce')
+  | SpellId('Target_Silence')
+  | SpellId('CL_Target_MisdirectedMark')
+  | SpellId('CL_Target_Hush')
+  | SpellId('CL_Target_Glamour')
+  | SpellId('CL_Target_HeroicTouch')
+  | SpellId('CL_Target_FrenzyingTouch')
+  | SpellId('CL_Target_DemoralizingTouch')
+  | SpellId('CL_Target_CharmingTouch')
+  | SpellId('CL_Shout_MagicAura')
+  | SpellId('Target_HypnoticPattern')
+  | SpellId('Zone_Fear')
+  | SpellId('Target_PhantasmalKiller')
+  | SpellId('Target_Seeming')
+end

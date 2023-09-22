@@ -1,5 +1,5 @@
 Strings = {}
 Utils = {}
 
-Ext.Require("Utils/Strings.lua")
-Ext.Require("Utils/Utils.lua")
+Ext.Require("Utils/_Strings.lua")
+Ext.Require("Utils/_Utils.lua")

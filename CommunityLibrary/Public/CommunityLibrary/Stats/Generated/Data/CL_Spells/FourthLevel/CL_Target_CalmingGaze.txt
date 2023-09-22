@@ -1,6 +1,3 @@
-
-data "TargetConditions" "not HasStatus('CALM_EMOTIONS')"
-
 new entry "CL_Target_CalmingGaze"
 type "SpellData"
 data "SpellType" "Target"
