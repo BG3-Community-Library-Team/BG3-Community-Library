@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Raven Queen's Blessing Ability"/>
+          <attribute id="Spells" type="LSString" value="CL_Target_RavenQueenBlessing"/>
+          <attribute id="UUID" type="guid" value="cdea5ca8-e43f-4830-a265-76fec11ab79a"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

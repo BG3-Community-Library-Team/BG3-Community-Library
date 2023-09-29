@@ -4,27 +4,27 @@
   <region id="PassiveLists">
     <node id="root">
       <children>
-        <node id="PassiveList"> <!-- Death Knight - MailMe -->
+        <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="CL_DK_NecroRes"/>
           <attribute id="UUID" type="guid" value="bb09a5f6-a14f-4aaa-a278-55f7fc7bc22a"/>
         </node>
-        <node id="PassiveList"> <!-- Death Knight - MailMe -->
+        <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="CL_BoneCage"/>
           <attribute id="UUID" type="guid" value="95be860f-bf6c-43c1-9e1b-8772a9d00102"/>
         </node>
-        <node id="PassiveList"> <!-- Death Knight - MailMe -->
+        <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="CL_BloodBarrier"/>
           <attribute id="UUID" type="guid" value="8179958b-3028-4ff6-98ae-f968c5cf4c5f"/>
         </node>
-        <node id="PassiveList"> <!-- Death Knight - MailMe -->
+        <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="CL_Target_GrimEnd_Zombie"/>
           <attribute id="UUID" type="guid" value="105dd911-d5b0-4049-a360-6aead835a198"/>
         </node>
-        <node id="PassiveList"> <!-- Death Knight - MailMe -->
+        <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="CL_MarchDead"/>
           <attribute id="UUID" type="guid" value="2f71b7fa-9a6a-4631-88e2-44cc8b67ee76"/>
         </node>
-        <node id="PassiveList"> <!-- Death Knight - MailMe -->
+        <node id="PassiveList">
           <attribute id="Passives" type="LSString" value="CL_UnholyWpn"/>
           <attribute id="UUID" type="guid" value="cc039228-f072-412d-be61-c97d53869b4a"/>
         </node>
