@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="4" build="206"/>
+  <region id="PassiveLists">
+    <node id="root">
+      <children>
+        <node id="PassiveList">
+          <attribute id="Passives" type="LSString" value="CL_MartialArts_CharmingBlow;CL_MartialArts_DemoralizingBlow;CL_MartialArts_FrenzyingBlow;CL_MartialArts_SotW_Eyemaze;CL_MartialArts_SotW_Muffle;CL_MartialArts_VibrantDeflection;CL_MartialArts_Misdeflection;"/>
+          <attribute id="UUID" type="guid" value="c46c2cbe-3f8b-4689-b630-725849c79aa4"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

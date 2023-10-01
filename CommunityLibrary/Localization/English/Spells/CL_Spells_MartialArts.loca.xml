@@ -23,4 +23,6 @@
   <content contentuid="h891da060g5505g4c95g80f2g8a416843cddc" version="1">When you Dash using &lt;LSTag Type="Spell" Tooltip="Shout_Dash_StepOfTheWind"&gt;Step of the Wind&lt;/LSTag&gt;, you are granted the effects of the &lt;LSTag Type="Spell" Tooltip="CL_Target_Muffle"&gt;Muffle&lt;/LSTag&gt; spell for 4 turns.</content>
   <content contentuid="ha99856c5g5060g42c8g82fbg41cd5a448239" version="1">Vibrant Deflection</content>
   <content contentuid="he0debc0dg3bc2g4cefga6d7g0bfaa5125a80" version="1">When you successfully &lt;LSTag Type="Spell" Tooltip="Interrupt_DeflectMissiles"&gt;Deflect Missiles&lt;/LSTag&gt;, your attacker is left under the effects of the &lt;LSTag Type="Spell" Tooltip="Zone_ColorSpray"&gt;Color Spray&lt;/LSTag&gt; spell.</content>
+  <content contentuid="ha99856c5g5060g42c8g82fbg41cd5a448239" version="1">Misdeflection</content>
+  <content contentuid="he0debc0dg3bc2g4cefga6d7g0bfaa5125a80" version="1">When you successfully &lt;LSTag Type="Spell" Tooltip="Interrupt_DeflectMissiles"&gt;Deflect Missiles&lt;/LSTag&gt;, your attacker is left under the effects of the &lt;LSTag Type="Spell" Tooltip="CL_Target_MisdirectedMark"&gt;Misdirected Mark&lt;/LSTag&gt; spell.</content>
 </contentList>
