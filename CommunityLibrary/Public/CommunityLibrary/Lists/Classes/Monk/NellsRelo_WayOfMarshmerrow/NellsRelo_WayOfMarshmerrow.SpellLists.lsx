@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow Subclass Feature Level 6" />
+          <attribute id="Spells" type="LSString" value="CL_Shout_Severance"/>
+          <attribute id="UUID" type="guid" value="a9c54ada-ef2d-4d35-bad0-f3e810ecd189"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="CL_Marshmerrow Subclass Feature Level 9" />
+          <attribute id="Spells" type="LSString" value="CL_Target_PeacefulEye"/>
+          <attribute id="UUID" type="guid" value="10bf7d43-8777-47ef-adec-ac1c196875dd"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="CL_MarshMerrow Subclass Feature Level 11" />
+          <attribute id="Spells" type="LSString" value="CL_Target_RoaringPalms"/>
+          <attribute id="UUID" type="guid" value="832e2475-eda3-49ba-aaf6-c90e0812a33d"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

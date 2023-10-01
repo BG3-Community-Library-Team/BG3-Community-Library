@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Comment" type="LSString" value="Skeleton Finger Ability"/>
+          <attribute id="Spells" type="LSString" value="CL_Target_SkeletonFinger"/>
+          <attribute id="UUID" type="guid" value="7b88446a-f86b-41ed-b746-44a6e7950b54"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

@@ -4,11 +4,6 @@
   <region id="Progressions">
     <node id="root">
       <children>
-      <!--
-        Integrated Races
-      -->
-
-        <!-- Shadar-Kai -->
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="Ability(Constitution,1);ActionResource(RacialProficiency,2,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
@@ -59,36 +54,6 @@
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="01735427-a4df-4ce4-8fb6-4b1b8c6c3771"/>
           <attribute id="UUID" type="guid" value="a9cc7994-b6bf-407b-909a-c0fa63f29ce0"/>
-        </node>
-
-        <!-- Skeleton -->
-        <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="Ability(Constitution, 1);ActionResource(Movement,7.5,0)"/>
-          <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSStrRQing" value="Skeleton"/>
-          <attribute id="PassivesAdded" type="LSString" value="Darkvision;CL_SkeletonResistance"/>
-          <attribute id="ProgressionType" type="uint8" value="2"/>
-          <attribute id="Selectors" type="LSString" value="AddSpells(7b88446a-f86b-41ed-b746-44a6e7950b54,,,,AlwaysPrepared,UntilShortRest)"/>
-          <attribute id="TableUUID" type="guid" value="413b0749-12f7-494a-a4a3-bbf630d09e48"/>
-          <attribute id="UUID" type="guid" value="4557ea74-7d63-4621-9198-f43d8a5e5d02"/>
-        </node>
-        <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="Ability(Constitution, 1);Ability(Charisma, 1)"/>
-          <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSString" value="SturdySkeleton"/>
-          <attribute id="ProgressionType" type="uint8" value="2"/>
-          <attribute id="Selectors" type="LSString" value=""/>
-          <attribute id="TableUUID" type="guid" value="ff1c6613-fcc0-411f-8825-0eb32bbe5491"/>
-          <attribute id="UUID" type="guid" value="4a572189-810e-4af6-8035-d38d2d2f4fcf"/>
-        </node>
-        <node id="Progression">
-          <attribute id="Boosts" type="LSString" value="Ability(Dexterity, 2)"/>
-          <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSString" value="DextrousSkeleton"/>
-          <attribute id="ProgressionType" type="uint8" value="2"/>
-          <attribute id="Selectors" type="LSString" value=""/>
-          <attribute id="TableUUID" type="guid" value="80b2552d-a325-424a-9581-c45d22c2a4d0"/>
-          <attribute id="UUID" type="guid" value="526226b2-c9b2-4428-95a4-134294e1d533"/>
         </node>
       </children>
     </node>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+          <attribute id="Spells" type="LSString" value="CL_Target_Heartstrike"/>
+          <attribute id="UUID" type="guid" value="f8799582-ef4c-49b7-88eb-2120aecab569"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Spells" type="LSString" value="CL_Shout_Spite"/>
+          <attribute id="UUID" type="guid" value="6673fc08-4751-4d9a-9028-9f6fd73a7edb"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Target_HoldPerson"/>
+          <attribute id="UUID" type="guid" value="99d330e3-b525-41fe-93a0-eceabebfd827"/>
+        </node>
+        <node id="SpellList">
+          <attribute id="Spells" type="LSString" value="CL_DeathKnight_Projectile_Fireball"/>
+          <attribute id="UUID" type="guid" value="afa8e343-4b99-4ff8-9cb2-27ff880778dd"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
