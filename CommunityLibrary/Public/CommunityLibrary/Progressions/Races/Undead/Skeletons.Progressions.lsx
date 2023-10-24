@@ -7,7 +7,7 @@
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="Ability(Constitution, 1);ActionResource(Movement,7.5,0)"/>
           <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSStrRQing" value="Skeleton"/>
+          <attribute id="Name" type="LSString" value="CL_Skeleton"/>
           <attribute id="PassivesAdded" type="LSString" value="Darkvision;CL_SkeletonResistance"/>
           <attribute id="ProgressionType" type="uint8" value="2"/>
           <attribute id="Selectors" type="LSString" value="AddSpells(7b88446a-f86b-41ed-b746-44a6e7950b54,,,,AlwaysPrepared,UntilShortRest)"/>
@@ -17,7 +17,7 @@
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="Ability(Constitution, 1);Ability(Charisma, 1)"/>
           <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSString" value="SturdySkeleton"/>
+          <attribute id="Name" type="LSString" value="CL_SturdySkeleton"/>
           <attribute id="ProgressionType" type="uint8" value="2"/>
           <attribute id="Selectors" type="LSString" value=""/>
           <attribute id="TableUUID" type="guid" value="ff1c6613-fcc0-411f-8825-0eb32bbe5491"/>
@@ -26,7 +26,7 @@
         <node id="Progression">
           <attribute id="Boosts" type="LSString" value="Ability(Dexterity, 2)"/>
           <attribute id="Level" type="uint8" value="1"/>
-          <attribute id="Name" type="LSString" value="DextrousSkeleton"/>
+          <attribute id="Name" type="LSString" value="CL_DextrousSkeleton"/>
           <attribute id="ProgressionType" type="uint8" value="2"/>
           <attribute id="Selectors" type="LSString" value=""/>
           <attribute id="TableUUID" type="guid" value="80b2552d-a325-424a-9581-c45d22c2a4d0"/>
