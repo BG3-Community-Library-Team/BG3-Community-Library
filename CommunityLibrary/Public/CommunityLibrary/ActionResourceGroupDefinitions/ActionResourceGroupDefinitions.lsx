@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceGroupDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceGroupDefinition">
+          <attribute id="ActionResourceDefinitions" type="LSString" value="bbfcdf30-3618-45f2-a038-ccc518dadf52"/>
+          <attribute id="Name" type="LSString" value="CL_PsionicEnergyDiceGroup"/>
+          <attribute id="UUID" type="guid" value="cf719724-7bb5-4eee-b718-924d1879d999"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

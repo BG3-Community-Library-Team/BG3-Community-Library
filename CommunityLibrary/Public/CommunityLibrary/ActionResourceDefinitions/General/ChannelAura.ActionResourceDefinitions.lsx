@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="hbe5e9d35g605fg402fga8a3g73a0e0aa9985" version="3"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h1a3f0207g7ee4g49bdg8c72g235fb5a8483c" version="2"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="CL_ChannelAura"/>
+          <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="a4477ee1-f0e4-4945-b5f5-682443ae0060"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

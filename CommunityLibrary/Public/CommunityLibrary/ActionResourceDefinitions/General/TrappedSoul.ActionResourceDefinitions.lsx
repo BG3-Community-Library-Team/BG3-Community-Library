@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="h775f4d12g1ee5g413eg92b6g2f812abd380b" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h1b02cd6ag99efg43b9g80cagc999d2548d4c" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="CL_TrappedSoul"/>
+          <attribute id="ReplenishType" type="FixedString" value="Never"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="947b6171-9d56-4cc2-ac9b-7ceb070eb653"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

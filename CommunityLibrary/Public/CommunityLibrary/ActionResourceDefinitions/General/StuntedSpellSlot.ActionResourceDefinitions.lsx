@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="h2a2cb929g2e50g4eb7ga32fgbf91a56c9567" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="ha2cb9279gf355g4507ga9dag641463b7f6cb" version="1"/>
+          <attribute id="IsSpellResource" type="bool" value="true"/>
+          <attribute id="MaxLevel" type="uint32" value="9"/>
+          <attribute id="Name" type="FixedString" value="CL_TrappedSoul"/>
+          <attribute id="ReplenishType" type="FixedString" value="Never"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="89cc7450-2fc1-42a4-a525-abe61e1957be"/>
+          <attribute id="UpdatesSpellPowerLevel" type="bool" value="true"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
