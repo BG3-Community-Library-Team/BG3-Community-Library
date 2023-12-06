@@ -13,11 +13,12 @@ Strings.LOADED_REQUIRED_FILES = "Required Files loaded."
 
 -- Warnings
 Strings.WARN_UNFINISHED_API = "Using an Unfinished API. Proceed at your own risk."
-Strings.WARN_GUID_NOT_PRESENT = " unknown - guid not defined"
+Strings.WARN_GUID_NOT_DEFINED = " unknown - guid not defined"
 Strings.WARN_UNNECESSARY_CALL = "Unnecessary call from Mod "
 
 -- Errors
-Strings.ERROR_INVALID_CLASS_PROVIDED = "Invalid Class Supplied. Provide a UUID, or Insert the Parent Class into Globals.ClassUUIDs"
+Strings.ERROR_INVALID_CLASS_PROVIDED =
+"Invalid Class Supplied. Provide a UUID, or Insert the Parent Class into Globals.ClassUUIDs"
 Strings.ERROR_DISABLED_API = "This API Call is not currently enabled."
 Strings.ERROR_EMPTY_PAYLOAD = "Payload is empty."
 Strings.ERROR_INVALID_PROGRESSION_TYPE = "Invalid String Type."

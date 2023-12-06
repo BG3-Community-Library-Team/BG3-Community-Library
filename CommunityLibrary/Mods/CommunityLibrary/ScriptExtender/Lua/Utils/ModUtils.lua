@@ -8,7 +8,7 @@ function Utils.RetrieveModHandleAndAuthor(guid)
   elseif guid then
     return guid
   else
-    return Strings.WARN_GUID_NOT_PRESENT
+    return Strings.WARN_GUID_NOT_DEFINED
   end
 end
 
@@ -18,8 +18,12 @@ end
 function Utils.RetrieveModHandle(guid)
   if guid and Ext.Mod.IsLoaded(guid) then
     return Ext.Mod.GetMod(guid).Info.Name
+  elseif guid and Utils.IsInTable(Globals.ModsDict, guid) then
+    return Utils.GetKeyFromvalue(Globals.ModsDict, guid)
+  elseif guid then
+    return guid
   else
-    return Strings.WARN_GUID_NOT_PRESENT
+    return Strings.WARN_GUID_NOT_DEFINED
   end
 end
 
@@ -30,6 +34,6 @@ function Utils.RetrieveModAuthor(guid)
   if guid and Ext.Mod.IsLoaded(guid) then
     return Ext.Mod.GetMod(guid).Info.Author
   else
-    return Strings.WARN_GUID_NOT_PRESENT
+    return Strings.WARN_GUID_NOT_DEFINED
   end
 end
