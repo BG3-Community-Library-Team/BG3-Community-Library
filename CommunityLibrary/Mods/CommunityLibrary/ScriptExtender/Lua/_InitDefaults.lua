@@ -6,14 +6,11 @@ CL.modVersion = Ext.Mod.GetMod(CL.UUID).Info.ModVersion
 Mods.CL = Mods.CommunityLibrary
 
 Strings = {}
-Dict = {}
-Utils = {}
-Funcs = {}
 
 Ext.Require("Dictionary/modsDict.lua")
-Ext.Require("Utils/_Strings.lua")
-Ext.Require("Utils/_Utils.lua")
-Ext.Require("Utils/ModUtils.lua")
+Ext.Require("Utils/_init.lua")
+Ext.Require("Validators/_init.lua")
+Ext.Require("Globals/_init.lua")
 
 --- Import tables to ease process of utilizing CL Tables and
 -- functions without constantly referencing the Mods table

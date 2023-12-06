@@ -13,5 +13,5 @@ function Utils.RetrieveHandle_StaticData(uuid, staticDataType, stringType)
 end
 
 function Utils.RetrieveHandle_Stats(handle)
-return Ext.Loca.GetTranslatedString(handle)
+  return Ext.Loca.GetTranslatedString(handle)
 end
