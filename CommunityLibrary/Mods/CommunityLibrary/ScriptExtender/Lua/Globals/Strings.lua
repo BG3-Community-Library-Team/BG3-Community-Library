@@ -1,6 +1,6 @@
 -- String Prefixes
 Strings.INFO_TAG = "[INFO]: "
-Strings.WARNING_TAG = "[WARNING]: "
+Strings.WARNING_TAG = "[WARN]: "
 Strings.ERROR_TAG = "[ERROR]: "
 
 -- Fragments
