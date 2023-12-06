@@ -7,7 +7,7 @@ Mods.CL = Mods.CommunityLibrary
 
 Strings = {}
 
-Ext.Require("IdDictionary/modsDict.lua")
+Ext.Require("IdDictionary/ModMap.lua")
 Ext.Require("Utils/_init.lua")
 Ext.Require("Validators/_init.lua")
 Ext.Require("Globals/_init.lua")
