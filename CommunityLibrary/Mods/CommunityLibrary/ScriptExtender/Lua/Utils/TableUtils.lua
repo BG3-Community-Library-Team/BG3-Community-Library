@@ -1,3 +1,7 @@
+--- Automatically convert a string into a table, using a separator substring to determine where to split things up
+---@param str string
+---@param separator string Typically `,` or `;`
+---@return table
 function Utils.createTableFromString(str, separator)
   local result = {}
 
@@ -7,6 +11,11 @@ function Utils.createTableFromString(str, separator)
   return result
 end
 
+--- Automatically convert a string into a table (set), using a separator substring to determine where to split things up
+---@param str string
+---@param separator string
+---@return table
+---@return table
 function Utils.createSetFromString(str, separator)
   local set = {}
   local result = {}
@@ -22,6 +31,10 @@ function Utils.createSetFromString(str, separator)
   return set, result
 end
 
+--- Detect if a given string is found in a table, and return it if found
+---@param arr table
+---@param str string
+---@return string|table|nil
 function Utils.IsInTable_Nested(arr, str)
   local returnValue = arr
   for key in str:gmatch("[^.]+") do
@@ -35,6 +48,10 @@ function Utils.IsInTable_Nested(arr, str)
   return returnValue
 end
 
+--- Return true if a given value is found in a table
+---@param arr table
+---@param val any
+---@return boolean
 function Utils.IsInTable(arr, val)
   if arr ~= nil then
     for _, value in pairs(arr) do
@@ -46,12 +63,22 @@ function Utils.IsInTable(arr, val)
   return false
 end
 
+--- Return true if a given key is found in a table
+---@param arr table
+---@param key string
+---@return boolean
 function Utils.IsKeyInTable(arr, key)
   if arr ~= nil then
     return arr[key] ~= nil
   end
+
+  return false
 end
 
+--- Return the key of a given table value
+---@param arr table
+---@param val any
+---@return any
 function Utils.GetKeyFromvalue(arr, val)
   if arr ~= nil then
     for key, value in pairs(arr) do
@@ -62,18 +89,28 @@ function Utils.GetKeyFromvalue(arr, val)
   end
 end
 
+--- Insert a given value into a table if the table exists
+---@param arr table
+---@param val any
 function Utils.AddToTable(arr, val)
   if arr ~= nil then
     table.insert(arr, val)
   end
 end
 
+--- Insert two values as a key/value pair into a table
+---@param arr table
+---@param key string
+---@param value any
 function Utils.AddKeyValueToTable(arr, key, value)
   if arr ~= nil then
     arr[key] = value
   end
 end
 
+--- Return the size of a given table
+---@param arr table
+---@return number
 function Utils.GetTableSize(arr)
   local count = 0
   for _, val in pairs(arr) do
@@ -83,6 +120,12 @@ function Utils.GetTableSize(arr)
   return count
 end
 
+--- Insert a value from one table into another
+---@param arr table
+---@param resultArr table
+---@param count number
+---@return table
+---@return number
 function Utils.InsertFromTableToTable(arr, resultArr, count)
   resultArr = resultArr or {}
   count = count or 0
@@ -96,6 +139,10 @@ function Utils.InsertFromTableToTable(arr, resultArr, count)
   return resultArr, count
 end
 
+--- Combine two tables
+---@param arrA table
+---@param arrB table
+---@return table
 function Utils.MergeTables(arrA, arrB)
   local result = {}
   if arrA ~= nil and arrB ~= nil then
@@ -116,6 +163,10 @@ function Utils.MergeTables(arrA, arrB)
   return result
 end
 
+--- Traverse through a given table, filtering based on `filterFn` and performing the `doFn` function.
+---@param item table
+---@param filterFn function
+---@param doFn function
 function Utils.Traverse(item, filterFn, doFn)
   if filterFn(item) then
     doFn(item)
@@ -128,6 +179,10 @@ function Utils.Traverse(item, filterFn, doFn)
   end
 end
 
+--- Simple Comparison function for use in Alphabetical Sorting, ignoring "of" and "the"
+---@param a string
+---@param b string
+---@return boolean
 function Utils.SimpleCompare(a, b)
   for idx = 1, #a do
     a[idx] = a[idx]:gsub("of ", "")
@@ -144,6 +199,9 @@ function Utils.SimpleCompare(a, b)
   end
 end
 
+--- Recursive function for use in `Utils.Flatten` to recursively flatten a nested table
+--- @param element table
+--- @param result table
 local function FlattenRecursive(element, result)
   if type(element) == "table" then
     for _, value in ipairs(element) do
@@ -154,6 +212,9 @@ local function FlattenRecursive(element, result)
   end
 end
 
+--- Flattens a table
+---@param element table
+---@return table
 function Utils.Flatten(element)
   local result = {}
   FlattenRecursive(element, result)

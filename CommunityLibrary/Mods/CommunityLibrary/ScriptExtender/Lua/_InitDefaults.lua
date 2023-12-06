@@ -14,14 +14,14 @@ Ext.Require("Globals/_init.lua")
 
 --- Import tables to ease process of utilizing CL Tables and
 -- functions without constantly referencing the Mods table
--- Usage: local clUtils, clDicts = Mods.CL.Import({Utils, Dicts}).
--- @param functionHandles unordered list of functions
+-- Usage: `local clUtils, clDicts = Mods.CL.Import({Utils, Dicts})`
+---@param handles table
 function Import(handles)
   Utils.Info("Entering Import")
   local res = {}
   for _, val in pairs(handles) do
     table.insert(res, _G[val])
   end
-  _D(res)
+
   return table.unpack(res)
 end
