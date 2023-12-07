@@ -16,7 +16,7 @@ function Utils.DoValidation(payload, params)
   for key, val in pairs(params.Validators) do
     err = Validators[key](payload, params, val)
     if err ~= nil then
-      return Strings.ERROR_FAILED_VALIDATION .. err
+      return Strings.FRAG_FAILED_VALIDATION .. err
     end
   end
 end

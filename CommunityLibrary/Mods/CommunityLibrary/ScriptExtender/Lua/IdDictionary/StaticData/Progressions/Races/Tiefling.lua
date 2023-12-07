@@ -24,4 +24,3 @@ tiefling.Zariel.Levels = Utils.MergeTables(tiefling.Zariel.Levels, {
   Three = DictUtils.setupClassLevelEntry("09be3a4b-3360-414e-b3fb-1e4a04b63331"),
   Five = DictUtils.setupClassLevelEntry("0394d93d-5f86-42e6-821b-91777c6e120b")
 })
-

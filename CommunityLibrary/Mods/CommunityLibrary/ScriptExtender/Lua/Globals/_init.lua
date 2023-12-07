@@ -1,10 +1,7 @@
 Strings = {}
 Globals = {}
 
-Globals.SupportedSubClasses = {}
 Globals.ClassUUIDs = {}
-Globals.MulticlassClasses = {}
-Globals.ClassProgressions = {}
 Globals.Cache = {}
 Globals.Debug = false
 Globals.ShowWarnings = true

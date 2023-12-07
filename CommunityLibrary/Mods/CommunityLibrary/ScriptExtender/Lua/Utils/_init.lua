@@ -1,5 +1,4 @@
 Utils = {}
-DictUtils = {}
 
 Ext.Require("Utils/PrintUtils.lua")
 Ext.Require("Utils/CacheUtils.lua")

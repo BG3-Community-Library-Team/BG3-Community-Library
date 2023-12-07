@@ -20,4 +20,3 @@ halfElf.Drow.Levels = Utils.MergeTables(halfElf.Drow.Levels, {
   Three = DictUtils.setupClassLevelEntry("87d2588b-bd2e-43df-ace0-2c2d3efea0ca"),
   Five = DictUtils.setupClassLevelEntry("60758c3f-d9c5-4f1a-a253-cf2a5e60b627")
 })
-

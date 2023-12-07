@@ -7,10 +7,10 @@ Mods.CL = Mods.CommunityLibrary
 
 Strings = {}
 
-Ext.Require("IdDictionary/ModMap.lua")
-Ext.Require("Utils/_init.lua")
-Ext.Require("Validators/_init.lua")
 Ext.Require("Globals/_init.lua")
+Ext.Require("Utils/_init.lua")
+Ext.Require("IdDictionary/_init.lua")
+Ext.Require("Validators/_init.lua")
 
 --- Import tables to ease process of utilizing CL Tables and
 -- functions without constantly referencing the Mods table

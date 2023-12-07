@@ -7,6 +7,8 @@ Strings.ERROR_TAG = "[ERROR]: "
 Strings.FRAG_FAILED_VALIDATION = "Validation Failure: "
 Strings.FRAG_BECAUSE = " Because: "
 Strings.FRAG_PROVIDED_BY = " provided by "
+Strings.FRAG_KEY_IS_IN_TABLE = "Key is in table: "
+Strings.FRAG_FLESHED_OBJECT_EXISTS = "Fleshed Object exists: "
 
 -- Info
 Strings.LOADED_REQUIRED_FILES = "Required Files loaded."

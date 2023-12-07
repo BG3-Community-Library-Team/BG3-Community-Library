@@ -1,8 +1,9 @@
 -- We need to load DictUtils here
+DictUtils = {}
 Ext.Require("Utils/DictUtils.lua")
 
-Ext.Require("IdDictionary/StaticData/ActionResource.lua")
-Ext.Require("IdDictionary/StaticData/Feat.lua")
+Ext.Require("IdDictionary/StaticData/ActionResources.lua")
+Ext.Require("IdDictionary/StaticData/Feats.lua")
 Ext.Require("IdDictionary/StaticData/Lists/Equipment.lua")
 Ext.Require("IdDictionary/StaticData/Lists/Passives.lua")
 

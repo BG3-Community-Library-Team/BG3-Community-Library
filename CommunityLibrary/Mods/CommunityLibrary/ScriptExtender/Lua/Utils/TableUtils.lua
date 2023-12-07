@@ -123,7 +123,7 @@ end
 --- Insert a value from one table into another
 ---@param arr table
 ---@param resultArr table
----@param count number
+---@param count? number
 ---@return table
 ---@return number
 function Utils.InsertFromTableToTable(arr, resultArr, count)
@@ -140,8 +140,8 @@ function Utils.InsertFromTableToTable(arr, resultArr, count)
 end
 
 --- Combine two tables
----@param arrA table
----@param arrB table
+---@param arrA table|nil
+---@param arrB table|nil
 ---@return table
 function Utils.MergeTables(arrA, arrB)
   local result = {}

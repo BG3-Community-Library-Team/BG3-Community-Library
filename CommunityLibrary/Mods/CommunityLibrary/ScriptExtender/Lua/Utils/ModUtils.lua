@@ -16,7 +16,7 @@ end
 ---@param guid string
 ---@return string
 function Utils.RetrieveModHandle(guid)
-  if guid and Ext.Mod.IsLoaded(guid) then
+  if guid and Ext.Mod.IsModLoaded(guid) then
     return Ext.Mod.GetMod(guid).Info.Name
   elseif guid and Utils.IsInTable(Globals.ModsDict, guid) then
     return Utils.GetKeyFromvalue(Globals.ModsDict, guid)
@@ -31,7 +31,7 @@ end
 ---@param guid string
 ---@return string
 function Utils.RetrieveModAuthor(guid)
-  if guid and Ext.Mod.IsLoaded(guid) then
+  if guid and Ext.Mod.IsModLoaded(guid) then
     return Ext.Mod.GetMod(guid).Info.Author
   else
     return Strings.WARN_GUID_NOT_DEFINED
