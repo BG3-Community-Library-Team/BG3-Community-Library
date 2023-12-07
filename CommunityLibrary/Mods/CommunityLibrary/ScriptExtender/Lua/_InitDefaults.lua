@@ -19,7 +19,7 @@ Ext.Require("Globals/_init.lua")
 function Import(handles)
   Utils.Info("Entering Import")
   local res = {}
-  for _, val in pairs(handles) do
+  for _, val in ipairs(handles) do
     table.insert(res, _G[val])
   end
 
