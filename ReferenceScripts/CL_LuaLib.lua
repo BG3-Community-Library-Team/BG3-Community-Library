@@ -23,7 +23,7 @@ function CLUtils.DoValidation(payload, params) end
 --- Cache StaticData locally and return it, or return what's already cached
 ---@param guid any
 ---@param type any
----@return userdata
+---@return userdata|lightuserdata|table
 function CLUtils.CacheOrRetrieve(guid, type) end
 
 --- Builds and returns a string identifying a mod's Name and Author from a given Guid.
@@ -136,14 +136,14 @@ function CLUtils.GetTableSize(arr) end
 --- Insert a value from one table into another
 ---@param arr table
 ---@param resultArr table
----@param count number
+---@param count? number
 ---@return table
 ---@return number
 function CLUtils.InsertFromTableToTable(arr, resultArr, count) end
 
 --- Combine two tables
----@param arrA table
----@param arrB table
+---@param arrA table|userdata|lightuserdata|nil
+---@param arrB table|userdata|lightuserdata|nil
 ---@return table
 function CLUtils.MergeTables(arrA, arrB) end
 
