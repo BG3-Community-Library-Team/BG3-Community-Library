@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h32a6c28cga0b5g48e6gbc8ag858ce837bc13" version="1">Summon an Instrument</content>
+	<content contentuid="hd91a9d03g444dg4432g8259g23f1042a02d7" version="1">Summon an instrument to your hand. &lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="MusicalInstrumentProficiency"&gt;Musical Instrument Proficiency&lt;/LSTag&gt; whilst the instrument is equipped. You can only have one at a time.</content>
+	<content contentuid="ha54bfb6fgebe7g4528g96d8gd397f5e6f0ef" version="1">Summoned Instrument</content>
+	<content contentuid="h859768f9g48d8g4b86gb60agfb0580745418" version="1">A summonable instrument granted by Tom Cardy. Its surface crackles with interdimensional energy.</content>
+	<content contentuid="hcacffa4bg58dfg4a01g90b8g657a0cb7bd40" version="1">Summon Drum</content>
+	<content contentuid="h8a059456g07a6g4b18ga3dag6ce609973408" version="1">Summon a Drum.</content>
+	<content contentuid="he8bc074cgf3dbg42f8gac0cgb371ea5fa621" version="1">Summoned Drum</content>
+	<content contentuid="h6d8daffaga54ag41f0g8392g5acf35a82507" version="1">Summon Flute</content>
+	<content contentuid="h6ee6f084g4621g4963g897dgc8676d170116" version="1">Summon a Flute.</content>
+	<content contentuid="h602d0691g4b46g47cegb5c7g67495a557115" version="1">Summoned Flute</content>
+	<content contentuid="hca73b951g41a9g4022gbf86gaa1dbbcf442a" version="1">Summon Lute</content>
+	<content contentuid="h7df4122dgc0f8g4103g8898gc2358214de92" version="1">Summon a Lute.</content>
+	<content contentuid="hd9eeb157g5f64g4dadga080g6e5552e70a8c" version="1">Summoned Lute</content>
+	<content contentuid="hea2fd679gb8f5g474cgb34dg7c22bf7ff27f" version="1">Summon Lyre</content>
+	<content contentuid="h6cc10b60gabb6g4ccfga866gd31e4653787d" version="1">Summon a Lyre.</content>
+	<content contentuid="h7d6bf66cgd8c7g4dadga81eg00005d681be0" version="1">Summoned Lyre</content>
+	<content contentuid="hcfbdceedgfcd4g47e6g9172gb3af17a47bf6" version="1">Summon Violin</content>
+	<content contentuid="h504c7480gd0d2g443bg93ffg9f7daf5d7ae7" version="1">Summon a Violin.</content>
+	<content contentuid="h105a7e87gc33eg450ag811eg1ac07a488f89" version="1">Summoned Violin</content>
+</contentList>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="he8bc074cgf3dbg42f8gac0cgb371ea5fa621" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c32792a8-72bb-415f-9bbd-b0d5aa97a43a" />
+					<attribute id="Name" type="LSString" value="CL_ARM_Instrument_Doot_Drum" />
+					<attribute id="ParentTemplateId" type="FixedString" value="76944b2f-1e79-4c22-8d9a-e6c30e5194e0" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f5a243aa-a765-e67f-3033-4a80f0c6e1a5" />
+					<attribute id="Stats" type="FixedString" value="CL_ARM_Instrument_Doot_Drum" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="51d0b615-ea56-43db-d880-6b512c2c86cc" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241709" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="f3f2d52d-9ef3-492c-a7ec-d9b35a130c05" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
