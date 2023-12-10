@@ -5,8 +5,14 @@ local function setupRaceDictEntry(guid)
   }
 end
 
-function DictUtils.Race(name, guid, parent)
-  local targetArr = parent.subTypes or Globals.Races
+
+--- Insert Species (Race) entry into Globals.Species
+---@param name string
+---@param guid string
+---@param parent? table
+---@return table
+function DictUtils.Species(name, guid, parent)
+  local targetArr = parent.subTypes or Globals.Species
   targetArr[name] = setupRaceDictEntry(guid)
 
   return targetArr[name]

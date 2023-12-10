@@ -169,6 +169,13 @@ local function FlattenRecursive(element, result) end
 ---@return table
 function CLUtils.Flatten(element) end
 
+--- Insert Species (Race) entry into Globals.Species
+---@param name string
+---@param guid string
+---@param parent? table
+---@return table
+function CLDictUtils.Species(name, guid, parent) end
+
 --- Generator for Spell List Dictionary Data
 --- @param name string
 --- @param subType? table typically table of Level
