@@ -53,7 +53,7 @@ end
 ---@param val any
 ---@return boolean
 function Utils.IsInTable(arr, val)
-  if arr ~= nil then
+  if arr then
     for _, value in pairs(arr) do
       if val == value then
         return true
@@ -68,7 +68,7 @@ end
 ---@param key string
 ---@return boolean
 function Utils.IsKeyInTable(arr, key)
-  if arr ~= nil then
+  if arr then
     return arr[key] ~= nil
   end
 
@@ -80,7 +80,7 @@ end
 ---@param val any
 ---@return any
 function Utils.GetKeyFromvalue(arr, val)
-  if arr ~= nil then
+  if arr then
     for key, value in pairs(arr) do
       if val == value then
         return key
@@ -93,7 +93,7 @@ end
 ---@param arr table
 ---@param val any
 function Utils.AddToTable(arr, val)
-  if arr ~= nil then
+  if arr then
     table.insert(arr, val)
   end
 end
@@ -103,7 +103,7 @@ end
 ---@param key string
 ---@param value any
 function Utils.AddKeyValueToTable(arr, key, value)
-  if arr ~= nil then
+  if arr then
     arr[key] = value
   end
 end
@@ -142,10 +142,10 @@ end
 --- Combine two tables
 ---@param arrA table|nil
 ---@param arrB table|nil
----@return table
+---@return table|nil
 function Utils.MergeTables(arrA, arrB)
   local result = {}
-  if arrA ~= nil and arrB ~= nil then
+  if arrA and arrB then
     for _, arrItem in pairs(arrA) do
       table.insert(result, arrItem)
     end

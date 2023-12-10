@@ -1,3 +1,17 @@
+local function setupRaceDictEntry(guid)
+  return {
+    ID = guid,
+    SubTypes = {}
+  }
+end
+
+function DictUtils.Race(name, guid, parent)
+  local targetArr = parent.subTypes or Globals.Races
+  targetArr[name] = setupRaceDictEntry(guid)
+
+  return targetArr[name]
+end
+
 --- Initial set-up for a Spell List Dictionary Entry
 ---@return table
 local function setupSpellListDict()
@@ -20,7 +34,7 @@ function DictUtils.SpellList(name, subType)
     Base = setupSpellListDict()
   }
 
-  if subType ~= nil then
+  if subType then
     for _, val in pairs(subType) do
       Globals.SpellLists[name][val] = setupSpellListDict()
     end
@@ -71,7 +85,7 @@ function DictUtils.Progression(name, subType)
     Base = setupProgressionDict()
   }
 
-  if subType ~= nil then
+  if subType then
     for _, val in pairs(subType) do
       Globals.Progressions[name][val] = setupProgressionDict()
     end
@@ -86,7 +100,7 @@ end
 function DictUtils.RetrieveClassNameFromProgression(guid)
   for className, classProgressions in pairs(Globals.Progressions) do
     for _, level in pairs(classProgressions.Base) do
-      if level ~= nil then
+      if level then
         for _, entry in pairs(level) do
           if Utils.IsInTable(entry, guid) then
             return className
