@@ -1,10 +1,25 @@
-local function setupRaceDictEntry(guid)
+local function setupGenericDictEntry(guid)
   return {
     ID = guid,
     SubTypes = {}
   }
 end
 
+--- Insert Class Description entry into Globals.ClassDescriptions
+--- @param name string
+--- @param guid string
+--- @param parent? table
+---@return table
+function DictUtils.ClassDescription(name, guid, parent)
+  local targetArr = Globals.ClassDescriptions
+  if parent then
+    targetArr = parent.SubTypes
+  end
+
+  targetArr[name] = setupGenericDictEntry(guid)
+
+  return targetArr[name]
+end
 
 --- Insert Species (Race) entry into Globals.Species
 ---@param name string
@@ -12,8 +27,12 @@ end
 ---@param parent? table
 ---@return table
 function DictUtils.Species(name, guid, parent)
-  local targetArr = parent.subTypes or Globals.Species
-  targetArr[name] = setupRaceDictEntry(guid)
+  local targetArr = Globals.Species
+  if parent then
+    targetArr = parent.SubTypes
+  end
+
+  targetArr[name] = setupGenericDictEntry(guid)
 
   return targetArr[name]
 end
