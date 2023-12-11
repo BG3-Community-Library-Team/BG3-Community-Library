@@ -57,6 +57,12 @@ function CLUtils.Warn(message) end
 ---@param message string
 function CLUtils.Error(message) end
 
+--- Roll a given amount of a given type of dice.
+--- @param amount number  the amount of dice of a given size to use
+--- @param sides string|number either a string representing the type of dice (i.e. `"d8"`), or the maximum number possible. String notation only supports d4, 6, 8, 10, 12, and 20)
+---@return number
+function CLUtils.RollDice(amount, sides) end
+
 --- Detect if a value is in a given string. Wrapper function for string.find()
 ---@param str string
 ---@param value string
