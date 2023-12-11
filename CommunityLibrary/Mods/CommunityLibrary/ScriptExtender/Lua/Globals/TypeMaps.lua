@@ -72,6 +72,14 @@ Globals.CacheTypes = {
   "Progression"
 }
 
+Globals.Dice = {}
+Globals.Dice["d4"] = 4
+Globals.Dice["d6"] = 6
+Globals.Dice["d8"] = 8
+Globals.Dice["d10"] = 10
+Globals.Dice["d12"] = 12
+Globals.Dice["d20"] = 20
+
 Globals.FieldSeparator = {
   Boosts = ";",
   PassivesAdded = ";",
