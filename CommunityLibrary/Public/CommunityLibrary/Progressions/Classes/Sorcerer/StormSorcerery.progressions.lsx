@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="a097fbc9-af0a-4d09-a3d1-a68fba6b4de2"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="4c0e372b-4e1e-4f8e-9987-d8377ed56b47"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="5ea7ef3e-af06-46ab-ab74-28a164b9eefc"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="20185982-31c2-4481-8500-6a6b505411c1"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="70d889ee-9ec3-4431-998a-fa99103b9a3d"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="fd228989-7ec8-45e0-9cd7-0f5ed812a768"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="08208d21-46e0-4951-af4c-806537cab0a6"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="0b67c96c-04d2-4ec0-8fb8-c4eea0b08cdd"/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="StormsFury"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="TableUUID" type="guid" value="fac6ea25-a7f8-4793-b331-d884041e5adb"/>
+          <attribute id="UUID" type="guid" value="7b75bfe5-9df7-44c2-a7b5-7cf6d14ae7e3"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
