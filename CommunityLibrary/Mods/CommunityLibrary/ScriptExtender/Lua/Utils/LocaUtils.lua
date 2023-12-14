@@ -1,3 +1,5 @@
+Utils.Loca = {}
+
 --- Updates a given localization handle with certain text if a passed condition Function is true
 --- @param handle string
 --- @param text string
@@ -36,11 +38,11 @@ function Utils.Loca.Stats(args)
   return Ext.Loca.GetTranslatedString(target[args.Field])
 end
 
---- Return the Localized Text of a given object
+--- Return the Localized Text of a given object, poassing the following within `args`: \
 --- @param args table table containing the following fields:
---- `ID`: ID of Object we want the localization from
---- `Field`: Name of the field we want the handle of (ex. "DisplayName")
---- `ObjType`: "Stats", "StaticData", "Stats"
+--- `ID`: ID of Object we want the localization from \
+--- `Field`: Name of the field we want the handle of (ex. "DisplayName") \
+--- `ObjType`: "Stats", "StaticData", "Stats" \
 --- `DataType`: The type of data, used for StaticData. (ex. "Races")
 ---@return string|nil
 function Utils.GetLoca(args)

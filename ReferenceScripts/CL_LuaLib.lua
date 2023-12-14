@@ -175,6 +175,28 @@ local function FlattenRecursive(element, result) end
 ---@return table
 function CLUtils.Flatten(element) end
 
+--- Swaps one loca's text with that of another
+--- @param oldHandle string
+--- @param newHandle string
+--- @param conditionFn function
+
+--- Updates a given localization handle with certain text if a passed condition Function is true
+--- @param handle string
+--- @param text string
+--- @param conditionFn function
+function CLUtils.UpdateLoca(handle, text, conditionFn) end
+
+function CLUtils.SwapLoca(oldHandle, newHandle, conditionFn) end
+
+--- Return the Localized Text of a given object, poassing the following within `args`: \
+--- @param args table table containing the following fields:
+--- `ID`: ID of Object we want the localization from \
+--- `Field`: Name of the field we want the handle of (ex. "DisplayName") \
+--- `ObjType`: "Stats", "StaticData", "Stats" \
+--- `DataType`: The type of data, used for StaticData. (ex. "Races")
+---@return string|nil
+function CLUtils.GetLoca(args) end
+
 --- Insert Species (Race) entry into Globals.Species
 ---@param name string
 ---@param guid string
