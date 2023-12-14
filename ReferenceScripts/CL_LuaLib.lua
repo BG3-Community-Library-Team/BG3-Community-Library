@@ -192,7 +192,7 @@ function CLUtils.SwapLoca(oldHandle, newHandle, conditionFn) end
 --- @param args table table containing the following fields:
 --- `ID`: ID of Object we want the localization from \
 --- `Field`: Name of the field we want the handle of (ex. "DisplayName") \
---- `ObjType`: "Stats", "StaticData", "Stats" \
+--- `ObjType`: "Stats", "StaticData", "Template", "Entity" \
 --- `DataType`: The type of data, used for StaticData. (ex. "Races")
 ---@return string|nil
 function CLUtils.GetLoca(args) end
