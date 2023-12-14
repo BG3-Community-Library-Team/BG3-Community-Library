@@ -20,6 +20,7 @@ function Utils.SwapLoca(oldHandle, newHandle, conditionFn)
   end
 end
 
+-- TODO: Make a generic function out of these, this is too WET
 function Utils.Loca.Template(args)
   local target = Ext.Template.GetTemplate(args.ID)
 
@@ -38,11 +39,17 @@ function Utils.Loca.Stats(args)
   return Ext.Loca.GetTranslatedString(target[args.Field])
 end
 
+function Utils.Loca.Entity(args)
+  local target = Ext.Entity.Get(args.ID)
+
+  return Ext.Loca.GetTranslatedString(target[args.Field].NameKey.Handle.Handle)
+end
+
 --- Return the Localized Text of a given object, poassing the following within `args`: \
 --- @param args table table containing the following fields:
 --- `ID`: ID of Object we want the localization from \
 --- `Field`: Name of the field we want the handle of (ex. "DisplayName") \
---- `ObjType`: "Stats", "StaticData", "Stats" \
+--- `ObjType`: "Stats", "StaticData", "Template", "Entity" \
 --- `DataType`: The type of data, used for StaticData. (ex. "Races")
 ---@return string|nil
 function Utils.GetLoca(args)

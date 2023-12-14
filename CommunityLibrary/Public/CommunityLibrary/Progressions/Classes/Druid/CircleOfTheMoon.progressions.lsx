@@ -5,29 +5,35 @@
     <node id="root">
       <children>
         <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="CircleOfTheMoon"/>
+          <attribute id="TableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62"/>
+          <attribute id="UUID" type="guid" value="ccc8d9bd-fca5-4923-8989-d1d604b4691c"/>
+        </node>
+        <node id="Progression">
           <attribute id="Level" type="uint8" value="7"/>
-          <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+          <attribute id="Name" type="LSString" value="CircleOfTheMoon"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62"/>
           <attribute id="UUID" type="guid" value="df97f1d0-e5bd-4369-a5d2-88acf82ca753"/>
         </node>
         <node id="Progression">
           <attribute id="Level" type="uint8" value="9"/>
-          <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+          <attribute id="Name" type="LSString" value="CircleOfTheMoon"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62"/>
           <attribute id="UUID" type="guid" value="dbd6c99b-984f-46af-a742-6988342ddf51"/>
         </node>
         <node id="Progression">
           <attribute id="Level" type="uint8" value="11"/>
-          <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+          <attribute id="Name" type="LSString" value="CircleOfTheMoon"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62"/>
           <attribute id="UUID" type="guid" value="106a6045-b868-4dde-95d0-6f92056c4d4a"/>
         </node>
         <node id="Progression">
           <attribute id="Level" type="uint8" value="12"/>
-          <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
+          <attribute id="Name" type="LSString" value="CircleOfTheMoon"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62"/>
           <attribute id="UUID" type="guid" value="3ce854c4-19c0-4393-b366-43d5b3ce2e48"/>
