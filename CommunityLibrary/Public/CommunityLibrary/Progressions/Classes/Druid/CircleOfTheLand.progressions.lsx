@@ -16,7 +16,7 @@
           <attribute id="Name" type="LSString" value="CircleOfTheLand"/>
           <attribute id="ProgressionType" type="uint8" value="1"/>
           <attribute id="TableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
-          <attribute id="UUID" type="guid" value="ba99b4eb-88bc-4412-b91f-74cae1d2c236"/>
+          <attribute id="UUID" type="guid" value="f3dedce7-b929-4f76-8a47-3a791d866aa4"/>
         </node>
       </children>
     </node>
