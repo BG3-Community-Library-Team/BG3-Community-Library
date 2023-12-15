@@ -135,3 +135,25 @@ function DictUtils.RetrieveClassNameFromProgression(guid)
     end
   end
 end
+
+--- Registers a Mod Name & UUID Pair to Globals.ModsDict
+--- @param modName string
+--- @param modId string
+function DictUtils.RegisterModToDictionary(modName, modId)
+  local modKey = modName
+  if Utils.IsInTable(Globals.ModsDict, modId) then
+    Utils.Info(modKey .. Strings.FRAG_MOD_ID .. modId .. Strings.FRAG_ALREADY_REGISTERED)
+  elseif Utils.IsKeyInTable(Globals.ModsDict, modKey) then
+    Utils.Info(modKey .. Strings.FRAG_ALREADY_REGISTERED)
+  else
+    Globals.ModsDict[modKey] = modId
+  end
+end
+
+-- Populate ModsDict with loaded mods
+function DictUtils.InscribeLoadedMods()
+  for _, uuid in pairs(Ext.Mod.GetLoadOrder()) do
+    local modData = Ext.Mod.GetMod(uuid)
+    Utils.RegisterModToDictionary(modData.Info.Name, modData.Info.ModuleUUID)
+  end
+end
