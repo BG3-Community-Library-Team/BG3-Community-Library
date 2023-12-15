@@ -1,0 +1,24 @@
+<contentList>
+  <content contentuid="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1">Patron Spells</content>
+  <content contentuid="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1">You gain spells from your Patron. They are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="h32c482d8ga1d5g4460g86b8gc9e7e6a45719" version="1">Archfey Patron Spells</content>
+  <content contentuid="hbf11a3e2gf176g4a4ag8594g31dfcff24ce0" version="1">The Archfey Patron gives you access to certain spells.&lt;br&gt;Level 1: &lt;LSTag Type="Spell" Tooltip="Target_Sleep"&gt;Sleep&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_FaerieFire"&gt;Faerie Fire&lt;/LSTag&gt;.&lt;br&gt;Level 3: &lt;LSTag Type="Spell" Tooltip="Target_CalmEmotions"&gt;Calm Emotions&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalForce"&gt;Phantasmal Force&lt;/LSTag&gt;.&lt;br&gt;Level 5: &lt;LSTag Type="Spell" Tooltip="Shout_Blink"&gt;Blink&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_PlantGrowth"&gt;Plant Growth&lt;/LSTag&gt;.&lt;br&gt;Level 7: &lt;LSTag Type="Spell" Tooltip="Target_DominateBeast"&gt;Dominate Beast&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;Greater Invisibility&lt;/LSTag&gt;.&lt;br&gt;Level 9: &lt;LSTag Type="Spell" Tooltip="Target_DominatePerson"&gt;Dominate Person&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Seeming"&gt;Seeming&lt;/LSTag&gt;.</content>
+  <content contentuid="hcb962d76g6ae6g4a37gb089g13648488a7a0" version="1">Fiend Patron Spells</content>
+  <content contentuid="hcbf400b6g4f44g489bga47fg27f87e09962b" version="1">The Fiend Patron gives you access to certain spells. These are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="hdcf06c8cg86d7g41a9ga66bgffe05a597048" version="1">Great Old One Patron Spells</content>
+  <content contentuid="h3a0b75f8g3939g42e5gb76cgbd71552a3158" version="1">The Great Old One Patron gives you access to certain spells. These are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="hc8610fe2g9ad6g4f85g91feg91fb409c5a00" version="1">Celestial Patron Spells</content>
+  <content contentuid="h22b4428cge46dg43afg896dga1f536b3acce" version="1">The Celestial Patron gives you access to certain spells. These are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="hb09793ddgf3f9g4afaga615g731a73eb1158" version="1">Hexblade Patron Spells</content>
+  <content contentuid="h403e88dbge160g47c9g8484gb3d694d69efc" version="1">The Hexblade Patron gives you access to certain spells. These are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="h665fb937g3423g44cfgb5dbg3c3921b02653" version="1">Undead Patron Spells</content>
+  <content contentuid="h9b7094f7g3588g4eafga1b2g6f7a6eba515f" version="1">The Undead Patron gives you access to certain spells. These are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+  <content contentuid="h9cf1d1f9ga908g458ag96c7ga006899eab33" version="1">Dread Overlord Patron Spells</content>
+  <content contentuid="h4b7c7a47g0d16g4946g8277gfd36eb3a41b1" version="1">The Dread Overlord Patron gives you access to certain spells. These are &lt;LSTag Tooltip="AlwaysPrepared"&gt;Always Prepared&lt;/LSTag&gt;.</content>
+
+
+
+  The spells are:&lt;br&gt;Level 1: &lt;LSTag Type="Spell" Tooltip="Target_Sleep"&gt;Sleep&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_FaerieFire"&gt;Faerie Fire&lt;/LSTag&gt;.&lt;br&gt;Level 3: &lt;LSTag Type="Spell" Tooltip="Target_CalmEmotions"&gt;Calm Emotions&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalForce"&gt;Phantasmal Force&lt;/LSTag&gt;.&lt;br&gt;Level 5: &lt;LSTag Type="Spell" Tooltip="Shout_Blink"&gt;Blink&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_PlantGrowth"&gt;Plant Growth&lt;/LSTag&gt;.&lt;br&gt;Level 7: &lt;LSTag Type="Spell" Tooltip="Target_DominateBeast"&gt;Dominate Beast&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;Greater Invisibility&lt;/LSTag&gt;.&lt;br&gt;Level 9: &lt;LSTag Type="Spell" Tooltip="Target_DominatePerson"&gt;Dominate Person&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Seeming"&gt;Seeming&lt;/LSTag&gt;.
+
+
+</contentList>

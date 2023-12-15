@@ -1,0 +1,39 @@
+new entry "CL_OneDnD_PatronSpells"
+type "PassiveData"
+data "DisplayName" "h81d179a7g15cag4df4g8d3ag10d59f4681e3;1"
+data "Description" "hbf11a3e2gf176g4a4ag8594g31dfcff24ce0;1"
+data "Icon" "PassiveFeature_Generic_Magical"
+data "Properties" "IsHidden"
+
+new entry "CL_OneDnD_ArchfeyPatronSpells"
+type "PassiveData"
+data "DisplayName" "h32c482d8ga1d5g4460g86b8gc9e7e6a45719;1"
+data "Description" "h13eac5cege80eg4795ga78cg79fc3e4a7638;1"
+data "Icon" "PassiveFeature_Generic_Magical"
+data "Properties" "Highlighted"
+
+new entry "CL_OneDnD_ArchfeyPatronSlevel_1"
+type "PassiveData"
+using "CL_OneDnD_PatronSpells"
+data "Boosts" "UnlockSpell(Target_Sleep,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FaerieFire,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_ArchfeyPatronSlevel_2"
+type "PassiveData"
+using "CL_OneDnD_ArchfeyPatronSlevel_1"
+data "Boosts" "UnlockSpell(Target_Sleep,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FaerieFire,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_CalmEmotions,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PhantasmalForce,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_ArchfeyPatronSlevel_3"
+type "PassiveData"
+using "CL_OneDnD_ArchfeyPatronSlevel_1"
+data "Boosts" "UnlockSpell(Target_Sleep,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FaerieFire,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_CalmEmotions,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PhantasmalForce,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Shout_Blink,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PlantGrowth,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_ArchfeyPatronSlevel_4"
+type "PassiveData"
+using "CL_OneDnD_ArchfeyPatronSlevel_1"
+data "Boosts" "UnlockSpell(Target_Sleep,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FaerieFire,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_CalmEmotions,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PhantasmalForce,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Shout_Blink,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PlantGrowth,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_DominateBeast,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_Invisibility_Greater,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_ArchfeyPatronSlevel_5"
+type "PassiveData"
+using "CL_OneDnD_ArchfeyPatronSlevel_1"
+data "Boosts" "UnlockSpell(Target_Sleep,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FaerieFire,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_CalmEmotions,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PhantasmalForce,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Shout_Blink,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_PlantGrowth,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_DominateBeast,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_Invisibility_Greater,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_DominatePerson,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_Seeming,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+

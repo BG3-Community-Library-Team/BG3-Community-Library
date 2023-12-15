@@ -11,22 +11,22 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock SLevel 2"/>
-                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_Warlock PatronMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_WarlockMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1002-c01200000002"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_Warlock PatronMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_WarlockMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1003-c01200000002"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_Warlock PatronMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_WarlockMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1004-c01200000002"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_Warlock PatronMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="Spells" type="LSString" value="Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Shout_HellishRebuke_WarlockMI;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1005-c01200000002"/>
                 </node>
                 <node id="SpellList">
@@ -151,7 +151,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Hexblade (Feriat111) SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_Smite_Banishing_Container;Zone_ConeOfCold;"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Smite_Banishing_Container;Zone_ConeOfCold"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-6005-c01200000002"/>
                 </node>
                 <node id="SpellList">
@@ -178,6 +178,31 @@
                     <attribute id="Comment" type="LSString" value="Warlock Patron Undead (CyberSpektre) SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_Contagion"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-7005-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_InflictWounds;Target_FogCloud"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8001-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_PhantasmalForce"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8002-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_FeignDeath;Shout_SpiritGuardians"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8003-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_PhantasmalKiller"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8004-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_Contagion"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8005-c01200000002"/>
                 </node>
             </children>
         </node>
