@@ -1,3 +1,10 @@
+--- Retrieve a given mod's UUID from Globals.ModsDict. 
+--- @param modName string
+---@return string
+function Utils.GetMod(modName)
+  return Globals.ModsDict[modName] or nil
+end
+
 --- Builds and returns a string identifying a mod's Name and Author from a given Guid.
 ---@param guid string
 ---@return string
