@@ -9,6 +9,8 @@ Strings.FRAG_BECAUSE = " Because: "
 Strings.FRAG_PROVIDED_BY = " provided by "
 Strings.FRAG_KEY_IS_IN_TABLE = "Key is in table: "
 Strings.FRAG_FLESHED_OBJECT_EXISTS = "Fleshed Object exists: "
+Strings.FRAG_MOD_ID = " mod with ID "
+Strings.FRAG_ALREADY_REGISTERED = " is already registered."
 
 -- Info
 Strings.LOADED_REQUIRED_FILES = "Required Files loaded."
