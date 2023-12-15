@@ -111,6 +111,7 @@ Globals.SelectorIdTypes = {
   AddSpells = "SpellUUID",
   SelectSkills = "UUID",
   SelectPassives = "UUID",
+  SelectAbilities = "UUID",
   SelectAbilityBonus = "UUID",
   SelectSkillsExpertise = "UUID",
   SelectEquipment = "UUID",
