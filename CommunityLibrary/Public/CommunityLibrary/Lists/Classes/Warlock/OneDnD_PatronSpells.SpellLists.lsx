@@ -180,27 +180,27 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-7005-c01200000002"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 1"/>
+                    <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 1"/>
                     <attribute id="Spells" type="LSString" value="Target_InflictWounds;Target_FogCloud"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8001-c01200000002"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 2"/>
+                    <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 2"/>
                     <attribute id="Spells" type="LSString" value="Target_Blindness;Target_PhantasmalForce"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8002-c01200000002"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 3"/>
+                    <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 3"/>
                     <attribute id="Spells" type="LSString" value="Target_FeignDeath;Shout_SpiritGuardians"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8003-c01200000002"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 4"/>
+                    <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 4"/>
                     <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_PhantasmalKiller"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8004-c01200000002"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Dread Overlord Patron SLevel 5"/>
+                    <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_Contagion"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8005-c01200000002"/>
                 </node>
