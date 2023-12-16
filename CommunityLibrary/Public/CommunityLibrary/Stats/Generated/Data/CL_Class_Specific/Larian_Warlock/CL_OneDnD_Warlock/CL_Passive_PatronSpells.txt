@@ -1,0 +1,56 @@
+new entry "CL_OneDnD_Passive_PatronSpells"
+type "PassiveData"
+data "DisplayName" "h81d179a7g15cag4df4g8d3ag10d59f4681e3;1"
+data "Description" "h13eac5cege80eg4795ga78cg79fc3e4a7638;1"
+data "Icon" "PassiveFeature_MagicInitiateWarlock"
+data "Properties" "Highlighted"
+
+new entry "CL_OneDnD_Passive_ArchfeyPatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Target_Sleep,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FaerieFire,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_FiendPatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Zone_BurningHands,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_Command_Container,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_GreatOldOnePatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Target_DissonantWhispers,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_HideousLaughter,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_CelestialPatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Target_CureWounds,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Projectile_GuidingBolt,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_HexbladePatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Shout_Shield_Warlock,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_Smite_Wrathful,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_UndeadPatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Target_Bane,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Shout_FalseLife,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_DreadOverlordPatron"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "Boosts" "UnlockSpell(Target_InflictWounds,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FogCloud,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
+
+new entry "CL_OneDnD_Passive_ArchfeyPatronSpells"
+type "PassiveData"
+using "CL_OneDnD_Passive_PatronSpells"
+data "DisplayName" "h2a52eb98g8867g4e66gbb17ge953169334aa;1"
+data "Description" "hbf11a3e2gf176g4a4ag8594g31dfcff24ce0;1"
+data "Icon" "Action_Monster_Djinni_MistyStep"
+
+new entry "CL_OneDnD_Passive_ArchfeyPatronFeatures"
+type "PassiveData"
+data "DisplayName" "hd635a3d4g524dg45d0ga26dg93965c438456;1"
+data "Description" "h32c482d8ga1d5g4460g86b8gc9e7e6a45719;1"
+data "Icon" "Action_Monster_Dryad_FallenLover"
+data "Properties" "Highlighted"
+
