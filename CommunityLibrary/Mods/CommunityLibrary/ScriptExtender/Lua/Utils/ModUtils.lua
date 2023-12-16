@@ -1,4 +1,4 @@
---- Retrieve a given mod's UUID from Globals.ModsDict. 
+--- Retrieve a given mod's UUID from Globals.ModsDict.
 --- @param modName string
 ---@return string
 function Utils.GetMod(modName)
