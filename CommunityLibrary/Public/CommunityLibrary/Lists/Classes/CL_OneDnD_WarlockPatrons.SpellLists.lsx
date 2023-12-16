@@ -166,7 +166,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Undead (CyberSpektre) SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Warlock PatronUndead_Target_PhantomSteed;Target_SpeakWithDead"/>
+                    <attribute id="Spells" type="LSString" value="WarlockUndead_Target_PhantomSteed;Target_SpeakWithDead"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-7003-c01200000002"/>
                 </node>
                 <node id="SpellList">
