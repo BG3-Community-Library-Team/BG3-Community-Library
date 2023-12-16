@@ -154,6 +154,6 @@ end
 function DictUtils.InscribeLoadedMods()
   for _, uuid in pairs(Ext.Mod.GetLoadOrder()) do
     local modData = Ext.Mod.GetMod(uuid)
-    Utils.RegisterModToDictionary(modData.Info.Name, modData.Info.ModuleUUID)
+    DictUtils.RegisterModToDictionary(modData.Info.Name, modData.Info.ModuleUUID)
   end
 end
