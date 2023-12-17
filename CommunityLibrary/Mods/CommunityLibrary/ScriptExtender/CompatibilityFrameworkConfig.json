@@ -1,0 +1,262 @@
+{
+  "FileVersion": 1,
+  "Progressions": [
+    {
+      "Comment": "Barbarian",
+      "UUID": "0d4a6b4b-8162-414b-81ef-1838e36e778a",
+      "Subclasses": [
+        {
+          "UUID": "927fa5b8-ae2b-47c9-8185-a19ba212bb8d",
+          "modGuid": "c3defb0c-7882-4040-938c-813ad6878bfb",
+          "Comment": "Path of the Giant (Sewinlife)"
+        }
+      ]
+    },
+    {
+      "Comment": "Bard",
+      "UUID": "26f64038-6033-48d5-9da7-38e8c95ce712",
+      "Subclasses": [
+        {
+          "UUID": "3450a3cb-1831-4387-9214-70a9267b5a4b",
+          "modGuid": "50b1fe7-4733-40bd-9506-5f5dd2bad616",
+          "Comment": "College of Glamour (Bonebreaker687)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "5c6d6be7-f302-4dfa-9545-3dc719f1abbd",
+          "modGuid": "1be07b69-db2d-4df4-9f3f-1b00fd07e2cb",
+          "Comment": "College of Players (DroZzhat)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Cleric",
+      "UUIDs": [ "1dbce574-fff1-49be-b7da-704f9b73cad9", "366cde9c-db0c-43ce-a49c-fb140e084b3c" ],
+      "Subclasses": [
+        {
+          "UUIDs": [
+            "b548ab7e-d262-4aec-8145-ce9b21a145b5",
+            "f0f90719-e27a-403a-b891-4d739b4bf589",
+            "af5d4ccc-e144-41aa-9c92-325618fb1a76",
+            "394a1640-4c1d-49e3-aedd-7cc4fa38fd0e",
+            "4d6f7d28-2f87-4012-aab2-71045c1f61ad",
+            "edf303e8-f04b-4e7b-96f1-97624c977822",
+            "828350d9-d916-48fa-ad87-a531c03099cc"
+          ],
+          "modGuid": "eef7b885-1423-4096-abd6-7a5db5f871db",
+          "Comment": "Clerics Subclasses (Baltavi) - Arcana, Blood, Death, Forge, Grave, Moon, Order, Peace, Twilight",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "e64c5974-b64b-42b7-b86d-2fb368ae9d33",
+          "modGuid": "36ffab06-d6b3-4cbb-8e9f-f16a01c06473",
+          "Comment": "Death Domain (crackerjack)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Druid",
+      "UUID": "95322dde-349a-4101-964f-9aa46abd890b",
+      "Subclasses": [
+        {
+          "UUID": "5ef8c19d-cb24-4192-83bf-5db9593c7fde",
+          "modGuid": "7588b857-8bae-4967-a73c-20f7833ae26f",
+          "Comment": "Circle of Stars (Havsglimt)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "d06c070d-43c9-4bfe-b68e-7fe6e2ec10c5",
+          "modGuid": "c9cfbec9-136f-40de-a12e-33650efea178",
+          "Comment": "Circle of Wildfire (Yoshi)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "0e4f565b-1970-4ee5-9a1e-5020ff62cfdd",
+          "modGuid": "81d10c14-3abb-41d6-a6a6-78daab7076d5",
+          "Comment": "Circle of Dreams (Yoshi)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Fighter",
+      "UUID": "23eacff0-9efe-4ea6-b031-19075cc96b63",
+      "Subclasses": [
+        {
+          "UUID": "a86356c9-9fdf-45fb-912f-9b0d4ca0c32c",
+          "modGuid": "f1d9a7e0-7b48-4e36-abf5-ce2e312f7ee4",
+          "Comment": "Arcane Archer (ShivasShadow)",
+          "IsIntegrated": true
+        },
+        {
+          "UUIDs": [
+            "ae652c3b-f9e1-4ff7-9419-344e8d9f922d",
+            "c0af79a7-67d2-4a20-acd4-b0ee331ca5ad",
+            "082e45c3-f102-42ea-8241-dd6fbd6bc307"
+          ],
+          "modGuid": "ee3cd8a6-16a7-4963-847e-2e2238b8f315",
+          "Comment": "Diamon's Mystic Manual (Backburner26) - Psychopath, Combat Medic, Artful Dodger",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "a9d9450b-52e3-4412-8559-322b6f5f7d7d",
+          "modGuid": "322ec70a-0bdc-444a-9ac2-edddfa837008",
+          "Comment": "Marksman (afftor)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "0d0dc5c4-3bba-40a1-bb92-822bc41d8a9a",
+          "modGuid": "fe0f0a6b-8c7c-40a2-bf12-af6f06ae3172",
+          "Comment": "Rune Knight (ShivasShadow)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "4a9878a2-b7d4-4fe7-b89c-c6ddfd3ab4ce",
+          "modGuid": "67cbd005-166c-4f76-b822-a19a4a41e615",
+          "Comment": "Samurai (Bonnaventura)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Monk",
+      "UUID": "296468cb-3640-4460-9f44-b30ee820a9ed",
+      "Subclasses": [
+        {
+          "UUID": "54bdda89-b5a1-4f4e-9366-3057b079613f",
+          "modGuid": "c5343ccb-d1d8-4970-8a1d-c44203a6a55a",
+          "Comment": "Way of Mercy (PlatypusVenom)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "62db00d9-2298-43a3-9fd8-64cdfed3a0df",
+          "modGuid": "b382793b-6161-42d2-a3fb-a4d69fa3a8e8",
+          "Comment": "Way of the Sun Soul (Yoshi)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "bbd5e265-82f5-403f-8141-887480d41bba",
+          "modGuid": "83e20b3d-75cc-4d9a-af04-430f797290e5",
+          "Comment": "Way of the Drunken Master (JohnnyTheSneeder)"
+        }
+      ]
+    },
+    {
+      "Comment": "Paladin",
+      "UUIDs": [ "b60618d1-c262-42b5-9fdd-2c0f7aa5e5af", "1f5396ad-65e3-4ed5-a339-d76b11af96ea" ],
+      "Subclasses": [
+        {
+          "UUID": "d05d37d9-c702-4924-9e8d-5d5d7db19918",
+          "modGuid": "74b2a448-6771-4289-9393-d359c3b79596",
+          "Comment": "Oath of Conquest (havsglimt)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Ranger",
+      "UUID": "ad1084b1-b99f-6720-cfdd-cf82ad44345b",
+      "Subclasses": [
+        {
+          "UUID": "a86356c9-9fdf-45fb-912f-9b0d4ca0c32c",
+          "modGuid": "38c4c12d-f325-4493-8fd7-fac1d63fdace",
+          "Comment": "Arcane Archer (ShivasShadow)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Rogue",
+      "UUID": "6f8d3e70-9b20-4fe0-914f-0f8f19206329",
+      "Subclasses": [
+        {
+          "UUIDs": [
+            "e4d07723-a782-4c77-8907-c225724e8cb2",
+            "30fa5210-8dac-4c7a-902c-453375ee31e2",
+            "eeaf288b-96d4-474a-b061-8cdcb7f1aa8d",
+            "77b17b01-df39-474d-bfe8-34678ea5277f",
+            "fdc1d56d-17b5-4830-ab40-d49330b87b4b",
+            "5f88f78b-2884-4434-9a7a-27c961183b15"
+          ],
+          "modGuid": "b986a6b0-6755-496c-8ea8-0fbee6b66026",
+          "Comment": "Rogues Extra (lostsoulman) - Phantom, Inquisitive, Mastermind, Scout, Soulknife, Swashbuckler",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "dd277e29-a530-433f-92b8-3a1a212fcc88",
+          "modGuid": "5a470936-d860-4c5e-b3db-b7cd90ac7f13",
+          "Comment": "Inquisitive (Yoshi)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "c869ae04-2560-463d-9fab-9c25411ee038",
+          "modGuid": "2c843f62-da26-4c97-ae08-f774d1ca37e6",
+          "Comment": "Mastermind (Yoshi)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "e23f6e6b-7317-4f1c-90d5-f40bd9f2fbe1",
+          "modGuid": "0f5d4cc4-4fa7-42a9-9a1b-e676244f940a",
+          "Comment": "Swashbuckler (Wesslen)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "c5bc9d23-5b34-43dd-9c65-1512e3a5b637",
+          "modGuid": "e48d404b-5ef4-4808-8116-8db9e473c7ae",
+          "Comment": "Shadowdancer (AdamMasher)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Sorcerer",
+      "UUIDs": [ "42af9bda-9ac0-4564-920b-f9ca1588d6ee", "e115c732-80b1-4ae1-bf04-cee44660d64f" ],
+      "Subclasses": [
+        {
+          "UUID": "3c335f43-bae3-4468-9972-d9bdedca2a71",
+          "modGuid": "f48b2612-4d95-4601-b324-b8a07c9d90be",
+          "Comment": "Stone Sorcerery (CodyAbode)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Warlock",
+      "UUIDs": [ "a7767dc5-e6ab-4e05-96fd-f0424256121c", "20015e25-8aa9-41bf-b959-aa587ba0aa27" ],
+      "Subclasses": [
+        {
+          "UUID": "95f27fb1-7e7d-4ae3-ba42-17c2f11b4bc3",
+          "modGuid": "e1eb6d1a-5922-4964-bfd7-c971e71e351a",
+          "Comment": "Hexblade (Feriat111)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "7842f798-5354-4285-906f-ea2d4202aeff",
+          "modGuid": "9d5e409f-5c4e-4c14-b1f3-6fd47c9359bf",
+          "Comment": "Raven Queen (GladoffelLp)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "41297931-500e-4179-93b9-8c9754de424a",
+          "modGuid": "2e686664-8fbb-4e08-9ec2-3eea5d0300ab",
+          "Comment": "Dread Overlord (aheram)",
+          "IsIntegrated": true
+        }
+      ]
+    },
+    {
+      "Comment": "Wizard",
+      "UUID": "d6184c47-5b99-4e63-95ac-02f8ce4ccda1",
+      "Subclasses": [
+        {
+          "UUID": "6aa381bc-3dc2-11ee-be56-0242ac120002",
+          "modGuid": "48c0e450-6d12-4308-8c12-a0f24077339b",
+          "Comment": "Sorcery Arcane Tradition (fmsette)",
+          "IsIntegrated": true
+        }
+      ]
+    }
+  ]
+}
