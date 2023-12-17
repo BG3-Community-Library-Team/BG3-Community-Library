@@ -110,9 +110,19 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-5001-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) Alt SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_CureWounds;Projectile_GuidingBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-50a1-c01200000002"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) SLevel 2"/>
                     <attribute id="Spells" type="LSString" value="Target_FlamingSphere;Target_LesserRestoration"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-5002-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) Alt SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_LesserRestoration;Target_Moonbeam"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-50a2-c01200000002"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) SLevel 3"/>
@@ -120,14 +130,29 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-5003-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) Alt SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Shout_SpiritGuardians;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-50a3-c01200000002"/>
+                </node>                
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) SLevel 4"/>
                     <attribute id="Spells" type="LSString" value="Target_GuardianOfFaith;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-5004-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) Alt SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_GuardianOfFaith;Wall_WallOfFire"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-50a4-c01200000002"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Target_FlameStrike;Target_GreaterRestoration"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-5005-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) Alt SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;Target_CureWounds_Mass"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-50a5-c01200000002"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Hexblade (Feriat111) SLevel 1"/>
@@ -203,6 +228,31 @@
                     <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_Contagion"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-8005-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock RavenQueen (GladoffelLp) Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FalseLife;Target_Sanctuary"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-9001-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock RavenQueen (GladoffelLp) Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Silence;Target_SpiritualWeapon"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-9002-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock RavenQueen (GladoffelLp) Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_FeignDeath;Target_SpeakWithDead"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-9003-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock RavenQueen (GladoffelLp) Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_IceStorm"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-9004-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock RavenQueen (GladoffelLp) Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Shout_DispelEvilAndGood"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-9005-c01200000002"/>
                 </node>
             </children>
         </node>
