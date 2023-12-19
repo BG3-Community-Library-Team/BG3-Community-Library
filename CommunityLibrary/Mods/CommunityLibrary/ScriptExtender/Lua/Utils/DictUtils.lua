@@ -137,23 +137,49 @@ function DictUtils.RetrieveClassNameFromProgression(guid)
 end
 
 --- Registers a Mod Name & UUID Pair to Globals.ModsDict
---- @param modName string
---- @param modId string
-function DictUtils.RegisterModToDictionary(modName, modId)
+--- @param modName string string representation of the mods name. Typically corresponds to the Folder name, or the mod's Name without spaces.
+--- @param modId string UUID of the mod, as defined in meta.lsx
+--- @param modPrettyName? string Optional, pretty version of modName - spaces. Typically corresponds to the Name field in meta.lsx
+--- @param modAuthor? string Optional, Mod Author name
+function DictUtils.RegisterModToDictionary(modName, modId, modPrettyName, modAuthor)
   local modKey = modName
-  if Utils.IsInTable(Globals.ModsDict, modId) then
-    Utils.Info(modKey .. Strings.FRAG_MOD_ID .. modId .. Strings.FRAG_ALREADY_REGISTERED)
-  elseif Utils.IsKeyInTable(Globals.ModsDict, modKey) then
-    Utils.Info(modKey .. Strings.FRAG_ALREADY_REGISTERED)
+  local name = modPrettyName or modName
+  local foundStr
+
+  if Utils.IsKeyInTable(Globals.ModsDict, modKey) then
+    if Globals.ModsDict[modKey].Name == modKey then
+      foundStr = name .. Strings.FRAG_MOD_ID .. modId .. 
+      if Globals.ModsDict[modKey].Author then
+        foundStr = foundStr .. " by " .. Globals.ModsDict[modKey].Author 
+      end
+      foundStr = foundStr .. " " .. Strings.FRAG_ALREADY_REGISTERED
+    else
+      Utils.Info(modKey .. Strings.FRAG_ALREADY_REGISTERED)
+    end
   else
-    Globals.ModsDict[modKey] = modId
+    Globals.ModsDict[modKey] = {
+      Name = name,
+      UUID = modId,
+      Author = modAuthor or nil
+    }
   end
+end
+
+function DictUtils.RetrieveModInfoFromDict(guid)
+  local info = {Name = guid, UUID = guid}
+
+  for key, modInfo in pairs(Globals.ModsDict) do
+    if modInfo.UUID == guid then
+      info = modInfo
+  end
+
+  return info
 end
 
 -- Populate ModsDict with loaded mods
 function DictUtils.InscribeLoadedMods()
   for _, uuid in pairs(Ext.Mod.GetLoadOrder()) do
     local modData = Ext.Mod.GetMod(uuid)
-    DictUtils.RegisterModToDictionary(modData.Info.Name, modData.Info.ModuleUUID)
+    DictUtils.RegisterModToDictionary(modData.Info.Folder, modData.Info.ModuleUUID, modData.Info.Name, modData.Info.Author)
   end
 end

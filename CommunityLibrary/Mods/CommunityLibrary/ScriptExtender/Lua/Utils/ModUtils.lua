@@ -25,10 +25,8 @@ end
 function Utils.RetrieveModHandle(guid)
   if guid and Ext.Mod.IsModLoaded(guid) then
     return Ext.Mod.GetMod(guid).Info.Name
-  elseif guid and Utils.IsInTable(Globals.ModsDict, guid) then
-    return Utils.GetKeyFromvalue(Globals.ModsDict, guid)
   elseif guid then
-    return guid
+    return DictUtils.RetrieveModInfoFromDict(guid).Name
   else
     return Strings.WARN_GUID_NOT_DEFINED
   end
