@@ -8,7 +8,8 @@
         {
           "UUID": "927fa5b8-ae2b-47c9-8185-a19ba212bb8d",
           "modGuid": "c3defb0c-7882-4040-938c-813ad6878bfb",
-          "Comment": "Path of the Giant (Sewinlife)"
+          "Comment": "Path of the Giant (Sewinlife)",
+          "IsIntegrated": true
         }
       ]
     },
@@ -139,7 +140,8 @@
         {
           "UUID": "bbd5e265-82f5-403f-8141-887480d41bba",
           "modGuid": "83e20b3d-75cc-4d9a-af04-430f797290e5",
-          "Comment": "Way of the Drunken Master (JohnnyTheSneeder)"
+          "Comment": "Way of the Drunken Master (JohnnyTheSneeder)",
+          "IsIntegrated": true
         }
       ]
     },
