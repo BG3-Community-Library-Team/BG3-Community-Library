@@ -1,0 +1,4 @@
+new entry "CL_Passive_OneDnD_PatronSpells_DreadOverlord"
+type "PassiveData"
+using "CL_Passive_OneDnD_PatronSpells"
+data "Boosts" "UnlockSpell(Target_InflictWounds,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_FogCloud,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"

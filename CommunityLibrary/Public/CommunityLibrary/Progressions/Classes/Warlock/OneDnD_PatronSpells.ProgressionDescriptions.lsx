@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="7e1e0190-bd32-4ca6-9623-8adebeba74d4"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0201-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0301-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="216e779e-3452-466c-933d-fb5723b90802"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0401-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="1d7bbdb8-396d-11ee-be56-0242ac120002"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0501-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="54b55960-4113-46ae-9209-d1213b38aab3"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0601-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2a455634-7418-48b4-862f-45e8ae5564b1"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0701-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="2c3a1819-9eee-4938-a003-1e9e8591df74"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0801-c01200000002"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h13eac5cege80eg4795ga78cg79fc3e4a7638" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h81d179a7g15cag4df4g8d3ag10d59f4681e3" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="7e286cc0-c44e-4fce-a65d-fa94cb52222b"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_PatronSpells"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-9001-c01200000002"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

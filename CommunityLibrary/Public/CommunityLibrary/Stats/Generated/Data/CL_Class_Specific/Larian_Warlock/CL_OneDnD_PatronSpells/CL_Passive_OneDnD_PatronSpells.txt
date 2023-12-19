@@ -1,0 +1,6 @@
+new entry "CL_Passive_OneDnD_PatronSpells"
+type "PassiveData"
+data "DisplayName" "h81d179a7g15cag4df4g8d3ag10d59f4681e3;1"
+data "Description" "h13eac5cege80eg4795ga78cg79fc3e4a7638;1"
+data "Icon" "PassiveFeature_MagicInitiateWarlock"
+data "Properties" "Highlighted"
