@@ -148,7 +148,7 @@ function DictUtils.RegisterModToDictionary(modName, modId, modPrettyName, modAut
 
   if Utils.IsKeyInTable(Globals.ModsDict, modKey) then
     if Globals.ModsDict[modKey].Name == modKey then
-      foundStr = name .. Strings.FRAG_MOD_ID .. modId .. 
+      foundStr = name .. Strings.FRAG_MOD_ID .. modId .. " "
       if Globals.ModsDict[modKey].Author then
         foundStr = foundStr .. " by " .. Globals.ModsDict[modKey].Author 
       end
