@@ -3,7 +3,3 @@
   <content contentuid="hc2388340ged04g440fg83fegbe0dafeac6e2" version="1">Launch a mote of light at a target. Until the end of your next turn, the target emits dim light a [1] radius and cannot benefit from the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition.</content>
   <content contentuid="h1df3df79g481dg4a14g95ccga98e09876c4f" version="1">Shedding dim light a [1] radius and cannot benefit from the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition.</content>
 </contentList>
-
-
-
-
