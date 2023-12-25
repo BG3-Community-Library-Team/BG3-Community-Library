@@ -254,6 +254,56 @@
                     <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Shout_DispelEvilAndGood"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0905-c01200000002"/>
                 </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undead (Veenab) Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_Bane;Shout_FalseLife"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1201-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undead (Veenab) Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_PhantasmalForce"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1202-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undead (Veenab) Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="UW_Target_PhantomSteed;Target_BestowCurse"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1203-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undead (Veenab) Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Target_Invisibility_Greater"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1204-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undead (Veenab) Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;UW_Enervate"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1205-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock DarkHunger (Veenab) Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="DHP_MuculentTentacles;DHP_ChillingTentacles"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1301-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock DarkHunger (Veenab) Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_PhantasmalForce;DHP_DevouringVoid"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1302-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock DarkHunger (Veenab) Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="DHP_MawOfAcamar;DHP_DeadStarBreath"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1303-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock DarkHunger (Veenab) Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="DHP_AcamarGrasp;DHP_BroodOfHadar"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1304-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock DarkHunger (Veenab) Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="DHP_Enervate;DHP_FrozenTomb"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1305-c01200000002"/>
+                </node>
             </children>
         </node>
     </region>

@@ -1,4 +1,0 @@
-new entry "CL_Passive_OneDnD_PatronSpells_Undead"
-type "PassiveData"
-using "CL_Passive_OneDnD_PatronSpells"
-data "Boosts" "UnlockSpell(Target_Bane,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Shout_FalseLife,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
