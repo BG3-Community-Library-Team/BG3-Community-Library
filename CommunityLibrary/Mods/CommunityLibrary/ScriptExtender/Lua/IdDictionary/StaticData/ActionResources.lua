@@ -80,5 +80,12 @@ Globals.ActionResources = {
   Interrupt_Scarab_Of_Protection = "c55c135f-4e35-42f8-9ebd-a11e890def01",
   Interrupt_Legendary_InfernalResistance = "67581067-020c-4e0d-814f-963714479f8a",
   Interrupt_LegendaryEvasion_Protection = "4ebba3a3-f42e-42a6-87af-d36592ba8d49",
-  Interrupt_AbsorbElements = "6275ca19-95d9-469c-a649-b26f990882fa"
+  Interrupt_AbsorbElements = "6275ca19-95d9-469c-a649-b26f990882fa",
+  CL_ChannelAura = "a4477ee1-f0e4-4945-b5f5-682443ae0060", -- CommunityLibrary
+  CL_PsionicEnergyDice = "bbfcdf30-3618-45f2-a038-ccc518dadf52",
+  CL_StuntedSpellSlot = "89cc7450-2fc1-42a4-a525-abe61e1957be",
+  CL_TrappedSoul = "947b6171-9d56-4cc2-ac9b-7ceb070eb653",
+  CL_RacialProficiency = "aa939ea4-fca0-4db2-8828-d9402dc72d45",
+  Spite = "ad424027-b2ea-4d05-8366-77b8e340b1de",
+  DK_Hold = "ad424027-b2ea-4d05-8366-77b8e340b1de"
 }
