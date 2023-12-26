@@ -156,7 +156,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Hexblade (Feriat111) SLevel 1"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Shield_Warlock Patron;Target_Smite_Wrathful"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Shield_Warlock;Target_Smite_Wrathful"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0601-c01200000002"/>
                 </node>
                 <node id="SpellList">
