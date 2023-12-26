@@ -15,7 +15,7 @@ end
 ---@return table|nil
 function Utils.GetActionResourceData(entity, resource)
   local actionResourceId = resource
-  local entityToCall = RetrieveEntity()
+  local entityToCall = RetrieveEntity(entity)
 
   if resource and not Utils.IsGuid(resource) then
     actionResourceId = Globals.ActionResources[resource] or Globals.ActionResourceGroups[resource]
@@ -35,8 +35,9 @@ end
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function Utils.SetEntityResourceValue(entity, resource, valueTable, level)
-  local resourceTable = Utils.GetActionResourceData(entity, resource)
-
+  local entityToCall = RetrieveEntity(entity)
+  local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
+  local level = level or 0
   if resourceTable then
     for _, resource in pairs(resourceTable) do
       if resource.ResourceId == level then
@@ -45,7 +46,25 @@ function Utils.SetEntityResourceValue(entity, resource, valueTable, level)
         end
       end
     end
-    entity:Replicate("ActionResources")
+    entityToCall:Replicate("ActionResources")
+  end
+end
+
+--- Remove resource from Entity
+--- @param entity string|userdata Entity or Entity ID
+--- @param resource string UUID or Name of Action Resource/Action Resource Group
+--- @param level number|nil Level of resource (ex. Spell Slots Level)
+function Utils.RemoveEntityResource(entity, resource, level)
+  local entityToCall = RetrieveEntity(entity)
+  local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
+  local level = level or 0
+  if resourceTable then
+    for _, resource in pairs(resourceTable) do
+      if resource.ResourceId == level then
+        resource = nil
+      end
+    end
+    entityToCall:Replicate("ActionResources")
   end
 end
 
@@ -98,4 +117,5 @@ function Utils.SetEntityGod(entity, god)
     Utils.Warn(Strings.FRAG_SETTING_GOD_TO .. Strings.WARN_GUID_NOT_DEFINED)
   end
   entityToCall.God.God = godId
+  entityToCall:Replicate("ActionResources")
 end

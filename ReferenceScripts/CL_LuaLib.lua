@@ -210,6 +210,12 @@ function CLUtils.GetActionResourceData(entity, resource) end
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function CLUtils.SetEntityResourceValue(entity, resource, valueTable) end
 
+--- Remove resource from Entity
+--- @param entity string|userdata Entity or Entity ID
+--- @param resource string UUID or Name of Action Resource/Action Resource Group
+--- @param level number|nil Level of resource (ex. Spell Slots Level)
+function CLUtils.RemoveEntityResource(entity, resource, level) end
+
 --- Return a table containing each Passive found on an Entity
 --- @param entity string|userdata Entity object or ID
 ---@return table
