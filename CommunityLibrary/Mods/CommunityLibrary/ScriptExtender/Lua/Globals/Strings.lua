@@ -4,6 +4,7 @@ Strings.WARNING_TAG = "[WARN]: "
 Strings.ERROR_TAG = "[ERROR]: "
 
 -- Fragments
+Strings.FRAG_COLON = ": "
 Strings.FRAG_FAILED_VALIDATION = "Validation Failure: "
 Strings.FRAG_BECAUSE = " Because: "
 Strings.FRAG_PROVIDED_BY = " provided by "
@@ -11,7 +12,7 @@ Strings.FRAG_KEY_IS_IN_TABLE = "Key is in table: "
 Strings.FRAG_FLESHED_OBJECT_EXISTS = "Fleshed Object exists: "
 Strings.FRAG_MOD_ID = " mod with ID "
 Strings.FRAG_ALREADY_REGISTERED = " is already registered."
-
+Strings.FRAG_NO_ACTION_RESOURCES_FOUND = "No action resources found."
 -- Info
 Strings.LOADED_REQUIRED_FILES = "Required Files loaded."
 
@@ -54,3 +55,4 @@ Strings.ERROR_LIST_DOES_NOT_EXIST_IN_DICTIONARY_SPELL = "List is not defined in 
 Strings.ERROR_LIST_DOES_NOT_EXIST_IN_DICTIONARY_PASSIVE = "List is not defined in Globals.PassiveLists"
 Strings.ERROR_TARGET_NOT_FOUND = "Target Object not found!"
 Strings.ERROR_RACE_DATA_NOT_FOUND = "Race Data not found!"
+Strings.ERROR_INVALID_ENTITY = "Invalid Entity"
