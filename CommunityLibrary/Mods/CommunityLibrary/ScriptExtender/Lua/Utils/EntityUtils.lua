@@ -117,5 +117,5 @@ function Utils.SetEntityGod(entity, god)
     Utils.Warn(Strings.FRAG_SETTING_GOD_TO .. Strings.WARN_GUID_NOT_DEFINED)
   end
   entityToCall.God.God = godId
-  entityToCall:Replicate("ActionResources")
+  entityToCall:Replicate("God")
 end
