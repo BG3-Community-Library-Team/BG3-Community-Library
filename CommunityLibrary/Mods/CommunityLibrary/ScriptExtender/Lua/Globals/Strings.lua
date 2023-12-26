@@ -13,6 +13,7 @@ Strings.FRAG_FLESHED_OBJECT_EXISTS = "Fleshed Object exists: "
 Strings.FRAG_MOD_ID = " mod with ID "
 Strings.FRAG_ALREADY_REGISTERED = " is already registered."
 Strings.FRAG_NO_ACTION_RESOURCES_FOUND = "No action resources found."
+Strings.FRAG_SETTING_GOD_TO = "Setting God to "
 -- Info
 Strings.LOADED_REQUIRED_FILES = "Required Files loaded."
 

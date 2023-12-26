@@ -201,14 +201,35 @@ function CLUtils.GetLoca(args) end
 ---@param entity string|userdata Entity or Entity ID
 ---@param resource string UUID or Name of Action Resource/Action Resource Group
 ---@return table|nil
-function Utils.GetActionResourceData(entity, resource) end
+function CLUtils.GetActionResourceData(entity, resource) end
 
 --- Set specific values for an Action Resource on a Character
 --- @param entity string|userdata Entity or Entity ID
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
-function Utils.SetEntityResourceValue(entity, resource, valueTable) end
+function CLUtils.SetEntityResourceValue(entity, resource, valueTable) end
+
+--- Return a table containing each Passive found on an Entity
+--- @param entity string|userdata Entity object or ID
+---@return table
+function CLUtils.GetEntityPassives(entity) end
+
+--- Return true if a given entity has a given passive
+--- @param entity string|userdata Entity object or ID
+--- @param passive string StatData ID for Passive
+---@return boolean
+function CLUtils.EntityHasPassive(entity, passive) end
+
+--- Retrieve God ID from Entity
+--- @param entity string|userdata Entity object or ID
+---@return string
+function CLUtils.GetEntityGod(entity) end
+
+--- Set Entity's God
+--- @param entity string|userdata Entity object or ID
+---@param god string ID or Name of God
+function CLUtils.SetEntityGod(entity, god) end
 
 --- Insert Species (Race) entry into Globals.Species
 ---@param name string

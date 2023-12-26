@@ -168,9 +168,10 @@ end
 function DictUtils.RetrieveModInfoFromDict(guid)
   local info = {Name = guid, UUID = guid}
 
-  for key, modInfo in pairs(Globals.ModsDict) do
+  for _, modInfo in pairs(Globals.ModsDict) do
     if modInfo.UUID == guid then
       info = modInfo
+    end
   end
 
   return info
