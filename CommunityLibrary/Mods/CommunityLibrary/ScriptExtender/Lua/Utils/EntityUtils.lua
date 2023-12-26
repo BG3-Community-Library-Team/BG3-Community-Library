@@ -28,9 +28,17 @@ end
 --- @param entity string|userdata Entity or Entity ID
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
-function Utils.SetEntityResourceValue(entity, resource, valueTable)
+--- @param level number|nil Level of resource (ex. Spell Slots Level)
+function Utils.SetEntityResourceValue(entity, resource, valueTable, level)
   local resourceTable = Utils.GetActionResourceData(entity, resource)
-  for key, val in pairs(valueTable) do
-    resourceTable[key] = val
+
+  if resourceTable then
+    for _, resource in pairs(resourceTable) do
+      if resource.ResourceId == level then
+        for key, val in pairs(valueTable) do
+          resource[key] = val
+        end
+      end
+    end
   end
 end

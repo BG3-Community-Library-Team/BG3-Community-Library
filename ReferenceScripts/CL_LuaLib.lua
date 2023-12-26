@@ -207,6 +207,7 @@ function Utils.GetActionResourceData(entity, resource) end
 --- @param entity string|userdata Entity or Entity ID
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
+--- @param level number|nil Level of resource (ex. Spell Slots Level)
 function Utils.SetEntityResourceValue(entity, resource, valueTable) end
 
 --- Insert Species (Race) entry into Globals.Species
