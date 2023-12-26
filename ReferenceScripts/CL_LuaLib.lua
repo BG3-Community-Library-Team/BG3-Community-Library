@@ -197,6 +197,18 @@ function CLUtils.SwapLoca(oldHandle, newHandle, conditionFn) end
 ---@return string|nil
 function CLUtils.GetLoca(args) end
 
+--- Get the Action Resource Data from a Given Entity/Entity ID.
+---@param entity string|userdata Entity or Entity ID
+---@param resource string UUID or Name of Action Resource/Action Resource Group
+---@return table|nil
+function Utils.GetActionResourceData(entity, resource) end
+
+--- Set specific values for an Action Resource on a Character
+--- @param entity string|userdata Entity or Entity ID
+--- @param resource string UUID or Name of Action Resource/Action Resource Group
+--- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
+function Utils.SetEntityResourceValue(entity, resource, valueTable) end
+
 --- Insert Species (Race) entry into Globals.Species
 ---@param name string
 ---@param guid string
