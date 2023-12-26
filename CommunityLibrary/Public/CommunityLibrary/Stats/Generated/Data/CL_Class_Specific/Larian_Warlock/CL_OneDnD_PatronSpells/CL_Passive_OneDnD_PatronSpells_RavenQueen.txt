@@ -1,4 +1,0 @@
-new entry "CL_Passive_OneDnD_PatronSpells_RavenQueen"
-type "PassiveData"
-using "CL_Passive_OneDnD_PatronSpells"
-data "Boosts" "UnlockSpell(Shout_FalseLife,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a);UnlockSpell(Target_Sanctuary,MostPowerful,e9127b70-22b7-42a1-b172-d02f828f260a)"
