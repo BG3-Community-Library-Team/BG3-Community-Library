@@ -181,6 +181,6 @@ end
 function DictUtils.InscribeLoadedMods()
   for _, uuid in pairs(Ext.Mod.GetLoadOrder()) do
     local modData = Ext.Mod.GetMod(uuid)
-    DictUtils.RegisterModToDictionary(modData.Info.Folder, modData.Info.ModuleUUID, modData.Info.Name, modData.Info.Author)
+    DictUtils.RegisterModToDictionary(modData.Info.Directory, modData.Info.ModuleUUID, modData.Info.Name, modData.Info.Author)
   end
 end

@@ -29,7 +29,7 @@ function Utils.GetActionResourceData(entity, resource)
   end
 end
 
---- Set specific values for an Action Resource on a Character
+--- Set specific values for an Action Resource on an Entity
 --- @param entity string|userdata Entity or Entity ID
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
