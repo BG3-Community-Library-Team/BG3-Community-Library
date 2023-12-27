@@ -37,12 +37,33 @@ end
 function Utils.SetEntityResourceValue(entity, resource, valueTable, level)
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
-  local level = level or 0
+  level = level or 0
   if resourceTable then
-    for _, resource in pairs(resourceTable) do
-      if resource.ResourceId == level then
+    for _, resourceVal in pairs(resourceTable) do
+      if resourceVal.ResourceId == level then
         for key, val in pairs(valueTable) do
-          resource[key] = val
+          resourceVal[key] = val
+        end
+      end
+    end
+    entityToCall:Replicate("ActionResources")
+  end
+end
+
+--- Modify specific values for an Action Resource on an Entity
+--- @param entity string|userdata Entity or Entity ID
+--- @param resource string UUID or Name of Action Resource/Action Resource Group
+--- @param deltaValueTable table Key/Value Table of Deltas for Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
+--- @param level number|nil Level of resource (ex. Spell Slots Level)
+function Utils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level)
+  local entityToCall = RetrieveEntity(entity)
+  local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
+  level = level or 0
+  if resourceTable then
+    for _, resourceVal in pairs(resourceTable) do
+      if resourceVal.ResourceId == level then
+        for key, val in pairs(deltaValueTable) do
+          resourceVal[key] = resourceVal[key] + val
         end
       end
     end
