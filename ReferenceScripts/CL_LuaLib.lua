@@ -48,10 +48,12 @@ function CLUtils.Stringify(obj) end
 
 --- Wrapper function for Ext.Utils.Print, prefixing message with [INFO]
 ---@param message string
+---@param override boolean
 function CLUtils.Info(message) end
 
 --- Wrapper function for Ext.Utils.PrintWarning, prefixing message with [WARN]
 ---@param message string
+---@param override boolean
 function CLUtils.Warn(message) end
 --- Wrapper function for Ext.Utils.PrintError, prefixing message with [ERROR]
 ---@param message string
@@ -209,6 +211,13 @@ function CLUtils.GetActionResourceData(entity, resource) end
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function CLUtils.SetEntityResourceValue(entity, resource, valueTable) end
+
+--- Modify specific values for an Action Resource on an Entity
+--- @param entity string|userdata Entity or Entity ID
+--- @param resource string UUID or Name of Action Resource/Action Resource Group
+--- @param deltaValueTable table Key/Value Table of Deltas for Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
+--- @param level number|nil Level of resource (ex. Spell Slots Level)
+function CLUtils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level) end
 
 --- Remove resource from Entity
 --- @param entity string|userdata Entity or Entity ID
