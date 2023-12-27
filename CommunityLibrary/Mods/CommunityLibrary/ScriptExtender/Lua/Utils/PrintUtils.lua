@@ -7,16 +7,18 @@ end
 
 --- Wrapper function for Ext.Utils.Print, prefixing message with [INFO]
 ---@param message string
-function Utils.Info(message)
-  if Globals.Debug == true then
+---@param override boolean
+function Utils.Info(message, override)
+  if Globals.Debug or override then
     Ext.Utils.Print(Strings.INFO_TAG .. message)
   end
 end
 
 --- Wrapper function for Ext.Utils.PrintWarning, prefixing message with [WARN]
 ---@param message string
-function Utils.Warn(message)
-  if Globals.ShowWarnings == true then
+---@param override boolean
+function Utils.Warn(message, override)
+  if Globals.ShowWarnings or override then
     Ext.Utils.PrintWarning(Strings.WARNING_TAG .. message)
   end
 end
