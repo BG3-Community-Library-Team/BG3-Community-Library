@@ -1,5 +1,13 @@
 {
   "FileVersion": 1,
+  "ActionResourceGroups": [
+    {
+      "Comment": "Additional SpellSlotGroups",
+      "UUID": "03b17647-161a-42e1-9660-5ba517e80ad2",
+      "Definitions": ["89cc7450-2fc1-42a4-a525-abe61e1957be"],
+      "Action": "Insert"
+    }
+  ],
   "Progressions": [
     {
       "Comment": "Barbarian",
