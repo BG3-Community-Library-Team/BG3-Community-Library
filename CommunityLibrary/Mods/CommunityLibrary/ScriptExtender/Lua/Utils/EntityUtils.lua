@@ -58,17 +58,30 @@ end
 function Utils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level)
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
+  local result = {}
+
   level = level or 0
   if resourceTable then
-    for _, resourceVal in pairs(resourceTable) do
+    for resourceKey, resourceVal in pairs(resourceTable) do
       if resourceVal.ResourceId == level then
         for key, val in pairs(deltaValueTable) do
-          resourceVal[key] = resourceVal[key] + val
+          local valCalc = resourceVal[key] + val
+          resourceVal[key] = valCalc
         end
       end
     end
     entityToCall:Replicate("ActionResources")
   end
+end
+
+--- Alternative Way to modify resources via AddBoosts. Does not persist through Saves.
+--- @param entityId string
+--- @param resourceName string
+--- @param delta number
+--- @param level number|nil
+function Utils.ModifyResourceAmount(entityId, resourceName, delta, level)
+  level = level or 0
+  Osi.AddBoosts(entityId, "ActionResource(" .. resourceName .. "," .. level .. delta .. ")", "", "")
 end
 
 --- Remove resource from Entity
@@ -139,4 +152,18 @@ function Utils.SetEntityGod(entity, god)
   end
   entityToCall.God.God = godId
   entityToCall:Replicate("God")
+end
+
+--- Determine if given Entity ID is in DB_Players
+--- @param entityId string UUID of entity
+---@return boolean
+function Utils.IsEntityInPlayers(entityId)
+  local found = false
+  for _, player in pairs(Utils.GetPlayableCharacters()) do
+    if entityId == string.sub(player[1], -36) then
+      found = true
+    end
+  end
+
+  return found
 end

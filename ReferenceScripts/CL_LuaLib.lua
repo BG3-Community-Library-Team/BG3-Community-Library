@@ -219,6 +219,14 @@ function CLUtils.SetEntityResourceValue(entity, resource, valueTable) end
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function CLUtils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level) end
 
+
+--- Alternative Way to modify resources via AddBoosts. Does not persist through Saves.
+--- @param entityId string
+--- @param resourceName string
+--- @param delta number
+--- @param level number|nil
+function CLUtils.ModifyResourceAmount(entityId, resourceName, delta, level) end
+
 --- Remove resource from Entity
 --- @param entity string|userdata Entity or Entity ID
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
@@ -245,6 +253,17 @@ function CLUtils.GetEntityGod(entity) end
 --- @param entity string|userdata Entity object or ID
 ---@param god string ID or Name of God
 function CLUtils.SetEntityGod(entity, god) end
+
+--- Determine if given Entity ID is in DB_Players
+--- @param entityId string UUID of entity
+---@return boolean
+function CLUtils.IsEntityInPlayers(entityId) end
+
+--- Return True if Spell has SpellFlag
+--- @param spell string Spell ID
+--- @param flags table Table of Spell Flags
+---@return boolean
+function CLUtils.HasSpellFlag(spell, flags) end
 
 --- Insert Species (Race) entry into Globals.Species
 ---@param name string
