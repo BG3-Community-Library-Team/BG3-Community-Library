@@ -6,6 +6,7 @@ local function RetrieveEntity(entity)
   else
     res = entity
   end
+
   return res
 end
 

@@ -49,12 +49,12 @@ function CLUtils.Stringify(obj) end
 --- Wrapper function for Ext.Utils.Print, prefixing message with [INFO]
 ---@param message string
 ---@param override boolean
-function CLUtils.Info(message) end
+function CLUtils.Info(message, override) end
 
 --- Wrapper function for Ext.Utils.PrintWarning, prefixing message with [WARN]
 ---@param message string
 ---@param override boolean
-function CLUtils.Warn(message) end
+function CLUtils.Warn(message, override) end
 --- Wrapper function for Ext.Utils.PrintError, prefixing message with [ERROR]
 ---@param message string
 function CLUtils.Error(message) end
