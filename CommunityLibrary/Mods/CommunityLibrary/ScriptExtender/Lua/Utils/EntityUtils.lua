@@ -159,7 +159,7 @@ end
 ---@return boolean
 function Utils.IsEntityInPlayers(entityId)
   local found = false
-  for _, player in pairs(Utils.GetPlayableCharacters()) do
+  for _, player in pairs(Osi.DB_Players:Get(nil)) do
     if entityId == string.sub(player[1], -36) then
       found = true
     end
