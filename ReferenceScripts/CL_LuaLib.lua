@@ -210,7 +210,7 @@ function CLUtils.GetActionResourceData(entity, resource) end
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
-function CLUtils.SetEntityResourceValue(entity, resource, valueTable) end
+function CLUtils.SetEntityResourceValue(entity, resource, valueTable, level) end
 
 --- Modify specific values for an Action Resource on an Entity
 --- @param entity string|userdata Entity or Entity ID
