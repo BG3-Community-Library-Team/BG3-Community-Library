@@ -115,18 +115,39 @@ function Utils.GetEntityPassives(entity)
   return res
 end
 
+--- Return a table containing each Status found on an Entity
+--- @param entity string|userdata Entity object or ID
+---@return table
+function Utils.GetEntityStatuses(entity)
+  local entityToCall = RetrieveEntity(entity)
+  local res = {}
+  for _, status in pairs(entityToCall.StatusContainer.Statuses) do
+    table.insert(res, status.Status.StatusId)
+  end
+
+  return res
+end
+
+--- TODO: Allow a table of Passives to be passed through
 --- Return true if a given entity has a given passive
 --- @param entity string|userdata Entity object or ID
 --- @param passive string StatData ID for Passive
 ---@return boolean
 function Utils.EntityHasPassive(entity, passive)
   local entityToCall = RetrieveEntity(entity)
-  local found = false
-  if Utils.IsInTable(Utils.GetEntityPassives(entityToCall), passive) then
-    found = true
-  end
 
-  return found
+  return Utils.IsInTable(Utils.GetEntityPassives(entityToCall), passive)
+end
+
+--- TODO: Allow a table of Statuses to be passed through
+--- Return true if a given entity has a given status
+--- @param entity string|userdata Entity object or ID
+--- @param status string StatData ID for Status
+---@return boolean
+function Utils.EntityHasStatus(entity, status)
+  local entityToCall = RetrieveEntity(entity)
+
+  return Utils.IsInTable(Utils.GetEntityStatuses(entityToCall), status)
 end
 
 --- Retrieve God ID from Entity

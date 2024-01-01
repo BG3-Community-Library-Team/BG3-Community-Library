@@ -238,11 +238,22 @@ function CLUtils.RemoveEntityResource(entity, resource, level) end
 ---@return table
 function CLUtils.GetEntityPassives(entity) end
 
+--- Return a table containing each Status found on an Entity
+--- @param entity string|userdata Entity object or ID
+---@return table
+function CLUtils.GetEntityStatuses(entity) end
+
 --- Return true if a given entity has a given passive
 --- @param entity string|userdata Entity object or ID
 --- @param passive string StatData ID for Passive
 ---@return boolean
 function CLUtils.EntityHasPassive(entity, passive) end
+
+--- Return true if a given entity has a given status
+--- @param entity string|userdata Entity object or ID
+--- @param status string StatData ID for Status
+---@return boolean
+function CLUtils.EntityHasStatus(entity, status) end
 
 --- Retrieve God ID from Entity
 --- @param entity string|userdata Entity object or ID
