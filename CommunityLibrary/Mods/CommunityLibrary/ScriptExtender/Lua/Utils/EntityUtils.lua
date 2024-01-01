@@ -59,11 +59,10 @@ end
 function Utils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level)
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
-  local result = {}
 
   level = level or 0
   if resourceTable then
-    for resourceKey, resourceVal in pairs(resourceTable) do
+    for _, resourceVal in pairs(resourceTable) do
       if resourceVal.ResourceId == level then
         for key, val in pairs(deltaValueTable) do
           local valCalc = resourceVal[key] + val
