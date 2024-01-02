@@ -81,7 +81,7 @@ end
 --- @param level number|nil
 function Utils.ModifyResourceAmount(entityId, resourceName, delta, level)
   level = level or 0
-  Osi.AddBoosts(entityId, "ActionResource(" .. resourceName .. "," .. delta .. level .. ")", "", "")
+  Osi.AddBoosts(entityId, "ActionResource(" .. resourceName .. "," .. delta .. "," .. level .. ")", "", "")
 end
 
 --- Remove resource from Entity
