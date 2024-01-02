@@ -59,7 +59,7 @@ end
 function Utils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level)
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
-
+  _D(deltaValueTable)
   level = level or 0
   if resourceTable then
     for _, resourceVal in pairs(resourceTable) do

@@ -13,3 +13,10 @@ function Utils.RollDice(amount, sides)
     return DiceCalc(amount, sides)
   end
 end
+
+--- convert a number or string representation of a number to an integer.
+--- @param number number|string Number to Convert.
+---@return integer
+function Utils.ToInteger(number)
+  return math.floor(tonumber(number) or error(Strings.FRAG_COULD_NOT_CAST .. tostring(number) .. Strings.FRAG_TO_NUMBER))
+end

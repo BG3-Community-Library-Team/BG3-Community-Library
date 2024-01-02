@@ -48,12 +48,12 @@ function CLUtils.Stringify(obj) end
 
 --- Wrapper function for Ext.Utils.Print, prefixing message with [INFO]
 ---@param message string
----@param override boolean
+---@param override boolean|nil
 function CLUtils.Info(message, override) end
 
 --- Wrapper function for Ext.Utils.PrintWarning, prefixing message with [WARN]
 ---@param message string
----@param override boolean
+---@param override boolean|nil
 function CLUtils.Warn(message, override) end
 --- Wrapper function for Ext.Utils.PrintError, prefixing message with [ERROR]
 ---@param message string
@@ -64,6 +64,11 @@ function CLUtils.Error(message) end
 --- @param sides string|number either a string representing the type of dice (i.e. `"d8"`), or the maximum number possible. String notation only supports d4, 6, 8, 10, 12, and 20)
 ---@return number
 function CLUtils.RollDice(amount, sides) end
+
+--- convert a number or string representation of a number to an integer.
+--- @param number number|string Number to Convert.
+---@return integer
+function CLUtils.ToInteger(number) end
 
 --- Detect if a value is in a given string. Wrapper function for string.find()
 ---@param str string
