@@ -187,3 +187,56 @@ function Utils.IsEntityInPlayers(entityId)
 
   return found
 end
+
+--- Retrieve table of Action Resources from an entity matching the IDs from a given table. Returns  `Amount`, `MaxAmount`, `Level`, `Name` (if in the Action Resource Dictionary), and `UUID`
+--- @param idArray table Table of Action Resource UUIDs
+--- @param resources userdata Entity.ActionResources.Resource
+---@return table res table of Resources
+function Utils.FilterEntityResources(idArray, resources)
+  Utils.Info("Entering FilterEntityResources")
+  local res = {}
+  for _, resourceUUID in pairs(idArray) do
+    if resources[resourceUUID] then
+      for _, resourceObj in pairs(resources[resourceUUID]) do
+        Utils.AddToTable(res, {
+          Amount = resourceObj.Amount,
+          MaxAmount = resourceObj.MaxAmount,
+          Level = resourceObj.ResourceId,
+          UUID = resourceUUID,
+          Name = Utils.GetKeyFromvalue(Globals.ActionResources, resourceUUID) or nil
+        })
+      end
+    end
+  end
+
+  return res
+end
+
+--- Retrieve the amount of a given resource at a given level on an entity.
+--- @param entity userdata
+--- @param resourceName string
+--- @param level number
+---@return number
+function Utils.GetResourceAtLevel(entity, resourceName, level)
+  Utils.Info("Entering GetResourceAtLevel", Globals.InfoOverride)
+  local fleshedResource = entity.ActionResources.Resources[Globals.ActionResources[resourceName]]
+  local res = 0
+  for _, resourceObj in pairs(fleshedResource) do
+    if resourceObj.ResourceId == level then
+      res = tonumber(resourceObj.Amount) or 0
+    end
+  end
+
+  return res
+end
+
+--- Wrapper function for `Ext.Entity.Subscribe`, checking if the given entity is a player
+---@param componentName string Component Name. Ex. "ActionResources"
+---@param callbackFn function Function to perform on the subscribed entity
+function Utils.SubscribeToPlayerEntityComponent(componentName, callbackFn)
+  Ext.Entity.Subscribe(componentName, function (entity, _, _)
+    if Osi.IsPlayer(entity.Uuid.EntityUuid) then
+      callbackFn(entity)
+    end
+  end)
+end

@@ -55,6 +55,7 @@ function CLUtils.Info(message, override) end
 ---@param message string
 ---@param override boolean|nil
 function CLUtils.Warn(message, override) end
+
 --- Wrapper function for Ext.Utils.PrintError, prefixing message with [ERROR]
 ---@param message string
 function CLUtils.Error(message) end
@@ -204,6 +205,30 @@ function CLUtils.SwapLoca(oldHandle, newHandle, conditionFn) end
 ---@return string|nil
 function CLUtils.GetLoca(args) end
 
+--- Retrieve all Action Resources within the SpellSlots Action Resource Group, and add them to a given Table
+---@param arr table Target Table to insert Resource IDs
+---@param condition boolean Boolean value to filter out specific resources
+---@return table arr
+function CLUtils.LoadSpellSlotsGroupToArray(arr, conditionFn) end
+
+--- Wrapper function for `Ext.Entity.Subscribe`, checking if the given entity is a player
+---@param componentName string Component Name. Ex. "ActionResources"
+---@param callbackFn function Function to perform on the subscribed entity
+function CLUtils.SubscribeToPlayerEntityComponent(componentName, callbackFn) end
+
+--- Retrieve table of Action Resources from an entity matching the IDs from a given table. Returns  `Amount`, `MaxAmount`, `Level`, `Name` (if in the Action Resource Dictionary), and `UUID`
+--- @param idArray table Table of Action Resource UUIDs
+--- @param resources userdata Entity.ActionResources.Resource
+---@return table res table of Resources
+function CLUtils.FilterEntityResources(idArray, resources) end
+
+--- Retrieve the amount of a given resource at a given level on an entity.
+--- @param entity userdata
+--- @param resourceName string
+--- @param level number
+---@return number
+function CLUtils.GetResourceAtLevel(entity, resourceName, level) end
+
 --- Get the Action Resource Data from a Given Entity/Entity ID.
 ---@param entity string|userdata Entity or Entity ID
 ---@param resource string UUID or Name of Action Resource/Action Resource Group
@@ -223,7 +248,6 @@ function CLUtils.SetEntityResourceValue(entity, resource, valueTable, level) end
 --- @param deltaValueTable table Key/Value Table of Deltas for Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function CLUtils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level) end
-
 
 --- Alternative Way to modify resources via AddBoosts. Does not persist through Saves.
 --- @param entityId string
