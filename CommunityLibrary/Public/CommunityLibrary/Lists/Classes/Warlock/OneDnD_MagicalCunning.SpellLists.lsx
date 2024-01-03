@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock OneDnD Magical Cunning"/>
+                    <attribute id="Spells" type="LSString" value="CL_Shout_OneDnD_MagicalCunning"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0100-c01200000003"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

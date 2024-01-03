@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h937f0745ge0c7g4551g92b6g296afa8d73a1" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he3994e0age8a9g4a2aga110gbd18834d2a86" version="1"/>
+                    <attribute id="ProgressionTableId" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
+                    <attribute id="SelectorId" type="FixedString" value="CL_OneDnD_MagicalCunning"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0100-c01200000003"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
