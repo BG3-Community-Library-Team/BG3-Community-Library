@@ -213,13 +213,14 @@ function Utils.FilterEntityResources(idArray, resources)
 end
 
 --- Retrieve the amount of a given resource at a given level on an entity.
---- @param entity userdata
+--- @param entity userdata|string Fleshed entity OR Entity ID
 --- @param resourceName string
 --- @param level number
 ---@return number
 function Utils.GetResourceAtLevel(entity, resourceName, level)
+  local entityToCall = RetrieveEntity(entity)
   Utils.Info("Entering GetResourceAtLevel", Globals.InfoOverride)
-  local fleshedResource = entity.ActionResources.Resources[Globals.ActionResources[resourceName]]
+  local fleshedResource = entityToCall.ActionResources.Resources[Globals.ActionResources[resourceName]]
   local res = 0
   for _, resourceObj in pairs(fleshedResource) do
     if resourceObj.ResourceId == level then

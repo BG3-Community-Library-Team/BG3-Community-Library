@@ -223,7 +223,7 @@ function CLUtils.SubscribeToPlayerEntityComponent(componentName, callbackFn) end
 function CLUtils.FilterEntityResources(idArray, resources) end
 
 --- Retrieve the amount of a given resource at a given level on an entity.
---- @param entity userdata
+--- @param entity userdata|string Fleshed entity OR Entity ID
 --- @param resourceName string
 --- @param level number
 ---@return number
