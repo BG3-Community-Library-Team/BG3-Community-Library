@@ -40,6 +40,11 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0202-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Archfey OneDnD SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CalmEmotions;Target_PhantasmalForce;Target_MistyStep"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d202-c01200000002"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Archfey SLevel 3"/>
                     <attribute id="Spells" type="LSString" value="Shout_Blink;Target_PlantGrowth"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0203-c01200000002"/>
@@ -80,6 +85,26 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0305-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Fiend OneDnD SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_InsectPlague"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d3c5-c01200000002"/>
+                </node>                
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Fiend OneDnD-A SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_InsectPlague"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d3a5-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Fiend OneDnD-B SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_InsectPlague;Target_FlameStrike"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d3b5-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Fiend OneDnD-C SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_InsectPlague"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d3c5-c01200000002"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron GOO SLevel 1"/>
                     <attribute id="Spells" type="LSString" value="Target_DissonantWhispers;Target_HideousLaughter"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0401-c01200000002"/>
@@ -95,15 +120,35 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0403-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron GOO OneDnD-A SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Target_HungerOfHadar"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d4a3-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron GOO OneDnD-B SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_HungerOfHadar;Target_Slow"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d4b3-c01200000002"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron GOO SLevel 4"/>
                     <attribute id="Spells" type="LSString" value="Target_DominateBeast;Target_BlackTentacles"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0404-c01200000002"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron GOO OneDnD SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Confusion;Target_BlackTentacles"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d404-c01200000002"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron GOO SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Target_DominatePerson;Throw_Telekinesis"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0405-c01200000002"/>
-                </node>         
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron GOO OneDnd SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_SynapticStatic;Throw_Telekinesis"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d405-c01200000002"/>
+                </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) SLevel 1"/>
                     <attribute id="Spells" type="LSString" value="Target_CureWounds;Projectile_GuidingBolt"/>
@@ -131,7 +176,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Celestial (FluffyDragon24) Alt SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Shout_SpiritGuardians;"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_Revivify;Shout_SpiritGuardians"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-a503-c01200000002"/>
                 </node>                
                 <node id="SpellList">
