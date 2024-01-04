@@ -1,6 +1,6 @@
 --- Retrieve all Action Resources within the SpellSlots Action Resource Group, and add them to a given Table
 ---@param arr table Target Table to insert Resource IDs
----@param conditionFn function Function returning a Boolean value to filter out specific resources
+---@param conditionFn? function Function returning a Boolean value to filter out specific resources
 ---@return table arr
 function Utils.LoadSpellSlotsGroupToArray(arr, conditionFn)
   Utils.Info("Entering LoadSpellSlotsGroup")
