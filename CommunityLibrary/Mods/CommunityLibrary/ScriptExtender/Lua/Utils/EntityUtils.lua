@@ -1,4 +1,5 @@
 local function RetrieveEntity(entity)
+  Utils.Info("RetrieveEntity FilterEntityResources")
   local res
 
   if type(entity) == "string" then
@@ -15,6 +16,7 @@ end
 ---@param resource string UUID or Name of Action Resource/Action Resource Group
 ---@return table|nil
 function Utils.GetActionResourceData(entity, resource)
+  Utils.Info("Entering GetActionResourceData")
   local actionResourceId = resource
   local entityToCall = RetrieveEntity(entity)
 
@@ -36,6 +38,7 @@ end
 --- @param valueTable table Key/Value Table of Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function Utils.SetEntityResourceValue(entity, resource, valueTable, level)
+  Utils.Info("Entering SetEntityResourceValue")
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
   level = level or 0
@@ -57,6 +60,7 @@ end
 --- @param deltaValueTable table Key/Value Table of Deltas for Values for Action Resource Table. Possible values: `Amount`, `MaxAmount`, `ResourceId`, `ResourceUUID`, `SubAmounts`
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function Utils.ModifyEntityResourceValue(entity, resource, deltaValueTable, level)
+  Utils.Info("Entering ModifyEntityResourceValue", true)
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
   level = level or 0
@@ -79,6 +83,7 @@ end
 --- @param delta number
 --- @param level number|nil
 function Utils.ModifyResourceAmount(entityId, resourceName, delta, level)
+  Utils.Info("Entering ModifyResourceAmount")
   level = level or 0
   Osi.AddBoosts(entityId, "ActionResource(" .. resourceName .. "," .. delta .. "," .. level .. ")", "", "")
 end
@@ -88,6 +93,7 @@ end
 --- @param resource string UUID or Name of Action Resource/Action Resource Group
 --- @param level number|nil Level of resource (ex. Spell Slots Level)
 function Utils.RemoveEntityResource(entity, resource, level)
+  Utils.Info("Entering RemoveEntityResource")
   local entityToCall = RetrieveEntity(entity)
   local resourceTable = Utils.GetActionResourceData(entityToCall, resource)
   local level = level or 0
@@ -105,6 +111,7 @@ end
 --- @param entity string|userdata Entity object or ID
 ---@return table
 function Utils.GetEntityPassives(entity)
+  Utils.Info("Entering GetEntityPassives")
   local entityToCall = RetrieveEntity(entity)
   local res = {}
   for _, passive in pairs(entityToCall.PassiveContainer.Passives) do
@@ -118,6 +125,7 @@ end
 --- @param entity string|userdata Entity object or ID
 ---@return table
 function Utils.GetEntityStatuses(entity)
+  Utils.Info("Entering GetEntityStatuses")
   local entityToCall = RetrieveEntity(entity)
   local res = {}
   for _, status in pairs(entityToCall.StatusContainer.Statuses) do
@@ -133,6 +141,7 @@ end
 --- @param passive string StatData ID for Passive
 ---@return boolean
 function Utils.EntityHasPassive(entity, passive)
+  Utils.Info("Entering EntityHasPassive")
   local entityToCall = RetrieveEntity(entity)
 
   return Utils.IsInTable(Utils.GetEntityPassives(entityToCall), passive)
@@ -144,6 +153,7 @@ end
 --- @param status string StatData ID for Status
 ---@return boolean
 function Utils.EntityHasStatus(entity, status)
+  Utils.Info("Entering EntityHasStatus")
   local entityToCall = RetrieveEntity(entity)
 
   return Utils.IsInTable(Utils.GetEntityStatuses(entityToCall), status)
@@ -153,6 +163,7 @@ end
 --- @param entity string|userdata Entity object or ID
 ---@return string
 function Utils.GetEntityGod(entity)
+  Utils.Info("Entering GetEntityGod")
   local entityToCall = RetrieveEntity(entity)
   return entityToCall.God.God
 end
@@ -161,6 +172,7 @@ end
 --- @param entity string|userdata Entity object or ID
 ---@param god string ID or Name of God
 function Utils.SetEntityGod(entity, god)
+  Utils.Info("Entering SetEntityGod")
   local entityToCall = RetrieveEntity(entity)
   local godId = god
   if not Utils.IsGuid(godId) then
@@ -178,6 +190,7 @@ end
 --- @param entityId string UUID of entity
 ---@return boolean
 function Utils.IsEntityInPlayers(entityId)
+  Utils.Info("Entering IsEntityInPlayers")
   local found = false
   for _, player in pairs(Osi.DB_Players:Get(nil)) do
     if entityId == string.sub(player[1], -36) then
@@ -219,7 +232,7 @@ end
 ---@return number
 function Utils.GetResourceAtLevel(entity, resourceName, level)
   local entityToCall = RetrieveEntity(entity)
-  Utils.Info("Entering GetResourceAtLevel", Globals.InfoOverride)
+  Utils.Info("Entering GetResourceAtLevel")
   local fleshedResource = entityToCall.ActionResources.Resources[Globals.ActionResources[resourceName]]
   local res = 0
   for _, resourceObj in pairs(fleshedResource) do
