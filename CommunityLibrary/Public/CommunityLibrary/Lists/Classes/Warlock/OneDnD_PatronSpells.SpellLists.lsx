@@ -85,11 +85,6 @@
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0305-c01200000002"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Warlock Patron Fiend OneDnD SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_InsectPlague"/>
-                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d3c5-c01200000002"/>
-                </node>                
-                <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock Patron Fiend OneDnD-A SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Zone_ConeOfCold;Target_InsectPlague"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-d3a5-c01200000002"/>
