@@ -1,0 +1,14 @@
+<contentList>
+  <content contentuid="hcd5cccb7g2330g4adfgac7cgf88c65412f5c" version="1">Thirsting Blade</content>
+  <content contentuid="h1c66f6c7g1fc1g49dbga0acg73b791c452e4" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Requires &lt;LSTag Type="Passive" Tooltip="PactOfTheBlade"&gt;Pact of the Blade&lt;/LSTag&gt;.</content>
+  <content contentuid="he3693681g2be7g4117g92f8g290682a9416e" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Requires &lt;LSTag Type="Passive" Tooltip="PactOfTheBlade"&gt;Pact of the Blade&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Blade pactholders gain an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;extra attack&lt;/LSTag&gt; with their pact weapon.</content>
+  
+  <content contentuid="h330420d0gbd92g47cfg8939gc2a20de25fb3" version="1">Investment of the Chain Master</content>
+  <content contentuid="h59dbc086g1ffcg4e32g93fcg6db5f2a25fa4" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Requires &lt;LSTag Type="Passive" Tooltip="PactOfTheChain"&gt;Pact of the Chain&lt;/LSTag&gt;.</content>
+  <content contentuid="hceeb919ege1f2g409ag84c2g7aa835491c62" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Requires &lt;LSTag Type="Passive" Tooltip="PactOfTheChain"&gt;Pact of the Chain&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;The Pact of the Chain's &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;familiar&lt;/LSTag&gt; gains an extra attack.</content>
+  
+  <content contentuid="h09b26c7cg193bg4905gb96cg63af57433292" version="1">Book of Unusual Secrets</content>
+  <content contentuid="h70ab5407g40cdg48cdg9781ge522e40dd5f5" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Requires &lt;LSTag Type="Passive" Tooltip="PactOfTheTome"&gt;Pact of the Tome&lt;/LSTag&gt;.</content>
+  <content contentuid="hfdea0196gbbecg46b1gbfe9g810e214f5352" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Requires &lt;LSTag Type="Passive" Tooltip="PactOfTheTome"&gt;Pact of the Tome&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Pact of the Tome warlocks can cast &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Animate Dead&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Call Lightning&lt;/LSTag&gt; once per long rest.</content>
+
+</contentList>

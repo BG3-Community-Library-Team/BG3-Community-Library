@@ -292,3 +292,7 @@ function CL_IsIllusionSpell()
   | SpellId('Target_PhantasmalKiller')
   | SpellId('Target_Seeming')
 end
+
+function CL_IsImprovedPactOfTheChain()
+    return HasPassive('PactOfTheChain',context.Source) & HasPassive('CL_ThirstingBlade_Chain',context.Source)
+end
