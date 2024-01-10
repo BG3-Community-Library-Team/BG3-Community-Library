@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Comment" type="LSString" value="Warlock Invocations Level 1"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,PactOfTheBlade,PactOfTheTome,RepellingBlast"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0101-c01200000004"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
