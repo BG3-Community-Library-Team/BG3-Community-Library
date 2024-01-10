@@ -249,7 +249,7 @@ end
 ---@param callbackFn function Function to perform on the subscribed entity
 function Utils.SubscribeToPlayerEntityComponent(componentName, callbackFn)
   Ext.Entity.Subscribe(componentName, function (entity, _, _)
-    if Osi.IsPlayer(entity.Uuid.EntityUuid) then
+    if Osi.IsPlayer(entity.Uuid.EntityUuid) == 1 then
       callbackFn(entity)
     end
   end)
