@@ -294,5 +294,15 @@ function CL_IsIllusionSpell()
 end
 
 function CL_IsImprovedPactOfTheChain()
-    return HasPassive('PactOfTheChain',context.Source) & HasPassive('CL_ThirstingBlade_Chain',context.Source)
+  return HasPassive('PactOfTheChain',context.Source) & HasPassive('CL_ThirstingBlade_Chain',context.Source)
+end
+
+function CL_WarlockSpellSlotsExpended(entity)
+  local entity = entity or context.Source
+  local result = (~HasActionResource('WarlockSpellSlot', 1, 1, false, false, entity) & ~ClassLevelHigherOrEqualThan(3,'Warlock')) 
+  | (~HasActionResource('WarlockSpellSlot', 1, 2, false, false, entity) & ClassLevelHigherOrEqualThan(3,'Warlock') & ~ClassLevelHigherOrEqualThan(5,'Warlock')) 
+  | (~HasActionResource('WarlockSpellSlot', 1, 3, false, false, entity) & ClassLevelHigherOrEqualThan(5,'Warlock') & ~ClassLevelHigherOrEqualThan(7,'Warlock')) 
+  | (~HasActionResource('WarlockSpellSlot', 1, 4, false, false, entity) & ClassLevelHigherOrEqualThan(7,'Warlock') & ~ClassLevelHigherOrEqualThan(9,'Warlock')) 
+  | (~HasActionResource('WarlockSpellSlot', 1, 5, false, false, entity) & ClassLevelHigherOrEqualThan(9,'Warlock'))
+  return ConditionResult(result.Result, {ConditionError("CL_ConditionError_WarlockSpellSlotsExpended_False")})
 end

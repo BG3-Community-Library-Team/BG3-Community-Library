@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="4" revision="0" build="300"/>
+    <region id="TooltipExtraTexts">
+        <node id="root">
+            <children>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Warlock OneDnD Magical Cunning Warning"/>
+                    <attribute id="Text" type="TranslatedString" handle="hb5964197g407eg4b94ga512g1ebc7258729c" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-7737-0100-c01200000003"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

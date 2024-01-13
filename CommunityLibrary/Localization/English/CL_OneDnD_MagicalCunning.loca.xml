@@ -1,4 +1,10 @@
 <contentList>
   <content contentuid="he3994e0age8a9g4a2aga110gbd18834d2a86" version="1">Magical Cunning</content>
-  <content contentuid="h937f0745ge0c7g4551g92b6g296afa8d73a1" version="1">If you have expended all of your Warlock &lt;LSTag Tooltip="SpellSlot"&gt;spell slots&lt;/LSTag&gt;, you can perform an esoteric rite when out of combat to replenish half of those spell slots.</content>
+  <content contentuid="h937f0745ge0c7g4551g92b6g296afa8d73a1" version="1">Replenish half of your expended &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; (rounded up) while out of combat. If you are an &lt;LSTag Type="Passive" Tooltip="CL_Passive_OneDnD_EldritchMaster"&gt;Eldritch Master&lt;/LSTag&gt;, replenish all of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; instead.</content>
+
+  <content contentuid="hdaccd32fg87aeg485cgb693g4798f117dab1" version="1">Eldritch Master</content>
+  <content contentuid="h2f3a6fcdgcd22g4a11ga776g220c277183c5" version="1">When you use your &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_MagicalCunning"&gt;Magical Cunning feature&lt;/LSTag&gt;, you replenish all of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt;.</content>
+
+  <content contentuid="h3447775cga1e3g40cdgbec2g82df09b818fd" version="1">All &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; must be expended.</content>
+  <content contentuid="hb5964197g407eg4b94ga512g1ebc7258729c" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt;All &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt; must be expended.</content>
 </contentList>

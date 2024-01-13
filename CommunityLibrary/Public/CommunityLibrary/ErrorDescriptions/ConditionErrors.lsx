@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3447775cga1e3g40cdgbec2g82df09b818fd" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CL_ConditionError_WarlockSpellSlotsExpended_False"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-cedd-0100-c01200000003"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
