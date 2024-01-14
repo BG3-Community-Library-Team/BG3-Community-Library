@@ -1,0 +1,5 @@
+new entry "CL_Passive_OneDnD_Healer"
+type "PassiveData"
+data "DisplayName" "h49827961g5a44g4244gb769gfa30da597d1f;1"
+data "Description" "hd259b262gcca5g42b2g91b7gaa9fe50c9754;1"
+data "Icon" "GenericIcon_Intent_Healing"

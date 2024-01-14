@@ -1,0 +1,7 @@
+new entry "CL_Passive_OneDnD_SavageAttacker"
+type "PassiveData"
+data "DisplayName" "hbd85a616g60e3g4bc2ga7e3g1e5cec464997;2"
+data "Description" "h54cff516gccacg4efagb371gd6ac9e923a9e;3"
+data "Icon" "PassiveFeature_SavageAttacker"
+data "Properties" "Highlighted"
+data "Boosts" "Reroll(MeleeWeaponDamage,20,false);"

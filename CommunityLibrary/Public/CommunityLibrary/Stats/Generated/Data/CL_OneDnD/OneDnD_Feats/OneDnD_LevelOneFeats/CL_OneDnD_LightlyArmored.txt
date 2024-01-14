@@ -1,0 +1,8 @@
+new entry "CL_Passive_OneDnD_Feat_LightlyArmored"
+type "PassiveData"
+data "DisplayName" "h866b6355g682cg4415g8048gd8097dde30a6;2"
+data "Description" "h020e212egc2b3g4b72gaa7agef08845b1d20;1"
+data "Icon" "PassiveFeature_LightlyArmored"
+data "Properties" "Highlighted"
+data "Boosts" "Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields)"
+

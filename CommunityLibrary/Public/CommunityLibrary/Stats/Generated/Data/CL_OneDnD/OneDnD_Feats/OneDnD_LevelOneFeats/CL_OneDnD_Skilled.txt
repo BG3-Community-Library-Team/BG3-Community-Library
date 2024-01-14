@@ -1,0 +1,6 @@
+new entry "CL_Passive_OneDnD_Skilled"
+type "PassiveData"
+data "DisplayName" "hd253c6dbg39bcg4c09gae1cg78f199386ec1;1"
+data "Description" "h4afb2c86ge284g44beg816dg4d25bd7f992d;1"
+data "Icon" "PassiveFeature_Skilled"
+data "Properties" "Highlighted"

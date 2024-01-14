@@ -1,0 +1,6 @@
+new entry "CL_Passive_OneDnD_Musician"
+type "PassiveData"
+data "DisplayName" "h640b385bgff3cg4c9dg91e8g48fde2787cfd;1"
+data "Description" "h91107723g23ffg4740gaadfgf9c58e801ade;1"
+data "Properties" "IsHidden"
+data "Boosts" "Proficiency(MusicalInstrument);UnlockSpell(CL_Shout_Doot)"

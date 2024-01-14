@@ -1,0 +1,8 @@
+new entry "CL_Passive_OneDnD_Feat_Alert"
+type "PassiveData"
+data "DisplayName" "hcccd66efg761eg427cg9121g37cf43267b0f;2"
+data "Description" "h4bccaad4gb27bg4547gb506g16f35e47b130;5"
+data "DescriptionParams" "ProficiencyBonus"
+data "Icon" "PassiveFeature_Generic_Threat"
+data "Properties" "Highlighted"
+data "Boosts" "Initiative(ProficiencyBonus);StatusImmunity(SURPRISED)"

@@ -1,0 +1,8 @@
+new entry "CL_Passive_OneDnD_Tough"
+type "PassiveData"
+data "DisplayName" "h4b77813cgf03cg457cgb88egcf7141dd03e3;2"
+data "Description" "h815519e2g1a74g4015g96bdg2527961ede2b;2"
+data "DescriptionParams" "Level*2"
+data "Icon" "PassiveFeature_Tough"
+data "Properties" "Highlighted"
+data "Boosts" "IncreaseMaxHP(Level*2)"
