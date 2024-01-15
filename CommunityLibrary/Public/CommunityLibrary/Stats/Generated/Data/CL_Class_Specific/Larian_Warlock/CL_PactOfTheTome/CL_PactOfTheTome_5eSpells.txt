@@ -1,0 +1,199 @@
+new entry "CL_Passive_PactOfTheTome_Projectile_MagicStone"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Projectile_MagicStone,context.Source)"
+data "Boosts" "UnlockSpell(Projectile_MagicStone,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Shout_Druidcraft"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Shout_Druidcraft,context.Source)"
+data "Boosts" "UnlockSpell(Shout_Druidcraft,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Shout_SwordBurst"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Shout_SwordBurst,context.Source)"
+data "Boosts" "UnlockSpell(Shout_SwordBurst,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Shout_Thunderclap"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Shout_Thunderclap,context.Source)"
+data "Boosts" "UnlockSpell(Shout_Thunderclap,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Shout_WordOfRadiance"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Shout_WordOfRadiance,context.Source)"
+data "Boosts" "UnlockSpell(Shout_WordOfRadiance,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_BoomingBlade"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_BoomingBlade,context.Source)"
+data "Boosts" "UnlockSpell(Target_BoomingBlade,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_ControlFlames"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_ControlFlames,context.Source)"
+data "Boosts" "UnlockSpell(Target_ControlFlames,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_CreateBonfire"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_CreateBonfire,context.Source)"
+data "Boosts" "UnlockSpell(Target_CreateBonfire,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_Frostbite"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_Frostbite,context.Source)"
+data "Boosts" "UnlockSpell(Target_Frostbite,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_GreenFlameBlade"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_GreenFlameBlade,context.Source)"
+data "Boosts" "UnlockSpell(Target_GreenFlameBlade,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_Gust"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_Gust,context.Source)"
+data "Boosts" "UnlockSpell(Target_Gust,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_LightningLure"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_LightningLure,context.Source)"
+data "Boosts" "UnlockSpell(Target_LightningLure,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_MagicStone"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_MagicStone,context.Source)"
+data "Boosts" "UnlockSpell(Target_MagicStone,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_MindSliver"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_MindSliver,context.Source)"
+data "Boosts" "UnlockSpell(Target_MindSliver,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_MoldEarth"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_MoldEarth,context.Source)"
+data "Boosts" "UnlockSpell(Target_MoldEarth,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_Prestidigitation"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_Prestidigitation,context.Source)"
+data "Boosts" "UnlockSpell(Target_Prestidigitation,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_PrimalSavagery"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_PrimalSavagery,context.Source)"
+data "Boosts" "UnlockSpell(Target_PrimalSavagery,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_ShapeWater"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_ShapeWater,context.Source)"
+data "Boosts" "UnlockSpell(Target_ShapeWater,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_SpareTheDying"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_SpareTheDying,context.Source)"
+data "Boosts" "UnlockSpell(Target_SpareTheDying,,,,SpellCastingAbilityModifier)"
+
+
+new entry "CL_Passive_PactOfTheTome_Target_TollTheDead"
+type "PassiveData"
+data "DisplayName" ";1"
+data "Description" ";1"
+data "Icon" ""
+data "Properties" "IsHidden"
+data "BoostConditions" "HasStatus('CL_Status_PactOfTheTome_Target_TollTheDead,context.Source)"
+data "Boosts" "UnlockSpell(Target_TollTheDead,,,,SpellCastingAbilityModifier)"
+
