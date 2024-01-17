@@ -306,3 +306,23 @@ function CL_WarlockSpellSlotsExpended(entity)
   | (~HasActionResource('WarlockSpellSlot', 1, 5, false, false, entity) & ClassLevelHigherOrEqualThan(9,'Warlock'))
   return ConditionResult(result.Result, {ConditionError("CL_ConditionError_WarlockSpellSlotsExpended_False")})
 end
+
+function CL_HasLightArmor(entity)
+    entity = entity or context.Target
+    local armor = GetActiveArmor(entity)
+    local hasLightArmor = armor.ArmorType == ArmorType.Padded 
+    | armor.ArmorType == ArmorType.Leather 
+    | armor.ArmorType == ArmorType.StuddedLeather
+    return ConditionResult(hasLightArmor)
+end
+
+function CL_HasMediumArmor(entity)
+    entity = entity or context.Target
+    local armor = GetActiveArmor(entity)
+    local hasMediumArmor = armor.ArmorType == ArmorType.Hide 
+    | armor.ArmorType == ArmorType.ChainShirt 
+    | armor.ArmorType == ArmorType.ScaleMail 
+    | armor.ArmorType == ArmorType.BreastPlate
+    | armor.ArmorType == ArmorType.HalfPlate   
+    return ConditionResult(hasMediumArmor)
+end
