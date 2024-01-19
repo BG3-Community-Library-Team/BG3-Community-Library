@@ -7,3 +7,4 @@ data "SpellProperties" "SummonInInventory(b00f92f9-3160-4adc-a278-b8c7bffd8ee9,P
 data "Icon" "Action_Perform_Violin"
 data "DisplayName" "hcfbdceedgfcd4g47e6g9172gb3af17a47bf6"
 data "Description" "h504c7480gd0d2g443bg93ffg9f7daf5d7ae7"
+data "PreviewEffect" "5362da57-ed21-4bbd-afe6-e90ebcd02507"
