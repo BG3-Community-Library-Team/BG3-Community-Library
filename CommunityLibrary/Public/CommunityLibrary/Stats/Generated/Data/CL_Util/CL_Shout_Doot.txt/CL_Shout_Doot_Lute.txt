@@ -7,3 +7,4 @@ data "SpellProperties" "SummonInInventory(52b62c96-2ec2-4759-92b4-2fabb04c0eb0,P
 data "Icon" "Action_Perform_Lute"
 data "DisplayName" "hca73b951g41a9g4022gbf86gaa1dbbcf442a"
 data "Description" "h7df4122dgc0f8g4103g8898gc2358214de92"
+data "PreviewEffect" "542e75f4-57bc-436e-81aa-902a4d6f61c9"
