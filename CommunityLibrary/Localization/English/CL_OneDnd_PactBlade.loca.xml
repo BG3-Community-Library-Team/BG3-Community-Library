@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="hd8d71343g6d98g4099g8a53g093b6242d2d5" version="1">Bind Pact Weapon: Melee Main Hand</content>
+	<content contentuid="h43d73aebg49c0g4159g8735gda570350149a" version="1">Bind Pact Weapon: Ranged Main Hand</content>
+	<content contentuid="h3a3621e2g0e6dg4b18gb401g380c5da4bb04" version="1">Bind Pact Weapon: Melee Off Hand</content>
+	<content contentuid="h6e1f3b08g9338g4194gb79egdb574add28ff" version="1">Bind Pact Weapon: Ranged Off Hand</content>
+	<content contentuid="he9e44a3eg7f4ag41b9gb857g97f69f21e401" version="1">Bind Pact Weapon: Dismiss</content>
+	<content contentuid="hd6ae785ag6f2fg4173g9319gdf789b24385f" version="1">Bind Pact Toggle: Melee Main Hand</content>
+	<content contentuid="h5a6b2e55g2decg4478gbac1g6abc143d88b1" version="1">Bind Pact Toggle: Ranged Main Hand</content>
+	<content contentuid="h0467fa81gf86fg4ef5gb72bgb3e14efe3362" version="1">Bind Pact Toggle: Melee Off Hand</content>
+	<content contentuid="hc6dd4c2dg8a5fg4fd9gb1bdga42f621e1658" version="1">Bind Pact Toggle: Ranged Off Hand</content>
+	<content contentuid="h983e72deg4e0cg4ac8g80d0g03146a5a2e83" version="1">The warlock bound to this weapon is always &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with it. The weapon deals[1] instead of its regular damage.</content>
+	<content contentuid="he9ed94abg0148g48d9g8e7egcfa402c8e040" version="1">Bind to your melee main hand weapon. Its damage becomes magical and you may have it deal[1],[2] or[3] instead of its regular damage.</content>
+	<content contentuid="h08226d83g061ag4521gb627g74a3f013fc52" version="1">Bind to your ranged main hand weapon. Its damage becomes magical and you may have it deal[1],[2] or[3] instead of its regular damage.</content>
+	<content contentuid="hf5bd604cg0662g4c2fgad66g4bbc4115959c" version="1">Bind to your melee off hand weapon. Its damage becomes magical and you may have it deal[1],[2] or[3] instead of its regular damage.</content>
+	<content contentuid="he8e06849ge21ag4734g9282g79f8f80b1591" version="1">Bind to your ranged off hand weapon. Its damage becomes magical and you may have it deal[1],[2] or[3] instead of its regular damage.</content>
+	<content contentuid="h47a84058g47abg44b4gb33agd30875eae28e" version="1">On equip:&lt;br&gt;While not in combat automatically bind to weapons you equip.</content>
+	<content contentuid="h8f70b516g19ebg47f2g8cbagda7df0f2e370" version="1">Attacks with your pact weapon deal[1].</content>
+	<content contentuid="hba6e2a96gcefbg431agb604g02c9d84e1d46" version="1">Bind to your weapon. Its damage becomes magical and you may have it deal[1], [2] or[3] instead of its regular damage. You cannot drop or throw it, and you become &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficient&lt;/LSTag&gt; with it if you weren't already.</content>
+	<content contentuid="hbfedf3c8gc2ebg4ccagb222g605b2fe383f1" version="1">Pact Weapon: Necrotic</content>
+	<content contentuid="ha378d7b5g1870g4350ga61bg3ffcf601e034" version="1">Pact Weapon: Psychic</content>
+	<content contentuid="hac917788g7986g44f6g802aga22564ddff40" version="1">Pact Weapon: Radiant</content>
+	<content contentuid="hc174c0dbg30bdg41e4g8c8cge54257c4584e" version="1">You can only have 1 pact weapon at any time.</content>
+	<content contentuid="h3c811d7bg3666g4dcfg9791gdd37d82a72c7" version="1">Release the bond to your weapon.</content>
+	<content contentuid="hd3e167a8g16fag4658g964bg85d209e6f04b" version="1">No melee weapon equipped.&lt;br&gt;</content>
+	<content contentuid="h49da39e7gcac2g435agbfd7g81138ace47b1" version="1">No ranged weapon equipped.&lt;br&gt;</content>
+	<content contentuid="hef7dd7fbgfff5g4882g8f59g6eacf657cb89" version="1">No off-hand weapon equipped.&lt;br&gt;</content>
+</contentList>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="IconUVList"> 
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Ranged"/>
+                    <attribute id="U1" type="float" value="0.0"/> L
+                    <attribute id="U2" type="float" value="0.25"/> R
+                    <attribute id="V1" type="float" value="0.0"/> T
+                    <attribute id="V2" type="float" value="0.25"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Ranged_Offhand"/>
+                    <attribute id="U1" type="float" value="0.25"/> L
+                    <attribute id="U2" type="float" value="0.5"/> R
+                    <attribute id="V1" type="float" value="0.0"/> T
+                    <attribute id="V2" type="float" value="0.25"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Melee_Offhand"/>
+                    <attribute id="U1" type="float" value="0.0"/> L
+                    <attribute id="U2" type="float" value="0.25"/> R
+                    <attribute id="V1" type="float" value="0.25"/> T
+                    <attribute id="V2" type="float" value="0.5"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.25"/> L
+                    <attribute id="U2" type="float" value="0.5"/> R
+                    <attribute id="V1" type="float" value="0.25"/> T
+                    <attribute id="V2" type="float" value="0.5"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Ranged_Toggle"/>
+                    <attribute id="U1" type="float" value="0.5"/> L
+                    <attribute id="U2" type="float" value="0.75"/> R
+                    <attribute id="V1" type="float" value="0.0"/> T
+                    <attribute id="V2" type="float" value="0.25"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Ranged_Offhand_Toggle"/>
+                    <attribute id="U1" type="float" value="0.75"/> L
+                    <attribute id="U2" type="float" value="1.0"/> R
+                    <attribute id="V1" type="float" value="0.0"/> T
+                    <attribute id="V2" type="float" value="0.25"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Melee_Offhand_Toggle"/>
+                    <attribute id="U1" type="float" value="0.5"/> L
+                    <attribute id="U2" type="float" value="0.75"/> R
+                    <attribute id="V1" type="float" value="0.25"/> T
+                    <attribute id="V2" type="float" value="0.5"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Melee_Toggle"/>
+                    <attribute id="U1" type="float" value="0.75"/> L
+                    <attribute id="U2" type="float" value="1.0"/> R
+                    <attribute id="V1" type="float" value="0.25"/> T
+                    <attribute id="V2" type="float" value="0.5"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Necrotic_Toggle"/>
+                    <attribute id="U1" type="float" value="0.0"/> L
+                    <attribute id="U2" type="float" value="0.25"/> R
+                    <attribute id="V1" type="float" value="0.5"/> T
+                    <attribute id="V2" type="float" value="0.75"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Psychic_Toggle"/>
+                    <attribute id="U1" type="float" value="0.25"/> L
+                    <attribute id="U2" type="float" value="0.5"/> R
+                    <attribute id="V1" type="float" value="0.5"/> T
+                    <attribute id="V2" type="float" value="0.75"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="CL_OneDnd_PactWeapon_Radiant_Toggle"/>
+                    <attribute id="U1" type="float" value="0.0"/> L
+                    <attribute id="U2" type="float" value="0.25"/> R
+                    <attribute id="V1" type="float" value="0.75"/> T
+                    <attribute id="V2" type="float" value="1.0"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.25"/> L
+                    <attribute id="U2" type="float" value="0.5"/> R
+                    <attribute id="V1" type="float" value="0.75"/> T
+                    <attribute id="V2" type="float" value="1.0"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.5"/> L
+                    <attribute id="U2" type="float" value="0.75"/> R
+                    <attribute id="V1" type="float" value="0.5"/> T
+                    <attribute id="V2" type="float" value="0.75"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.75"/> L
+                    <attribute id="U2" type="float" value="1.0"/> R
+                    <attribute id="V1" type="float" value="0.0"/> T
+                    <attribute id="V2" type="float" value="0.75"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.5"/> L
+                    <attribute id="U2" type="float" value="0.75"/> R
+                    <attribute id="V1" type="float" value="0.75"/> T
+                    <attribute id="V2" type="float" value="1.0"/> B
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="U1" type="float" value="0.75"/> L
+                    <attribute id="U2" type="float" value="1.0"/> R
+                    <attribute id="V1" type="float" value="0.75"/> T
+                    <attribute id="V2" type="float" value="1.0"/> B
+                </node>
+			</children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+		<node id="root">
+			<children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="64"/>
+                    <attribute id="Width" type="int32" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/CL_Icons_OneDnd_PactBlade.dds"/>
+                    <attribute id="UUID" type="FixedString" value="b664dd4d-80e4-4224-aee0-10c60f782bd5"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="256"/>
+                    <attribute id="Width" type="int32" value="256"/>
+                </node>
+            </children>
+        </node>
+    </region>		  				
+</save>
