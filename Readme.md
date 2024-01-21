@@ -87,3 +87,13 @@ Installations. BG3 Mod Managers is by far the simplest method, and as such is re
 - [ShinyHobo](https://github.com/ShinyHobo) for their work easing the process of
 creating .pak files
 - Alana for the creation of the Mod Manager Compatibility Images
+
+## Credits for External Content Used
+- Game-Icons.net for The following Icons, granted under [CC 3.0](https://creativecommons.org/licenses/by/3.0/)
+  - Alter Weapon
+  - Alter Weapon: Enflame
+  - Alter Weapon: Healing Strike
+  - Alter Weapon: Static Bite (Slight Modifications)
+  - Alter Weapon: Screaming Cleave
+  - Alter Weapon: Swift Strike
+  - Alter Weapon: Vicious Tear
