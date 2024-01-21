@@ -1,7 +1,7 @@
 new entry "CL_Target_FrenzyingTouch"
 type "SpellData"
 data "SpellType" "Target"
-data "Icon" "Spell_Evocation_ShockingGrasp"
+data "Icon" "CL_Icons_FrenzyingTouch"
 data "Level" "2"
 data "SpellSchool" "Illusion"
 data "DisplayName" "h96c88250g675fg49d1ga366g0c2e9dfa7e3f"
