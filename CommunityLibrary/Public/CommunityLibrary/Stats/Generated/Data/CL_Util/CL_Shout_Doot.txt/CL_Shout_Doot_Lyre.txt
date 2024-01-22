@@ -7,3 +7,4 @@ data "SpellProperties" "SummonInInventory(6518ba8b-d0d2-4db5-bf63-339e22eefbd2,P
 data "Icon" "Action_Perform_Lyre"
 data "DisplayName" "hea2fd679gb8f5g474cgb34dg7c22bf7ff27f"
 data "Description" "h6cc10b60gabb6g4ccfga866gd31e4653787d"
+data "PreviewEffect" "024e106f-30fb-43c3-ad99-f00ef4b433c2"

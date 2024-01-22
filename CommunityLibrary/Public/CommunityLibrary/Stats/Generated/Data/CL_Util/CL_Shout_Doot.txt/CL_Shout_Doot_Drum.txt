@@ -7,3 +7,4 @@ data "SpellProperties" "SummonInInventory(c32792a8-72bb-415f-9bbd-b0d5aa97a43a,P
 data "Icon" "Action_Perform_Drum"
 data "DisplayName" "hcacffa4bg58dfg4a01g90b8g657a0cb7bd40"
 data "Description" "h8a059456g07a6g4b18ga3dag6ce609973408"
+data "PreviewEffect" "f2d917db-9228-42aa-981d-2c7635ee6cc6"

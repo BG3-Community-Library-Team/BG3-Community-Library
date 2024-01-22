@@ -15,6 +15,17 @@
 					<attribute id="Type" type="int64" value="0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="c9162fed-72d9-4e1c-9387-0b8d3a88db47" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Icons_CommunityLibrary_Spells" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Textures/Icons/Icons_CommunityLibrary_Spells.dds" /> 
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int64" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+				</node>
 			</children>
 		</node>
 	</region>
