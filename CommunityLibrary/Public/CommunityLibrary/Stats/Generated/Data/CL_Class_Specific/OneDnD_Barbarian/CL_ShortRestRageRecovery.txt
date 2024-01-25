@@ -1,0 +1,13 @@
+new entry "CL_Passive_OneDnD_ShortRestRageRecovery"
+type "PassiveData"
+data "DisplayName" "h9a045badg24cag489bg9d6bg6014e7b4f032;1"
+data "Description" "h8def66aegfe9eg460fgb0c8ga311484f0fa0;1"
+data "Icon" "PassiveFeature_Generic_WildAnimal"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnShortRest"
+data "StatsFunctors" "RestoreResource(SELF,Rage,1,0)"
+
+
+
+
+
