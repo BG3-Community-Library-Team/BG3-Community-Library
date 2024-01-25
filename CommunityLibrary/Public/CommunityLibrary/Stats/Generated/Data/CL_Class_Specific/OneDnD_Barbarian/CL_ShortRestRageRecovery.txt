@@ -6,8 +6,3 @@ data "Icon" "PassiveFeature_Generic_WildAnimal"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnShortRest"
 data "StatsFunctors" "RestoreResource(SELF,Rage,1,0)"
-
-
-
-
-
