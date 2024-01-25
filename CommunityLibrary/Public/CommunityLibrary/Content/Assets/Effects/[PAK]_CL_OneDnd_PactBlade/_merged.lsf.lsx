@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_PSY" />
+					<attribute id="ID" type="FixedString" value="f0b8dba2-de61-490d-84c2-796255265c26" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_PSY.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3688ab3f-6f7f-45c0-8030-e1f6e296e43c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="acc2268e-356f-4123-8871-2e9b73db5f69" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1497fa2-fc57-4ef4-bd35-c62d29f9ddb2" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_PSY" />
+					<attribute id="ID" type="FixedString" value="5f14f194-556f-4804-8088-4c12f9831e20" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_PSY.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3f46bd89-904a-496d-b570-3cf8046153d2" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="acc2268e-356f-4123-8871-2e9b73db5f69" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1497fa2-fc57-4ef4-bd35-c62d29f9ddb2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_LargeHammers_PSY" />
+					<attribute id="ID" type="FixedString" value="e75fb131-48ac-b083-34c5-017e2e3a7eec" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_LargeHammers_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_LargeHammers_PSY.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="66735eda-3e1f-4554-9628-898b39724ec7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="acc2268e-356f-4123-8871-2e9b73db5f69" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1497fa2-fc57-4ef4-bd35-c62d29f9ddb2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_PSY" />
+					<attribute id="ID" type="FixedString" value="50dea18b-58e8-4af9-af19-9caf2b987ce6" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_PSY.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30fb5408-48fc-4950-9b16-4cae8e124483" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="acc2268e-356f-4123-8871-2e9b73db5f69" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1497fa2-fc57-4ef4-bd35-c62d29f9ddb2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_LongerSwords_PSY" />
+					<attribute id="ID" type="FixedString" value="e9d81f36-927e-4cf9-9a99-78273b9a4585" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_LongerSwords_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_LongerSwords_PSY.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="27883005-c852-42b2-8a1a-27ef517f90d1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="acc2268e-356f-4123-8871-2e9b73db5f69" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1497fa2-fc57-4ef4-bd35-c62d29f9ddb2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Bows_CrossBows_PSY" />
+					<attribute id="ID" type="FixedString" value="c00e13bd-b6e3-466a-93c1-8b3eac806aa7" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Bows_CrossBows_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Bows_CrossBows_PSY.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="92d37e10-51de-4535-8278-13d90aa82489" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="acc2268e-356f-4123-8871-2e9b73db5f69" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1497fa2-fc57-4ef4-bd35-c62d29f9ddb2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_RAD" />
+					<attribute id="ID" type="FixedString" value="94baed5d-aecb-442c-acc3-18cd86864e9b" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a6c2e835-1a35-4041-ad0c-ca61443c78d1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a11e11e6-5e6d-4bac-935a-f0c593bb0e29" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1a7b01-222f-4275-9734-67554d9079f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_RAD" />
+					<attribute id="ID" type="FixedString" value="de0fcfb3-0031-46ce-8453-06fc417b5830" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="51d5fe71-27d9-4407-a858-35113ad2eb9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a11e11e6-5e6d-4bac-935a-f0c593bb0e29" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1a7b01-222f-4275-9734-67554d9079f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_LargeHammers_RAD" />
+					<attribute id="ID" type="FixedString" value="77a84a21-fea2-4642-bf35-7b8c7a9b6b14" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_LargeHammers_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_LargeHammers_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ad4d7409-d0e5-4de8-87b0-f012247aebdc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a11e11e6-5e6d-4bac-935a-f0c593bb0e29" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1a7b01-222f-4275-9734-67554d9079f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_RAD" />
+					<attribute id="ID" type="FixedString" value="c3cea87e-21b1-462e-bd59-9f536c08d8df" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0484613f-d11b-401b-9376-3931ed19c593" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a11e11e6-5e6d-4bac-935a-f0c593bb0e29" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1a7b01-222f-4275-9734-67554d9079f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_LongerSwords_RAD" />
+					<attribute id="ID" type="FixedString" value="cc7b5320-d0d6-41d8-bc9f-55b8a2bb156f" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_LongerSwords_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_LongerSwords_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ca348942-8338-4ee3-8f59-4cb14dd350e9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a11e11e6-5e6d-4bac-935a-f0c593bb0e29" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1a7b01-222f-4275-9734-67554d9079f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Bows_CrossBows_RAD" />
+					<attribute id="ID" type="FixedString" value="8b105097-8049-4c55-99b8-a1d59807f806" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Bows_CrossBows_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Bows_CrossBows_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d9d22cb2-ce40-4038-9f89-07dd88aed71f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a11e11e6-5e6d-4bac-935a-f0c593bb0e29" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1a7b01-222f-4275-9734-67554d9079f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_NEC" />
+					<attribute id="ID" type="FixedString" value="daf17dfc-23ba-4d2f-b50e-3d3c1bf6ed3b" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_NEC" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Dagger_LightHammer_NEC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5097b9b6-4932-4d13-af19-c9255b6ed8ea" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3e5264fb-6b87-53f8-939f-0c27f8bed7d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7eeb570d-73ba-dcf5-ea9f-066245ad189c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_NEC" />
+					<attribute id="ID" type="FixedString" value="00ffa706-f69c-4b76-a97f-77f58a4f8fc1" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_NEC" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_NEC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="17df1926-91e4-40bf-9466-0968f714048d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3e5264fb-6b87-53f8-939f-0c27f8bed7d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7eeb570d-73ba-dcf5-ea9f-066245ad189c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_LargeHammers_NEC" />
+					<attribute id="ID" type="FixedString" value="bf8bb6a3-5fb8-460d-8bfa-23ab008e92d1" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_LargeHammers_NEC" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_LargeHammers_NEC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f5e679ce-892d-43da-96a3-28b567c34857" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3e5264fb-6b87-53f8-939f-0c27f8bed7d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7eeb570d-73ba-dcf5-ea9f-066245ad189c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_NEC" />
+					<attribute id="ID" type="FixedString" value="3144cb8c-2037-46d0-befd-2a980b9e5cc5" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_NEC" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Spears_Quarterstaff_NEC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="410b5392-24b2-4004-89f6-9bb622dd5ce1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3e5264fb-6b87-53f8-939f-0c27f8bed7d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7eeb570d-73ba-dcf5-ea9f-066245ad189c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_LongerSwords_NEC" />
+					<attribute id="ID" type="FixedString" value="d7284b84-1d2d-436a-b253-03241897e039" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_LongerSwords_NEC" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_LongerSwords_NEC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="63704e19-673a-4bf9-98b7-a68a34cef4b7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3e5264fb-6b87-53f8-939f-0c27f8bed7d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7eeb570d-73ba-dcf5-ea9f-066245ad189c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Bows_CrossBows_NEC" />
+					<attribute id="ID" type="FixedString" value="0582be23-71aa-4582-8727-4e8ba4a949e4" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Bows_CrossBows_NEC" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Bows_CrossBows_NEC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="49a642e6-c135-437c-83f7-8c40eca4d8a4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3e5264fb-6b87-53f8-939f-0c27f8bed7d7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7eeb570d-73ba-dcf5-ea9f-066245ad189c" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

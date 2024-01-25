@@ -10,6 +10,30 @@
                     <attribute id="Identifier" type="FixedString" value="CL_ConditionError_WarlockSpellSlotsExpended_False"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-cedd-0100-c01200000003"/>
                 </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd3e167a8g16fag4658g964bg85d209e6f04b" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CL_ConditionError_HasWeaponInMeleeMainHand_False"/>
+                    <attribute id="UUID" type="guid" value="d96f66d6-f2e6-4db1-8010-0175ea812b8d"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h49da39e7gcac2g435agbfd7g81138ace47b1" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CL_ConditionError_HasWeaponInRangedMainHand_False"/>
+                    <attribute id="UUID" type="guid" value="e8191a6f-7b1c-4f5d-a30f-514839ff3d39"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hef7dd7fbgfff5g4882g8f59g6eacf657cb89" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CL_ConditionError_HasWeaponInMeleeOffHand_False"/>
+                    <attribute id="UUID" type="guid" value="5a7d6032-24c3-4ad4-83c6-ba194cc08fe9"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hef7dd7fbgfff5g4882g8f59g6eacf657cb89" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CL_ConditionError_HasWeaponInRangedOffHand_False"/>
+                    <attribute id="UUID" type="guid" value="e8191a6f-7b1c-4f5d-a30f-514839ff3d39"/>
+                </node>
             </children>
         </node>
     </region>

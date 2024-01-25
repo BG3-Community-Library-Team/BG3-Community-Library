@@ -326,3 +326,23 @@ function CL_HasMediumArmor(entity)
     | armor.ArmorType == ArmorType.HalfPlate   
     return ConditionResult(hasMediumArmor)
 end
+
+function CL_HasWeaponInMeleeMainHand()
+    result = WieldingWeapon('Melee',false,true,context.Source)
+    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInMeleeMainHand_False")})
+end
+
+function CL_HasWeaponInRangedMainHand()
+    result = WieldingWeapon('Ammunition',false,true,context.Source)
+    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInRangedMainHand_False")})
+end
+
+function CL_HasWeaponInMeleeOffHand()
+    result = WieldingWeapon('Melee',true,true,context.Source)
+    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInMeleeOffHand_False")})
+end
+
+function CL_HasWeaponInRangedOffHand()
+    result = WieldingWeapon('Ammunition',true,true,context.Source)
+    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInRangedOffHand_False")})
+end
