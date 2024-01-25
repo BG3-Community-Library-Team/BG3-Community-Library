@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Comment" type="LSString" value="Character Scale" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_CharacterScale_Multiplier_75_Percent, CL_Passive_CharacterScale_Multiplier_80_Percent, CL_Passive_CharacterScale_Multiplier_85_Percent, CL_Passive_CharacterScale_Multiplier_90_Percent, CL_Passive_CharacterScale_Multiplier_95_Percent, CL_Passive_CharacterScale_Multiplier_100_Percent, CL_Passive_CharacterScale_Multiplier_105_Percent, CL_Passive_CharacterScale_Multiplier_110_Percent, CL_Passive_CharacterScale_Multiplier_115_Percent, CL_Passive_CharacterScale_Multiplier_120_Percent, CL_Passive_CharacterScale_Multiplier_125_Percent" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-0000-1157-0000-c11a125ca1ed" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

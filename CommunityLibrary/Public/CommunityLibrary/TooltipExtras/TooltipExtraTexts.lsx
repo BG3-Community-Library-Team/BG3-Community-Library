@@ -9,6 +9,11 @@
                     <attribute id="Text" type="TranslatedString" handle="hb5964197g407eg4b94ga512g1ebc7258729c" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-7737-0100-c01200000003"/>
                 </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Character Scale Warning"/>
+                    <attribute id="Text" type="TranslatedString" handle="h777cd9afg6335g406dg95dbgc5c8c3c0641f" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-0000-7737-0000-c11a125ca1ed"/>
+                </node>
             </children>
         </node>
     </region>
