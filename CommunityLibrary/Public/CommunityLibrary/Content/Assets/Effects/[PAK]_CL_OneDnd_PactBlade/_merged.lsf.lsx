@@ -40,12 +40,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="3" />
-					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShortSword_PSY" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_PSY" />
 					<attribute id="ID" type="FixedString" value="5f14f194-556f-4804-8088-4c12f9831e20" />
 					<attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShortSword_PSY" />
-					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShortSword_PSY.lsfx" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_PSY" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_PSY.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="Dependencies">
@@ -226,12 +226,12 @@
 					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShortSword_RAD" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_RAD" />
 					<attribute id="ID" type="FixedString" value="de0fcfb3-0031-46ce-8453-06fc417b5830" />
 					<attribute id="InterruptionMode" type="uint32" value="2" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShortSword_RAD" />
-					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShortSword_RAD.lsfx" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_RAD" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_RAD.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
 					<children>
 						<node id="Dependencies">
@@ -415,13 +415,13 @@
 					<attribute id="Center" type="fvec3" value="0 0 0" />
 					<attribute id="CullingDistance" type="float" value="30" />
 					<attribute id="Duration" type="float" value="2.5" />
-					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShortSword_NEC" />
+					<attribute id="EffectName" type="FixedString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_NEC" />
 					<attribute id="ID" type="FixedString" value="00ffa706-f69c-4b76-a97f-77f58a4f8fc1" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShortSword_NEC" />
+					<attribute id="Name" type="LSString" value="CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_NEC" />
 					<attribute id="Radius" type="float" value="2" />
-					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShortSword_NEC.lsfx" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Effects/Effects_Banks/Status/CL_VFX_OneDnd_PactBlade_Axes_ShorterSword_NEC.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
 					<children>
 						<node id="Dependencies">
