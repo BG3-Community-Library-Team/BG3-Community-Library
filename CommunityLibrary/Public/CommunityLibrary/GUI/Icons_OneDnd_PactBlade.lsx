@@ -127,7 +127,7 @@
                     <attribute id="Width" type="int32" value="64"/>
                 </node>
                 <node id="TextureAtlasPath">
-                    <attribute id="Path" type="string" value="Assets/Textures/Icons/CL_Icons_OneDnd_PactBlade.dds"/>
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/Icons_OneDnd_PactBlade.dds"/>
                     <attribute id="UUID" type="FixedString" value="b664dd4d-80e4-4224-aee0-10c60f782bd5"/>
                 </node>
                 <node id="TextureAtlasTextureSize">
