@@ -1,3 +1,4 @@
+// TODO: Fix SubAbilities
 new entry "CL_Target_AlterWeapon"
 type "SpellData"
 data "SpellType" "Target"
