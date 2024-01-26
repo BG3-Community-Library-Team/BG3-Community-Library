@@ -39,7 +39,6 @@ data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;c0513845-6e0e-4
 data "SpellFlags" "HasSomaticComponent;Temporary"
 data "FollowUpOriginalSpell" "CL_Shout_LightningShield"
 
-// TODO: the used status effect doesn't seem to display. Need to find something for this.
 new entry "CL_STATUS_LIGHTNINGSHIELD"
 type "StatusData"
 data "StatusType" "BOOST"

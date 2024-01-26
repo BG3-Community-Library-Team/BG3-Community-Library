@@ -1,4 +1,3 @@
-// TODO: Review Animations - Too green. Something more ice-related or snow-related would be better. Also don't need the rotating shields. 
 new entry "CL_Shout_FrostBarrier"
 type "SpellData"
 data "SpellType" "Shout"
@@ -37,7 +36,6 @@ data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;c0513845-6e0e-4
 data "SpellFlags" "HasSomaticComponent;Temporary"
 data "FollowUpOriginalSpell" "CL_Shout_FrostBarrier"
 
-// TODO: MageArmor status effect doesn't really showase what we're looking for here
 new entry "CL_STATUS_FROSTSHIELD"
 type "StatusData"
 data "StatusType" "BOOST"
