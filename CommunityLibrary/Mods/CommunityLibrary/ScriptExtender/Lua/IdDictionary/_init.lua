@@ -81,3 +81,6 @@ Ext.Require("IdDictionary/StaticData/Progressions/NPCs/Origins/Shadowheart.lua")
 Ext.Require("IdDictionary/StaticData/Progressions/NPCs/Origins/Wyll.lua")
 Ext.Require("IdDictionary/StaticData/Progressions/NPCs/Misc.lua")
 Ext.Require("IdDictionary/StaticData/Progressions/Misc.lua")
+
+-- Misc
+Ext.Require("IdDictionary/Misc/WaypointIds.lua")
