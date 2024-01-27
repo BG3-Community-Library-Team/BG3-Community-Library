@@ -18,7 +18,7 @@ function Utils.IterativeKeyDump(array, condFn, fleshType)
   condFn = condFn or function (_, _) return true end
   Utils.DoIterative(array, function (key, val)
     if condFn(key, val) then
-      Ext.Dump(Utils.FleshVal(val, fleshType))
+      Ext.Dump(Utils.FleshVal(key, fleshType))
     end
   end)
 end
