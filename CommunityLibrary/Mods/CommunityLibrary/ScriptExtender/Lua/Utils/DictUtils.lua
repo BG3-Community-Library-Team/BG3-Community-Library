@@ -181,6 +181,27 @@ end
 function DictUtils.InscribeLoadedMods()
   for _, uuid in pairs(Ext.Mod.GetLoadOrder()) do
     local modData = Ext.Mod.GetMod(uuid)
-    DictUtils.RegisterModToDictionary(modData.Info.Directory, modData.Info.ModuleUUID, modData.Info.Name, modData.Info.Author)
+    DictUtils.RegisterModToDictionary(modData.Info.Directory, modData.Info.ModuleUUID, modData.Info.Name,
+      modData.Info.Author)
   end
+end
+--[[
+function DictUtils.Goal(goalId, goalString)
+  local goal = Ext.StaticData.Get(goalId, "BackgroundGoal")
+  Globals.Goals[goalString] = {
+    ID = goalId,
+    BackgroundTag = Utils.GetTagFromBackground()
+  }
+end
+--]]
+
+-- TODO: When Categories is mapped, we can probably loop through the tags and only grab a tag with the Background category.
+function DictUtils.Backgrounds(backgroundUUID)
+  local background = Ext.StaticData.Get(backgroundUUID)
+  local tag = Ext.StaticData.Get(background.Tags[1])
+  Globals.Backgrounds[tag.Name] = {
+    ID = backgroundUUID,
+    TagId = tag.ResourceUUID,
+    FullTagId = tag.Name .. "_" .. tag.ResourceUUID
+  }
 end

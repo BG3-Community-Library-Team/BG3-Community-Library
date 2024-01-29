@@ -55,3 +55,11 @@ function Utils.FleshVal(val, type)
 
   return Ext.StaticData.Get(val, type)
 end
+
+--- Wrapper function for Osi.TeleportToWaypoint
+--- @param waypointId string ID of Waypoint (Hint: Grab from `Globals.Waypoints`)
+--- @param characterId string Optional, defaults to GetHostCharacter(). UUID of Character to teleport.
+function Utils.TeleportToWaypoint(waypointId, characterId)
+  characterId = characterId or Osi.GetHostCharacter()
+  Osi.TeleportToWaypoint(characterId, waypointId)
+end
