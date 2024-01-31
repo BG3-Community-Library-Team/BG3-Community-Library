@@ -1,0 +1,25 @@
+//<node id="Feat">
+//    <attribute id="Name" type="FixedString" value="Tough"/>
+//    <attribute id="PassivesAdded" type="LSString" value="Tough"/>
+//    <attribute id="UUID" type="guid" value="e8d1e7f6-d841-48ff-a83c-f1aaa16597ff"/>
+//</node>
+
+new entry "CL_Passive_OneDnD_Feat_Tough"
+type "PassiveData"
+data "DisplayName" "h62efac23g4ec4g4378g9db6g6b2781ac2399;1"
+data "Description" "h1ac0a4dcg2bebg41d6gbbceg72bcc9d89023;1"
+data "DescriptionParams" "Level*2"
+data "Icon" "PassiveFeature_Tough"
+data "Properties" "Highlighted"
+data "Boosts" "IncreaseMaxHP(Level*2)"
+
+new entry "CL_Passive_OneDnD_Feat_Tough_LevelOne"
+type "PassiveData"
+using "CL_Passive_OneDnD_Feat_Tough"
+data "BoostConditions" "not HasPassive('CL_Passive_OneDnD_Feat_Tough',context.Source)"
+
+new entry "CL_Passive_OneDnD_Feat_Tough_Invocation"
+type "PassiveData"
+using "CL_Passive_OneDnD_Feat_Tough"
+data "DisplayName" "h75fb5516g6b6eg4ab4g99e8g599cafd1ccb5;1"
+data "BoostConditions" "not HasPassive('CL_Passive_OneDnD_Feat_Tough',context.Source) and not HasPassive('CL_Passive_OneDnD_Feat_Tough_LevelOne',context.Source)"

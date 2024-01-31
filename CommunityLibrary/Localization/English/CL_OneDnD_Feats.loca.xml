@@ -1,0 +1,27 @@
+<contentList>
+  <content contentuid="h2e66e7acg02a9g4d65g854dgd66e99f80b8d" version="1">Feat: Alert</content>
+  <content contentuid="hb71bcc59gb0a3g4842ga1c7g3fc6437b84b8" version="1">You gain a +[1] bonus to Initiative and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+  <content contentuid="h36987e3agf693g4f87g81d9g32380a5ad817" version="1">Lesson of the First Ones: Alert</content>
+
+  <content contentuid="h2ab26e58g5112g47d5g9dbagb434167e5fdd" version="1">Feat: Lightly Armored</content>
+  <content contentuid="he914726dgcea0g48f7gbe94g715924e755ec" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour, Medium Armor and Shields.</content>
+  <content contentuid="h4545a2e5g1d81g45aag9efegce5c1614dab2" version="1">Lesson of the First Ones: Lightly Armored</content>
+
+  <content contentuid="h3de61a7bg162cg48b5gaf34g8b05323bd266" version="1">Feat: Savage Attacker</content>
+  <content contentuid="h9994235fg2ab0g4dafg98acgffeb99a84b5b" version="1">When making melee weapon attacks, you roll your damage dice twice and use the highest result.</content>
+  <content contentuid="he444be76g17a6g4aa0gaad8g932656f9f932" version="1">Lesson of the First Ones: Savage Attacker</content>
+
+  <content contentuid="h62efac23g4ec4g4378g9db6g6b2781ac2399" version="1">Feat: Tough</content>
+  <content contentuid="h1ac0a4dcg2bebg41d6gbbceg72bcc9d89023" version="1">Your hit point maximum increases by 2 for every level you have gained.</content>
+  <content contentuid="h75fb5516g6b6eg4ab4g99e8g599cafd1ccb5" version="1">Lesson of the First Ones: Tough</content>
+
+
+  <content contentuid="h46fd21fdg03c6g4259g8c42gbaad6cfc369a" version="1">Feat: Healer</content>
+  <content contentuid="h991cd1adgbb98g4a29ga351g820f211d4876" version="1"></content>
+  <content contentuid="h9b7f92fbgb503g469fgbbcbgcea8c3b56a00" version="1">Lesson of the First Ones: Healer</content>
+
+  <content contentuid="h92969f31g4150g4eccgb7ffg0661a6bddb36" version="1">Feat: Musician</content>  
+  <content contentuid="hbd5ca255g0e65g411dga6d6g9618a4da7cf0" version="1">You gain &lt;LSTag Tooltip="MusicalInstrumentProficiency"&gt;Musical Instrument Proficiency&lt;/LSTag&gt;.</content>
+  <content contentuid="hd8be2c08ged62g4e03gadb0ga958cc2e1299" version="1">Lesson of the First Ones: Musician</content>
+
+</contentList>

@@ -1,0 +1,13 @@
+//<node id="Feat">
+//    <attribute id="Name" type="FixedString" value="Performer"/>
+//    <attribute id="PassivesAdded" type="LSString" value="Performer"/>
+//    <attribute id="Selectors" type="LSString" value="SelectAbilities(98acdfcb-3c74-4e1a-8707-5d6da747d430,1,1,PerformerASI)"/>
+//    <attribute id="UUID" type="guid" value="60dfd716-3ba8-4611-90ee-018b59775b1d"/>
+//</node>
+
+new entry "CL_Passive_OneDnD_Feat_Musician"
+type "PassiveData"
+data "DisplayName" "h92969f31g4150g4eccgb7ffg0661a6bddb36;1"
+data "Description" "hbd5ca255g0e65g411dga6d6g9618a4da7cf0;1"
+data "Properties" "IsHidden"
+data "Boosts" "Proficiency(MusicalInstrument);SomethingSomethingSomethingInspiration"

@@ -1,0 +1,24 @@
+//<node id="Feat">
+//    <attribute id="Name" type="FixedString" value="SavageAttacker"/>
+//    <attribute id="PassivesAdded" type="LSString" value="SavageAttacker"/>
+//    <attribute id="UUID" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4"/>
+//</node>
+
+new entry "CL_Passive_OneDnD_Feat_SavageAttacker"
+type "PassiveData"
+data "DisplayName" "h3de61a7bg162cg48b5gaf34g8b05323bd266;1"
+data "Description" "h9994235fg2ab0g4dafg98acgffeb99a84b5b;1"
+data "Icon" "PassiveFeature_SavageAttacker"
+data "Properties" "Highlighted"
+data "Boosts" "Reroll(MeleeWeaponDamage,20,false)"
+
+new entry "CL_Passive_OneDnD_Feat_SavageAttacker_LevelOne"
+type "PassiveData"
+using "CL_Passive_OneDnD_Feat_SavageAttacker"
+data "BoostConditions" "not HasPassive('CL_Passive_OneDnD_Feat_SavageAttacker',context.Source)"
+
+new entry "CL_Passive_OneDnD_Feat_SavageAttacker_Invocation"
+type "PassiveData"
+using "CL_Passive_OneDnD_Feat_SavageAttacker"
+data "DisplayName" "he444be76g17a6g4aa0gaad8g932656f9f932;1"
+data "BoostConditions" "not HasPassive('CL_Passive_OneDnD_Feat_SavageAttacker',context.Source) and not HasPassive('CL_Passive_OneDnD_Feat_SavageAttacker_LevelOne',context.Source)"

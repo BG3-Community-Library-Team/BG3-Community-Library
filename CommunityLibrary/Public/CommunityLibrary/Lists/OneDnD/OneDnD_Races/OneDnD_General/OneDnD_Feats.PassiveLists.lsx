@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Comment" type="LSString" value="Level 1 Feats" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_OneDnD_Feat_Alert_LevelOne, CL_Passive_OneDnD_Feat_LightlyArmored_LevelOne, CL_Passive_OneDnD_Feat_SavageAttacker_LevelOne, CL_Passive_OneDnD_Feat_Tough_LevelOne" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0000-fea750000001" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
