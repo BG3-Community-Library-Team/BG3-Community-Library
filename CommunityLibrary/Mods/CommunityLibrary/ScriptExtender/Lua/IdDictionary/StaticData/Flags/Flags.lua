@@ -1,5 +1,44 @@
 Globals.Flags = {}
 
+Globals.Flags.Approval = {
+  -- Speaker has at least X approval for Speaker 2 in same dialog
+  ['ApprovalAtLeast-40ForSp2'] = "8048280b-6d47-7a41-ca35-4acd441219fb",
+  ['ApprovalAtLeast-30ForSp2'] = "f3edd65c-5368-b2e0-486f-fb6bbfd8f948",
+  ['ApprovalAtLeast-20ForSp2'] = "4c39c64b-8373-6f5f-2dac-990196d3c6dc",
+  ['ApprovalAtLeast-10ForSp2'] = "83af0bd4-90ca-5a49-2cd4-b7f6d84f55d6",
+  ['ApprovalAtLeast0ForSp2'] = "c90a1ed4-c142-3300-65d0-0a0a4d6e08f7",
+  ['ApprovalAtLeast5ForSp2'] = "1966ea6c-0567-401b-96b6-28eb2b9116b8",
+  ['ApprovalAtLeast10ForSp2'] = "fccac36f-92a5-ad84-9e45-fed71d386452",
+  ['ApprovalAtLeast20ForSp2'] = "91cfff92-fb1e-caf5-9d5c-9c5971b96d04",
+  ['ApprovalAtLeast30ForSp2'] = "98ca7185-0f2d-4420-be81-2b7c5e109e91",
+  ['ApprovalAtLeast35ForSp2'] = "0c8d2c95-983d-4f69-b1b4-7ff8ebc7e8c5",
+  ['ApprovalAtLeast40ForSp2'] = "cb50595f-b514-26a8-0c90-fbb21185b22e",
+  ['ApprovalAtLeast50ForSp2'] = "c2882882-ad2e-460d-4ab7-77f502407eaf",
+  ['ApprovalAtLeast60ForSp2'] = "bf670cb3-8110-e901-ed45-bb0b0f15b761",
+  ['ApprovalAtLeast70ForSp2'] = "183bb6c7-7d59-0fbc-82ea-8f167bbb7553",
+  ['ApprovalAtLeast80ForSp2'] = "4975d4b7-031d-7a78-778a-86b46503a224",
+  ['ApprovalAtLeast90ForSp2'] = "a6e30a69-e73e-be47-44e6-5e0a799ba02d",
+  ['ApprovalAtLeast100ForSp2'] = "5a2ce348-da21-b68d-e777-83631eb4107d",
+  -- Speaker has at least X approval for Speaker 3 in same dialog
+  ['ApprovalAtLeast-40ForSp3'] = "972ad03d-3a49-bab2-2983-01efd98ec272",
+  ['ApprovalAtLeast-30ForSp3'] = "c6dc4704-03d4-7341-da34-27f8df3f3390",
+  ['ApprovalAtLeast-20ForSp3'] = "f9de3de1-3b93-acc1-d0c6-bb5ec029ceb4",
+  ['ApprovalAtLeast-10ForSp3'] = "ce552cc6-4a56-66ce-4307-f184558fd519",
+  ['ApprovalAtLeast0ForSp3'] = "1a5e1181-0d95-2ede-17a4-73d90ff80b16",
+  ['ApprovalAtLeast5ForSp3'] = "a0c5116c-d6cf-4a92-8ba0-fa3e93cf327f",
+  ['ApprovalAtLeast10ForSp3'] = "be8510e8-0339-3fee-f198-b1dbe1a0b010",
+  ['ApprovalAtLeast20ForSp3'] = "1e3e9473-4277-79b5-42a2-cfd066386593",
+  ['ApprovalAtLeast30ForSp3'] = "534d898c-b83a-2523-eff2-e44fec0c207e",
+  ['ApprovalAtLeast35ForSp3'] = "8d6daa9f-187f-4bce-8036-3073dd41e042",
+  ['ApprovalAtLeast40ForSp3'] = "f1ab5792-7ebe-3021-bb12-e8b749507477",
+  ['ApprovalAtLeast50ForSp3'] = "1ab5dca5-dc29-9dcc-2f8f-bcc15147a15c",
+  ['ApprovalAtLeast60ForSp3'] = "379b2a1e-207f-fca8-b2e7-372dc8751a5d",
+  ['ApprovalAtLeast70ForSp3'] = "207d5eaa-871d-a8ff-7ef4-a3778ef41660",
+  ['ApprovalAtLeast80ForSp3'] = "5d4a8ffd-8e6b-f5ad-22f4-c4c21fe9f3e0",
+  ['ApprovalAtLeast90ForSp3'] = "4caef451-20b0-49ff-c5ad-954fadd29d44",
+  ['ApprovalAtLeast100ForSp3'] = "4c9f41f5-b15c-7c2b-b62e-9c9b16ca46f5",
+}
+
 Globals.Flags.Camp = {
   DBGCampString1 = "b75b6383-4e62-4ebd-f09c-b1d4f2ae21c8",
   DBGCampString2 = "eed4b73e-5fbc-c5e9-cd25-d98e71cec9b2",
@@ -273,7 +312,19 @@ Globals.Flags.Origins = {
   InvitedToCampRan = "07c4d37e-fc82-4055-b768-167650be9956",
   RemoveFromPartyAfterDialog = "7a429beb-fbfb-fa8a-3a33-0349323ad11d",
   SetAllTags_ReallyOrigins = "227ba3e7-70b5-3de4-5b1d-add6a3f47101",
-  SetOriginHostileToOtherOrigins = "8e8bb4ee-af06-4225-bed9-905b244f8780"
+  SetOriginHostileToOtherOrigins = "8e8bb4ee-af06-4225-bed9-905b244f8780",
+  PartOfTeam_Laezel = "57d93a1d-4400-4307-845f-25d9a250d332",
+  ControlledByUser_Laezel = "8fe9c9e8-0885-4e69-ac41-e3f3d29d4349",
+  Inclusion_Laezel = "49c3c048-b5f7-466c-a996-d87cef44dde9",
+  EndInclusion_Laezel = "dcf82fba-01b2-44f1-acf6-64254ad40007",
+  -- States
+  Recruited = "e78c0aab-fb48-98e9-3ed9-773a0c39988d",
+  AskedAboutAllCurrentTeamMembers_Minthara = "6efc8f72-ace6-8414-bb77-862f9dd4d6a5",
+  CanBeKicked_Laezel = "b28fa32b-a878-49ba-860b-e44774908595",
+  HasMet_Laezel = "2e085b0e-8e64-fbad-a009-7ce8e5da8a11",
+  IsInParty_Laezel = "3ee6b1f2-24f4-4e85-b7dc-49060e6d2699",
+  -- Events
+  FirstCombat_Laezel = "def8ed0f-1bdf-4134-9412-d71ce2e33f75"
 }
 
 Globals.Flags.Player = {
@@ -294,6 +345,7 @@ Globals.Flags.ReactTo = {
 Globals.Flags.Romance = {
   DoubleDating = "41320aeb-8e1a-433d-a82e-3d78aff578da",
   InExclusiveRelationship = "6c1a31e8-1d3d-42a5-af4f-72ef7a798f74",
+  SafeRomanceEnabled = "f46a2601-92d1-4b86-98b5-0dae4a290ff6"
 }
 
 Globals.Flags.SkillChecks = {
@@ -325,6 +377,32 @@ Globals.Flags.Status = {
   Cowering = "cf16110e-3767-4585-8028-83cb9857adcd",
   NoCower = "8180293e-4d0d-4e9b-9dfc-b195d4c67ddb",
   Polymorphed = "ff4902e1-37b6-4fef-aa98-6f4eaa32720b"
+}
+
+Globals.Story = {}
+
+-- Tutorial
+Globals.Story.Act0 = {
+  IntellectDevourerStopSpotting = "09055509-c996-4722-a3a7-ac3528b9659f",
+  StartInclusion_GithGuide = "3e793a76-6764-4789-a239-ec34b99e41e3",
+  EndInclusion_GithGuide = "6e2842a1-334e-4e5b-a974-104b98854cc5",
+  -- State
+  ImpsDead_LowerDeck = "c505f03a-c6d4-4ac5-a0a1-ea805fc1a589",
+  -- Events
+  CheckCompanionCanJoin = "2aec3d37-19f6-42c1-846c-db857e7cb9c4",
+}
+
+Globals.Story.Act2 = {
+  -- State
+  PixieInsideLantern = "5b43c283-e984-421b-972f-e046e79749ec",
+  Jailbreak_HasToolForGnomes = "1ab0ffbf-c758-4def-8a86-3b841c82a7c1"
+}
+
+Globals.Tadpoles = {
+  -- State
+  CanUsePartyMember1 = "5245f9a5-96fe-4a59-872a-2c2745cfc355",
+  CanUsePartyMember2 = "22205a3f-3e7e-e815-b8a7-9ea3391f19b2",
+  HasEligibleTadpoledCompanions = "8a9840c4-9e0a-4cdd-0bb5-ff8f09bde90f"
 }
 
 Globals.Flags.TransferNPCPayment = {
