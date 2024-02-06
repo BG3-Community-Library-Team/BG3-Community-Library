@@ -406,13 +406,6 @@ Globals.Flags.Origins = {
     Inclusion_Laezel = "49c3c048-b5f7-466c-a996-d87cef44dde9",
     EndInclusion_Laezel = "dcf82fba-01b2-44f1-acf6-64254ad40007",
   },
-  AddToParty = "4870b2cd-210c-0fdc-9c58-4d0142bdae29",
-  InvitedToCampRan = "07c4d37e-fc82-4055-b768-167650be9956",
-  RemoveFromPartyAfterDialog = "7a429beb-fbfb-fa8a-3a33-0349323ad11d",
-  SetAllTags_ReallyOrigins = "227ba3e7-70b5-3de4-5b1d-add6a3f47101",
-  SetOriginHostileToOtherOrigins = "8e8bb4ee-af06-4225-bed9-905b244f8780",
-  PartOfTeam_Laezel = "57d93a1d-4400-4307-845f-25d9a250d332",
-  ControlledByUser_Laezel = "8fe9c9e8-0885-4e69-ac41-e3f3d29d4349",
   States = {
     Recruited = "e78c0aab-fb48-98e9-3ed9-773a0c39988d",
     AskedAboutAllCurrentTeamMembers_Minthara = "6efc8f72-ace6-8414-bb77-862f9dd4d6a5",
@@ -420,8 +413,16 @@ Globals.Flags.Origins = {
     HasMet_Laezel = "2e085b0e-8e64-fbad-a009-7ce8e5da8a11",
     IsInParty_Laezel = "3ee6b1f2-24f4-4e85-b7dc-49060e6d2699",
   },
-  -- Events
-  FirstCombat_Laezel = "def8ed0f-1bdf-4134-9412-d71ce2e33f75"
+  Events = {
+    FirstCombat_Laezel = "def8ed0f-1bdf-4134-9412-d71ce2e33f75"
+  },
+  AddToParty = "4870b2cd-210c-0fdc-9c58-4d0142bdae29",
+  InvitedToCampRan = "07c4d37e-fc82-4055-b768-167650be9956",
+  RemoveFromPartyAfterDialog = "7a429beb-fbfb-fa8a-3a33-0349323ad11d",
+  SetAllTags_ReallyOrigins = "227ba3e7-70b5-3de4-5b1d-add6a3f47101",
+  SetOriginHostileToOtherOrigins = "8e8bb4ee-af06-4225-bed9-905b244f8780",
+  PartOfTeam_Laezel = "57d93a1d-4400-4307-845f-25d9a250d332",
+  ControlledByUser_Laezel = "8fe9c9e8-0885-4e69-ac41-e3f3d29d4349"
 }
 
 Globals.Flags.Player = {
@@ -483,28 +484,33 @@ Globals.Story.Act0 = {
   IntellectDevourerStopSpotting = "09055509-c996-4722-a3a7-ac3528b9659f",
   StartInclusion_GithGuide = "3e793a76-6764-4789-a239-ec34b99e41e3",
   EndInclusion_GithGuide = "6e2842a1-334e-4e5b-a974-104b98854cc5",
-  -- State
-  ImpsDead_LowerDeck = "c505f03a-c6d4-4ac5-a0a1-ea805fc1a589",
-  -- Events
-  CheckCompanionCanJoin = "2aec3d37-19f6-42c1-846c-db857e7cb9c4",
+  State = {
+    ImpsDead_LowerDeck = "c505f03a-c6d4-4ac5-a0a1-ea805fc1a589",
+  },
+  Events = {
+    CheckCompanionCanJoin = "2aec3d37-19f6-42c1-846c-db857e7cb9c4",
+  }
 }
 
 Globals.Story.Act2 = {
-  -- State
-  PixieInsideLantern = "5b43c283-e984-421b-972f-e046e79749ec",
-  Jailbreak_HasToolForGnomes = "1ab0ffbf-c758-4def-8a86-3b841c82a7c1"
+  State = {
+    PixieInsideLantern = "5b43c283-e984-421b-972f-e046e79749ec",
+    Jailbreak_HasToolForGnomes = "1ab0ffbf-c758-4def-8a86-3b841c82a7c1"
+  }
 }
 
 Globals.Story.Act3 = {
-  -- State
-  Beggar_IronThroneFirstHint = "511e2a50-8b45-49d5-870c-3e5f707623ef"
+  State = {
+    Beggar_IronThroneFirstHint = "511e2a50-8b45-49d5-870c-3e5f707623ef"
+  }
 }
 
 Globals.Tadpoles = {
-  -- State
-  CanUsePartyMember1 = "5245f9a5-96fe-4a59-872a-2c2745cfc355",
-  CanUsePartyMember2 = "22205a3f-3e7e-e815-b8a7-9ea3391f19b2",
-  HasEligibleTadpoledCompanions = "8a9840c4-9e0a-4cdd-0bb5-ff8f09bde90f"
+  State = {
+    CanUsePartyMember1 = "5245f9a5-96fe-4a59-872a-2c2745cfc355",
+    CanUsePartyMember2 = "22205a3f-3e7e-e815-b8a7-9ea3391f19b2",
+    HasEligibleTadpoledCompanions = "8a9840c4-9e0a-4cdd-0bb5-ff8f09bde90f"
+  }
 }
 
 Globals.Flags.TransferNPCPayment = {
