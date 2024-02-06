@@ -89,17 +89,20 @@ Globals.Flags.Class = {
     AllObtainedRedemption = "a7694991-e2b0-4720-9970-748166b7c52c",
     BecomesOathbreaker = "a5664f6e-929e-449d-9cc4-ea212d37a4b1",
     BecomesOathbreakerAfterDialog = "ec820ae7-58e4-4242-b417-e36c4048f619",
-    BrokeOath = "0246da96-5ef8-4c65-9f0d-c2856bd17674",
-    BrokeOathAncients = "7cf0bd9c-f089-45a3-88fb-03087d3d8b95",
-    BrokeOathDevotion = "fd2e1a9a-bca6-482e-8b42-2f1c16aaefee",
     CanRedemptThemself = "5918cf72-d4f6-3b5e-0a23-2bba9264a623",
     HasBeenOathbreaker = "3f3ec686-bbc1-4fdd-a08b-984e6a3030a6",
     OathbreakerPresent = "2925b66d-d306-4034-bf11-6c0cdca36edc",
     ObtainedRedemption = "4640a2da-599a-4911-87c3-4b1cabd13ee1",
+    -- Events
+    BrokeOath = "0246da96-5ef8-4c65-9f0d-c2856bd17674",
+    BrokeOath_Ancients = "7cf0bd9c-f089-45a3-88fb-03087d3d8b95",
+    BrokeOath_Devotion = "fd2e1a9a-bca6-482e-8b42-2f1c16aaefee",
+    BrokeOath_Vengeance = "1510bcc9-e974-4789-b1fa-4612f92f30a1",
   }
 }
 
 Globals.Flags.Companions = {
+  BlockFromLeavingParty = "4386e3a1-b16e-4331-92ec-29edbc359d51",
   Combat = "d8f0c309-193b-eaed-5aaa-812cd137caf2",
   DisappearingOutOfSight = "2b762f9e-52b7-4ade-ad20-cc26edaa3c31",
   FollowerDisappearOutOfSight = "98162019-f069-4f54-ac62-0c8559c3866d",
@@ -180,49 +183,114 @@ Globals.Flags.Dialog = {
   SpeakWithDead_QuestionsLimitReached = "01c40268-4a8d-4787-8566-77e01ff04762",
   SpeakWithDead_Killer = "7827d93e-1619-402e-b9ec-3ec5d762b6ea",
   SpeakWithDead_PartySpokeWithDead = "b375c49f-b908-4794-b12c-bf2c7122e19e",
+  -- Specific Dialog References (.lsj)
+  GLO_PAD_Mirror_A = "f3ce07bc-2bb4-2094-af85-9ced30238c7c"
 }
 
 Globals.Flags.Difficulty = {
   Easy = "8ff3ba67-ada2-442b-925c-ee2415359024",
   Medium = "0fc95071-9342-44d5-988a-30e8a8c8b787",
-  CharacterStats_Easy = "73c9db9a-efcb-40cc-8815-5162b87d6b02"
+  Hard = "aba45e0b-b623-404d-8bba-0ab65e480586",
+  CharacterStats_Easy = "73c9db9a-efcb-40cc-8815-5162b87d6b02",
+  CharacterStats_Medium = "b2c46d86-0d5d-42ae-9f15-c1020a007123",
+  CharacterStats_Hard = "f6360070-ce41-41d7-8cbe-75ec3b6d6ddb"
 }
 
 Globals.Flags.Hirelings = {
+  KnowsJergal = "a51c594c-9107-cf84-73a8-985c26458255",
   HACK_Reset = "4b79a5a7-2277-4fdc-a6b4-2e82498e89f9",
-  HACK_CreateFemale = "9e093d5e-1dd1-4f74-8fd1-2ad724ae33ca",
-  HACK_CreateMale = "2ab637f5-3153-4892-a92a-0d72eb944a57",
-  -- Races
-  HACK_CreateDragonbornBronze = "0c8e9278-3c5f-4309-90ce-ba1d4dbd8764",
-  HACK_CreateDragonbornWhite = "2bd10b81-c669-4c9f-b62b-bc488de65bfc",
-  HACK_CreateDwarfMountain = "66e88cdf-3166-4233-ba43-46bb6bff142c",
-  HACK_CreateElfDrowLolth = "41d092d9-4dd7-4034-be12-3bce07773d7f",
-  HACK_CreateElfWood = "0dbc6dca-0568-4719-92ae-67848d603b4e",
-  HACK_CreateGithyanki = "68c4ab06-69b7-4aff-8ccd-2572bfa7d2b2",
-  HACK_CreateHalfElfWood = "6bf12d08-bbe2-4885-a8fd-893130c038b6",
-  HACK_CreateHuman = "2b503e55-08dd-4373-9617-4e80fd3f8427",
-  HACK_CreateTieflingMephistopheles = "3c8333c2-6661-4f98-96cc-17f0606bf62d",
-  -- Classes
-  HACK_RecruitedCleric = "30fbc7f4-8ee6-4aad-8562-dd724a9e0e6f",
-  HACK_CreatePaladin = "0b1c2897-4967-4345-b115-f65fea12fb5b",
-  HACK_RecruitedPaladin = "3ae9a31d-956f-4293-926e-9c6c0b15a681",
-  HACK_CreateRanger = "78c149ac-74c6-4ff7-8044-0ae13788b3b7",
-  HACK_CreateWarlock = "4bedf52e-e836-45e0-8065-1a7b2440fcce",
-  HACK_RecruitedWarlock = "2ca6dc28-249d-492c-ba3e-4f0dfbc94605",
-  HACK_RecruitedWizard = "7f652ff7-df19-4517-ad45-6eb5c6d41d08",
-  -- Events
-  DismissHireling_1 = "28f20762-bce8-484c-a02d-b0973022a2d9",
-  SavePreset = "01a8e241-415e-4f01-915a-e2cbb74b93c2",
-  SendToCamp = "4de79d0b-3504-48db-9602-ffe077e7de35",
-  StartCC = "39fea63b-3c10-4f22-8f5e-53d8a23ae583",
-  -- States
-  FeatureAvailable = "66a34105-f02f-4c74-a3c8-085f1de12db8",
-  Hired = "0052da16-4401-4873-8176-16336d8942da",
-  Hired_1 = "23ddc0ed-5859-4a03-a563-d1d284499586",
-  InCamp_1 = "11c756aa-b00f-414e-aa15-09403c13c559",
-  InCamp_2 = "3d106953-0158-4c4e-81e5-df9c227d53a5",
-  -- Dialog
-  IsMaster = "74c00b11-e5e3-4f6e-b095-d1b36793f84f"
+  HACK_CreateRandom = "c86e11df-9016-491e-ac0c-d7755b96e4ef",
+  HACK_FinalizeCreate = "d48033b5-fc9b-4881-95a9-915228ead297",
+  HACK_Gender = {
+    HACK_CreateFemale = "9e093d5e-1dd1-4f74-8fd1-2ad724ae33ca",
+    HACK_CreateMale = "2ab637f5-3153-4892-a92a-0d72eb944a57",
+  },
+  HACK_Races = {
+    HACK_CreateDragonbornBlack = "e4355c4d-0020-4459-9638-0eb1b4bf6d7d",
+    HACK_CreateDragonbornBlue = "dcb5582c-0bff-41f7-921f-b9873cbd7da7",
+    HACK_CreateDragonbornBrass = "cc5493bb-2f9a-4c5c-be6d-64fc1ba85459",
+    HACK_CreateDragonbornBronze = "0c8e9278-3c5f-4309-90ce-ba1d4dbd8764",
+    HACK_CreateDragonbornCopper = "d10b703e-4dfd-4c6e-aa65-8af1fcdac65d",
+    HACK_CreateDragonbornGold = "de7c50aa-01a1-49fd-b53e-852682255e3f",
+    HACK_CreateDragonbornGreen = "651f41e3-2923-4ee1-a7eb-04894aac377d",
+    HACK_CreateDragonbornRed = "f9fbb0c4-afd8-4f1d-a912-81b1ce11de14",
+    HACK_CreateDragonbornSilver = "e812de27-3f90-455e-b5a4-44ae15f82bee",
+    HACK_CreateDragonbornWhite = "2bd10b81-c669-4c9f-b62b-bc488de65bfc",
+    HACK_CreateDwarfDuergar = "b53830f2-10fb-4c01-bd01-0b2fe301bb24",
+    HACK_CreateDwarfHill = "ba6d5106-a0c1-4368-b529-6b164bd86728",
+    HACK_CreateDwarfMountain = "66e88cdf-3166-4233-ba43-46bb6bff142c",
+    HACK_CreateElfDrowLolth = "41d092d9-4dd7-4034-be12-3bce07773d7f",
+    HACK_CreateElfDrowSeldarine = "c592cf6f-8f28-4a6f-a54c-e5e948875cb7",
+    HACK_CreateElfHigh = "a92f198c-7da6-499c-83fb-8594287973b7",
+    HACK_CreateElfWood = "0dbc6dca-0568-4719-92ae-67848d603b4e",
+    HACK_CreateGithyanki = "68c4ab06-69b7-4aff-8ccd-2572bfa7d2b2",
+    HACK_CreateGnomeDeep = "cc37a30e-d28c-4235-8115-25e8b056c8bd",
+    HACK_CreateGnomeForest = "3792e840-f4f3-4717-8315-5a3145bd884e",
+    HACK_CreateGnomeRegular = "bf182ace-ac7d-40b8-8283-ad0942c8647e",
+    HACK_CreateHalfElfDrow = "234ed37d-263f-4a38-917e-c86a0eb43599",
+    HACK_CreateHalfElfHigh = "ba0c59b3-3fc7-4199-90e5-08bdb27bd550",
+    HACK_CreateHalfElfWood = "6bf12d08-bbe2-4885-a8fd-893130c038b6",
+    HACK_CreateHalflingLightfoot = "fe3ddc53-b09b-4b6b-8284-c81e264f4632",
+    HACK_CreateHalflingStout = "615759a2-a842-452d-97fe-97d6055d2f49",
+    HACK_CreateHalfOrc = "f27c5175-c064-4b2b-8f45-9a8c4901a1bb",
+    HACK_CreateHuman = "2b503e55-08dd-4373-9617-4e80fd3f8427",
+    HACK_CreateTieflingAsmodeus = "fe41afd5-95c4-4fda-8d81-29cb31d517a9",
+    HACK_CreateTieflingMephistopheles = "3c8333c2-6661-4f98-96cc-17f0606bf62d",
+    HACK_CreateTieflingZariel = "a13f5905-b2cb-4c04-839a-1af5badd054b",
+  },
+  HACK_Classes = {
+    HACK_CreateBarbarian = "c05ea756-88f0-4e6c-81c6-2e0eda1ffa82",
+    HACK_RecruitedBarbarian = "97664080-2862-4bba-9e42-f8344c9add82",
+    HACK_CreateBard = "adba7dbf-183f-4030-b5f6-8de2f2b9b88b",
+    HACK_RecruitedBard = "cba4101f-6206-4dd5-8afd-fe26db48907b",
+    HACK_CreateCleric = "762e7229-dc2c-4f5d-b9ab-1965aba34a66",
+    HACK_RecruitedCleric = "30fbc7f4-8ee6-4aad-8562-dd724a9e0e6f",
+    HACK_CreateDruid = "d4c74155-359f-4d92-ad6d-2b0e9ddbe4d8",
+    HACK_RecruitedDruid = "a5e109d9-c8f7-409c-8764-cd31f101337a",
+    HACK_CreateFighter = "779f0817-789f-43c7-a3b9-004cbfdf3042",
+    HACK_RecruitedFighter = "c1344c27-8ac6-429f-8c4a-5c7574c9f7bc",
+    HACK_CreatePaladin = "0b1c2897-4967-4345-b115-f65fea12fb5b",
+    HACK_RecruitedPaladin = "3ae9a31d-956f-4293-926e-9c6c0b15a681",
+    HACK_CreateRanger = "78c149ac-74c6-4ff7-8044-0ae13788b3b7",
+    HACK_RecruitedRanger = "54340a05-334b-4c23-8bb1-d6eca498bb45",
+    HACK_CreateRogue = "af80ceed-efa2-4322-93c3-c8848cdaabd3",
+    HACK_RecruitedRogue = "af356c26-025a-4960-9f00-a0deb72dffef",
+    HACK_CreateSorcerer = "30724acb-5533-4826-8c12-f3816d3e4ace",
+    HACK_RecruitedSorcerer = "477a331a-988d-46e2-bfc6-1bc7960fa881",
+    HACK_CreateWarlock = "4bedf52e-e836-45e0-8065-1a7b2440fcce",
+    HACK_RecruitedWarlock = "2ca6dc28-249d-492c-ba3e-4f0dfbc94605",
+    HACK_CreateWizard = "1105dea2-1b0c-43fb-bc1f-e182229fce28",
+    HACK_RecruitedWizard = "7f652ff7-df19-4517-ad45-6eb5c6d41d08",
+  },
+  Events = {
+    Dismiss = "0899283b-9be4-4fef-babb-756270a33079",
+    DismissHireling_1 = "28f20762-bce8-484c-a02d-b0973022a2d9",
+    DismissHireling_2 = "f74c6e39-2f28-40f7-8a6d-a05c2fc40336",
+    DismissHireling_3 = "d4926cb5-ae5c-4c08-af1c-50d0c4435293",
+    RefreshHirelings = "da55888f-daaf-4914-afb2-108fb287ccad",
+    SavePreset = "01a8e241-415e-4f01-915a-e2cbb74b93c2",
+    SendToCamp = "4de79d0b-3504-48db-9602-ffe077e7de35",
+    StartCC = "39fea63b-3c10-4f22-8f5e-53d8a23ae583",
+    ToParty = "a8d38e39-d672-406d-9827-811bed6ef24c",
+  },
+  States = {
+    FeatureAvailable = "66a34105-f02f-4c74-a3c8-085f1de12db8",
+    Hired = "0052da16-4401-4873-8176-16336d8942da",
+    Hired_1 = "23ddc0ed-5859-4a03-a563-d1d284499586",
+    Hired_2 = "b977620c-7459-4665-a214-405681a7f46b",
+    Hired_3 = "6551a28f-bd68-42fd-a2b8-68d54022ddb2",
+    InCamp = "e33aa0df-fcfc-4a30-8169-516d3956f02a",
+    InCamp_1 = "11c756aa-b00f-414e-aa15-09403c13c559",
+    InCamp_2 = "3d106953-0158-4c4e-81e5-df9c227d53a5",
+    InCamp_3 = "316df109-82e2-48ad-a6a8-c069f25686c8",
+    ShowIntro = "b3983f00-096e-4e8b-82d5-8ae92a806dfc",
+  },
+  Dialog = {
+    IsMaster = "74c00b11-e5e3-4f6e-b095-d1b36793f84f",
+    ShowHireling_1 = "98093c14-ad1b-43f3-913a-e69c27507701",
+    ShowHireling_2 = "f8093dc8-66db-402d-822c-597056dfa2f4",
+    ShowHireling_3 = "a151b14d-8382-4f1a-b4a9-a635a27b9203",
+  } -- Other
 }
 
 Globals.Flags.Items = {
@@ -271,7 +339,8 @@ Globals.Flags.MindHasBeenRead = {
   ['35eab1da-a782-de21-1152-9182787f9324_MindHasBeenRead'] = "f645b434-a73f-d154-892f-1b88dc5de9c7",
   ['616f4861-97c5-6830-599b-efde15aacd47_MindHasBeenRead'] = "f6962be0-db03-e045-2a98-aaf209fad18d",
   ['657012fa-3247-7b27-c0d9-f1b7cf9ae978_MindHasBeenRead'] = "fbd1e8d5-1fa6-4bb2-f796-5be72909923d",
-  ['8cc1a6b9-c43c-091c-a15e-8cb0186d6854_MindHasBeenRead'] = "fc19d1d4-f0bf-95dd-fdba-554620d41ae4"
+  ['8cc1a6b9-c43c-091c-a15e-8cb0186d6854_MindHasBeenRead'] = "fc19d1d4-f0bf-95dd-fdba-554620d41ae4",
+  ['3172c7a1-e6ce-1fb1-f000-0a107cb66822_MindHasBeenRead'] = "a93639fa-0706-5562-f979-a266f6d0e353"
 }
 
 Globals.Flags.Misc = {
@@ -396,6 +465,11 @@ Globals.Story.Act2 = {
   -- State
   PixieInsideLantern = "5b43c283-e984-421b-972f-e046e79749ec",
   Jailbreak_HasToolForGnomes = "1ab0ffbf-c758-4def-8a86-3b841c82a7c1"
+}
+
+Globals.Story.Act3 = {
+  -- State
+  Beggar_IronThroneFirstHint = "511e2a50-8b45-49d5-870c-3e5f707623ef"
 }
 
 Globals.Tadpoles = {
