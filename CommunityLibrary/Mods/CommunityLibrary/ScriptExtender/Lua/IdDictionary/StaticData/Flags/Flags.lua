@@ -89,6 +89,7 @@ Globals.Flags.Crime = {
   KnockSpell = "1182b0be-111c-4480-8417-76f3129cc761",
   Lockpicking = "db0cd98f-a4a5-4f98-a7a5-2b6fd55c2f7a",
   Murder = "cdea5897-ce77-48d4-8377-003e453fe8ba",
+  PlacedTrap = "53d2cf81-eaaa-46f1-8dbb-1114eba27346",
   Theft = "8dd72b27-dcc4-67c3-17d0-ef0170f21d85",
   Trespassing = "8cb905dc-3480-ee1e-fbdb-03b317c6a46f",
   Vandalize = "0cf27cb8-2ad2-cbe0-cee6-85f8338e668b",
@@ -140,6 +141,49 @@ Globals.Flags.Dialog = {
   SpeakWithDead_QuestionsLimitReached = "01c40268-4a8d-4787-8566-77e01ff04762",
   SpeakWithDead_Killer = "7827d93e-1619-402e-b9ec-3ec5d762b6ea",
   SpeakWithDead_PartySpokeWithDead = "b375c49f-b908-4794-b12c-bf2c7122e19e",
+}
+
+Globals.Flags.Difficulty = {
+  Easy = "8ff3ba67-ada2-442b-925c-ee2415359024",
+  Medium = "0fc95071-9342-44d5-988a-30e8a8c8b787",
+  CharacterStats_Easy = "73c9db9a-efcb-40cc-8815-5162b87d6b02"
+}
+
+Globals.Flags.Hirelings = {
+  HACK_Reset = "4b79a5a7-2277-4fdc-a6b4-2e82498e89f9",
+  HACK_CreateFemale = "9e093d5e-1dd1-4f74-8fd1-2ad724ae33ca",
+  HACK_CreateMale = "2ab637f5-3153-4892-a92a-0d72eb944a57",
+  -- Races
+  HACK_CreateDragonbornBronze = "0c8e9278-3c5f-4309-90ce-ba1d4dbd8764",
+  HACK_CreateDragonbornWhite = "2bd10b81-c669-4c9f-b62b-bc488de65bfc",
+  HACK_CreateDwarfMountain = "66e88cdf-3166-4233-ba43-46bb6bff142c",
+  HACK_CreateElfDrowLolth = "41d092d9-4dd7-4034-be12-3bce07773d7f",
+  HACK_CreateElfWood = "0dbc6dca-0568-4719-92ae-67848d603b4e",
+  HACK_CreateGithyanki = "68c4ab06-69b7-4aff-8ccd-2572bfa7d2b2",
+  HACK_CreateHalfElfWood = "6bf12d08-bbe2-4885-a8fd-893130c038b6",
+  HACK_CreateHuman = "2b503e55-08dd-4373-9617-4e80fd3f8427",
+  HACK_CreateTieflingMephistopheles = "3c8333c2-6661-4f98-96cc-17f0606bf62d",
+  -- Classes
+  HACK_RecruitedCleric = "30fbc7f4-8ee6-4aad-8562-dd724a9e0e6f",
+  HACK_CreatePaladin = "0b1c2897-4967-4345-b115-f65fea12fb5b",
+  HACK_RecruitedPaladin = "3ae9a31d-956f-4293-926e-9c6c0b15a681",
+  HACK_CreateRanger = "78c149ac-74c6-4ff7-8044-0ae13788b3b7",
+  HACK_CreateWarlock = "4bedf52e-e836-45e0-8065-1a7b2440fcce",
+  HACK_RecruitedWarlock = "2ca6dc28-249d-492c-ba3e-4f0dfbc94605",
+  HACK_RecruitedWizard = "7f652ff7-df19-4517-ad45-6eb5c6d41d08",
+  -- Events
+  DismissHireling_1 = "28f20762-bce8-484c-a02d-b0973022a2d9",
+  SavePreset = "01a8e241-415e-4f01-915a-e2cbb74b93c2",
+  SendToCamp = "4de79d0b-3504-48db-9602-ffe077e7de35",
+  StartCC = "39fea63b-3c10-4f22-8f5e-53d8a23ae583",
+  -- States
+  FeatureAvailable = "66a34105-f02f-4c74-a3c8-085f1de12db8",
+  Hired = "0052da16-4401-4873-8176-16336d8942da",
+  Hired_1 = "23ddc0ed-5859-4a03-a563-d1d284499586",
+  InCamp_1 = "11c756aa-b00f-414e-aa15-09403c13c559",
+  InCamp_2 = "3d106953-0158-4c4e-81e5-df9c227d53a5",
+  -- Dialog
+  IsMaster = "74c00b11-e5e3-4f6e-b095-d1b36793f84f"
 }
 
 Globals.Flags.Items = {
@@ -294,5 +338,6 @@ Globals.Flags.TransferNPCPayment = {
 }
 
 Globals.Flags.UI = {
-  OpenWaypointUI = "OpenWaypointUI"
+  OpenWaypointUI = "21800438-49cf-49bb-b68f-77edaa176df1",
+  RespecStart = "6d4979bc-8e95-46be-9c27-96c6e22b0152",
 }
