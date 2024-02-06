@@ -40,47 +40,53 @@ Globals.Flags.Approval = {
 }
 
 Globals.Flags.Camp = {
-  DBGCampString1 = "b75b6383-4e62-4ebd-f09c-b1d4f2ae21c8",
-  DBGCampString2 = "eed4b73e-5fbc-c5e9-cd25-d98e71cec9b2",
-  DBGCampString3 = "1bc8a2f1-7e9b-01a5-3cf4-1dd0a1e7da7d",
-  DBGCampString4 = "a407ff83-e819-82eb-555f-4e33d871897c",
-  DBGCampString5 = "ac88446a-c38a-3544-1664-940ae46dba75",
-  DBGCampString6 = "31c78931-6de6-e4b6-046a-1f975207e1c5",
-  DBGCampString7 = "18a94f12-4fee-6637-44bf-af9c9fba23cb",
-  DBGCampString8 = "52e5327f-93a0-3888-db77-fbc30f06041e",
-  DBGCampString9 = "701c7968-e44d-a789-98f7-37bef5e7b60f",
-  DBGCampString10 = "ecd33ebb-e2eb-439b-c769-0ede6a744e61",
-  DBGCampStringMore = "15e4ec02-5e2a-77c2-9aa2-661af4048605",
-  DBGPopulateNights = "022ded9e-3b49-9b50-d7d1-9c7069b3159e",
-  DBGCampType1 = "d86bea5c-75c2-7490-f00f-f8e9a1ebb1e3",
-  DBGCampType2 = "ec3b44b1-8c21-0383-481d-1ae9088a8614",
-  DBGCampType3 = "17b577a0-9135-8215-0b3c-fbc20c1d7f29",
-  DBGCampType4 = "2e4a196d-5520-0b42-5579-01eebb1ed61e",
-  DBGCampType5 = "cfcbdf4c-3651-593d-0cc2-99c7d699f6b9",
-  DBGCampType6 = "31be0538-f808-220d-def3-52a5f1d5a76e",
-  DBGCampType7 = "73c53af3-43a6-0bca-1cb7-4dde91bc2009",
-  DBGGoToNight1 = "4a20172a-0ff4-b6bd-a19b-364f40d7b6b6",
-  DBGGoToNight2 = "f51a143a-c692-236c-631c-10e82b8ca723",
-  DBGGoToNight3 = "bd19d762-19a5-ce3c-4995-345f97468723",
-  DBGGoToNight4 = "01da48ec-a173-a600-3b11-283fd80a8cbb",
-  DBGGoToNight4b = "ff3ecb0c-3482-eaaa-7cf6-76def3bc6919",
-  DBGGoToNight5 = "469d499f-e29e-8e64-e43d-0131cf977214",
-  DBGIgnoreCampTypeRestrictions = "4118a620-c0e5-afaf-1bec-2e260882a45f",
-  DBGInviteAll = "43aec80b-9a45-64ef-d123-fbcea7b05c0d",
-  DBGInviteAllCompanions = "98bcd2b6-c8d5-1a8e-72df-0eb0ded536ee",
-  DBGInviteAllFollowers = "7492e9a8-119a-40ed-2950-911bb849924e",
-  DBGInviteIndiPopulate = "41a67fb9-2eb9-d517-0b96-b364a7acc0ca",
-  DBGNoNightSelection = "b7831dfa-d67c-05aa-4abd-b12c4a36dc52",
+  Debug = {
+    DBGCampString1 = "b75b6383-4e62-4ebd-f09c-b1d4f2ae21c8",
+    DBGCampString2 = "eed4b73e-5fbc-c5e9-cd25-d98e71cec9b2",
+    DBGCampString3 = "1bc8a2f1-7e9b-01a5-3cf4-1dd0a1e7da7d",
+    DBGCampString4 = "a407ff83-e819-82eb-555f-4e33d871897c",
+    DBGCampString5 = "ac88446a-c38a-3544-1664-940ae46dba75",
+    DBGCampString6 = "31c78931-6de6-e4b6-046a-1f975207e1c5",
+    DBGCampString7 = "18a94f12-4fee-6637-44bf-af9c9fba23cb",
+    DBGCampString8 = "52e5327f-93a0-3888-db77-fbc30f06041e",
+    DBGCampString9 = "701c7968-e44d-a789-98f7-37bef5e7b60f",
+    DBGCampString10 = "ecd33ebb-e2eb-439b-c769-0ede6a744e61",
+    DBGCampStringMore = "15e4ec02-5e2a-77c2-9aa2-661af4048605",
+    DBGPopulateNights = "022ded9e-3b49-9b50-d7d1-9c7069b3159e",
+    DBGCampType1 = "d86bea5c-75c2-7490-f00f-f8e9a1ebb1e3",
+    DBGCampType2 = "ec3b44b1-8c21-0383-481d-1ae9088a8614",
+    DBGCampType3 = "17b577a0-9135-8215-0b3c-fbc20c1d7f29",
+    DBGCampType4 = "2e4a196d-5520-0b42-5579-01eebb1ed61e",
+    DBGCampType5 = "cfcbdf4c-3651-593d-0cc2-99c7d699f6b9",
+    DBGCampType6 = "31be0538-f808-220d-def3-52a5f1d5a76e",
+    DBGCampType7 = "73c53af3-43a6-0bca-1cb7-4dde91bc2009",
+    DBGGoToNight1 = "4a20172a-0ff4-b6bd-a19b-364f40d7b6b6",
+    DBGGoToNight2 = "f51a143a-c692-236c-631c-10e82b8ca723",
+    DBGGoToNight3 = "bd19d762-19a5-ce3c-4995-345f97468723",
+    DBGGoToNight4 = "01da48ec-a173-a600-3b11-283fd80a8cbb",
+    DBGGoToNight4b = "ff3ecb0c-3482-eaaa-7cf6-76def3bc6919",
+    DBGGoToNight5 = "469d499f-e29e-8e64-e43d-0131cf977214",
+    DBGIgnoreCampTypeRestrictions = "4118a620-c0e5-afaf-1bec-2e260882a45f",
+    DBGInviteAll = "43aec80b-9a45-64ef-d123-fbcea7b05c0d",
+    DBGInviteAllCompanions = "98bcd2b6-c8d5-1a8e-72df-0eb0ded536ee",
+    DBGInviteAllFollowers = "7492e9a8-119a-40ed-2950-911bb849924e",
+    DBGInviteIndiPopulate = "41a67fb9-2eb9-d517-0b96-b364a7acc0ca",
+    DBGNoNightSelection = "b7831dfa-d67c-05aa-4abd-b12c4a36dc52",
+  },
+  PartySize = {
+    PartySizeAtLeast2 = "3bf26823-3143-4d1a-85e6-8a7e04273d77",
+    PartySizeAtLeast3 = "ed6c9959-36e4-4235-a841-63b395f0fe4e",
+    PartySizeAtLeast4 = "62130ed1-4567-4f3a-82ed-7801dc58e01a"
+  },
   AddSupplies = "d6a890c8-f55e-283d-6907-40be1865280f",
   NightMode = "fb53edc2-9a89-4ad2-af83-20b5fe425cdd",
   OriginTiredOfTalkingTo = "40225d88-6220-43ec-9427-c2ee73a3deb7",
   OpenLedger = "bc764992-d770-a23b-68f8-d5f25e7e18bb",
-  PartySizeAtLeast2 = "3bf26823-3143-4d1a-85e6-8a7e04273d77",
-  PartySizeAtLeast3 = "ed6c9959-36e4-4235-a841-63b395f0fe4e",
-  PartySizeAtLeast4 = "62130ed1-4567-4f3a-82ed-7801dc58e01a",
   SkipSleepCutscene = "1ee0a25e-4115-44ef-b87d-c2a5eee494b6",
   SetDay = "2d1a001d-2416-4b9c-b929-66b6367eceb4",
-  State_InCamp = "161b7223-039d-4ebe-986f-1dcd9a66733f"
+  States = {
+    InCamp = "161b7223-039d-4ebe-986f-1dcd9a66733f"
+  }
 }
 
 Globals.Flags.Class = {
@@ -93,11 +99,12 @@ Globals.Flags.Class = {
     HasBeenOathbreaker = "3f3ec686-bbc1-4fdd-a08b-984e6a3030a6",
     OathbreakerPresent = "2925b66d-d306-4034-bf11-6c0cdca36edc",
     ObtainedRedemption = "4640a2da-599a-4911-87c3-4b1cabd13ee1",
-    -- Events
-    BrokeOath = "0246da96-5ef8-4c65-9f0d-c2856bd17674",
-    BrokeOath_Ancients = "7cf0bd9c-f089-45a3-88fb-03087d3d8b95",
-    BrokeOath_Devotion = "fd2e1a9a-bca6-482e-8b42-2f1c16aaefee",
-    BrokeOath_Vengeance = "1510bcc9-e974-4789-b1fa-4612f92f30a1",
+    Events = {
+      BrokeOath = "0246da96-5ef8-4c65-9f0d-c2856bd17674",
+      BrokeOath_Ancients = "7cf0bd9c-f089-45a3-88fb-03087d3d8b95",
+      BrokeOath_Devotion = "fd2e1a9a-bca6-482e-8b42-2f1c16aaefee",
+      BrokeOath_Vengeance = "1510bcc9-e974-4789-b1fa-4612f92f30a1"
+    }
   }
 }
 
@@ -113,6 +120,32 @@ Globals.Flags.Companions = {
 }
 
 Globals.Flags.Crime = {
+  Reactions = {
+    Assault = "bd371f4a-4123-5b42-3dd0-9cf23fb8c955",
+    Charmed = "39293705-87ad-46c2-ae32-5ad8b492313e",
+    DisarmingTrap = "de7ae595-fa8b-4074-b342-a5f28c7ab86a",
+    DropEvidence = "4139762a-96a5-06e7-7786-b1982855804f",
+    KnockSpell = "1182b0be-111c-4480-8417-76f3129cc761",
+    Lockpicking = "db0cd98f-a4a5-4f98-a7a5-2b6fd55c2f7a",
+    Murder = "cdea5897-ce77-48d4-8377-003e453fe8ba",
+    PlacedTrap = "53d2cf81-eaaa-46f1-8dbb-1114eba27346",
+    Polymorphed = "1243c7b6-3d96-464f-b501-9d4162ef885d",
+    Theft = "8dd72b27-dcc4-67c3-17d0-ef0170f21d85",
+    Trespassing = "8cb905dc-3480-ee1e-fbdb-03b317c6a46f",
+    Vandalize = "0cf27cb8-2ad2-cbe0-cee6-85f8338e668b",
+  },
+  Warnings = {
+    Warning1 = "9d8c50f1-f67d-4290-bb41-9616cb482b88",
+    Warning2 = "4e017c74-10c1-b90f-6d61-969b1bdb8d38",
+    Warning3 = "b4003dc1-1591-93c9-45b4-3b5d1581423f",
+    Warning_LastNeutral = "ead56322-50a0-afd7-2f2f-0c4e75a6a59b",
+    AttackNeutralWarning = "f9aa8826-dd9f-98ac-03f9-4870812823be"
+  },
+  State = {
+    Interrogation_Murder = "1693e3c1-5d5e-4c07-b287-62d0700b6b7b",
+    Interrogation_Assault = "a6ae9ba4-d5fe-4ed7-9eeb-d974571f2493",
+    Interrogration_Theft = "ba40739c-1bc1-493e-8617-846c625496db",
+  },
   ClearTag_FUGITIVE = "b7e841d0-8b8c-c18b-48af-8d2a283f62e6",
   AgreedToForgive = "5b39abcc-3266-9ced-de99-e28ed8255542",
   AllowArrest = "2677bf25-03f3-6323-c72a-0ca61fe5ad01",
@@ -120,34 +153,15 @@ Globals.Flags.Crime = {
   ArrestPlayer = "4434aa46-3370-47e8-8c3f-c9d9f9b7bce5",
   StartArrestAfterDialog = "efeec3fb-6e2f-41f1-298a-3246c43deb6a",
   AllowSearch = "f29f6365-3c39-2075-77c4-2a14e4407200",
-  Assault = "bd371f4a-4123-5b42-3dd0-9cf23fb8c955",
   BribeDisabled = "9e426938-8a06-8f2d-3d7d-7bdc975c3c02",
   BribingDisabled_NextTime = "30b21fcf-d1d7-42b3-9ea4-0af3c8f8852a",
   CharismaDisabled = "4bed5f63-dbf9-4fb2-be84-c29edf10a96a",
-  Charmed = "39293705-87ad-46c2-ae32-5ad8b492313e",
-  DisarmingTrap = "de7ae595-fa8b-4074-b342-a5f28c7ab86a",
-  DropEvidence = "4139762a-96a5-06e7-7786-b1982855804f",
   GuiltFound = "c742b680-a456-82ca-f157-3cd31c099a80",
-  KnockSpell = "1182b0be-111c-4480-8417-76f3129cc761",
-  Lockpicking = "db0cd98f-a4a5-4f98-a7a5-2b6fd55c2f7a",
-  Murder = "cdea5897-ce77-48d4-8377-003e453fe8ba",
-  PlacedTrap = "53d2cf81-eaaa-46f1-8dbb-1114eba27346",
-  Theft = "8dd72b27-dcc4-67c3-17d0-ef0170f21d85",
-  Trespassing = "8cb905dc-3480-ee1e-fbdb-03b317c6a46f",
-  Vandalize = "0cf27cb8-2ad2-cbe0-cee6-85f8338e668b",
-  Warning1 = "9d8c50f1-f67d-4290-bb41-9616cb482b88",
-  Warning2 = "4e017c74-10c1-b90f-6d61-969b1bdb8d38",
-  Warning3 = "b4003dc1-1591-93c9-45b4-3b5d1581423f",
-  Warning_LastNeutral = "ead56322-50a0-afd7-2f2f-0c4e75a6a59b",
-  AttackNeutralWarning = "f9aa8826-dd9f-98ac-03f9-4870812823be",
   PickUpOwnedCorpse = "d843d517-02a3-4675-8bc7-cd48d2cc2ad5",
   DroppedOwnedCorpse = "39fd4ed5-cb85-4427-978d-cd6dc303361b",
   IsAngry = "60a1ad4c-ab66-4ca6-973c-a9b49bb84892",
   IsVictim = "5e9f6262-7bab-4e25-894e-32ee674208b2",
   IsInPrison = "c9b75b21-6eba-065e-7680-fc9a0c5838e4",
-  InterrogationState_Murder = "1693e3c1-5d5e-4c07-b287-62d0700b6b7b",
-  InterrogationState_Assault = "a6ae9ba4-d5fe-4ed7-9eeb-d974571f2493",
-  InterrogrationState_Theft = "ba40739c-1bc1-493e-8617-846c625496db",
   CallGuardsFromDialog = "dc95e1a3-0e27-01f4-0c89-2825f60d102b",
   FleeHelpFromDialog = "686bc362-67ee-8d88-384a-25c737aaf740",
   HasEvidenceInInventory = "fd3befa0-8717-2e5a-76fd-0e1f4a1e6176",
@@ -156,7 +170,6 @@ Globals.Flags.Crime = {
   PassedForbiddenItemUseWarning = "8aed3a6b-6d13-719f-05ed-65ebd2568ee7",
   PersuadedGuard = "bdcb6798-b606-5c94-95d1-e03b4414c0af",
   PlayerFoundGuilty = "1b28f6ce-09ad-9664-9865-6ed4eb69a0b7",
-  Polymorphed = "1243c7b6-3d96-464f-b501-9d4162ef885d",
   PersuasionFailed = "827d3b2c-f154-03a7-227a-16192c201ee2",
   ResistSearch = "542c71fa-0019-9464-ba46-00ff8d1856f3",
   ReturnGoodsToOwner = "464633ad-7dda-f4b0-d168-844b19d6ff96",
@@ -179,12 +192,16 @@ Globals.Flags.Dialog = {
   PartneredCompanionIncluded = "c401d64f-025e-433d-911d-1e32d0da37fa",
   RemoveFromDialog = "f8be170a-8fec-b106-c6ab-204f0b917828",
   SetOriginHostileAfterDialog = "91659c6d-ed58-4b95-894b-763b69df824d",
-  SpeakWithDead_QuestionAsked = "9984cd59-2fad-46cb-bf61-96af6034fbea",
-  SpeakWithDead_QuestionsLimitReached = "01c40268-4a8d-4787-8566-77e01ff04762",
-  SpeakWithDead_Killer = "7827d93e-1619-402e-b9ec-3ec5d762b6ea",
-  SpeakWithDead_PartySpokeWithDead = "b375c49f-b908-4794-b12c-bf2c7122e19e",
+  SpeakWithDead = {
+    SpeakWithDead_QuestionAsked = "9984cd59-2fad-46cb-bf61-96af6034fbea",
+    SpeakWithDead_QuestionsLimitReached = "01c40268-4a8d-4787-8566-77e01ff04762",
+    SpeakWithDead_Killer = "7827d93e-1619-402e-b9ec-3ec5d762b6ea",
+    SpeakWithDead_PartySpokeWithDead = "b375c49f-b908-4794-b12c-bf2c7122e19e",
+  },
   -- Specific Dialog References (.lsj)
-  GLO_PAD_Mirror_A = "f3ce07bc-2bb4-2094-af85-9ced30238c7c"
+  GLO_PAD_Mirror = {
+    A = "f3ce07bc-2bb4-2094-af85-9ced30238c7c"
+  }
 }
 
 Globals.Flags.Difficulty = {
@@ -294,14 +311,18 @@ Globals.Flags.Hirelings = {
 }
 
 Globals.Flags.Items = {
+  HasTaggedItem = {
+    HasTaggedItem_FOOD = "1c762978-ba29-4260-81fd-f19c9ad1e5a4",
+    HasTaggedItem_FISH = "9a83c4a4-952f-4da2-9f92-3692fbe17f10",
+    HasTaggedItem_HEALING_POTION = "a60b5bbc-4991-4957-ab17-3948aebcc154",
+    HasTaggedItem_LOCKPICK = "88b02016-bc68-4618-a9b7-44c3b8ee5a8a",
+  },
+  State = {
+    ShopTrigger_NotForSale = "48c7bdbc-f83a-4890-a178-200bc9e127cc",
+  },
   BoughtScroll = "0ddcddc2-f6d6-07fb-ecc2-86f0394e289d",
   HasAShovel = "5df98788-6881-4c28-9b91-ac77d5451bc2",
-  HasTaggedItem_FOOD = "1c762978-ba29-4260-81fd-f19c9ad1e5a4",
-  HasTaggedItem_FISH = "9a83c4a4-952f-4da2-9f92-3692fbe17f10",
-  HasTaggedItem_HEALING_POTION = "a60b5bbc-4991-4957-ab17-3948aebcc154",
-  HasTaggedItem_LOCKPICK = "88b02016-bc68-4618-a9b7-44c3b8ee5a8a",
   ItemPickup = "5a79a482-ff4d-4e5e-95a4-b972af80077d",
-  ShotTriggerState_NotForSale = "48c7bdbc-f83a-4890-a178-200bc9e127cc",
 
 }
 
@@ -344,7 +365,9 @@ Globals.Flags.MindHasBeenRead = {
 }
 
 Globals.Flags.Misc = {
-  DBG_BecomeAvatar = "34371b8e-a34b-3354-54e7-fcda800d703a",
+  Debug = {
+    DBG_BecomeAvatar = "34371b8e-a34b-3354-54e7-fcda800d703a"
+  },
   AvatarNotPresent = "286a8a58-5fbe-61d5-40cf-c299487d0a74",
   BlockChaining = "9b8c01fc-8cc8-40d5-a8df-59a725a578c9",
   ChangeAttitude = "a73f2d9f-ee7f-4fa2-a6ce-1f839ca48e13",
@@ -371,27 +394,32 @@ Globals.Flags.Misc = {
 }
 
 Globals.Flags.Origins = {
-  DBGSetAllTags = "3cde4737-618d-07ae-b846-3d020593fb60",
-  DBGClearAllTags = "aece0b35-4276-5e8d-3ec3-2f0eae8048b7",
+  Debug = {
+    DBGSetAllTags = "3cde4737-618d-07ae-b846-3d020593fb60",
+    DBGClearAllTags = "aece0b35-4276-5e8d-3ec3-2f0eae8048b7"
+  },
+  Inclusion = {
+    InclusionRandom = "5c169560-2732-c515-9e73-06ba1fd768f0",
+    InclusionPickedAtRandom2 = "32f45064-c5f2-465f-ac2d-5ad0c1ce9f59",
+    Inclusion2Random = "c30251ab-eab9-4ed8-bdf9-e1e816b7f12c",
+    InclusionEnd = "b5261e06-a89e-0ec8-bab9-2329ff72b6d1",
+    Inclusion_Laezel = "49c3c048-b5f7-466c-a996-d87cef44dde9",
+    EndInclusion_Laezel = "dcf82fba-01b2-44f1-acf6-64254ad40007",
+  },
   AddToParty = "4870b2cd-210c-0fdc-9c58-4d0142bdae29",
-  InclusionRandom = "5c169560-2732-c515-9e73-06ba1fd768f0",
-  InclusionPickedAtRandom2 = "32f45064-c5f2-465f-ac2d-5ad0c1ce9f59",
-  Inclusion2Random = "c30251ab-eab9-4ed8-bdf9-e1e816b7f12c",
-  InclusionEnd = "b5261e06-a89e-0ec8-bab9-2329ff72b6d1",
   InvitedToCampRan = "07c4d37e-fc82-4055-b768-167650be9956",
   RemoveFromPartyAfterDialog = "7a429beb-fbfb-fa8a-3a33-0349323ad11d",
   SetAllTags_ReallyOrigins = "227ba3e7-70b5-3de4-5b1d-add6a3f47101",
   SetOriginHostileToOtherOrigins = "8e8bb4ee-af06-4225-bed9-905b244f8780",
   PartOfTeam_Laezel = "57d93a1d-4400-4307-845f-25d9a250d332",
   ControlledByUser_Laezel = "8fe9c9e8-0885-4e69-ac41-e3f3d29d4349",
-  Inclusion_Laezel = "49c3c048-b5f7-466c-a996-d87cef44dde9",
-  EndInclusion_Laezel = "dcf82fba-01b2-44f1-acf6-64254ad40007",
-  -- States
-  Recruited = "e78c0aab-fb48-98e9-3ed9-773a0c39988d",
-  AskedAboutAllCurrentTeamMembers_Minthara = "6efc8f72-ace6-8414-bb77-862f9dd4d6a5",
-  CanBeKicked_Laezel = "b28fa32b-a878-49ba-860b-e44774908595",
-  HasMet_Laezel = "2e085b0e-8e64-fbad-a009-7ce8e5da8a11",
-  IsInParty_Laezel = "3ee6b1f2-24f4-4e85-b7dc-49060e6d2699",
+  States = {
+    Recruited = "e78c0aab-fb48-98e9-3ed9-773a0c39988d",
+    AskedAboutAllCurrentTeamMembers_Minthara = "6efc8f72-ace6-8414-bb77-862f9dd4d6a5",
+    CanBeKicked_Laezel = "b28fa32b-a878-49ba-860b-e44774908595",
+    HasMet_Laezel = "2e085b0e-8e64-fbad-a009-7ce8e5da8a11",
+    IsInParty_Laezel = "3ee6b1f2-24f4-4e85-b7dc-49060e6d2699",
+  },
   -- Events
   FirstCombat_Laezel = "def8ed0f-1bdf-4134-9412-d71ce2e33f75"
 }
