@@ -57,6 +57,10 @@ Globals.Flags.Camp = {
         ToldTruth = "90947fb6-287a-6af6-9240-f662bb5ebb9d",
         WantToKeep = "c67003cb-91e4-c471-bbfb-ff5f7effee25",
         WantToRemove = "aff14e41-52ed-c47d-4ace-e9079440fda6"
+      },
+      Shadowheart_IVB_CFM_LaezelFight = {
+        AskThemToStop = "0a46f413-fe80-944e-728a-4b765a70eea2",
+        Intervene = "5d2cbdf3-9fd3-88e9-9403-fd530d979dcc"
       }
     }
   }

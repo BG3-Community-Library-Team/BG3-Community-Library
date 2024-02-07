@@ -1,7 +1,7 @@
-Globals.Story = {}
+Globals.Flags.Story = {}
 
 -- Tutorial
-Globals.Story.Act0 = {
+Globals.Flags.Story.Act0 = {
   IntellectDevourerStopSpotting = "09055509-c996-4722-a3a7-ac3528b9659f",
   StartInclusion_GithGuide = "3e793a76-6764-4789-a239-ec34b99e41e3",
   EndInclusion_GithGuide = "6e2842a1-334e-4e5b-a974-104b98854cc5",
@@ -14,7 +14,7 @@ Globals.Story.Act0 = {
 }
 
 -- Act 1
-Globals.Story.Act1 = {
+Globals.Flags.Story.Act1 = {
   Grove = {
     HasMet = {
       NobleRefugee_Daughter = "0a3fadbc-c518-4b1c-4166-3c46a559d2a8",
@@ -35,12 +35,12 @@ Globals.Story.Act1 = {
   Underdark = {
     HasMet = {
       LoneDuergar = "00a5e74e-e0b6-f15f-e158-7dbf455cfb76"
-    }
+    },
   }
 }
 
 -- Act 2
-Globals.Story.Act2 = {
+Globals.Flags.Story.Act2 = {
   HasMet = {
   },
   State = {
@@ -50,17 +50,42 @@ Globals.Story.Act2 = {
 }
 
 -- Act 3
-Globals.Story.Act3 = {
+Globals.Flags.Story.Act3 = {
   State = {
     Beggar_IronThroneFirstHint = "511e2a50-8b45-49d5-870c-3e5f707623ef"
   }
 }
 
 -- Unknown
-Globals.Story.Unknown = {
+Globals.Flags.Story.Unknown = {
   PLA = {
     States = {
       DoubtingArtist_Dead = "0a27ed23-fc91-43ba-8a26-b7053f1f97e2"
     }
+  }
+}
+
+
+Globals.Flags.Story.Dialog = {
+  Act1 = {
+    Dialog = {
+      Grove = {},
+      BlightedVillage = {},
+      GoblinCamp = {},
+      Underdark = {
+        ElevatorGuard2_AD_Gnome = {
+          A = "5207090c-a37b-56b6-3da4-43a972b66ce1",
+          B = "0a70d51a-0aff-3173-23af-117ff3ae7e04",
+          C = "878ce5cf-6f04-e141-9c81-807e3da9acfb"
+        }
+      }
+    },
+
+  },
+  Act2 = {
+
+  },
+  Act3 = {
+
   }
 }

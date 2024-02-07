@@ -17,9 +17,14 @@ Globals.Flags.Dialog = {
     SpeakWithDead_Killer = "7827d93e-1619-402e-b9ec-3ec5d762b6ea",
     SpeakWithDead_PartySpokeWithDead = "b375c49f-b908-4794-b12c-bf2c7122e19e",
   },
+  -- Ensure Camp  and Story Dialog flags are available from Dialog Flags
+  Camp = Globals.Flags.Camp.Dialog,
+  Story = Globals.Flags.Story.Dialog,
   -- Specific Dialog References (.lsj)
-  GLO_PAD_Mirror = {
-    A = "f3ce07bc-2bb4-2094-af85-9ced30238c7c"
+  Global = {
+    PAD_Mirror = {
+      A = "f3ce07bc-2bb4-2094-af85-9ced30238c7c"
+    }
   },
   ['b170f4e0-b35a-7cac-d62e-9b9aafb32220'] = {
     A = "ac4c12fd-aa89-c9cf-d268-4f154d374a94",
@@ -30,6 +35,16 @@ Globals.Flags.Dialog = {
     A = "b8ef2dec-7765-7d7e-c3a3-0dd0b353baf7",
     B = "0a6c07b5-6573-f2f3-4da8-ab3b50e6abf6",
     C = "ef7c0869-99de-4e34-fbb0-81eb3239e3d9"
+  },
+  ['cae7f245-593f-352b-b7ad-cc424d7fbbc1'] = {
+    A = "70b2305e-8c09-44f5-66d7-879562d2dd16",
+    B = "81c87b77-c771-e940-b50b-df4597600aa7",
+    C = "0a32fef6-94e6-10b8-dd28-cca08cbbbc64"
+  },
+  ['4951c220-a67b-7317-3223-7b77d9a3dec9'] = {
+    A = "7346417f-a7c5-8c5f-d24a-a3b0925cbb7f",
+    B = "0a73fc14-dc3e-1746-6ae9-1bb4480732d9",
+    C = "bceba5cd-4424-08cd-5415-267456ce0b58"
   }
 }
 
