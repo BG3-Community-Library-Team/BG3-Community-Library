@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="AbilityLists">
+        <node id="root">
+            <children>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity Only"/>                
+                    <attribute id="Abilities" type="LSString" value="Dexterity"/>
+                    <attribute id="UUID" type="guid" value="64cf0b03-b00c-49b2-8582-41fab7ad6d14"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution Only"/>
+                    <attribute id="Abilities" type="LSString" value="Constitution"/>
+                    <attribute id="UUID" type="guid" value="6ab5ed88-2ff1-4a80-9d34-7d448d6cef40"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Intelligence Only"/>
+                    <attribute id="Abilities" type="LSString" value="Intelligence"/>
+                    <attribute id="UUID" type="guid" value="52f3e148-f63d-4ac3-8b68-eb019d7195cd"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Wisdom Only"/>
+                    <attribute id="Abilities" type="LSString" value="Wisdom"/>
+                    <attribute id="UUID" type="guid" value="ed0acfc5-df23-4be4-a021-27fa885b2109"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Physical"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution"/>
+                    <attribute id="UUID" type="guid" value="3f55bde1-be77-438b-b73a-78cb14d061b6"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Mental"/>
+                    <attribute id="Abilities" type="LSString" value="Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="c459bba4-b0a9-4fc2-9c48-5942b582fb0b"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
