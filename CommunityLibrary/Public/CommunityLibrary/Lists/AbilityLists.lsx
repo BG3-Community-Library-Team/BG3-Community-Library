@@ -4,35 +4,344 @@
     <region id="AbilityLists">
         <node id="root">
             <children>
+<!-- One Ability Score -->
+                <node id="AbilityList"> <!--Shared-->
+                    <attribute id="Comment" type="LSString" value="Strength Only"/>
+                    <attribute id="Abilities" type="LSString" value="Strength"/>
+                    <attribute id="UUID" type="guid" value="9b261df4-1d57-4b9e-b89a-72b4cd295302"/>
+                </node>
                 <node id="AbilityList">
-                    <attribute id="Comment" type="LSString" value="Dexterity Only"/>                
+                    <attribute id="Comment" type="LSString" value="Dexterity Only"/>
                     <attribute id="Abilities" type="LSString" value="Dexterity"/>
                     <attribute id="UUID" type="guid" value="64cf0b03-b00c-49b2-8582-41fab7ad6d14"/>
                 </node>
                 <node id="AbilityList">
                     <attribute id="Comment" type="LSString" value="Constitution Only"/>
                     <attribute id="Abilities" type="LSString" value="Constitution"/>
-                    <attribute id="UUID" type="guid" value="6ab5ed88-2ff1-4a80-9d34-7d448d6cef40"/>
+                    <attribute id="UUID" type="guid" value="5eb33dfa-ea3f-4039-9aa7-a47855f0a41a"/>
                 </node>
                 <node id="AbilityList">
                     <attribute id="Comment" type="LSString" value="Intelligence Only"/>
                     <attribute id="Abilities" type="LSString" value="Intelligence"/>
-                    <attribute id="UUID" type="guid" value="52f3e148-f63d-4ac3-8b68-eb019d7195cd"/>
+                    <attribute id="UUID" type="guid" value="8eccc335-e454-4c71-978b-10ca80120618"/>
                 </node>
                 <node id="AbilityList">
                     <attribute id="Comment" type="LSString" value="Wisdom Only"/>
                     <attribute id="Abilities" type="LSString" value="Wisdom"/>
-                    <attribute id="UUID" type="guid" value="ed0acfc5-df23-4be4-a021-27fa885b2109"/>
+                    <attribute id="UUID" type="guid" value="b329929d-506c-4878-ba92-434736474be7"/>
+                </node>
+                <node id="AbilityList"> <!-- Shared -->
+                    <attribute id="Comment" type="LSString" value="Charisma Only"/>
+                    <attribute id="Abilities" type="LSString" value="Charisma"/>
+                    <attribute id="UUID" type="guid" value="98acdfcb-3c74-4e1a-8707-5d6da747d430"/>
+                </node>
+<!-- Two Ability Scores -->
+    <!-- Strength And -->
+                <node id="AbilityList"> <!-- Shared -->
+                    <attribute id="Comment" type="LSString" value="Strength and Dexterity"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity"/>
+                    <attribute id="UUID" type="guid" value="499230af-5946-4680-a7ee-4d76d421f2ef"/>
+                </node>
+                <node id="AbilityList"> <!-- SharedDev -->
+                    <attribute id="Comment" type="LSString" value="Strength and Constitution"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution"/>
+                    <attribute id="UUID" type="guid" value="859878b3-9c3a-450d-a190-bc90707c9671"/>
+                </node>
+                <node id="AbilityList"> 
+                    <attribute id="Comment" type="LSString" value="Strength and Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Intelligence"/>
+                    <attribute id="UUID" type="guid" value="dc739bd9-3922-4ff3-bd4d-c0915ec7a0c9"/>
                 </node>
                 <node id="AbilityList">
-                    <attribute id="Comment" type="LSString" value="Physical"/>
+                    <attribute id="Comment" type="LSString" value="Strength and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="2e469264-71b8-49d4-9bfb-06b7cc7f0c9e"/>
+                </node>
+                <node id="AbilityList"> 
+                    <attribute id="Comment" type="LSString" value="Strength and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Charisma"/>
+                    <attribute id="UUID" type="guid" value="148e5771-3c63-41aa-99f8-bc43392d50d2"/>
+                </node>
+    <!-- Dexterity And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity and Constitution"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution"/>
+                    <attribute id="UUID" type="guid" value="4e26cf8b-d379-484d-99b7-79b2517e4148"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity and Intelligence"/>
+		  			<attribute id="Abilities" type="LSString" value="Dexterity, Intelligence" />
+		  			<attribute id="UUID" type="guid" value="d058dbdd-6e12-47d2-873c-e6e474adf4ae" />
+				</node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="717756a4-b84e-485e-aa9e-15e409dbf7d6"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Charisma"/>
+                    <attribute id="UUID" type="guid" value="98ad0c19-5493-4629-bd87-77efa8acd70b"/>
+                </node>
+    <!-- Constitution And -->
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution and Intelligence"/>
+		  			<attribute id="Abilities" type="LSString" value="Constitution, Intelligence" />
+		  			<attribute id="UUID" type="guid" value="1316bbec-88fd-4c24-bb7a-83a2f99a85fd" />
+				</node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution and Wisdom"/>
+		  			<attribute id="Abilities" type="LSString" value="Constitution, Wisdom" />
+		  			<attribute id="UUID" type="guid" value="acda1fb1-4255-4999-a588-5cd9686b482f" />
+				</node>
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution and Charisma"/>
+		  			<attribute id="Abilities" type="LSString" value="Constitution, Charisma" />
+		  			<attribute id="UUID" type="guid" value="2dad6a94-0924-4472-a618-8305f243a07b" />
+				</node>
+    <!-- Intelligence And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Intelligence and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="52e69c73-a3c5-4e54-b2e3-68b4662e7844"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Intelligence and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="cf68318d-ec65-4b37-a463-0c46e426a292"/>
+                </node>
+    <!-- Wisdom And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Wisdom and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="f87fc239-4cab-48bb-8df2-6d272fdacd4f"/>
+                </node>
+<!-- Three Ability Scores -->
+    <!-- Strength And -->
+        <!-- ... Dexterity And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Dexterity and Constitution"/>
                     <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution"/>
                     <attribute id="UUID" type="guid" value="3f55bde1-be77-438b-b73a-78cb14d061b6"/>
                 </node>
                 <node id="AbilityList">
-                    <attribute id="Comment" type="LSString" value="Mental"/>
+                    <attribute id="Comment" type="LSString" value="Strength, Dexterity and Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Intelligence"/>
+                    <attribute id="UUID" type="guid" value="2474447b-34ca-4465-9113-5621be5490b5"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Dexterity and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="96d47493-bc3f-4b40-bf36-6b663027268b"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Dexterity and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Charisma"/>
+                    <attribute id="UUID" type="guid" value="0850b721-27f5-4484-af85-7bd2362b24b2"/>
+                </node>
+        <!-- ... Constitution And -->
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Constitution and Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Intelligence"/>
+                    <attribute id="UUID" type="guid" value="13c164b1-57e5-4686-b448-3c15b1dac2e5"/>
+                </node>
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Constitution and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="ba68a9e6-d68a-4350-a3e1-24540036030d"/>
+                </node>
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Constitution and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Charisma"/>
+                    <attribute id="UUID" type="guid" value="11f46bf2-e1c1-4127-b4fb-b3f29c3e4674"/>
+                </node>
+        <!-- ... Intelligence And -->
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Intelligence and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="9b8b4532-7728-4424-9738-01131c45348f"/>
+                </node>
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Intelligence and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="bc46e9c0-1913-4498-8e3e-97b396ea1ddb"/>
+                </node>
+        <!-- ... Wisdom And -->
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Strength, Wisdom and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="2290ac94-919b-496c-93a1-891dd93884d5"/>
+                </node>
+    <!-- Dexterity And -->
+        <!-- ... Constitution And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity, Constitution and Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Intelligence"/>
+                    <attribute id="UUID" type="guid" value="031ef7de-bd6e-43b7-95b1-96adeaab853a"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity, Constitution and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="8b1996a5-396c-4ebf-a939-1b3c4c7046b1"/>
+                </node>
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity, Constitution and Charisma"/>
+		  			<attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Charisma" />
+		  			<attribute id="UUID" type="guid" value="14d419f5-8195-4792-a23d-43a178cb44b2" />
+				</node>
+        <!-- ... Intelligence And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity, Intelligence and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="76d47685-3d85-4825-9b01-924aae52edd0"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity, Intelligence and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="26a7b073-594c-4cf6-8c96-ea9a8f64fdbb"/>
+                </node>
+        <!-- ... Wisdom And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Dexterity, Wisdom and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="2430ff57-6552-4c9e-814a-7c80b940abb7"/>
+                </node>
+    <!-- Constitution And -->
+        <!-- ... Intelligence And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution, Intelligence and Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value=" Constitution, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="56ebd805-d40c-4c73-bbc6-bd2086637c82"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution, Intelligence and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Constitution, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="6928a05a-c450-4680-a5cd-c819914e45ec"/>
+                </node>
+        <!-- ... Wisdom And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Constitution, Wisdom and Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Constitution, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="5aaca0f8-071c-4f54-9859-8ac34e64f076"/>
+                </node>
+    <!-- Intelligence And -->
+        <!-- ... Wisdom And -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Intelligence, Wisdom and Charisma"/>
                     <attribute id="Abilities" type="LSString" value="Intelligence, Wisdom, Charisma"/>
-                    <attribute id="UUID" type="guid" value="c459bba4-b0a9-4fc2-9c48-5942b582fb0b"/>
+                    <attribute id="UUID" type="guid" value="c2d776d3-b611-44e1-989f-32979ae1f067"/>
+                </node>
+<!-- Four Ability Scores -->
+    <!-- Not Charisma -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Charisma or Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Intelligence"/>
+                    <attribute id="UUID" type="guid" value="8114bc10-263b-4dc2-820d-87ec182b462b"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Charisma or Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="1c3736da-5830-4bf0-8ef5-a803a4a7e06b"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Charisma or Constitution"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="4b28066a-2708-42a4-a3a1-59118e6f7a1e"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Charisma or Dexterity"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="ef3fe389-095b-406e-8a76-9ed7b2bbff27"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Charisma or Strength"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="d80e5db1-090e-41e4-a0a2-5f479f12870b"/>
+                </node>
+    <!-- Not Wisdom -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Wisdom or Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Charisma"/>
+                    <attribute id="UUID" type="guid" value="6df5dcce-de73-4557-9e9e-12f42c254c02"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Wisdom or Constitution"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="0a64f5e2-133f-4c90-8ac5-969d2891190d"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Wisdom or Dexterity"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="63fc3c9c-7230-4abc-9095-e5ab78117551"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Wisdom or Strength"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="859b4bcf-ac75-4c1e-8182-724fe05d4c57"/>
+                </node>
+    <!-- Not Intelligence -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Intelligence or Constitution"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="c4468f04-d1bc-48a6-9442-eb32117bdafd"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Intelligence or Dexterity"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="dab9f7c7-f78c-4907-8521-327f2c6ac210"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Intelligence or Strength"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="49a59aad-6d7c-4b08-aabc-c42516337ea9"/>
+                </node>
+    <!-- Not Constitution -->
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Constitution or Dexterity"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="f4848cb2-7c11-44e3-afc1-422c8e20acbf"/>
+                </node>
+				<node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Constitution or Strength"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="f63952ae-6cc5-4243-9abc-5ed95adff1e5"/>
+                </node>
+<!-- Five Ability Scores -->
+                <node id="AbilityList"> <!-- Shared -->
+                    <attribute id="Comment" type="LSString" value="Not Charisma"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Intelligence, Wisdom"/>
+                    <attribute id="UUID" type="guid" value="3d6edcc3-4ef7-419e-8891-187262cfb07e"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Wisdom"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Intelligence, Charisma"/>
+                    <attribute id="UUID" type="guid" value="0eb52117-e1a8-49cb-9110-dbd8c8f4c2bd"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Intelligence"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="8caebb0b-4e3c-40e9-853c-ee5a0c4ec8d4"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Constitution"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="2e49507d-1eef-4381-bcb2-66ccdc6e6a16"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Dexterity"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Constitution, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="8b3998c2-6882-43fc-8942-0a4b69608a32"/>
+                </node>
+                <node id="AbilityList">
+                    <attribute id="Comment" type="LSString" value="Not Strength"/>
+                    <attribute id="Abilities" type="LSString" value="Dexterity, Constitution, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="11c61906-ab95-4ef2-ad8c-1a6932fe4dca"/>
+                </node>
+<!-- All Ability Scores -->
+                <node id="AbilityList"> <!-- Shared -->
+                    <attribute id="Comment" type="LSString" value="Complete Package"/>
+                    <attribute id="Abilities" type="LSString" value="Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma"/>
+                    <attribute id="UUID" type="guid" value="b9149c8e-52c8-46e5-9cb6-fc39301c05fe"/>
                 </node>
             </children>
         </node>
