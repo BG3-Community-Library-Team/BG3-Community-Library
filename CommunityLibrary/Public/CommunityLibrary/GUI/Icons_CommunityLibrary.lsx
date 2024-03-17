@@ -107,7 +107,7 @@
           <attribute id="V2" type="float" value="0.03125"/>
         </node>
         <node id="IconUV">
-          <attribute id="MapKey" type="FixedString" value=""/>
+          <attribute id="MapKey" type="FixedString" value="CL_Icons_OneDnD_StarryWisp_Glitter"/>
           <attribute id="U1" type="float" value="0.375"/>
           <attribute id="U2" type="float" value="0.40625"/>
           <attribute id="V1" type="float" value="0.0"/>
