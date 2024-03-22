@@ -9,6 +9,18 @@
                     <attribute id="Passives" type="LSString" value="CL_Passive_OneDnD_Feat_Alert_LevelOne, CL_Passive_OneDnD_Feat_LightlyArmored_LevelOne, CL_Passive_OneDnD_Feat_SavageAttacker_LevelOne, CL_Passive_OneDnD_Feat_Tough_LevelOne" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0000-fea750000001" />
                 </node>
+FightingInitiate
+Strike_of_the_Giants
+
+MetamagicAdept
+Eldritch_Adept
+
+
+Healer
+GiftOfTheChromaticDragon
+GiftOfTheMetallicDragon
+MagicInitiateArtificer
+Poisoner
             </children>
         </node>
     </region>
