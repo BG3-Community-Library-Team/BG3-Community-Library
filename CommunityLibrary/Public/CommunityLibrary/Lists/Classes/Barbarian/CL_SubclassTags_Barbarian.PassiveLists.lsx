@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Comment" type="LSString" value="Barbarian Subclass Tags" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_SubclassTags_Barbarian,CL_Passive_SubclassTags_BarbarianBerserker" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-1157-0100-c00200000000" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -14,6 +14,156 @@
                     <attribute id="Text" type="TranslatedString" handle="h777cd9afg6335g406dg95dbgc5c8c3c0641f" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-0000-7737-0000-c11a125ca1ed"/>
                 </node>
+<!-- Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="No Extra Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h64d30700e204408e8a83a1f15872c983af25" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-ca1100000000"/>
+                </node>
+    <!-- Class Tags -->
+        <!-- Artificer Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Artificer Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h4176c1b1dca04f20ada953b2e2c534dd5dgd" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00100000000"/>
+                </node>
+        <!-- Barbarian Tags -->                
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Barbarian Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hd19320e50d1c414c93a8f06310a2c8c3d705" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Barbarian - Berserker Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hfef1fc05a5d54d2dbb6c34183d6f5cb5a16d" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c00200000000"/>
+                </node>
+        <!-- Bard Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Bard Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h14bea36cad9e40ddb05ed62d4be2b10c4312" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00300000000"/>
+                </node>
+        <!-- Cleric Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Cleric Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h15a0bee3044b425f98201ebd2fab0125a7a5" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00400000000"/>
+                </node>
+        <!-- Druid Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Druid Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hf76b3fe32b58487a920ad99e221b4b64aaf2" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00500000000"/>
+                </node>
+        <!-- Fighter Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Fighter Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h2544d5a26b20414f9dda5c1555e5bab6gbec" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00600000000"/>
+                </node>
+        <!-- Monk Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Monk Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h66fb867493e94b3484c3aaaa866959ab8f8d" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00700000000"/>
+                </node>
+        <!-- Paladin Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Paladin Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h1fb9c651227642648a52e8b943e8db57231e" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00800000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Paladin - Ancients Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h7cc785c554eb4144a80ff407fd8a344535d0" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c00800000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Paladin - Devotion Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h9f1e237a617343c18d3279f6ade3ec55bg6c" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-c00800000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Paladin - Vengence Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hfb686671e08a414aacef54df345c3b4b40f8" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0103-c00800000000"/>
+                </node>
+        <!-- Ranger Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Ranger Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h84de6ce58c934591be31d2773c3cf503734a" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c00900000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Ranger - Beast Master Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h5e5a83f354cc405d9f95ff09c7e5347647b3" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c00900000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Ranger - Gloom Stalker Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h847c8d0ccee144899e4d2bcdfcdf9eb32b30" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-c00900000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Ranger - Hunter Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h069d6c3a583a46bf9522ef65daf1ee44gdbf" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0103-c00900000000"/>
+                </node>              
+        <!-- Rogue Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Rogue Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hdde0ccda54bf40f38193e0632d939b72c435" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c01000000000"/>
+                </node>
+        <!-- Sorcerer Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Sorcerer Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h663961c9d2fc4a28b508b7d9669c183d5c24" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c01100000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Sorcerer - Draconic Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="heab5a64ed5b643309172733310f4f82c5c59" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c01100000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Sorcerer - Wild Magic Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h7f3fa1f626ea4b8bb29f4fef2f8273daacge" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-c01100000000"/>
+                </node>
+        <!-- Warlock Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Warlock Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h160ede52e1974c9ba8030fa86bb151ba7d9f" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c01200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Warlock - Archfey Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hd5f923744ea84cc4bfaf3a8431594ab3e88a" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c01200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Warlock - Fiend Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hf14b691bd709404bac2e453806df48d5f01b" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-c01200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Warlock - Great Old One Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h4081d7aafeb140998c135057d054066d76dg" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0103-c01200000000"/>
+                </node>
+        <!-- Wizard Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Wizard Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h5c50cffd1f3640fc9dfcf007b2fbcd81c132" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-c01300000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Wizard - Necromancy Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h22b3e0f446f848708287f151aa782d97ec94" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c01300000000"/>
+                </node>
             </children>
         </node>
     </region>

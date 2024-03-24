@@ -1,0 +1,19 @@
+new entry "CL_Passive_SubclassTags_Wizard"
+type "PassiveData"
+data "DisplayName" "h794117b8g3a50g4399gb755gc446b1d0837b;2"
+data "Description" "h03d0c474gb68cg43d0g97f4g784be26d9f90;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-ca1100000000"
+data "Icon" "PassiveFeature_Generic"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+//WIZARD
+//6fe3ae27-dc6c-4fc9-9245-710c790c396c
+
+new entry "CL_Passive_SubclassTags_WizardNecromancy"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Wizard"
+data "DisplayName" "h146a8bd0g0d23g42abg8abfg21f88f1a349d;2"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c01300000000"
+data "Icon" "PassiveFeature_UndeadThralls_BetterSummons"
+data "Boosts" "Tag(WIZARD_NECROMANCY)"
+//WIZARD_NECROMANCY
+//90d7fbd5-1264-4bd6-93ba-67c2116e6ab0

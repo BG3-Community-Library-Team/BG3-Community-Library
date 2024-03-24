@@ -1,0 +1,31 @@
+new entry "CL_Passive_SubclassTags_Sorcerer"
+type "PassiveData"
+data "DisplayName" "hdd1386fag3caeg43acg8516g835647d8742f;2"
+data "Description" "h7f85c89egc746g418dg9561g59b0098aa505;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-ca1100000000"
+data "Icon" "PassiveFeature_Generic"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+//SORCERER
+//18266c0b-efbc-4c80-8784-ada4a37218d7
+
+new entry "CL_Passive_SubclassTags_SorcererDraconic"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Sorcerer"
+data "DisplayName" "h26039350ge15bg4129gab5cgd22a82d66cc0;1"
+data "Description" "hb16a5c06g0b57g40f9gadf1g3108bbd422f5;2"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0101-c01100000000"
+data "Icon" "PassiveFeature_DraconicResilience"
+data "Boosts" "Tag(SORCERER_DRACONIC)"
+//SORCERER_DRACONIC
+//f6d0e042-5b90-41d8-ab4a-a2239e27a13e
+
+new entry "CL_Passive_SubclassTags_SorcererWildMagic"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Sorcerer"
+data "DisplayName" "h442bad13g41f4g42d7gaa17gfd065b75e32f;1"
+data "Description" "hcd5a8c8dg87f8g447fgbbe4g14d5cd6d83c2;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0102-c01100000000"
+data "Icon" "PassiveFeature_WildMagicSurge"
+data "Boosts" "Tag(SORCERER_WILDMAGIC)"
+//SORCERER_WILDMAGIC
+//885f8675-e400-4d53-924d-6204ff1d9558

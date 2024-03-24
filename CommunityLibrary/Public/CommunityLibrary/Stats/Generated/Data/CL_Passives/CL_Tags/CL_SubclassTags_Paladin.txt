@@ -1,0 +1,69 @@
+new entry "CL_Passive_SubclassTags_Paladin"
+type "PassiveData"
+data "DisplayName" "h9eb22b0bg160eg46c9gb638gf76f71cdce60;2"
+data "Description" "hec08de4eg0d6bg4250g8531gcee36b16724e;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-ca1100000000"
+data "Icon" "PassiveFeature_Generic"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+//PALADIN
+//6d85ab2d-5c23-498c-a61e-98f05a00177a
+
+new entry "CL_Passive_SubclassTags_PaladinAncients"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Paladin"
+data "DisplayName" "h26fe3b00g79b5g4150g9647gbfea0f24acc9;2"
+data "Description" "h7f1a984fgbf47g443fg904dgc1629c44d642;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0101-c00800000000"
+data "Icon" "Spell_Divination_SpeakWithAnimals"
+data "Boosts" "Tag(PALADIN_ANCIENTS)"
+//PALADIN_ANCIENTS
+//7c89622b-4194-41df-b2ff-145a5056ee49
+
+new entry "CL_Passive_SubclassTags_PaladinDevotion"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Paladin"
+data "DisplayName" "h811c603cgad7ag4fe6gae98g8373bfcf1649;2"
+data "Description" "h87c4c0a8g61cag47bfg83f0ge3513c8c077b;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0102-c00800000000"
+data "Icon" "Action_Paladin_SacredWeapon"
+data "Boosts" "Tag(PALADIN_DEVOTION)"
+//PALADIN_DEVOTION
+//2de0a4fc-5831-4439-94d3-a7ff9b7aacf6
+
+new entry "CL_Passive_SubclassTags_PaladinVengence"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Paladin"
+data "DisplayName" "hb3a37d8ag4dc7g4ff4g8ac2gcceea84b810e;2"
+data "Description" "h1aed9648g80f5g41eeg8edbgf7c3e622ece9;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0103-c00800000000"
+data "Icon" "PassiveFeature_RelentlessAvenger"
+data "Boosts" "Tag(PALADIN_VENGEANCE)"
+//PALADIN_VENGEANCE
+//a1aa47b2-4d0a-4c97-931b-2c53353d5b23
+
+new entry "CL_Passive_SubclassTags_PaladinOathbreaker"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Paladin"
+data "DisplayName" "h05c087bdgd21ag4de6g8300gf02733bd47f9;2"
+data "Description" "hdb1f134bg6d21g423egb76aga69bcf8448f7;1"
+data "TooltipPermanentWarnings" ""
+data "Icon" "Action_Paladin_DreadfulAspect"
+data "Boosts" "Tag(OATHBREAKER)"
+//OATHBREAKER
+//c7bdcdf2-15e7-456e-adf1-21dda3172e18
+//Unsure how it will react without base subclass tag as well.
+
+//OATHBREAKER_ANCIENTS
+//d84a8a0b-b648-464c-9bd5-1ed9b965da2a
+//hd3d471e4g80eag4be7ga23eg8cc07e2e27a3;2
+//hc230d5e2g8d38g4541ga8fbgf0f061d7c093;1
+
+//OATHBREAKER_DEVOTION
+//d274b482-4add-4f36-a0a4-a94740f6630e
+//h59246a1cg1c68g4180gbe7fg6cecc0c2e3e2;2
+//h49d6335cg5534g4515gbe94gfb5fa6a67f05;1
+
+//OATHBREAKER_VENGEANCE
+//732db1ed-740c-4af3-8a08-7f135d3f703c
+//h3552581cgda1cg4652ga4bcg27cb45ae3926;2
+//h4961d421g8c10g4415g915fg01d1edd1a0c1;1
