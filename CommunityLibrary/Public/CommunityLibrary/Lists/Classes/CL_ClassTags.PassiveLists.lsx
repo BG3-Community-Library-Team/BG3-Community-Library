@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Comment" type="LSString" value="Class Tags" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_ClassTags,CL_Passive_ClassTags_Barbarian,CL_Passive_ClassTags_Bard,CL_Passive_ClassTags_Cleric,CL_Passive_ClassTags_Druid,CL_Passive_ClassTags_Fighter,CL_Passive_ClassTags_Monk,CL_Passive_ClassTags_Paladin,CL_Passive_ClassTags_Ranger,CL_Passive_ClassTags_Rogue,CL_Passive_ClassTags_Sorcerer,CL_Passive_ClassTags_Warlock,CL_Passive_ClassTags_Wizard" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-1157-0100-ca1100000000" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
