@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="PassivesAdded" type="LSString" value="CL_Passive_OneDnD_DragonbornAncestry;CL_Passive_RacialProficiency;CL_Passive_OneDnD_DragonbornAncestry_Acid;CL_Passive_OneDnD_DragonbornAncestry_Cold;CL_Passive_OneDnD_DragonbornAncestry_Fire;CL_Passive_OneDnD_DragonbornAncestry_Poison;CL_Passive_OneDnD_DragonbornAncestry_Lightning;CL_Passive_OneDnD_DragonbornAncestry_Psychic;CL_Passive_OneDnD_DragonbornAncestry_Force;CL_Passive_OneDnD_DragonbornAncestry_Radiant;CL_Passive_OneDnD_DragonbornAncestry_Necrotic;CL_Passive_OneDnD_DragonbornAncestry_Thunder"/>
+          <attribute id="Selectors" type="LSString" value="SelectPassives(c1cfc0d3-1dad-1157-0100-120100000001,1,CL_OneDnD_DragonbornAncestor)"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value="cabc4d46-f08e-4a48-8937-0bd1067ab43d"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

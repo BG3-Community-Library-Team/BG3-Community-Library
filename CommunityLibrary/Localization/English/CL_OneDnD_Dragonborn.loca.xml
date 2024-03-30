@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h46709538048e4850bc20e6e418c22cc93g29" version="1">Draconic Ancestry</content>
+	<content contentuid="hd06f3a93ab0d4f89816827fc30394d1ec692" version="1">Your lineage stems from a dragon progenitor. Your choice affects your Breath Weapon and Damage Resistance traits. </content>
+
+ <!-- Breath Weapon -->
+	<content contentuid="hcc082e3ab0e4423a8984ac56c07fd421092g" version="1">Breath Weapon</content>
+	<content contentuid="hd19748935d624161a42bf98c41d7e2cb18b2" version="1">An exhalation of magical energy in either a [1] cone or a [2] column that is [3] wide.</content>
+  <!-- Acid -->
+	<content contentuid="h661500e71136429087854eb46fbbcb2ef400" version="1">Draconic Ancestor: Acid</content>
+	<content contentuid="ha1a2ae1799ac45218ad8861a4ec57e138394" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Racial Proficency&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Acid_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Acid_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Acid damage.</content>
+	<content contentuid="h278ea4be72274637bad697d82ab10da16d8c" version="1">Acid Breath: Cone </content>
+	<content contentuid="h9d246eaa368d49eeb9e1ae135451c49ba599" version="1">Spew forth a cone of acid. </content>
+	<content contentuid="h7e0e5473e5da47c5a5a1995b3b0d59789e3a" version="1">Acid Breath: Column </content>
+	<content contentuid="hc1f658916e364acca08d5e7fd3d2f300d381" version="1">Spew forth a column of acid. </content>
+	<content contentuid="haa84b6e777334897933b104821cd7fc2g16f" version="1">Draconic Ancestor: Black</content>
+	<content contentuid="hd6abed9f09ac4317aa9d34a5ff76140bgbb8" version="1">Draconic Ancestor: Copper</content>
+  <!-- Cold -->
+	<content contentuid="h1c35843e9c3441c39d0856a8fe820cd308c5" version="1">Draconic Ancestor: Cold</content>
+	<content contentuid="h608bc8fe9ec345a381d262dc08dfcae9e39c" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Cold_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Cold_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Cold damage.</content>
+	<content contentuid="h3f8fef1f00d74d62adafa9227fbb6b81e28g" version="1">Cold Breath: Cone </content>
+	<content contentuid="h5c1c8067374e4b449d44123599a1ad6cb3c6" version="1">Spew forth a cone of Cold. </content>
+	<content contentuid="h658116fd0eca450088cc41cf1cc859f8221c" version="1">Cold Breath: Column </content>
+	<content contentuid="h63ea654b81ae402bb97adeb7d508cece1153" version="1">Spew forth a column of Cold. </content>
+	<content contentuid="hfc6f1e6b79f84d54bcb17e100ffd6ff84ca5" version="1">Draconic Ancestor: Silver</content>
+	<content contentuid="h321639588e7e4edd9889ac3c1982d35e948a" version="1">Draconic Ancestor: White</content>
+  <!-- Fire -->
+	<content contentuid="h6574ad6b29ed4ee29df2eb2ff7926b7cc42f" version="1">Draconic Ancestor: Fire</content>
+	<content contentuid="hb63e2bf71aee4ecc8da3120f6f16681749ea" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Fire_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Fire_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage.</content>
+	<content contentuid="h21802a3a5bc144c89f129a287fa738ebg50f" version="1">Fire Breath: Cone </content>
+	<content contentuid="h1c317599803740f5ab4c3e6f34e3c1704a37" version="1">Spew forth a cone of Fire. </content>
+	<content contentuid="h558527e34b374619bee0925bd80719c95972" version="1">Fire Breath: Column </content>
+	<content contentuid="hf7b3821d9b054c4fa0a716549c7aec4e6367" version="1">Spew forth a column of Fire. </content>
+	<content contentuid="h5325e61744dc473d85092b5bbb88b73225d0" version="1">Draconic Ancestor: Brass</content>
+	<content contentuid="h38466255d2cd48b3a90995976f2ccecef925" version="1">Draconic Ancestor: Gold</content>
+	<content contentuid="h69e3f00191d1404db63bbc30d3b958a9gdd0" version="1">Draconic Ancestor: Red</content>
+  <!-- Force -->
+	<content contentuid="hc55cb5e3ab4d4d7cb72ce2c13da3ad0d3f04" version="1">Draconic Ancestor: Force</content>
+	<content contentuid="h3b045afc40084ec6bee3dd38c8dfb722e8ce" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Force_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Force_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Force damage.</content>
+	<content contentuid="hc79c1e33618a4d4fb778de1a317cc10eb3e0" version="1">Force Breath: Cone </content>
+	<content contentuid="h48fa7559e6e449bda9735e324c92a685g113" version="1">Spew forth a cone of Force energy. </content>
+	<content contentuid="h26e07e62540b497e9d0508e8f29efe4bbdb6" version="1">Force Breath: Column </content>
+	<content contentuid="h39db440dc7214be0851710a494652ec0eec6" version="1">Spew forth a column of Force energy. </content>
+	<content contentuid="hf32ff55ed1d1463989ed5d722d40e6f57c6a" version="1">Draconic Ancestor: Amethyst</content>
+  <!-- Lightning -->
+	<content contentuid="hb18c6daa2bdf435caf80ea27d7c99f0c195f" version="1">Draconic Ancestor: Lightning</content>
+	<content contentuid="hb33135d709994e47ae6bc4b916b7ea9a04fe" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Lightning_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Lightning_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Lightning damage.</content>
+	<content contentuid="h94ecdf004e31471d8739586c1eef596ef9f7" version="1">Lightning Breath: Cone </content>
+	<content contentuid="h85fe5474782948dba7a6c1fafbdf7db93gg8" version="1">Spew forth a cone of Lightning. </content>
+	<content contentuid="h74cd7fbabb50477fbab9adecc7221b1b16dc" version="1">Lightning Breath: Column </content>
+	<content contentuid="hbd54264f2b0b4a32ab46e5527d527ad25abe" version="1">Spew forth a column of Lightning. </content>
+	<content contentuid="h295bf28936504b2a822d28f58a7cd24ff3ba" version="1">Draconic Ancestor: Blue</content>
+	<content contentuid="he627473f3e0c42f6b0eb0af141fd5f86agba" version="1">Draconic Ancestor: Bronze</content>
+  <!-- Necrotic -->
+	<content contentuid="h160f9f39261742488334a54f04ce3b5d331d" version="1">Draconic Ancestor: Necrotic</content>
+	<content contentuid="hc1002748165e45eca6c7905f42a0fd69g633" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Necrotic_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Necrotic_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Necrotic damage.</content>
+	<content contentuid="h028265a70feb47b98e3414c3a15141cbe581" version="1">Necrotic Breath: Cone </content>
+	<content contentuid="hcd102737cab3485b8910d3bbc3d0a33796ad" version="1">Spew forth a cone of Necrotic energy. </content>
+	<content contentuid="h41b64775f7e547dfbd252e26f5c760b7cbc7" version="1">Necrotic Breath: Column </content>
+	<content contentuid="hd032bd4b05ae4874aad89d4e5bb43e61267d" version="1">Spew forth a column of Necrotic energy. </content>
+	<content contentuid="h401b83c458c54a38bc36e2cac5361845b054" version="1">Draconic Ancestor: Topaz</content>
+  <!-- Poison -->
+	<content contentuid="h42feb6b634014380b301f13c2f76fa5105fa" version="1">Draconic Ancestor: Poison</content>
+	<content contentuid="h2a34fd8121cc4ae881d131fcc318246d4efg" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Poison_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Poison_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h63df35480d354d7dad78629b220368245d43" version="1">Poison Breath: Cone </content>
+	<content contentuid="hf74255e0736a47c7b6dc76eef392a83591be" version="1">Spew forth a cone of Poison. </content>
+	<content contentuid="h9e40b397f2174ea39b7c76aa4607e86468e8" version="1">Poison Breath: Column </content>
+	<content contentuid="h653a22509aae47df875a92e5be05192e3b5g" version="1">Spew forth a column of Poison. </content>
+	<content contentuid="hf71f20aefad74a9fb0ff3fcda05dd2112c19" version="1">Draconic Ancestor: Green</content>
+  <!-- Psychic -->
+	<content contentuid="hd30319493452420692125c81187f70f2c96d" version="1">Draconic Ancestor: Psychic</content>
+	<content contentuid="h940f5d844a834ea28318f1716085018e4397" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Psychic_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Psychic_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Psychic damage.</content>
+	<content contentuid="hc04cfa330c3a484a99e06eaf2ee2ed8ag1e4" version="1">Psychic Breath: Cone </content>
+	<content contentuid="h420f546627d8485aa0ae481497867d07fcb3" version="1">Spew forth a cone of Psychic energy. </content>
+	<content contentuid="ha18d94f0c6424a90a02b4562fb09e1f351d4" version="1">Psychic Breath: Column </content>
+	<content contentuid="h862ce71ce6a846d2a49f182e21b4f967g7f1" version="1">Spew forth a column of Psychic energy. </content>
+	<content contentuid="hf1e6bd0815734fecab271701f6de2ea6ag95" version="1">Draconic Ancestor: Emerald</content>
+  <!-- Radiant -->
+	<content contentuid="h082ba81f71f44e5393ccbbe4803f6f441087" version="1">Draconic Ancestor: Radiant</content>
+	<content contentuid="ha59ddcd69427470cab62fbace1d219dd0b41" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Radiant_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Radiant_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="ha62b3a02ecf94479ae837d4ff5c76ea1b623" version="1">Radiant Breath: Cone </content>
+	<content contentuid="h37836329bcef4c96a692e9afe56c37da37be" version="1">Spew forth a cone of Radiant energy. </content>
+	<content contentuid="hb9dd599a19b64a8888fd9e7f459c153fa17g" version="1">Radiant Breath: Column </content>
+	<content contentuid="he77b08d4e8c54dfba14980e27efc31d6e2d3" version="1">Spew forth a column of Radiant energy. </content>
+	<content contentuid="h409af7ed3521427493fcb982a44cc589976b" version="1">Draconic Ancestor: Crystal</content>
+  <!-- Thunder -->
+	<content contentuid="hcb19dce519404ffea35bef0537f1bfa5b12d" version="1">Draconic Ancestor: Thunder</content>
+	<content contentuid="h682bc5783c454fde92ff32fdc3516dc90c04" version="1">Your lineage stems from a dragon progenitor. &lt;br&gt;You can use a &lt;LSTag Type="ActionResource" Tooltip="CL_RacialProficiency"&gt;Proficency Point&lt;/LSTag&gt; once per turn to replace one of your attacks with a Breath Weapon as either a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Thunder_Cone"&gt;Cone&lt;/LSTag&gt; or a &lt;LSTag Type="Spell" Tooltip="CL_Zone_OneDnD_BreathWeapon_Thunder_Line"&gt;Column&lt;/LSTag&gt;. &lt;br&gt;In addition, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Thunder damage.</content>
+	<content contentuid="h90ac1100749e47eaa6a449e69d66bed86248" version="1">Thunder Breath: Cone </content>
+	<content contentuid="hb7c3e55921f949558eba99efd057e6e49369" version="1">Spew forth a cone of Thunder energy. </content>
+	<content contentuid="ha2df695d144e482daca65f0934954fecb9b0" version="1">Thunder Breath: Column </content>
+	<content contentuid="h0974303d5f7243fb910e7be175a0da0a9de5" version="1">Spew forth a column of Thunder energy. </content>
+	<content contentuid="hc13382fba6a6460b9be08f9bfae73329b36e" version="1">Draconic Ancestor: Saphire</content>
+
+	<content contentuid="" version="1"></content>
+</contentList>

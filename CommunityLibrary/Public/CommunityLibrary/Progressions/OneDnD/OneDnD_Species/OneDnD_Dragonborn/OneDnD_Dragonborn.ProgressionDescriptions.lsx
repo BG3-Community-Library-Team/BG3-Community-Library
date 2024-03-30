@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="322"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hd06f3a93ab0d4f89816827fc30394d1ec692" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h46709538048e4850bc20e6e418c22cc93g29" version="1"/>
+                    <attribute id="ProgressionId" type="guid" value="cabc4d46-f08e-4a48-8937-0bd1067ab43d"/>
+                    <attribute id="SelectorId" type="LSString" value="CL_OneDnD_DragonbornAncestor"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-d35c-0100-120100000001"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
