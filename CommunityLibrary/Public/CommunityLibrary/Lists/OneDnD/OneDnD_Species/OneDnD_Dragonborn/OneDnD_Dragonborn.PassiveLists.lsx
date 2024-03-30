@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Comment" type="LSString" value="Dragonborn Ancestry Selection"/>
+                    <attribute id="Passives" type="LSString" value="CL_Passive_OneDnD_DragonbornAncestry_Black,CL_Passive_OneDnD_DragonbornAncestry_Blue,CL_Passive_OneDnD_DragonbornAncestry_Brass,CL_Passive_OneDnD_DragonbornAncestry_Bronze,CL_Passive_OneDnD_DragonbornAncestry_Copper,CL_Passive_OneDnD_DragonbornAncestry_Gold,CL_Passive_OneDnD_DragonbornAncestry_Green,CL_Passive_OneDnD_DragonbornAncestry_Red,CL_Passive_OneDnD_DragonbornAncestry_Silver,CL_Passive_OneDnD_DragonbornAncestry_White,CL_Passive_OneDnD_DragonbornAncestry_Amethyst,CL_Passive_OneDnD_DragonbornAncestry_Crystal,CL_Passive_OneDnD_DragonbornAncestry_Emerald,CL_Passive_OneDnD_DragonbornAncestry_Sapphire,CL_Passive_OneDnD_DragonbornAncestry_Topaz"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0100-120100000001"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

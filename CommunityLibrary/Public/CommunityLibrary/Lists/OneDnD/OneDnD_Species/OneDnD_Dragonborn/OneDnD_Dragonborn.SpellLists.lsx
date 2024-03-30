@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Dragonborn Breath"/>
+                    <attribute id="Spells" type="LSString" value="CL_Zone_OneDnD_BreathWeapon"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0100-120100000000"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
