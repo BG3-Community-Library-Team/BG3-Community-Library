@@ -18,13 +18,22 @@ data "SpellFlags" "IsHarmful;CanAreaDamageEvade;IsLinkedSpellContainer"
 //data "UseCosts" "ActionPoint:1;CL_RacialProficiency:1"
 // Removed for easier Testing
 // data "Cooldown" "OncePerTurn"
+// Line
+// Action_Mag_GoadingBlast
+// Action_MagicItem_TelekineticBolt
+// Action_WildMagic_TurnMagic
+// GenericIcon_DamageType_Force
+// 
+// Cone
+// Action_Monster_ElementalAir_Blast
+// PassiveFeature_Generic_Tactical
 
 new entry "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
 type "SpellData"
 data "SpellType" "Zone"
 using "CL_Zone_OneDnD_BreathWeapon"
 data "SpellContainerID" "CL_Zone_OneDnD_BreathWeapon"
-data "ContainerSpells" ""
+data "ContainerSpells" "Breath_Projectile_PowerWordHeal_Explosion;Breath_Projectile_WardingWind_Explosion;Breath_Projectile_BludgeoningEffect_Explosion;Breath_Projectile_SteelWindStrike_Explosion;Breath_Projectile_PiercingEffect_Explosion;Breath_Projectile_ColdEffect_Explosion;Breath_Projectile_ColdEffect_2_Explosion;Breath_Projectile_ColdEffect_3_Explosion;Breath_Projectile_ColdEffect_4_Explosion;Breath_Projectile_ColdEffect_5_Explosion;Breath_Projectile_ColdEffect_6_Explosion;Breath_Projectile_ColdEffect_7_Explosion;Breath_Projectile_ColdEffect_8_Explosion;Breath_Projectile_ColdEffect_9_Explosion;Breath_Projectile_ColdEffect_10_Explosion;Breath_Projectile_LightningEffect_Explosion;Breath_Projectile_LightningEffect_2_Explosion;Breath_Projectile_LightningEffect_3_Explosion;Breath_Projectile_FireEffect_Explosion;Breath_Projectile_FireEffect_2_Explosion;Breath_Projectile_ForceEffect_2_Explosion;Breath_Projectile_RadiantEffect_2_Explosion"
 data "SpellProperties" "GROUND:CreateExplosion(Projectile_AcidEffect_Explosion)"
 data "SpellRoll" " not SavingThrow(Ability.Dexterity, CalculateSpellDC(Ability.Constitution, context.Source))"
 data "SpellSuccess" "DealDamage(LevelMapValue(D10Cantrip), Acid,Magical)"
@@ -45,11 +54,149 @@ data "PrepareEffect" "813f3837-a027-49f6-8ab8-06917d2f80d3"
 data "CastEffect" "dbb69154-0834-4ae7-b438-b831ba7cab45"
 data "TargetEffect" "fa3eaf23-5a9a-47a0-bc24-eb03d85d4d7a"
 data "DamageType" "Acid"
+
+new entry "Breath_Projectile_AcidEffect_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_AcidEffect_Explosion)"
+
+new entry "Breath_Projectile_PowerWordHeal_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_PowerWordHeal_Explosion)"
+
+new entry "Breath_Projectile_WardingWind_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_WardingWind_Explosion)"
+
+new entry "Breath_Projectile_BludgeoningEffect_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_BludgeoningEffect_Explosion)"
+
+new entry "Breath_Projectile_SteelWindStrike_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_SteelWindStrike_Explosion)"
+
+new entry "Breath_Projectile_PiercingEffect_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_PiercingEffect_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_2_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_2_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_3_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_3_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_4_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_4_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_5_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_5_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_6_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_6_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_7_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_7_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_8_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_8_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_9_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_9_Explosion)"
+
+new entry "Breath_Projectile_ColdEffect_10_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ColdEffect_10_Explosion)"
+
+new entry "Breath_Projectile_LightningEffect_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_LightningEffect_Explosion)"
+
+new entry "Breath_Projectile_LightningEffect_2_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_LightningEffect_2_Explosion)"
+
+new entry "Breath_Projectile_LightningEffect_3_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_LightningEffect_3_Explosion)"
+
+new entry "Breath_Projectile_FireEffect_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_FireEffect_Explosion)"
+
+new entry "Breath_Projectile_FireEffect_2_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_FireEffect_2_Explosion)"
+
+new entry "Breath_Projectile_ForceEffect_2_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_ForceEffect_2_Explosion)"
+
+new entry "Breath_Projectile_RadiantEffect_2_Explosion"
+type "SpellData"
+data "SpellType" "Zone"
+using "CL_Zone_OneDnD_BreathWeapon_Acid_Line"
+data "SpellProperties" "GROUND:CreateExplosion(Projectile_RadiantEffect_2_Explosion)"
+
 // 5e Caustic Brew
 //data "SpellProperties" "GROUND:CreateExplosion(Projectile_AcidEffect_Explosion)"
 //data "PrepareEffect" "61249cfa-bb68-4fd4-9517-b527fe7dbdce"
 //data "CastEffect" "11f94ff7-9c1b-431a-a26b-99e157026dee"
-
 
 new entry "CL_Zone_OneDnD_BreathWeapon_Acid_Cone"
 type "SpellData"

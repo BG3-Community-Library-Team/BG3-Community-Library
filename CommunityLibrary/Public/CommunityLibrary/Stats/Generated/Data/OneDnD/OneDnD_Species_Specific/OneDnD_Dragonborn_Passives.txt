@@ -30,7 +30,6 @@ data "SpellStyleGroup" "Class_Intent"
 data "PrepareEffect" "617356b2-8b51-471f-ba67-5f9f1fd4bccc"
 data "CastEffect" "c90dca7b-0926-4158-8015-9acc390fea0f"
 
-
 // Acid
 
 new entry "CL_Passive_OneDnD_DragonbornAncestry_Acid"
@@ -42,7 +41,9 @@ data "DescriptionParams" "Distance(4.5);Distance(9);Distance(2)"
 data "Icon" "GenericIcon_DamageType_Acid"
 data "Properties" "Highlighted"
 data "BoostContext" "OnCreate"
-data "Boosts" "ApplyStatus(CL_STATUS_ONEDND_DRAGONBORNANCESTRY_ACID,100,-1)"
+data "Boosts" "UnlockSpell(CL_Zone_OneDnD_BreathWeapon_Acid_Cone,,aa939ea4-fca0-4db2-8828-d9402dc72d45,,Constitution);UnlockSpell(CL_Zone_OneDnD_BreathWeapon_Acid_Line,,aa939ea4-fca0-4db2-8828-d9402dc72d45,,Constitution);ApplyStatus(CL_STATUS_ONEDND_DRAGONBORNANCESTRY_ACID,100,-1)"
+
+// data "Boosts" "ApplyStatus(CL_STATUS_ONEDND_DRAGONBORNANCESTRY_ACID,100,-1)"
 
 new entry "CL_Passive_OneDnD_BreathWeapon_Acid"
 type "PassiveData"
@@ -63,6 +64,9 @@ data "Icon" "GenericIcon_DamageType_Acid"
 data "Passives" "CL_Passive_OneDnD_BreathWeapon_Acid;Dragonborn_Resistance_Acid"
 data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
 data "Boosts" "UnlockSpell(CL_Zone_OneDnD_BreathWeapon_Acid_Cone,,aa939ea4-fca0-4db2-8828-d9402dc72d45,,Constitution);UnlockSpell(CL_Zone_OneDnD_BreathWeapon_Acid_Line,,aa939ea4-fca0-4db2-8828-d9402dc72d45,,Constitution)"
+data "Passives" "CL_Passive_OneDnD_BreathWeapon_Acid"
+data "StatusPropertyFlags" "IgnoreResting;ApplyToDead"
+
 
 new entry "CL_Passive_OneDnD_DragonbornAncestry_Black"
 type "PassiveData"
