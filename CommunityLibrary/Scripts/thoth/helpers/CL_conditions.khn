@@ -347,6 +347,26 @@ function CL_HasWeaponInRangedOffHand()
     return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInRangedOffHand_False")})
 end
 
+function CL_ProficiencyBonusEqualTo(value)
+    return ConditionResult(context.Source.ProficiencyBonus == value)
+end
+
+function CL_ProficiencyBonusEqualOrGreaterThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus >= value)
+end
+
+function CL_ProficiencyBonusEqualOrLessThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus <= value)
+end
+
+function CL_ProficiencyBonusGreaterThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus > value)
+end
+
+function CL_ProficiencyBonusLessThan(value)
+    return ConditionResult(context.Source.ProficiencyBonus < value)
+end
+
 function CL_CharacterLevelEqual(value,entity)
   local entity = entity or context.Source
   return ConditionResult(entity.Level == value)
