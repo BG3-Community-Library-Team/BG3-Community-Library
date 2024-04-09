@@ -1,4 +1,4 @@
 <contentList date="8/21/2023 5:00">
-  <content contentuid="hcbbb0c35g4534g4892ga604gc2ec1fc9696c" version="1">Proficiency Slots</content>
-  <content contentuid="h89240859gc671g49efg828eg5d4e7c403fcd" version="1">Your resource for Racial Abilities.</content>
+  <content contentuid="hcbbb0c35g4534g4892ga604gc2ec1fc9696c" version="1">Racial Proficiency Charge</content>
+  <content contentuid="h89240859gc671g49efg828eg5d4e7c403fcd" version="1">The number of times you can use your racial proficency actions.&lt;br&gt;It is equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 </contentList>
