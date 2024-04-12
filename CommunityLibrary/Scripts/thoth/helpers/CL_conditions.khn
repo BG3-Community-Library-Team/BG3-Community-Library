@@ -270,141 +270,145 @@ end
 
 function CL_IsIllusionSpell()
   return SpellId('CL_Target_Chameleon')
-  | SpellId('CL_Target_EyeMaze')
-  | SpellId('CL_Target_Muffle')
-  | SpellId('Zone_ColorSpray')
-  | SpellId('Shout_DisguiseSelf')
-  | SpellId('Shout_Blur')
-  | SpellId('Shout_MirrorImage')
-  | SpellId('Target_Invisibility')
-  | SpellId('Target_PhantasmalForce')
-  | SpellId('Target_Silence')
-  | SpellId('CL_Target_MisdirectedMark')
-  | SpellId('CL_Target_Hush')
-  | SpellId('CL_Target_Glamour')
-  | SpellId('CL_Target_HeroicTouch')
-  | SpellId('CL_Target_FrenzyingTouch')
-  | SpellId('CL_Target_DemoralizingTouch')
-  | SpellId('CL_Target_CharmingTouch')
-  | SpellId('CL_Shout_MagicAura')
-  | SpellId('Target_HypnoticPattern')
-  | SpellId('Zone_Fear')
-  | SpellId('Target_PhantasmalKiller')
-  | SpellId('Target_Seeming')
+    | SpellId('CL_Target_EyeMaze')
+    | SpellId('CL_Target_Muffle')
+    | SpellId('Zone_ColorSpray')
+    | SpellId('Shout_DisguiseSelf')
+    | SpellId('Shout_Blur')
+    | SpellId('Shout_MirrorImage')
+    | SpellId('Target_Invisibility')
+    | SpellId('Target_PhantasmalForce')
+    | SpellId('Target_Silence')
+    | SpellId('CL_Target_MisdirectedMark')
+    | SpellId('CL_Target_Hush')
+    | SpellId('CL_Target_Glamour')
+    | SpellId('CL_Target_HeroicTouch')
+    | SpellId('CL_Target_FrenzyingTouch')
+    | SpellId('CL_Target_DemoralizingTouch')
+    | SpellId('CL_Target_CharmingTouch')
+    | SpellId('CL_Shout_MagicAura')
+    | SpellId('Target_HypnoticPattern')
+    | SpellId('Zone_Fear')
+    | SpellId('Target_PhantasmalKiller')
+    | SpellId('Target_Seeming')
 end
 
 function CL_IsImprovedPactOfTheChain()
-  return HasPassive('PactOfTheChain',context.Source) & HasPassive('CL_ThirstingBlade_Chain',context.Source)
+  return HasPassive('PactOfTheChain', context.Source) & HasPassive('CL_ThirstingBlade_Chain', context.Source)
 end
 
 function CL_WarlockSpellSlotsExpended(entity)
   local entity = entity or context.Source
-  local result = (~HasActionResource('WarlockSpellSlot', 1, 1, false, false, entity) & CL_ClassLevelEqualOrLessThan('Warlock',2,entity))
-  | (~HasActionResource('WarlockSpellSlot', 1, 2, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock',3,4,entity))
-  | (~HasActionResource('WarlockSpellSlot', 1, 3, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock',5,6,entity))
-  | (~HasActionResource('WarlockSpellSlot', 1, 4, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock',7,8,entity))
-  | (~HasActionResource('WarlockSpellSlot', 1, 5, false, false, entity) & CL_ClassLevelEqualOrGreaterThan('Warlock',9,entity))
-  return ConditionResult(result.Result, {ConditionError("CL_ConditionError_WarlockSpellSlotsExpended_False")})
+  local result = (~HasActionResource('WarlockSpellSlot', 1, 1, false, false, entity) & CL_ClassLevelEqualOrLessThan('Warlock', 2, entity))
+    |
+    (~HasActionResource('WarlockSpellSlot', 1, 2, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock', 3, 4, entity))
+    |
+    (~HasActionResource('WarlockSpellSlot', 1, 3, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock', 5, 6, entity))
+    |
+    (~HasActionResource('WarlockSpellSlot', 1, 4, false, false, entity) & CL_ClassLevelEqualOrBetween('Warlock', 7, 8, entity))
+    |
+    (~HasActionResource('WarlockSpellSlot', 1, 5, false, false, entity) & CL_ClassLevelEqualOrGreaterThan('Warlock', 9, entity))
+  return ConditionResult(result.Result, { ConditionError("CL_ConditionError_WarlockSpellSlotsExpended_False") })
 end
 
 function CL_HasLightArmor(entity)
-    entity = entity or context.Target
-    local armor = GetActiveArmor(entity)
-    local hasLightArmor = armor.ArmorType == ArmorType.Padded 
-    | armor.ArmorType == ArmorType.Leather 
+  entity = entity or context.Target
+  local armor = GetActiveArmor(entity)
+  local hasLightArmor = armor.ArmorType == ArmorType.Padded
+    | armor.ArmorType == ArmorType.Leather
     | armor.ArmorType == ArmorType.StuddedLeather
-    return ConditionResult(hasLightArmor)
+  return ConditionResult(hasLightArmor)
 end
 
 function CL_HasMediumArmor(entity)
-    entity = entity or context.Target
-    local armor = GetActiveArmor(entity)
-    local hasMediumArmor = armor.ArmorType == ArmorType.Hide 
-    | armor.ArmorType == ArmorType.ChainShirt 
-    | armor.ArmorType == ArmorType.ScaleMail 
+  entity = entity or context.Target
+  local armor = GetActiveArmor(entity)
+  local hasMediumArmor = armor.ArmorType == ArmorType.Hide
+    | armor.ArmorType == ArmorType.ChainShirt
+    | armor.ArmorType == ArmorType.ScaleMail
     | armor.ArmorType == ArmorType.BreastPlate
-    | armor.ArmorType == ArmorType.HalfPlate   
-    return ConditionResult(hasMediumArmor)
+    | armor.ArmorType == ArmorType.HalfPlate
+  return ConditionResult(hasMediumArmor)
 end
 
 function CL_HasWeaponInMeleeMainHand()
-    local result = WieldingWeapon('Melee',false,true,context.Source)
-    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInMeleeMainHand_False")})
+  local result = WieldingWeapon('Melee', false, true, context.Source)
+  return ConditionResult(result.Result, { ConditionError("CL_ConditionError_HasWeaponInMeleeMainHand_False") })
 end
 
 function CL_HasWeaponInRangedMainHand()
-    local result = WieldingWeapon('Ammunition',false,true,context.Source)
-    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInRangedMainHand_False")})
+  local result = WieldingWeapon('Ammunition', false, true, context.Source)
+  return ConditionResult(result.Result, { ConditionError("CL_ConditionError_HasWeaponInRangedMainHand_False") })
 end
 
 function CL_HasWeaponInMeleeOffHand()
-    local result = WieldingWeapon('Melee',true,true,context.Source)
-    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInMeleeOffHand_False")})
+  local result = WieldingWeapon('Melee', true, true, context.Source)
+  return ConditionResult(result.Result, { ConditionError("CL_ConditionError_HasWeaponInMeleeOffHand_False") })
 end
 
 function CL_HasWeaponInRangedOffHand()
-    local result = WieldingWeapon('Ammunition',true,true,context.Source)
-    return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInRangedOffHand_False")})
+  local result = WieldingWeapon('Ammunition', true, true, context.Source)
+  return ConditionResult(result.Result, { ConditionError("CL_ConditionError_HasWeaponInRangedOffHand_False") })
 end
 
 function CL_ProficiencyBonusEqualTo(value)
-    return ConditionResult(context.Source.ProficiencyBonus == value)
+  return ConditionResult(context.Source.ProficiencyBonus == value)
 end
 
 function CL_ProficiencyBonusEqualOrGreaterThan(value)
-    return ConditionResult(context.Source.ProficiencyBonus >= value)
+  return ConditionResult(context.Source.ProficiencyBonus >= value)
 end
 
 function CL_ProficiencyBonusEqualOrLessThan(value)
-    return ConditionResult(context.Source.ProficiencyBonus <= value)
+  return ConditionResult(context.Source.ProficiencyBonus <= value)
 end
 
 function CL_ProficiencyBonusGreaterThan(value)
-    return ConditionResult(context.Source.ProficiencyBonus > value)
+  return ConditionResult(context.Source.ProficiencyBonus > value)
 end
 
 function CL_ProficiencyBonusLessThan(value)
-    return ConditionResult(context.Source.ProficiencyBonus < value)
+  return ConditionResult(context.Source.ProficiencyBonus < value)
 end
 
-function CL_CharacterLevelEqual(value,entity)
+function CL_CharacterLevelEqual(value, entity)
   local entity = entity or context.Source
   return ConditionResult(entity.Level == value)
 end
 
-function CL_CharacterLevelEqualOrGreaterThan(value,entity)
+function CL_CharacterLevelEqualOrGreaterThan(value, entity)
   local entity = entity or context.Source
   return ConditionResult(entity.Level >= value)
 end
 
-function CL_CharacterLevelEqualOrLessThan(value,entity)
+function CL_CharacterLevelEqualOrLessThan(value, entity)
   local entity = entity or context.Source
   return ConditionResult(entity.Level <= value)
 end
 
-function CL_CharacterLevelEqualOrBetween(value,value2,entity)
+function CL_CharacterLevelEqualOrBetween(value, value2, entity)
   local entity = entity or context.Source
-  return CL_CharacterLevelEqualOrGreaterThan(value,entity) & CL_CharacterLevelEqualOrLessThan(value2,entity)
+  return CL_CharacterLevelEqualOrGreaterThan(value, entity) & CL_CharacterLevelEqualOrLessThan(value2, entity)
 end
 
-function CL_ClassLevelEqual(class,value,entity)
+function CL_ClassLevelEqual(class, value, entity)
   local entity = entity or context.Source
   return ConditionResult(entity.GetClassLevel(class) == value)
 end
 
-function CL_ClassLevelEqualOrGreaterThan(class,value,entity)
+function CL_ClassLevelEqualOrGreaterThan(class, value, entity)
   local entity = entity or context.Source
   return ConditionResult(entity.GetClassLevel(class) >= value)
 end
 
-function CL_ClassLevelEqualOrLessThan(class,value,entity)
+function CL_ClassLevelEqualOrLessThan(class, value, entity)
   local entity = entity or context.Source
   return ConditionResult(entity.GetClassLevel(class) <= value)
 end
 
-function CL_ClassLevelEqualOrBetween(class,value,value2,entity)
+function CL_ClassLevelEqualOrBetween(class, value, value2, entity)
   local entity = entity or context.Source
-  return CL_ClassLevelEqualOrGreaterThan(class,value,entity) & CL_ClassLevelEqualOrLessThan(class,value2,entity)
+  return CL_ClassLevelEqualOrGreaterThan(class, value, entity) & CL_ClassLevelEqualOrLessThan(class, value2, entity)
 end
 
 local casterLevelToModifier = {
@@ -419,29 +423,34 @@ local casterLevelToModifier = {
 }
 
 -- Need to insert a dummy passive to track EK progression
-function CL_CasterLevelMultiClass(level,entity,table)
+function CL_CasterLevelMultiClass(level, entity, table)
   local entity = entity or context.Source
   local table = table or casterLevelToModifier
   local casterlevel = 0
   for class, modifier in pairs(table) do
     casterlevel = casterlevel + entity.GetClassLevel(class) / modifier
   end
-  if HasPassive('MageHandLegerdemain',entity) then
+  if HasPassive('MageHandLegerdemain', entity) then
     casterlevel = casterlevel + entity.GetClassLevel('Rogue') / 3
   end
-  if HasPassive('EldritchKnightSubclassPicked',entity) then
-      casterlevel = casterlevel + entity.GetClassLevel('Fighter') / 3
+  if HasPassive('EldritchKnightSubclassPicked', entity) then
+    casterlevel = casterlevel + entity.GetClassLevel('Fighter') / 3
   end
   if entity.GetClassLevel('Artificer') == 1 then
-      casterlevel = casterlevel + 0.5
+    casterlevel = casterlevel + 0.5
   end
   return ConditionResult(casterlevel >= level)
 end
 
-function CL_HasSpellSlotLevelUnlocked(level,entity,table)
+function CL_HasSpellSlotLevelUnlocked(level, entity, table)
   local entity = entity or context.Source
   local level = level or 1
   local table = table or casterLevelToModifier
   local casterlevelneeded = level * 2 - 1
-  return CL_CasterLevelMultiClass(casterlevelneeded,entity,table)
+  return CL_CasterLevelMultiClass(casterlevelneeded, entity, table)
+end
+
+function CL_IsInstinctivePounceJump()
+  -- Omitting jumps with action point costs protects against shenanigans from jump attacks like Diving Strike.
+  return SpellCategoryIs(SpellCategory.Jump) & ~HasUseCosts('ActionPoint') & ~SpellId('Projectile_Fly')
 end
