@@ -1,0 +1,18 @@
+<contentList date="26/10/2020 01:10">
+    <content contentuid="hc76be1751b944d0c8b23c5f12f0686e31ae0" version="1">Charm Disadvantage</content>
+    <content contentuid="hc5faeeaf79894d7381ce89134d79c81f2adc" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
+    <content contentuid="he14914c7f33e4cecb4a1150b61be0321e37c" version="1">Fear Disadvantage</content>
+    <content contentuid="hf8e078faea8b41eeb5b1bcdb840ce88e58ac" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+    <content contentuid="hac23a3751f75418d97c7167bf3ba367ebc2f" version="1">Paralysis Disadvantage</content>
+    <content contentuid="h9c9f3546b3984f32893e168e60b112c5gc2e" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralysed&lt;/LSTag&gt;.</content>
+    <content contentuid="h9efbfc488e95453eb69c1b6fc1cf9b72efe1" version="1">Poison Disadvantage</content>
+    <content contentuid="h253887b23d1c45ab843341f05382318dfega" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;.</content>
+    <content contentuid="h4344ce6b681a40d39de859bb46f2efbcb5ee" version="1">Restraint Disadvantage</content>
+    <content contentuid="h19cd83b1cf7d4b15af93520686c75983g294" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;.</content>
+    <content contentuid="h7130b15ea2fc47b0a1594e6e776866f6d154" version="1">Slipping Disadvantage</content>
+    <content contentuid="h7b4a59ecd1ce4b79bdfc0deb33944dfba72g" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on slippery surfaces.</content>
+    <content contentuid="h68592cd450994ff1a53a00d361a617bb8g9e" version="1">Turned Disadvantage</content>
+    <content contentuid="h51551eb9ce8b470cb73c2aea46acbdf11ffe" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="TURNED"&gt;Turned&lt;.</content>
+    <content contentuid="hfcce2c95dba447b5bece0ff6ea4bb5c15806" version="1">Death Saving Throw Disadvantage</content>
+    <content contentuid="hc1cc193bfa6b4b24bacc98d0d593d78dde92" version="1">You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against Death Savings Throws.</content>
+</contentList>

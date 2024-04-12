@@ -1,0 +1,20 @@
+new entry "CL_Passive_SubclassTags_Barbarian"
+type "PassiveData"
+data "DisplayName" "he58b883ag9b2fg45adgac11g2a67dd1a1181;2"
+data "Description" "h9ead197bg1c99g4118g885cgd3b5ec2e5542;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-ca1100000000"
+data "Icon" "PassiveFeature_Generic"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+//BARBARIAN
+//02913f9a-f696-40cf-acdf-32032afab32c
+
+new entry "CL_Passive_SubclassTags_BarbarianBerserker"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Barbarian"
+data "DisplayName" "hd0402aeeg8dadg4409g85adgbc64db3be3ea;3"
+data "Description" "h921b59fegf2a7g49cdgaa1dg13de73e47ef8;2"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0101-c00200000000"
+data "Icon" "PassiveFeature_MindlessRage"
+data "Boosts" "Tag(BERSERKER)"
+//BERSERKER
+//ac3449f7-c09b-4bc0-8634-fcff97d49279

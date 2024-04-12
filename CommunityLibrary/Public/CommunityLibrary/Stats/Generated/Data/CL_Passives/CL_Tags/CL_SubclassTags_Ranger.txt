@@ -1,0 +1,39 @@
+new entry "CL_Passive_SubclassTags_Ranger"
+type "PassiveData"
+data "DisplayName" "hce9fd8dfgd5a3g4824gb4beg1c974a709b03;2"
+data "Description" "hc95330cfgad1cg4670ga222g0d0f12f06808;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-ca1100000000"
+data "Icon" "PassiveFeature_Generic"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+//RANGER
+//37a733c1-a862-4157-b92a-9cff46232c6a
+
+new entry "CL_Passive_SubclassTags_RangerBeastMaster"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Ranger"
+data "DisplayName" "h8ad5e0fcgc9b0g4b6ag9e05g713f5d9926e6;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0101-c00900000000"
+data "Icon" "PassiveFeature_CompanionsBond"
+data "Boosts" "Tag(RANGER_BEAST_MASTER)"
+//RANGER_BEAST_MASTER
+//bfaccaca-e512-43ea-89cc-372b5d1925ee
+
+new entry "CL_Passive_SubclassTags_RangerGloomStalker"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Ranger"
+data "DisplayName" "h97e32becga888g45c1g816fg8548b555bc14;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0102-c00900000000"
+data "Icon" "Action_DreadAmbusher_Melee"
+data "Boosts" "Tag(RANGER_GLOOM_STALKER)"
+//RANGER_GLOOM_STALKER
+//c023a2ef-b042-443b-b402-b1326f4b49f3
+
+new entry "CL_Passive_SubclassTags_RangerHunter"
+type "PassiveData"
+using "CL_Passive_SubclassTags_Ranger"
+data "DisplayName" "h1b3300aeg1841g40dbgade0g5e20ab7171d1;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0103-c00900000000"
+data "Icon" "PassiveFeature_ColossusSlayer"
+data "Boosts" "Tag(RANGER_HUNTER)"
+//RANGER_HUNTER
+//5727fd64-090f-4932-a31c-c0e078b2146a

@@ -1,0 +1,47 @@
+<contentList>
+<!-- Generic Progression Description -->
+    <content contentuid="h08bbe0a2b84743b3af49f2bbfb323b95fd37" version="1">Tag Selection</content>
+    <content contentuid="ha3d8d0d960d247bf97a3861a81b04fd57g6a" version="1">Select Your Tag.</content>
+<!-- No Tag -->
+    <content contentuid="hb79e46e2b6194fa3b0616f28db8910f678d5" version="1">No Extra Tag</content>
+    <content contentuid="h64d30700e204408e8a83a1f15872c983af25" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No Extra Tag.</content>
+<!-- Artificer Tags -->
+    <content contentuid="h4176c1b1dca04f20ada953b2e2c534dd5dgd" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Artificer&lt;/b&gt; Tag.</content>
+<!-- Barbarian Tags -->
+    <content contentuid="hd19320e50d1c414c93a8f06310a2c8c3d705" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Barbarian&lt;/b&gt; Tag.</content>
+    <content contentuid="hfef1fc05a5d54d2dbb6c34183d6f5cb5a16d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Berserker&lt;/b&gt; Tag.</content>
+<!-- Bard Tags -->
+    <content contentuid="h14bea36cad9e40ddb05ed62d4be2b10c4312" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Bard&lt;/b&gt; Tag.</content>
+<!-- Cleric Tags -->
+    <content contentuid="h15a0bee3044b425f98201ebd2fab0125a7a5" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Cleric&lt;/b&gt; Tag.</content>
+<!-- Druid Tags -->
+    <content contentuid="hf76b3fe32b58487a920ad99e221b4b64aaf2" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Druid&lt;/b&gt; Tag.</content>
+<!-- Fighter Tags -->
+    <content contentuid="h2544d5a26b20414f9dda5c1555e5bab6gbec" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Fighter&lt;/b&gt; Tag.</content>
+<!-- Monk Tags -->
+    <content contentuid="h66fb867493e94b3484c3aaaa866959ab8f8d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Monk&lt;/b&gt; Tag.</content>
+<!-- Paladin Tags -->
+    <content contentuid="h1fb9c651227642648a52e8b943e8db57231e" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Paladin&lt;/b&gt; Tag.</content>
+    <content contentuid="h7cc785c554eb4144a80ff407fd8a344535d0" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Ancients&lt;/b&gt; Tag.</content>
+    <content contentuid="h9f1e237a617343c18d3279f6ade3ec55bg6c" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Devotion&lt;/b&gt; Tag.</content>
+    <content contentuid="hfb686671e08a414aacef54df345c3b4b40f8" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Vengence&lt;/b&gt; Tag.</content>
+<!-- Ranger Tags -->
+    <content contentuid="h84de6ce58c934591be31d2773c3cf503734a" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Ranger&lt;/b&gt; Tag.</content>
+    <content contentuid="h5e5a83f354cc405d9f95ff09c7e5347647b3" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Beast Master&lt;/b&gt; Tag.</content>
+    <content contentuid="h847c8d0ccee144899e4d2bcdfcdf9eb32b30" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gloom Stalker&lt;/b&gt; Tag.</content>
+    <content contentuid="h069d6c3a583a46bf9522ef65daf1ee44gdbf" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Hunter&lt;/b&gt; Tag.</content>
+<!-- Rogue Tags -->
+    <content contentuid="hdde0ccda54bf40f38193e0632d939b72c435" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Rogue&lt;/b&gt; Tag.</content>
+<!-- Sorcerer Tags -->
+    <content contentuid="h663961c9d2fc4a28b508b7d9669c183d5c24" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Sorcerer&lt;/b&gt; Tag.</content>
+    <content contentuid="heab5a64ed5b643309172733310f4f82c5c59" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Draconic&lt;/b&gt; Tag.</content>
+    <content contentuid="h3b1415623c8948a7bac2336b9b1d886f0dg0" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Wild Magic&lt;/b&gt; Tag.</content>
+<!-- Warlock Tags -->
+    <content contentuid="h160ede52e1974c9ba8030fa86bb151ba7d9f" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Warlock&lt;/b&gt; Tag.</content>
+    <content contentuid="hd5f923744ea84cc4bfaf3a8431594ab3e88a" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Archfey&lt;/b&gt; Tag.</content>
+    <content contentuid="hf14b691bd709404bac2e453806df48d5f01b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Fiend&lt;/b&gt; Tag.</content>
+    <content contentuid="h4081d7aafeb140998c135057d054066d76dg" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Great Old One&lt;/b&gt; Tag.</content>
+<!-- Wizard Tags -->
+    <content contentuid="h5c50cffd1f3640fc9dfcf007b2fbcd81c132" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Wizard&lt;/b&gt; Tag.</content>
+    <content contentuid="h22b3e0f446f848708287f151aa782d97ec94" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Necromancy&lt;/b&gt; Tag.</content>
+</contentList>

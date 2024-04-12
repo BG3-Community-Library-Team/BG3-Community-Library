@@ -1,0 +1,139 @@
+new entry "CL_Passive_ClassTags"
+type "PassiveData"
+data "DisplayName" "hb79e46e2b6194fa3b0616f28db8910f678d5;1"
+data "Description" ""
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-ca1100000000"
+data "Icon" "PassiveFeature_Generic"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+
+new entry "CL_Passive_ClassTags_Barbarian"
+type "PassiveData"
+data "DisplayName" "h60fa88ecg49b2g402bg9c75g273cbaafd414;1"
+data "Description" "h3aa4b4a4g0076g4635gb363g7891e8f2e495;10"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00200000000"
+data "Icon" "Action_Barbarian_Rage"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(BARBARIAN)"
+//BARBARIAN
+//02913f9a-f696-40cf-acdf-32032afab32c
+
+new entry "CL_Passive_ClassTags_Bard"
+type "PassiveData"
+data "DisplayName" "hc1ce87cbg8371g4d9fgb5b2g7311045ccdbd;1"
+data "Description" "h05ff3d40g32d0g4ea1g91d5gecb608ec7389;3"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00300000000"
+data "Icon" "Action_Bard_RestoreBardicInspiration"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(BARD)"
+//BARD
+//d93434bd-6b71-4789-b128-ee24156057cc
+
+new entry "CL_Passive_ClassTags_Cleric"
+type "PassiveData"
+data "DisplayName" "h1e736362g0299g4824g9b4eg65dd9457cfef;1"
+data "Description" "hac77027cg6dd2g4e7ega824gfbdbc91b6f05;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00400000000"
+data "Icon" "Spell_Cleric_TurnUndead"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(CLERIC)"
+//CLERIC
+//1671b4bf-4f47-4bb7-9cb9-80bb1f6009d5
+
+new entry "CL_Passive_ClassTags_Druid"
+type "PassiveData"
+data "DisplayName" "h2e468028g9c89g4eaag94d7g52ee6ed46660;1"
+data "Description" "h5b0ab964g6039g4146g971fg5d32dd440499;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00500000000"
+data "Icon" "Skill_Druid_WildShape"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(DRUID)"
+//DRUID
+//44ac4317-4d38-4d28-80e2-94024c6e42f0
+
+new entry "CL_Passive_ClassTags_Fighter"
+type "PassiveData"
+data "DisplayName" "hebea4441g482fg4631gbf3fg34e7a84d5839;1"
+data "Description" "h3a7fde7cgec48g4676ga129g7dadbdf4f3cb;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00600000000"
+data "Icon" "PassiveFeature_FightingStyle_Protection"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(FIGHTER)"
+//FIGHTER
+//1ae7017c-4884-4a43-bc4a-742fa0d201c0
+
+new entry "CL_Passive_ClassTags_Monk"
+type "PassiveData"
+data "DisplayName" "h2362f41dg75e2g48c8g8ae6geb1c6e9129f5;2"
+data "Description" "h565bd24cg663cg4506g9244g42b57c697ef1;2"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00700000000"
+data "Icon" "Action_Monk_FlurryOfBlows"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(MONK)"
+//MONK
+//e1e460bb-d0ae-4452-8529-c9e176558731
+
+new entry "CL_Passive_ClassTags_Paladin"
+type "PassiveData"
+data "DisplayName" "h3ddc9a75ge59cg466eg8243gcde4e8d4f95d;1"
+data "Description" "h9fca63d9gfc1fg48c3g8ae9g01bbddae1ec3;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00800000000"
+data "Icon" "Action_Paladin_LayOnHands_Cure"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(PALADIN)"
+//PALADIN
+//6d85ab2d-5c23-498c-a61e-98f05a00177a
+
+new entry "CL_Passive_ClassTags_Ranger"
+type "PassiveData"
+data "DisplayName" "h02550c44g3239g4901ga3f8gd92c541819e6;1"
+data "Description" "he4f45c6cg4d0ag4907g8f09g4a8eb96f8eaf;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c00900000000"
+data "Icon" "PassiveFeature_FightingStyle_Archery"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(RANGER)"
+//RANGER
+//37a733c1-a862-4157-b92a-9cff46232c6a
+
+new entry "CL_Passive_ClassTags_Rogue"
+type "PassiveData"
+data "DisplayName" "h3e4e847bg6d4fg48fagbe1dgddc6aec7ef32;1"
+data "Description" "h6556d47cgd1d3g483agab42gc6638c0b9cfc;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c01000000000"
+data "Icon" "Action_SneakAttack_Melee"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(ROGUE)"
+//ROGUE
+//f8a0608b-666c-4be6-a49c-03b369c10bd2
+
+new entry "CL_Passive_ClassTags_Sorcerer"
+type "PassiveData"
+data "DisplayName" "h6eca29f5g747eg40c1gb3f0g6425335d294b;1"
+data "Description" "h23997f5eg91f5g499bgac88gda4f6f2dfcc9;2"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c01100000000"
+data "Icon" "Skill_Sorcerer_Passive_Metamagic_EmpoweredSpell"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(SORCERER)"
+//SORCERER
+//18266c0b-efbc-4c80-8784-ada4a37218d7
+
+new entry "CL_Passive_ClassTags_Warlock"
+type "PassiveData"
+data "DisplayName" "h5fff3a1eg6c43g4e9fgbad0g00c1ce3d5b42;1"
+data "Description" "h060da457g2dd1g47bcg8134gaa49da101992;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c01200000000"
+data "Icon" "Action_Warlock_PactOfTheChain_Imp"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WARLOCK)"
+//WARLOCK
+//5804f55a-93f7-4281-9512-8d548a9e2a22
+
+new entry "CL_Passive_ClassTags_Wizard"
+type "PassiveData"
+data "DisplayName" "h71e2a2b9ga3a4g4386g9afdgeea6ee030f27;1"
+data "Description" "hbadeec08gaa48g44e8g9e12g8dcef3cb9b46;1"
+data "TooltipPermanentWarnings" "c1cfc0d3-7a65-7737-0100-c01300000000"
+data "Icon" "Skill_Wizard_ArcaneRecovery"
+data "Properties" "Highlighted;ForceShowInCC;IsHidden"
+data "Boosts" "Tag(WIZARD)"
+//WIZARD
+//6fe3ae27-dc6c-4fc9-9245-710c790c396c

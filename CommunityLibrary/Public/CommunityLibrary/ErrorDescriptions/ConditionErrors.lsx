@@ -32,7 +32,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="hef7dd7fbgfff5g4882g8f59g6eacf657cb89" version="1"/>
                     <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
                     <attribute id="Identifier" type="FixedString" value="CL_ConditionError_HasWeaponInRangedOffHand_False"/>
-                    <attribute id="UUID" type="guid" value="e8191a6f-7b1c-4f5d-a30f-514839ff3d39"/>
+                    <attribute id="UUID" type="guid" value="877c5808-4944-4a72-aeb4-75bdaef146aa"/>
                 </node>
             </children>
         </node>
