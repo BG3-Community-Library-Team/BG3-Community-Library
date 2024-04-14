@@ -446,7 +446,6 @@ function CL_HasSpellSlotLevelUnlocked(level,entity,table)
   return CL_CasterLevelMultiClass(casterlevelneeded,entity,table)
 end
 
-function CL_IsInstinctivePounceJump()
-  -- Omitting jumps with action point costs protects against shenanigans from jump attacks like Diving Strike.
-  return SpellCategoryIs(SpellCategory.Jump) & ~HasUseCosts('ActionPoint') & ~SpellId('Projectile_Fly')
+function CL_IsBonusActionJump()
+  return SpellCategoryIs(SpellCategory.Jump) & HasUseCosts('BonusActionPoint')
 end
