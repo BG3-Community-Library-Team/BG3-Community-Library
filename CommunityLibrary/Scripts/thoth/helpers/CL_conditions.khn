@@ -445,3 +445,7 @@ function CL_HasSpellSlotLevelUnlocked(level,entity,table)
   local casterlevelneeded = level * 2 - 1
   return CL_CasterLevelMultiClass(casterlevelneeded,entity,table)
 end
+
+function CL_IsBonusActionJump()
+  return SpellCategoryIs(SpellCategory.Jump) & HasUseCosts('BonusActionPoint')
+end
