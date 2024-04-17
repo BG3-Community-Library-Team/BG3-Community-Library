@@ -1,0 +1,116 @@
+//new entry "MartialArts_UnarmedDamage"
+//type "PassiveData"
+//data "DisplayName" "h5daf8c49g7850g40cbg8621gee83b925ec5f;3"
+//data "Description" "h8117e94cg985cg4547gbf10g6f52ad127d97;8"
+//data "DescriptionParams" "DealDamage(LevelMapValue(MartialArts), Bludgeoning)"
+//data "Icon" "PassiveFeature_MartialArts_UnarmedDamage"
+//data "Properties" "Highlighted"
+//data "Boosts" "MonkWeaponDamageDiceOverride(LevelMapValue(MartialArts))"
+
+// <content contentuid="h76a39bc2744f42b0bb18dc8d7c8c7b064egg" version="1">Martial Arts: Damage</content>
+// <content contentuid="h10243a116a0a4ffeae98f6d8f53be450d711" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher. </content>
+// <content contentuid="hd91319eb04a8443b8f4934da6a92c9cb7ca9" version="1">Level 1: 1d6. &lt;br&gt;Level 5: 1d8. &lt;br&gt;Level 11: 1d10. &lt;br&gt;Level 17: 1d12.</content>
+
+//
+// OneDnD Update: Martial Arts starts with a d6 rather than a d4 for its Martial Arts die and goes up to a d12 rather than a d10.
+//
+
+new entry "CL_Passive_OneDnD_MartialArtsUnarmedDamage"
+type "PassiveData"
+data "DisplayName" "h76a39bc2744f42b0bb18dc8d7c8c7b064egg;1"
+data "Description" "h10243a116a0a4ffeae98f6d8f53be450d711;1"
+data "DescriptionParams" "DealDamage(LevelMapValue(CL_LM_OneDnD_MartialArts), Bludgeoning)"
+data "ExtraDescription" "hd91319eb04a8443b8f4934da6a92c9cb7ca9;1"
+data "Icon" "PassiveFeature_MartialArts_UnarmedDamage"
+data "Properties" "Highlighted"
+data "Boosts" "MonkWeaponDamageDiceOverride(LevelMapValue(CL_LM_OneDnD_MartialArts))"
+
+//new entry "MartialArts_DextrousUnarmedAttacks"
+//type "PassiveData"
+//data "DisplayName" "hd8a574dage906g4af9g92f1g1c532d7e9d70;2"
+//data "Description" "h36aee87bgef1eg4ac9g882ag30aa1b4c2205;4"
+//data "Icon" "PassiveFeature_MartialArts_DextrousUnarmedAttacks"
+//data "Properties" "Highlighted"
+//data "BoostContext" "OnStatusApply;OnStatusRemove;OnEquip;OnShortRest;OnCreate;OnLongRest;OnInventoryChanged"
+//data "BoostConditions" "IsDexterityGreaterThanStrength()"
+//data "Boosts" "MonkWeaponAttackOverride()"
+
+//
+// OneDnD Update: Dexterous Attacks now allows you to use your Dexterity Modifier in place of your Strength modifier when setting the saving throw DC of the Grapple and Push options of your Unarmed Strikes.
+//
+
+//new entry "MartialArts_BonusUnarmedStrike"
+//type "PassiveData"
+//data "DisplayName" "hfcdc92c3g5dbdg4b16gbf4cg245385dc6bf3;3"
+//data "Description" "h1a953609ga861g4e08ga260gd3341f5a963e;5"
+//data "DescriptionParams" "DealDamage(LevelMapValue(MartialArts), Bludgeoning)"
+//data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
+//data "Properties" "Highlighted"
+//data "StatsFunctorContext" "OnAttack;OnCast"
+//data "Conditions" "IsMeleeAttack() and IsMonkWeaponAttack() and not SpellId('Target_UnarmedStrike_Monk')"
+//data "StatsFunctors" "ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)"
+
+
+// <content contentuid="hbd204e2b9844492392c48318d280effbf451" version="1">Martial Arts: Bonus Unarmed Strike</content>
+// <content contentuid="haa8f0f58250d486183af341767af790ae579" version="1">You can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_BonusUnarmedStrike"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+// <content contentuid="h48e7c3f43ee744eaa9d72c800649d732e4aa" version="1">Swiftly strike a target with your bare fists as a bonus action.</content>
+
+//
+// OneDnD Update: Bonus Unarmed Strike is no longer tied to the Attack action.
+//
+
+new entry "CL_Passive_OneDnD_MartialArts_BonusUnarmedStrike"
+type "PassiveData"
+data "DisplayName" "hbd204e2b9844492392c48318d280effbf451;1"
+data "Description" "haa8f0f58250d486183af341767af790ae579;1"
+data "Boosts" "UnlockSpell(CL_Target_OneDnD_MartialArts);UnlockSpell(CL_Target_OneDnD_MartialArtsBonus)"
+
+new entry "CL_Target_OneDnD_MartialArtsBonus"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE)"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape')"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack)"
+data "SpellSuccess" "DealDamage(UnarmedDamage , Bludgeoning)"
+data "Icon" "Action_Monk_FreeUnarmedStrike"
+data "DisplayName" "h95f3ffa18ea2428ebc6b1b093edde85b4262;1"
+data "Description" "h48e7c3f43ee744eaa9d72c800649d732e4aa;1"
+data "TooltipDamageList" "DealDamage(MartialArtsUnarmedDamage, Bludgeoning)"
+data "PrepareSound" "Vocal_Component_Monk_Damage"
+data "CastSound" "Spell_Cast_Monk_UnarmedStrike_L1to3"
+data "TargetSound" "Spell_Impact_Monk_UnarmedStrike_L1to3"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsMelee;IsHarmful;DisableBlood"
+data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
+data "DamageType" "Bludgeoning"
+data "Sheathing" "DontChange"
+
+new entry "CL_Target_OneDnD_MartialArts"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_UnarmedAttack"
+data "SpellProperties" "IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE)"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape')"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack)"
+data "SpellSuccess" "DealDamage(UnarmedDamage , Bludgeoning)"
+data "Icon" "Action_Monk_FreeUnarmedStrike"
+data "DisplayName" "h95f3ffa18ea2428ebc6b1b093edde85b4262;1"
+data "Description" "h23490067a07c4f929fe4e02ea5ef35395cf3;1"
+data "TooltipDamageList" "DealDamage(MartialArtsUnarmedDamage, Bludgeoning)"
+data "PrepareSound" "Vocal_Component_Monk_Damage"
+data "CastSound" "Spell_Cast_Monk_UnarmedStrike_L1to3"
+data "TargetSound" "Spell_Impact_Monk_UnarmedStrike_L1to3"
+data "SpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;0579f797-dd8e-408d-b18d-01650f6041e2,,;69345989-e868-432e-9d8c-84f4bcf77494,,;5925204d-590c-4d7c-ac62-a51ba44d4589,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IsMelee;IsHarmful;DisableBlood"
+data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
+data "DamageType" "Bludgeoning"
+data "Sheathing" "DontChange"
+
