@@ -15,7 +15,7 @@
 // OneDnD Update: Martial Arts starts with a d6 rather than a d4 for its Martial Arts die and goes up to a d12 rather than a d10.
 //
 
-new entry "CL_Passive_OneDnD_MartialArtsUnarmedDamage"
+new entry "CL_Passive_OneDnD_MartialArtsDamage"
 type "PassiveData"
 data "DisplayName" "h76a39bc2744f42b0bb18dc8d7c8c7b064egg;1"
 data "Description" "h10243a116a0a4ffeae98f6d8f53be450d711;1"
@@ -59,10 +59,11 @@ data "Boosts" "MonkWeaponDamageDiceOverride(LevelMapValue(CL_LM_OneDnD_MartialAr
 // OneDnD Update: Bonus Unarmed Strike is no longer tied to the Attack action.
 //
 
-new entry "CL_Passive_OneDnD_MartialArts_BonusUnarmedStrike"
+new entry "CL_Passive_OneDnD_MartialArtsUnarmedStrikes"
 type "PassiveData"
 data "DisplayName" "hbd204e2b9844492392c48318d280effbf451;1"
 data "Description" "haa8f0f58250d486183af341767af790ae579;1"
+data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
 data "Boosts" "UnlockSpell(CL_Target_OneDnD_MartialArts);UnlockSpell(CL_Target_OneDnD_MartialArtsBonus)"
 
 new entry "CL_Target_OneDnD_MartialArtsBonus"
