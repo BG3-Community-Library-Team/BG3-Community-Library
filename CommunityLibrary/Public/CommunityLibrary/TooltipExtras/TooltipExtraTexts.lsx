@@ -164,6 +164,136 @@
                     <attribute id="Text" type="TranslatedString" handle="h22b3e0f446f848708287f151aa782d97ec94" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-c01300000000"/>
                 </node>
+    <!-- Race Tags -->
+        <!-- Dragonborn Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Dragonborn Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h467123585ea34bdb89a28adebd0d3a1c4046" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500100000000"/>
+                </node>
+        <!-- Dwarf Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Dwarf Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h6155251157934466901e69307ce9aa544ae8" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Dwarf - Duergar Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hda5122e6716941c689f89dbb067ae0c5570c" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Dwarf - Gold Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hc74b96011c124507b6ff58fe79cc140987ec" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-500200000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Dwarf - Shield Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h450cdb6c32904a0a90d943521b25e1e760ea" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0103-500200000000"/>
+                </node>
+
+
+        <!-- Elf Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Elf Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hbca68e32e3bf46da9c54bce3a1cf71783533" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500300000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Drow Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h443bc2ebfe294439893caf0a20ad310bf8e2" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500300000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Drow - Lolth Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hd646bcba7299471a98b99f7f1a6bf3cf8e4g" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-500300000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Drow - Seldarine Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="hc622575fb17d49eebf39f8687abdd598gbce" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0103-500300000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Elf - High Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h3cc6bdcff82a41bf840b19992eebfa0ca045" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0104-500300000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Elf - Wood Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h90146279f9fa48368c68a1cc3ab1e1b08136" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0105-500300000000"/>
+                </node>
+        <!-- Gith Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Gith Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h8d356451208b418d9e10ff432590371b75fb" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500400000000"/>
+                </node>
+        <!-- Gnome Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Gnome Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500500000000"/>
+                </node>
+
+        <!-- Half-Elf Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Half-Elf Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500600000000"/>
+                </node>
+
+        <!-- Half-Orc Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Half-Orc Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500700000000"/>
+                </node>
+
+        <!-- Halfling Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Halfling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500800000000"/>
+                </node>
+
+        <!-- Human Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Human Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500900000000"/>
+                </node>
+
+        <!-- Tiefling Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Tiefling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-501000000000"/>
+                </node>
+
+        <!-- ~Misc Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="No Race / Home Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h64d30700e204408e8a83a1f15872c983af25" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500a00000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Rare Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500a00000000"/>
+                </node>
+
+        <!-- ~Misc Homeland Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value=" Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500b00000000"/>
+                </node>
+
+
+
             </children>
         </node>
     </region>
