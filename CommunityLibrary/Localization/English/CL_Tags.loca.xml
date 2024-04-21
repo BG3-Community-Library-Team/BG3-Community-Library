@@ -63,6 +63,59 @@
  <!-- Gith Tags -->
    <content contentuid="h8d356451208b418d9e10ff432590371b75fb" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Githyanki&lt;/b&gt; Tag.</content>
  <!-- Gnome Tags -->
+   <content contentuid="h08b4bf569d1f48dbb9db5dfa56a8f205274e" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome&lt;/b&gt; Tag.</content>GnomeDeep
+   <content contentuid="h93d338c01ab9460083d9d5e997c708affa0d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome and Deep Gnome&lt;/b&gt; Tags.</content>GnomeForest
+   <content contentuid="h89a9b5fd1a594457af9d0ca903df7270feca" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome and Forest Gnome&lt;/b&gt; Tags.</content>GnomeRock
+   <content contentuid="h63425d30b33240fe97f62f6e301a5d8dd6dg" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome and Rock Gnome&lt;/b&gt; Tags.</content>
+ <!-- Half Elf Tags -->
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Half-Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Half-Elf and Drow Half-Elf&lt;/b&gt; Tags.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Half-Elf and High Half-Elf&lt;/b&gt; Tags.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Half-Elf and Wood Half-Elf&lt;/b&gt; Tags.</content>
+ <!-- Half Orc Tags -->
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+ <!-- Halfling Tags -->
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+ <!-- Human Tags -->
+    <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Human&lt;/b&gt; Tag.</content>
+ <!-- Tiefling Tags -->
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+ <!-- ~Misc Tags -->
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <!--  Examples
+      Rare: aasimar, dragonborn, firbolg, genasi, githyanki, half-drow, half-orc, tiefling, triton, warforged, yuan-ti pureblood
+      Beast: aarakocra, kenku, lizardfolk, tabaxi, tortle
+   -->
+<content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+<content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+<content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+
+<!-- Race Tags -->
+ <!-- Dragonborn Tags -->
+   <content contentuid="h467123585ea34bdb89a28adebd0d3a1c4046" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Dragonborn&lt;/b&gt; Tag.</content>
+ <!-- Dwarf Tags -->
+   <content contentuid="h6155251157934466901e69307ce9aa544ae8" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Dwarf&lt;/b&gt; Tag.</content>
+   <content contentuid="hda5122e6716941c689f89dbb067ae0c5570c" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Dwarf and Duergar&lt;/b&gt; Tags.</content>
+   <content contentuid="hc74b96011c124507b6ff58fe79cc140987ec" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Dwarf and Gold Dwarf&lt;/b&gt; Tags.</content>
+   <content contentuid="h450cdb6c32904a0a90d943521b25e1e760ea" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Dwarf and Shield Dwarf&lt;/b&gt; Tags.</content>
+ <!-- Elf Tags -->
+   <content contentuid="hbca68e32e3bf46da9c54bce3a1cf71783533" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf&lt;/b&gt; Tag.</content>
+   <content contentuid="h443bc2ebfe294439893caf0a20ad310bf8e2" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Drow&lt;/b&gt; Tag.</content>
+   <content contentuid="hd646bcba7299471a98b99f7f1a6bf3cf8e4g" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Drow and Lolth Drow&lt;/b&gt; Tags.</content>
+   <content contentuid="hc622575fb17d49eebf39f8687abdd598gbce" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Drow and Seldarine Drow&lt;/b&gt; Tags.</content>
+   <content contentuid="h3cc6bdcff82a41bf840b19992eebfa0ca045" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf and High Elf&lt;/b&gt; Tags.</content>
+   <content contentuid="h90146279f9fa48368c68a1cc3ab1e1b08136" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Elf and Wood Elf&lt;/b&gt; Tags.</content>
+ <!-- Gith Tags -->
+   <content contentuid="h8d356451208b418d9e10ff432590371b75fb" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Githyanki&lt;/b&gt; Tag.</content>
+ <!-- Gnome Tags -->
    <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome&lt;/b&gt; Tag.</content>
    <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome and &lt;/b&gt; Tags.</content>
    <content contentuid="" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Add &lt;b&gt;Gnome and &lt;/b&gt; Tags.</content>

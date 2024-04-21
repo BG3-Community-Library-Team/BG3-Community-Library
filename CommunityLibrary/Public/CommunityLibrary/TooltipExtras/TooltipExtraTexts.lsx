@@ -234,11 +234,42 @@
         <!-- Gnome Tags -->
                 <node id="TooltipExtraTexts">
                     <attribute id="Comment" type="LSString" value="Gnome Tag"/>
-                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="Text" type="TranslatedString" handle="h08b4bf569d1f48dbb9db5dfa56a8f205274e" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500500000000"/>
                 </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Gnome - Deep Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h93d338c01ab9460083d9d5e997c708affa0d" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500500000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Gnome - Forest Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h89a9b5fd1a594457af9d0ca903df7270feca" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0102-500500000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Gnome - Rock Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="h63425d30b33240fe97f62f6e301a5d8dd6dg" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0103-500500000000"/>
+                </node>
+
 
         <!-- Half-Elf Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Half-Elf Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500600000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Half-Elf Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500600000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Half-Elf Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500600000000"/>
+                </node>
                 <node id="TooltipExtraTexts">
                     <attribute id="Comment" type="LSString" value="Half-Elf Tag"/>
                     <attribute id="Text" type="TranslatedString" handle="" version="1"/>
@@ -258,6 +289,16 @@
                     <attribute id="Text" type="TranslatedString" handle="" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500800000000"/>
                 </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Halfling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500800000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Halfling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-500800000000"/>
+                </node>
 
         <!-- Human Tags -->
                 <node id="TooltipExtraTexts">
@@ -267,6 +308,21 @@
                 </node>
 
         <!-- Tiefling Tags -->
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Tiefling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-501000000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Tiefling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-501000000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Tiefling Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0100-501000000000"/>
+                </node>
                 <node id="TooltipExtraTexts">
                     <attribute id="Comment" type="LSString" value="Tiefling Tag"/>
                     <attribute id="Text" type="TranslatedString" handle="" version="1"/>
@@ -284,6 +340,24 @@
                     <attribute id="Text" type="TranslatedString" handle="" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500a00000000"/>
                 </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Beastial Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500a00000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Aasimar Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500a00000000"/>
+                </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Genasi Tag"/>
+                    <attribute id="Text" type="TranslatedString" handle="" version="1"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-7737-0101-500a00000000"/>
+                </node>
+
+
+
 
         <!-- ~Misc Homeland Tags -->
                 <node id="TooltipExtraTexts">
