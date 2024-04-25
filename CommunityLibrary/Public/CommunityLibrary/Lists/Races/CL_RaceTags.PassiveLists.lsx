@@ -6,7 +6,7 @@
             <children>
                 <node id="PassiveList">
                     <attribute id="Comment" type="LSString" value="All Race Tags" />
-                    <attribute id="Passives" type="LSString" value="CL_Passive_RaceTags_NoRace,CL_Passive_RaceTags_Dragonborn,CL_Passive_RaceTags_Dwarf,CL_Passive_RaceTags_DwarfDuergar,CL_Passive_RaceTags_DwarfGold,CL_Passive_RaceTags_DwarfShield,CL_Passive_RaceTags_Elf,CL_Passive_RaceTags_ElfDrow,CL_Passive_RaceTags_ElfDrowLolth,CL_Passive_RaceTags_ElfDrowSeldarine,CL_Passive_RaceTags_ElfHigh,CL_Passive_RaceTags_ElfWood,CL_Passive_RaceTags_Githyanki,CL_Passive_RaceTags_Gnome,CL_Passive_RaceTags_GnomeDeep,CL_Passive_RaceTags_GnomeForest,CL_Passive_RaceTags_GnomeRock,CL_Passive_RaceTags_HalfElf,CL_Passive_RaceTags_HalfElfDrow,CL_Passive_RaceTags_HalfElfHigh,CL_Passive_RaceTags_HalfElfWood,CL_Passive_RaceTags_HalfOrc,CL_Passive_RaceTags_Halfling,CL_Passive_RaceTags_HalflingLightfoot,CL_Passive_RaceTags_StrongheartHalfling,CL_Passive_RaceTags_Human,CL_Passive_RaceTags_Tiefling,CL_Passive_RaceTags_TieflingAsmodeus,CL_Passive_RaceTags_TieflingMephistopheles,CL_Passive_RaceTags_TieflingZariel,CL_Passive_RaceTags_Rare,CL_Passive_RaceTags_Beastial,CL_Passive_RaceTags_Aasimar,CL_Passive_RaceTags_Genasi,CL_Passive_RaceTags_HomeBaldurian,CL_Passive_RaceTags_HomePlanar,CL_Passive_RaceTags_HomeUnderdark,CL_Passive_RaceTags_Homeless" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_RaceTags_NoRace,CL_Passive_RaceTags_Dragonborn,CL_Passive_RaceTags_Dwarf,CL_Passive_RaceTags_DwarfDuergar,CL_Passive_RaceTags_DwarfGold,CL_Passive_RaceTags_DwarfShield,CL_Passive_RaceTags_Elf,CL_Passive_RaceTags_ElfDrow,CL_Passive_RaceTags_ElfDrowLolth,CL_Passive_RaceTags_ElfDrowSeldarine,CL_Passive_RaceTags_ElfHigh,CL_Passive_RaceTags_ElfWood,CL_Passive_RaceTags_Githyanki,CL_Passive_RaceTags_Gnome,CL_Passive_RaceTags_GnomeDeep,CL_Passive_RaceTags_GnomeForest,CL_Passive_RaceTags_GnomeRock,CL_Passive_RaceTags_HalfElf,CL_Passive_RaceTags_HalfElfDrow,CL_Passive_RaceTags_HalfElfHigh,CL_Passive_RaceTags_HalfElfWood,CL_Passive_RaceTags_HalfOrc,CL_Passive_RaceTags_Halfling,CL_Passive_RaceTags_HalflingLightfoot,CL_Passive_RaceTags_StrongheartHalfling,CL_Passive_RaceTags_Human,CL_Passive_RaceTags_Tiefling,CL_Passive_RaceTags_TieflingAsmodeus,CL_Passive_RaceTags_TieflingMephistopheles,CL_Passive_RaceTags_TieflingZariel,CL_Passive_RaceTags_Aasimar,CL_Passive_RaceTags_Genasi,CL_Passive_RaceTags_HomeBaldurian,CL_Passive_RaceTags_Homeless" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-1157-0100-5a1100000000" />
                 </node>
                 <node id="PassiveList">
@@ -41,12 +41,12 @@
                 </node>
                 <node id="PassiveList">
                     <attribute id="Comment" type="LSString" value="Special Race Tags" />
-                    <attribute id="Passives" type="LSString" value="CL_Passive_RaceTags_NoRace,CL_Passive_RaceTags_Rare,CL_Passive_RaceTags_Beastial,CL_Passive_RaceTags_Aasimar,CL_Passive_RaceTags_Genasi" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_RaceTags_NoRace,CL_Passive_RaceTags_Aasimar,CL_Passive_RaceTags_Genasi" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-1157-0100-500a00000000" />
                 </node>
                 <node id="PassiveList">
                     <attribute id="Comment" type="LSString" value="Home Tags" />
-                    <attribute id="Passives" type="LSString" value="CL_Passive_RaceTags_Homeless,CL_Passive_RaceTags_HomeBaldurian,CL_Passive_RaceTags_HomePlanar,CL_Passive_RaceTags_HomeUnderdark" />
+                    <attribute id="Passives" type="LSString" value="CL_Passive_RaceTags_Homeless,CL_Passive_RaceTags_HomeBaldurian" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-7a65-1157-0100-500b00000000" />
                 </node>
             </children>
