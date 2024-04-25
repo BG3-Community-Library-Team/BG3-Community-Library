@@ -1,11 +1,75 @@
 <contentList>
+  <!-- Monk: Level 1 -->
+  <!-- Martial Arts -->
+  <!-- CL_Passive_OneDnD_MartialArts_DextrousAttacks -->
+  <content contentuid="h7b5cd44149e84c59b9647aa521207f2bc2ff" version="1">Martial Arts: Dextrous Attacks</content>
+  <content contentuid="h125c54ac83574a7a9e9c9602de353dda6a19" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; if your Dexterity is higher.</content>
+  <!-- CL_Passive_OneDnD_MartialArts_Damage -->
   <content contentuid="h76a39bc2744f42b0bb18dc8d7c8c7b064egg" version="1">Martial Arts: Damage</content>
   <content contentuid="h10243a116a0a4ffeae98f6d8f53be450d711" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher. </content>
   <content contentuid="hd91319eb04a8443b8f4934da6a92c9cb7ca9" version="1">Level 1: 1d6. &lt;br&gt;Level 5: 1d8. &lt;br&gt;Level 11: 1d10. &lt;br&gt;Level 17: 1d12.</content>
-
-  <content contentuid="hbd204e2b9844492392c48318d280effbf451" version="1">Martial Arts: Bonus Unarmed Strike</content>
-  <content contentuid="haa8f0f58250d486183af341767af790ae579" version="1">You can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_BonusUnarmedStrike"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
-  <content contentuid="h95f3ffa18ea2428ebc6b1b093edde85b4262" version="1">Martial Arts Unarmed Strike</content>
+  <!-- CL_Passive_OneDnD_MartialArts_UnarmedStrikes -->
+  <content contentuid="hbd204e2b9844492392c48318d280effbf451" version="1">Martial Arts: Unarmed Strikes</content>
+  <content contentuid="haa8f0f58250d486183af341767af790ae579" version="1">You can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_MartialArts_UnarmedStrikeBonus"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <!-- CL_Target_OneDnD_MartialArts_UnarmedStrike -->
+  <content contentuid="h95f3ffa18ea2428ebc6b1b093edde85b4262" version="1">Martial Arts: Unarmed Strike</content>
   <content contentuid="h23490067a07c4f929fe4e02ea5ef35395cf3" version="1">Swiftly strike a target with your bare fists as an action.</content>
+  <!-- CL_Target_OneDnD_MartialArts_UnarmedStrike_BonusAction -->
   <content contentuid="h48e7c3f43ee744eaa9d72c800649d732e4aa" version="1">Swiftly strike a target with your bare fists as a bonus action.</content>
+
+  <!-- Monk: Level 2 -->
+  <!-- Monk’s Discipline -->
+  <!-- 
+                    <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h8ab829e5g69d0g4319g95c5g93128aa37f69" version="3"/>
+                      <content contentuid="h8ab829e5g69d0g4319g95c5g93128aa37f69" version="3">Ki is the magic that flows through all living beings. You can use Ki Points to fuel your advanced monk techniques.</content>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3c3818aeg5928g4c31ga564gb0a36e0beaba" version="3"/>
+                      <content contentuid="h3c3818aeg5928g4c31ga564gb0a36e0beaba" version="3">Ki Point(s)</content>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="KiPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="46d3d228-04e0-4a43-9a2e-78137e858c14"/>
+  -->
+  <!--  -->
+  <content contentuid="h54c1dc8971ae437cb8e4f85c1d135a0770dg" version="1">Monk’s Discipline</content>
+  <content contentuid="h4e5a7c5bfdcf4b6dbe09638690ac342df62f" version="1">Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. You can spend &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;these points&lt;/LSTag&gt; to fuel advanced monk techniques.</content>
+  <content contentuid="h2a84d236ac1241b68bd127b5be0840fa3g10" version="1">You start knowing three such features: &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_FlurryOfBlows_FirstStrike"&gt;Flurry of Blows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_PatientDefense"&gt;Patient Defense&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_StepOfTheWind"&gt;Step of the Wind&lt;/LSTag&gt;.</content>
+
+  <content contentuid="hbdbfec264cdb4ee98e665df930390108a41e" version="1">Discipline Point(s)</content>
+  
+  <!-- CL_Target_OneDnD_FlurryOfBlows_FirstStrike -->
+  <content contentuid="" version="1">Flurry of Blows</content>
+  <content contentuid="" version="1">Make two &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <!-- CL_Target_OneDnD_FlurryOfBlows_SecondStrike -->
+  <content contentuid="" version="1">Flurry of Blows: Second Strike</content>
+  <content contentuid="" version="1">Make a follow up &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttack"&gt;Unarmed Strikes&lt;/LSTag&gt;.</content>
+  <!-- CL_STATUS_FLURRY_OF_BLOWS_SECOND_STRIKE -->
+  <content contentuid="" version="1"></content>
+  <content contentuid="" version="1"></content>
+  <!-- CL_Shout_OneDnD_BonusStepOfTheWind -->
+  <!-- CL_Shout_OneDnD_StepOfTheWind -->
+  <content contentuid="" version="1">Step of the Wind: Dash</content>
+  <content contentuid="" version="1">Double your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. Jump no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <!-- CL_STATUS_STEP_OF_THE_WIND -->
+  <content contentuid="" version="1">Step of the Wind</content>
+  <content contentuid="" version="1">Jumping no longer requires a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <!-- CL_Shout_OneDnD_BonusPatientDefense -->
+  <!-- CL_Shout_OneDnD_PatientDefense -->
+  <content contentuid="" version="1">Patient Defence</content>
+  <content contentuid="" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+
+  <!-- Monk: Level 3 -->
+  <!-- Deflect Attacks -->
+  <!-- CL_Passive_OneDnD_DeflectAttacks -->
+  <content contentuid="habbb82f9afa64cc1ae16cb09fa38cfd87ab4" version="1">Deflect Attacks</content>
+  <content contentuid="hb8c0a50a953d45dd9072582ce561c96662b8" version="1">Use your reaction to reduce the damage from a weapon attack by 1d10 + your Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; + your monk level.&lt;br&gt;&lt;br&gt;If the damage is reduced to 0, you use a Ki Point to &lt;LSTag Type="Spell" Tooltip="CL_Projectile_OneDnD_DeflectAttacks"&gt;Deflect the Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="h60771c66eaf14c18bb4e840677e150c0c510" version="1">You can only reduce damage from the attack - any additional effects can't be negated.</content>
+  <!-- CL_Interrupt_OneDnD_DeflectAttacks -->
+  <content contentuid="h8805144926d445c5821b0e2f16bd60997e6d" version="1">Reduce the damage from a weapon attack by 1d10 + your Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; + your monk level.&lt;br&gt;&lt;br&gt;If the damage is reduced to 0, you use a Ki Point to &lt;LSTag Type="Spell" Tooltip="CL_Projectile_OneDnD_DeflectAttacks"&gt;Deflect the Attack&lt;/LSTag&gt;</content>
+  <!-- CL_Interrupt_OneDnD_DeflectAttacks_Return -->
+  <content contentuid="h8902d741ac1a40dba37d677bf13a346cff05" version="1">Use your reflexes to redirect a weapon attack back at your attacker.</content>
+  <!-- CL_Projectile_OneDnD_DeflectAttacks -->
+  <content contentuid="h45778f72253e4a2993cdf3acd197f8503cb0" version="1">Redirect a weapon attack back at your attacker.</content>
+
 </contentList>
