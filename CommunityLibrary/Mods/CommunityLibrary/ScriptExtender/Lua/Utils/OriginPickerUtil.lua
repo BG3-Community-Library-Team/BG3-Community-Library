@@ -100,7 +100,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "before", function(uuid, status,
                                     for k, specialName in pairs(OriginTagsPlaceName) do
                                         local indexPos = 1
                                         if ((k % 2) ~= 0) then
-                                            clearSpecial[indexPos] = Trips_IsSpecial(OriginTagsName[index], OriginTagsPlaceName[k])
+                                            clearSpecial[indexPos] = CL_IsSpecialOrigin(OriginTagsName[index], OriginTagsPlaceName[k])
                                             indexPos = indexPos + 1
                                         end
                                     end
