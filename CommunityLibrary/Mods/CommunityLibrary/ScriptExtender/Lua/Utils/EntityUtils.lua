@@ -11,6 +11,16 @@ local function RetrieveEntity(entity)
   return res
 end
 
+-- Get all party uuids
+function Utils.GetPartyTable()
+	local characters = {}
+	local players = Osi.DB_Players:Get(nil)
+	for _, player in pairs(players) do
+		table.insert(characters, player[1])
+	end
+	return characters
+end
+
 --- Get the Action Resource Data from a Given Entity/Entity ID.
 ---@param entity string|userdata Entity or Entity ID
 ---@param resource string UUID or Name of Action Resource/Action Resource Group

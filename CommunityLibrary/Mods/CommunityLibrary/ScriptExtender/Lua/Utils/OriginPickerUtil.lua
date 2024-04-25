@@ -41,7 +41,7 @@ end
 Ext.Osiris.RegisterListener("LevelGameplayStarted", 2, "after", function(levelName, isEditorMode) 
     if enabled then
         if debugText then _P("[OP-CL] OriginPicker enabled for custom race: ".. raceUuid) end
-        for _, uuid in pairs(GetPartyWotD()) do
+        for _, uuid in pairs(Utils.GetPartyTable()) do
             local entity = Ext.Entity.Get(uuid)
             local allTags = entity.Tag.Tags
             for i, tag in pairs(OriginTagsUuid) do
