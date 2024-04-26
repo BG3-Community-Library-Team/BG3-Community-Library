@@ -1,0 +1,13 @@
+<contentList>
+  <!-- CL_Passive_OneDnD_DeflectAttacks -->
+  <content contentuid="habbb82f9afa64cc1ae16cb09fa38cfd87ab4" version="1">Deflect Attacks</content>
+  <content contentuid="hb8c0a50a953d45dd9072582ce561c96662b8" version="1">Use your reaction to reduce the damage from a weapon attack by 1d10 + your Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; + your monk level.&lt;br&gt;&lt;br&gt;If the damage is reduced to 0, you use a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Discipline Point&lt;/LSTag&gt; to &lt;LSTag Type="Spell" Tooltip="CL_Projectile_OneDnD_DeflectAttacks"&gt;Deflect the Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="h60771c66eaf14c18bb4e840677e150c0c510" version="1">You can only reduce damage from the attack - any additional effects can't be negated.</content>
+  <!-- CL_Interrupt_OneDnD_DeflectAttacks -->
+  <content contentuid="h7714f97b21a342c984975f38f5a0a0a2gf9f" version="1">Deflect Attack</content>
+  <content contentuid="h8805144926d445c5821b0e2f16bd60997e6d" version="1">Reduce the damage from a weapon attack by 1d10 + your Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; + your monk level.&lt;br&gt;&lt;br&gt;If the damage is reduced to 0, you use a &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Discipline Point&lt;/LSTag&gt; to &lt;LSTag Type="Spell" Tooltip="CL_Projectile_OneDnD_DeflectAttacks"&gt;Deflect the Attack&lt;/LSTag&gt;</content>
+  <!-- CL_Interrupt_OneDnD_DeflectAttacks_Return -->
+  <content contentuid="h8902d741ac1a40dba37d677bf13a346cff05" version="1">Use your reflexes to redirect a weapon attack back at your attacker.</content>
+  <!-- CL_Projectile_OneDnD_DeflectAttacks -->
+  <content contentuid="h45778f72253e4a2993cdf3acd197f8503cb0" version="1">Redirect a weapon attack back at your attacker.</content>
+</contentList>

@@ -449,3 +449,8 @@ end
 function CL_IsBonusActionJump()
   return SpellCategoryIs(SpellCategory.Jump) & HasUseCosts('BonusActionPoint')
 end
+
+function CL_IsNonSpellAttack()
+    result = context.HitDescription.AttackType == AttackType.MeleeWeaponAttack or context.HitDescription.AttackType == AttackType.MeleeUnarmedAttack or context.HitDescription.AttackType == AttackType.MeleeOffHandWeaponAttack or context.HitDescription.AttackType == AttackType.RangedWeaponAttack or context.HitDescription.AttackType == AttackType.RangedUnarmedAttack or context.HitDescription.AttackType == AttackType.RangedOffHandWeaponAttack
+  return ConditionResult(result)
+end
