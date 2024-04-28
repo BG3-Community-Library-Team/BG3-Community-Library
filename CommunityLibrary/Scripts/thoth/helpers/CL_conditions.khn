@@ -445,3 +445,13 @@ function CL_HasSpellSlotLevelUnlocked(level,entity,table)
   local casterlevelneeded = level * 2 - 1
   return CL_CasterLevelMultiClass(casterlevelneeded,entity,table)
 end
+
+function CL_IsBonusActionJump()
+  return SpellCategoryIs(SpellCategory.Jump) & HasUseCosts('BonusActionPoint')
+end
+
+function CL_CalculateRelentlessRageDC(entity)
+  local entity = entity or context.Source
+  local numRelentlessRageStacks = GetStatusDuration('CL_STATUS_ONEDND_RELENTLESS_RAGE_SUCCESS', entity)
+  return 10 + numRelentlessRageStacks * 5
+end
