@@ -7,6 +7,7 @@ Globals.Debug = false
 Globals.ShowWarnings = true
 Globals.SpellLists = {}
 Globals.Progressions = {}
+Globals.OriginPicker = {}
 Globals.OriginPicker.RaceUuid = "0000000-0000-0000-0000-000000000000"
 Globals.OriginPicker.Enabled = false
 
