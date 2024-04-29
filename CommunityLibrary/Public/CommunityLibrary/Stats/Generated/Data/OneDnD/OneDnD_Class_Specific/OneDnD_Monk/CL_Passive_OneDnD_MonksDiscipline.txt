@@ -105,7 +105,6 @@ data "SpellStyleGroup" "Class"
 
 // Step of the Wind
 
-
 new entry "CL_STATUS_ONEDND_STEP_OF_THE_WIND"
 type "StatusData"
 data "StatusType" "BOOST"
