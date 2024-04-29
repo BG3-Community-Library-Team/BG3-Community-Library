@@ -1,0 +1,19 @@
+<contentList>
+  <!-- Monk: Level 1 -->
+  <!-- CL_Passive_OneDnD_MartialArts -->
+  <content contentuid="hdd12131ed5034778826717a90a3386fab056" version="1">Martial Arts</content>
+  <content contentuid="h3fedefce3b194d5e8fe1cf6d0a02d1d17566" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher and scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; if your Dexterity is higher. In addition, you can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_MartialArts_UnarmedStrikeBonus"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <content contentuid="hd91319eb04a8443b8f4934da6a92c9cb7ca9" version="1">Level 1: 1d6. &lt;br&gt;Level 5: 1d8. &lt;br&gt;Level 11: 1d10. &lt;br&gt;Level 17: 1d12.</content>
+  <!-- CL_Passive_OneDnD_MartialArts_DextrousAttacks -->
+  <content contentuid="h7b5cd44149e84c59b9647aa521207f2bc2ff" version="1">Martial Arts: Dextrous Attacks</content>
+  <content contentuid="h125c54ac83574a7a9e9c9602de353dda6a19" version="1">Attacks with &lt;LSTag Tooltip="MonkWeapon"&gt;Monk Weapons&lt;/LSTag&gt; and unarmed attacks scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; instead of your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; if your Dexterity is higher.</content>
+  
+  <!-- CL_Passive_OneDnD_MartialArts_UnarmedStrikes -->
+  <content contentuid="hbd204e2b9844492392c48318d280effbf451" version="1">Martial Arts: Unarmed Strikes</content>
+  <content contentuid="haa8f0f58250d486183af341767af790ae579" version="1">You can make &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_MartialArts_UnarmedStrike_BonusAction"&gt;Unarmed Strikes&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+  <!-- CL_Target_OneDnD_MartialArts_UnarmedStrike -->
+  <content contentuid="h95f3ffa18ea2428ebc6b1b093edde85b4262" version="1">Martial Arts: Unarmed Strike</content>
+  <content contentuid="h23490067a07c4f929fe4e02ea5ef35395cf3" version="1">Swiftly unarmed strike a target.</content>
+  <!-- CL_Target_OneDnD_MartialArts_UnarmedStrike_BonusAction -->
+  <content contentuid="h48e7c3f43ee744eaa9d72c800649d732e4aa" version="1">Swiftly unarmed strike a target as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+</contentList>
