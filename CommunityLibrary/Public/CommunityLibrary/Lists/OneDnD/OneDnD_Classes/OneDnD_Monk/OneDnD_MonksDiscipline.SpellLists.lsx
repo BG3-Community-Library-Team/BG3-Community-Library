@@ -6,12 +6,12 @@
             <children>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Monk: Bonus Action Dash and Disengage"/>
-                    <attribute id="Spells" type="LSString" value="CL_Shout_OneDnD_StepOfTheWind_Dash;CL_Shout_OneDnD_PatientDefense_Disengage"/>
+                    <attribute id="Spells" type="LSString" value="CL_Shout_OneDnD_StepOfTheWind_Dash;CL_Shout_OneDnD_PatientDefence_Disengage"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0101-c00700000002"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Monk: Monk's Discipline"/>
-                    <attribute id="Spells" type="LSString" value="CL_Target_OneDnD_FlurryOfBlows_FirstStrike;CL_Shout_OneDnD_PatientDefense;CL_Shout_OneDnD_StepOfTheWind"/>
+                    <attribute id="Spells" type="LSString" value="CL_Target_OneDnD_FlurryOfBlows_FirstStrike;CL_Shout_OneDnD_PatientDefence;CL_Shout_OneDnD_StepOfTheWind"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0102-c00700000002"/>
                 </node>
             </children>

@@ -7,7 +7,7 @@ data "Description" "h4e5a7c5bfdcf4b6dbe09638690ac342df62f;1"
 data "ExtraDescription" "h2a84d236ac1241b68bd127b5be0840fa3g10;1"
 data "Icon" "PassiveFeature_KiFlurryOfBlows"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpell(CL_Shout_OneDnD_StepOfTheWind_Dash);UnlockSpell(CL_Shout_OneDnD_PatientDefense_Disengage);UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_FirstStrike);UnlockSpell(CL_Shout_OneDnD_PatientDefense);UnlockSpell(CL_Shout_OneDnD_StepOfTheWind)"
+data "Boosts" "UnlockSpell(CL_Shout_OneDnD_StepOfTheWind_Dash);UnlockSpell(CL_Shout_OneDnD_PatientDefence_Disengage);UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_FirstStrike);UnlockSpell(CL_Shout_OneDnD_PatientDefence);UnlockSpell(CL_Shout_OneDnD_StepOfTheWind)"
 
 // Flurry of Blows
 
@@ -61,7 +61,7 @@ data "PrepareEffect" "d8ea7a73-027c-4472-b638-2b939d384900"
 data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
 data "TargetEffect" "dc8efa81-182b-4446-82ac-5e0e4c5f87d0"
 
-// Patient Defense
+// Patient Defence
 
 new entry "CL_STATUS_ONEDND_PATIENT_DEFENCE"
 type "StatusData"
@@ -77,7 +77,7 @@ data "RemoveConditions" "HasStatus('SG_Incapacitated')"
 data "RemoveEvents" "OnStatusApplied"
 data "Boosts" "Disadvantage(AttackTarget);Advantage(SavingThrow, Dexterity);IgnoreLeaveAttackRange()"
 
-new entry "CL_Shout_OneDnD_PatientDefense_Disengage"
+new entry "CL_Shout_OneDnD_PatientDefence_Disengage"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_Disengage_BonusAction"
@@ -90,10 +90,10 @@ data "SpellFlags" "NoCameraMove;IgnoreSilence;Stealth;Invisible"
 data "PrepareEffect" "c520a0bf-adc6-44f6-abcd-94bc0925b881"
 data "CastEffect" "0ed6eeea-fb80-45e5-a190-d72579f7e3d6"
 
-new entry "CL_Shout_OneDnD_PatientDefense"
+new entry "CL_Shout_OneDnD_PatientDefence"
 type "SpellData"
 data "SpellType" "Shout"
-using "CL_Shout_OneDnD_PatientDefense_Disengage"
+using "CL_Shout_OneDnD_PatientDefence_Disengage"
 data "SpellProperties" "ApplyStatus(CL_STATUS_ONEDND_PATIENT_DEFENCE,100,1)"
 data "Icon" "Action_Monk_StepOfTheWind_Disengage"
 data "DisplayName" "h8c36a9aab6f34d5c87581467c31178bf6cc7;1"

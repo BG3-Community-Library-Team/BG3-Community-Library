@@ -2,7 +2,7 @@
   <!-- Monk’s Discipline -->
   <content contentuid="h54c1dc8971ae437cb8e4f85c1d135a0770dg" version="1">Monk’s Discipline</content>
   <content contentuid="h4e5a7c5bfdcf4b6dbe09638690ac342df62f" version="1">Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. You can spend &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;these points&lt;/LSTag&gt; to fuel advanced monk techniques.</content>
-  <content contentuid="h2a84d236ac1241b68bd127b5be0840fa3g10" version="1">You start knowing three such features: &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_FlurryOfBlows_FirstStrike"&gt;Flurry of Blows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_PatientDefense"&gt;Patient Defense&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_StepOfTheWind"&gt;Step of the Wind&lt;/LSTag&gt;.</content>
+  <content contentuid="h2a84d236ac1241b68bd127b5be0840fa3g10" version="1">You start knowing three such features: &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_FlurryOfBlows_FirstStrike"&gt;Flurry of Blows&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_PatientDefence"&gt;Patient Defence&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="CL_Shout_OneDnD_StepOfTheWind"&gt;Step of the Wind&lt;/LSTag&gt;.</content>
   <!-- Ki Action Resource Update -->
   <content contentuid="h2833afe5dba74f8680ef69d9fc8956b37cc9" version="1">Discipline Points: 2</content>
   <content contentuid="hbdbfec264cdb4ee98e665df930390108a41e" version="1">Discipline Point(s)</content>
@@ -15,9 +15,9 @@
   <!-- CL_Target_OneDnD_FlurryOfBlows_SecondStrike -->
   <content contentuid="h356396fa35884b8fa1f03509cec1212ce4af" version="1">Flurry of Blows: Second Strike</content>
   <content contentuid="h0d53d76eeb87409cba67a6b9a7b7542d960c" version="1">Make a follow up Unarmed Strike.</content>
-  <!-- CL_Shout_OneDnD_PatientDefense_Disengage -->
+  <!-- CL_Shout_OneDnD_PatientDefence_Disengage -->
   <content contentuid="h4994b37094b04d1b929ddbd29acf122a3feg" version="1">Patient Defence: Disengage</content>
-  <!-- CL_Shout_OneDnD_PatientDefense -->
+  <!-- CL_Shout_OneDnD_PatientDefence -->
   <content contentuid="h8c36a9aab6f34d5c87581467c31178bf6cc7" version="1">Patient Defence</content>
   <content contentuid="h9242152009da4e72bc2711ca43fc76a79079" version="1">Focusing on avoiding attacks.&lt;br&gt;&lt;Br&gt;Can move without provoking &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the affected entity have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;, and the entity has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
   <!-- CL_Shout_OneDnD_StepOfTheWind_Dash -->
