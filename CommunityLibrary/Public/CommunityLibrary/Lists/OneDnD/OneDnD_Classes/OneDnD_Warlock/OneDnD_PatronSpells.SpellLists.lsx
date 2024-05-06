@@ -261,7 +261,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_FeignDeath;Shout_SpiritGuardians"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Shout_SpiritGuardians"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0803-c01200000002"/>
                 </node>
                 <node id="SpellList">
