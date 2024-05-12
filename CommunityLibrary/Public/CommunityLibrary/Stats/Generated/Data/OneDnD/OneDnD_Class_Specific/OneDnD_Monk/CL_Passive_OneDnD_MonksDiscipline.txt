@@ -9,6 +9,15 @@ data "Icon" "PassiveFeature_KiFlurryOfBlows"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "UnlockSpell(CL_Shout_OneDnD_StepOfTheWind_Dash);UnlockSpell(CL_Shout_OneDnD_PatientDefense_Disengage);UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_FirstStrike);UnlockSpell(CL_Shout_OneDnD_PatientDefense);UnlockSpell(CL_Shout_OneDnD_StepOfTheWind)"
 
+//WIP
+new entry "CL_Passive_OneDnD_MonksDisciplineHeightenedDiscipline"
+type "PassiveData"
+data "DisplayName" "h54c1dc8971ae437cb8e4f85c1d135a0770dg;1"
+data "Description" "h4e5a7c5bfdcf4b6dbe09638690ac342df62f;1"
+data "ExtraDescription" "h2a84d236ac1241b68bd127b5be0840fa3g10;1"
+data "Icon" "PassiveFeature_KiFlurryOfBlows"
+data "Properties" "IsHidden"
+
 // Flurry of Blows
 
 new entry "CL_STATUS_FLURRY_OF_BLOWS_SECOND_STRIKE"
@@ -17,9 +26,19 @@ data "StatusType" "BOOST"
 data "DisplayName" "h356396fa35884b8fa1f03509cec1212ce4af;1"
 data "Description" "h0d53d76eeb87409cba67a6b9a7b7542d960c;1"
 data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
-data "StackId" "CL_STATUS_FLURRY_OF_BLOWS_SECOND_STRIKE"
-data "TickType" "StartTurn"
+data "StackId" "CL_STATUS_FLURRY_OF_BLOWS_STRIKES"
+data "TickType" "EndTurn"
 data "Boosts" "IF(not HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_SecondStrike);IF(HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(Target_OpenHandTechnique_Knock_SecondStrike);IF(HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(Target_OpenHandTechnique_NoReactions_SecondStrike);IF(HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(Target_OpenHandTechnique_Push_SecondStrike)"
+
+new entry "CL_STATUS_FLURRY_OF_BLOWS_THIRD_STRIKE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h356396fa35884b8fa1f03509cec1212ce4af;1"
+data "Description" "h0d53d76eeb87409cba67a6b9a7b7542d960c;1"
+data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
+data "StackId" "CL_STATUS_FLURRY_OF_BLOWS_STRIKES"
+data "TickType" "EndTurn"
+data "Boosts" "IF(not HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_ThirdStrike);IF(HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(Target_OpenHandTechnique_Knock_SecondStrike);IF(HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(Target_OpenHandTechnique_NoReactions_SecondStrike);IF(HasPassive('OpenHandTechniqueUnlock', context.Source)):UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_ThirdStrike)"
 
 new entry "CL_Target_OneDnD_FlurryOfBlows_FirstStrike"
 type "SpellData"
@@ -51,7 +70,7 @@ new entry "CL_Target_OneDnD_FlurryOfBlows_SecondStrike"
 type "SpellData"
 data "SpellType" "Target"
 using "CL_Target_OneDnD_FlurryOfBlows_FirstStrike"
-data "SpellProperties" "RemoveStatus(SELF,CL_STATUS_FLURRY_OF_BLOWS_SECOND_STRIKE)"
+data "SpellProperties" "RemoveStatus(SELF,CL_STATUS_FLURRY_OF_BLOWS_SECOND_STRIKE);IF(HasPassive('CL_Passive_OneDnD_MonksDisciplineHeightenedDiscipline', context.Source)):ApplyStatus(SELF,CL_STATUS_FLURRY_OF_BLOWS_THIRD_STRIKE,100,1)"
 data "DisplayName" "h356396fa35884b8fa1f03509cec1212ce4af;1"
 data "Description" "h0d53d76eeb87409cba67a6b9a7b7542d960c;1"
 data "UseCosts" ""
@@ -61,8 +80,15 @@ data "PrepareEffect" "d8ea7a73-027c-4472-b638-2b939d384900"
 data "CastEffect" "9d8f170e-35d7-4cdb-b1f9-5493cf771b19"
 data "TargetEffect" "dc8efa81-182b-4446-82ac-5e0e4c5f87d0"
 
-// Patient Defense
+new entry "CL_Target_OneDnD_FlurryOfBlows_ThirdStrike"
+type "SpellData"
+data "SpellType" "Target"
+using "CL_Target_OneDnD_FlurryOfBlows_SecondStrike"
+data "SpellProperties" "RemoveStatus(SELF,CL_STATUS_FLURRY_OF_BLOWS_THIRD_STRIKE)"
+data "DisplayName" "h356396fa35884b8fa1f03509cec1212ce4af;1"
 
+// Patient Defense
+// Add Temp HP clause
 new entry "CL_STATUS_ONEDND_PATIENT_DEFENCE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -71,7 +97,7 @@ data "Description" "h9242152009da4e72bc2711ca43fc76a79079;1"
 data "Icon" "Action_Monk_StepOfTheWind_Disengage"
 data "SoundVocalStart" "DODGE"
 data "StackId" "CL_STATUS_ONEDND_PATIENT_DEFENCE"
-data "TickType" "EndTurn"
+data "TickType" "StartTurn"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "RemoveConditions" "HasStatus('SG_Incapacitated')"
 data "RemoveEvents" "OnStatusApplied"
@@ -104,8 +130,7 @@ data "VerbalIntent" "Buff"
 data "SpellStyleGroup" "Class"
 
 // Step of the Wind
-
-
+// Add target clause
 new entry "CL_STATUS_ONEDND_STEP_OF_THE_WIND"
 type "StatusData"
 data "StatusType" "BOOST"

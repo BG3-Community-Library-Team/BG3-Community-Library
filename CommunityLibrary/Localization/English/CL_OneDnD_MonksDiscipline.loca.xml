@@ -13,8 +13,8 @@
   <content contentuid="h54a656eaf36847a6992adf03f80326425g8g" version="1">Flurry of Blows</content>
   <content contentuid="h9a92c18ecd3b4cc486567b0a646832ff4141" version="1">Make two Unarmed Strikes as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
   <!-- CL_Target_OneDnD_FlurryOfBlows_SecondStrike -->
-  <content contentuid="h356396fa35884b8fa1f03509cec1212ce4af" version="1">Flurry of Blows: Second Strike</content>
-  <content contentuid="h0d53d76eeb87409cba67a6b9a7b7542d960c" version="1">Make a follow up Unarmed Strike.</content>
+  <content contentuid="h356396fa35884b8fa1f03509cec1212ce4af" version="1">Flurry of Blows: Follow Up Strike</content>
+  <content contentuid="h0d53d76eeb87409cba67a6b9a7b7542d960c" version="1">Follow up with another Unarmed Strike.</content>
   <!-- CL_Shout_OneDnD_PatientDefense_Disengage -->
   <content contentuid="h4994b37094b04d1b929ddbd29acf122a3feg" version="1">Patient Defence: Disengage</content>
   <!-- CL_Shout_OneDnD_PatientDefense -->
