@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+             <!-- Abjuration -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0201-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0202-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0203-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0204-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Target_PlanarBinding;Target_Banishment;Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0205-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Target_GlobeOfInvulnerability;Shout_Repulsion;Target_SpellWrack;Target_PlanarBinding;Target_Banishment;Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0206-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Target_EnergyAegis;Target_GlobeOfInvulnerability;Shout_Repulsion;Target_SpellWrack;Target_PlanarBinding;Target_Banishment;Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0207-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Target_MindBlank;Target_EnergyAegis;Target_GlobeOfInvulnerability;Shout_Repulsion;Target_SpellWrack;Target_PlanarBinding;Target_Banishment;Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0208-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Abjuration Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Target_MindBlank;Target_EnergyAegis;Target_GlobeOfInvulnerability;Shout_Repulsion;Target_SpellWrack;Target_PlanarBinding;Target_Banishment;Target_Counterspell;Target_IntellectFortress;Target_Nondetection;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_ArcaneLock;Target_ExtractPoison;Shout_FireProof;Target_ResistEnergy;Shout_Watrproof;Shout_AbsorbElements;Target_MageArmor;Shout_MageArmor2e;Target_ProtectionFromEvilAndGood;Shout_Shield_Wizard;Target_Snare" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0209-c01300000002" />
+                </node>
+             <!-- Divination -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0301-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0302-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0303-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Shout_DicernLies;Target_WinningStreak;Target_Organsight;Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0304-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Shout_DicernLies;Target_WinningStreak;Target_Organsight;Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0305-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Zone_CastIntoTime;Target_TrueSeeing;Shout_DicernLies;Target_WinningStreak;Target_Organsight;Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0306-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Target_TrueTarget;Zone_CastIntoTime;Target_TrueSeeing;Shout_DicernLies;Target_WinningStreak;Target_Organsight;Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0307-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Target_TrueTarget;Zone_CastIntoTime;Target_TrueSeeing;Shout_DicernLies;Target_WinningStreak;Target_Organsight;Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0308-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Divination Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Target_Foresight;Target_TrueTarget;Zone_CastIntoTime;Target_TrueSeeing;Shout_DicernLies;Target_WinningStreak;Target_Organsight;Target_Organsight;Shout_BorrowedKnowledge;Shout_DetectThoughts;Target_ImpeccableFlow;Target_MindSpike;Shout_SeeInvisibility;Target_AnticipatePeril;Shout_DetectMagic" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0309-c01300000002" />
+                </node>
+             <!-- Evocation -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0401-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0402-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0403-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Shout_DrawTheLightning;Shout_FireShield;Shout_FireShield2e;Projectile_IceSpike;Target_IceStorm;Projectile_JumpingJolt;Target_ResilientSphere;Target_StormSphere;Projectile_VitriolicSphere;Wall_WallOfFire;Zone_WeaponStorm;Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0404-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Zone_BlazingFissure;Zone_ConeOfCold;Zone_ConeOfCold2e;Target_FlameDancer;Target_ForcefulHand;Target_ScouringPulse;Projectile_SkyBurst;Wall_WallOfStone;Shout_DrawTheLightning;Shout_FireShield;Shout_FireShield2e;Projectile_IceSpike;Target_IceStorm;Projectile_JumpingJolt;Target_ResilientSphere;Target_StormSphere;Projectile_VitriolicSphere;Wall_WallOfFire;Zone_WeaponStorm;Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0405-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Projectile_ChainLightning2e;Target_FreezingSphere;Projectile_Meteor_Storm;Target_PhantomOrchestra;Zone_Sunbeam;Wall_WallOfIce;Zone_BlazingFissure;Zone_ConeOfCold;Zone_ConeOfCold2e;Target_FlameDancer;Target_ForcefulHand;Target_ScouringPulse;Projectile_SkyBurst;Wall_WallOfStone;Shout_DrawTheLightning;Shout_FireShield;Shout_FireShield2e;Projectile_IceSpike;Target_IceStorm;Projectile_JumpingJolt;Target_ResilientSphere;Target_StormSphere;Projectile_VitriolicSphere;Wall_WallOfFire;Zone_WeaponStorm;Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0406-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Target_PrismaticArmor;Projectile_ChainLightning;Projectile_ChainLightning2e;Target_FreezingSphere;Projectile_Meteor_Storm;Target_PhantomOrchestra;Zone_Sunbeam;Wall_WallOfIce;Zone_BlazingFissure;Zone_ConeOfCold;Zone_ConeOfCold2e;Target_FlameDancer;Target_ForcefulHand;Target_ScouringPulse;Projectile_SkyBurst;Wall_WallOfStone;Shout_DrawTheLightning;Shout_FireShield;Shout_FireShield2e;Projectile_IceSpike;Target_IceStorm;Projectile_JumpingJolt;Target_ResilientSphere;Target_StormSphere;Projectile_VitriolicSphere;Wall_WallOfFire;Zone_WeaponStorm;Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0407-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Projectile_PolarRay;Target_PrismaticArmor;Projectile_ChainLightning;Projectile_ChainLightning2e;Target_FreezingSphere;Projectile_Meteor_Storm;Target_PhantomOrchestra;Zone_Sunbeam;Wall_WallOfIce;Zone_BlazingFissure;Zone_ConeOfCold;Zone_ConeOfCold2e;Target_FlameDancer;Target_ForcefulHand;Target_ScouringPulse;Projectile_SkyBurst;Wall_WallOfStone;Shout_DrawTheLightning;Shout_FireShield;Shout_FireShield2e;Projectile_IceSpike;Target_IceStorm;Projectile_JumpingJolt;Target_ResilientSphere;Target_StormSphere;Projectile_VitriolicSphere;Wall_WallOfFire;Zone_WeaponStorm;Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0408-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Evocation Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Projectile_PolarRay;Target_PrismaticArmor;Projectile_ChainLightning;Projectile_ChainLightning2e;Target_FreezingSphere;Projectile_Meteor_Storm;Target_PhantomOrchestra;Zone_Sunbeam;Wall_WallOfIce;Zone_BlazingFissure;Zone_ConeOfCold;Zone_ConeOfCold2e;Target_FlameDancer;Target_ForcefulHand;Target_ScouringPulse;Projectile_SkyBurst;Wall_WallOfStone;Shout_DrawTheLightning;Shout_FireShield;Shout_FireShield2e;Projectile_IceSpike;Target_IceStorm;Projectile_JumpingJolt;Target_ResilientSphere;Target_StormSphere;Projectile_VitriolicSphere;Wall_WallOfFire;Zone_WeaponStorm;Zone_AetherLance;Projectile_BlazingDive;Target_BracingTendril;Target_Diya;Projectile_Electrocute;Zone_FlashFreeze;Projectile_Fireball;Projectile_Fireball2e;Target_FireworkBlast;Zone_LightningBolt;Zone_LightningBolt2e;Projectile_MinuteMeteors;Projectile_PercussiveImpact;Zone_VortexBlast;Projectile_AcidArrow2e;Zone_AganazzarsScorcher;Shout_BlazingArmory;Target_ColdSnap;Target_ContinualFlame;Projectile_Crackle;Target_Darkness;Target_FinalSacrifice;Shout_Dual_Flameblade;Shout_DualThunderbeaters;Target_FlamingSphere;Zone_GustOfWind;Projectile_AcidArrow;Zone_RimesBindingIce;Projectile_ScorchingRay;Projectile_ScorchingRay2e;Target_SnillocsSnowballStorm;Target_Shatter;Target_TelekineticManeuver;Shout_WardingWind;Projectile_WintersGrasp;Shout_AirBurst;Projectile_BrinyBolt;Zone_BurningHands;Zone_BurningHands2e;Zone_ChillingSpray;Projectile_ChromaticOrb;Shout_EarthTremor;Projectile_FriendFetch;Zone_FrostFingers;Projectile_GaleBolt;Projectile_HorizonThunderSphere;Target_HydraulicPush;Shout_LightningTendril;Projectile_MagicMissile;Projectile_MagicMissile2e;Target_ShockingGrasp2e;Projectile_SnowBall;Zone_TashasCausticBrew;Target_ThunderPunch;Zone_Thundershock;Zone_Thunderwave;Projectile_WitchBolt" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0409-c01300000002" />
+                </node>
+             <!-- Illusion -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0501-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0502-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0503-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0504-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0505-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0506-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0507-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0508-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0509-c01300000002" />
+                </node>
+             <!-- Conjuration -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Zone_ArcticBreath;Zone_CrashingWave;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0601-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0602-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 3" /> 
+                    <attribute id="Spells" type="LSString" value="Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0603-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Shout_Blink2e;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Target_SummonBeholderkin;Target_SummonElemental;Shout_ZephyrSlip;Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0604-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 5" /> 
+                    <attribute id="Spells" type="LSString" value="Target_BlinkCharge;Target_ConjureElemental_Container;Target_Cloudkill;Target_FarStep;Target_SteelWindStrike;Shout_Blink2e;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Target_SummonBeholderkin;Target_SummonElemental;Shout_ZephyrSlip;Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0605-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_ElementalConfluence;Target_BlinkCharge;Target_ConjureElemental_Container;Target_Cloudkill;Target_FarStep;Target_SteelWindStrike;Shout_Blink2e;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Target_SummonBeholderkin;Target_SummonElemental;Shout_ZephyrSlip;Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0606-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_ElementalConfluence;Target_BlinkCharge;Target_ConjureElemental_Container;Target_Cloudkill;Target_FarStep;Target_SteelWindStrike;Shout_Blink2e;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Target_SummonBeholderkin;Target_SummonElemental;Shout_ZephyrSlip;Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0607-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Target_Maze2e;Target_SummonArchmage;Target_SummonIrii;Teleportation_ArcaneGate;Target_ElementalConfluence;Target_BlinkCharge;Target_ConjureElemental_Container;Target_Cloudkill;Target_FarStep;Target_SteelWindStrike;Shout_Blink2e;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Target_SummonBeholderkin;Target_SummonElemental;Shout_ZephyrSlip;Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0608-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Conjuration Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Target_Maze2e;Target_SummonArchmage;Target_SummonIrii;Teleportation_ArcaneGate;Target_ElementalConfluence;Target_BlinkCharge;Target_ConjureElemental_Container;Target_Cloudkill;Target_FarStep;Target_SteelWindStrike;Shout_Blink2e;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Target_BlackTentacles;Target_SummonBeholderkin;Target_SummonElemental;Shout_ZephyrSlip;Target_FireCyclone;Target_GlyphOfWarding;Target_SleetStorm;Target_StinkingCloud;Target_SummonShadowspawn;Zone_ThunderandLightning;Teleportation_ThunderStep;Zone_ArcticBreath;Projectile_BrineDragonBile;Target_CloudOfDaggers;Zone_CrashingWave;Target_CreateFood2e;Target_DustDevil;Target_FlockOfFamiliars;Target_MistyStep;Target_VortexWarp;Target_Web;;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Target_MudPit;Target_UnseenServant;Projectile_WaterBlast" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0609-c01300000002" />
+                </node>
+             <!-- Enchantment -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0701-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0702-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0703-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Target_CharmMonster;Target_Confusion;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0704-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Shout_BelittlingBoast;Zone_CrushingDespair;Target_DominatePerson;Target_HoldMonster;Target_SynapticStatic;Target_CharmMonster;Target_Confusion;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0705-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Target_IrresistibleDance;Shout_BelittlingBoast;Zone_CrushingDespair;Target_DominatePerson;Target_HoldMonster;Target_SynapticStatic;Target_CharmMonster;Target_Confusion;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0706-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Shout_EntrancingEyes;Target_IrresistibleDance;Shout_BelittlingBoast;Zone_CrushingDespair;Target_DominatePerson;Target_HoldMonster;Target_SynapticStatic;Target_CharmMonster;Target_Confusion;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0707-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Target_DominateMonster;Target_Feeblemind;Shout_EntrancingEyes;Target_IrresistibleDance;Shout_BelittlingBoast;Zone_CrushingDespair;Target_DominatePerson;Target_HoldMonster;Target_SynapticStatic;Target_CharmMonster;Target_Confusion;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0708-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Enchantment Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Target_PowerWordKill;Target_DominateMonster;Target_Feeblemind;Shout_EntrancingEyes;Target_IrresistibleDance;Shout_BelittlingBoast;Zone_CrushingDespair;Target_DominatePerson;Target_HoldMonster;Target_SynapticStatic;Target_CharmMonster;Target_Confusion;Projectile_RaulothimsPsychicLance;Target_Antagonize;Target_AgonzingDespair;Target_BindUndead;Target_Catnap;Target_EnemiesAbound;Target_CrownOfMadness;Target_HoldPerson;Target_TashasMindWhip;Target_WarriorRegret;Target_Agitate;Target_Befuddle;Target_CharmPerson;Target_DrawIre;Target_Endure;Target_Sleep;Target_Sleep2e;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0709-c01300000002" />
+                </node>
+             <!-- Necromancy -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0801-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0802-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0803-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_SailorCat_PerniciousMark;Shout_ValkranaNegativeEnergyField;Target_ValkranaUnsealSoul;Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0804-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Target_BloodFeast;Shout_DevouringDarkness;Projectile_NegativeEnergyFlood;Target_ValkranaDreadSkeleton;Target_Blight;Target_SailorCat_PerniciousMark;Shout_ValkranaNegativeEnergyField;Target_ValkranaUnsealSoul;Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0805-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Necrotize;Zone_ValkranaArcVivisector;Shout_ValkranaBoneEmperor;Target_BloodFeast;Shout_DevouringDarkness;Projectile_NegativeEnergyFlood;Target_ValkranaDreadSkeleton;Target_Blight;Target_SailorCat_PerniciousMark;Shout_ValkranaNegativeEnergyField;Target_ValkranaUnsealSoul;Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0806-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Target_EclipseBurst;Target_FingerOfDeath;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Necrotize;Zone_ValkranaArcVivisector;Shout_ValkranaBoneEmperor;Target_BloodFeast;Shout_DevouringDarkness;Projectile_NegativeEnergyFlood;Target_ValkranaDreadSkeleton;Target_Blight;Target_SailorCat_PerniciousMark;Shout_ValkranaNegativeEnergyField;Target_ValkranaUnsealSoul;Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0807-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Target_EclipseBurst;Target_FingerOfDeath;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Necrotize;Zone_ValkranaArcVivisector;Shout_ValkranaBoneEmperor;Target_BloodFeast;Shout_DevouringDarkness;Projectile_NegativeEnergyFlood;Target_ValkranaDreadSkeleton;Target_Blight;Target_SailorCat_PerniciousMark;Shout_ValkranaNegativeEnergyField;Target_ValkranaUnsealSoul;Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0808-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Necromancy Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Target_EclipseBurst;Target_FingerOfDeath;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_Necrotize;Zone_ValkranaArcVivisector;Shout_ValkranaBoneEmperor;Target_BloodFeast;Shout_DevouringDarkness;Projectile_NegativeEnergyFlood;Target_ValkranaDreadSkeleton;Target_Blight;Target_SailorCat_PerniciousMark;Shout_ValkranaNegativeEnergyField;Target_ValkranaUnsealSoul;Target_AnimateDead;Target_BestowCurse;Target_FeignDeath;Target_LifeTransference;Target_SpeakWithDead;Shout_SpiritShroud;Target_ValkranaImpartUndeath;Target_ValkranaSkeleport;Target_VampiricTouch;Target_VampiricTouch2e;Target_BloodVendetta;Target_BoneShaker;Target_FeastOfAshes;Projectile_RayOfEnfeeblement;Target_ValkranaBoneLiquefaction;Target_ValkranaCorpseGrenade;Target_WitherAndBloom;Projectile_AdmonishingRay;Target_CauseFear;Shout_FalseLife;Projectile_RayOfSickness;Target_Valkrana_SkeletalLemmings;Projectile_ValkranaShadowfellSalvo" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0809-c01300000002" />
+                </node>
+             <!-- Transmutation -->
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 1" />
+                    <attribute id="Spells" type="LSString" value="Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0901-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 2" />
+                    <attribute id="Spells" type="LSString" value="Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0902-c01300000002" />
+                </node>
+                <node id="SpellList">   
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 3" />
+                    <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0903-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 4" />
+                    <attribute id="Spells" type="LSString" value="Shout_AerialForm;Rush_MercurialStride;Shout_OrbitalStones;Target_Polymorph;Target_Stoneskin;Target_Stoneskin2e;Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0904-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 5" />
+                    <attribute id="Spells" type="LSString" value="Shout_ElementalForm;Target_SkillEmpowerment;Throw_Telekinesis;Shout_AerialForm;Rush_MercurialStride;Shout_OrbitalStones;Target_Polymorph;Target_Stoneskin;Target_Stoneskin2e;Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0905-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 6" />
+                    <attribute id="Spells" type="LSString" value="Shout_DevilForm;Projectile_Disintegrate;Target_FleshToStone;Shout_TensersTransformation;Shout_ElementalForm;Target_SkillEmpowerment;Throw_Telekinesis;Shout_AerialForm;Rush_MercurialStride;Shout_OrbitalStones;Target_Polymorph;Target_Stoneskin;Target_Stoneskin2e;Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0906-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 7" />
+                    <attribute id="Spells" type="LSString" value="Shout_CorrosiveBody;Shout_CosmicForm;Shout_DevilForm;Projectile_Disintegrate;Target_FleshToStone;Shout_TensersTransformation;Shout_ElementalForm;Target_SkillEmpowerment;Throw_Telekinesis;Shout_AerialForm;Rush_MercurialStride;Shout_OrbitalStones;Target_Polymorph;Target_Stoneskin;Target_Stoneskin2e;Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0907-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 8" />
+                    <attribute id="Spells" type="LSString" value="Shout_MonstrosityForm;Shout_CorrosiveBody;Shout_CosmicForm;Shout_DevilForm;Projectile_Disintegrate;Target_FleshToStone;Shout_TensersTransformation;Shout_ElementalForm;Target_SkillEmpowerment;Throw_Telekinesis;Shout_AerialForm;Rush_MercurialStride;Shout_OrbitalStones;Target_Polymorph;Target_Stoneskin;Target_Stoneskin2e;Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0908-c01300000002" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Transmutation Savant SLevel 9" />
+                    <attribute id="Spells" type="LSString" value="Shout_MonstrosityForm;Shout_CorrosiveBody;Shout_CosmicForm;Shout_DevilForm;Projectile_Disintegrate;Target_FleshToStone;Shout_TensersTransformation;Shout_ElementalForm;Target_SkillEmpowerment;Throw_Telekinesis;Shout_AerialForm;Rush_MercurialStride;Shout_OrbitalStones;Target_Polymorph;Target_Stoneskin;Target_Stoneskin2e;Shout_AshardalonsStride;Shout_Blink;Target_EruptingEarth;Target_FlameArrows;Target_Fly;Target_GaseousForm;Target_GhostlyWeapon;Target_Haste;Target_Haste2e;Shout_OozeForm;Target_Slow;Shout_TimeJump;Shout_AlterSelf;Target_Blindness;Target_Darkvision;Target_DragonsBreath;Target_EnhanceAbility;Target_EnlargeReduce;Shout_FlameWisp;Throw_Fling;Shout_KineticJaunt;Target_Knock;Target_LooseTimeArrow;Target_MagicWeapon;Target_MaximiliansEarthenGrasp;Target_AntHaul;Throw_Catapult;Shout_ConductiveWeapon;Target_Entomb;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_FleetStep;Target_Jump;Shout_Jump2e;Target_Longstrider;Wall_WallOfShrubs" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0909-c01300000002" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
