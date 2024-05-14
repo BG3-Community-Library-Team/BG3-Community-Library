@@ -1,0 +1,6 @@
+new entry "CL_Passive_OneDnD_Scholar"
+type "PassiveData"
+data "DisplayName" "h3367e79e51974558ab25112d00d805e280g2;1"
+data "Description" "h324bf00e771b46b9ad0f5a289443f5c85dg7;1"
+data "Icon" "PassiveFeature_BlessingsOfKnowledge"
+data "Properties" "ForceShowInCC;IsHidden"

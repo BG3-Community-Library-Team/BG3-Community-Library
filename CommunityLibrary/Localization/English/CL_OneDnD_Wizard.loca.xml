@@ -1,0 +1,15 @@
+<contentList>
+ <!-- Scholar -->
+  <content contentuid="h3367e79e51974558ab25112d00d805e280g2" version="1">Scholar</content>
+  <content contentuid="h324bf00e771b46b9ad0f5a289443f5c85dg7" version="1">While studying magic, you also specialized in an academic field of study. &lt;br&gt;Choose one of the following skills in which you have proficiency: Arcana, History, Nature, or Religion. You have Expertise in the chosen skill.</content>
+ <!-- Spell School Savant -->
+  <content contentuid="hbebb173e1cc84698b3f30045b16d71a1e0gg" version="1">Abjuration Savant</content>
+  <content contentuid="hdd568159299e4117a8250535e2554a706478" version="1">Conjuration Savant</content>
+  <content contentuid="h7396088086cf445bbf8dc6a8e9841efd7566" version="1">Divination Savant</content>
+  <content contentuid="h6b0af769fdb5409282baf3071b22c2f317g1" version="1">Enchantment Savant</content>
+  <content contentuid="hde8bebdebd95409ea13b39610c0e50c78f86" version="1">Evocation Savant</content>
+  <content contentuid="h412ea8b925eb4e5aa8c778cc8367ebba9980" version="1">Illusion Savant</content>
+  <content contentuid="h1b11dab27a674b378515b18778e31de49324" version="1">Necromancy Savant</content>
+  <content contentuid="h4e8d483919cb4c91ad6686f93faa52333305" version="1">Transmutation Savant</content>
+  <content contentuid="h505b48a7de8840119e89bd90fb3bfbdc4ed4" version="1">Your specialisation in an arcane spell school lets you learn additional magic from your chosen discipline. Choose an additional spell to add to your Spellbook.</content>
+</contentList>
