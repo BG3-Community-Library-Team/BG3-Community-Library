@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="307"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList"> <!-- OneDnD Scholar: Wizard Expertise -->
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Nature, Religion"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0100-c01300000003"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
