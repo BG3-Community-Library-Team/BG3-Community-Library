@@ -126,6 +126,12 @@
           "modGuid": "67cbd005-166c-4f76-b822-a19a4a41e615",
           "Comment": "Samurai (Bonnaventura)",
           "IsIntegrated": true
+        },
+        {
+          "UUID": "97efe33c-c77e-4512-9e61-182a2e406ece",
+          "modGuid": "afe5e32a-2554-40d1-8c41-7cbc2d73a8c7",
+          "Comment": "Brute (DarkFieryVortex)",
+          "IsIntegrated": true
         }
       ]
     },
@@ -150,6 +156,12 @@
           "modGuid": "83e20b3d-75cc-4d9a-af04-430f797290e5",
           "Comment": "Way of the Drunken Master (JohnnyTheSneeder)",
           "IsIntegrated": true
+        },
+        {
+          "UUID": "dd9f59af-7b14-4d01-bb7a-cbb372ff0a7a",
+          "modGuid": "b4ff257e-7522-4fcd-b919-7dec4250dc36",
+          "Comment": "Way of Kensei (YuukaYunna)",
+          "IsIntegrated": true
         }
       ]
     },
@@ -161,6 +173,18 @@
           "UUID": "d05d37d9-c702-4924-9e8d-5d5d7db19918",
           "modGuid": "74b2a448-6771-4289-9393-d359c3b79596",
           "Comment": "Oath of Conquest (havsglimt)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "66d69a7f-be66-4fd5-bd47-aaa7ec4330ad",
+          "modGuid": "689f22b4-38e9-40a7-aa81-3d3e7ed8d38c",
+          "Comment": "Oath of Glory (Mako27)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "d62b4b6f-e7f2-416e-a3fa-7bbb512af0ea",
+          "modGuid": "e0e1ffe2-6e39-489b-9b70-b30e9025c5c7",
+          "Comment": "Oath of Watchers (Mako27)",
           "IsIntegrated": true
         }
       ]
@@ -264,6 +288,24 @@
           "UUID": "6aa381bc-3dc2-11ee-be56-0242ac120002",
           "modGuid": "48c0e450-6d12-4308-8c12-a0f24077339b",
           "Comment": "Sorcery Arcane Tradition (fmsette)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "9fc4ce94-ee08-46b0-aa91-7b9aa0feec30",
+          "modGuid": "bde90ed9-94a3-471e-b59a-95585dff9aec",
+          "Comment": "Goblimancy Tradition (DungeonMasterShi)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "440bfc05-aba4-4b25-a577-172acf5cf0a9",
+          "modGuid": "080edc42-9ec0-446f-a9c2-792d5bdf4686",
+          "Comment": "Runesmith Tradition (fierrof)",
+          "IsIntegrated": true
+        },
+        {
+          "UUID": "bec3ead5-a59a-4241-b778-27fb17f28e54",
+          "modGuid": "be37a0e6-f2bc-46f3-b98d-8cfbe977053a",
+          "Comment": "War Magic Tradition (fierrof)",
           "IsIntegrated": true
         }
       ]
