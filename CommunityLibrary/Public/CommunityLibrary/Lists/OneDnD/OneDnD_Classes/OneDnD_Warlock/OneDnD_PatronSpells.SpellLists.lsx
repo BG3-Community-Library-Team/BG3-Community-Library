@@ -261,7 +261,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Warlock DreadOverlord Patron SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_FeignDeath;Shout_SpiritGuardians"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Shout_SpiritGuardians"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0803-c01200000002"/>
                 </node>
                 <node id="SpellList">
@@ -373,6 +373,81 @@
                     <attribute id="Comment" type="LSString" value="Warlock SpeedForce Patron SLevel 5"/>
                     <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Target_Heal"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1405-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1501-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlamingSphere;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1502-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1503-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1504-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1505-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light (Alt) Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Projectile_GuidingBolt;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-15a1-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light (Alt) Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlamingSphere;Target_Moonbeam;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-15a2-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light (Alt) Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container;Projectile_Fireball;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-15a3-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light (Alt) Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_GuardianOfFaith;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-15a4-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Undying Light (Alt) Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;;Shout_DispelEvilAndGood;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-15a5-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Warrior Patron SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_CompelledDuel;Shout_Shield_Wizard;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1601-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Warrior Patron SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_SpiritualWeapon;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1602-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Warrior Patron SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Haste;Shout_SpiritGuardians"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1603-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Warrior Patron SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_DeathWard;Shout_FireShield;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1604-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Warrior Patron SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_SkillEmpowerment;Target_SteelWindStrike;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1605-c01200000002"/>
                 </node>
             </children>
         </node>
