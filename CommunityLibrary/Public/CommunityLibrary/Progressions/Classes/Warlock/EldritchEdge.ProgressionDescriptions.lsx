@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="FixedString" value="h2edc5158cb8d489a9dea4d26e454f26aff63"/>
+                    <attribute id="DisplayName" type="FixedString" value="ha51168a046b5451d92e8a8fb190b1c6e7565"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="true"/>
+                    <attribute id="PassivePrototype" type="FixedString" value="Obscuring_FlamePH"/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="Type" type="FixedString" value="AC"/>
+                    <attribute id="UUID" type="guid" value="f87e5fde-3c7f-4762-a5a8-7f5807554583"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="FixedString" value="hb60e38ff490c40ffa4f935f9d5a0940b620c"/>
+                    <attribute id="DisplayName" type="FixedString" value="h0caa6bd1859340169949333f12cd4fe79faa"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Resistance(Fire, Resistant)"/>
+                    <attribute id="Hidden" type="bool" value="true"/>
+                    <attribute id="ProgressionId" type="guid" value="4e95aae1-ad36-4441-8d0c-43f891271f29"/>
+                    <attribute id="Type" type="FixedString" value="AC"/>
+                    <attribute id="UUID" type="guid" value="e8211612-f76d-4120-a420-25483d173564"/>
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="FixedString" value="h94175711293a4bcda25f5e2c5362530e8e8b"/>
+                    <attribute id="DisplayName" type="FixedString" value="hd014c7b8fb5b44c9a41b16f7885ef186587f"/>
+                    <attribute id="ExactMatch" type="FixedString" value="StatusImmunity(DIFFICULT_TERRAIN)"/>
+                    <attribute id="Hidden" type="bool" value="true"/>
+                    <attribute id="ProgressionId" type="guid" value="212e59bd-14f1-423a-8c73-6e053c72d3d7"/>
+                    <attribute id="Type" type="FixedString" value="StatusImmunity"/>
+                    <attribute id="UUID" type="guid" value="0de81d50-a607-498d-bbf8-81249bbae60c"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_ArmorOfAgathys;Target_Hex"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+                    <attribute id="UUID" type="guid" value="58c42fb8-6ec9-47ae-ad75-263e93f59840"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Projectile_EldritchBlast;Projectile_PoisonSpray"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="1c34fe14-520c-48f0-9d30-137f1061ecaa"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_ArmorOfAgathys;Target_Hex"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="9944b1d2-7b49-470a-ab22-498891b0e858"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_Hex"/>
+                    <attribute id="Level" type="int32" value="2"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="5d6df1a6-0b05-482d-8919-2e78f574259e"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_MistyStep"/>
+                    <attribute id="Level" type="int32" value="3"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="14ef3df1-611f-4021-8852-74016df96420"/>
+                </node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_MinorIllusion;Target_Darkness"/>
+                    <attribute id="Level" type="int32" value="4"/>
+                    <attribute id="SelectorId" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="78c77b54-99bc-42eb-b974-a0608e80cee7"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

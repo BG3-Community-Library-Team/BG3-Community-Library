@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value="Resistance(Fire, Resistant)"/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Fierna_Backdraft;"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(58f47339-ae18-45cf-b64a-feb2c6e9b026,,,,AlwaysPrepared);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="4e95aae1-ad36-4441-8d0c-43f891271f29"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="3bd1ef93-6c71-4e55-a118-fd3f8c68339a"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value="Obscuring_FlamePH"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(acb921b1-391c-4985-9409-c7a446a35d9f,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="25091e18-8995-4617-8b89-aa506f287a4e"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value="Belial_Agonizing"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="b128ee84-2135-47bd-bdfa-b10259a860f8"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(b19351e6-bef1-438b-8e1f-978be5bc205e,,,,AlwaysPrepared);SelectSpells(1dadfe93-62ec-4c06-967f-6a68ddb52ae0,4,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="f258e307-bc20-4b27-bc3b-a70a109de535"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value="Sadistic_Pleasure_PH"/>
+          <attribute id="PassivesRemoved" type="LSString" value="Fierna_Backdraft"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="dac16fa2-08c8-4bf9-9602-07cad15327a6"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(b3f1b737-2765-47d1-a6ad-03d3345d29fd,4,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="5fd490d0-8b2f-4c0b-879f-b79f21b6f076"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value="Fierna_BlastWave"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="f00b3828-3ba5-4077-81fe-ceadefee01e3"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(93989bc9-1579-46ba-bfec-8785fd3d3ab4,4,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="c3dd910e-dda8-4703-866b-b7691f54170e"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="Phlegethos"/>
+          <attribute id="PassivesAdded" type="LSString" value="Harbinger_Of_Belial_PH"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+          <attribute id="UUID" type="guid" value="c6d01e33-003b-4516-8dc3-2bed4a2afcca"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="1"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value="ARANEA_ELDRITCH_STRIKE;PACT_OF_ZANASSU_TRAINING;Zanassu_Web_Passive"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="AddSpells(86cdd326-978a-4cf2-95e9-c5a3c5e936f7,,,,AlwaysPrepared);SelectSpells(3a7522d8-f1d0-4b05-b49a-8e1b1bd8fa5b,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="212e59bd-14f1-423a-8c73-6e053c72d3d7"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(3a7522d8-f1d0-4b05-b49a-8e1b1bd8fa5b,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="92b49ac8-3440-42d5-bd80-28dea412b218"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value="Entangling_Spray;"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(ea528fa6-be47-44d2-80d7-1e6dabaa681b,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="86d3e13f-41c8-4e3e-87b3-5df20406f182"/>
+        </node>
+				<node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="4886e1b0-96a5-4f91-beee-ee81d366a2b7"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(386d239c-eb28-4057-943c-95ee0245065a,4,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="822e861a-9a26-4402-8d70-baaa97022b99"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value="ARANEA_AGONIZING_STRIKE"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="fc9ef654-1171-48b8-bcbf-18f97e12f2ad"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(bc5fe328-eb0e-49d0-aad3-22a86f4d2cd3,4,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="a96c2c1d-692b-4abd-8cdd-8c056c8f5f46"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_2"/>
+          <attribute id="PassivesRemoved" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="9cec4756-073c-4d94-8dfb-325c5cc5c630"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value=""/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value="SelectSpells(f91b0a2a-b50e-4dc9-9f69-f7c6097ae0ee,4,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="b9262fe9-67dd-4716-afe6-231aa7c501d8"/>
+        </node>
+        <node id="Progression">
+          <attribute id="AllowImprovement" type="bool" value="false"/>
+          <attribute id="Boosts" type="LSString" value=""/>
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="Zanassu"/>
+          <attribute id="PassivesAdded" type="LSString" value="Spiderling_Spray"/>
+          <attribute id="PassivesRemoved" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="1"/>
+          <attribute id="Selectors" type="LSString" value=""/>
+          <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+          <attribute id="UUID" type="guid" value="9807b248-e043-4937-915e-7e9f2ed2ab69"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

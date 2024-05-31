@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="47"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="FixedString" value="h32211cfb5daa464fb65c95e5d4c88e01ef0f"/>
+                    <attribute id="DisplayName" type="FixedString" value="hbce975dcfc9a4843966d07db71cfaef85a49"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="EldritchEdge"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="4e95aae1-ad36-4441-8d0c-43f891271f29"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="59f065e8-eebe-4464-9506-4f0119a59c65"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="FixedString" value="h17a31a6fd13748849cf8b44691fcdf91gdb7"/>
+                    <attribute id="DisplayName" type="FixedString" value="hda97d290bb134991be139dc53bb38ca3f1da"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Zanassu"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="212e59bd-14f1-423a-8c73-6e053c72d3d7"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="59f065e8-eebe-4464-9506-4f0119a59c65"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
