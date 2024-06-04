@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h3c5e4feeg56e5g49fcga0a8g109944f94568" version="1">Acid Splash (OneDnD)</content>
+	<content contentuid="hd4d8726aga4b7g4d34g87eagc97848bd3478" version="1">Blade Ward (OneDnD)</content>
+	<content contentuid="h2755159bgd4d1g4b61ga5cfgdd1fd12a4416" version="1">Chill Touch (OneDnD)</content>
+	<content contentuid="h66f88539gc7ddg4e85g84e0g293b756dc7a5" version="1">Friends (OneDnD)</content>
+	<content contentuid="h522c4802g4f3cg4784gab45g18ef220b44a5" version="1">Poison Spray (OneDnD)</content>
+	<content contentuid="h631d1f58gbfa0g439bgaf5fg5e7a6a1938d2" version="1">Produce Flame (OneDnD)</content>
+	<content contentuid="h7de10c3fgc90eg424bg9bccg58039def2cde" version="1">Shocking Grasp (OneDnD)</content>
+	<content contentuid="h9797f7f0ge67eg4703g8c59g9659ae622578" version="1">True Strike (OneDnd)</content>
+	<content contentuid="ha50eb169g772cg41f7g8d62gebb411468b7f" version="1">True Strike (Melee)</content>
+	<content contentuid="h5189e4d4g8e03g491egadb8g521f70b372fb" version="1">True Strike (Ranged)</content>
+	<content contentuid="hcfb1006ag5ac8g475cgb2b9ge0476c9d471b" version="1">Spellcasting Modifier</content>
+	<content contentuid="h839763e1g7cd2g44e7g98d1gaee9a7a62959" version="1">Make a magical melee attack, It uses your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="hbcb3ec2ag4443g4edfgb13cg71a85058d393" version="1">Make a magical ranged attack, It uses your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="h91fc8b6agc443g4a34g8206g0ec60221e3c1" version="1">Guided by a flash of magical insight you make one attack with your weapon, you may have it deal[1] instead of its regular[2]. The attack uses your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability&lt;/LSTag&gt; for the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and Damage Rolls instead of using Strength or Dexterity.</content>
+	<content contentuid="hfd8aed2fgbf18g4b07g9a4eg587940d3af28" version="1">Deals an additional [1] at level 5 and [2] at level 10.</content>
+	<content contentuid="hc708c2f9g73ceg431bgbe20gd07bad57a582" version="1">True Strike will deal[1] instead of[2].</content>
+	<content contentuid="h56cfcc06gf066g43a3ga7fag0c2d7a25c242" version="1">The Caster's weapon is magical and deals [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hecbce2d0gfb37g4846g807ag9b6b58d1606a" version="1">Creature's weapon is magical and deals [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier.</content>
+	<content contentuid="hff85bee9g9216g4db8gb9ceg507809c9d43c" version="1">Your staff or club becomes magical: it deals [1], and uses your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. You may have it do its normal[2] instead.</content>
+	<content contentuid="hb6fa0afcg756dg4a43ga6d5g9b2c5c8f5cc9" version="1">You may have your attacks deal[1] instead of its normal[2].</content>
+	<content contentuid="h02e1b493gf79ag4586gac01g0bc8e6e5f904" version="1">Shillelagh: Main Hand</content>
+	<content contentuid="h889476e6g6fc1g4ed8gaef0ge78ce44629f4" version="1">Shillelagh: Off Hand</content>
+	<content contentuid="hced57d0egbdd6g40a7gb90cg0ce7e847cc42" version="1">Damage is increased to [1] at level 5 and [2] at level 10.</content>
+	<content contentuid="hbc4058e6g0058g4760g8b74gc36e189becb3" version="1">True Strike: Radiant</content>
+	<content contentuid="h586bb798gbfa2g4efega640g99a7f7f3cba0" version="1">True Strike attacks deal[1].</content>
+	<content contentuid="hb4dd4551g82b7g4032g9211gfee4aa1873b9" version="1">Replace regular attacks with True Strike.</content>
+	<content contentuid="hbd7e412cg042cg4397gb776gff8aa8d71332" version="1">Produce Flame: Create</content>
+	<content contentuid="h90748a97g8d9dg458fg893cg21a240533233" version="1">Conjure a flame and throw it at your target</content>
+	<content contentuid="h180771f8g9ed1g470fga980gbdd81220edd0" version="1">Does not consume an Bonus Action if you've already conjured a flame.</content>
+	<content contentuid="hdb24c48egc590g4ef0g8a69gd8e3a8663cab" version="1">Cannot make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&gt;LSTag&gt;.</content>
+	<content contentuid="h4d2c5677gd01ag4545gaf1eg3c133325f7fc" version="1">The target cannot make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; until its next turn. This spell has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on creatures with metal armour.</content>
+	<content contentuid="h97cb536bg022dg4cbeg92dag2f6bb3944165" version="1">Increased Range: [1]</content>
+	<content contentuid="hc4834941g2569g4cdfgb5b0g19466e92c8f3" version="1">You trace a sigil of warding, imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the creature's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you.</content>
+	<content contentuid="hcccf37fegf726g4c32g9e7egff533122cf9b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; The Charm breaks if the target takes damage or if the charmer causes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+    <content contentuid="h6f2a8982g1c44g4839g9f6fg47f00662d06b" version="1">Cast again to dismiss the flames.</content>
+	<content contentuid="hc71e951cg40d6g44cag82ccgb5af8098c0a2" version="1">Range is increased to [1] at level 5 and [2] at level 10.</content>
+	<content contentuid="hc221dcabg9c87g4aafg865dg696fecf7d5e7" version="1">Befriend the target, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; against it and It cannot attack you.</content>
+	<content contentuid="h2d9059d2gc17eg4296gaa01g6f4aca60704e" version="1">Check 1</content>
+	<content contentuid="h8be249c5gbe36g44c8gace7ga2f3fcec1070" version="1">Check 2</content>
+	<content contentuid="h47086e8egcc99g456cg8539gf8db7552921d" version="1">Check 3</content>
+</contentList>

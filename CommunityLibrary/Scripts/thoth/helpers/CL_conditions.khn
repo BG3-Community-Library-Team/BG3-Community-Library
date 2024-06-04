@@ -327,6 +327,15 @@ function CL_HasMediumArmor(entity)
     return ConditionResult(hasMediumArmor)
 end
 
+function CL_HasWeaponWithProperty(property,offhand,checkboth)
+  local entity = entity or context.Source
+  local property = property or 'Melee'
+  local offhand = offhand or false
+  local checkboth = checkboth or true
+  local result = WieldingWeapon(property,offhand,checkboth,entity)
+  return ConditionResult(result.Result)
+end
+
 function CL_HasWeaponInMeleeMainHand()
     local result = WieldingWeapon('Melee',false,true,context.Source)
     return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInMeleeMainHand_False")})
@@ -345,6 +354,10 @@ end
 function CL_HasWeaponInRangedOffHand()
     local result = WieldingWeapon('Ammunition',true,true,context.Source)
     return ConditionResult(result.Result, {ConditionError("CL_ConditionError_HasWeaponInRangedOffHand_False")})
+end
+
+function CL_AttackRollAbility(ability)
+  return ConditionResult(context.HitDescription.AttackAbility == ability)
 end
 
 function CL_ProficiencyBonusEqualTo(value)
@@ -405,6 +418,91 @@ end
 function CL_ClassLevelEqualOrBetween(class,value,value2,entity)
   local entity = entity or context.Source
   return CL_ClassLevelEqualOrGreaterThan(class,value,entity) & CL_ClassLevelEqualOrLessThan(class,value2,entity)
+end
+
+--context.Source.Strength, context.Source.Dexterity
+function CL_ModiferEqualOrGreaterThanModifer(ability,ability2)
+  local ability = ability
+  local ability2 = ability2
+  return ConditionResult(GetModifier(ability) >= GetModifier(ability2))
+end
+
+function CL_ModiferGreaterThanModifer(ability,ability2)
+  local ability = ability
+  local ability2 = ability2
+  return ConditionResult(GetModifier(ability) > GetModifier(ability2))
+end
+
+--('Cha',{'Int','Wis'})
+function CL_AbilityGreaterThan(ability,include)
+  C = {}
+  M = {}
+  M['Dex'] = context.Source.Dexterity
+  M['Str'] = context.Source.Strength
+  M['Con'] = context.Source.Constitution
+  M['Cha'] = context.Source.Charisma
+  M['Int'] = context.Source.Intelligence
+  M['Wis'] = context.Source.Wisdom
+
+  local include = include or {}
+  local ability = M[ability]
+  local count = 0
+  if include ~= nil then
+      for _, include in ipairs(include) do
+          C[include] = M[include]
+          count = count + 1
+      end
+  else
+      C = M
+      count = 5
+  end
+  for comparedability, value in pairs(C) do
+      if comparedability ~= ability then
+          if ability > value then
+              count = count - 1
+          end
+      end
+  end
+  if count == 0 then
+      return ConditionResult(true)
+  end
+  return ConditionResult(false)
+end
+
+--('Cha',{'Int','Wis'})
+function CL_AbilityEqualOrGreaterThan(ability,include)
+  C = {}
+  M = {}
+  M['Dex'] = context.Source.Dexterity
+  M['Str'] = context.Source.Strength
+  M['Con'] = context.Source.Constitution
+  M['Cha'] = context.Source.Charisma
+  M['Int'] = context.Source.Intelligence
+  M['Wis'] = context.Source.Wisdom
+
+  local include = include or {}
+  local ability = M[ability]
+  local count = 0
+  if include ~= nil then
+      for _, include in ipairs(include) do
+          C[include] = M[include]
+          count = count + 1
+      end
+  else
+      C = M
+      count = 5
+  end
+  for comparedability, value in pairs(C) do
+      if comparedability ~= ability then
+          if ability >= value then
+              count = count - 1
+          end
+      end
+  end
+  if count == 0 then
+      return ConditionResult(true)
+  end
+  return ConditionResult(false)
 end
 
 local casterLevelToModifier = {

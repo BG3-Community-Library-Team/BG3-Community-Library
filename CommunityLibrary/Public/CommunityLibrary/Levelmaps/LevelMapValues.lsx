@@ -21,6 +21,38 @@
                     <attribute id="PreferredClassUUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1ee1-0100-c00700000001"/>
                 </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="0"/>
+                    <attribute id="Level2" type="LSString" value="0"/>
+                    <attribute id="Level3" type="LSString" value="0"/>
+                    <attribute id="Level4" type="LSString" value="0"/>
+                    <attribute id="Level5" type="LSString" value="1d6"/>
+                    <attribute id="Level6" type="LSString" value="1d6"/>
+                    <attribute id="Level7" type="LSString" value="1d6"/>
+                    <attribute id="Level8" type="LSString" value="1d6"/>
+                    <attribute id="Level9" type="LSString" value="1d6"/>
+                    <attribute id="Level10" type="LSString" value="2d6"/>
+                    <attribute id="Level11" type="LSString" value="2d6"/>
+                    <attribute id="Level12" type="LSString" value="2d6"/>
+                    <attribute id="Name" type="FixedString" value="CL_LM_OneDnd_TrueStrike"/>
+                    <attribute id="UUID" type="guid" value="60361e8a-83b4-4fca-860d-5bfabe79cac1"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d8"/>
+                    <attribute id="Level2" type="LSString" value="1d8"/>
+                    <attribute id="Level3" type="LSString" value="1d8"/>
+                    <attribute id="Level4" type="LSString" value="1d8"/>
+                    <attribute id="Level5" type="LSString" value="1d10"/>
+                    <attribute id="Level6" type="LSString" value="1d10"/>
+                    <attribute id="Level7" type="LSString" value="1d10"/>
+                    <attribute id="Level8" type="LSString" value="1d10"/>
+                    <attribute id="Level9" type="LSString" value="1d10"/>
+                    <attribute id="Level10" type="LSString" value="1d12"/>
+                    <attribute id="Level11" type="LSString" value="1d12"/>
+                    <attribute id="Level12" type="LSString" value="1d12"/>
+                    <attribute id="Name" type="FixedString" value="CL_LM_OneDnd_Shillelagh"/>
+                    <attribute id="UUID" type="guid" value="82bf6dee-aa50-4b5a-8047-cff5366ba633"/>
+                </node>
             </children>
         </node>
     </region>
