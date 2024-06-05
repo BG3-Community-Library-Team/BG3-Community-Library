@@ -9,12 +9,13 @@
                     <attribute id="Description" type="FixedString" value="h32211cfb5daa464fb65c95e5d4c88e01ef0f"/>
                     <attribute id="DisplayName" type="FixedString" value="hbce975dcfc9a4843966d07db71cfaef85a49"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
-                    <attribute id="Name" type="FixedString" value="EldritchEdge"/>
+                    <attribute id="Name" type="FixedString" value="Phlegethos"/>
                     <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
                     <attribute id="PrimaryAbility" type="uint8" value="6"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
                     <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="SpellList" type="guid" value="c1cfc0d3-c155-1157-1805-c01200000000"/>
                     <attribute id="UUID" type="guid" value="4e95aae1-ad36-4441-8d0c-43f891271f29"/>
                     <children>
                         <node id="Tags">
@@ -33,6 +34,7 @@
                     <attribute id="ProgressionTableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
                     <attribute id="SoundClassType" type="FixedString" value="Warlock"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="SpellList" type="guid" value="c1cfc0d3-c155-1157-1705-c01200000000"/>
                     <attribute id="UUID" type="guid" value="212e59bd-14f1-423a-8c73-6e053c72d3d7"/>
                     <children>
                         <node id="Tags">

@@ -9,8 +9,8 @@
                     <attribute id="DisplayName" type="FixedString" value="ha51168a046b5451d92e8a8fb190b1c6e7565"/>
                     <attribute id="ExactMatch" type="FixedString" value=""/>
                     <attribute id="Hidden" type="bool" value="true"/>
-                    <attribute id="PassivePrototype" type="FixedString" value="Obscuring_FlamePH"/>
-                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PassivePrototype" type="FixedString" value="CL_Passive_EEE_ObscuringFlame"/>
+                    <attribute id="ProgressionId" type="guid" value="25091e18-8995-4617-8b89-aa506f287a4e"/>
                     <attribute id="Type" type="FixedString" value="AC"/>
                     <attribute id="UUID" type="guid" value="f87e5fde-3c7f-4762-a5a8-7f5807554583"/>
                 </node>

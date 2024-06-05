@@ -21,81 +21,60 @@
                     <attribute id="UUID" type="guid" value="d1ca5b56-3dcd-48e5-9b79-65249ef976f4"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="3a7522d8-f1d0-4b05-b49a-8e1b1bd8fa5b"/>
-                </node> 
-                <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Target_Darkness;Shout_DetectThoughts;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Silence;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="5bedbb55-0f8c-4a4a-aa5d-58460b453bb4"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="Target_EldritchWeapon_PH;"/>
                     <attribute id="UUID" type="guid" value="ecc4d627-c810-4bac-8e7d-9050a3a0961b"/>
                 </node>
-                 <node id="SpellList"> Phlegethos Lvl 2 Spells
-                    <attribute id="Spells" type="LSString" value="Target_HypnoticPattern;Target_Blindness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Halt;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="acb921b1-391c-4985-9409-c7a446a35d9f"/>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Zanassu SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1701-c01200000000"/>
                 </node>
-                <node id="SpellList"> Phlegethos Lvl 3 Spells
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch;Target_HypnoticPattern_Warlock_3;Target_Blindness_Warlock_3;Target_Darkness_Warlock_3;Target_HoldPerson_Warlock_3;Target_Invisibility_Warlock_3;Shout_MirrorImage_Warlock_3;Target_MistyStep_Warlock_3;Projectile_RayOfEnfeeblement_Warlock_3;Projectile_ScorchingRay_Warlock_3;Target_Shatter_Warlock_3;Shout_ArmorOfAgathys_Warlock_3;Shout_ArmsOfHadar_Warlock_3;Zone_BurningHands_Warlock_3;Target_CharmPerson_Warlock_3;Target_Command_Halt_Warlock_3;Shout_ExpeditiousRetreat_Warlock_3;Shout_HellishRebuke_Warlock_3;Target_Hex_Warlock_3;Target_ProtectionFromEvilAndGood_Warlock_3;Projectile_WitchBolt_Warlock_3"/>
-                    <attribute id="UUID" type="guid" value="1dadfe93-62ec-4c06-967f-6a68ddb52ae0"/>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Zanassu SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Web;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1702-c01200000000"/>
                 </node>
-				<node id="SpellList"> Phlegethos Lvl 4 Spells
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_4;Target_HypnoticPattern_Warlock_4;Target_Blindness_Warlock_4;Target_Darkness_Warlock_4;Target_HoldPerson_Warlock_4;Target_Invisibility_Warlock_4;Shout_MirrorImage_Warlock_4;Target_MistyStep_Warlock_4;Projectile_RayOfEnfeeblement_Warlock_4;Projectile_ScorchingRay_Warlock_4;Target_Shatter_Warlock_4;Shout_ArmorOfAgathys_Warlock_4;Shout_ArmsOfHadar_Warlock_4;Zone_BurningHands_Warlock_4;Target_CharmPerson_Warlock_4;Target_Command_Halt_Warlock_4;Shout_ExpeditiousRetreat_Warlock_4;Shout_HellishRebuke_Warlock_4;Target_Hex_Warlock_4;Target_ProtectionFromEvilAndGood_Warlock_4;Projectile_WitchBolt_Warlock_4"/>
-                    <attribute id="UUID" type="guid" value="b3f1b737-2765-47d1-a6ad-03d3345d29fd"/>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Zanassu SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Web;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1703-c01200000000"/>
                 </node>
-                <node id="SpellList"> Phlegethos Lvl 5 Spells
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_5;Target_HypnoticPattern_Warlock_5;Target_Blindness_Warlock_5;Target_Darkness_Warlock_5;Target_HoldPerson_Warlock_5;Target_Invisibility_Warlock_5;Shout_MirrorImage_Warlock_5;Target_MistyStep_Warlock_5;Projectile_RayOfEnfeeblement_Warlock_5;Projectile_ScorchingRay_Warlock_5;Target_Shatter_Warlock_5;Shout_ArmorOfAgathys_Warlock_5;Shout_ArmsOfHadar_Warlock_5;Zone_BurningHands_Warlock_5;Target_CharmPerson_Warlock_5;Target_Command_Halt_Warlock_5;Shout_ExpeditiousRetreat_Warlock_5;Shout_HellishRebuke_Warlock_5;Target_Hex_Warlock_5;Target_ProtectionFromEvilAndGood_Warlock_5;Projectile_WitchBolt_Warlock_5"/>
-                    <attribute id="UUID" type="guid" value="93989bc9-1579-46ba-bfec-8785fd3d3ab4"/>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Zanassu SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Web;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1704-c01200000000"/>
                 </node>
-				<node id="SpellList"> Phlegethos Lvl 6 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_6;Target_Shatter_Warlock_6;Shout_ArmsOfHadar_Warlock_6;Projectile_ScorchingRay_Warlock_6;Zone_BurningHands_Warlock_6;Projectile_WitchBolt_Warlock_6"/>
-                    <attribute id="UUID" type="guid" value="d52b63df-4486-4f41-b313-bb7ef81e0ee1"/>
-                </node>	
-				<node id="SpellList"> Phlegethos Lvl 7 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_7;Target_Shatter_Warlock_7;Shout_ArmsOfHadar_Warlock_7;Projectile_ScorchingRay_Warlock_7;Zone_BurningHands_Warlock_7;Projectile_WitchBolt_Warlock_7"/>
-                    <attribute id="UUID" type="guid" value="6289a781-2110-4016-a636-2544db8d64f2"/>
-                </node>	
-				<node id="SpellList"> Phlegethos Lvl 8 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_8;Target_Shatter_Warlock_8;Shout_ArmsOfHadar_Warlock_8;Projectile_ScorchingRay_Warlock_8;Zone_BurningHands_Warlock_8;Projectile_WitchBolt_Warlock_8"/>
-                    <attribute id="UUID" type="guid" value="87461b3a-cf24-41ce-a41f-4164f6a5b791"/>
-                </node>	
-				<node id="SpellList"> Phlegethos Lvl 9 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_9;Target_Power_Word_Kill_Warlock;Target_Shatter_Warlock_9;Shout_ArmsOfHadar_Warlock_9;Projectile_ScorchingRay_Warlock_9;Zone_BurningHands_Warlock_9;Projectile_WitchBolt_Warlock_9"/>
-                    <attribute id="UUID" type="guid" value="0270ebc2-82fb-4f72-b030-3d3fcfad667e"/>
-                </node>	
-                <node id="SpellList"> Zanassu Lvl 2 Spells
-                    <attribute id="Spells" type="LSString" value="Target_HypnoticPattern;Target_Darkness;Shout_DetectThoughts;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Silence;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Target_Hex;Target_HideousLaughter;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="ea528fa6-be47-44d2-80d7-1e6dabaa681b"/>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Zanassu SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_HoldMonster;Target_Seeming;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_DominateBeast;Target_Invisibility_Greater;Target_BestowCurse;Shout_Blink;Target_Counterspell;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Web;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_DissonantWhispers;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Target_Sleep;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1705-c01200000000"/>
                 </node>
-				<node id="SpellList"> Zanassu Lvl 3 Spells
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch;Target_HypnoticPattern_Warlock_3;Target_Darkness_Warlock_3;Shout_DetectThoughts_Warlock_3;Target_HoldPerson_Warlock_3;Target_Invisibility_Warlock_3;Shout_MirrorImage_Warlock_3;Target_MistyStep_Warlock_3;Projectile_RayOfEnfeeblement_Warlock_3;Target_Shatter_Warlock_3;Target_Silence_Warlock_3;Shout_ArmorOfAgathys_Warlock_3;Shout_ArmsOfHadar_Warlock_3;Target_CharmPerson_Warlock_3;Target_DissonantWhispers_Warlock_3;Shout_ExpeditiousRetreat_Warlock_3;Target_Hex_Warlock_3;Target_HideousLaughter_Warlock_3;Target_ProtectionFromEvilAndGood_Warlock_3;Projectile_WitchBolt_Warlock_3"/>
-                    <attribute id="UUID" type="guid" value="386d239c-eb28-4057-943c-95ee0245065a"/>
-                </node>	
-				<node id="SpellList"> Zanassu Lvl 4 Spells
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_4;Target_HypnoticPattern_Warlock_4;Target_Darkness_Warlock_4;Shout_DetectThoughts_Warlock_4;Target_HoldPerson_Warlock_4;Target_Invisibility_Warlock_4;Shout_MirrorImage_Warlock_4;Target_MistyStep_Warlock_4;Projectile_RayOfEnfeeblement_Warlock_4;Target_Shatter_Warlock_4;Target_Silence_Warlock_4;Shout_ArmorOfAgathys_Warlock_4;Shout_ArmsOfHadar_Warlock_4;Target_CharmPerson_Warlock_4;Target_DissonantWhispers_Warlock_4;Shout_ExpeditiousRetreat_Warlock_4;Target_Hex_Warlock_4;Target_HideousLaughter_Warlock_4;Target_ProtectionFromEvilAndGood_Warlock_4;Projectile_WitchBolt_Warlock_4"/>
-                    <attribute id="UUID" type="guid" value="bc5fe328-eb0e-49d0-aad3-22a86f4d2cd3"/>
-                </node>	
-				<node id="SpellList"> Zanassu Lvl 5 Spells
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_5;Target_HypnoticPattern_Warlock_5;Target_Darkness_Warlock_5;Shout_DetectThoughts_Warlock_5;Target_HoldPerson_Warlock_5;Target_Invisibility_Warlock_5;Shout_MirrorImage_Warlock_5;Target_MistyStep_Warlock_5;Projectile_RayOfEnfeeblement_Warlock_5;Target_Shatter_Warlock_5;Target_Silence_Warlock_5;Shout_ArmorOfAgathys_Warlock_5;Shout_ArmsOfHadar_Warlock_5;Target_CharmPerson_Warlock_5;Target_DissonantWhispers_Warlock_5;Shout_ExpeditiousRetreat_Warlock_5;Target_Hex_Warlock_5;Target_HideousLaughter_Warlock_5;Target_ProtectionFromEvilAndGood_Warlock_5;Projectile_WitchBolt_Warlock_5"/>
-                    <attribute id="UUID" type="guid" value="f91b0a2a-b50e-4dc9-9f69-f7c6097ae0ee"/>
-                </node>	
-				<node id="SpellList"> Zanassu Lvl 6 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_6;Target_Shatter_Warlock_6;Shout_ArmsOfHadar_Warlock_6;Target_DissonantWhispers_Warlock_6;Projectile_WitchBolt_Warlock_6"/>
-                    <attribute id="UUID" type="guid" value="cd8463f1-36b4-44b9-ac4d-52fbdbc48471"/>
-                </node>	
-				<node id="SpellList"> Zanassu Lvl 7 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_7;Target_Shatter_Warlock_7;Shout_ArmsOfHadar_Warlock_7;Target_DissonantWhispers_Warlock_7;Projectile_WitchBolt_Warlock_7"/>
-                    <attribute id="UUID" type="guid" value="a365bf67-af1d-430d-b939-38d6f5831c2f"/>
-                </node>	
-				<node id="SpellList"> Zanassu Lvl 8 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_8;Target_Shatter_Warlock_8;Shout_ArmsOfHadar_Warlock_8;Target_DissonantWhispers_Warlock_8;Projectile_WitchBolt_Warlock_8"/>
-                    <attribute id="UUID" type="guid" value="fcc3f15b-eda5-45f6-8dcf-14a12919bccb"/>
-                </node>	
-				<node id="SpellList"> Zanassu Lvl 9 Spells Arcanum
-                    <attribute id="Spells" type="LSString" value="Target_VampiricTouch_Warlock_9;Target_Power_Word_Kill_Warlock;Target_Shatter_Warlock_9;Shout_ArmsOfHadar_Warlock_9;Target_DissonantWhispers_Warlock_9;Projectile_WitchBolt_Warlock_9"/>
-                    <attribute id="UUID" type="guid" value="6612f9e2-fdbf-46ff-9d6c-4d520c0aa92f"/>
-                </node>	  
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Phlegethos SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1801-c01200000000"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Phlegethos SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1802-c01200000000"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Phlegethos SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1803-c01200000000"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Phlegethos SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_PhantasmalKiller;Wall_WallOfFire;Target_BestowCurse;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1804-c01200000000"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Phlegethos SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;Target_HoldMonster;Target_InsectPlague;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Target_PhantasmalKiller;Wall_WallOfFire;Target_BestowCurse;Target_Counterspell;Zone_Fear;Projectile_Fireball;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_PhantasmalForce;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Container;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1157-1805-c01200000000"/>
+                </node>
             </children>
         </node>
     </region>
