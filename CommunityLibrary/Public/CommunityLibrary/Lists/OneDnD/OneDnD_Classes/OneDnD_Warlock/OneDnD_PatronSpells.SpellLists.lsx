@@ -449,6 +449,57 @@
                     <attribute id="Spells" type="LSString" value="Target_SkillEmpowerment;Target_SteelWindStrike;"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1605-c01200000002"/>
                 </node>
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Zanassu SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_Command_Container;Target_DissonantWhispers;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1701-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Phlegethos SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Zone_BurningHands;Target_DissonantWhispers;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1801-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Zanassu SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_Web;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1702-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Phlegethos SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_ScorchingRay;Shout_SeeInvisibility;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1802-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Zanassu SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Haste;Target_StinkingCloud;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1703-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Phlegethos SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Target_Haste;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1803-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Zanassu SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominateBeast;Target_Invisibility_Greater;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1704-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Phlegethos SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Wall_WallOfFire;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1804-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Zanassu SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_InsectPlague;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1705-c01200000002"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Warlock Patron Phlegethos SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_DominatePerson;Target_FlameStrike;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-1805-c01200000002"/>
+                </node>
             </children>
         </node>
     </region>
