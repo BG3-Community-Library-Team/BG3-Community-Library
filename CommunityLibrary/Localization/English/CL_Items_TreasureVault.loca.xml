@@ -1,0 +1,33 @@
+<contentList>
+    <!-- Bonus Weapon Damage Status Description -->
+    <content contentuid="hb82d256d81b34918b3ad868e9b3965feaa6d" version="1">Deals an additional [1].</content>
+    <!-- Bonus Weapon Damage Status Display Names -->
+    <content contentuid="h67da3c1b57564de3923c4cf9b219091fe48b" version="1">Bludgeoning Weapon</content>
+    <content contentuid="h6a8b52692eff437fbd3cb5ba432d4b36gf93" version="1">Piercing Weapon</content>
+    <content contentuid="hbcb2ee6450ab431096bbaf5c6d0f0a56gcgg" version="1">Slashing Weapon</content>
+    <content contentuid="h7c0762288caa44469801f84160e89455g2f7" version="1">Force Weapon</content>
+    <content contentuid="hef28150021714aaea668a4e4859f4cc877b8" version="1">Radiant Weapon</content>
+    <content contentuid="h50047a9bfedc41c18c3014bb815878b4gg7c" version="1">Poison Weapon</content>
+    <content contentuid="hb1535ac8d8b746ec939a6326d931031172d9" version="1">Psychic Weapon</content>
+    <content contentuid="h1245857c1ac5463db9406005fd25cea1603d" version="1">Cold Weapon</content>
+    <content contentuid="h78a2eaa517094f32b8e535ac8cca0140ea7g" version="1">Lightning Weapon</content>
+    <content contentuid="hf371b9f24f134f0991ab0178083dea9275f2" version="1">Fire Weapon</content>
+    <content contentuid="hfefa674085734bba913b308fe2cffdf879f4" version="1">Necrotic Weapon</content>
+    <content contentuid="h7c4ced6d3591459b975bceae54733dd0606c" version="1">Thunder Weapon</content>
+    <content contentuid="h770dbc7149344c1c8d180531938e1f0b7595" version="1">Acid Weapon</content>
+    <!-- Warpick -->
+    <content contentuid="h09a2d233ec82465b958ceea51c4cd3ace976" version="1">Magical Warpick</content>
+    <content contentuid="hc93f1db38e6946ddabec447c13d6810cc667" version="1">Bludgeoning Warpick</content>
+    <content contentuid="h84e70b1aa58f4f94b140cbea488f2cf2c3b2" version="1">Piercing Warpick</content>
+    <content contentuid="hcb72e79a8a5d4880a4b67e5caea92965d509" version="1">Slashing Warpick</content>
+    <content contentuid="h203555d31e02499fb2e2e0d4b99b1bccabd7" version="1">Force Warpick</content>
+    <content contentuid="hc80b5a7762f14c1293f94de281d8e8a446e7" version="1">Radiant Warpick</content>
+    <content contentuid="h9fdd16b8c8784835a4b64364306b28c9ddf2" version="1">Poison Warpick</content>
+    <content contentuid="hd5cda6e8d37942d2a62b226d1fe7e4de8e1b" version="1">Psychic Warpick</content>
+    <content contentuid="hb7db8b03cf6646af9f68b94ad0c70dde2f1d" version="1">Cold Warpick</content>
+    <content contentuid="h7634ca4f03344bc2a7d5560fa76a12219946" version="1">Lightning Warpick</content>
+    <content contentuid="hc395ea4669654699bc9a72c1a4bc235dfac6" version="1">Fire Warpick</content>
+    <content contentuid="hd588c3e3d44443509a9db28d1017b98a438b" version="1">Necrotic Warpick</content>
+    <content contentuid="h1bf2c46a396347c0ac7895648687ea202585" version="1">Thunder Warpick</content>
+    <content contentuid="h5da0d675fc6f4ee6aca4c6ab7a41ea0876ea" version="1">Acid Warpick</content>
+</contentList>

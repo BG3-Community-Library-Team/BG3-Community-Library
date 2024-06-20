@@ -1,0 +1,235 @@
+// ACID
+new entry "CL_STATUS_WPN_MAG_ACID"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h770dbc7149344c1c8d180531938e1f0b7595;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Acid)"
+data "Icon" "GenericIcon_DamageType_Acid"
+data "Boosts" "WeaponDamage(1d4, Acid)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "3798c69d-e202-4323-b660-2e1778dafafc"
+
+// THUNDER
+new entry "CL_STATUS_WPN_MAG_THUNDER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7c4ced6d3591459b975bceae54733dd0606c;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Thunder)"
+data "Icon" "GenericIcon_DamageType_Thunder"
+data "Boosts" "WeaponDamage(1d4, Thunder)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "ca0b3ab3-dac0-47f7-b313-7ca69c85b5b4"
+
+// NECROTIC
+new entry "CL_STATUS_WPN_MAG_NECROTIC"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hfefa674085734bba913b308fe2cffdf879f4;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Necrotic)"
+data "Icon" "GenericIcon_DamageType_Necrotic"
+data "Boosts" "WeaponDamage(1d4, Necrotic)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "ef230b11-f9c5-406e-9c7c-08b6f6309db2"
+
+// FIRE
+new entry "CL_STATUS_WPN_MAG_FIRE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hf371b9f24f134f0991ab0178083dea9275f2;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Fire)"
+data "Icon" "GenericIcon_DamageType_Fire"
+data "Boosts" "WeaponDamage(1d4, Fire)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "8a4c7e6e-a629-4765-9c5d-d354838703d8"
+
+// LIGHTNING
+new entry "CL_STATUS_WPN_MAG_LIGHTNING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h78a2eaa517094f32b8e535ac8cca0140ea7g;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Lightning)"
+data "Icon" "GenericIcon_DamageType_Lightning"
+data "Boosts" "WeaponDamage(1d4, Lightning)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "7905bb82-0284-46b8-855b-24f17560fe4a"
+
+// COLD
+new entry "CL_STATUS_WPN_MAG_COLD"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h1245857c1ac5463db9406005fd25cea1603d;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Cold)"
+data "Icon" "GenericIcon_DamageType_Cold"
+data "Boosts" "WeaponDamage(1d4, Cold)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "e92003cd-6622-4a82-a3c7-69d6222f0ba0"
+
+// PSYCHIC
+new entry "CL_STATUS_WPN_MAG_PSYCHIC"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hb1535ac8d8b746ec939a6326d931031172d9;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Psychic)"
+data "Icon" "GenericIcon_DamageType_Psychic"
+data "Boosts" "WeaponDamage(1d4, Psychic)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "0356e372-c3d8-4943-883c-b51f24afbc63"
+
+// POISON
+new entry "CL_STATUS_WPN_MAG_POISON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h50047a9bfedc41c18c3014bb815878b4gg7c;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Poison)"
+data "Icon" "GenericIcon_DamageType_Poison"
+data "Boosts" "WeaponDamage(1d4, Poison)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "86b94e03-b0d5-46aa-9045-88cdc5aeff47"
+
+// RADIANT
+new entry "CL_STATUS_WPN_MAG_RADIANT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hef28150021714aaea668a4e4859f4cc877b8;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Radiant)"
+data "Icon" "GenericIcon_DamageType_Radiant"
+data "Boosts" "WeaponDamage(1d4, Radiant)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "fdb6fe37-0f9b-46b4-bb42-8a4079073fb2"
+
+// FORCE
+new entry "CL_STATUS_WPN_MAG_FORCE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7c0762288caa44469801f84160e89455g2f7;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Force)"
+data "Icon" "GenericIcon_DamageType_Force"
+data "Boosts" "WeaponDamage(1d4, Force)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StatusEffect" "083181ba-1276-438b-876f-e3e75593990f"
+
+// SLASHING
+new entry "CL_STATUS_WPN_MAG_SLASHING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hbcb2ee6450ab431096bbaf5c6d0f0a56gcgg;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Slashing)"
+data "Icon" "GenericIcon_DamageType_Slashing"
+data "Boosts" "WeaponDamage(1d4, Slashing)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+// PIERCING
+new entry "CL_STATUS_WPN_MAG_PIERCING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h6a8b52692eff437fbd3cb5ba432d4b36gf93;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Piercing)"
+data "Icon" "GenericIcon_DamageType_Piercing"
+data "Boosts" "WeaponDamage(1d4, Piercing)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+// BLUDGEONING
+new entry "CL_STATUS_WPN_MAG_BLUDGEONING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "18dd1e30-e3d6-4e8b-a750-d3e977a175a2h67da3c1b57564de3923c4cf9b219091fe48b;1"
+data "Description" "hb82d256d81b34918b3ad868e9b3965feaa6d;1"
+data "DescriptionParams" "DealDamage(1d4, Bludgeoning)"
+data "Icon" "GenericIcon_DamageType_Bludgeoning"
+data "Boosts" "WeaponDamage(1d4, Bludgeoning)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "CL_WPN_MAG_WarPick_1"
+type "Weapon"
+using "WPN_WarPick_1"
+data "RootTemplate" "11e4a03e-64df-4622-b33f-ea11a2bc05af"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);HiddenDuringCinematic()"
+data "Rarity" "Uncommon"
+data "Weapon Properties" "Melee;Dippable;Magical"
+
+new entry "CL_WPN_MAG_WarPick_1_Acid"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "3a292b47-04a0-4085-9e0d-69218dd7c757"
+
+new entry "CL_WPN_MAG_WarPick_1_Thunder"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "a3c5cae9-b029-4bf6-b386-49c694eb75d6"
+
+new entry "CL_WPN_MAG_WarPick_1_Necrotic"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "1678f1bf-74b8-41f3-a35c-f8bbcd87b4b1"
+
+new entry "CL_WPN_MAG_WarPick_1_Fire"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "bcb362ff-cf72-4e0c-8988-90f8e422dda3"
+
+new entry "CL_WPN_MAG_WarPick_1_Lightning"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "c6e70499-121b-48a6-9ed9-8187d8118e6b"
+
+new entry "CL_WPN_MAG_WarPick_1_Cold"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "b003e489-158c-4e10-851c-9a865f9b53fb"
+
+new entry "CL_WPN_MAG_WarPick_1_Psychic"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "bfa51be7-f921-4d7c-b4a7-31c9ec540e0c"
+
+new entry "CL_WPN_MAG_WarPick_1_Poison"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "ab2797b7-0441-4ba9-93c4-fcc7931bbc73"
+
+new entry "CL_WPN_MAG_WarPick_1_Radiant"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "5638ec76-0c3d-46bb-b2c2-f2b39e047f3b"
+
+new entry "CL_WPN_MAG_WarPick_1_Force"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "60c09e2f-07c4-4eb5-9207-e74fd981987c"
+
+new entry "CL_WPN_MAG_WarPick_1_Slashing"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "885341f0-4941-445d-883d-9f2c9b95ae8d"
+
+new entry "CL_WPN_MAG_WarPick_1_Piercing"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "6609d84c-a025-41e6-a706-e4c732c98fb5"
+
+new entry "CL_WPN_MAG_WarPick_1_Bludgeoning"
+type "Weapon"
+using "CL_WPN_MAG_WarPick_1"
+data "RootTemplate" "ae7af21d-34ec-4105-b99b-b89cbdafe5ae"
+
+
+
+// Root Template Addition
+//	<StatusList>
+//		<Status>
+//			<Object>CL_STATUS_MAG_FIRE_WEAPON</Object>
+//		</Status>
+//	</StatusList>
