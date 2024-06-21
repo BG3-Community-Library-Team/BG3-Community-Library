@@ -414,12 +414,12 @@
 			   <!-- CL_WPN_MAG_WarPick_1_Base -->
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="hfdee0c47g2cf0g4707g9662g94a18be5b1bd" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h48a8dd12b0d84fd880e4dc5e93dc7f96cb68" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h50ad4d7d30f8440094f9e23e2ae7e2155gga" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="4557e206-6a57-415b-adf3-2499f5af19f4" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WarPick_1_Awareness" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WarPick_1_Sentinel" />
 					<attribute id="ParentTemplateId" type="FixedString" value="e09813a0-ba45-4726-8242-f4aa570fb571" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WarPick_1_Awareness" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WarPick_1_Sentinel" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 				</node>

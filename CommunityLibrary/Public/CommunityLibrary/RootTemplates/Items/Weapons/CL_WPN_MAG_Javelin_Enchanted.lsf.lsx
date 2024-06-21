@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+			   <!-- War Pick Bonus Damage -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4eef53f93ca445608eb307e98637f4c7d3c6" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="115f5b08-b7af-41dd-a99c-ee2630c2346b" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Acid" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Acid" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_ACID" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h952c3794fec14e2485d14e667ae173f23613" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b11ba56a-626a-4a04-ad43-0e423b011055" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Thunder" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Thunder" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_THUNDER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1cf2dc06f5ac4a22b4bc9ec0aa353d4c33df" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ae709270-dd4d-4b24-a29e-04cfb292203d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Necrotic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Necrotic" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_NECROTIC" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdcdbb7658a3a4a24b458638e4fd8640e1859" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d056e2ac-5039-4462-af07-3d6e01d2dbc1" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Fire" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Fire" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_FIRE" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2ae0b43409914b03a6fe2d8d36f65582f321" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2eaced0e-2fe4-45f5-a746-1d80753f4f8f" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Lightning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Lightning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcb777c6c6ae84b7da204fa8135825d127f60" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d9fcfea3-d386-40ad-8fd3-21580508ae69" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Cold" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Cold" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_COLD" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h67851f194ae440d79d6aba4f948abc1287ac" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="54ebdea6-007c-48a0-9df9-ab7bdfb35678" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Psychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Psychic" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_PSYCHIC" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h143b154fc3954fd2b852605addb77be20e1e" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="34866c06-c437-4de5-b371-c449ac9982fd" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Poison" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Poison" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="had9c6dfd4ba3477e8abda9b4b0367d472b05" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="16b1a7b2-f25a-4ed7-86f1-7457c6b2b623" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Radiant" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Radiant" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_RADIANT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9779e64aa9f04454b1f4823a003f32fc980b" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="26e9b84b-62ac-4c4c-948d-d336be02114c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Force" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Force" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_FORCE" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcdc2379ec8f841eb9c8e18c4af4c592e54a7" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="640cb182-6d16-4840-a30e-e592b0bacd83" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Slashing" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Slashing" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_SLASHING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc6f2b674b73049a381cebdaa204640d7b419" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="43cca5ec-c655-4b09-838f-feb17019a516" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Piercing" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Piercing" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_PIERCING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h906f1c3edafd4b75b95648557076e590d33c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="dc1ef1be-a392-4e48-842d-47f5722527d1" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Bludgeoning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Bludgeoning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_BLUDGEONING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- War Pick Enchantments -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7b5f74931dd748d0a210a7b9288746d9132b" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9ece566e-02e7-4dac-8a59-cddaa1710c26" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Doom" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Doom" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf8b65d3b066e4a1ca15fd47dda92adbe8d16" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="3a3a445f-90e0-4020-98f3-bf9b0a1f563f" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Assassin" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Assassin" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h04af2a4bc13c46a5912df5613ae46e407167" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1f5dbff2-30a9-402d-b48e-57332cf4fd1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Returning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Returning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_THROWING_RETURN_TO_OWNER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc375d33a6c8248c385ce7d42221d9de3106g" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f8316180-6ac5-47d7-8434-35db9c0f6ddb" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Speedy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Speedy" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h500d674bf77e4b9aae5faac9b3b6f6294fg7" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a2749d75-0bf5-4aef-8ea2-e55084a02092" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_HillGiant" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_HillGiant" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h774bc2195b3f42518d272609c30a974a87f8" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bfa45bda-d28e-439c-a7b0-e3b2b8b3979f" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Shockwave" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Shockwave" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8aaa607a0b3b4008b9406f90435ed3deff5c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="aea62380-5ec5-489d-8f10-ad4b9b114d33" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_ImpulseBlast" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_ImpulseBlast" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd9ce2e90aee243b09ba4a8449059e8d8c770" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0dabca89-c389-4a1f-95bc-d2a2358a55f8" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Arcane" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Arcane" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2e172c2b28f142e496f94c5cd4306d03e0bb" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="8abcb4ba-9af5-49ca-a2b6-15ed89dc351a" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Ritual" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Ritual" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h66dd8a731ee04f738ad00bb35de4d44bd865" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="5c634552-a7f0-4177-a726-0cce70c3cf7a" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_FirstBlood" />
+					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_FirstBlood" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+			   <!-- CL_WPN_MAG_Javelin_1_Base -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he69f81f038d74c22b382d3cdca7571d1b111" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="1f00c8bb-b8e7-4973-8747-3f148a67877f" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_1_Sentinel" />
+					<attribute id="ParentTemplateId" type="FixedString" value="71a7a7f5-8756-475c-878a-f89c2c91acc7" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_1_Sentinel" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h91711e32353446cf84025e248e9600234657" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b151918f-dccc-4531-b620-7299bb395f71" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_1_MonsterHunter" />
+					<attribute id="ParentTemplateId" type="FixedString" value="71a7a7f5-8756-475c-878a-f89c2c91acc7" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_1_MonsterHunter" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h58b03ad032a549b9b7d22385cd3c0b9ebc4f" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b621c66d-f52e-4761-982b-ccc2bbc0ccdc" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_1_SpellslotRecharge" />
+					<attribute id="ParentTemplateId" type="FixedString" value="71a7a7f5-8756-475c-878a-f89c2c91acc7" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_1_SpellslotRecharge" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

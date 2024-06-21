@@ -1,7 +1,7 @@
 <contentList>
-    <!-- Bonus Weapon Damage Status Description -->
+   <!-- Bonus Weapon Damage Status Description -->
     <content contentuid="hb82d256d81b34918b3ad868e9b3965feaa6d" version="1">Deals an additional [1].</content>
-    <!-- Bonus Weapon Damage Status Display Names -->
+   <!-- Bonus Weapon Damage Status Display Names -->
     <content contentuid="h67da3c1b57564de3923c4cf9b219091fe48b" version="1">Bludgeoning Weapon</content>
     <content contentuid="h6a8b52692eff437fbd3cb5ba432d4b36gf93" version="1">Piercing Weapon</content>
     <content contentuid="hbcb2ee6450ab431096bbaf5c6d0f0a56gcgg" version="1">Slashing Weapon</content>
@@ -19,8 +19,7 @@
     <content contentuid="h90108d951cb74dc08f6cdeea2ddd1ba466fb" version="1">After a successful attack with this weapon, the wielder receives a +1d4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of their next turn.</content>
     <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
 
-
-    <!-- War Pick -->
+   <!-- War Pick -->
     <content contentuid="h09a2d233ec82465b958ceea51c4cd3ace976" version="1">Magical War Pick</content>
     <content contentuid="hc93f1db38e6946ddabec447c13d6810cc667" version="1">Bludgeoning War Pick</content>
     <content contentuid="h84e70b1aa58f4f94b140cbea488f2cf2c3b2" version="1">Piercing War Pick</content>
@@ -35,7 +34,6 @@
     <content contentuid="hd588c3e3d44443509a9db28d1017b98a438b" version="1">Necrotic War Pick</content>
     <content contentuid="h1bf2c46a396347c0ac7895648687ea202585" version="1">Thunder War Pick</content>
     <content contentuid="h5da0d675fc6f4ee6aca4c6ab7a41ea0876ea" version="1">Acid War Pick</content>
-
     <content contentuid="h7f7dbd8fdff5453e889a598f483f7a69ea4a" version="1">Speedy War Pick</content>
     <content contentuid="h24e828c99b3949b38f3357ed3e03781e09bb" version="1">Doom War Pick</content>
     <content contentuid="h488069ca023047d6a87ff00801bd4b2agdgb" version="1">Returning War Pick</content>
@@ -48,6 +46,36 @@
     <content contentuid="h48a8dd12b0d84fd880e4dc5e93dc7f96cb68" version="1">War Pick of First Blood</content>
     <content contentuid="ha22e6fe426c04f9cadc4636a642619fa2b17" version="1">War Pick +1</content>
     <content contentuid="h2e82afb3ae844dd0b92e27d47438fae70ad8" version="1">Hunting War Pick</content>
-
+    <content contentuid="h50ad4d7d30f8440094f9e23e2ae7e2155gga" version="1">Sentinel War Pick</content>
     <content contentuid="h840c729010b54531bd3ca3b5bc5758ba444e" version="1">Vehement War Pick</content>
+
+   <!-- Javelin -->
+    <content contentuid="he797fa5e75e749efbfd2ad397b845ba8d337" version="1">Magical Javelin</content>
+    <content contentuid="h4eef53f93ca445608eb307e98637f4c7d3c6" version="1">Acid Javelin</content>
+    <content contentuid="h952c3794fec14e2485d14e667ae173f23613" version="1">Thunder Javelin</content>
+    <content contentuid="h1cf2dc06f5ac4a22b4bc9ec0aa353d4c33df" version="1">Necrotic Javelin</content>
+    <content contentuid="hdcdbb7658a3a4a24b458638e4fd8640e1859" version="1">Fire Javelin</content>
+    <content contentuid="h2ae0b43409914b03a6fe2d8d36f65582f321" version="1">Lightning Javelin</content>
+    <content contentuid="hcb777c6c6ae84b7da204fa8135825d127f60" version="1">Cold Javelin</content>
+    <content contentuid="h67851f194ae440d79d6aba4f948abc1287ac" version="1">Psychic Javelin</content>
+    <content contentuid="h143b154fc3954fd2b852605addb77be20e1e" version="1">Poison Javelin</content>
+    <content contentuid="had9c6dfd4ba3477e8abda9b4b0367d472b05" version="1">Radiant Javelin</content>
+    <content contentuid="h9779e64aa9f04454b1f4823a003f32fc980b" version="1">Force Javelin</content>
+    <content contentuid="hcdc2379ec8f841eb9c8e18c4af4c592e54a7" version="1">Slashing Javelin</content>
+    <content contentuid="hc6f2b674b73049a381cebdaa204640d7b419" version="1">Piercing Javelin</content>
+    <content contentuid="h906f1c3edafd4b75b95648557076e590d33c" version="1">Bludgeoning Javelin</content>
+    <content contentuid="h7b5f74931dd748d0a210a7b9288746d9132b" version="1">Doom Javeli</content>
+    <content contentuid="hf8b65d3b066e4a1ca15fd47dda92adbe8d16" version="1">Assassin's Javelin</content>
+    <content contentuid="h04af2a4bc13c46a5912df5613ae46e407167" version="1">Returning Javelin</content>
+    <content contentuid="hc375d33a6c8248c385ce7d42221d9de3106g" version="1">Speedy Javelin</content>
+    <content contentuid="h500d674bf77e4b9aae5faac9b3b6f6294fg7" version="1">Javelin of Hill Giant Strength</content>
+    <content contentuid="h774bc2195b3f42518d272609c30a974a87f8" version="1">Shockwave Javelin</content>
+    <content contentuid="h8aaa607a0b3b4008b9406f90435ed3deff5c" version="1">Intransigent Javelin</content>
+    <content contentuid="hd9ce2e90aee243b09ba4a8449059e8d8c770" version="1">Arcane Javelin</content>
+    <content contentuid="h2e172c2b28f142e496f94c5cd4306d03e0bb" version="1">Ritual Javelin</content>
+    <content contentuid="h66dd8a731ee04f738ad00bb35de4d44bd865" version="1">Javelin of First Blood</content>
+    <content contentuid="ha0175ea3f32242d88a34ab283bf3e1b3ge7g" version="1">Javelin +1</content>
+    <content contentuid="h91711e32353446cf84025e248e9600234657" version="1">Hunting Javelin</content>
+    <content contentuid="he69f81f038d74c22b382d3cdca7571d1b111" version="1">Sentinel Javelin</content>
+    <content contentuid="h58b03ad032a549b9b7d22385cd3c0b9ebc4f" version="1">Vehement Javelin</content>
 </contentList>

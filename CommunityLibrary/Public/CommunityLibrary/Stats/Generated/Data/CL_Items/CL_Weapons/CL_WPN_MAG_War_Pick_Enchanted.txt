@@ -127,7 +127,7 @@ data "PassivesOnEquip" "UND_Duergar_ShortswordOfFirstBlood_Passive"
 
 // using "CL_WPN_MAG_WarPick_1_Base"
 
-new entry "CL_WPN_MAG_WarPick_1_Awareness"
+new entry "CL_WPN_MAG_WarPick_1_Sentinel"
 type "Weapon"
 using "CL_WPN_MAG_WarPick_1_Base"
 data "RootTemplate" "4557e206-6a57-415b-adf3-2499f5af19f4"
@@ -145,5 +145,3 @@ type "Weapon"
 using "CL_WPN_MAG_WarPick_1_Base"
 data "RootTemplate" "a43b4b73-9918-4906-ae49-c7677efd8795"
 data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
-
-
