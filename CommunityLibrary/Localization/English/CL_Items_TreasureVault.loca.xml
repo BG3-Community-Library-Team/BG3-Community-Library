@@ -15,7 +15,12 @@
     <content contentuid="hfefa674085734bba913b308fe2cffdf879f4" version="1">Necrotic Weapon</content>
     <content contentuid="h7c4ced6d3591459b975bceae54733dd0606c" version="1">Thunder Weapon</content>
     <content contentuid="h770dbc7149344c1c8d180531938e1f0b7595" version="1">Acid Weapon</content>
-    <!-- War Pick +1 -->
+
+    <content contentuid="h90108d951cb74dc08f6cdeea2ddd1ba466fb" version="1">After a successful attack with this weapon, the wielder receives a +1d4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of their next turn.</content>
+    <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
+
+
+    <!-- War Pick -->
     <content contentuid="h09a2d233ec82465b958ceea51c4cd3ace976" version="1">Magical War Pick</content>
     <content contentuid="hc93f1db38e6946ddabec447c13d6810cc667" version="1">Bludgeoning War Pick</content>
     <content contentuid="h84e70b1aa58f4f94b140cbea488f2cf2c3b2" version="1">Piercing War Pick</content>
@@ -41,4 +46,8 @@
     <content contentuid="h0643477f2ecd4db1b92525265fcbe8e0e92f" version="1">Arcane War Pick</content>
     <content contentuid="h02c931332024407493493c22864959003ca4" version="1">Ritual War Pick</content>
     <content contentuid="h48a8dd12b0d84fd880e4dc5e93dc7f96cb68" version="1">War Pick of First Blood</content>
+    <content contentuid="ha22e6fe426c04f9cadc4636a642619fa2b17" version="1">War Pick +1</content>
+    <content contentuid="h2e82afb3ae844dd0b92e27d47438fae70ad8" version="1">Hunting War Pick</content>
+
+    <content contentuid="h840c729010b54531bd3ca3b5bc5758ba444e" version="1">Vehement War Pick</content>
 </contentList>

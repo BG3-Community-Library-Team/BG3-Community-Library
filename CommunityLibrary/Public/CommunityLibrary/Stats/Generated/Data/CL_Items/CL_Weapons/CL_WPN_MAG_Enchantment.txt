@@ -150,3 +150,15 @@ data "DescriptionParams" "DealDamage(1d4, Bludgeoning)"
 data "Icon" "GenericIcon_DamageType_Bludgeoning"
 data "Boosts" "WeaponDamage(1d4, Bludgeoning)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+// Ritual | The Pain Maiden's Blessing
+new entry "CL_Passive_Ritual"
+type "PassiveData"
+using "GOB_PainPriest_Dagger_Passive"
+data "Description" "h90108d951cb74dc08f6cdeea2ddd1ba466fb;1"
+
+// SpellslotRecharge | Arcane Vehemence
+new entry "CL_Passive_SpellslotRecharge"
+type "PassiveData"
+using "UNI_Bow_SpellslotRecharge_Passive"
+data "Description" "hcf3cbbfbb08943f9a2be37a6fd657bf42d48;1"
