@@ -1,3 +1,17 @@
+// Melee
+
+// Battleaxes
+// Clubs
+// Daggers
+// Flails
+// Glaives
+// Greataxes
+// Greatclubs
+// Greatswords
+// Halberds
+// Handaxes
+// Javelins
+
 new entry "CL_WPN_MAG_Javelin_Base"
 type "Weapon"
 using "WPN_Javelin_1"
@@ -13,6 +27,22 @@ using "CL_WPN_MAG_Javelin_Base"
 data "RootTemplate" "71a7a7f5-8756-475c-878a-f89c2c91acc7"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
+// Light Hammers
+// Longswords
+// Maces
+// Mauls
+// Morningstars
+// Pikes
+// Quarterstaves
+// Rapiers
+// Scimitars
+// Shortswords
+// Sickles
+// Spears
+// Tridents
+// Warhammers
+// War Picks
+
 new entry "CL_WPN_MAG_WarPick_Base"
 type "Weapon"
 using "WPN_WarPick_1"
@@ -27,3 +57,11 @@ type "Weapon"
 using "CL_WPN_MAG_WarPick_Base"
 data "RootTemplate" "e09813a0-ba45-4726-8242-f4aa570fb571"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);HiddenDuringCinematic()"
+
+// RANGED
+// Hand Crossbows
+// Heavy Crossbows
+// Light Crossbows
+// Longbows
+// Shortbows
+
