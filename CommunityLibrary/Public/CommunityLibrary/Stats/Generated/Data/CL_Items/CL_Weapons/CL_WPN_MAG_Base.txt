@@ -1,0 +1,8 @@
+new entry "CL_WPN_MAG_WarPick_1"
+type "Weapon"
+using "WPN_WarPick_1"
+data "RootTemplate" "11e4a03e-64df-4622-b33f-ea11a2bc05af"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical);HiddenDuringCinematic()"
+data "Rarity" "Uncommon"
+data "Weapon Properties" "Melee;Dippable;Magical"

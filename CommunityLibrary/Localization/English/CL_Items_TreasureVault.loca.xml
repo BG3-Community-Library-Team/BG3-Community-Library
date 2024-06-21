@@ -15,19 +15,30 @@
     <content contentuid="hfefa674085734bba913b308fe2cffdf879f4" version="1">Necrotic Weapon</content>
     <content contentuid="h7c4ced6d3591459b975bceae54733dd0606c" version="1">Thunder Weapon</content>
     <content contentuid="h770dbc7149344c1c8d180531938e1f0b7595" version="1">Acid Weapon</content>
-    <!-- Warpick -->
-    <content contentuid="h09a2d233ec82465b958ceea51c4cd3ace976" version="1">Magical Warpick</content>
-    <content contentuid="hc93f1db38e6946ddabec447c13d6810cc667" version="1">Bludgeoning Warpick</content>
-    <content contentuid="h84e70b1aa58f4f94b140cbea488f2cf2c3b2" version="1">Piercing Warpick</content>
-    <content contentuid="hcb72e79a8a5d4880a4b67e5caea92965d509" version="1">Slashing Warpick</content>
-    <content contentuid="h203555d31e02499fb2e2e0d4b99b1bccabd7" version="1">Force Warpick</content>
-    <content contentuid="hc80b5a7762f14c1293f94de281d8e8a446e7" version="1">Radiant Warpick</content>
-    <content contentuid="h9fdd16b8c8784835a4b64364306b28c9ddf2" version="1">Poison Warpick</content>
-    <content contentuid="hd5cda6e8d37942d2a62b226d1fe7e4de8e1b" version="1">Psychic Warpick</content>
-    <content contentuid="hb7db8b03cf6646af9f68b94ad0c70dde2f1d" version="1">Cold Warpick</content>
-    <content contentuid="h7634ca4f03344bc2a7d5560fa76a12219946" version="1">Lightning Warpick</content>
-    <content contentuid="hc395ea4669654699bc9a72c1a4bc235dfac6" version="1">Fire Warpick</content>
-    <content contentuid="hd588c3e3d44443509a9db28d1017b98a438b" version="1">Necrotic Warpick</content>
-    <content contentuid="h1bf2c46a396347c0ac7895648687ea202585" version="1">Thunder Warpick</content>
-    <content contentuid="h5da0d675fc6f4ee6aca4c6ab7a41ea0876ea" version="1">Acid Warpick</content>
+    <!-- War Pick +1 -->
+    <content contentuid="h09a2d233ec82465b958ceea51c4cd3ace976" version="1">Magical War Pick</content>
+    <content contentuid="hc93f1db38e6946ddabec447c13d6810cc667" version="1">Bludgeoning War Pick</content>
+    <content contentuid="h84e70b1aa58f4f94b140cbea488f2cf2c3b2" version="1">Piercing War Pick</content>
+    <content contentuid="hcb72e79a8a5d4880a4b67e5caea92965d509" version="1">Slashing War Pick</content>
+    <content contentuid="h203555d31e02499fb2e2e0d4b99b1bccabd7" version="1">Force War Pick</content>
+    <content contentuid="hc80b5a7762f14c1293f94de281d8e8a446e7" version="1">Radiant War Pick</content>
+    <content contentuid="h9fdd16b8c8784835a4b64364306b28c9ddf2" version="1">Poison War Pick</content>
+    <content contentuid="hd5cda6e8d37942d2a62b226d1fe7e4de8e1b" version="1">Psychic War Pick</content>
+    <content contentuid="hb7db8b03cf6646af9f68b94ad0c70dde2f1d" version="1">Cold War Pick</content>
+    <content contentuid="h7634ca4f03344bc2a7d5560fa76a12219946" version="1">Lightning War Pick</content>
+    <content contentuid="hc395ea4669654699bc9a72c1a4bc235dfac6" version="1">Fire War Pick</content>
+    <content contentuid="hd588c3e3d44443509a9db28d1017b98a438b" version="1">Necrotic War Pick</content>
+    <content contentuid="h1bf2c46a396347c0ac7895648687ea202585" version="1">Thunder War Pick</content>
+    <content contentuid="h5da0d675fc6f4ee6aca4c6ab7a41ea0876ea" version="1">Acid War Pick</content>
+
+    <content contentuid="h7f7dbd8fdff5453e889a598f483f7a69ea4a" version="1">Speedy War Pick</content>
+    <content contentuid="h24e828c99b3949b38f3357ed3e03781e09bb" version="1">Doom War Pick</content>
+    <content contentuid="h488069ca023047d6a87ff00801bd4b2agdgb" version="1">Returning War Pick</content>
+    <content contentuid="hc2cc36136fd04de794da4d85a98ac10b0291" version="1">Assassin's War Pick</content>
+    <content contentuid="h93dc120c1e904da09111773551741bf55c8d" version="1">War Pick of Hill Giant Strength</content>
+    <content contentuid="h4c56d76f86b1409c948698ecda962133246g" version="1">Shockwave War Pick</content>
+    <content contentuid="h97dc7eae514c472a8a7e0032099c900e90d1" version="1">Intransigent War Pick</content>
+    <content contentuid="h0643477f2ecd4db1b92525265fcbe8e0e92f" version="1">Arcane War Pick</content>
+    <content contentuid="h02c931332024407493493c22864959003ca4" version="1">Ritual War Pick</content>
+    <content contentuid="h48a8dd12b0d84fd880e4dc5e93dc7f96cb68" version="1">War Pick of First Blood</content>
 </contentList>
