@@ -44,7 +44,7 @@ data "DescriptionParams" "DealDamage(1d4, Fire)"
 data "Icon" "GenericIcon_DamageType_Fire"
 data "Boosts" "WeaponDamage(1d4, Fire)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusEffect" "8a4c7e6e-a629-4765-9c5d-d354838703d8"
+data "StatusEffectOverrideForItems" "44d77ebf-fc9e-407d-b20f-257019351f2a"
 
 // LIGHTNING
 new entry "CL_STATUS_WPN_MAG_LIGHTNING"
@@ -56,7 +56,8 @@ data "DescriptionParams" "DealDamage(1d4, Lightning)"
 data "Icon" "GenericIcon_DamageType_Lightning"
 data "Boosts" "WeaponDamage(1d4, Lightning)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusEffect" "7905bb82-0284-46b8-855b-24f17560fe4a"
+data "StatusEffect" "6243918d-a503-49fb-a85c-bdac5ce40b0a"
+//data "StatusEffect" "7905bb82-0284-46b8-855b-24f17560fe4a"
 
 // COLD
 new entry "CL_STATUS_WPN_MAG_COLD"
