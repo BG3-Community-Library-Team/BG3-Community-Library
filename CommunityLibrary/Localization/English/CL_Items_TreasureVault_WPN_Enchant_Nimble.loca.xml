@@ -1,0 +1,39 @@
+<contentList>
+    <content contentuid="h3a5bb727f8244aafb9627ca66dd4c3657g65" version="1">Nimble Battleaxe</content>
+    <content contentuid="h9b0bb856c3da40adb217e44f2a375533c19c" version="1">Nimble Club</content>
+    <content contentuid="hb61dae34e62f41b99c1ce95f2008a56c9b54" version="1">Nimble Dagger</content>
+    <content contentuid="hdf2dcdbc02434340b0522c10cf24cd6b3cf7" version="1">Nimble Dart</content>
+    <content contentuid="hab7c74cc270343c8a29f6c1828dda5413355" version="1">Nimble Flai</content>
+    <content contentuid="hc3e8fbb8b9b948e39921e7fb2690126d3c5d" version="1">Nimble Glaive</content>
+    <content contentuid="hb8ce73ca12fd4426a482baf629ce99f33dg0" version="1">Nimble Greataxe</content>
+    <content contentuid="hb558462364cb4e7a8e1b4a53ef8fb25ebbd7" version="1">Nimble Greatclub</content>
+    <content contentuid="hd3e4276a43604bfb9f1990adae79935d775g" version="1">Nimble Greatsword</content>
+    <content contentuid="hd4218bd0a82c4eeeb0781c1986c41b61fe52" version="1">Nimble Halberd</content>
+    <content contentuid="h87c1648953c545cdb59077eac8b377cee92c" version="1">Nimble Handaxe</content>
+    <content contentuid="h8a69b6ab3edf401d84ce1d48efe24ddef79c" version="1">Nimble Hand Crossbow</content>
+    <content contentuid="h437016d5ccc8467ebca0037ba36c0b33gd73" version="1">Nimble Heavy Crossbow</content>
+    <content contentuid="h60be4857d7c84b779dd94aa71194b72cadf6" version="1">Nimble Javelin</content>
+    <content contentuid="hd49fe2a8f26f42eca7e6dff8fb5c13fab82b" version="1">Nimble Light Crossbow</content>
+    <content contentuid="h2be0e81c5c064312844419ccf335d79516c5" version="1">Nimble Light Hammer</content>
+    <content contentuid="h98fa3ce32cb84fe69634178849998d12be95" version="1">Nimble Longbow</content>
+    <content contentuid="hcaf978f4027946509cba74d5d48c90469612" version="1">Nimble Longsword</content>
+    <content contentuid="h1798aac7ccd14044bc87353ab22f310e7579" version="1">Nimble Mace</content>
+    <content contentuid="h824e07cdc44448df81f4d92ac1f2e2d8c4a4" version="1">Nimble Maul</content>
+    <content contentuid="hd32759a30c4842398c287fb97ba64a09b4c4" version="1">Nimble Morningstar</content>
+    <content contentuid="h1a644547e7454692be9b688108220168fd39" version="1">Nimble Pike</content>
+    <content contentuid="h7f448ff348a542a6bf2a4c7d8b561e3ab2e1" version="1">Nimble Quarterstaff</content>
+    <content contentuid="h81da620bd6d94a3f8241daf66f46f1dd1db9" version="1">Nimble Rapier</content>
+    <content contentuid="h768395038cbe4aef9a955b0350a67a1b1ge9" version="1">Nimble Scimitar</content>
+    <content contentuid="h649eb6d123a843728d6b0df2f6e231107eb4" version="1">Nimble Shortbow</content>
+    <content contentuid="h4bee39e8b727433ba9d8c1da55b00760036b" version="1">Nimble Shortsword</content>
+    <content contentuid="h0f4d1090f02e4e94bab40d0b2f8148ce7093" version="1">Nimble Sickle</content>
+    <content contentuid="hbd0d9b4dbd33415496a38cae85043ef9c72c" version="1">Nimble Sling</content>
+    <content contentuid="h309903b6c2924776aa61fbeee26298eca52g" version="1">Nimble Spear</content>
+    <content contentuid="hb1f49786c7fe4cf79c4ce4c4b7b7893b7gd0" version="1">Nimble Trident</content>
+    <content contentuid="hf17a0a126c7d4205a67a96b57bfbfc7609ab" version="1">Nimble Warhammer</content>
+    <content contentuid="hc902c0c0aea14696bd0e096f8213ba9075c8" version="1">Nimble War Pick</content>
+    <content contentuid="h14298d11472a4e478fad231a28f641033333" version="1">Nimble Weapon</content>
+    <content contentuid="h3376147978a8443188e9f4ba23c749716133" version="1">When the wielder hits an enemy with this weapon, they gain &lt;LSTag Type="Status" Tooltip="MAG_MOMENTUM"&gt;Momentum&lt;/LSTag&gt; for 2 turns.</content>
+    <content contentuid="hbffda161a0e94543a00526df9f86b5058g96" version="1">Nimble Movement</content>
+    <content contentuid="h21d90f7365244f84b71de90248e17e870779" version="1">Your &lt;LSTag Tooltip="MovementSpeed""&gt;movement speed&lt;/LSTag&gt; increases by [1] while not wearing Heavy Armour.</content>
+</contentList>

@@ -56,7 +56,8 @@ data "DescriptionParams" "DealDamage(1d4, Lightning)"
 data "Icon" "GenericIcon_DamageType_Lightning"
 data "Boosts" "WeaponDamage(1d4, Lightning)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusEffect" "7905bb82-0284-46b8-855b-24f17560fe4a"
+data "StatusEffect" "6243918d-a503-49fb-a85c-bdac5ce40b0a"
+//data "StatusEffect" "7905bb82-0284-46b8-855b-24f17560fe4a"
 
 // COLD
 new entry "CL_STATUS_WPN_MAG_COLD"

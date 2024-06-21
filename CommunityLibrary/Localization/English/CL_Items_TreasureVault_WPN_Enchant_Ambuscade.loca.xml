@@ -1,0 +1,37 @@
+<contentList>
+    <content contentuid="h31ded443d08e4d718ce53897cdc21e4edb9d" version="1">Ambuscade Battleaxe</content>
+    <content contentuid="h659174d08f0c45ce88bcf69a80bff216ed85" version="1">Ambuscade Club</content>
+    <content contentuid="h3cfeb6bff64a4089bd5cbfcd48a42de61099" version="1">Ambuscade Dagger</content>
+    <content contentuid="h3bf375e26cc54263bb48199bf9946cf74aa4" version="1">Ambuscade Dart</content>
+    <content contentuid="h0fb375e0674f474fa2d5650c7eb2541ff0c4" version="1">Ambuscade Flail</content>
+    <content contentuid="h7500c30521ca43539cae4ce0a002ca12gbge" version="1">Ambuscade Glaive</content>
+    <content contentuid="h5d8ba41bdb7d4794b0740412b417a8460ab2" version="1">Ambuscade Greataxe</content>
+    <content contentuid="h32997c3d3daf4c93a987b71b333b6321a8e3" version="1">Ambuscade Greatclub</content>
+    <content contentuid="ha2accff7f9bf484c8c6b19705f37d1a0afe3" version="1">Ambuscade Greatsword</content>
+    <content contentuid="h5a31232ac4344eea94f099d03ad21a8e9828" version="1">Ambuscade Halberd</content>
+    <content contentuid="haa1e460e113a4c5f99f38b67e17aa2008214" version="1">Ambuscade Handaxe</content>
+    <content contentuid="hc4faf0457ce648039821540b2bab0e776485" version="1">Ambuscade Hand Crossbow</content>
+    <content contentuid="h83a7777f3cc74e2ba4bc4d97492610a1fgb1" version="1">Ambuscade Heavy Crossbow</content>
+    <content contentuid="hcd07987db457475b816fc9c7376eafc6c0g4" version="1">Ambuscade Javelin</content>
+    <content contentuid="h59d5cec4465240d59307314fd4a06808601b" version="1">Ambuscade Light Crossbow</content>
+    <content contentuid="h1ffc38fa38684964854991c8de2fdb7e5400" version="1">Ambuscade Light Hammer</content>
+    <content contentuid="h9902b115836a48a684ab03b0d4454b4a1960" version="1">Ambuscade Longbow</content>
+    <content contentuid="hfcc8bb191cc547249044a3a67bd58eadfd51" version="1">Ambuscade Longsword</content>
+    <content contentuid="hf27e7814c37b4581845ab8f9635cd727f90g" version="1">Ambuscade Mace</content>
+    <content contentuid="h6d6f810b046b4e19a17a586965553857dg61" version="1">Ambuscade Maul</content>
+    <content contentuid="h376df3e9f04a4a9d90a57a9995f59cf51ge3" version="1">Ambuscade Morningstar</content>
+    <content contentuid="h20df1a0c002c450c94f9a62fba6e37a5aeg9" version="1">Ambuscade Pike</content>
+    <content contentuid="h1f285fc32217437991bc65ff1dabe72cac90" version="1">Ambuscade Quarterstaf</content>
+    <content contentuid="h2aaf01d3622b4198a189b0e1fbc97a2b0560" version="1">Ambuscade Rapier</content>
+    <content contentuid="h4b8f214a39bf4c26a5afc31bde78847fafg8" version="1">Ambuscade Scimitar</content>
+    <content contentuid="h2459c07683c841ae8172c99238932253aa14" version="1">Ambuscade Shortbow</content>
+    <content contentuid="h59088a320ca247fcbcb3f8fd8a5ba1754470" version="1">Ambuscade Shortsword</content>
+    <content contentuid="ha500258db60447dd8badcb4fe949eb855dfd" version="1">Ambuscade Sickle</content>
+    <content contentuid="h727a8631d9014c73ae930f279f7c364cc994" version="1">Ambuscade Sling</content>
+    <content contentuid="h1a244c7e444c42b9bcf0f54654c3868b3138" version="1">Ambuscade Spear</content>
+    <content contentuid="h7531fa3655e242deb853fe61b88378488027" version="1">Ambuscade Trident</content>
+    <content contentuid="h30725764734d40a48cf1f13e5fd5fee956d6" version="1">Ambuscade Warhammer</content>
+    <content contentuid="he20ac12b17b646debb06138c994ab834275g" version="1">Ambuscade War Pick</content>
+    <content contentuid="h34a88a272cea43dc8c0a6fadd76f66cddg29" version="1">Ambuscade</content>
+    <content contentuid="h7304b4f5f2f14bf4a97b5339dc76db26128a" version="1">Deals an additional [1] to targets that still have all their &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;.</content>
+</contentList>
