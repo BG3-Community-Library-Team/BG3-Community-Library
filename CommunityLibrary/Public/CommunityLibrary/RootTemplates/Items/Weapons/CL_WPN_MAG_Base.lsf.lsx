@@ -4,16 +4,578 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
-<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
+			   <!-- WPNNAME -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical WPNNAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b000-000000000001" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_WPNNAME" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_WPNNAME" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+<!-- Under Base -->
+
+			   <!-- Battleaxe -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Battleaxe" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Battleaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c17ee133-cbb5-418f-88be-5ef27991cf50" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Battleaxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Club -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Club" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Club" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b30dca22-22bc-496e-b3b6-dd5744b73869" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Club" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Dagger -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Dagger" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Dagger" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1eab180b-5bf9-48ea-aece-7ba20d1deb78" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Dagger" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Dart -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Dart" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Dart" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5557cbf6-ce24-48de-beed-3be1a77e1c82" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Dart" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Flail -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Flail" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Flail" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9076abf1-1029-4be9-a7cf-428d2b6fdea5" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Flail" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Glaive -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Glaive" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Glaive" />
+					<attribute id="ParentTemplateId" type="FixedString" value="15d2830c-ac76-4b5b-969d-05197875b1c2" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Glaive" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Greataxe -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Greataxe" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Greataxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="afbfaee7-e2cd-48e7-8c46-d2377c7320e3" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Greataxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Greatclub -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Greatclub" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Greatclub" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d64e1a13-18a5-4cdc-ac02-977523435f8f" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Greatclub" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Greatsword -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Greatsword" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Greatsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Greatsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Halberd -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Halberd" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Halberd" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d1019d9d-e5ae-4601-8a63-1b33421926e1" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Halberd" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Handaxe -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Handaxe" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Handaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7a05135d-b285-4186-8a32-a870f1684b60" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Handaxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- HandCrossbow -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical HandCrossbow" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_HandCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d2f396c2-9b1b-4eea-bf21-2f25934f092d" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_HandCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- HeavyCrossbow -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical HeavyCrossbow" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_HeavyCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6af59cba-cc38-4511-9c3b-75caac4b96b5" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_HeavyCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Javelin -->
+				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="he797fa5e75e749efbfd2ad397b845ba8d337" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Base" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ba5e00000000" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Javelin" />
 					<attribute id="ParentTemplateId" type="FixedString" value="b908f109-b379-4a49-8f41-5b7f154d9b76" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Base" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Javelin" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="OnUsePeaceActions">
 							<children>
@@ -44,28 +606,734 @@
 						</node>
 					</children>
 				</node>
+			   <!-- LightCrossbow -->
 				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="ha0175ea3f32242d88a34ab283bf3e1b3ge7g" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical LightCrossbow" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="71a7a7f5-8756-475c-878a-f89c2c91acc7" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_1_Base" />
-					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_1_Base" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_LightCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="509dd5c3-7c72-4335-9b23-19a14a884f2e" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_LightCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
 				</node>
-
-
-
+			   <!-- LightHammer -->
 				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hfdee0c47g2cf0g4707g9662g94a18be5b1bd" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical LightHammer" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_LightHammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d0419aaf-9e20-4029-b8e9-9e1a62661b13" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_LightHammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Longbow -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Longbow" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Longbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="049173ec-636a-487e-a9ed-bfafeadf6bb7" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Longbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Longsword -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Longsword" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Longsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Longsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Mace -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Mace" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Mace" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5a948b12-ca43-4256-9821-0d151036dbd1" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Mace" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Maul -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Maul" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Maul" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Maul" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Morningstar -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Morningstar" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Morningstar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Morningstar" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Pike -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Pike" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Pike" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Pike" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Quarterstaff -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Quarterstaff" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Quarterstaff" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Quarterstaff" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Rapier -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Rapier" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Rapier" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Rapier" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Scimitar -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Scimitar" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Scimitar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Scimitar" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Shortbow -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Shortbow" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Shortbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Shortbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Shortsword -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Shortsword" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Shortsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Shortsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Sickle -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Sickle" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Sickle" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Sickle" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Sling -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Sling" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Sling" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Sling" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Spear -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Spear" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Spear" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Spear" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Trident -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Trident" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Trident" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Trident" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- Warhammer -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="Magical Warhammer" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ba5e00000000" /> <!-- Weapon -->
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_Warhammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_Warhammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- War Pick -->
+				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="h09a2d233ec82465b958ceea51c4cd3ace976" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="11e4a03e-64df-4622-b33f-ea11a2bc05af" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WarPick_Base" />
-					<attribute id="ParentTemplateId" type="FixedString" value="75586d3e-21b2-4d94-ac99-99a6b0e8c3dd" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WarPick_Base" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ba5e00000000" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Base_WarPick" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a088775a-8f75-42f2-aa74-76a3f80701fa" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Base_WarPick" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
@@ -98,22 +1366,6 @@
 						</node>
 					</children>
 				</node>
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hfdee0c47g2cf0g4707g9662g94a18be5b1bd" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="ha22e6fe426c04f9cadc4636a642619fa2b17" version="1" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="e09813a0-ba45-4726-8242-f4aa570fb571" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WarPick_1_Base" />
-					<attribute id="ParentTemplateId" type="FixedString" value="11e4a03e-64df-4622-b33f-ea11a2bc05af" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WarPick_1_Base" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-				</node>
-
-
-
-
-
 			</children>
 		</node>
 	</region>

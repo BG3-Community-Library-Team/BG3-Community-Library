@@ -1,0 +1,210 @@
+new entry "CL_WPN_MAG_WPN_NAME_Acid"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Thunder"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Necrotic"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Fire"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Lightning"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Cold"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Psychic"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Poison"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Radiant"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Force"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Slashing"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Piercing"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Bludgeoning"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+
+new entry "CL_WPN_MAG_WPN_NAME_Doom"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "UNI_DoomAxe_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_Returning"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "MAG_HomingWeapon_Passive"
+data "Weapon Properties" ";Magical;Thrown"
+
+new entry "CL_WPN_MAG_WPN_NAME_Assassin"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "Boosts" "Advantage(Skill,Stealth)"
+
+new entry "CL_WPN_MAG_WPN_NAME_Speedy"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "MAG_Mobility_MomentumOnDamage_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_HillGiant"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_Shockwave"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "MAG_Mobility_ExplosionOnJump_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_ImpulseBlast"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "UND_DuergarRaft_Hammer_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_Arcane"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "MAG_ArcaneEnchantment_Lesser_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_Ritual"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "Boosts" "UnlockSpell(Shout_GOB_PainPriest_DaggerSpell) "
+data "PassivesOnEquip" "CL_Passive_Ritual"
+
+new entry "CL_WPN_MAG_WPN_NAME_FirstBlood"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "PassivesOnEquip" "UND_Duergar_ShortswordOfFirstBlood_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_Everburn"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_LC_BurnOnDamage_Scimitar_Passive"
+
+// Ever Shock
+// data "SpellProperties" "GROUND:SurfaceChange(Electrify);"
+new entry "CL_WPN_MAG_WPN_NAME_Evershock"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "WeaponFunctors" "GROUND:SurfaceChange(Electrify)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_LC_BurnOnDamage_Scimitar_Passive"
+
+// Ever Freeze
+// data "SpellProperties" "GROUND:SurfaceChange(Freeze);GROUND:SurfaceChange(Douse);RemoveStatus(BURNING)"
+
+// Ever Bright
+// Status DAYLIGHT or LIGHT
+
+// Ever Moist
+// data "SpellProperties" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2);"
+
+
+// WPN_NAME +1
+
+new entry "CL_WPN_MAG_WPN_NAME_1_Sentinel"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_1_MonsterHunter"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "Boosts" "UnlockSpell(Target_MAG_HuntersMark)"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_LC_MonsterHunter_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_1_SpellslotRecharge"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+
+new entry "CL_WPN_MAG_WPN_NAME_1_Murderous"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_WYR_Orin_Bhaalist_Dagger_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_1_WoundSeeking"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_TheWoundSeeker_Greatsword_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_1_Skinburst"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_ZOC_ForceConduit_Halberd_Passive"
+
+new entry "CL_WPN_MAG_WPN_NAME_1_Spellbreaker"
+type "Weapon"
+using "CL_WPN_MAG_WPN_NAME_Base"
+data "RootTemplate" ""
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "BoostsOnEquipMainHand" ";UnlockSpell(Target_MAG_WeaponAction_SilencingBlade)"
+data "PassivesOnEquip" "MAG_Spellbreaker_Battleaxe_Passive"
+
+// Adamantine
+

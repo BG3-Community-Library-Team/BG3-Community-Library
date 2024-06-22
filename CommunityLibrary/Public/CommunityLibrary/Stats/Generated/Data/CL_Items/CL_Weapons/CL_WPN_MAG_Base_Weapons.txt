@@ -1,0 +1,297 @@
+// Battleaxe
+new entry "CL_WPN_MAG_Base_Battleaxe"
+type "Weapon"
+using "WPN_Battleaxe_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "c17ee133-cbb5-418f-88be-5ef27991cf50"
+
+// Club
+new entry "CL_WPN_MAG_Base_Club"
+type "Weapon"
+using "WPN_Club_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "b30dca22-22bc-496e-b3b6-dd5744b73869"
+
+// Dagger
+new entry "CL_WPN_MAG_Base_Dagger"
+type "Weapon"
+using "WPN_Dagger_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "1eab180b-5bf9-48ea-aece-7ba20d1deb78"
+
+// Dart
+new entry "CL_WPN_MAG_Base_Dart"
+type "Weapon"
+using "WPN_Dart_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "5557cbf6-ce24-48de-beed-3be1a77e1c82"
+
+// Flail
+new entry "CL_WPN_MAG_Base_Flail"
+type "Weapon"
+using "WPN_Flail_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "9076abf1-1029-4be9-a7cf-428d2b6fdea5"
+
+// Glaive
+new entry "CL_WPN_MAG_Base_Glaive"
+type "Weapon"
+using "WPN_Glaive_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "15d2830c-ac76-4b5b-969d-05197875b1c2"
+
+// Greataxe
+new entry "CL_WPN_MAG_Base_Greataxe"
+type "Weapon"
+using "WPN_Greataxe_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "afbfaee7-e2cd-48e7-8c46-d2377c7320e3"
+
+// Greatclub
+new entry "CL_WPN_MAG_Base_Greatclub"
+type "Weapon"
+using "WPN_Greatclub_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "d64e1a13-18a5-4cdc-ac02-977523435f8f"
+
+// Greatsword
+new entry "CL_WPN_MAG_Base_Greatsword"
+type "Weapon"
+using "WPN_Greatsword_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "1a2a58b7-4bd5-44d5-b1fe-8cd7e5b53def"
+
+// Halberd
+new entry "CL_WPN_MAG_Base_Halberd"
+type "Weapon"
+using "WPN_Halberd_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "d1019d9d-e5ae-4601-8a63-1b33421926e1"
+
+// Handaxe
+new entry "CL_WPN_MAG_Base_Handaxe"
+type "Weapon"
+using "WPN_Handaxe_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "7a05135d-b285-4186-8a32-a870f1684b60"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_Base_HandCrossbow"
+type "Weapon"
+using "WPN_HandCrossbow_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "d2f396c2-9b1b-4eea-bf21-2f25934f092d"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_Base_HeavyCrossbow"
+type "Weapon"
+using "WPN_HeavyCrossbow_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "6af59cba-cc38-4511-9c3b-75caac4b96b5"
+
+// Javelin
+new entry "CL_WPN_MAG_Base_Javelin"
+type "Weapon"
+using "WPN_Javelin_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "b908f109-b379-4a49-8f41-5b7f154d9b76"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_Base_LightCrossbow"
+type "Weapon"
+using "WPN_LightCrossbow_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "509dd5c3-7c72-4335-9b23-19a14a884f2e"
+
+// Light Hammer
+new entry "CL_WPN_MAG_Base_LightHammer"
+type "Weapon"
+using "WPN_LightHammer_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "d0419aaf-9e20-4029-b8e9-9e1a62661b13"
+
+// Longbow
+new entry "CL_WPN_MAG_Base_Longbow"
+type "Weapon"
+using "WPN_Longbow_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "049173ec-636a-487e-a9ed-bfafeadf6bb7"
+
+// Longsword
+new entry "CL_WPN_MAG_Base_Longsword"
+type "Weapon"
+using "WPN_Longsword_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "3fc2ba50-3070-4caa-abe8-3bf885969bde"
+
+// Mace
+new entry "CL_WPN_MAG_Base_Mace"
+type "Weapon"
+using "WPN_Mace_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "5a948b12-ca43-4256-9821-0d151036dbd1"
+
+// Maul
+new entry "CL_WPN_MAG_Base_Maul"
+type "Weapon"
+using "WPN_Maul_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "7e8ef269-0e7b-4352-8828-89c5fced943c"
+
+// Morningstar
+new entry "CL_WPN_MAG_Base_Morningstar"
+type "Weapon"
+using "WPN_Morningstar_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "deea755b-5335-49d9-bd0e-dbaab9eaf94c"
+
+// Pike
+new entry "CL_WPN_MAG_Base_Pike"
+type "Weapon"
+using "WPN_Pike_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "40fa8049-b6c1-4463-b212-52ad13b5d687"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_Base_Quarterstaff"
+type "Weapon"
+using "WPN_Quarterstaff_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "2fa18ee4-92df-486f-97d2-dd0a720b6fad"
+
+// Rapier
+new entry "CL_WPN_MAG_Base_Rapier"
+type "Weapon"
+using "WPN_Rapier_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "5a6cea10-b3f6-4370-8eed-0b69b4ba531a"
+
+// Scimitar
+new entry "CL_WPN_MAG_Base_Scimitar"
+type "Weapon"
+using "WPN_Scimitar_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "7cc7a0e1-d0b8-4569-afb2-d538e8941894"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_Base_Shortbow"
+type "Weapon"
+using "WPN_Shortbow_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "a46173b7-afd6-48e0-9c76-817acd027574"
+
+// Shortsword
+new entry "CL_WPN_MAG_Base_Shortsword"
+type "Weapon"
+using "WPN_Shortsword_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "261b946f-154b-4f75-8985-cab6531034a2"
+
+// Sickle
+new entry "CL_WPN_MAG_Base_Sickle"
+type "Weapon"
+using "WPN_Sickle_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "4cd41c74-9c86-4233-922e-4db5bc750df5"
+
+// Sling
+new entry "CL_WPN_MAG_Base_Sling"
+type "Weapon"
+using "WPN_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// No Level 1 Enchantment - "d31af642-ae35-4f22-b7a6-100f3048be33"
+
+// Spear
+new entry "CL_WPN_MAG_Base_Spear"
+type "Weapon"
+using "WPN_Spear_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "158e6f29-89e9-4279-8f8f-85078f047225"
+
+// Trident
+new entry "CL_WPN_MAG_Base_Trident"
+type "Weapon"
+using "WPN_Trident_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "2fab5801-76b1-4669-95d9-7df76bed12dd"
+
+// Warhammer
+new entry "CL_WPN_MAG_Base_Warhammer"
+type "Weapon"
+using "WPN_Warhammer_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "3e1b3db9-036e-4931-ab92-c3730a1c3d5f"
+
+// War Pick
+new entry "CL_WPN_MAG_Base_WarPick"
+type "Weapon"
+using "WPN_WarPick_1"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-ba5e00000000"
+data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "DefaultBoosts" "WeaponProperty(Magical)"
+// "75586d3e-21b2-4d94-ac99-99a6b0e8c3dd"

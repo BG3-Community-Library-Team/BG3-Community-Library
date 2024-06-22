@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+			   <!-- WPN_NAME Bonus Damage -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Acid WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Acid" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Acid" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_ACID" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Thunder WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Thunder" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Thunder" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_THUNDER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Necrotic WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Necrotic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Necrotic" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_NECROTIC" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Fire WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Fire" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Fire" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_FIRE" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Lightning WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Lightning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Lightning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Cold WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Cold" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Cold" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_COLD" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Psychic WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Psychic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Psychic" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_PSYCHIC" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Poison WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Poison" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Poison" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Radiant WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="16b1a7b2-f25a-4ed7-86f1-7457c6b2b623" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Radiant" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Radiant" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_RADIANT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Force WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Force" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Force" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_FORCE" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Slashing WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Slashing" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Slashing" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_SLASHING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Piercing WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Piercing" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Piercing" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_PIERCING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Bludgeoning WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Bludgeoning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Bludgeoning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_BLUDGEONING" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			   <!-- WPN_NAME Enchantments -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Doom WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Doom" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Doom" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Assassin's WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Assassin" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Assassin" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Returning WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Returning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Returning" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_THROWING_RETURN_TO_OWNER" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Speedy WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Speedy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Speedy" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="WPN_NAME of Hill Giant Strength" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_HillGiant" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_HillGiant" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Shockwave WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bfa45bda-d28e-439c-a7b0-e3b2b8b3979f" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Shockwave" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Shockwave" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Intransigent WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="aea62380-5ec5-489d-8f10-ad4b9b114d33" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_ImpulseBlast" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_ImpulseBlast" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Arcane WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Arcane" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Arcane" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Ritual WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_Ritual" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_Ritual" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="WPN_NAME of First Blood" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_FirstBlood" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_FirstBlood" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+			   <!-- WPN_NAME +1 -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Sentinel WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_1_Sentinel" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_1_Sentinel" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Hunting WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_1_MonsterHunter" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_1_MonsterHunter" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="HANDLE_DESC" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="Vehement WPN_NAME" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_WPN_NAME_1_SpellslotRecharge" />
+					<attribute id="ParentTemplateId" type="FixedString" value="UUID_PARENT" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_WPN_NAME_1_SpellslotRecharge" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
