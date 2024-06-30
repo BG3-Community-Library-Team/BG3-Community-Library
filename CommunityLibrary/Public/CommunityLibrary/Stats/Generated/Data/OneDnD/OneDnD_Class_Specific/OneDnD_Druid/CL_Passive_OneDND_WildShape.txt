@@ -1,0 +1,9 @@
+
+
+new entry "CL_STATUS_ONEDND_MOON_WILDSHAPE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h9403ab71bf954b62bf003933033e81cd71g1;1"
+data "Boosts" "IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(CL_Teleportation_OneDnD_MoonlightStep_Container)"
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
