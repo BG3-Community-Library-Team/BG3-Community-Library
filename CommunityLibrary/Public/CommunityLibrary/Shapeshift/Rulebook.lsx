@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="10" build="400"/>
+    <region id="Rulebook">
+        <node id="root">
+            <children>
+                <node id="Rule">
+                    <attribute id="ApplySpellsFromTemplate" type="bool" value="true"/>
+                    <attribute id="ApplyTagsFromTemplate" type="bool" value="true"/>
+                    <attribute id="ApplyVisual" type="bool" value="true"/>
+                    <attribute id="BaseACOverride" type="bool" value="true"/><!-- Handle Via Status/Passive? -->
+                    <attribute id="ChangeAi" type="bool" value="true"/>
+                    <attribute id="ChangeBodyType" type="bool" value="false"/>
+                    <attribute id="ChangeIcon" type="bool" value="true"/>
+                    <attribute id="ChangeRace" type="bool" value="true"/>
+                    <attribute id="DisableEquipmentSlots" type="bool" value="true"/>
+                    <attribute id="FootstepsType" type="bool" value="true"/>
+                    <attribute id="IgnoreCustomLooks" type="bool" value="true"/>
+                    <attribute id="MuteEquipmentSound" type="bool" value="true"/>
+                    <attribute id="RemoveOldTags" type="bool" value="true"/><!-- Handle Via Status/Passive? -->
+                    <attribute id="RemovePrevSpells" type="bool" value="true"/>
+                    <attribute id="RetainDisplayName" type="bool" value="true"/>
+                    <attribute id="RuleName" type="LSString" value="CL_Rule_OneDnD_WildShape"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-5512-0102-c00500000002"/>
+                    <attribute id="UnarmedAbilityFromTemplate" type="bool" value="true"/>
+                    <attribute id="WildShapeHotBar" type="bool" value="true"/>
+                    <children>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="4"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="AbilityChanges">
+                            <children>
+                                <node id="Object">
+                                    <attribute id="type" type="uint8" value="0"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="ActionsCapabilities">
+                            <children>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="WorldActions"/>
+                                </node>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="Disarming"/>
+                                </node>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="Lockpicking"/>
+                                </node>
+                                <node id="ActionCapabilities">
+                                    <attribute id="Name" type="LSString" value="Pickpocketing"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Hp">
+                            <attribute id="type" type="uint8" value="4"/>
+                        </node>
+                        <node id="InteractionsCapabilities">
+                            <children>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="UseDoors"/>
+                                </node>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="UseLadders"/>
+                                </node>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="Containers"/>
+                                </node>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="Pickup"/>
+                                </node>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="ConsumeItems"/>
+                                </node>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="BasicItemInteractions"/>
+                                </node>
+                                <node id="InteractionsCapabilities">
+                                    <attribute id="Name" type="LSString" value="MoveObjects"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Scale">
+                            <attribute id="type" type="uint8" value="4"/>
+                        </node>
+                        <node id="SpeakingCapabilities">
+                            <children>
+                                <node id="SpeakingCapabilities">
+                                    <attribute id="Name" type="LSString" value="Spells"/>
+                                </node>
+                                <node id="SpeakingCapabilities">
+                                    <attribute id="Name" type="LSString" value="Dialogue"/>
+                                </node>
+                                <node id="SpeakingCapabilities">
+                                    <attribute id="Name" type="LSString" value="VoiceBark"/>
+                                </node>
+                                <node id="SpeakingCapabilities">
+                                    <attribute id="Name" type="LSString" value="PlayVocals"/>
+                                </node>
+                                <node id="SpeakingCapabilities">
+                                    <attribute id="Name" type="LSString" value="PlayPNC"/>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Weight">
+                            <attribute id="type" type="uint8" value="4"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
