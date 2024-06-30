@@ -1,0 +1,23 @@
+<contentList>
+    <content contentuid="h2ec118c40a9c4b3b93da44a79854c1349950" version="1">Wild Shape Recovery</content>
+    <content contentuid="ha4ff4d220538416d9053395dd63279311e5c" version="1">You regain one use of your &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wild Shape&lt;/LSTag&gt; after a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt; and all uses after a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+    <content contentuid="hb24965ea882a4cc39064ee6fe632eede8765" version="1">Wild Resurgence</content>
+    <content contentuid="h64cfc54d2b764e0ca39740cf4d908f5036f1" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to replenish a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wild Shape Charge&lt;/LSTag&gt; and vice versa.</content>
+    <content contentuid="h4c8e518383ef4185b61544ff3e32a1bf201a" version="1">Wild Resurgence: Restore Spell Slot</content>
+    <content contentuid="hc7a9f222959741dbb428ee50e4f0ff046fcf" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wild Shape Charge&lt;/LSTag&gt; to replenish a Level 1 &lt;LSTag Type="ActionResource" Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
+    <content contentuid="hb3259bd2172e4324b203a0ef7a16754be8e0" version="1">Wild Resurgence: Restore Wild Shape</content>
+    <content contentuid="hdf582e42499e4977a7f6915f07903d86d588" version="1">Spend a Level [1] &lt;LSTag Type="ActionResource" Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to replenish a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wild Shape Charge&lt;/LSTag&gt;.</content>
+  <!-- Circle of the Moon -->
+    <content contentuid="h9035e4684beb4c59a91a2d6bfb68b20b8f6d" version="1">Moonlight Step Charge</content>
+    <content contentuid="h7a10340ecdbf41d3aad430ac4fc85dc9e09a" version="1">The number of times you can use Moonlight Step.&lt;br&gt;It is equal to your Wisdom &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; (minimum 1).</content>
+    <content contentuid="h9403ab71bf954b62bf003933033e81cd71g1" version="1">Moonlight Step</content>
+    <content contentuid="h89fa10fae25140eb83d1a4bc5093be63a6e9" version="1">Teleport to an unoccupied space you can see within [1], also gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make before the end of your turn.</content>
+    <content contentuid="hcb536164109f488da4d60c65f846f038a89a" version="1">&lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+
+    <content contentuid="h4cf2341f30994619887eba7703708959fda0" version="1">Shared Moonlight Step</content>
+    <content contentuid="haf57fbe442b34d9d8687d6153ca24cdb6d61" version="1">Whenever you use &lt;LSTag Type="Spell" Tooltip="CL_Teleportation_OneDnD_MoonlightStep"&gt;Moonlight Step&lt;/LSTag&gt;, you can also teleport one Ally within [1] of you.</content>
+    <content contentuid="h0415be9483784d4abdf938c95df79d3c007e" version="1">Teleport yourself and up to one ally within [1] to an unoccupied space you can see within [2], also gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make before the end of your turn.</content>
+
+
+
+</contentList>
