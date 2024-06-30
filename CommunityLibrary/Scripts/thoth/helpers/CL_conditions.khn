@@ -460,3 +460,23 @@ function CL_IsNonSpellAttack()
     result = context.HitDescription.AttackType == AttackType.MeleeWeaponAttack or context.HitDescription.AttackType == AttackType.MeleeUnarmedAttack or context.HitDescription.AttackType == AttackType.MeleeOffHandWeaponAttack or context.HitDescription.AttackType == AttackType.RangedWeaponAttack or context.HitDescription.AttackType == AttackType.RangedUnarmedAttack or context.HitDescription.AttackType == AttackType.RangedOffHandWeaponAttack
   return ConditionResult(result)
 end
+
+function CL_WisModEqualTo(value)
+    return ConditionResult(GetModifier(context.Source.Wisdom) == value)
+end
+
+function CL_WisModEqualOrGreaterThan(value)
+    return ConditionResult(GetModifier(context.Source.Wisdom) >= value)
+end
+
+function CL_WisModEqualOrLessThan(value)
+    return ConditionResult(GetModifier(context.Source.Wisdom) <= value)
+end
+
+function CL_WisModGreaterThan(value)
+    return ConditionResult(GetModifier(context.Source.Wisdom) > value)
+end
+
+function CL_WisModLessThan(value)
+    return ConditionResult(GetModifier(context.Source.Wisdom) < value)
+end
