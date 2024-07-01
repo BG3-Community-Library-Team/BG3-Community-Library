@@ -257,7 +257,10 @@ type "Weapon"
 using "WPN_Sling"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b029-ba5e00000000"
 data "ValueUUID" "86e7e503-a225-4b48-819e-2e24de1f904a"
+data "ValueScale" "1"
+data "Rarity" "Uncommon"
 data "DefaultBoosts" "WeaponProperty(Magical)"
+data "Weapon Properties" "Ammunition;Dippable;Magical"
 // No Level 1 Enchantment - "d31af642-ae35-4f22-b7a6-100f3048be33"
 
 // Spear
