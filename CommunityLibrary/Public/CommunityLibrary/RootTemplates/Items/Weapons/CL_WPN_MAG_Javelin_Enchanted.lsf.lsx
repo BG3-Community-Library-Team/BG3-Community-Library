@@ -408,17 +408,6 @@
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 				</node>
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h58b03ad032a549b9b7d22385cd3c0b9ebc4f" version="1" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="b621c66d-f52e-4761-982b-ccc2bbc0ccdc" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_1_SpellslotRecharge" />
-					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_1_SpellslotRecharge" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-				</node>
 			</children>
 		</node>
 	</region>

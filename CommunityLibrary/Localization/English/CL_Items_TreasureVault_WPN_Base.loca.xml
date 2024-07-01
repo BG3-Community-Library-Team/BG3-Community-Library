@@ -51,7 +51,7 @@
     <content contentuid="h770dbc7149344c1c8d180531938e1f0b7595" version="1">Acid Weapon</content>
 
     <content contentuid="h90108d951cb74dc08f6cdeea2ddd1ba466fb" version="1">After a successful attack with this weapon, the wielder receives a +1d4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; until the end of their next turn.</content>
-    <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
+
 
 
     <content contentuid="" version="1">Magical War Pick</content>
