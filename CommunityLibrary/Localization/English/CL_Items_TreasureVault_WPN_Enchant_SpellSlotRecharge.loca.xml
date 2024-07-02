@@ -1,12 +1,11 @@
 <contentList>
-    <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
-
     <content contentuid="h5b3a251672a442689d928b97f794036eg6gc" version="1">Battleaxe of Arcane Vehemence</content>
     <content contentuid="h6667fd551dec4170aff73c855c62ab187039" version="1">Club of Arcane Vehemence</content>
     <content contentuid="h3b5d48050d3e425ca35af72c66548ea88bac" version="1">Dagger of Arcane Vehemence</content>
     <content contentuid="h0d7785d7fddb44488875ffd2032870e79704" version="1">Dart of Arcane Vehemence</content>
     <content contentuid="he4624e604f5b4458ace51affa17ae77da03c" version="1">Flail of Arcane Vehemence</content>
     <content contentuid="hc58d31f0f498491ab666318324281b22411e" version="1">Glaive of Arcane Vehemence</content>
+    <content contentuid="h7727cd707d4e4181a71201270d6cc409810a" version="1">Greataxe of Arcane Vehemence</content>
     <content contentuid="h987ed2cf559c49fdb7afd9e86068b6ca757e" version="1">Greatclub of Arcane Vehemence</content>
     <content contentuid="hb3c19bd593144ad496f066160346e69e8e91" version="1">Greatsword of Arcane Vehemence</content>
     <content contentuid="h6f86ff0c110a405d97db8b70d62f61e0a2c0" version="1">Halberd of Arcane Vehemence</content>
@@ -33,4 +32,5 @@
     <content contentuid="h7769ed5c42004aea8b2629a95da156e5ede8" version="1">Trident of Arcane Vehemence</content>
     <content contentuid="h3e5d28c1352b4b709a914a8180f36260bf2a" version="1">Warhammer of Arcane Vehemence</content>
     <content contentuid="hf48ea598e0724bfa8d2452a00d6c7f04d12a" version="1">War Pick of Arcane Vehemence</content>
+    <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
 </contentList>
