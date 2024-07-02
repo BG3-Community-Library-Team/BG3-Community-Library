@@ -67,26 +67,6 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hdcdbb7658a3a4a24b458638e4fd8640e1859" version="1" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="d056e2ac-5039-4462-af07-3d6e01d2dbc1" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Fire" />
-					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Fire" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-					<children>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_FIRE" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h2ae0b43409914b03a6fe2d8d36f65582f321" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="2eaced0e-2fe4-45f5-a746-1d80753f4f8f" />
@@ -266,17 +246,6 @@
 					</children>
 				</node>
 			   <!-- War Pick Enchantments -->
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h7b5f74931dd748d0a210a7b9288746d9132b" version="1" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="9ece566e-02e7-4dac-8a59-cddaa1710c26" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Javelin_Doom" />
-					<attribute id="ParentTemplateId" type="FixedString" value="38e4bfbf-a3f8-4bc6-8ed4-628f7946fbf4" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Javelin_Doom" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-				</node>
 				<node id="GameObjects">
 					<attribute id="Description" type="TranslatedString" handle="hf03ca55bg76adg465bg9a7fg19a4330c216e" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hf8b65d3b066e4a1ca15fd47dda92adbe8d16" version="1" />

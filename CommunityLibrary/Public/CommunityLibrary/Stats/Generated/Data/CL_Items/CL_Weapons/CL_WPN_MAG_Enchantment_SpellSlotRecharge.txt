@@ -1,8 +1,12 @@
 // SpellslotRecharge | Arcane Vehemence
-new entry "CL_Passive_SpellslotRecharge"
+new entry "CL_Passive_WPN_SpellslotRecharge"
 type "PassiveData"
-using "UNI_Bow_SpellslotRecharge_Passive"
+data "DisplayName" "h7156f1c2f5524fe6b1a1f87492fff490gb5f;1"
 data "Description" "hcf3cbbfbb08943f9a2be37a6fd657bf42d48;1"
+data "Properties" "OncePerShortRest"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and HasDamageEffectFlag(DamageFlags.Critical) and not HasDamageEffectFlag(DamageFlags.Miss) and not Ally() and Character()"
+data "StatsFunctors" "RestoreResource(SELF,SpellSlot,1,1)"
 
 // Battleaxe
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Battleaxe"
@@ -10,7 +14,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Battleaxe"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b001-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Club
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Club"
@@ -18,7 +22,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Club"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b002-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Dagger
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Dagger"
@@ -26,7 +30,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Dagger"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b003-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Dart
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Dart"
@@ -34,7 +38,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Dart"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b004-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Flail
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Flail"
@@ -42,7 +46,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Flail"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b005-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Glaive
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Glaive"
@@ -50,7 +54,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Glaive"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b006-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Greataxe
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Greataxe"
@@ -58,7 +62,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Greataxe"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b007-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Greatclub
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Greatclub"
@@ -66,7 +70,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Greatclub"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b008-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Greatsword
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Greatsword"
@@ -74,7 +78,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Greatsword"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b009-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Halberd
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Halberd"
@@ -82,7 +86,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Halberd"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b010-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Handaxe
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Handaxe"
@@ -90,7 +94,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Handaxe"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b011-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Hand Crossbow
 new entry "CL_WPN_MAG_SpellslotRecharge_1_HandCrossbow"
@@ -98,7 +102,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_HandCrossbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b012-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Heavy Crossbow
 new entry "CL_WPN_MAG_SpellslotRecharge_1_HeavyCrossbow"
@@ -106,7 +110,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_HeavyCrossbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b013-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Javelin
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Javelin"
@@ -114,7 +118,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Javelin"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b014-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Light Crossbow
 new entry "CL_WPN_MAG_SpellslotRecharge_1_LightCrossbow"
@@ -122,7 +126,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_LightCrossbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b015-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Light Hammer
 new entry "CL_WPN_MAG_SpellslotRecharge_1_LightHammer"
@@ -130,7 +134,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_LightHammer"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b016-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Longbow
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Longbow"
@@ -138,7 +142,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Longbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b017-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Longsword
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Longsword"
@@ -146,7 +150,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Longsword"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b018-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Mace
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Mace"
@@ -154,7 +158,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Mace"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b019-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Maul
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Maul"
@@ -162,7 +166,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Maul"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b020-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Morningstar
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Morningstar"
@@ -170,7 +174,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Morningstar"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b021-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Pike
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Pike"
@@ -178,7 +182,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Pike"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b022-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Quarterstaff
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Quarterstaff"
@@ -186,7 +190,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Quarterstaff"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b023-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Rapier
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Rapier"
@@ -194,7 +198,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Rapier"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b024-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Scimitar
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Scimitar"
@@ -202,7 +206,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Scimitar"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b025-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 
 // Shortbow
@@ -211,7 +215,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Shortbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b026-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Shortsword
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Shortsword"
@@ -219,7 +223,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Shortsword"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b027-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Sickle
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Sickle"
@@ -227,7 +231,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Sickle"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b028-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Sling
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Sling"
@@ -235,7 +239,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Sling"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b029-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Spear
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Spear"
@@ -243,7 +247,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Spear"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b030-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Trident
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Trident"
@@ -251,7 +255,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Trident"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b031-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // Warhammer
 new entry "CL_WPN_MAG_SpellslotRecharge_1_Warhammer"
@@ -259,7 +263,7 @@ type "Weapon"
 using "CL_WPN_MAG_Base_Warhammer"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b032-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 
 // War Pick
 new entry "CL_WPN_MAG_SpellslotRecharge_1_WarPick"
@@ -267,6 +271,6 @@ type "Weapon"
 using "CL_WPN_MAG_Base_WarPick"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b033-000100005512"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
-data "PassivesOnEquip" "CL_Passive_SpellslotRecharge"
+data "PassivesOnEquip" "CL_Passive_WPN_SpellslotRecharge"

@@ -32,5 +32,6 @@
     <content contentuid="h7769ed5c42004aea8b2629a95da156e5ede8" version="1">Trident of Arcane Vehemence</content>
     <content contentuid="h3e5d28c1352b4b709a914a8180f36260bf2a" version="1">Warhammer of Arcane Vehemence</content>
     <content contentuid="hf48ea598e0724bfa8d2452a00d6c7f04d12a" version="1">War Pick of Arcane Vehemence</content>
+    <content contentuid="h7156f1c2f5524fe6b1a1f87492fff490gb5f" version="1">Arcane Vehemence</content>
     <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
 </contentList>
