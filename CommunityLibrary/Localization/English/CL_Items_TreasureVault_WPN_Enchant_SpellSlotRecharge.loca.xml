@@ -1,0 +1,37 @@
+<contentList>
+    <content contentuid="h5b3a251672a442689d928b97f794036eg6gc" version="1">Battleaxe of Arcane Vehemence</content>
+    <content contentuid="h6667fd551dec4170aff73c855c62ab187039" version="1">Club of Arcane Vehemence</content>
+    <content contentuid="h3b5d48050d3e425ca35af72c66548ea88bac" version="1">Dagger of Arcane Vehemence</content>
+    <content contentuid="h0d7785d7fddb44488875ffd2032870e79704" version="1">Dart of Arcane Vehemence</content>
+    <content contentuid="he4624e604f5b4458ace51affa17ae77da03c" version="1">Flail of Arcane Vehemence</content>
+    <content contentuid="hc58d31f0f498491ab666318324281b22411e" version="1">Glaive of Arcane Vehemence</content>
+    <content contentuid="h7727cd707d4e4181a71201270d6cc409810a" version="1">Greataxe of Arcane Vehemence</content>
+    <content contentuid="h987ed2cf559c49fdb7afd9e86068b6ca757e" version="1">Greatclub of Arcane Vehemence</content>
+    <content contentuid="hb3c19bd593144ad496f066160346e69e8e91" version="1">Greatsword of Arcane Vehemence</content>
+    <content contentuid="h6f86ff0c110a405d97db8b70d62f61e0a2c0" version="1">Halberd of Arcane Vehemence</content>
+    <content contentuid="hc85a023ea29244b79fddf106a0a92148b9ee" version="1">Handaxe of Arcane Vehemence</content>
+    <content contentuid="hcd8e2542fdfc4df38f475701fe7adc921362" version="1">Hand Crossbow of Arcane Vehemence</content>
+    <content contentuid="h26b1430ddadb43e997870f3a2973ad7924af" version="1">Heavy Crossbow of Arcane Vehemence</content>
+    <content contentuid="h1b3013b6aa53487eb0ef8bde5d62fa7d54fg" version="1">Javelin of Arcane Vehemence</content>
+    <content contentuid="h857ce8fa1dd94937aee35f4d1aa4b0780771" version="1">Light Crossbow of Arcane Vehemence</content>
+    <content contentuid="h757048deaf2b4942b7a16acede9da1a59063" version="1">Light Hammer of Arcane Vehemence</content>
+    <content contentuid="h3e70f56ff66246e09aed0f29467b5a8bbb9f" version="1">Longbow of Arcane Vehemence</content>
+    <content contentuid="h183945db2d7e4a5cb69c74612b919bb2g467" version="1">Longsword of Arcane Vehemence</content>
+    <content contentuid="h17b2d5af58724d09a304ab67e7e20ef879e7" version="1">Mace of Arcane Vehemence</content>
+    <content contentuid="hd4d98b76d2f644efb31e9f0219290c3f592a" version="1">Maul of Arcane Vehemence</content>
+    <content contentuid="hb915b904c8ad4436a9e4c2b1932221019025" version="1">Morningstar of Arcane Vehemence</content>
+    <content contentuid="h6589ce9901244d178690781ffff437eba7dg" version="1">Pike of Arcane Vehemence</content>
+    <content contentuid="h388345381d8f4ca59031c770c896c755d580" version="1">Quarterstaff of Arcane Vehemence</content>
+    <content contentuid="h5b55d9156ea1421ea786406e242106b10b1b" version="1">Rapier of Arcane Vehemence</content>
+    <content contentuid="h3b403c73ac8243609fe294775a7069161bag" version="1">Scimitar of Arcane Vehemence</content>
+    <content contentuid="h8a1ef47916e44abf956561d62e84445c6e35" version="1">Shortbow of Arcane Vehemence</content>
+    <content contentuid="h47289d7f46424f32bcfe55925cb99fd6875f" version="1">Shortsword of Arcane Vehemence</content>
+    <content contentuid="h20150cb02b884f0199d24d4145e4db99gf6a" version="1">Sickle of Arcane Vehemence</content>
+    <content contentuid="h0b52610b11de498da0c70cf294170137a9f5" version="1">Sling of Arcane Vehemence</content>
+    <content contentuid="h57ab7ab9cc0d4219a28b8f96294955ebfc45" version="1">Spear of Arcane Vehemence</content>
+    <content contentuid="h7769ed5c42004aea8b2629a95da156e5ede8" version="1">Trident of Arcane Vehemence</content>
+    <content contentuid="h3e5d28c1352b4b709a914a8180f36260bf2a" version="1">Warhammer of Arcane Vehemence</content>
+    <content contentuid="hf48ea598e0724bfa8d2452a00d6c7f04d12a" version="1">War Pick of Arcane Vehemence</content>
+    <content contentuid="h7156f1c2f5524fe6b1a1f87492fff490gb5f" version="1">Arcane Vehemence</content>
+    <content contentuid="hcf3cbbfbb08943f9a2be37a6fd657bf42d48" version="1">Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, you regain a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with this weapon.</content>
+</contentList>

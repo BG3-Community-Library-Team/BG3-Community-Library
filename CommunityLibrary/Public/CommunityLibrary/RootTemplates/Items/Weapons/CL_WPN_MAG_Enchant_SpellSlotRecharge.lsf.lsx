@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects"> <!-- Battleaxe -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b3a251672a442689d928b97f794036eg6gc" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Battleaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Battleaxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects">  <!-- Club -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h6667fd551dec4170aff73c855c62ab187039" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Club" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Club" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Dagger -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h3b5d48050d3e425ca35af72c66548ea88bac" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Dagger" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Dagger" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Dart -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h0d7785d7fddb44488875ffd2032870e79704" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Dart" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Dart" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Flail -->
+					<attribute id="DisplayName" type="TranslatedString" handle="he4624e604f5b4458ace51affa17ae77da03c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Flail" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Flail" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Glaive -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc58d31f0f498491ab666318324281b22411e" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Glaive" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Glaive" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Greataxe -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h7727cd707d4e4181a71201270d6cc409810a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Greataxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Greataxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Greatclub -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h987ed2cf559c49fdb7afd9e86068b6ca757e" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Greatclub" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Greatclub" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Greatsword -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hb3c19bd593144ad496f066160346e69e8e91" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Greatsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Greatsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Halberd -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h6f86ff0c110a405d97db8b70d62f61e0a2c0" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Halberd" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Halberd" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Handaxe -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc85a023ea29244b79fddf106a0a92148b9ee" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Handaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Handaxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- HandCrossbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hcd8e2542fdfc4df38f475701fe7adc921362" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_HandCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_HandCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- HeavyCrossbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h26b1430ddadb43e997870f3a2973ad7924af" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_HeavyCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_HeavyCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Javelin -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h1b3013b6aa53487eb0ef8bde5d62fa7d54fg" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Javelin" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Javelin" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- LightCrossbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h857ce8fa1dd94937aee35f4d1aa4b0780771" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_LightCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_LightCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- LightHammer -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h757048deaf2b4942b7a16acede9da1a59063" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_LightHammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_LightHammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Longbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h3e70f56ff66246e09aed0f29467b5a8bbb9f" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Longbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Longbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Longsword -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h183945db2d7e4a5cb69c74612b919bb2g467" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Longsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Longsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Mace -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h17b2d5af58724d09a304ab67e7e20ef879e7" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Mace" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e000000001036dbd1" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Mace" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Maul -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hd4d98b76d2f644efb31e9f0219290c3f592a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Maul" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Maul" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Morningstar -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hb915b904c8ad4436a9e4c2b1932221019025" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Morningstar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Morningstar" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Pike -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h6589ce9901244d178690781ffff437eba7dg" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Pike" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Pike" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Quarterstaff -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h388345381d8f4ca59031c770c896c755d580" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Quarterstaff" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Quarterstaff" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Rapier -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h5b55d9156ea1421ea786406e242106b10b1b" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Rapier" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Rapier" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Scimitar -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h3b403c73ac8243609fe294775a7069161bag" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Scimitar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Scimitar" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Shortbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h8a1ef47916e44abf956561d62e84445c6e35" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Shortbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Shortbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Shortsword -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h47289d7f46424f32bcfe55925cb99fd6875f" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Shortsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Shortsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Sickle -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h20150cb02b884f0199d24d4145e4db99gf6a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Sickle" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Sickle" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Sling -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h0b52610b11de498da0c70cf294170137a9f5" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Sling" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Sling" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Spear -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h57ab7ab9cc0d4219a28b8f96294955ebfc45" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Spear" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Spear" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Trident -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h7769ed5c42004aea8b2629a95da156e5ede8" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Trident" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Trident" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Warhammer -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h3e5d28c1352b4b709a914a8180f36260bf2a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_Warhammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_Warhammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- War Pick -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hf48ea598e0724bfa8d2452a00d6c7f04d12a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_SpellslotRecharge_1_WarPick" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_SpellslotRecharge_1_WarPick" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

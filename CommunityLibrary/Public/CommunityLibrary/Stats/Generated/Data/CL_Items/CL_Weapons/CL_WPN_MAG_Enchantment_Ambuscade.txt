@@ -1,0 +1,274 @@
+new entry "CL_Passive_WPN_Ambuscade"
+type "PassiveData"
+data "DisplayName" "h34a88a272cea43dc8c0a6fadd76f66cddg29;1"
+data "Description" "h7304b4f5f2f14bf4a97b5339dc76db26128a;1"
+data "DescriptionParams" "DealDamage(1d6,MainMeleeWeaponDamageType)"
+data "TooltipConditionalDamage" "DealDamage(1d6,MainMeleeWeaponDamageType,true)"
+data "StatsFunctorContext" "OnAttack"
+data "Conditions" "AttackedWithPassiveSourceWeapon() and HasMaxHP() and IsAttack() and not IsMiss()"
+data "StatsFunctors" "IF(IsAttackType(AttackType.MeleeWeaponAttack)):DealDamage(1d6, MainMeleeWeaponDamageType,,,0,,true,true);IF(IsAttackType(AttackType.RangedWeaponAttack)):DealDamage(1d6, MainRangedWeaponDamageType,,,0,,true,true);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):DealDamage(1d6, OffhandMeleeWeaponDamageType,,,0,,true,true);IF(IsAttackType(AttackType.RangedOffHandWeaponAttack)):DealDamage(1d6, OffhandRangedWeaponDamageType,,,0,,true,true)"
+
+// Battleaxe
+new entry "CL_WPN_MAG_Ambuscade_Battleaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Battleaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Club
+new entry "CL_WPN_MAG_Ambuscade_Club"
+type "Weapon"
+using "CL_WPN_MAG_Base_Club"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Dagger
+new entry "CL_WPN_MAG_Ambuscade_Dagger"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dagger"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Dart
+new entry "CL_WPN_MAG_Ambuscade_Dart"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dart"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Flail
+new entry "CL_WPN_MAG_Ambuscade_Flail"
+type "Weapon"
+using "CL_WPN_MAG_Base_Flail"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Glaive
+new entry "CL_WPN_MAG_Ambuscade_Glaive"
+type "Weapon"
+using "CL_WPN_MAG_Base_Glaive"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Greataxe
+new entry "CL_WPN_MAG_Ambuscade_Greataxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greataxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Greatclub
+new entry "CL_WPN_MAG_Ambuscade_Greatclub"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatclub"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Greatsword
+new entry "CL_WPN_MAG_Ambuscade_Greatsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Halberd
+new entry "CL_WPN_MAG_Ambuscade_Halberd"
+type "Weapon"
+using "CL_WPN_MAG_Base_Halberd"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Handaxe
+new entry "CL_WPN_MAG_Ambuscade_Handaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Handaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_Ambuscade_HandCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HandCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_Ambuscade_HeavyCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HeavyCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Javelin
+new entry "CL_WPN_MAG_Ambuscade_Javelin"
+type "Weapon"
+using "CL_WPN_MAG_Base_Javelin"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_Ambuscade_LightCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Light Hammer
+new entry "CL_WPN_MAG_Ambuscade_LightHammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightHammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Longbow
+new entry "CL_WPN_MAG_Ambuscade_Longbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Longsword
+new entry "CL_WPN_MAG_Ambuscade_Longsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Mace
+new entry "CL_WPN_MAG_Ambuscade_Mace"
+type "Weapon"
+using "CL_WPN_MAG_Base_Mace"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Maul
+new entry "CL_WPN_MAG_Ambuscade_Maul"
+type "Weapon"
+using "CL_WPN_MAG_Base_Maul"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Morningstar
+new entry "CL_WPN_MAG_Ambuscade_Morningstar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Morningstar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Pike
+new entry "CL_WPN_MAG_Ambuscade_Pike"
+type "Weapon"
+using "CL_WPN_MAG_Base_Pike"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_Ambuscade_Quarterstaff"
+type "Weapon"
+using "CL_WPN_MAG_Base_Quarterstaff"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Rapier
+new entry "CL_WPN_MAG_Ambuscade_Rapier"
+type "Weapon"
+using "CL_WPN_MAG_Base_Rapier"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Scimitar
+new entry "CL_WPN_MAG_Ambuscade_Scimitar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Scimitar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_Ambuscade_Shortbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Shortsword
+new entry "CL_WPN_MAG_Ambuscade_Shortsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Sickle
+new entry "CL_WPN_MAG_Ambuscade_Sickle"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sickle"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Sling
+new entry "CL_WPN_MAG_Ambuscade_Sling"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Spear
+new entry "CL_WPN_MAG_Ambuscade_Spear"
+type "Weapon"
+using "CL_WPN_MAG_Base_Spear"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Trident
+new entry "CL_WPN_MAG_Ambuscade_Trident"
+type "Weapon"
+using "CL_WPN_MAG_Base_Trident"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// Warhammer
+new entry "CL_WPN_MAG_Ambuscade_Warhammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_Warhammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"
+
+// War Pick
+new entry "CL_WPN_MAG_Ambuscade_WarPick"
+type "Weapon"
+using "CL_WPN_MAG_Base_WarPick"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-00000ab5cade"
+data "Boosts" "Advantage(Skill,Stealth)"
+data "PassivesOnEquip" "CL_Passive_WPN_Ambuscade"

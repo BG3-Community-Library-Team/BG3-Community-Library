@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects"> <!-- Battleaxe -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hd8a4e83c1828453c9ebfc57a31c63449a7d8" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Battleaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Battleaxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects">  <!-- Club -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc4cec2e9f84243f3a41d0dd49696c4780779" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Club" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Club" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Dagger -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hf821aa8d1d064f7397c0d8a305498f7e2c24" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Dagger" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Dagger" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Dart -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h5df2a57686144825b6105930c4c3682765eb" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Dart" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Dart" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Flail -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h7f35b966cc1b4919ab514bb8d56e25edeb74" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Flail" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Flail" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Glaive -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h97fe174828d94ce9bb0900959d6c4be3502f" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Glaive" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Glaive" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Greataxe -->
+					<attribute id="DisplayName" type="TranslatedString" handle="had46e924dd684984bfb7eb4c409b94fe564c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Greataxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Greataxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Greatclub -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h1df51f2e0ee24e9dab582cef89ff1a1e845c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Greatclub" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Greatclub" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Greatsword -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hb39a6c334fdd4038aa227eaa2368dd940a0f" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Greatsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Greatsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Halberd -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h90cdac48f3834285a155da748ad7a324fc04" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Halberd" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Halberd" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Handaxe -->
+					<attribute id="DisplayName" type="TranslatedString" handle="ha72dd58553e24cfabb981d30ff5c5682bb42" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Handaxe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Handaxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- HandCrossbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hfc319b7e77f442eb88405f51af56e6c0c2gd" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_HandCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_HandCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- HeavyCrossbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc15d4c767b944760a3ab407bff74d9b70436" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_HeavyCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_HeavyCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Javelin -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc2063082ddf14760891f08e53aa6a0bf9b0c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Javelin" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Javelin" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- LightCrossbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h40b3ffc5452d427db09f27034030c78a8187" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_LightCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_LightCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- LightHammer -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h974c12908c924ee29af7d090f8f82c42fab0" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_LightHammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_LightHammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Longbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h5e3d459739984482a9c3604293016be4c143" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Longbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Longbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Longsword -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc19d6c485cb24e6da30d781f06030d674d6g" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Longsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Longsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Mace -->
+					<attribute id="DisplayName" type="TranslatedString" handle="ha863bb2f41f3474db9db13b4dfdd416e0d49" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Mace" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e000000001036dbd1" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Mace" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Maul -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h7863f63500624378ab5c6f575e0929b37e56" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Maul" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Maul" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Morningstar -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h531c9b43ae2b459993847a01177f025e77f0" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Morningstar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Morningstar" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Pike -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h6c7ea38470f6486ca8edadff3e863e9dac16" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Pike" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Pike" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Quarterstaff -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hbc43defaeba7457090388b6ab0289e44c332" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Quarterstaff" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Quarterstaff" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Rapier -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h2982c3b0a775458d9ee29b74bbf3855bdacd" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Rapier" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Rapier" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Scimitar -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hca2d2089d92a4f458e36acc74ad9a8100f42" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Scimitar" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Scimitar" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Shortbow -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h4c3d9fb1dffe46eca5c0864ddbb13327ga64" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Shortbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Shortbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Shortsword -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h65f74ed4f7504548a988e85be733e302985f" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Shortsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Shortsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Sickle -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h4d0d3b0e5bc642709a9e0c9bb009b24dd2f4" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Sickle" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Sickle" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Sling -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h4bf5ee0b72b24485bba264fa06f28ff8ae3d" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Sling" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Sling" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Spear -->
+					<attribute id="DisplayName" type="TranslatedString" handle="he104273c5ac843afb33c5b84a02d546dg3g9" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Spear" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Spear" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Trident -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h372ccf682bef4436b7b4d42827f0000d6cge" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Trident" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Trident" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- Warhammer -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hf395c776a8304dd4969900b7aaecb0c0587c" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_Warhammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_Warhammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+				</node>
+				<node id="GameObjects"> <!-- War Pick -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h9616d916235c45f5bb8fdec6500b1058ae96" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_MonsterHunter_WarPick" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ba5e00000000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_MonsterHunter_WarPick" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
