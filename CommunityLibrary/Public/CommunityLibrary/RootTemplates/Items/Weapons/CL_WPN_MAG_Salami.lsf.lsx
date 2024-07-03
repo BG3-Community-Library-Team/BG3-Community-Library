@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">  <!-- Base Salami -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h3469f3142fc84919bd7ad8758918eeba45d8" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5ef00d0000" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Salami_Base" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e082f373-81ec-4f4b-818b-9ee86952e2fa" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Salami_Base" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="IsHiddenStatus" type="bool" value="False" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  <!-- Spicy Salami -->
+					<attribute id="Description" type="TranslatedString" handle="hbe5555cccd2b44c6aed1a66d9d13323e7292" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h428ec0013da5403689a92cc67c9e0abf474b" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-f00d00000001" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Salami_Spicy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5ef00d0000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Salami_Spicy" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">  <!-- Soggy Salami -->
+					<attribute id="Description" type="TranslatedString" handle="h355f64675d9f4885a8bbcb08f5c5da35982f" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1f697b6dafc34e3384f1ae1d051c6e120561" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-f00d00000002" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Salami_Soggy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5ef00d0000" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Salami_Soggy" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="WET" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
