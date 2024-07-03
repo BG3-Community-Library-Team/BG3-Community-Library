@@ -6,11 +6,27 @@
 
 ### Variables
 
-
-
 - Display Name: `ENCHANT_DISPLAY_NAME`
 - Enchantment Name: `ENCHANTNAME`
 - Enchantment UUID: `ENCHANT_UUID`
+
+
+Bright
+00000000117e
+Caustic
+0000 0000 ac1d
+Chilled 
+0000 0000 c01d
+Discharge 
+0000 000 11716
+HillGiant
+0000 00 b16b01
+Moist
+00000050661
+Sentinel
+0000 000 6a12d
+Toxic
+0000 bac7 e21a
 
 ---
 
