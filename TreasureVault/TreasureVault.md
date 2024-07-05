@@ -252,7 +252,7 @@ Bright
 Caustic
 0000 0000 ac1d
 Chilled 
-0000 0000 c01d
+00000000c01d
 Discharge 
 0000 000 11716
 HillGiant

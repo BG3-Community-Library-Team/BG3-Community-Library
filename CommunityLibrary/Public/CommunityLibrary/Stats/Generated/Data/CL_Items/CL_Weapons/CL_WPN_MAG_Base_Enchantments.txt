@@ -58,6 +58,7 @@ data "Boosts" "WeaponDamage(1d4, Lightning)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
 data "StatusEffect" "6243918d-a503-49fb-a85c-bdac5ce40b0a"
 //data "StatusEffect" "7905bb82-0284-46b8-855b-24f17560fe4a"
+// "ea04f6a3-5dda-4fc5-989f-6a3d5b4b315c"
 
 // COLD
 new entry "CL_STATUS_WPN_MAG_COLD"
@@ -69,7 +70,9 @@ data "DescriptionParams" "DealDamage(1d4, Cold)"
 data "Icon" "GenericIcon_DamageType_Cold"
 data "Boosts" "WeaponDamage(1d4, Cold)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "StatusEffect" "e92003cd-6622-4a82-a3c7-69d6222f0ba0"
+data "StatusEffect" "ad70c67d-f4f6-4dea-b6b6-d871fae6ddc1"
+//"62318bbf-d36a-497c-91a4-bda8f7fb7af7"
+//"615a01a7-ca62-4007-95de-e07493dcb670"
 
 // PSYCHIC
 new entry "CL_STATUS_WPN_MAG_PSYCHIC"
