@@ -10,7 +10,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Battleaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Battleaxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Battleaxe"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -29,7 +30,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Club" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Club" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Club"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -48,7 +50,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Dagger" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Dagger" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Dagger"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -67,7 +70,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Dart" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Dart" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Dart"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -86,7 +90,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Flail" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Flail" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Flail"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -105,7 +110,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Glaive" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Glaive" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Glaive"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -124,7 +130,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Greataxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Greataxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Greataxe"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -143,7 +150,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Greatclub" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Greatclub" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Greatclub"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -162,7 +170,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Greatsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Greatsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Greatsword"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -181,7 +190,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Halberd" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Halberd" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Halberd"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -200,7 +210,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Handaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Handaxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Handaxe"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -219,7 +230,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_HandCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_HandCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_HandCrossbow"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -238,7 +250,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_HeavyCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_HeavyCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_HeavyCrossbow"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -257,7 +270,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Javelin" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Javelin" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Javelin"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -276,7 +290,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_LightCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_LightCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_LightCrossbow"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -295,7 +310,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_LightHammer" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_LightHammer" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_LightHammer"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -314,7 +330,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Longbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Longbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Longbow"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -333,7 +350,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Longsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Longsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Longsword"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -352,7 +370,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Mace" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e000000001036dbd1" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Mace" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Mace"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -371,7 +390,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Maul" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Maul" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Maul"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -390,7 +410,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Morningstar" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Morningstar" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Morningstar"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -409,7 +430,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Pike" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Pike" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Pike"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -428,7 +450,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Quarterstaff" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Quarterstaff" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Quarterstaff"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -447,7 +470,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Rapier" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Rapier" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Rapier"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -466,7 +490,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Scimitar" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Scimitar" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Scimitar"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -485,7 +510,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Shortbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Shortbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Shortbow"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -504,7 +530,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Shortsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Shortsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Shortsword"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -523,7 +550,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Sickle" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Sickle" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Sickle"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -542,7 +570,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Sling" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Sling" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Sling"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -561,7 +590,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Spear" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Spear" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Spear"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -580,7 +610,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Trident" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Trident" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Trident"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -599,7 +630,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_Warhammer" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Warhammer" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_Warhammer"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
@@ -618,7 +650,8 @@
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-000100007055" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bound_1_WarPick" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_WarPick" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bound_1_WarPick"/>
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h03fb6b66d68d40c980e033ba11634d18b285" version="1" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>

@@ -8,7 +8,6 @@ new entry "CL_WPN_MAG_Bound_1_Battleaxe"
 type "Weapon"
 using "CL_WPN_MAG_Base_Battleaxe"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b001-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Club
@@ -16,7 +15,6 @@ new entry "CL_WPN_MAG_Bound_1_Club"
 type "Weapon"
 using "CL_WPN_MAG_Base_Club"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b002-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Dagger
@@ -24,7 +22,6 @@ new entry "CL_WPN_MAG_Bound_1_Dagger"
 type "Weapon"
 using "CL_WPN_MAG_Base_Dagger"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b003-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Dart
@@ -32,7 +29,6 @@ new entry "CL_WPN_MAG_Bound_1_Dart"
 type "Weapon"
 using "CL_WPN_MAG_Base_Dart"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b004-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Flail
@@ -40,7 +36,6 @@ new entry "CL_WPN_MAG_Bound_1_Flail"
 type "Weapon"
 using "CL_WPN_MAG_Base_Flail"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b005-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Glaive
@@ -48,7 +43,6 @@ new entry "CL_WPN_MAG_Bound_1_Glaive"
 type "Weapon"
 using "CL_WPN_MAG_Base_Glaive"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b006-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Greataxe
@@ -56,7 +50,6 @@ new entry "CL_WPN_MAG_Bound_1_Greataxe"
 type "Weapon"
 using "CL_WPN_MAG_Base_Greataxe"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b007-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Greatclub
@@ -64,7 +57,6 @@ new entry "CL_WPN_MAG_Bound_1_Greatclub"
 type "Weapon"
 using "CL_WPN_MAG_Base_Greatclub"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b008-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Greatsword
@@ -72,7 +64,6 @@ new entry "CL_WPN_MAG_Bound_1_Greatsword"
 type "Weapon"
 using "CL_WPN_MAG_Base_Greatsword"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b009-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Halberd
@@ -80,7 +71,6 @@ new entry "CL_WPN_MAG_Bound_1_Halberd"
 type "Weapon"
 using "CL_WPN_MAG_Base_Halberd"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b010-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Handaxe
@@ -88,7 +78,6 @@ new entry "CL_WPN_MAG_Bound_1_Handaxe"
 type "Weapon"
 using "CL_WPN_MAG_Base_Handaxe"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b011-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Hand Crossbow
@@ -96,7 +85,6 @@ new entry "CL_WPN_MAG_Bound_1_HandCrossbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_HandCrossbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b012-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Heavy Crossbow
@@ -104,7 +92,6 @@ new entry "CL_WPN_MAG_Bound_1_HeavyCrossbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_HeavyCrossbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b013-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Javelin
@@ -112,7 +99,6 @@ new entry "CL_WPN_MAG_Bound_1_Javelin"
 type "Weapon"
 using "CL_WPN_MAG_Base_Javelin"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b014-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Light Crossbow
@@ -120,7 +106,6 @@ new entry "CL_WPN_MAG_Bound_1_LightCrossbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_LightCrossbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b015-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Light Hammer
@@ -128,7 +113,6 @@ new entry "CL_WPN_MAG_Bound_1_LightHammer"
 type "Weapon"
 using "CL_WPN_MAG_Base_LightHammer"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b016-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Longbow
@@ -136,7 +120,6 @@ new entry "CL_WPN_MAG_Bound_1_Longbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_Longbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b017-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Longsword
@@ -144,7 +127,6 @@ new entry "CL_WPN_MAG_Bound_1_Longsword"
 type "Weapon"
 using "CL_WPN_MAG_Base_Longsword"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b018-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Mace
@@ -152,7 +134,6 @@ new entry "CL_WPN_MAG_Bound_1_Mace"
 type "Weapon"
 using "CL_WPN_MAG_Base_Mace"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b019-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Maul
@@ -160,7 +141,6 @@ new entry "CL_WPN_MAG_Bound_1_Maul"
 type "Weapon"
 using "CL_WPN_MAG_Base_Maul"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b020-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Morningstar
@@ -168,7 +148,6 @@ new entry "CL_WPN_MAG_Bound_1_Morningstar"
 type "Weapon"
 using "CL_WPN_MAG_Base_Morningstar"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b021-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Pike
@@ -176,7 +155,6 @@ new entry "CL_WPN_MAG_Bound_1_Pike"
 type "Weapon"
 using "CL_WPN_MAG_Base_Pike"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b022-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Quarterstaff
@@ -184,7 +162,6 @@ new entry "CL_WPN_MAG_Bound_1_Quarterstaff"
 type "Weapon"
 using "CL_WPN_MAG_Base_Quarterstaff"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b023-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Rapier
@@ -192,7 +169,6 @@ new entry "CL_WPN_MAG_Bound_1_Rapier"
 type "Weapon"
 using "CL_WPN_MAG_Base_Rapier"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b024-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Scimitar
@@ -200,7 +176,6 @@ new entry "CL_WPN_MAG_Bound_1_Scimitar"
 type "Weapon"
 using "CL_WPN_MAG_Base_Scimitar"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b025-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 
@@ -209,7 +184,6 @@ new entry "CL_WPN_MAG_Bound_1_Shortbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_Shortbow"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b026-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Shortsword
@@ -217,7 +191,6 @@ new entry "CL_WPN_MAG_Bound_1_Shortsword"
 type "Weapon"
 using "CL_WPN_MAG_Base_Shortsword"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b027-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Sickle
@@ -225,7 +198,6 @@ new entry "CL_WPN_MAG_Bound_1_Sickle"
 type "Weapon"
 using "CL_WPN_MAG_Base_Sickle"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b028-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Sling
@@ -233,7 +205,6 @@ new entry "CL_WPN_MAG_Bound_1_Sling"
 type "Weapon"
 using "CL_WPN_MAG_Base_Sling"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b029-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Spear
@@ -241,7 +212,6 @@ new entry "CL_WPN_MAG_Bound_1_Spear"
 type "Weapon"
 using "CL_WPN_MAG_Base_Spear"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b030-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Trident
@@ -249,7 +219,6 @@ new entry "CL_WPN_MAG_Bound_1_Trident"
 type "Weapon"
 using "CL_WPN_MAG_Base_Trident"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b031-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // Warhammer
@@ -257,7 +226,6 @@ new entry "CL_WPN_MAG_Bound_1_Warhammer"
 type "Weapon"
 using "CL_WPN_MAG_Base_Warhammer"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b032-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
 
 // War Pick
@@ -265,5 +233,4 @@ new entry "CL_WPN_MAG_Bound_1_WarPick"
 type "Weapon"
 using "CL_WPN_MAG_Base_WarPick"
 data "RootTemplate" "c1cfc0d3-1007-5af3-b033-000100007055"
-data "PassivesOnEquip" "CL_Passive_WPN_Bound"
 data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"

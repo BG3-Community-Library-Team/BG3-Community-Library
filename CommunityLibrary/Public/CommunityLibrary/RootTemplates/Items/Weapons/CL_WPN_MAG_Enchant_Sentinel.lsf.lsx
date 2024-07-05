@@ -5,332 +5,332 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects"> <!-- Battleaxe -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Battleaxe" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h48dd13d6ab50471a9b0728ca377b6dfd609a" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Battleaxe" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Battleaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Battleaxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Battleaxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects">  <!-- Club -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Club" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h659d5c7b34024cb783de175acc4205b0b2f9" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Club" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Club" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Club" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Club" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Dagger -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Dagger" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9457640242f64c81893a01e502d28a49771d" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Dagger" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Dagger" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Dagger" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Dagger" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Dart -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Dart" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h15b8343872d8424d8d174249a79bac9db1e3" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Dart" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Dart" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Dart" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Dart" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Flail -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Flail" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0bc2eb80ab0f424d8cb32876e8a66187983g" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Flail" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Flail" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Flail" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Flail" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Glaive -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Glaive" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcc93ec5d6b1a4bf58a95f319f797206ag212" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Glaive" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Glaive" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Glaive" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Glaive" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Greataxe -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Greataxe" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8670610aa7b94931a5fd26faebac38d91344" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Greataxe" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Greataxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Greataxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Greataxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Greatclub -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Greatclub" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd965e740f867493eba123979c9f50c9501a4" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Greatclub" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Greatclub" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Greatclub" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Greatclub" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Greatsword -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Greatsword" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5caae5f4a04b46f28023ae6a4057d6e3a0d1" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Greatsword" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Greatsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Greatsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Greatsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Halberd -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Halberd" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1b88e33c31224cc7897e59bcca5558ef73gg" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Halberd" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Halberd" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Halberd" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Halberd" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Handaxe -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Handaxe" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7d235c7b14de49af8675ead03fdd41aa2db5" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Handaxe" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Handaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Handaxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Handaxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- HandCrossbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Hand Crossbow" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h73dc927cb43d43379449f55fcc0ec9b1c64f" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_HandCrossbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_HandCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_HandCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_HandCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- HeavyCrossbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Heavy Crossbow" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haa08528a1280460a84f5729e39f882e92cf3" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_HeavyCrossbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_HeavyCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_HeavyCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_HeavyCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Javelin -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Javelin" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h444f9fd65cfa4f2a89ed1605fd58a01a15b7" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Javelin" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Javelin" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Javelin" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Javelin" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- LightCrossbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Light Crossbow" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcaf163f9b1df4b95a23cb2117fcbd9d9975g" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_LightCrossbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_LightCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_LightCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_LightCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- LightHammer -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Light Hammer" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h67af8eddfa6b42d7ad91f3960b68c8238419" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_LightHammer" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_LightHammer" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_LightHammer" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_LightHammer" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Longbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Longbow" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdf5f299d678d47c8b5973f530e4592a0d6b3" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Longbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Longbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Longbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Longbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Longsword -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Longsword" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h78475a63ee5148ceaf1db734390a4b640c59" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Longsword" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Longsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Longsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Longsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Mace -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Mace" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h86004e389ce744a7b6671a72a3bc324ffc1e" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Mace" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Mace" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e000000001036dbd1" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Mace" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Mace" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Maul -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Maul" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hed1bb051a10640d088b186008fd37c629dgb" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Maul" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Maul" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Maul" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Maul" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Morningstar -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Morningstar" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6fc4bab471f84d5781c7a51efe54b7eba092" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Morningstar" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Morningstar" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Morningstar" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Morningstar" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Pike -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Pike" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h926176696f1743f680123e8ffb648b02ee95" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Pike" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Pike" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Pike" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Pike" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Quarterstaff -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Quarterstaff" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h84e009b657054645a808bef8a248683d1fe9" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Quarterstaff" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Quarterstaff" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Quarterstaff" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Quarterstaff" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Rapier -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Rapier" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h430eac45e381479682e7aaa0a3c376d3a84a" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Rapier" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Rapier" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Rapier" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Rapier" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Scimitar -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Scimitar" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7fe486fda92b4ed6a8a4ca1b6e4eaa1e5935" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Scimitar" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Scimitar" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Scimitar" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Scimitar" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Shortbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Shortbow" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h885645a77af34e42a7a687e0ba844a69522g" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Shortbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Shortbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Shortbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Shortbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Shortsword -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Shortsword" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h93c63781428f42ec83be3fa68dc8d151fg5ed" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Shortsword" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Shortsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Shortsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Shortsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Sickle -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Sickle" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0f344a1ed7d34d2ab7561e078855722ff7ed" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Sickle" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Sickle" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Sickle" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Sickle" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Sling -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Sling" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h59e61f48815543beaad35bc9febbf82bca48" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Sling" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Sling" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Sling" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Sling" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Spear -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Spear" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h18f53363807b4909b1fdd821b63e52ac84dd" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Spear" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Spear" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Spear" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Spear" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Trident -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Trident" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8d37795e6ef84ca6a052bab9219f4b671265" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Trident" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Trident" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Trident" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Trident" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- Warhammer -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME Warhammer" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7eee876df0a8430996709adb840f2a542ad9" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_Warhammer" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_Warhammer" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_Warhammer" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_Warhammer" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
 				<node id="GameObjects"> <!-- War Pick -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ENCHANT_DISPLAY_NAME War Pick" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6afd2d6e8d6b4588a163ef87c7f84551c84a" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ENCHANT_UUID" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_ENCHANTNAME_WarPick" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Sentinel_1_WarPick" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_ENCHANTNAME_WarPick" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Sentinel_1_WarPick" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 				</node>

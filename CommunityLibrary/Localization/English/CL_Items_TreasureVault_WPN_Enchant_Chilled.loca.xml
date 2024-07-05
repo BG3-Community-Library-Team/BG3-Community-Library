@@ -32,6 +32,6 @@
     <content contentuid="h6d9f8a91ff5a43538b3950cc948b79e952a4" version="1">Chilled Trident</content>
     <content contentuid="ha627e39d6e8547eea32759820587350dbcbf" version="1">Chilled Warhammer</content>
     <content contentuid="hf3145b6442f445a78680beca268ebc30gffd" version="1">Chilled War Pick</content>
-    <content contentuid="hc32aee03496c4520b907f42ac09027368504" version="1">Chiller</content>
+    <content contentuid="hc32aee03496c4520b907f42ac09027368504" version="1">Chilled Weapon</content>
     <content contentuid="haeb012a0e84f4ea88f99bc3ba65b61ef6cc0" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 </contentList>

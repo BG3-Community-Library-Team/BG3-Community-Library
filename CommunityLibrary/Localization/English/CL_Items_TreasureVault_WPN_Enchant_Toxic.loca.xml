@@ -1,2 +1,37 @@
 <contentList>
+    <content contentuid="h13a22ab5dfad4c31ade33f9cf94760362183" version="1">Toxic Battleaxe</content>
+    <content contentuid="hc74faf8fb91147fea12494c826ae42793c18" version="1">Toxic Clu</content>
+    <content contentuid="h4af1843ef6364f7a955b56bb5ded695f7fg6" version="1">Toxic Dagger</content>
+    <content contentuid="h218183a2f4254955b9e53020cba7a676ad89" version="1">Toxic Dart</content>
+    <content contentuid="ha7de2831b0b2485fa4cb12b0b250902d5g29" version="1">Toxic Flail</content>
+    <content contentuid="h91484a3411bf4de2b4317360530cdd579129" version="1">Toxic Glaive</content>
+    <content contentuid="h804c6fecb1384a52a23eb566f2e5f156a8db" version="1">Toxic Greataxe</content>
+    <content contentuid="h285b753c15f84803ab42d82724a1589ca2g6" version="1">Toxic Greatclub</content>
+    <content contentuid="hd5518b84749a4586b30fac4fa5b288ab8080" version="1">Toxic Greatsword</content>
+    <content contentuid="h64f13bb8fe6242fcb0bafcf26257671fb0ee" version="1">Toxic Halberd</content>
+    <content contentuid="h62a6a64c681d4bac8dd31e03564d66971e46" version="1">Toxic Handaxe</content>
+    <content contentuid="h7f39807f869148cc8d85852cdc1fe39ce72b" version="1">Toxic Hand Crossbow</content>
+    <content contentuid="h8a8e466ad9ce4a5a943300508fd65fb18969" version="1">Toxic Heavy Crossbow</content>
+    <content contentuid="h98e46fe017694d1fb87b2f3e4440da871c54" version="1">Toxic Javelin</content>
+    <content contentuid="h3b8dcbacb9604a018b1e8d316f09e9f103bf" version="1">Toxic Light Crossbow</content>
+    <content contentuid="h1c628dfead134cb1b77e8db98eb401a4c440" version="1">Toxic Light Hammer</content>
+    <content contentuid="h68f7bc78fe8e475691115e1fbe7ec572f774" version="1">Toxic Longbow</content>
+    <content contentuid="hab0b9330246b415b9a2d62711d6b96c3a6g5" version="1">Toxic Longsword</content>
+    <content contentuid="h708f4041ef6b4fdc9696d7e940ca5c1f08g3" version="1">Toxic Mace</content>
+    <content contentuid="haf672a75cedf4d1ea7e9dfabddf6d4e6ga0c" version="1">Toxic Maul</content>
+    <content contentuid="hd8ea5490eeeb404da27660302dc1f501384e" version="1">Toxic Morningstar</content>
+    <content contentuid="h8641c6596612435aa9ac9db6b7290c87aa1a" version="1">Toxic Pike</content>
+    <content contentuid="hcb20f081ce554530a1998828cdf98083g07f" version="1">Toxic Quarterstaff</content>
+    <content contentuid="hada29d434e784912a1f01ef1413fc412cdgd" version="1">Toxic Rapier</content>
+    <content contentuid="hf6c7c3fa8a454c428624e9881546e3cc0140" version="1">Toxic Scimitar</content>
+    <content contentuid="h2a75615133af438d95747606e2f5dd5c38d0" version="1">Toxic Shortbow</content>
+    <content contentuid="hb46da47fa4c248168d9e7808d5abfb03944c" version="1">Toxic Shortsword</content>
+    <content contentuid="he1b508fc1b384f7b8c236f83f5ca658b21ab" version="1">Toxic Sickle</content>
+    <content contentuid="hf81c0a681ddd4231b58186369d1d5cd9f994" version="1">Toxic Sling</content>
+    <content contentuid="h5acf8419cf94453da1b7b19717eada150gd9" version="1">Toxic Spear</content>
+    <content contentuid="he45bdd71165f4b5b8ac8b4d6d87fc702874d" version="1">Toxic Trident</content>
+    <content contentuid="h3523f02548a64287befc4f398e38fc4033b0" version="1">Toxic Warhammer</content>
+    <content contentuid="hcd1ec1aeb204482b89da63f1464013b5792c" version="1">Toxic War Pick</content>
+    <content contentuid="h519c37b702ec412da8d2b2d4f05a88e0df2a" version="1">Toxic Weapon</content>
+    <content contentuid="h4b46ae9c2afa47ec82447dc23d4258a53633" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 </contentList>

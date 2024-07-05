@@ -1,198 +1,273 @@
+new entry "CL_Passive_WPN_Toxic"
+type "PassiveData"
+data "DisplayName" "h519c37b702ec412da8d2b2d4f05a88e0df2a;1"
+data "Description" "h4b46ae9c2afa47ec82447dc23d4258a53633;1"
+data "DescriptionParams" "DealDamage(1d4,Poison)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(POISONED, 100, 2,,,,not SavingThrow(Ability.Constitution,13))"
+
 // Battleaxe
-new entry "CL_WPN_MAG_ENCHANTNAME_Battleaxe"
+new entry "CL_WPN_MAG_Toxic_Battleaxe"
 type "Weapon"
 using "CL_WPN_MAG_Base_Battleaxe"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b001-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Club
-new entry "CL_WPN_MAG_ENCHANTNAME_Club"
+new entry "CL_WPN_MAG_Toxic_Club"
 type "Weapon"
 using "CL_WPN_MAG_Base_Club"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b002-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Dagger
-new entry "CL_WPN_MAG_ENCHANTNAME_Dagger"
+new entry "CL_WPN_MAG_Toxic_Dagger"
 type "Weapon"
 using "CL_WPN_MAG_Base_Dagger"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b003-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Dart
-new entry "CL_WPN_MAG_ENCHANTNAME_Dart"
+new entry "CL_WPN_MAG_Toxic_Dart"
 type "Weapon"
 using "CL_WPN_MAG_Base_Dart"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b004-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Flail
-new entry "CL_WPN_MAG_ENCHANTNAME_Flail"
+new entry "CL_WPN_MAG_Toxic_Flail"
 type "Weapon"
 using "CL_WPN_MAG_Base_Flail"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b005-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Glaive
-new entry "CL_WPN_MAG_ENCHANTNAME_Glaive"
+new entry "CL_WPN_MAG_Toxic_Glaive"
 type "Weapon"
 using "CL_WPN_MAG_Base_Glaive"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b006-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Greataxe
-new entry "CL_WPN_MAG_ENCHANTNAME_Greataxe"
+new entry "CL_WPN_MAG_Toxic_Greataxe"
 type "Weapon"
 using "CL_WPN_MAG_Base_Greataxe"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b007-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Greatclub
-new entry "CL_WPN_MAG_ENCHANTNAME_Greatclub"
+new entry "CL_WPN_MAG_Toxic_Greatclub"
 type "Weapon"
 using "CL_WPN_MAG_Base_Greatclub"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b008-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Greatsword
-new entry "CL_WPN_MAG_ENCHANTNAME_Greatsword"
+new entry "CL_WPN_MAG_Toxic_Greatsword"
 type "Weapon"
 using "CL_WPN_MAG_Base_Greatsword"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b009-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Halberd
-new entry "CL_WPN_MAG_ENCHANTNAME_Halberd"
+new entry "CL_WPN_MAG_Toxic_Halberd"
 type "Weapon"
 using "CL_WPN_MAG_Base_Halberd"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b010-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Handaxe
-new entry "CL_WPN_MAG_ENCHANTNAME_Handaxe"
+new entry "CL_WPN_MAG_Toxic_Handaxe"
 type "Weapon"
 using "CL_WPN_MAG_Base_Handaxe"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b011-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Hand Crossbow
-new entry "CL_WPN_MAG_ENCHANTNAME_HandCrossbow"
+new entry "CL_WPN_MAG_Toxic_HandCrossbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_HandCrossbow"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b012-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Heavy Crossbow
-new entry "CL_WPN_MAG_ENCHANTNAME_HeavyCrossbow"
+new entry "CL_WPN_MAG_Toxic_HeavyCrossbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_HeavyCrossbow"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b013-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Javelin
-new entry "CL_WPN_MAG_ENCHANTNAME_Javelin"
+new entry "CL_WPN_MAG_Toxic_Javelin"
 type "Weapon"
 using "CL_WPN_MAG_Base_Javelin"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b014-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Light Crossbow
-new entry "CL_WPN_MAG_ENCHANTNAME_LightCrossbow"
+new entry "CL_WPN_MAG_Toxic_LightCrossbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_LightCrossbow"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b015-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Light Hammer
-new entry "CL_WPN_MAG_ENCHANTNAME_LightHammer"
+new entry "CL_WPN_MAG_Toxic_LightHammer"
 type "Weapon"
 using "CL_WPN_MAG_Base_LightHammer"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b016-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Longbow
-new entry "CL_WPN_MAG_ENCHANTNAME_Longbow"
+new entry "CL_WPN_MAG_Toxic_Longbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_Longbow"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b017-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Longsword
-new entry "CL_WPN_MAG_ENCHANTNAME_Longsword"
+new entry "CL_WPN_MAG_Toxic_Longsword"
 type "Weapon"
 using "CL_WPN_MAG_Base_Longsword"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b018-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Mace
-new entry "CL_WPN_MAG_ENCHANTNAME_Mace"
+new entry "CL_WPN_MAG_Toxic_Mace"
 type "Weapon"
 using "CL_WPN_MAG_Base_Mace"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b019-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Maul
-new entry "CL_WPN_MAG_ENCHANTNAME_Maul"
+new entry "CL_WPN_MAG_Toxic_Maul"
 type "Weapon"
 using "CL_WPN_MAG_Base_Maul"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b020-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Morningstar
-new entry "CL_WPN_MAG_ENCHANTNAME_Morningstar"
+new entry "CL_WPN_MAG_Toxic_Morningstar"
 type "Weapon"
 using "CL_WPN_MAG_Base_Morningstar"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b021-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Pike
-new entry "CL_WPN_MAG_ENCHANTNAME_Pike"
+new entry "CL_WPN_MAG_Toxic_Pike"
 type "Weapon"
 using "CL_WPN_MAG_Base_Pike"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b022-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Quarterstaff
-new entry "CL_WPN_MAG_ENCHANTNAME_Quarterstaff"
+new entry "CL_WPN_MAG_Toxic_Quarterstaff"
 type "Weapon"
 using "CL_WPN_MAG_Base_Quarterstaff"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b023-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Rapier
-new entry "CL_WPN_MAG_ENCHANTNAME_Rapier"
+new entry "CL_WPN_MAG_Toxic_Rapier"
 type "Weapon"
 using "CL_WPN_MAG_Base_Rapier"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b024-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Scimitar
-new entry "CL_WPN_MAG_ENCHANTNAME_Scimitar"
+new entry "CL_WPN_MAG_Toxic_Scimitar"
 type "Weapon"
 using "CL_WPN_MAG_Base_Scimitar"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b025-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 
 // Shortbow
-new entry "CL_WPN_MAG_ENCHANTNAME_Shortbow"
+new entry "CL_WPN_MAG_Toxic_Shortbow"
 type "Weapon"
 using "CL_WPN_MAG_Base_Shortbow"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b026-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Shortsword
-new entry "CL_WPN_MAG_ENCHANTNAME_Shortsword"
+new entry "CL_WPN_MAG_Toxic_Shortsword"
 type "Weapon"
 using "CL_WPN_MAG_Base_Shortsword"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b027-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Sickle
-new entry "CL_WPN_MAG_ENCHANTNAME_Sickle"
+new entry "CL_WPN_MAG_Toxic_Sickle"
 type "Weapon"
 using "CL_WPN_MAG_Base_Sickle"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b028-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Sling
-new entry "CL_WPN_MAG_ENCHANTNAME_Sling"
+new entry "CL_WPN_MAG_Toxic_Sling"
 type "Weapon"
 using "CL_WPN_MAG_Base_Sling"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b029-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Spear
-new entry "CL_WPN_MAG_ENCHANTNAME_Spear"
+new entry "CL_WPN_MAG_Toxic_Spear"
 type "Weapon"
 using "CL_WPN_MAG_Base_Spear"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b030-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Trident
-new entry "CL_WPN_MAG_ENCHANTNAME_Trident"
+new entry "CL_WPN_MAG_Toxic_Trident"
 type "Weapon"
 using "CL_WPN_MAG_Base_Trident"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b031-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // Warhammer
-new entry "CL_WPN_MAG_ENCHANTNAME_Warhammer"
+new entry "CL_WPN_MAG_Toxic_Warhammer"
 type "Weapon"
 using "CL_WPN_MAG_Base_Warhammer"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b032-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"
 
 // War Pick
-new entry "CL_WPN_MAG_ENCHANTNAME_WarPick"
+new entry "CL_WPN_MAG_Toxic_WarPick"
 type "Weapon"
 using "CL_WPN_MAG_Base_WarPick"
-data "RootTemplate" "c1cfc0d3-1007-5af3-b033-ENCHANT_UUID"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-0000bac7e21a"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Toxic"

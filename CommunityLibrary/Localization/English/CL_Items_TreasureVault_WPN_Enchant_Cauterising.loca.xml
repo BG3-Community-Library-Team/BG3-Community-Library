@@ -32,6 +32,6 @@
     <content contentuid="hd091e598954c46809e23dd8f6970032c46d9" version="1">Cauterising Trident</content>
     <content contentuid="hb400e87431df489cbbe733d2907cc2754aa3" version="1">Cauterising Warhammer</content>
     <content contentuid="hc4a8d4123b63494c96ab2719c1fb60760216" version="1">Cauterising War Pick</content>
-    <content contentuid="hed9a7360072a4d858f8a9aca6ac88213d2ed" version="1">Cauteriser</content>
+    <content contentuid="hed9a7360072a4d858f8a9aca6ac88213d2ed" version="1">Cauterising Weapon</content>
     <content contentuid="h65dc3a2ec270419191f96679c0bc750736g2" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 </contentList>

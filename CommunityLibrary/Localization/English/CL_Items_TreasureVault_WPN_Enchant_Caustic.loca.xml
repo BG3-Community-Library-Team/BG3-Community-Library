@@ -1,2 +1,37 @@
 <contentList>
+    <content contentuid="h960b52cc898445fc983d64a4b133896e38gc" version="1">Caustic Battleaxe</content>
+    <content contentuid="h605288b1fbaf419daf1c1227cd89bfe12bgf" version="1">Caustic Club</content>
+    <content contentuid="hbd7f5ded8f8b4809984896e7cde41fd41ad6" version="1">Caustic Dagger</content>
+    <content contentuid="h81f649189c164332893c2a06e0ad3c87ffad" version="1">Caustic Dart</content>
+    <content contentuid="h4d131af8af8e423e867e0f071ed46feb21e0" version="1">Caustic Flail</content>
+    <content contentuid="hbad994606d1446b28dae2da8c8b4a958374a" version="1">Caustic Glaive</content>
+    <content contentuid="h76f6daded0354050a04671958807746a780d" version="1">Caustic Greataxe</content>
+    <content contentuid="hb7b7fc7fdc8d45c888389d64af1312374d1d" version="1">Caustic Greatclub</content>
+    <content contentuid="h53e0d0b053884081b33768bd364b47d4bdcf" version="1">Caustic Greatsword</content>
+    <content contentuid="he3173981f4aa46e0be1bef903b1b5b5ag28b" version="1">Caustic Halberd</content>
+    <content contentuid="h1997e47b754d41a99e1953489a3b347dacf0" version="1">Caustic Handaxe</content>
+    <content contentuid="h7937fa0da4354b5f9bda919a2c00f0aefbgg" version="1">Caustic Hand Crossbow</content>
+    <content contentuid="ha7ce75e7b9a94fe4882ab68201d2587e8353" version="1">Caustic Heavy Crossbow</content>
+    <content contentuid="h2948072dfd20437a935ce24d75dacc2853d9" version="1">Caustic Javelin</content>
+    <content contentuid="h001362ee30fc4aaebfb2c9553ae5c29d0298" version="1">Caustic Light Crossbow</content>
+    <content contentuid="hd92adc05043c498b8e01972e91e8e65bd5c1" version="1">Caustic Light Hammer</content>
+    <content contentuid="h4e19527fe3dd4bf7abcc4264548c730ab8e2" version="1">Caustic Longbow</content>
+    <content contentuid="hfec84693a12c4ec3aa165893223458d645g4" version="1">Caustic Longsword</content>
+    <content contentuid="h3c89e568114549fcb814b2fae181171872eg" version="1">Caustic Mace</content>
+    <content contentuid="hbfbdacee073b4c3f8109220e57ad0381e3ca" version="1">Caustic Maul</content>
+    <content contentuid="hfeae78a9197c494d9fda3193ef6f145f56d5" version="1">Caustic Morningstar</content>
+    <content contentuid="h0a95a3319971478181d51464c344aed0aee4" version="1">Caustic Pike</content>
+    <content contentuid="h060ef44231a640ff8c39de787462c414eg55" version="1">Caustic Quarterstaff</content>
+    <content contentuid="h9cecfd1f821749cab60f5112655d63662dbc" version="1">Caustic Rapier</content>
+    <content contentuid="h94d821f637de444091bc74b45ff78202afa1" version="1">Caustic Scimitar</content>
+    <content contentuid="hc58041ec2e864341988d82623aec9e25404e" version="1">Caustic Shortbow</content>
+    <content contentuid="h7475c6c8f71f4be4a39990c7da409020b34c" version="1">Caustic Shortsword</content>
+    <content contentuid="h68d4aa6d2380452ca223a2c48b51ee733701" version="1">Caustic Sickle</content>
+    <content contentuid="hb68c4a4bebe64299972258cafb4810ea6c58" version="1">Caustic Sling</content>
+    <content contentuid="hdc37a03084a3434aa9b5189e5b23e5890f9b" version="1">Caustic Spear</content>
+    <content contentuid="h3ef556bd550342c38036a8c7f6e004107b82" version="1">Caustic Trident</content>
+    <content contentuid="h841a7404926a4ad0a4978b3e18b75adf1eg7" version="1">Caustic Warhammer</content>
+    <content contentuid="hd3a4a677cb59461d80920858c7c30827ad10" version="1">Caustic War Pick</content>
+    <content contentuid="h56223b8b01864441be9af8a183520dc96164" version="1">Caustic Weapon</content>
+    <content contentuid="heded846cbfaa48c0921a7529da49457cc738" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="ACID"&gt;Acid&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
 </contentList>

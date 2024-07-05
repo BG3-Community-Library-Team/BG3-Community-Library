@@ -5,627 +5,627 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects"> <!-- Battleaxe -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h13a22ab5dfad4c31ade33f9cf94760362183" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc13af4fc32b846e6a429a8f7dfb244ea4acf" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Battleaxe" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b001-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Battleaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b001-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Battleaxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Battleaxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects">  <!-- Club -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hc74faf8fb91147fea12494c826ae42793c18b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h71c0d25184c04485a57537b37f263acecdd7" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Club" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Club" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b002-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Club" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Club" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Dagger -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h4af1843ef6364f7a955b56bb5ded695f7fg6" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd4c46adf60b142689ef953ab926dbb5c5033" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Dagger" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b003-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Dagger" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b003-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Dagger" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Dagger" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Dart -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h218183a2f4254955b9e53020cba7a676ad89" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9111aff6c7a649a4973cd631abc4172afg60" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Dart" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b004-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Dart" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b004-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Dart" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Dart" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Flail -->
-					<attribute id="DisplayName" type="TranslatedString" handle="ha7de2831b0b2485fa4cb12b0b250902d5g29" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hde91315d84ea4ac6912fbf91a9168b3e5c6c" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Flail" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b005-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Flail" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b005-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Flail" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Flail" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Glaive -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h91484a3411bf4de2b4317360530cdd579129" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7aeee41430994851ab0c4a62c704fa0855g2" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Glaive" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b006-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Glaive" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b006-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Glaive" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Glaive" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Greataxe -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h804c6fecb1384a52a23eb566f2e5f156a8db" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9d9a40e91427446dbb9a25918a545215d46g" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Greataxe" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b007-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Greataxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b007-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Greataxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Greataxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Greatclub -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h285b753c15f84803ab42d82724a1589ca2g6" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcefa702eb08d40399334cf1650bd5af1e015" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Greatclub" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b008-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Greatclub" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b008-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Greatclub" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Greatclub" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Greatsword -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hd5518b84749a4586b30fac4fa5b288ab8080" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h260204917be74a4cb83e3342482c7bbb03g1" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Greatsword" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b009-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Greatsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b009-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Greatsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Greatsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Halberd -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h64f13bb8fe6242fcb0bafcf26257671fb0ee" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h5ad85b1978cb4de5a2bb17323ef2cde9bda5" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Halberd" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b010-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Halberd" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b010-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Halberd" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Halberd" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Handaxe -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h62a6a64c681d4bac8dd31e03564d66971e46" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h526542eed7f445f9b3ac5bd09381e7abada2" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Handaxe" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b011-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Handaxe" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b011-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Handaxe" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Handaxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- HandCrossbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h7f39807f869148cc8d85852cdc1fe39ce72b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h980428220513424aa3f72229bcb21330821e" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_HandCrossbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b012-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_HandCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b012-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_HandCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_HandCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- HeavyCrossbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h8a8e466ad9ce4a5a943300508fd65fb18969" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8d43c40d021140caae4dd482901dc97e49f9" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_HeavyCrossbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b013-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_HeavyCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b013-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_HeavyCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_HeavyCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Javelin -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h98e46fe017694d1fb87b2f3e4440da871c54" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8358cbd8f0ed49fc85bc9452d6a0f1866985" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Javelin" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b014-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Javelin" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b014-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Javelin" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Javelin" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- LightCrossbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h3b8dcbacb9604a018b1e8d316f09e9f103bf" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6df7f8f76e6f40588d2f19dd00cee4b0b2c6" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_LightCrossbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b015-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_LightCrossbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b015-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_LightCrossbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_LightCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- LightHammer -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h1c628dfead134cb1b77e8db98eb401a4c440" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h61680ae917e8460eaa4e0d5d77e3a338477d" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_LightHammer" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b016-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_LightHammer" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b016-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_LightHammer" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_LightHammer" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Longbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h68f7bc78fe8e475691115e1fbe7ec572f774" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3a7b5630cb624ba5b6c53fe8c71d0a66db8a" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Longbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b017-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Longbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b017-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Longbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Longbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Longsword -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hab0b9330246b415b9a2d62711d6b96c3a6g5" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h64f463d5d412444e9513214b0fa3c8ea2g26" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Longsword" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b018-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Longsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b018-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Longsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Longsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Mace -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h708f4041ef6b4fdc9696d7e940ca5c1f08g3" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1955dbf8e32f4b5699c2a13a94f622e08778" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Mace" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Mace" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e000000001036dbd1" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Mace" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Mace" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Maul -->
-					<attribute id="DisplayName" type="TranslatedString" handle="haf672a75cedf4d1ea7e9dfabddf6d4e6ga0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he47a5d1f6d25432bba5e1063cbf166a7b5fg" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Maul" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b020-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Maul" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b020-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Maul" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Maul" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Morningstar -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hd8ea5490eeeb404da27660302dc1f501384e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h61027df646344371ad9b8f9fd701b9d8bc72r" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Morningstar" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Morningstar" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b021-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Morningstar" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Morningstar" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Pike -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h8641c6596612435aa9ac9db6b7290c87aa1a" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h56774b2048fe41d992365bd0b2d5b77c7e47" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Pike" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b022-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Pike" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b022-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Pike" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Pike" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Quarterstaff -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hcb20f081ce554530a1998828cdf98083g07f" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hde56ad6d58cf43e8bd58ab52b18a5f1ab202" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Quarterstaff" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b023-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Quarterstaff" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b023-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Quarterstaff" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Quarterstaff" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Rapier -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hada29d434e784912a1f01ef1413fc412cdgd" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1cb73bc499d342c88ce0162a71bafb94227f" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Rapier" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b024-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Rapier" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b024-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Rapier" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Rapier" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Scimitar -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hf6c7c3fa8a454c428624e9881546e3cc0140" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcd61625bf2c1485bb4b350cd33689e935dbc" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Scimitar" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b025-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Scimitar" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b025-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Scimitar" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Scimitar" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Shortbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h2a75615133af438d95747606e2f5dd5c38d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h833113da10124501ad9ea85a7d022d63g4d1" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Shortbow" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Shortbow" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b026-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Shortbow" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Shortbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Shortsword -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hb46da47fa4c248168d9e7808d5abfb03944c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6e53dabaec1a4decad3a19d97e0db98396cb" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Shortsword" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b027-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Shortsword" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b027-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Shortsword" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Shortsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Sickle -->
-					<attribute id="DisplayName" type="TranslatedString" handle="he1b508fc1b384f7b8c236f83f5ca658b21ab" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h91be844019634fabab511fd7f8344bc0d1ee" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Sickle" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b028-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Sickle" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b028-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Sickle" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Sickle" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Sling -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hf81c0a681ddd4231b58186369d1d5cd9f994" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h06b9e46b72254db7bb7ac064823d4655g9d2" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Sling" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Sling" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b029-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Sling" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Sling" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Spear -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h5acf8419cf94453da1b7b19717eada150gd9" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h89292c6bf1eb4d779583eb8691acc30a2769" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Spear" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b030-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Spear" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b030-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Spear" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Spear" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Trident -->
-					<attribute id="DisplayName" type="TranslatedString" handle="he45bdd71165f4b5b8ac8b4d6d87fc702874d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h699dedba9a534698ade9021b69196c4ae847" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Trident" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b031-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Trident" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b031-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Trident" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Trident" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Warhammer -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h3523f02548a64287befc4f398e38fc4033b0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdfd26fe677ab4a328681c4c0b61cd879a36e" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_Warhammer" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b032-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Warhammer" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b032-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_Warhammer" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_Warhammer" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- War Pick -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hcd1ec1aeb204482b89da63f1464013b5792c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3ccf0b49b65d4780a6b3e174668c94b98cd6" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-0000bac7e21a" />
-					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Toxic_WarPick" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b033-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_WarPick" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b033-ba5e00000000" />
-					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Toxic_WarPick" />
+					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Charged_WarPick" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_POISON" />
+									<attribute id="Object" type="FixedString" value="CL_STATUS_WPN_MAG_LIGHTNING" />
 								</node>
 							</children>
 						</node>
