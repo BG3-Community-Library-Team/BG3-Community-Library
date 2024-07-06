@@ -1,5 +1,4 @@
-
-
+// WIP
 new entry "CL_STATUS_ONEDND_MOON_WILDSHAPE"
 type "StatusData"
 data "StatusType" "BOOST"
