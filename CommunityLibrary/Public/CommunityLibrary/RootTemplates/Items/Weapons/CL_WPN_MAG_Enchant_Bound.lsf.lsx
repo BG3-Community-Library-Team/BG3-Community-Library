@@ -24,7 +24,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="GameObjects">  <!-- Club -->
+				<node id="GameObjects"> <!-- Club -->
 					<attribute id="DisplayName" type="TranslatedString" handle="hda3169e0755945ae8b9dbcaf7c1233b7647e" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-000100007055" />

@@ -26,8 +26,8 @@
 						</node>
 					</children>
 				</node>
-				<node id="GameObjects">  <!-- Club -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h81b32d72f4614240a1dcd1203e91eea5g73eb" version="1" />
+				<node id="GameObjects"> <!-- Club -->
+					<attribute id="DisplayName" type="TranslatedString" handle="h81b32d72f4614240a1dcd1203e91eea5g73e" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-00000000117e" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bright_Club" />
@@ -555,7 +555,7 @@
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Shortbow -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hcd174f80a4314686a48d9af534c4c8012462w" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcd174f80a4314686a48d9af534c4c8012462" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b026-00000000117e" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bright_Shortbow" />
@@ -621,7 +621,7 @@
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Sling -->
-					<attribute id="DisplayName" type="TranslatedString" handle="hd079fa72db7a482799ff2a309059be0e8dg5g" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd079fa72db7a482799ff2a309059be0e8dg5" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b029-00000000117e" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bright_Sling" />

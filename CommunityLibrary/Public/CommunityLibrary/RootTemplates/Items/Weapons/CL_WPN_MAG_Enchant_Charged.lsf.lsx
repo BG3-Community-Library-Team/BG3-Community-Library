@@ -23,7 +23,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="GameObjects">  <!-- Club -->
+				<node id="GameObjects"> <!-- Club -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h71c0d25184c04485a57537b37f263acecdd7" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-00000057a71c" />
@@ -385,7 +385,7 @@
 					</children>
 				</node>
 				<node id="GameObjects"> <!-- Morningstar -->
-					<attribute id="DisplayName" type="TranslatedString" handle="h61027df646344371ad9b8f9fd701b9d8bc72r" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h61027df646344371ad9b8f9fd701b9d8bc72" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b021-00000057a71c" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Charged_Morningstar" />

@@ -13,6 +13,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Battleaxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h20f71fbdg767fg460fga3f0g0604b15ae9be" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Battleaxe_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="f7a6c54c-0b2c-85e2-f52d-7b8927dab117" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -23,7 +26,7 @@
 						</node>
 					</children>
 				</node>
-				<node id="GameObjects">  <!-- Club -->
+				<node id="GameObjects"> <!-- Club -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h605288b1fbaf419daf1c1227cd89bfe12bgf" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-00000000ac1d" />
@@ -32,6 +35,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Club" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="he47e4f6eg7ca3g4c0dga0edgbe91659ad3f9" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Club_Broken_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="5d1defcd-80f2-f35b-a69e-89015a1ef47d" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -51,6 +57,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Dagger" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h0afc391ag1affg4eedg8941geb6039fac819" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Dagger_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="98537dfc-0249-0ddc-e17d-b0d9af943b2c" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -89,6 +98,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Flail" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h90496d2dg278fg4ccfg8ad0g56a7060c2e04" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Flail_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="d1d78c9a-02f4-0b06-33cb-b85d4276a9e9" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -108,6 +120,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Glaive" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="hf4718ae6g7b21g4394gb3fcga074b390a7e7" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Glaive_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="2d9f91d0-002f-5aa8-c3b4-f35d480225ac" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -127,6 +142,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Greataxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h39de8e09gdf41g4eb0gbc0eg9a0602146724" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greataxe_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="68235f4f-da96-fbd9-fa4e-44488290ed64" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -146,6 +164,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Greatclub" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h0031a9c9ga264g4a9bg859dga74cf714cb96" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greatclub_A_0" />
+					<attribute id="VisualTemplate" type="FixedString" value="12ee2171-a8a5-44e2-9e41-0662975f6fa4" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -165,6 +186,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Greatsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h54345dccg7182g4ddfgaee3g800bef0e06f9" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Greatsword_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="f4d72f58-fba8-7fee-4eb5-141f373745f5" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -184,6 +208,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Halberd" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="hb7bc537dg398dg4741g85ceg62067f34c494" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Halberd_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="2470065c-c43d-9ade-c0d8-8af020c0158a" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -203,6 +230,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Handaxe" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h927fc728gf99bg4f1bg8904gafe60cd1e1fc" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Handaxe_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="e07d0f42-85ff-2352-ae05-4b9d86adf7bf" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -222,6 +252,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_HandCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="he39afc6bg387dg4d9fgbe06g4ab9bdbd953f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_HandCrossbow_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="1a874249-3b7a-7f5c-61f7-dc9e72c59566" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -241,6 +274,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_HeavyCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h84b86432g71a5g4daagac7bg3413b6f40a5e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_HeavyCrossbow_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="a0ca6c87-2558-8b40-4c47-eb2861e36bee" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -260,6 +296,10 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Javelin" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<!-- Would love to adjust visual template one day.
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GOB_Spear_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="a6402185-d0d3-4f44-bf0c-621e8e9ee66e" />
+					-->
 					<children>
 						<node id="StatusList">
 							<children>
@@ -279,6 +319,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_LightCrossbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h35618e6dg44ddg4a0fg9327g933edf10c7ce" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_LightCrossbow_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="6050a9d2-6ec5-4109-1105-cc55c15a1c97" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -298,6 +341,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_LightHammer" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h8ceb16a0g775fg4438g9763g1449df4c6493" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_LightHammer_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="7d063681-3cb5-613d-8081-a6d97b989a99" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -317,6 +363,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Longbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h0d0efda2gd82cg4a21g86cag9ce09554d595" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longbow_Broken_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="b2aa7865-8faf-98c5-91c4-e972581f121c" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -336,6 +385,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Longsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="heed4d8e9gb193g4a07ga1e2g2ce4377693bc" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longsword_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="d1bb2d01-db22-61f6-9103-1d42a0d9b919" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -355,6 +407,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Mace" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="ha079af79g2ca7g4354g91a3g33f1313a40d3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Mace_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="554c64e2-8ca3-6aee-e9c2-bc1ed126fb62" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -374,6 +429,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Maul" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h16eb9395gec83g471ag9a51gaed606638566" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Maul_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="896e37d3-64c3-aa57-4e14-fc4331a5c154" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -393,6 +451,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Morningstar" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h22fc0224gb136g4405gbda7g91569d4df362" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Morningstar_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="72212ea1-a86a-aafd-4e9b-a179c6bc8bdb" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -412,6 +473,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Pike" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h933e3f5bg67deg4f64g8d1dgd6a4600534c7" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Pike_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="f5bea280-e651-cd11-4098-149fe6c7fc45" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -431,6 +495,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Quarterstaff" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h7a49b0aage01cg4d2cgbe80g4c8ed49f8cce" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Quarterstaff_Broken_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="3a73c7ad-8bbb-5bd0-71e1-d2028d36eec4" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -450,6 +517,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Rapier" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h99ee4ddfg258eg4bdcga84cg3c679b478ffb" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Rapier_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="03abf970-b284-de5a-7f7a-b622b96055ad" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -469,6 +539,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Scimitar" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="hc1ed09aag9e8eg4f42g9ff5ga38ca519685f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Scimitar_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="975710c5-3365-00c1-0d1d-0f2ab604848a" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -488,6 +561,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Shortbow" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="hae38c7d6g31b1g40d1g989cgad4fe9706014" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_GOB_Bow_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="ca2a5630-e15a-905b-67a3-9d2b0dacf6eb" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -507,6 +583,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Shortsword" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h16dbd8dfg0d79g4d78gadabga7f47fc2c7b6" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shortsword_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="8c772e1c-6c37-cef2-1d13-9b98946aa4a2" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -526,6 +605,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Sickle" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h320993a3g4a01g441agaaaeg636ce6da6a2a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Sickle_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="af5fb221-6a97-7d49-b83f-a8ce135b555c" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -564,6 +646,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Spear" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h60359520g0549g46ddgaa33g0595013cedd0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Spear_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="9b4a02d3-9731-1ca1-508d-68ee6a439eb7" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -583,6 +668,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Trident" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="hede8d671gb7b0g4177g9662g8d417ec98826" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Trident_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="053c114b-4a89-b539-e96b-65e17d3d1bbe" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -602,6 +690,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_Warhammer" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+					<attribute id="Description" type="TranslatedString" handle="h89756b23g1d25g46e9g8b26geae5bce9317e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_WarHammer_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="27ba80c6-c8e5-e1ba-c32b-c7820dc979df" />
 					<children>
 						<node id="StatusList">
 							<children>
@@ -621,6 +712,9 @@
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Caustic_WarPick" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<attribute id="Description" type="TranslatedString" handle="h3bae41baga1a9g4439g87e6gc3d842a81a4e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Warpick_A_0_Rusty_A" />
+					<attribute id="VisualTemplate" type="FixedString" value="c0eadeee-fd4b-e76e-b286-482ad131e675" />
 					<children>
 						<node id="StatusList">
 							<children>

@@ -14,7 +14,7 @@
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
 				</node>
-				<node id="GameObjects">  <!-- Club -->
+				<node id="GameObjects"> <!-- Club -->
 					<attribute id="DisplayName" type="TranslatedString" handle="hc4cec2e9f84243f3a41d0dd49696c4780779" version="1" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b002-000000057a1c" />
