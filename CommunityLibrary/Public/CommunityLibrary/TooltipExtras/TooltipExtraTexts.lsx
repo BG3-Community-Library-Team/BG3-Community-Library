@@ -14,6 +14,11 @@
                     <attribute id="Text" type="TranslatedString" handle="h777cd9afg6335g406dg95dbgc5c8c3c0641f" version="1"/>
                     <attribute id="UUID" type="guid" value="c1cfc0d3-0000-7737-0000-c11a125ca1ed"/>
                 </node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Comment" type="LSString" value="Charm break warning"/>
+                    <attribute id="Text" type="TranslatedString" handle="hcccf37fegf726g4c32g9e7egff533122cf9b" version="1"/>
+                    <attribute id="UUID" type="guid" value="c33c8ea0-aede-40b8-8ea4-d2fb52c206bb"/>
+                </node>
 <!-- Tags -->
                 <node id="TooltipExtraTexts">
                     <attribute id="Comment" type="LSString" value="No Extra Tag"/>

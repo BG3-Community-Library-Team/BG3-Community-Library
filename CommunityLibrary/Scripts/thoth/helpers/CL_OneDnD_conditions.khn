@@ -1,0 +1,82 @@
+--Thanks Celes
+function CL_TrueStrike_Melee()
+	return Attack(AttackType.MeleeWeaponAttack)
+end
+
+function CL_TrueStrike_Ranged()
+	return Attack(AttackType.RangedWeaponAttack)
+end
+
+--Temp solution for WeaponAttackRollAbilityOverride(..)
+function CL_TSOvr(slot)
+    local slot = slot
+    local weaponSlot = GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand,context.Source)
+    local weaponSlotRanged = GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand,context.Source)
+    if weaponSlotRanged.IsValid and slot == 'R' then
+        rangedWeaponHasPact = HasAnyStatus({'CL_STATUS_ONEDND_SHILLELAGH','SHILLELAGH','PACT_BLADE','FLAME_BLADE','MAG_MELEE_CASTER_BOON'}, {}, {}, weaponSlotRanged)
+        return ConditionResult(rangedWeaponHasPact.Result)
+    elseif weaponSlot.IsValid then
+        weaponHasPact = HasAnyStatus({'CL_STATUS_ONEDND_SHILLELAGH','SHILLELAGH','PACT_BLADE','FLAME_BLADE','MAG_MELEE_CASTER_BOON'}, {}, {}, weaponSlot)
+        return ConditionResult(weaponHasPact.Result)
+    else
+		return ConditionResult(false)
+    end
+end
+
+--Tooltip damage fix
+--Conditions UnlockSpell Melee
+function CL_TSTip(castingability,weaponability)
+    local castingability = castingability
+    local weaponability = weaponability
+    if weaponability == 'Str' then
+        return CL_AbilityEqualOrGreaterThan(castingability,{'Str'}) & (~CL_HasWeaponWithProperty('Finesse') | (CL_HasWeaponWithProperty('Finesse') & CL_ModiferGreaterThanModifer(context.Source.Strength,context.Source.Dexterity))) & ~CL_TSOvr()
+    elseif weaponability == 'Dex' then
+        return CL_AbilityGreaterThan(castingability,{'Dex'}) & CL_HasWeaponWithProperty('Finesse') & CL_ModiferEqualOrGreaterThanModifer(context.Source.Dexterity,context.Source.Strength) & ~CL_TSOvr()
+    elseif weaponability == 'Phy' then
+        return CL_AbilityGreaterThan('Str',{castingability}) & (~CL_HasWeaponWithProperty('Finesse') | (CL_HasWeaponWithProperty('Finesse') & CL_ModiferGreaterThanModifer(context.Source.Strength,context.Source.Dexterity))) | (CL_AbilityGreaterThan('Dex',{castingability}) & CL_HasWeaponWithProperty('Finesse') & CL_ModiferEqualOrGreaterThanModifer(context.Source.Dexterity,context.Source.Strength)) & ~CL_TSOvr()
+    else
+		return ConditionResult(false)
+    end
+end
+
+--Conditions UnlockSpell Ranged
+function CL_TSTipR(castingability,weaponability)
+    local castingability = castingability
+    local weaponability = weaponability
+    if weaponability == 'Dex' then
+        return CL_AbilityEqualOrGreaterThan(castingability,{'Dex'}) & ~CL_TSOvr('R')
+    elseif weaponability == 'Phy' then
+        return CL_AbilityGreaterThan('Dex',{castingability}) & ~CL_TSOvr('R')
+    else
+		return ConditionResult(false)
+    end
+end
+
+--Conditions to set correct damage and accuracy, should cover any WeaponAttackRollAbilityOverride()
+function CL_TSBonus(value,source)
+    local value = value or 0
+    local source = source or context.Source
+    return (CL_AttackRollAbility(Ability.Strength) & ((CL_ModifierOffset(value,source.Charisma,source.Strength) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Strength) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Strength) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Dexterity) & ((CL_ModifierOffset(value,source.Charisma,source.Dexterity) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Dexterity) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Dexterity) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Constitution) & ((CL_ModifierOffset(value,source.Charisma,source.Constitution) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Constitution) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Constitution) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Charisma) & ((CL_ModifierOffset(value,source.Intelligence,source.Charisma) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Charisma) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Intelligence) & ((CL_ModifierOffset(value,source.Charisma,source.Intelligence) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Wisdom,source.Intelligence) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Wisdom) & ((CL_ModifierOffset(value,source.Charisma,source.Wisdom) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Wisdom,source.Constitution) & CL_TSIntelligence())))
+end
+
+function CL_ModifierOffset(value,modifier,modifier2)
+    local value = value or 0
+    return ConditionResult((GetModifier(modifier) - GetModifier(modifier2)) == value)
+end
+
+function CL_TSCharisma()
+    return SpellId('CL_Target_OneDnD_TrueStrike_Cha_WpnOvr') | SpellId('CL_Target_OneDnD_TrueStrike_Cha_PhyPen') | SpellId('CL_Target_OneDnD_TrueStrike_Cha_DexMod') | SpellId('CL_Target_OneDnD_TrueStrike_Cha_StrMod') | SpellId('CL_Projectile_OneDnD_TrueStrike_Cha_WpnOvr') | SpellId('CL_Projectile_OneDnD_TrueStrike_Cha_PhyPen') | SpellId('CL_Projectile_OneDnD_TrueStrike_Cha_DexMod')
+end
+
+function CL_TSIntelligence()
+    return SpellId('CL_Target_OneDnD_TrueStrike_Int_WpnOvr') | SpellId('CL_Target_OneDnD_TrueStrike_Int_PhyPen') | SpellId('CL_Target_OneDnD_TrueStrike_Int_DexMod') | SpellId('CL_Target_OneDnD_TrueStrike_Int_StrMod') | SpellId('CL_Projectile_OneDnD_TrueStrike_Int_WpnOvr') | SpellId('CL_Projectile_OneDnD_TrueStrike_Int_PhyPen') | SpellId('CL_Projectile_OneDnD_TrueStrike_Int_DexMod')
+end
+
+function CL_TSWisdom()
+    return SpellId('CL_Target_OneDnD_TrueStrike_Wis_WpnOvr') | SpellId('CL_Target_OneDnD_TrueStrike_Wis_PhyPen') | SpellId('CL_Target_OneDnD_TrueStrike_Wis_DexMod') | SpellId('CL_Target_OneDnD_TrueStrike_Wis_StrMod') | SpellId('CL_Projectile_OneDnD_TrueStrike_Wis_WpnOvr') | SpellId('CL_Projectile_OneDnD_TrueStrike_Wis_PhyPen') | SpellId('CL_Projectile_OneDnD_TrueStrike_Wis_DexMod')
+end
