@@ -1,0 +1,231 @@
+// Battleaxe
+new entry "CL_WPN_MAG_Moist_Battleaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Battleaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Club
+new entry "CL_WPN_MAG_Moist_Club"
+type "Weapon"
+using "CL_WPN_MAG_Base_Club"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Dagger
+new entry "CL_WPN_MAG_Moist_Dagger"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dagger"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Dart
+new entry "CL_WPN_MAG_Moist_Dart"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dart"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Flail
+new entry "CL_WPN_MAG_Moist_Flail"
+type "Weapon"
+using "CL_WPN_MAG_Base_Flail"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Glaive
+new entry "CL_WPN_MAG_Moist_Glaive"
+type "Weapon"
+using "CL_WPN_MAG_Base_Glaive"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Greataxe
+new entry "CL_WPN_MAG_Moist_Greataxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greataxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Greatclub
+new entry "CL_WPN_MAG_Moist_Greatclub"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatclub"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Greatsword
+new entry "CL_WPN_MAG_Moist_Greatsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Halberd
+new entry "CL_WPN_MAG_Moist_Halberd"
+type "Weapon"
+using "CL_WPN_MAG_Base_Halberd"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Handaxe
+new entry "CL_WPN_MAG_Moist_Handaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Handaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_Moist_HandCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HandCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_Moist_HeavyCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HeavyCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Javelin
+new entry "CL_WPN_MAG_Moist_Javelin"
+type "Weapon"
+using "CL_WPN_MAG_Base_Javelin"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_Moist_LightCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Light Hammer
+new entry "CL_WPN_MAG_Moist_LightHammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightHammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Longbow
+new entry "CL_WPN_MAG_Moist_Longbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Longsword
+new entry "CL_WPN_MAG_Moist_Longsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Mace
+new entry "CL_WPN_MAG_Moist_Mace"
+type "Weapon"
+using "CL_WPN_MAG_Base_Mace"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Maul
+new entry "CL_WPN_MAG_Moist_Maul"
+type "Weapon"
+using "CL_WPN_MAG_Base_Maul"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Morningstar
+new entry "CL_WPN_MAG_Moist_Morningstar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Morningstar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Pike
+new entry "CL_WPN_MAG_Moist_Pike"
+type "Weapon"
+using "CL_WPN_MAG_Base_Pike"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_Moist_Quarterstaff"
+type "Weapon"
+using "CL_WPN_MAG_Base_Quarterstaff"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Rapier
+new entry "CL_WPN_MAG_Moist_Rapier"
+type "Weapon"
+using "CL_WPN_MAG_Base_Rapier"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Scimitar
+new entry "CL_WPN_MAG_Moist_Scimitar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Scimitar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_Moist_Shortbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Shortsword
+new entry "CL_WPN_MAG_Moist_Shortsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Sickle
+new entry "CL_WPN_MAG_Moist_Sickle"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sickle"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Sling
+new entry "CL_WPN_MAG_Moist_Sling"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Spear
+new entry "CL_WPN_MAG_Moist_Spear"
+type "Weapon"
+using "CL_WPN_MAG_Base_Spear"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Trident
+new entry "CL_WPN_MAG_Moist_Trident"
+type "Weapon"
+using "CL_WPN_MAG_Base_Trident"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// Warhammer
+new entry "CL_WPN_MAG_Moist_Warhammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_Warhammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"
+
+// War Pick
+new entry "CL_WPN_MAG_Moist_WarPick"
+type "Weapon"
+using "CL_WPN_MAG_Base_WarPick"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-000000050661"
+data "WeaponFunctors" "GROUND:SurfaceChange(Douse);RemoveStatus(BURNING);ApplyStatus(WET,100,2)"

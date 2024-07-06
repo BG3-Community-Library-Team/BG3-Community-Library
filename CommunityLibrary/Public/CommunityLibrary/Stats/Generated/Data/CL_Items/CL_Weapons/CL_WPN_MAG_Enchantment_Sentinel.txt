@@ -1,0 +1,264 @@
+// Battleaxe
+new entry "CL_WPN_MAG_Sentinel_1_Battleaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Battleaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Club
+new entry "CL_WPN_MAG_Sentinel_1_Club"
+type "Weapon"
+using "CL_WPN_MAG_Base_Club"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Dagger
+new entry "CL_WPN_MAG_Sentinel_1_Dagger"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dagger"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Dart
+new entry "CL_WPN_MAG_Sentinel_1_Dart"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dart"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Flail
+new entry "CL_WPN_MAG_Sentinel_1_Flail"
+type "Weapon"
+using "CL_WPN_MAG_Base_Flail"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Glaive
+new entry "CL_WPN_MAG_Sentinel_1_Glaive"
+type "Weapon"
+using "CL_WPN_MAG_Base_Glaive"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Greataxe
+new entry "CL_WPN_MAG_Sentinel_1_Greataxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greataxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Greatclub
+new entry "CL_WPN_MAG_Sentinel_1_Greatclub"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatclub"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Greatsword
+new entry "CL_WPN_MAG_Sentinel_1_Greatsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Halberd
+new entry "CL_WPN_MAG_Sentinel_1_Halberd"
+type "Weapon"
+using "CL_WPN_MAG_Base_Halberd"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Handaxe
+new entry "CL_WPN_MAG_Sentinel_1_Handaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Handaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_Sentinel_1_HandCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HandCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_Sentinel_1_HeavyCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HeavyCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Javelin
+new entry "CL_WPN_MAG_Sentinel_1_Javelin"
+type "Weapon"
+using "CL_WPN_MAG_Base_Javelin"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_Sentinel_1_LightCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Light Hammer
+new entry "CL_WPN_MAG_Sentinel_1_LightHammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightHammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Longbow
+new entry "CL_WPN_MAG_Sentinel_1_Longbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Longsword
+new entry "CL_WPN_MAG_Sentinel_1_Longsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Mace
+new entry "CL_WPN_MAG_Sentinel_1_Mace"
+type "Weapon"
+using "CL_WPN_MAG_Base_Mace"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Maul
+new entry "CL_WPN_MAG_Sentinel_1_Maul"
+type "Weapon"
+using "CL_WPN_MAG_Base_Maul"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Morningstar
+new entry "CL_WPN_MAG_Sentinel_1_Morningstar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Morningstar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Pike
+new entry "CL_WPN_MAG_Sentinel_1_Pike"
+type "Weapon"
+using "CL_WPN_MAG_Base_Pike"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_Sentinel_1_Quarterstaff"
+type "Weapon"
+using "CL_WPN_MAG_Base_Quarterstaff"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Rapier
+new entry "CL_WPN_MAG_Sentinel_1_Rapier"
+type "Weapon"
+using "CL_WPN_MAG_Base_Rapier"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Scimitar
+new entry "CL_WPN_MAG_Sentinel_1_Scimitar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Scimitar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_Sentinel_1_Shortbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Shortsword
+new entry "CL_WPN_MAG_Sentinel_1_Shortsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Sickle
+new entry "CL_WPN_MAG_Sentinel_1_Sickle"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sickle"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Sling
+new entry "CL_WPN_MAG_Sentinel_1_Sling"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Spear
+new entry "CL_WPN_MAG_Sentinel_1_Spear"
+type "Weapon"
+using "CL_WPN_MAG_Base_Spear"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Trident
+new entry "CL_WPN_MAG_Sentinel_1_Trident"
+type "Weapon"
+using "CL_WPN_MAG_Base_Trident"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// Warhammer
+new entry "CL_WPN_MAG_Sentinel_1_Warhammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_Warhammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"
+
+// War Pick
+new entry "CL_WPN_MAG_Sentinel_1_WarPick"
+type "Weapon"
+using "CL_WPN_MAG_Base_WarPick"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-00010006a12d"
+data "DefaultBoosts" "WeaponEnchantment(1);WeaponProperty(Magical)"
+data "PassivesOnEquip" "MAG_PHB_Sentinel_Shield_Passive"

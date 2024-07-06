@@ -1,0 +1,37 @@
+<contentList>
+    <content contentuid="h369198c3aa03486db994fa41f28f40cfg9b9" version="1">Cauterising Battleaxe</content>
+    <content contentuid="hb825ed28af324e7c986a56964973f2de8717" version="1">Cauterising Club</content>
+    <content contentuid="h82e1744b06da4fd982f0025d6a2a499b3e72" version="1">Cauterising Dagger</content>
+    <content contentuid="hc0ce1d6953a54568988bc63da4473347d9c1" version="1">Cauterising Dart</content>
+    <content contentuid="h1cf23938ee104ca39af3d5134ef2d1647g99" version="1">Cauterising Flail</content>
+    <content contentuid="hb4c7e64303de478bbef746d8cc2ebbd41g49" version="1">Cauterising Glaive</content>
+    <content contentuid="hd1b56287a20b4d028210491465623b948c59" version="1">Cauterising Greataxe</content>
+    <content contentuid="hf114d14a46344f2990d57156456cbd8e4b37" version="1">Cauterising Greatclub</content>
+    <content contentuid="h68723535c57a4d4096fc4f5c3b943d2565ga" version="1">Cauterising Greatsword</content>
+    <content contentuid="h7f9ca201bf77444d80bff364753f9dff67c8" version="1">Cauterising Halberd</content>
+    <content contentuid="h748b4545d84a4596bed5b3f663fd4f028bb2" version="1">Cauterising Handaxe</content>
+    <content contentuid="h98dd02053cde4f398cb64cabfaf2f7109c8f" version="1">Cauterising Hand Crossbow</content>
+    <content contentuid="h1d5122c181434b9d856396802cc3abbb0035" version="1">Cauterising Heavy Crossbow</content>
+    <content contentuid="hf9892ef78ecb4eaba11342a3f318da2388eb" version="1">Cauterising Javelin</content>
+    <content contentuid="hcad91785dcee4bfebcbb94467846e6d7dcdf" version="1">Cauterising Light Crossbow</content>
+    <content contentuid="ha3158bee6b844dad9a59547dc25e3dd5d064" version="1">Cauterising Light Hammer</content>
+    <content contentuid="h8c11790a0b18470188f36c701a6dc1588571" version="1">Cauterising Longbow</content>
+    <content contentuid="hf936aec9f4f747b49c6dc3061ccee8a37991" version="1">Cauterising Longsword</content>
+    <content contentuid="h2ca6c7edfece40bbb83d5db2759f5c25f8dg" version="1">Cauterising Mace</content>
+    <content contentuid="h9e5f306cc90847b9be7e988556bbc9e787gc" version="1">Cauterising Maul</content>
+    <content contentuid="he04f65d0c65043a29531c465e8b1a523f2c3" version="1">Cauterising Morningstar</content>
+    <content contentuid="hb2f9eb06e02b425781ed24c9c604f8e63bd1" version="1">Cauterising Pike</content>
+    <content contentuid="hcff001a68c944b59b2e23ba368afe6421g60" version="1">Cauterising Quarterstaff</content>
+    <content contentuid="hc55b950b3ebf4ef5bd1bbc64cac8d5f7bba6" version="1">Cauterising Rapier</content>
+    <content contentuid="hef4c69057e0445fb8432afaf7ce8f9ef377c" version="1">Cauterising Scimitar</content>
+    <content contentuid="ha5ff15c232934e3d93d1b3048f884ce56815" version="1">Cauterising Shortbow</content>
+    <content contentuid="h27033ee2ecb24a9999715844edf3282f51e9" version="1">Cauterising Shortsword</content>
+    <content contentuid="hc437ff60413a4658af909d009183c7c64288" version="1">Cauterising Sickle</content>
+    <content contentuid="h18132b955595445390326ade039203cc5d74" version="1">Cauterising Sling</content>
+    <content contentuid="h8dfade21da954a89aa4d41dec09cdc027129" version="1">Cauterising Spear</content>
+    <content contentuid="hd091e598954c46809e23dd8f6970032c46d9" version="1">Cauterising Trident</content>
+    <content contentuid="hb400e87431df489cbbe733d2907cc2754aa3" version="1">Cauterising Warhammer</content>
+    <content contentuid="hc4a8d4123b63494c96ab2719c1fb60760216" version="1">Cauterising War Pick</content>
+    <content contentuid="hed9a7360072a4d858f8a9aca6ac88213d2ed" version="1">Cauterising Weapon</content>
+    <content contentuid="h65dc3a2ec270419191f96679c0bc750736g2" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+</contentList>

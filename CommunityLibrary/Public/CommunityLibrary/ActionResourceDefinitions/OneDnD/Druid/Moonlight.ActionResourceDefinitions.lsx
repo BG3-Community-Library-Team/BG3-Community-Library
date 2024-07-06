@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="h7a10340ecdbf41d3aad430ac4fc85dc9e09a" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h9035e4684beb4c59a91a2d6bfb68b20b8f6d" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="CL_Moonlight"/>
+          <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+          <attribute id="UUID" type="guid" value="773bd051-6140-4e34-a38c-ca7193d56335"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

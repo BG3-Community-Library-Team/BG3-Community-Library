@@ -1,0 +1,37 @@
+<contentList>
+    <content contentuid="h672561b9847e44f3bc92aff02a5c40ba68e7" version="1">Bound Battleaxe</content>
+    <content contentuid="hda3169e0755945ae8b9dbcaf7c1233b7647e" version="1">Bound Club</content>
+    <content contentuid="h26a75f7b766f494c9bc14195667bc9410b94" version="1">Bound Dagger</content>
+    <content contentuid="hd5755207c3104c32897b246cacee3d55ddgc" version="1">Bound Dart</content>
+    <content contentuid="h1299da6e1e77406c9484ae96d8b339cdg65c" version="1">Bound Flail</content>
+    <content contentuid="h7bbf456771c44be1bcca21d50f095fab4a23" version="1">Bound Glaive</content>
+    <content contentuid="h6acd8a5d2d2e47859ac5dbed1894138f7g27" version="1">Bound Greataxe</content>
+    <content contentuid="h1c200e6fdf2d4855a828d86dab89922cd7c3" version="1">Bound Greatclub</content>
+    <content contentuid="hc636aa42bc4d478fb630c96e645f3af4e7a9" version="1">Bound Greatsword</content>
+    <content contentuid="hffaf7370ecf04fe7a0b6771fc85cb7dc0531" version="1">Bound Halberd</content>
+    <content contentuid="h8744b48cde304c58b9f66d666d991587g831" version="1">Bound Handaxe</content>
+    <content contentuid="h8e4608a5631643f595ad340430bf56a99227" version="1">Bound Hand Crossbow</content>
+    <content contentuid="h950ce218f9de48f790ae0304a84dda3ca74g" version="1">Bound Heavy Crossbow</content>
+    <content contentuid="h961cd72fafb148b98f77ce687bb5e1a57a91" version="1">Bound Javelin</content>
+    <content contentuid="h5717f8d0f0df421c82ed925ec4d360dbe295" version="1">Bound Light Crossbow</content>
+    <content contentuid="ha49776ca73464e559145e41b2781402c0f10" version="1">Bound Light Hammer</content>
+    <content contentuid="h30b183941bfe43b0a6d5c69b3935b823873f" version="1">Bound Longbow</content>
+    <content contentuid="h3988556b633c4622ba3add4b1976d7f35g0a" version="1">Bound Longsword</content>
+    <content contentuid="h7350a1183cdc41f8a14fe29aee4b26792892" version="1">Bound Mace</content>
+    <content contentuid="hed319821b66a485c9096e8b32ebaff1fadga" version="1">Bound Maul</content>
+    <content contentuid="hd35d1dcef4bc4bd291c08dfa83a860e4cb2f" version="1">Bound Morningstar</content>
+    <content contentuid="h3c185e65ae6449129c065c3117a0ef5a2g4f" version="1">Bound Pike</content>
+    <content contentuid="h33ba6950f75046d3a687b7876e95d5416501" version="1">Bound Quarterstaff</content>
+    <content contentuid="h12ed5584f41d4aa6a9f15ce54e1c134c0f97" version="1">Bound Rapier</content>
+    <content contentuid="hc941d55c89954fbd9365bee0e620508c7703" version="1">Bound Scimitar</content>
+    <content contentuid="hb192b439d0b043b2bcc1f59fe5425d5e68e4" version="1">Bound Shortbow</content>
+    <content contentuid="hb041bdc956d8467e9826b6c6b92a25edb34b" version="1">Bound Shortsword</content>
+    <content contentuid="h13df37d1deea45e794065960e09416efbe06" version="1">Bound Sickle</content>
+    <content contentuid="h3d2a04cb399b4aa28e93bbbd50dd9b141808" version="1">Bound Sling</content>
+    <content contentuid="h2897923c772d498f940ad6d2c2da3dc624ab" version="1">Bound Spear</content>
+    <content contentuid="h6713a33d6edb4f2e850483993d6bdb1afb94" version="1">Bound Trident</content>
+    <content contentuid="hcdb4fc2123c742c3be43fbb87d683050b9a3" version="1">Bound Warhammer</content>
+    <content contentuid="h918a827eb198484981a53fe740d25d0be352" version="1">Bound War Pick</content>
+    <content contentuid="hcb872624a6f4429e8f6551b3cf6b8103db21" version="1">Bound Weapon</content>
+    <content contentuid="h03fb6b66d68d40c980e033ba11634d18b285" version="1">The weapon can't be knocked out of the wielder's hand, and automatically returns to the wielder when thrown.</content>
+</contentList>

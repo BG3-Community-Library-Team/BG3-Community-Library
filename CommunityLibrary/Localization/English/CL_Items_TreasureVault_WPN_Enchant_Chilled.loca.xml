@@ -1,0 +1,37 @@
+<contentList>
+    <content contentuid="hfb7982668fc442769a2d43f2440d8076d5db" version="1">Chilled Battleaxe</content>
+    <content contentuid="he8a831251b1b4ec39f7a19bfb28ff094231b" version="1">Chilled Club</content>
+    <content contentuid="hd1961ec421dd4cf28595e2304c22fe838262" version="1">Chilled Dagger</content>
+    <content contentuid="h5327be23987f4eb0a9da619c66771f9f691d" version="1">Chilled Dart</content>
+    <content contentuid="hda35005d4fdb41c394cd7039119177c6ddgg" version="1">Chilled Flail</content>
+    <content contentuid="h78bc04d848c040b5a27f783943013a6683f8" version="1">Chilled Glaive</content>
+    <content contentuid="hc8f555dc738544348c6d36234feea570923d" version="1">Chilled Greataxe</content>
+    <content contentuid="h15fe2faa0d9749e6b59fa9d61706c7436cd5" version="1">Chilled Greatclub</content>
+    <content contentuid="h4017535e796d49dd9cf313fd5ed0d770eeb3" version="1">Chilled Greatsword</content>
+    <content contentuid="hb99c05bc417f49e18eb358eac666c60c68e9" version="1">Chilled Halberd</content>
+    <content contentuid="h1c2a50bfe42948e8b573f4fbd527595ag14e" version="1">Chilled Handaxe</content>
+    <content contentuid="hf1a313f9514847fda88bb0e9e243efc87g1e" version="1">Chilled Hand Crossbow</content>
+    <content contentuid="ha0e0924a7c0b4c3099f95416850bbaf02008" version="1">Chilled Heavy Crossbow</content>
+    <content contentuid="he6c1ad1b33624033adf144c9d1b4c6960ggc" version="1">Chilled Javelin</content>
+    <content contentuid="h0309a129a47e454b9972d47a22400fa71f9f" version="1">Chilled Light Crossbow</content>
+    <content contentuid="h3b5cc9ffb86e42cebd491c0546e435891033" version="1">Chilled Light Hammer</content>
+    <content contentuid="haace0068d8584834991bdb156a373a2bgc5c" version="1">Chilled Longbow</content>
+    <content contentuid="hed0b96bde13c459c85f91908f3e0bc203gg4" version="1">Chilled Longsword</content>
+    <content contentuid="h988d1c13bd8a481493877f2bb66de0b0e006" version="1">Chilled Mace</content>
+    <content contentuid="hd4bb65eb94234f028cb18c8d69bdf9ac84ca" version="1">Chilled Maul</content>
+    <content contentuid="h8143c03e208c4b0d85560bc532cfd8d2a3fe" version="1">Chilled Morningstar</content>
+    <content contentuid="h84200e15adb14c2ab90e22bbd5dc0cbd3cb7" version="1">Chilled Pike</content>
+    <content contentuid="h44168d803b4646b98de54c1732c07f9cg2cc" version="1">Chilled Quarterstaff</content>
+    <content contentuid="h214d9b51db7741a18aa7a481e7ff06e50c61" version="1">Chilled Rapier</content>
+    <content contentuid="hde10b6f9d9ba4a31b1c8927044b01d1f50dc" version="1">Chilled Scimitar</content>
+    <content contentuid="h0fef313d444a45beb939ae741f714378492e" version="1">Chilled Shortbow</content>
+    <content contentuid="haf513d8ef60045c2b2bf6cf1debc45d50054" version="1">Chilled Shortsword</content>
+    <content contentuid="h33279b1b9738465f8d2f3a3eff0a82a13713" version="1">Chilled Sickle</content>
+    <content contentuid="h2444ca1e7e0c4ff1a174bb632b02ccb5672f" version="1">Chilled Sling</content>
+    <content contentuid="h27e245c32b25448ead2e1a34605f88307951" version="1">Chilled Spear</content>
+    <content contentuid="h6d9f8a91ff5a43538b3950cc948b79e952a4" version="1">Chilled Trident</content>
+    <content contentuid="ha627e39d6e8547eea32759820587350dbcbf" version="1">Chilled Warhammer</content>
+    <content contentuid="hf3145b6442f445a78680beca268ebc30gffd" version="1">Chilled War Pick</content>
+    <content contentuid="hc32aee03496c4520b907f42ac09027368504" version="1">Chilled Weapon</content>
+    <content contentuid="haeb012a0e84f4ea88f99bc3ba65b61ef6cc0" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="CHILLED"&gt;Chilled&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+</contentList>

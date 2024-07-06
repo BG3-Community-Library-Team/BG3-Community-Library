@@ -1,0 +1,8 @@
+new entry "CL_Passive_OneDnD_ShortRestWildShapeRecovery"
+type "PassiveData"
+data "DisplayName" "h2ec118c40a9c4b3b93da44a79854c1349950;1"
+data "Description" "ha4ff4d220538416d9053395dd63279311e5c;1"
+data "Icon" "Skill_Druid_WildShape"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnShortRest"
+data "StatsFunctors" "RestoreResource(SELF,WildShape,1,0)"

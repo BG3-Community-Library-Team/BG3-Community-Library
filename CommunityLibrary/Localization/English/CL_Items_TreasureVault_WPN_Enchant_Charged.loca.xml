@@ -1,0 +1,37 @@
+<contentList>
+    <content contentuid="hc13af4fc32b846e6a429a8f7dfb244ea4acf" version="1">Charged Battleaxe</content>
+    <content contentuid="h71c0d25184c04485a57537b37f263acecdd7" version="1">Charged Club</content>
+    <content contentuid="hd4c46adf60b142689ef953ab926dbb5c5033" version="1">Charged Dagger</content>
+    <content contentuid="h9111aff6c7a649a4973cd631abc4172afg60" version="1">Charged Dart</content>
+    <content contentuid="hde91315d84ea4ac6912fbf91a9168b3e5c6c" version="1">Charged Flail</content>
+    <content contentuid="h7aeee41430994851ab0c4a62c704fa0855g2" version="1">Charged Glaive</content>
+    <content contentuid="h9d9a40e91427446dbb9a25918a545215d46g" version="1">Charged Greataxe</content>
+    <content contentuid="hcefa702eb08d40399334cf1650bd5af1e015" version="1">Charged Greatclub</content>
+    <content contentuid="h260204917be74a4cb83e3342482c7bbb03g1" version="1">Charged Greatsword</content>
+    <content contentuid="h5ad85b1978cb4de5a2bb17323ef2cde9bda5" version="1">Charged Halberd</content>
+    <content contentuid="h526542eed7f445f9b3ac5bd09381e7abada2" version="1">Charged Handaxe</content>
+    <content contentuid="h980428220513424aa3f72229bcb21330821e" version="1">Charged Hand Crossbow</content>
+    <content contentuid="h8d43c40d021140caae4dd482901dc97e49f9" version="1">Charged Heavy Crossbow</content>
+    <content contentuid="h8358cbd8f0ed49fc85bc9452d6a0f1866985" version="1">Charged Javelin</content>
+    <content contentuid="h6df7f8f76e6f40588d2f19dd00cee4b0b2c6" version="1">Charged Light Crossbow</content>
+    <content contentuid="h61680ae917e8460eaa4e0d5d77e3a338477d" version="1">Charged Light Hammer</content>
+    <content contentuid="h3a7b5630cb624ba5b6c53fe8c71d0a66db8a" version="1">Charged Longbow</content>
+    <content contentuid="h64f463d5d412444e9513214b0fa3c8ea2g26" version="1">Charged Longsword</content>
+    <content contentuid="h1955dbf8e32f4b5699c2a13a94f622e08778" version="1">Charged Mace</content>
+    <content contentuid="he47a5d1f6d25432bba5e1063cbf166a7b5fg" version="1">Charged Maul</content>
+    <content contentuid="h61027df646344371ad9b8f9fd701b9d8bc72" version="1">Charged Morningsta</content>
+    <content contentuid="h56774b2048fe41d992365bd0b2d5b77c7e47" version="1">Charged Pike</content>
+    <content contentuid="hde56ad6d58cf43e8bd58ab52b18a5f1ab202" version="1">Charged QuarterstafF</content>
+    <content contentuid="h1cb73bc499d342c88ce0162a71bafb94227f" version="1">Charged Rapier</content>
+    <content contentuid="hcd61625bf2c1485bb4b350cd33689e935dbc" version="1">Charged Scimitar</content>
+    <content contentuid="h833113da10124501ad9ea85a7d022d63g4d1" version="1">Charged Shortbow</content>
+    <content contentuid="h6e53dabaec1a4decad3a19d97e0db98396cb" version="1">Charged Shortsword</content>
+    <content contentuid="h91be844019634fabab511fd7f8344bc0d1ee" version="1">Charged Sickle</content>
+    <content contentuid="h06b9e46b72254db7bb7ac064823d4655g9d2" version="1">Charged Sling</content>
+    <content contentuid="h89292c6bf1eb4d779583eb8691acc30a2769" version="1">Charged Spear</content>
+    <content contentuid="h699dedba9a534698ade9021b69196c4ae847" version="1">Charged Trident</content>
+    <content contentuid="hdfd26fe677ab4a328681c4c0b61cd879a36e" version="1">Charged Warhammer</content>
+    <content contentuid="h3ccf0b49b65d4780a6b3e174668c94b98cd6" version="1">Charged War Pick</content>
+    <content contentuid="hba436c59bb5b4f5da03bfa84471721c04f86" version="1">Charged Weapon</content>
+    <content contentuid="h5cf86aa9cece4096bf24ca304e633a7959e4" version="1">Deals an additional [1].&lt;br&gt;&lt;br&gt;On a hit, it also inflicts &lt;LSTag Type="Status" Tooltip="SHOCKED"&gt;Shocked&lt;/LSTag&gt; unless the target succeeds a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+</contentList>
