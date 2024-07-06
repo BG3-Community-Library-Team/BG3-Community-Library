@@ -1,13 +1,3 @@
---[[
-True Strike works as written. Tooltip Damage is correct, Mouseover hitchance and damage is displayed correctly.
-Issue 1:
-Have to manually add statuses with WeaponAttackRollAbilityOverride() to CL_TSOvr() to make the tooltip display correctly, you'll always get the correct damage and hitchance though.
-Will fix with SE at a later point.
-Issue 2:
-Applying WeaponDamageTypeOverride() in time only works with SE.
-Only part that 'requires' SE the rest could be added to the character without it. Can possibly be fixed with Cast1 & cast2 with custom animations.
-]]--
-
 --Thanks Celes
 function CL_TrueStrike_Melee()
 	return Attack(AttackType.MeleeWeaponAttack)
@@ -66,11 +56,11 @@ end
 function CL_TSBonus(value,source)
     local value = value or 0
     local source = source or context.Source
-    return (CL_AttackRollAbility(Ability.Strength) & ((CL_ModifierOffset(value,source.Charisma,source.Strength) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Strength) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Strength) & CL_TSWisdom()))) 
-    | (CL_AttackRollAbility(Ability.Dexterity) & ((CL_ModifierOffset(value,source.Charisma,source.Dexterity) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Dexterity) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Dexterity) & CL_TSWisdom()))) 
-    | (CL_AttackRollAbility(Ability.Constitution) & ((CL_ModifierOffset(value,source.Charisma,source.Constitution) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Constitution) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Constitution) & CL_TSWisdom()))) 
-    | (CL_AttackRollAbility(Ability.Charisma) & ((CL_ModifierOffset(value,source.Intelligence,source.Charisma) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Charisma) & CL_TSWisdom()))) 
-    | (CL_AttackRollAbility(Ability.Intelligence) & ((CL_ModifierOffset(value,source.Charisma,source.Intelligence) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Wisdom,source.Intelligence) & CL_TSWisdom()))) 
+    return (CL_AttackRollAbility(Ability.Strength) & ((CL_ModifierOffset(value,source.Charisma,source.Strength) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Strength) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Strength) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Dexterity) & ((CL_ModifierOffset(value,source.Charisma,source.Dexterity) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Dexterity) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Dexterity) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Constitution) & ((CL_ModifierOffset(value,source.Charisma,source.Constitution) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Intelligence,source.Constitution) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Constitution) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Charisma) & ((CL_ModifierOffset(value,source.Intelligence,source.Charisma) & CL_TSIntelligence()) | (CL_ModifierOffset(value,source.Wisdom,source.Charisma) & CL_TSWisdom())))
+    | (CL_AttackRollAbility(Ability.Intelligence) & ((CL_ModifierOffset(value,source.Charisma,source.Intelligence) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Wisdom,source.Intelligence) & CL_TSWisdom())))
     | (CL_AttackRollAbility(Ability.Wisdom) & ((CL_ModifierOffset(value,source.Charisma,source.Wisdom) & CL_TSCharisma()) | (CL_ModifierOffset(value,source.Wisdom,source.Constitution) & CL_TSIntelligence())))
 end
 

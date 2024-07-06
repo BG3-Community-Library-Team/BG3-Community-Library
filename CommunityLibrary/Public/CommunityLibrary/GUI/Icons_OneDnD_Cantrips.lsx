@@ -47,7 +47,7 @@
                     <attribute id="V2" type="float" value="0.25"/> B
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="MapKey" type="FixedString" value="CL_Icons_OneDnd_ProduceFlame_Hurl"/>
                     <attribute id="U1" type="float" value="0.5"/> L
                     <attribute id="U2" type="float" value="0.75"/> R
                     <attribute id="V1" type="float" value="0.25"/> T
@@ -103,14 +103,14 @@
                     <attribute id="V2" type="float" value="0.75"/> B
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="MapKey" type="FixedString" value="CL_Icons_OneDnd_Shillelagh_Force_Toggle"/>
                     <attribute id="U1" type="float" value="0.5"/> L
                     <attribute id="U2" type="float" value="0.75"/> R
                     <attribute id="V1" type="float" value="0.75"/> T
                     <attribute id="V2" type="float" value="1.0"/> B
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value=""/>
+                    <attribute id="MapKey" type="FixedString" value="CL_Icons_OneDnD_TrueStrike_Radiant_Toggle"/>
                     <attribute id="U1" type="float" value="0.75"/> L
                     <attribute id="U2" type="float" value="1.0"/> R
                     <attribute id="V1" type="float" value="0.75"/> T

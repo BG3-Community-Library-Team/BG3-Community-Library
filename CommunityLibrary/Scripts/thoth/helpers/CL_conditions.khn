@@ -434,7 +434,7 @@ function CL_ModiferGreaterThanModifer(ability,ability2)
 end
 
 --('Cha',{'Int','Wis'})
-function CL_AbilityGreaterThan(ability,include)
+function CL_AbilityGreaterThan(ability,compare)
   C = {}
   M = {}
   M['Dex'] = context.Source.Dexterity
@@ -444,11 +444,11 @@ function CL_AbilityGreaterThan(ability,include)
   M['Int'] = context.Source.Intelligence
   M['Wis'] = context.Source.Wisdom
 
-  local include = include or {}
+  local compare = compare or {}
   local ability = M[ability]
   local count = 0
-  if include ~= nil then
-      for _, include in ipairs(include) do
+  if compare ~= nil then
+      for _, include in ipairs(compare) do
           C[include] = M[include]
           count = count + 1
       end
@@ -470,7 +470,7 @@ function CL_AbilityGreaterThan(ability,include)
 end
 
 --('Cha',{'Int','Wis'})
-function CL_AbilityEqualOrGreaterThan(ability,include)
+function CL_AbilityEqualOrGreaterThan(ability,compare)
   C = {}
   M = {}
   M['Dex'] = context.Source.Dexterity
@@ -480,11 +480,11 @@ function CL_AbilityEqualOrGreaterThan(ability,include)
   M['Int'] = context.Source.Intelligence
   M['Wis'] = context.Source.Wisdom
 
-  local include = include or {}
+  local compare = compare or {}
   local ability = M[ability]
   local count = 0
-  if include ~= nil then
-      for _, include in ipairs(include) do
+  if compare ~= nil then
+      for _, include in ipairs(compare) do
           C[include] = M[include]
           count = count + 1
       end
