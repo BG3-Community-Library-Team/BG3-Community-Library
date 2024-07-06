@@ -1,0 +1,1 @@
+// "Boosts" "UnlockSpellVariant('SpellId('')',ModifySpellFlags(WildShape,1))"
