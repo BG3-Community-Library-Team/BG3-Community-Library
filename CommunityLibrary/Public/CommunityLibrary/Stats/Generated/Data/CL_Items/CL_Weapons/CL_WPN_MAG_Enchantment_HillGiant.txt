@@ -1,0 +1,231 @@
+// Battleaxe
+new entry "CL_WPN_MAG_HillGiant_Battleaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Battleaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Club
+new entry "CL_WPN_MAG_HillGiant_Club"
+type "Weapon"
+using "CL_WPN_MAG_Base_Club"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Dagger
+new entry "CL_WPN_MAG_HillGiant_Dagger"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dagger"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Dart
+new entry "CL_WPN_MAG_HillGiant_Dart"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dart"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Flail
+new entry "CL_WPN_MAG_HillGiant_Flail"
+type "Weapon"
+using "CL_WPN_MAG_Base_Flail"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Glaive
+new entry "CL_WPN_MAG_HillGiant_Glaive"
+type "Weapon"
+using "CL_WPN_MAG_Base_Glaive"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Greataxe
+new entry "CL_WPN_MAG_HillGiant_Greataxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greataxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Greatclub
+new entry "CL_WPN_MAG_HillGiant_Greatclub"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatclub"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Greatsword
+new entry "CL_WPN_MAG_HillGiant_Greatsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Halberd
+new entry "CL_WPN_MAG_HillGiant_Halberd"
+type "Weapon"
+using "CL_WPN_MAG_Base_Halberd"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Handaxe
+new entry "CL_WPN_MAG_HillGiant_Handaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Handaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_HillGiant_HandCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HandCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_HillGiant_HeavyCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HeavyCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Javelin
+new entry "CL_WPN_MAG_HillGiant_Javelin"
+type "Weapon"
+using "CL_WPN_MAG_Base_Javelin"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_HillGiant_LightCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Light Hammer
+new entry "CL_WPN_MAG_HillGiant_LightHammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightHammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Longbow
+new entry "CL_WPN_MAG_HillGiant_Longbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Longsword
+new entry "CL_WPN_MAG_HillGiant_Longsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Mace
+new entry "CL_WPN_MAG_HillGiant_Mace"
+type "Weapon"
+using "CL_WPN_MAG_Base_Mace"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Maul
+new entry "CL_WPN_MAG_HillGiant_Maul"
+type "Weapon"
+using "CL_WPN_MAG_Base_Maul"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Morningstar
+new entry "CL_WPN_MAG_HillGiant_Morningstar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Morningstar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Pike
+new entry "CL_WPN_MAG_HillGiant_Pike"
+type "Weapon"
+using "CL_WPN_MAG_Base_Pike"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_HillGiant_Quarterstaff"
+type "Weapon"
+using "CL_WPN_MAG_Base_Quarterstaff"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Rapier
+new entry "CL_WPN_MAG_HillGiant_Rapier"
+type "Weapon"
+using "CL_WPN_MAG_Base_Rapier"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Scimitar
+new entry "CL_WPN_MAG_HillGiant_Scimitar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Scimitar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_HillGiant_Shortbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Shortsword
+new entry "CL_WPN_MAG_HillGiant_Shortsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Sickle
+new entry "CL_WPN_MAG_HillGiant_Sickle"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sickle"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Sling
+new entry "CL_WPN_MAG_HillGiant_Sling"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Spear
+new entry "CL_WPN_MAG_HillGiant_Spear"
+type "Weapon"
+using "CL_WPN_MAG_Base_Spear"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Trident
+new entry "CL_WPN_MAG_HillGiant_Trident"
+type "Weapon"
+using "CL_WPN_MAG_Base_Trident"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// Warhammer
+new entry "CL_WPN_MAG_HillGiant_Warhammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_Warhammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"
+
+// War Pick
+new entry "CL_WPN_MAG_HillGiant_WarPick"
+type "Weapon"
+using "CL_WPN_MAG_Base_WarPick"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-000000b16b01"
+data "PassivesOnEquip" "UND_StrengthChair_Leg_Passive"

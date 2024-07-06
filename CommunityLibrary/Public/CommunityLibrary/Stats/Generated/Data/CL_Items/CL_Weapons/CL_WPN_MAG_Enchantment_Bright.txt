@@ -1,0 +1,198 @@
+// Battleaxe
+new entry "CL_WPN_MAG_Bright_Battleaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Battleaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-00000000117e"
+
+// Club
+new entry "CL_WPN_MAG_Bright_Club"
+type "Weapon"
+using "CL_WPN_MAG_Base_Club"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-00000000117e"
+
+// Dagger
+new entry "CL_WPN_MAG_Bright_Dagger"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dagger"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-00000000117e"
+
+// Dart
+new entry "CL_WPN_MAG_Bright_Dart"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dart"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-00000000117e"
+
+// Flail
+new entry "CL_WPN_MAG_Bright_Flail"
+type "Weapon"
+using "CL_WPN_MAG_Base_Flail"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-00000000117e"
+
+// Glaive
+new entry "CL_WPN_MAG_Bright_Glaive"
+type "Weapon"
+using "CL_WPN_MAG_Base_Glaive"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-00000000117e"
+
+// Greataxe
+new entry "CL_WPN_MAG_Bright_Greataxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greataxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-00000000117e"
+
+// Greatclub
+new entry "CL_WPN_MAG_Bright_Greatclub"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatclub"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-00000000117e"
+
+// Greatsword
+new entry "CL_WPN_MAG_Bright_Greatsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-00000000117e"
+
+// Halberd
+new entry "CL_WPN_MAG_Bright_Halberd"
+type "Weapon"
+using "CL_WPN_MAG_Base_Halberd"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-00000000117e"
+
+// Handaxe
+new entry "CL_WPN_MAG_Bright_Handaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Handaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-00000000117e"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_Bright_HandCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HandCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-00000000117e"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_Bright_HeavyCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HeavyCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-00000000117e"
+
+// Javelin
+new entry "CL_WPN_MAG_Bright_Javelin"
+type "Weapon"
+using "CL_WPN_MAG_Base_Javelin"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-00000000117e"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_Bright_LightCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-00000000117e"
+
+// Light Hammer
+new entry "CL_WPN_MAG_Bright_LightHammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightHammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-00000000117e"
+
+// Longbow
+new entry "CL_WPN_MAG_Bright_Longbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-00000000117e"
+
+// Longsword
+new entry "CL_WPN_MAG_Bright_Longsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-00000000117e"
+
+// Mace
+new entry "CL_WPN_MAG_Bright_Mace"
+type "Weapon"
+using "CL_WPN_MAG_Base_Mace"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-00000000117e"
+
+// Maul
+new entry "CL_WPN_MAG_Bright_Maul"
+type "Weapon"
+using "CL_WPN_MAG_Base_Maul"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-00000000117e"
+
+// Morningstar
+new entry "CL_WPN_MAG_Bright_Morningstar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Morningstar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-00000000117e"
+
+// Pike
+new entry "CL_WPN_MAG_Bright_Pike"
+type "Weapon"
+using "CL_WPN_MAG_Base_Pike"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-00000000117e"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_Bright_Quarterstaff"
+type "Weapon"
+using "CL_WPN_MAG_Base_Quarterstaff"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-00000000117e"
+
+// Rapier
+new entry "CL_WPN_MAG_Bright_Rapier"
+type "Weapon"
+using "CL_WPN_MAG_Base_Rapier"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-00000000117e"
+
+// Scimitar
+new entry "CL_WPN_MAG_Bright_Scimitar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Scimitar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-00000000117e"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_Bright_Shortbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-00000000117e"
+
+// Shortsword
+new entry "CL_WPN_MAG_Bright_Shortsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-00000000117e"
+
+// Sickle
+new entry "CL_WPN_MAG_Bright_Sickle"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sickle"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-00000000117e"
+
+// Sling
+new entry "CL_WPN_MAG_Bright_Sling"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-00000000117e"
+
+// Spear
+new entry "CL_WPN_MAG_Bright_Spear"
+type "Weapon"
+using "CL_WPN_MAG_Base_Spear"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-00000000117e"
+
+// Trident
+new entry "CL_WPN_MAG_Bright_Trident"
+type "Weapon"
+using "CL_WPN_MAG_Base_Trident"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-00000000117e"
+
+// Warhammer
+new entry "CL_WPN_MAG_Bright_Warhammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_Warhammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-00000000117e"
+
+// War Pick
+new entry "CL_WPN_MAG_Bright_WarPick"
+type "Weapon"
+using "CL_WPN_MAG_Base_WarPick"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-00000000117e"

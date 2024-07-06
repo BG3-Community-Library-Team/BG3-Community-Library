@@ -1,0 +1,306 @@
+new entry "CL_Passive_WPN_Cauterising"
+type "PassiveData"
+data "DisplayName" "hed9a7360072a4d858f8a9aca6ac88213d2ed;1"
+data "Description" "h65dc3a2ec270419191f96679c0bc750736g2;1"
+data "DescriptionParams" "DealDamage(1d4,Fire)"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "AttackedWithPassiveSourceWeapon()"
+data "StatsFunctors" "ApplyStatus(BURNING, 100, 2,,,,not SavingThrow(Ability.Constitution,13))"
+
+// Battleaxe
+new entry "CL_WPN_MAG_Cauterising_Battleaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Battleaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b001-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Club
+new entry "CL_WPN_MAG_Cauterising_Club"
+type "Weapon"
+using "CL_WPN_MAG_Base_Club"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b002-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Dagger
+new entry "CL_WPN_MAG_Cauterising_Dagger"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dagger"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b003-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Dart
+new entry "CL_WPN_MAG_Cauterising_Dart"
+type "Weapon"
+using "CL_WPN_MAG_Base_Dart"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b004-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Flail
+new entry "CL_WPN_MAG_Cauterising_Flail"
+type "Weapon"
+using "CL_WPN_MAG_Base_Flail"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b005-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Glaive
+new entry "CL_WPN_MAG_Cauterising_Glaive"
+type "Weapon"
+using "CL_WPN_MAG_Base_Glaive"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b006-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Greataxe
+new entry "CL_WPN_MAG_Cauterising_Greataxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greataxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b007-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Greatclub
+new entry "CL_WPN_MAG_Cauterising_Greatclub"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatclub"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b008-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Greatsword
+new entry "CL_WPN_MAG_Cauterising_Greatsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Greatsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b009-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Halberd
+new entry "CL_WPN_MAG_Cauterising_Halberd"
+type "Weapon"
+using "CL_WPN_MAG_Base_Halberd"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b010-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Handaxe
+new entry "CL_WPN_MAG_Cauterising_Handaxe"
+type "Weapon"
+using "CL_WPN_MAG_Base_Handaxe"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b011-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Hand Crossbow
+new entry "CL_WPN_MAG_Cauterising_HandCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HandCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b012-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Heavy Crossbow
+new entry "CL_WPN_MAG_Cauterising_HeavyCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_HeavyCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b013-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Javelin
+new entry "CL_WPN_MAG_Cauterising_Javelin"
+type "Weapon"
+using "CL_WPN_MAG_Base_Javelin"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b014-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Light Crossbow
+new entry "CL_WPN_MAG_Cauterising_LightCrossbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightCrossbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b015-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Light Hammer
+new entry "CL_WPN_MAG_Cauterising_LightHammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_LightHammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b016-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Longbow
+new entry "CL_WPN_MAG_Cauterising_Longbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b017-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Longsword
+new entry "CL_WPN_MAG_Cauterising_Longsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Longsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b018-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Mace
+new entry "CL_WPN_MAG_Cauterising_Mace"
+type "Weapon"
+using "CL_WPN_MAG_Base_Mace"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b019-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Maul
+new entry "CL_WPN_MAG_Cauterising_Maul"
+type "Weapon"
+using "CL_WPN_MAG_Base_Maul"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b020-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Morningstar
+new entry "CL_WPN_MAG_Cauterising_Morningstar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Morningstar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b021-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Pike
+new entry "CL_WPN_MAG_Cauterising_Pike"
+type "Weapon"
+using "CL_WPN_MAG_Base_Pike"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b022-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Quarterstaff
+new entry "CL_WPN_MAG_Cauterising_Quarterstaff"
+type "Weapon"
+using "CL_WPN_MAG_Base_Quarterstaff"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b023-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Rapier
+new entry "CL_WPN_MAG_Cauterising_Rapier"
+type "Weapon"
+using "CL_WPN_MAG_Base_Rapier"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b024-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Scimitar
+new entry "CL_WPN_MAG_Cauterising_Scimitar"
+type "Weapon"
+using "CL_WPN_MAG_Base_Scimitar"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b025-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+
+// Shortbow
+new entry "CL_WPN_MAG_Cauterising_Shortbow"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortbow"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b026-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Shortsword
+new entry "CL_WPN_MAG_Cauterising_Shortsword"
+type "Weapon"
+using "CL_WPN_MAG_Base_Shortsword"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b027-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Sickle
+new entry "CL_WPN_MAG_Cauterising_Sickle"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sickle"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b028-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Sling
+new entry "CL_WPN_MAG_Cauterising_Sling"
+type "Weapon"
+using "CL_WPN_MAG_Base_Sling"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b029-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Spear
+new entry "CL_WPN_MAG_Cauterising_Spear"
+type "Weapon"
+using "CL_WPN_MAG_Base_Spear"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b030-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Trident
+new entry "CL_WPN_MAG_Cauterising_Trident"
+type "Weapon"
+using "CL_WPN_MAG_Base_Trident"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b031-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// Warhammer
+new entry "CL_WPN_MAG_Cauterising_Warhammer"
+type "Weapon"
+using "CL_WPN_MAG_Base_Warhammer"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b032-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
+
+// War Pick
+new entry "CL_WPN_MAG_Cauterising_WarPick"
+type "Weapon"
+using "CL_WPN_MAG_Base_WarPick"
+data "RootTemplate" "c1cfc0d3-1007-5af3-b033-00000ca7e15e"
+data "WeaponFunctors" "GROUND:SurfaceChange(Ignite)"
+data "DefaultBoosts" "HiddenDuringCinematic();WeaponProperty(Magical)"
+data "PassivesOnEquip" "CL_Passive_WPN_Cauterising"
