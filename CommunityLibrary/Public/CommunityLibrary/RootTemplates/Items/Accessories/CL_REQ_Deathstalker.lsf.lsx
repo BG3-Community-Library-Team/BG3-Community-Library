@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids,lsf_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha0155da6g80a5g49c9g91a6g42817f56f569" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1c70ee989cd54f5ea924779cdbbc4c6607c0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_MAG_Myrkulites_RingofMyrkul_Ring_GLOW" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4d0e0c9f-dfdf-4d34-9bbc-c1c0c89b794c" />
+					<attribute id="Name" type="LSString" value="CL_ARM_REQ_DarkUrge_Bhaal_Ring" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2f157b63-5500-406f-bf32-90011d612907" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e44f31d2-6438-63a2-b09f-105ab55769d8" />
+					<attribute id="Stats" type="FixedString" value="CL_ARM_REQ_DarkUrge_Bhaal_Ring" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="b124c9c1-648d-b729-a1ca-8952c05c2040" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144818875517632512" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.06433502 0.09478083 0.09340002" />
+									<attribute id="Min" type="fvec3" value="-0.06433502 -0.0008724779 -0.07501854" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.06433502 0.09478083 0.09340002" />
+									<attribute id="Min" type="fvec3" value="-0.06433502 -0.0008724779 -0.07501854" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.06433502 0.09478083 0.09340002" />
+									<attribute id="Min" type="fvec3" value="-0.06433502 -0.0008724779 -0.07501854" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha0155da6g80a5g49c9g91a6g42817f56f569" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf1cbaca83be24aa292678ddbfa6fa80f3108" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_of_Bhaal_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7a8572be-fade-4971-af0d-22f9061ea0da" />
+					<attribute id="Name" type="LSString" value="CL_ARM_REQ_DarkUrge_Bhaal_Amulet" />
+					<attribute id="ParentTemplateId" type="FixedString" value="303990e3-5546-44a3-9c5a-f9aa1702ad51" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="84a96556-7907-eb42-d0b5-4a168b953ef9" />
+					<attribute id="Stats" type="FixedString" value="CL_ARM_REQ_DarkUrge_Bhaal_Amulet" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="a2e240c1-c75b-a77e-00cd-e2323c312255" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209021" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.04587318 0.019708747 0.44187042" />
+									<attribute id="Min" type="fvec3" value="-0.0506872 0 -0.058353573" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.04587318 0.019708747 0.44187042" />
+									<attribute id="Min" type="fvec3" value="-0.0506872 0 -0.058353573" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.04587318 0.019708747 0.44187042" />
+									<attribute id="Min" type="fvec3" value="-0.0506872 0 -0.058353573" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
