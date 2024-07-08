@@ -405,7 +405,7 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-b019-00000000117e" />
 					<attribute id="Name" type="LSString" value="CL_WPN_MAG_Bright_Mace" />
-					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e000000001036dbd1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-b019-ba5e00000000" />
 					<attribute id="Stats" type="FixedString" value="CL_WPN_MAG_Bright_Mace" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />

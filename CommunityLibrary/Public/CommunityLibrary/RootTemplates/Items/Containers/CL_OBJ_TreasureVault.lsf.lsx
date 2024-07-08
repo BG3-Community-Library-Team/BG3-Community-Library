@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="320" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Name" type="LSString" value="CL_CONT_Template_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1849ce97-45ac-43ea-9518-9f80aaa0c005" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_Template_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_Template_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hc53f6c5abe1342ea804043cb59b42cd305g8" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-100710071007" />
+					<attribute id="Name" type="LSString" value="CL_CONT_TreasureVault_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="51446e33-fea9-4166-9b7e-74b8e3fc9809" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_TreasureVault_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_TreasureVault_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h633b4448d336438c919b7a85f7ffdb3dfg8g" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-ba5e00000000" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Base_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Base_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Base_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hc1a744f39f1a49f2ba5644937c6e15595gbb" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000ab5cade" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Ambuscade_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Ambuscade_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Ambuscade_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h6bd205753c0a466190f28dc812f8f5c8ba96" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-000100007055" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Bound_1_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Bound_1_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Bound_1_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hd03b166362b140199dc8d8c3b5d7fd787d02" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000117e" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Bright_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Bright_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Bright_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h7e6a09201e7a46a3845d0041c126c61c66b8" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ac1d" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Caustic_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Caustic_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Caustic_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="heeb754b76076463daf1094d4176cf2d3g77e" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000ca7e15e" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Cauterising_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Cauterising_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Cauterising_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h07a86da262b944c09886fa0999a63bb652ab" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000057a71c" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Charged_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Charged_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Charged_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h9a04875a598d4c4baa1e3c17ab92e8f316c1" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000c01d" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Chilled_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Chilled_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Chilled_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h1e6073c1bc75451a9154b7640a6c7a947gfa" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-0000000fea12" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Doom_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Doom_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Doom_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="ha2ede5d595094f2fa0f9f01867cdd769ee97" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-000000b16b01" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_HillGiant_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_HillGiant_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_HillGiant_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hfb6c6a0f8e874986a212f025509a665cgd42" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-000000050661" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Moist_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Moist_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Moist_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h754e926706d740448ecccf7fa76e495022e4" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-000000057a1c" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_MonsterHunter_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_MonsterHunter_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_MonsterHunter_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h2833c51ea66f4bfd90b92b9b9f0ad7c3d96a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000d3f7" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Nimble_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Nimble_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Nimble_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hd0c6c994fff44df0b7c8b99424db45ad6b07" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00010006a12d" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Sentinel_1_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Sentinel_1_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Sentinel_1_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hfcdb04188dca43ed822bd7ed0376f55e5342" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-000100005512" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_SpellSlotRecharge_1_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_SpellSlotRecharge_1_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_SpellSlotRecharge_1_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h2b60b257a337418eb569e01c1a324786287a" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-0000bac7e21a" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Toxic_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Toxic_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Toxic_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h0b3c611d4ce24beb98d44dce8d90743fe647" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-c1cf12dea7ab" />
+					<attribute id="Name" type="LSString" value="CL_CONT_ARM_Deathstalker_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e036eac-fc9c-4d16-9265-f71eacc9f3e9" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_ARM_Deathstalker_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_ARM_Deathstalker_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="haeef19f3e2bc4c94ba446e3d581a0f0dd9ea" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c1cfc0d3-1007-5af3-c000-f00d00000000" />
+					<attribute id="Name" type="LSString" value="CL_CONT_WPN_MAG_Salami_Container" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c1cfc0d3-1007-5af3-c000-00000000ba5e" />
+					<attribute id="Stats" type="FixedString" value="CL_OBJ_WPN_MAG_Salami_Container" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144396663052566628" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="CL_OBJ_WPN_MAG_Salami_TreasureTable" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
