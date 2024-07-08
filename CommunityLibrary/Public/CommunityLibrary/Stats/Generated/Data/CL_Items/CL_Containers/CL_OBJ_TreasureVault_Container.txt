@@ -1,0 +1,125 @@
+// Container Template
+new entry "CL_OBJ_Template_Container"
+type "Object"
+using "OBJ_Chest_LetterBox"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000000ba5e"
+data "ValueOverride" "1"
+data "Weight" "1"
+data "Rarity" "Uncommon"
+
+// Treasure Vault Preview
+new entry "CL_OBJ_TreasureVault_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-100710071007"
+data "Weight" "500"
+data "Rarity" "Legendary"
+
+// Barrel of Magical Weapons
+new entry "CL_OBJ_WPN_MAG_Base_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-ba5e00000000"
+
+// Barrel of Ambuscade Weapons
+new entry "CL_OBJ_WPN_MAG_Ambuscade_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000ab5cade"
+
+// Barrel of Bound Weapons
+new entry "CL_OBJ_WPN_MAG_Bound_1_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-000100007055"
+
+// Barrel of Bright Weapons
+new entry "CL_OBJ_WPN_MAG_Bright_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000000117e"
+
+// Barrel of Caustic Weapons
+new entry "CL_OBJ_WPN_MAG_Caustic_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000000ac1d"
+
+// Barrel of Cauterising Weapons
+new entry "CL_OBJ_WPN_MAG_Cauterising_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000ca7e15e"
+
+// Barrel of Charged Weapons
+new entry "CL_OBJ_WPN_MAG_Charged_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000057a71c"
+
+// Barrel of Chilled Weapons
+new entry "CL_OBJ_WPN_MAG_Chilled_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000000c01d"
+
+// Barrel of Terror Weapons
+new entry "CL_OBJ_WPN_MAG_Doom_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-0000000fea12"
+
+// Barrel of HillGiant Weapons
+new entry "CL_OBJ_WPN_MAG_HillGiant_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-000000b16b01"
+
+// Barrel of Moist Weapons
+new entry "CL_OBJ_WPN_MAG_Moist_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-000000050661"
+
+// Barrel of Monster Hunter Weapons
+new entry "CL_OBJ_WPN_MAG_MonsterHunter_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-000000057a1c"
+
+// Barrel of Nimble Weapons
+new entry "CL_OBJ_WPN_MAG_Nimble_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00000000d3f7"
+
+// Barrel of Sentinel Weapons
+new entry "CL_OBJ_WPN_MAG_Sentinel_1_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-00010006a12d"
+
+// Barrel of SpellSlotRecharge Weapons
+new entry "CL_OBJ_WPN_MAG_SpellSlotRecharge_1_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-000100005512"
+
+// Barrel of Toxic Weapons
+new entry "CL_OBJ_WPN_MAG_Toxic_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-0000bac7e21a"
+
+// Deathstalker Items
+new entry "CL_OBJ_ARM_Deathstalker_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-c1cf12dea7ab"
+data "Rarity" "Rare"
+
+// SALAMI!
+new entry "CL_OBJ_WPN_MAG_Salami_Container"
+type "Object"
+using "CL_OBJ_Template_Container"
+data "RootTemplate" "c1cfc0d3-1007-5af3-c000-f00d00000000"
