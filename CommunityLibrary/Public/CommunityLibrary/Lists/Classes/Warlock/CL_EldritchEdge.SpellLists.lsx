@@ -5,23 +5,23 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Target_NetherWalk"/>
+                    <attribute id="Spells" type="LSString" value="CL_Target_EEE_NetherWalk"/>
                     <attribute id="UUID" type="guid" value="b19351e6-bef1-438b-8e1f-978be5bc205e"/>
                 </node>  
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Zone_Hand_Of_Fierna"/>
+                    <attribute id="Spells" type="LSString" value="CL_Zone_EEE_HandOfFierna"/>
                     <attribute id="UUID" type="guid" value="58f47339-ae18-45cf-b64a-feb2c6e9b026"/>
-                </node>  
+                </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Shout_AspectAranea"/>
+                    <attribute id="Spells" type="LSString" value="CL_Shout_EEE_AspectAranea;CL_Zone_EEE_BiteOfZanassu"/>
                     <attribute id="UUID" type="guid" value="86cdd326-978a-4cf2-95e9-c5a3c5e936f7"/>
                 </node> 
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Target_OffhandWebAttack"/>
+                    <attribute id="Spells" type="LSString" value="CL_Target_EEE_OffhandWebAttack"/>
                     <attribute id="UUID" type="guid" value="d1ca5b56-3dcd-48e5-9b79-65249ef976f4"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Target_EldritchWeapon_PH;"/>
+                    <attribute id="Spells" type="LSString" value="CL_Target_EEE_EldritchWeapon_PH"/>
                     <attribute id="UUID" type="guid" value="ecc4d627-c810-4bac-8e7d-9050a3a0961b"/>
                 </node>
                 <node id="SpellList">

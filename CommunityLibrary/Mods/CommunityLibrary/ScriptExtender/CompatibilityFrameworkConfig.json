@@ -277,6 +277,15 @@
           "modGuid": "2e686664-8fbb-4e08-9ec2-3eea5d0300ab",
           "Comment": "Dread Overlord (aheram)",
           "IsIntegrated": true
+        },
+        {
+          "UUIDs": [
+            "4e95aae1-ad36-4441-8d0c-43f891271f29",
+            "212e59bd-14f1-423a-8c73-6e053c72d3d7"
+          ],
+          "Comment": "Eldritch Edge",
+          "modGuid": "2e686664-8fbb-4e08-9ec2-3eea5d0300ab",
+          "IsIntegrated": true
         }
       ]
     },

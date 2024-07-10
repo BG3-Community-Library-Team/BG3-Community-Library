@@ -4,8 +4,8 @@
     <region id="Tags">
         <node id="root">
             <attribute id="Description" type="LSString" value="This warlock is an adept of the Eldritch Edge"/>
-            <attribute id="DisplayDescription" type="LSString" handle="h3543a9aa307d46b9a5c5d3426bca494caabf" version="1"/>
-            <attribute id="DisplayName" type="LSString" handle="he46636aa20c34a6db7ae8e9cba1bbe65d2d2" version="1"/>
+            <attribute id="DisplayDescription" type="TranslatedString" handle="h3543a9aa307d46b9a5c5d3426bca494caabf" version="1"/>
+            <attribute id="DisplayName" type="TranslatedString" handle="he46636aa20c34a6db7ae8e9cba1bbe65d2d2" version="1"/>
             <attribute id="Icon" type="FixedString" value=""/>
             <attribute id="Name" type="FixedString" value="WARLOCK_ELDRITCH_EDGE"/>
             <attribute id="UUID" type="guid" value="59f065e8-eebe-4464-9506-4f0119a59c65"/>

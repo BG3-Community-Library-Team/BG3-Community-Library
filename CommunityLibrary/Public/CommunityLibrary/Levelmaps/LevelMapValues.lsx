@@ -36,7 +36,7 @@
                     <attribute id="Level12" type="LSString" value="3d4"/>
                     <attribute id="Name" type="FixedString" value="CL_LM_WarlockCantrip_d4"/>
                     <attribute id="PreferredClassUUID" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
-                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-can7-c012000000d4"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-c012-c012000000d4"/>
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d6"/>
@@ -53,7 +53,7 @@
                     <attribute id="Level12" type="LSString" value="3d6"/>
                     <attribute id="Name" type="FixedString" value="CL_LM_WarlockCantrip_d6"/>
                     <attribute id="PreferredClassUUID" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
-                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-can7-c012000000d6"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-c012-c012000000d6"/>
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d8"/>
@@ -70,7 +70,7 @@
                     <attribute id="Level12" type="LSString" value="3d8"/>
                     <attribute id="Name" type="FixedString" value="CL_LM_WarlockCantrip_d8"/>
                     <attribute id="PreferredClassUUID" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
-                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-can7-c012000000d8"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-c012-c012000000d8"/>
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d10"/>
@@ -87,7 +87,7 @@
                     <attribute id="Level12" type="LSString" value="3d10"/>
                     <attribute id="Name" type="FixedString" value="CL_LM_WarlockCantrip_d10"/>
                     <attribute id="PreferredClassUUID" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
-                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-can7-c01200000d10"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-c012-c01200000d10"/>
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d12"/>
@@ -104,7 +104,7 @@
                     <attribute id="Level12" type="LSString" value="3d12"/>
                     <attribute id="Name" type="FixedString" value="CL_LM_WarlockCantrip_d12"/>
                     <attribute id="PreferredClassUUID" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
-                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-can7-c01200000d12"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-c155-1ee1-c012-c01200000d12"/>
                 </node>
             </children>
         </node>

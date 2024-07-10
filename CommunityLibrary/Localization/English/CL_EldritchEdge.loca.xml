@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <contentList>
    <!-- Class Tag -->
     <content contentuid="he46636aa20c34a6db7ae8e9cba1bbe65d2d2" version="1">Adept of the Eldritch Edge</content>
@@ -38,49 +39,49 @@
     <content contentuid="h2b18dfcac9dd42b585a0a65f55ec954be204" version="1">Hand of Belial</content>
     <content contentuid="h41579853b1da4aae810253cf0a89b4696ae8" version="1">Melee attackers affected by your aura must make a save or become frightened.</content>
    <!-- Status -->
-    <content contentuid="hd6134bf5dbfa4df08b1ff00f41e9cb23f90b" version="1">Aranea Spider Aspect"</content>
-    <content contentuid="h85eccc13aa6441939489400a8f3c3308a1b8" version="1">Manifest your spiderlike abilities. Resistance to poison. Spider movement: Immunity to being enwebbed and spider infestation. Grants increased jump distance."</content>
-    <content contentuid="h9ab0970028254941a79d810cc6de3e984ag4" version="1">Aranea Spider Aspect"</content>
-    <content contentuid="h452800513262472fbc17f525888db570a5dd" version="1">Manifest your spiderlike abilities. Evasion: Mitigate damage from physical attacks.  Resistance to poison.  Spider movement: Immunity to being enwebbed and increased jump distance."</content>
-    <content contentuid="hbbddc7ac67a64259af83bc7924e60b227g5c" version="1">Cursed Webbing"</content>
-    <content contentuid="hf019dc9d676341f7a76ca0481ade6f9e3dbf" version="1">This cursed webbing applied by Hex also makes the target vulnerable to critical hits."</content>
-    <content contentuid="h4c4bf223b713461f810657d8337a3c8395c0" version="1">Obscuring Flames"</content>
-    <content contentuid="h54479074aa364e7d8fa69a59221db8e9a90b" version="1">While surrounded by fire, you warp the flames and smoke to partially obscure yourself.  Attackers have disadvantage on attack rolls against you."</content>
-    <content contentuid="h65ea0f8118a44d9e9ab5c13ba9fbfb5b3a14" version="1">Status_BOOST_BURNING_DisplayName"</content>
-    <content contentuid="h9261b0e654c2477e9d68af6f8243d5d5282f" version="1">Status_BOOST_BURNING_Description"</content>
-    <content contentuid="h6cac4ce2ddbf42298e0e1ce1b9727771d697" version="1">Hand of Belial"</content>
-    <content contentuid="h8a92f0a102ce4092a65bf4542833849d48f3" version="1">An aura eminates from your hand that racks your enemies' bodies with pain and torments them with frightening hallucinations."</content>
-    <content contentuid="h386a942ac92f456ea71806658f0f4ac6ee10" version="1">Hand of Belial"</content>
-    <content contentuid="h5ad91ffb684b4526b6da388583ac9578282g" version="1">Waves of pain and terror emanate from the Hand of Belial"</content>
-    <content contentuid="hf7f9e4a89ac845748a386f60d9a499ddbg3a" version="1">Pleasure from Pain"</content>
-    <content contentuid="h5aae865de7bf4db7ac73618780b429557d7d" version="1">The pain your enemies experience brings healing"</content>
-    <content contentuid="heeb813f057e2434e8d9adb5224471e75a71b" version="1">Hand of Fierna"</content>
-    <content contentuid="h4f2f657c94674402b70a6d143503eb85c477" version="1">An aura eminates from your hand that sends waves of intense heat, burning enemies around you."</content>
-    <content contentuid="h440dc93cfffa456588f9256039ad633964cf" version="1">Hand of Fierna"</content>
-    <content contentuid="hd483ed4825084a64800c8d5d14241546321b" version="1">Waves of intense heat emanate from the Hand of Fierna"</content>
-    <content contentuid="h63b1035d2187404fa8f670a7273be9abc2d8" version="1">Hand of Fierna Damage"</content>
-    <content contentuid="h20d46e13416c486caf48ab80aa4a8dec15fc" version="1">An intense wave of heat burns the target for 1d4 damage"</content>
+    <content contentuid="hd6134bf5dbfa4df08b1ff00f41e9cb23f90b" version="1">Aranea Spider Aspect</content>
+    <content contentuid="h85eccc13aa6441939489400a8f3c3308a1b8" version="1">Manifest your spiderlike abilities. Resistance to poison. Spider movement: Immunity to being enwebbed and spider infestation. Grants increased jump distance.</content>
+    <content contentuid="h9ab0970028254941a79d810cc6de3e984ag4" version="1">Aranea Spider Aspect</content>
+    <content contentuid="h452800513262472fbc17f525888db570a5dd" version="1">Manifest your spiderlike abilities. Evasion: Mitigate damage from physical attacks.  Resistance to poison.  Spider movement: Immunity to being enwebbed and increased jump distance.</content>
+    <content contentuid="hbbddc7ac67a64259af83bc7924e60b227g5c" version="1">Cursed Webbing</content>
+    <content contentuid="hf019dc9d676341f7a76ca0481ade6f9e3dbf" version="1">This cursed webbing applied by Hex also makes the target vulnerable to critical hits.</content>
+    <content contentuid="h4c4bf223b713461f810657d8337a3c8395c0" version="1">Obscuring Flames</content>
+    <content contentuid="h54479074aa364e7d8fa69a59221db8e9a90b" version="1">While surrounded by fire, you warp the flames and smoke to partially obscure yourself.  Attackers have disadvantage on attack rolls against you.</content>
+    <content contentuid="h65ea0f8118a44d9e9ab5c13ba9fbfb5b3a14" version="1">Status_BOOST_BURNING_DisplayName</content>
+    <content contentuid="h9261b0e654c2477e9d68af6f8243d5d5282f" version="1">Status_BOOST_BURNING_Description</content>
+    <content contentuid="h6cac4ce2ddbf42298e0e1ce1b9727771d697" version="1">Hand of Belial</content>
+    <content contentuid="h8a92f0a102ce4092a65bf4542833849d48f3" version="1">An aura eminates from your hand that racks your enemies' bodies with pain and torments them with frightening hallucinations.</content>
+    <content contentuid="h386a942ac92f456ea71806658f0f4ac6ee10" version="1">Hand of Belial</content>
+    <content contentuid="h5ad91ffb684b4526b6da388583ac9578282g" version="1">Waves of pain and terror emanate from the Hand of Belial</content>
+    <content contentuid="hf7f9e4a89ac845748a386f60d9a499ddbg3a" version="1">Pleasure from Pain</content>
+    <content contentuid="h5aae865de7bf4db7ac73618780b429557d7d" version="1">The pain your enemies experience brings healing</content>
+    <content contentuid="heeb813f057e2434e8d9adb5224471e75a71b" version="1">Hand of Fierna</content>
+    <content contentuid="h4f2f657c94674402b70a6d143503eb85c477" version="1">An aura eminates from your hand that sends waves of intense heat, burning enemies around you.</content>
+    <content contentuid="h440dc93cfffa456588f9256039ad633964cf" version="1">Hand of Fierna</content>
+    <content contentuid="hd483ed4825084a64800c8d5d14241546321b" version="1">Waves of intense heat emanate from the Hand of Fierna</content>
+    <content contentuid="h63b1035d2187404fa8f670a7273be9abc2d8" version="1">Hand of Fierna Damage</content>
+    <content contentuid="h20d46e13416c486caf48ab80aa4a8dec15fc" version="1">An intense wave of heat burns the target for 1d4 damage</content>
    <!-- Spells -->
 
-    <content contentuid="haee6f9b7d210474f9f9b7e6e3ea9214fee1a" version="1">Aspect of Aranea"</content>
-    <content contentuid="h895dcf39e4f446f49c1551ec2b7fc34ag276" version="1">Manifest your spiderlike abilities.  Reistance to poison, immunity to being enwebbed and increased jump distance."</content>
-    <content contentuid="h17177e28bab14e2aa6ea08458aea6fd28ee7" version="1">Hand Of Belial"</content>
-    <content contentuid="hee3e23b2c7de446ba4d457597312bcfbag1a" version="1">An aura eminates from your hand that racks your enemies' bodies with pain and torments them with frightening hallucinations."</content>
-    <content contentuid="hed0baaac6f9741c78d3ee6a1a0ea5fc11d7c" version="1">Hand Of Fierna"</content>
-    <content contentuid="h2eb29101999f40e8bf6ba9f63980ec009e9e" version="1">An aura eminates from your hand that sends waves of intense heat, burning enemies around you."</content>
-    <content contentuid="h812c2be580f149719b02b8c3beee9c020c96" version="1">Fiery Ward"</content>
-    <content contentuid="hd3272288b2f84fc990c797280239ce2576d9" version="1">!!CUT!! As a reaction, deal Charisma Modifer + Level to any creature that attacks you in melee combat.  If the creature is hexed, you heal for the same amount.  On a successful save, the attacker takes no damage."</content>
-    <content contentuid="h36b71dd913d249ea87bb9520efef1d19f7f9" version="1">Nether Walk"</content>
-    <content contentuid="he5f8da992e95408dbb28dae2e8ed150a012g" version="1">You pass through Phlegethos and teleport to an unoccupied space brining the fury of hell with you."</content>
-    <content contentuid="h11f55a53c6b64d1aa2195112886dee9cf907" version="1">Spider Eruption"</content>
-    <content contentuid="h22dccbfb3609473e800df4faff021f23b984" version="1">!!CUT!! Rend your enemy's flesh and implant spider eggs.  Moments later, a swarm of tiny spiders feed on the target and spread webbing around the area"</content>
-    <content contentuid="h4f831ea907df448986671da5888e371a0ge0" version="1">Eldritch Weapon"</content>
-    <content contentuid="hea5580c193994db7aec55b3e4dfc31def519" version="1">!!CUT!! Imbue your weapon with Eldritch power to deal force damage. When wielding a finesse weapon, Agonizing Blast channels your Eldritch Blast and Replling Blast can knock enemies prone."</content>
-    <content contentuid="h459089a6e4774736bcd057533b75b810c55g" version="1">Divergent Fist"</content>
-    <content contentuid="hfffec1066a3340c6aa641b9446bcbbbd9e81" version="1">You concentrate your cursed energy into your fist when you strike your enemies."</content>
-    <content contentuid="hf9bd1e1f5c8d4f78a55297906285517167fc" version="1">Hand of Fierna"</content>
-    <content contentuid="hb7e97096bef1426daf436ea5db14a984293b" version="1">You channel the power of Fierna and swing your flame blade in an arc of hellfire. The very ground is set ablaze in the wake of your fury."</content>
-    <content contentuid="he2850eeaf53d4c068cc52cc2735cb196e2g4" version="1">Your flame blade deals 1d6 damage as Fire.  Targets save for half damage.  Costs 1 action and 1 bonus action point."</content>
+    <content contentuid="haee6f9b7d210474f9f9b7e6e3ea9214fee1a" version="1">Aspect of Aranea</content>
+    <content contentuid="h895dcf39e4f446f49c1551ec2b7fc34ag276" version="1">Manifest your spiderlike abilities.  Reistance to poison, immunity to being enwebbed and increased jump distance.</content>
+    <content contentuid="h17177e28bab14e2aa6ea08458aea6fd28ee7" version="1">Hand Of Belial</content>
+    <content contentuid="hee3e23b2c7de446ba4d457597312bcfbag1a" version="1">An aura eminates from your hand that racks your enemies' bodies with pain and torments them with frightening hallucinations.</content>
+    <content contentuid="hed0baaac6f9741c78d3ee6a1a0ea5fc11d7c" version="1">Hand Of Fierna</content>
+    <content contentuid="h2eb29101999f40e8bf6ba9f63980ec009e9e" version="1">An aura eminates from your hand that sends waves of intense heat, burning enemies around you.</content>
+    <content contentuid="h812c2be580f149719b02b8c3beee9c020c96" version="1">Fiery Ward</content>
+    <content contentuid="hd3272288b2f84fc990c797280239ce2576d9" version="1">!!CUT!! As a reaction, deal Charisma Modifer + Level to any creature that attacks you in melee combat.  If the creature is hexed, you heal for the same amount.  On a successful save, the attacker takes no damage.</content>
+    <content contentuid="h36b71dd913d249ea87bb9520efef1d19f7f9" version="1">Nether Walk</content>
+    <content contentuid="he5f8da992e95408dbb28dae2e8ed150a012g" version="1">You pass through Phlegethos and teleport to an unoccupied space brining the fury of hell with you.</content>
+    <content contentuid="h11f55a53c6b64d1aa2195112886dee9cf907" version="1">Spider Eruption</content>
+    <content contentuid="h22dccbfb3609473e800df4faff021f23b984" version="1">!!CUT!! Rend your enemy's flesh and implant spider eggs.  Moments later, a swarm of tiny spiders feed on the target and spread webbing around the area</content>
+    <content contentuid="h4f831ea907df448986671da5888e371a0ge0" version="1">Eldritch Weapon</content>
+    <content contentuid="hea5580c193994db7aec55b3e4dfc31def519" version="1">!!CUT!! Imbue your weapon with Eldritch power to deal force damage. When wielding a finesse weapon, Agonizing Blast channels your Eldritch Blast and Replling Blast can knock enemies prone.</content>
+    <content contentuid="h459089a6e4774736bcd057533b75b810c55g" version="1">Divergent Fist</content>
+    <content contentuid="hfffec1066a3340c6aa641b9446bcbbbd9e81" version="1">You concentrate your cursed energy into your fist when you strike your enemies.</content>
+    <content contentuid="hf9bd1e1f5c8d4f78a55297906285517167fc" version="1">Hand of Fierna</content>
+    <content contentuid="hb7e97096bef1426daf436ea5db14a984293b" version="1">You channel the power of Fierna and swing your flame blade in an arc of hellfire. The very ground is set ablaze in the wake of your fury.</content>
+    <content contentuid="he2850eeaf53d4c068cc52cc2735cb196e2g4" version="1">Your flame blade deals 1d6 damage as Fire.  Targets save for half damage.  Costs 1 action and 1 bonus action point.</content>
    <!-- Progressions -->
     <content contentuid="h2edc5158cb8d489a9dea4d26e454f26aff63" version="1">Fire and smoke obscure you, granting increased AC.</content>
     <content contentuid="ha51168a046b5451d92e8a8fb190b1c6e7565" version="1">Obscuring Flames</content>

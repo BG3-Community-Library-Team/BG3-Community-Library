@@ -6,8 +6,8 @@
             <children>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="FixedString" value="h32211cfb5daa464fb65c95e5d4c88e01ef0f"/>
-                    <attribute id="DisplayName" type="FixedString" value="hbce975dcfc9a4843966d07db71cfaef85a49"/>
+                    <attribute id="Description" type="TranslatedString" value="h32211cfb5daa464fb65c95e5d4c88e01ef0f"/>
+                    <attribute id="DisplayName" type="TranslatedString" value="hbce975dcfc9a4843966d07db71cfaef85a49"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Phlegethos"/>
                     <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
@@ -25,8 +25,8 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="FixedString" value="h17a31a6fd13748849cf8b44691fcdf91gdb7"/>
-                    <attribute id="DisplayName" type="FixedString" value="hda97d290bb134991be139dc53bb38ca3f1da"/>
+                    <attribute id="Description" type="TranslatedString" value="h17a31a6fd13748849cf8b44691fcdf91gdb7" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" value="hda97d290bb134991be139dc53bb38ca3f1da" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Zanassu"/>
                     <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
