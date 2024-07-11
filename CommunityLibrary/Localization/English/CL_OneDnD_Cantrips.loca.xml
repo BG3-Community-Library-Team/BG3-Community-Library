@@ -7,6 +7,7 @@
 	<content contentuid="h522c4802g4f3cg4784gab45g18ef220b44a5" version="1">Poison Spray (OneDnD)</content>
 	<content contentuid="h631d1f58gbfa0g439bgaf5fg5e7a6a1938d2" version="1">Produce Flame (OneDnD)</content>
 	<content contentuid="h7de10c3fgc90eg424bg9bccg58039def2cde" version="1">Shocking Grasp (OneDnD)</content>
+	<content contentuid="h881fba90g49fcg4160g9467gfb4985b6b971" version="1">Spare the Dying (OneDnD)</content>
 	<content contentuid="h9797f7f0ge67eg4703g8c59g9659ae622578" version="1">True Strike (OneDnd)</content>
 	<content contentuid="ha50eb169g772cg41f7g8d62gebb411468b7f" version="1">True Strike (Melee)</content>
 	<content contentuid="h5189e4d4g8e03g491egadb8g521f70b372fb" version="1">True Strike (Ranged)</content>
@@ -29,13 +30,13 @@
 	<content contentuid="h586bb798gbfa2g4efega640g99a7f7f3cba0" version="1">True Strike attacks deal[1].</content>
 	<content contentuid="hb4dd4551g82b7g4032g9211gfee4aa1873b9" version="1">Replace regular attacks with True Strike.</content>
 	<content contentuid="hbd7e412cg042cg4397gb776gff8aa8d71332" version="1">Produce Flame: Create</content>
-	<content contentuid="h90748a97g8d9dg458fg893cg21a240533233" version="1">Conjure a flame and throw it at your target</content>
-	<content contentuid="h180771f8g9ed1g470fga980gbdd81220edd0" version="1">Does not consume an Bonus Action if you've already conjured a flame.</content>
+	<content contentuid="h90748a97g8d9dg458fg893cg21a240533233" version="1">Conjure a flame and throw it at your target.</content>
+	<content contentuid="h180771f8g9ed1g470fga980gbdd81220edd0" version="1">Does not cost a Bonus Action if you've already conjured a flame.</content>
 	<content contentuid="hdb24c48egc590g4ef0g8a69gd8e3a8663cab" version="1">Cannot make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&gt;LSTag&gt;.</content>
 	<content contentuid="h4d2c5677gd01ag4545gaf1eg3c133325f7fc" version="1">The target cannot make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; until its next turn. This spell has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on creatures with metal armour.</content>
 	<content contentuid="h97cb536bg022dg4cbeg92dag2f6bb3944165" version="1">Increased Range: [1]</content>
-	<content contentuid="hc4834941g2569g4cdfgb5b0g19466e92c8f3" version="1">You trace a sigil of warding, imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the creature's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you.</content>
-	<content contentuid="hcccf37fegf726g4c32g9e7egff533122cf9b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; The Charm breaks if the target takes damage or if the caster makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or causes a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="hc4834941g2569g4cdfgb5b0g19466e92c8f3" version="1">You trace a sigil of warding, imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the creature's &lt;LSTag Tooltip="AttackRoll"&gt;Melee Attack Roll&lt;/LSTag&gt; against you.</content>
+	<content contentuid="hcccf37fegf726g4c32g9e7egff533122cf9b" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; The Charm breaks if the target takes damage or if the caster makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; or causes a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;. The target can't be charmed again until after a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
     <content contentuid="h092b0016g5508g4b30g93b6ge65b746e3c99" version="1">Friend blocked</content>
 	<content contentuid="h394d51fdgebdcg4c8aga126g89ce53dbf545" version="1">Cannot be affected by &lt;LSTag Type="Spell" Tooltip="CL_Target_OneDnD_Friends"&gt;Friends&lt;/LSTag&gt; until after a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h6f2a8982g1c44g4839g9f6fg47f00662d06b" version="1">Cast again to dismiss the flames.</content>
