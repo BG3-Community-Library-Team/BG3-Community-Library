@@ -8,6 +8,7 @@
 	<content contentuid="h631d1f58gbfa0g439bgaf5fg5e7a6a1938d2" version="1">Produce Flame (OneDnD)</content>
 	<content contentuid="h7de10c3fgc90eg424bg9bccg58039def2cde" version="1">Shocking Grasp (OneDnD)</content>
 	<content contentuid="h881fba90g49fcg4160g9467gfb4985b6b971" version="1">Spare the Dying (OneDnD)</content>
+	<content contentuid="hc3244e22gda54g4048g91d9g4e86967d153e" version="1">Shillelagh (OneDnD)</content>
 	<content contentuid="h9797f7f0ge67eg4703g8c59g9659ae622578" version="1">True Strike (OneDnd)</content>
 	<content contentuid="ha50eb169g772cg41f7g8d62gebb411468b7f" version="1">True Strike (Melee)</content>
 	<content contentuid="h5189e4d4g8e03g491egadb8g521f70b372fb" version="1">True Strike (Ranged)</content>
@@ -21,11 +22,11 @@
 	<content contentuid="hc708c2f9g73ceg431bgbe20gd07bad57a582" version="1">True Strike will deal[1] instead of[2].</content>
 	<content contentuid="h56cfcc06gf066g43a3ga7fag0c2d7a25c242" version="1">The Caster's weapon is magical and deals [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt;.</content>
 	<content contentuid="hecbce2d0gfb37g4846g807ag9b6b58d1606a" version="1">Creature's weapon is magical and deals [1]. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; use the wielder's &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier.</content>
-	<content contentuid="hff85bee9g9216g4db8gb9ceg507809c9d43c" version="1">Your staff or club becomes magical: it deals [1], and uses your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. You may have it do its normal[2] instead.</content>
+	<content contentuid="hff85bee9g9216g4db8gb9ceg507809c9d43c" version="1">Your staff or club becomes magical. It deals [1], and uses your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; modifier for &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. You may have it do its normal[2] instead.</content>
 	<content contentuid="hb6fa0afcg756dg4a43ga6d5g9b2c5c8f5cc9" version="1">You may have your attacks deal[1] instead of its normal[2].</content>
 	<content contentuid="h02e1b493gf79ag4586gac01g0bc8e6e5f904" version="1">Shillelagh: Main Hand</content>
 	<content contentuid="h889476e6g6fc1g4ed8gaef0ge78ce44629f4" version="1">Shillelagh: Off Hand</content>
-	<content contentuid="hced57d0egbdd6g40a7gb90cg0ce7e847cc42" version="1">Damage is increased to [1] at level 5 and [2] at level 10.</content>
+	<content contentuid="hced57d0egbdd6g40a7gb90cg0ce7e847cc42" version="1">Damage die is increased to [1] at level 5 and [2] at level 10.</content>
 	<content contentuid="hbc4058e6g0058g4760g8b74gc36e189becb3" version="1">True Strike: Radiant</content>
 	<content contentuid="h586bb798gbfa2g4efega640g99a7f7f3cba0" version="1">True Strike attacks deal[1].</content>
 	<content contentuid="hb4dd4551g82b7g4032g9211gfee4aa1873b9" version="1">Replace regular attacks with True Strike.</content>
