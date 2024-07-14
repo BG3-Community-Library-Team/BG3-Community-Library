@@ -18,6 +18,4 @@
     <content contentuid="haf57fbe442b34d9d8687d6153ca24cdb6d61" version="1">Whenever you use &lt;LSTag Type="Spell" Tooltip="CL_Teleportation_OneDnD_MoonlightStep"&gt;Moonlight Step&lt;/LSTag&gt;, you can also teleport one Ally within [1] of you.</content>
     <content contentuid="h0415be9483784d4abdf938c95df79d3c007e" version="1">Teleport yourself and up to one ally within [1] to an unoccupied space you can see within [2], also gaining &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make before the end of your turn.</content>
 
-
-
 </contentList>

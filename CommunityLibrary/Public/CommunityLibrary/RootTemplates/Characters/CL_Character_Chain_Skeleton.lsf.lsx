@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="51" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+          <attribute id="MapKey" type="FixedString" value="a0dadba2-7864-43cb-ac43-1cc2a634e9a1" />
+          <attribute id="Name" type="LSString" value="CL_Character_Chain_Skeleton" />
+          <attribute id="Scale" type="float" value="0.6" />
+          <attribute id="LevelName" type="FixedString" value="" />
+          <attribute id="Type" type="FixedString" value="character" />
+          <attribute id="ParentTemplateId" type="FixedString" value="145fc868-9353-4ef1-8a1d-419fe96533fb" />
+	        <attribute id="Stats" type="FixedString" value="CL_Character_Chain_Skeleton" />
+          <attribute id="SpellSet" type="FixedString" value="CL_SpellSet_Chain_Actions" />
+          <children>
+            <node id="LocomotionParams" />
+            <node id="OnDeathActions" />
+            <node id="SpeakerGroupList">
+              <children>
+                <node id="SpeakerGroup">
+                  <attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+                </node>
+              </children>
+            </node>
+            <node id="Tags">
+              <children>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
+                </node>
+                <node id="Tag">
+                  <attribute id="Object" type="guid" value="8713fda9-1855-42ef-8c54-a1e2d5a49194" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
