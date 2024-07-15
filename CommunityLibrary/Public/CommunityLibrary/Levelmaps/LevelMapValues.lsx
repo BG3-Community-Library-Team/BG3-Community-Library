@@ -34,7 +34,7 @@
                     <attribute id="Level10" type="LSString" value="2d6"/>
                     <attribute id="Level11" type="LSString" value="2d6"/>
                     <attribute id="Level12" type="LSString" value="2d6"/>
-                    <attribute id="Name" type="FixedString" value="CL_LM_OneDnd_TrueStrike"/>
+                    <attribute id="Name" type="FixedString" value="CL_LM_OneDnD_TrueStrike"/>
                     <attribute id="UUID" type="guid" value="60361e8a-83b4-4fca-860d-5bfabe79cac1"/>
                 </node>
                 <node id="LevelMapSeries">
@@ -50,7 +50,7 @@
                     <attribute id="Level10" type="LSString" value="1d12"/>
                     <attribute id="Level11" type="LSString" value="1d12"/>
                     <attribute id="Level12" type="LSString" value="1d12"/>
-                    <attribute id="Name" type="FixedString" value="CL_LM_OneDnd_Shillelagh"/>
+                    <attribute id="Name" type="FixedString" value="CL_LM_OneDnD_Shillelagh"/>
                     <attribute id="UUID" type="guid" value="82bf6dee-aa50-4b5a-8047-cff5366ba633"/>
                 </node>
             </children>
