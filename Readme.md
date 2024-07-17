@@ -1,6 +1,7 @@
+[![Open Faerun](https://i.imgur.com/qdQS6if.png)](https://www.nexusmods.com/baldursgate3/mods/7294)
 # Baldur's Gate 3 Community Library
 
-[![GitHub release](https://img.shields.io/github/v/tag/BG3-Community-Library-Team/BG3-Community-Library?label=Latest%20Version)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/BG3-Community-Library-Team/BG3-Community-Library/2.2.8.0/main)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
+[![GitHub release](https://img.shields.io/github/v/release/BG3-Community-Library-Team/BG3-Community-Library)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/releases/) [![GitHub commits](https://img.shields.io/github/commits-since/BG3-Community-Library-Team/BG3-Community-Library/latest)](https://GitHub.com/BG3-Community-Library-Team/BG3-Community-Library/commit/)
 
 Baldur's Gate 3 Community Library exists to provide a common collection of
 Spells, Scripts, Items, Statuses, Passives, and other useful material that will
