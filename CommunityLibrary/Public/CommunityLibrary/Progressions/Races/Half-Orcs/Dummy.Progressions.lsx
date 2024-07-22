@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value=""/>
+          <attribute id="Name" type="LSString" value=""/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value=""/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>

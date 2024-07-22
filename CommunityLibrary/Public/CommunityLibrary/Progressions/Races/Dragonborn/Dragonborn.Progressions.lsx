@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="49"/>
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="2"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="3"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="4"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="5"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="6"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="7"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="8"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="9"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="10"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="11"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="12"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="13"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="14"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="15"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="16"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="17"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="18"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="19"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+        <node id="Progression">
+          <attribute id="Level" type="uint8" value="20"/>
+          <attribute id="Name" type="LSString" value="Dragonborn"/>
+          <attribute id="ProgressionType" type="uint8" value="2"/>
+          <attribute id="TableUUID" type="guid" value="e2472b4f-682a-4ac8-b11c-723f921fd7a1"/>
+          <attribute id="UUID" type="guid" value=""/>
+        </node>
+
+      </children>
+    </node>
+  </region>
+</save>
