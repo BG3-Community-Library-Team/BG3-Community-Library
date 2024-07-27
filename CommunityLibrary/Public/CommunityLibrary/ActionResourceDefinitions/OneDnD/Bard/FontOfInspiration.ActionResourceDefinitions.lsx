@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="312"/>
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+          <attribute id="Description" type="TranslatedString" handle="h39ef764a3f9b40628d2599b284a24941bg57" version="1"/>
+          <attribute id="DisplayName" type="TranslatedString" handle="h081b50842706460d860ea4d8fd28bb3fbg4f" version="1"/>
+          <attribute id="MaxLevel" type="uint32" value="0"/>
+          <attribute id="Name" type="FixedString" value="CL_FontOfInspiration"/>
+          <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+          <attribute id="IsHidden" type="bool" value="true"/>
+          <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+          <attribute id="UUID" type="guid" value="a047f4cf-1bf1-4385-a9da-ba4fafbab74d"/>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

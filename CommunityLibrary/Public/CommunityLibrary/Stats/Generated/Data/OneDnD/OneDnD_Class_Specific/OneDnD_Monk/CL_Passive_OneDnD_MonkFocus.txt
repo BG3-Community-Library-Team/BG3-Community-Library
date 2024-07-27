@@ -1,5 +1,6 @@
-// Monk’s Discipline
+// Monk’s Focus
 
+// Legacy
 new entry "CL_Passive_OneDnD_MonksDiscipline"
 type "PassiveData"
 data "DisplayName" "h54c1dc8971ae437cb8e4f85c1d135a0770dg;1"
@@ -9,15 +10,13 @@ data "Icon" "PassiveFeature_KiFlurryOfBlows"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "UnlockSpell(CL_Shout_OneDnD_StepOfTheWind_Dash);UnlockSpell(CL_Shout_OneDnD_PatientDefence_Disengage);UnlockSpell(CL_Target_OneDnD_FlurryOfBlows_FirstStrike);UnlockSpell(CL_Shout_OneDnD_PatientDefence);UnlockSpell(CL_Shout_OneDnD_StepOfTheWind)"
 
-//WIP
-new entry "CL_Passive_OneDnD_MonksDisciplineHeightenedDiscipline"
+new entry "CL_Passive_OneDnD_MonkFocus"
 type "PassiveData"
 data "DisplayName" "h54c1dc8971ae437cb8e4f85c1d135a0770dg;1"
 data "Description" "h4e5a7c5bfdcf4b6dbe09638690ac342df62f;1"
-data "ExtraDescription" "h2a84d236ac1241b68bd127b5be0840fa3g10;1"
 data "Icon" "PassiveFeature_KiFlurryOfBlows"
-data "Properties" "IsHidden"
-
+data "Properties" "Highlighted;ForceShowInCC"
+data "TooltipUseCosts" "KiPoint:1"
 // Flurry of Blows
 
 new entry "CL_STATUS_FLURRY_OF_BLOWS_SECOND_STRIKE"
