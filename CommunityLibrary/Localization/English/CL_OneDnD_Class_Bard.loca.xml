@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="h381213aa98014bbc870c7f5297d37ec3afd3" version="1">Spend a Level [1] &lt;LSTag Type="ActionResource" Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to replenish a &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration Charge&lt;/LSTag&gt;.</content>
+    <content contentuid="ha0f1cece85d549cc9dd8a9b4319bb0cd8b22" version="1">Font of Inspiration</content>
+    <content contentuid="hcc785567baef445485b9448695a8e9c03a78" version="1">Spend a &lt;LSTag Type="ActionResource" Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; to replenish a &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration Charge&lt;/LSTag&gt;.</content>
+    <content contentuid="h081b50842706460d860ea4d8fd28bb3fbg4f" version="1">Font of Inspiration</content>
+    <content contentuid="h39ef764a3f9b40628d2599b284a24941bg57" version="1">This has mostly been added to see if this works around the weird bug.</content>
+</contentList>

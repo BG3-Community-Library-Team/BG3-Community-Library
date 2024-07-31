@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Monk's Focus: Flurry of Blows"/>
+                    <attribute id="Spells" type="LSString" value="CL_Target_OneDnD_FlurryOfBlows_FirstStrike"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0001-c00700000003"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Monk's Focus: Patient Defence"/>
+                    <attribute id="Spells" type="LSString" value="CL_Shout_OneDnD_PatientDefence;CL_Shout_OneDnD_PatientDefence_Disengage"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0002-c00700000003"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Monk's Focus: Step of the Wind"/>
+                    <attribute id="Spells" type="LSString" value="CL_Shout_OneDnD_StepOfTheWind;CL_Shout_OneDnD_StepOfTheWind_Dash;"/>
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0003-c00700000003"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

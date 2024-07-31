@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Bard Font of Inspiration" />
+                    <attribute id="Spells" type="LSString" value="CL_Shout_OneDnD_FontOfInspiration;CL_Shout_OneDnD_FontOfInspiration_1" />
+                    <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0105-c00300000003" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
