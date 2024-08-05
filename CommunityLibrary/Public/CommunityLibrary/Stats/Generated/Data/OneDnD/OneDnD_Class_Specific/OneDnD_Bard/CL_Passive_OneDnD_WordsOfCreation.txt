@@ -1,0 +1,6 @@
+new entry "CL_Passive_OneDnD_WordsOfCreation"
+type "PassiveData"
+data "DisplayName" "Words of Creation;1"
+data "Description" ";1"
+data "Icon" "PassiveFeature_CuttingWords"
+data "Properties" "Highlighted;ForceShowInCC"
