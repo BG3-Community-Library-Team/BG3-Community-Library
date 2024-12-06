@@ -59,6 +59,17 @@
 					<attribute id="Type" type="int32" value="0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855873" />
 				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="596c5ef3-ed88-4889-9a3c-57365b941780" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="CL_Icons_StatusIcons" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public/CommunityLibrary/Assets/Textures/Icons/CL_Icons_StatusIcons.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855873" />
+				</node>
 			</children>
 		</node>
 	</region>
