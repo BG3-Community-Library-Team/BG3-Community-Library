@@ -88,22 +88,22 @@ Globals.FieldSeparator = {
 }
 
 Globals.ListNodes = {
-  -- Abilities = "Abilities", Not Supported
+  Abilities = "Abilities",
   SpellList = "Spells",
   SkillList = "Skills",
   PassiveList = "Passives",
-  -- Equipment = "EquipmentList", Not Supported
+  Equipment = "EquipmentList"
   -- Colors = "ColorDefinition", Partially supported, figure out actual arrays
 }
 
 Globals.ListTypes = {
-  -- Abilities = "AbilityList",
+  Abilities = "AbilityList",
   SpellList = "SpellList",
   SkillList = "SkillList",
   PassiveList = "PassiveList",
-  -- Equipment = "EquipmentList",
+  Equipment = "EquipmentList",
+  CampChestTemplate = "CampChestTemplate"
   -- Colors = "ColorDefinition", Partially supported, figure out actual arrays
-  -- CampChestTemplate = "CampChestTemplates"
 }
 
 Globals.SelectorIdTypes = {
