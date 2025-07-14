@@ -2,24 +2,24 @@
 --OriginPicker 1.0.0.0 by Ghouls0Rules, adapted by Trips for CL and SE--
 ------------------------------------------------------------------------
 
-Globals.OriginPicker. = {}
-Globals.OriginPicker.OriginTagsPlaceUuid={
+Globals.OriginPicker = {}
+Globals.OriginPicker.OriginTagsPlaceUuid = {
   "4cb02915-7ad7-4141-907e-93253c6a8644",
   "bad00ba2-8a49-450c-8387-af47681717f1",
   "2d0a73b9-f113-4d35-bdee-a31ab9163d74",
   "60f6b464-752f-4970-a855-f729565b5e07",
   "987a41e3-2482-4c74-8c30-f3843cfdb7f3",
   "d2f86ec3-c41f-47e1-8acd-984872a4d7d5"
-  }
-Globals.OriginPicker.OriginTagsPlaceName={
+}
+Globals.OriginPicker.OriginTagsPlaceName = {
   "REALLY_PLANAR",
   "PLANAR",
   "REALLY_UNDERDARK",
   "UNDERDARK",
   "REALLY_RARE",
   "RARE"
-  }
-Globals.OriginPicker.OriginTagsUuid={
+}
+Globals.OriginPicker.OriginTagsUuid = {
   "8e288154-e7ca-4277-b2df-e61639b1cce8",
   "69fd1443-7686-4ca9-9516-72ec0b9d94d7",
   "772b1dc6-14be-417f-afa3-c6cf364f45b4",
@@ -84,8 +84,8 @@ Globals.OriginPicker.OriginTagsUuid={
   "ef9c5b74-56a8-48cc-b0b9-169ee16bf026",
   "d2d60a81-688e-4d3d-ba56-3e467cae37fc",
   "6e913b6e-58b1-41bf-8751-89250dd17bff"
-   }
-Globals.OriginPicker.OriginTagsName={
+}
+Globals.OriginPicker.OriginTagsName = {
   "REALLY_HUMAN",
   "HUMAN",
   "REALLY_ELF",
@@ -150,18 +150,18 @@ Globals.OriginPicker.OriginTagsName={
   "LOLTHDROWELF",
   "REALLY_SELDARINEDROWELF",
   "SELDARINEDROWELF"
-  }
+}
 --planar, underdark then rare
 Globals.OriginPicker.specialNames = {
-    {   
+  {
     "AASIMAR",
     "GITHYANKI",
     "GENASI"
-    },
-    {   
+  },
+  {
     "DROW"
-    },
-    {   
+  },
+  {
     "AASIMAR",
     "DROW",
     "DRAGONBORN",
@@ -170,5 +170,5 @@ Globals.OriginPicker.specialNames = {
     "HALFDROW",
     "HALFORC",
     "GENASI"
-    }
   }
+}
