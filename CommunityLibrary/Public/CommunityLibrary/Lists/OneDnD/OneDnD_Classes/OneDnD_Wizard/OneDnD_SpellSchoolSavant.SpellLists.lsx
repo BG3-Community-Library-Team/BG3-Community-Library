@@ -150,42 +150,42 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 2" />
-                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0502-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 3" />
-                    <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0503-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 4" />
-                    <attribute id="Spells" type="LSString" value="Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0504-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 5" />
-                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0505-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 6" />
-                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0506-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 7" />
-                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0507-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 8" />
-                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0508-c01300000002" />
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Illusion Savant SLevel 9" />
-                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
+                    <attribute id="Spells" type="LSString" value="Target_Seeming;Target_Invisibility_Greater;Target_PhantasmalKiller;Zone_Fear;Target_HypnoticPattern;Shout_InvisibilitySphere;Projectile_ShadowProjectile;Shout_Blur;Target_Invisibility;Target_NathairsMischief;Shout_MirrorImage;Target_PhantasmalForce;Shout_ShadowBlade_Class;Target_BladeMirage;Zone_ColorSpray;Zone_ColorSpray2e;Shout_DisguiseSelf;Shout_Dual_Shadowblades" />
                     <attribute id="UUID" type="guid" value="c1cfc0d3-1dad-1157-0509-c01300000002" />
                 </node>
              <!-- Conjuration -->
