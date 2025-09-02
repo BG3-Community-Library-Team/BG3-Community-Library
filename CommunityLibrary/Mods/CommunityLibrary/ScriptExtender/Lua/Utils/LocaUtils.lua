@@ -28,7 +28,7 @@ function Utils.Loca.Template(args)
 end
 
 function Utils.Loca.StaticData(args)
-  local target = Ext.StaticData.Get(args.ID)
+  local target = Ext.StaticData.Get(args.ID, args.DataType)
 
   return Ext.Loca.GetTranslatedString(target[args.Field].Handle.Handle, args.DataType)
 end
