@@ -25,6 +25,10 @@ Some mods will rely on this one, and require it as a dependency, as it provides 
 ### I heard this mod makes Subclasses Compatible?
 As of 2.0.4.1, this mod no longer includes the [Compatibility Framework](https://github.com/BG3-Community-Library-Team/BG3-Compatibility-Framework), which has been separated out into it's own project. Compatibility Framework _does_ rely on Lua functions defined within the Community Library.
 
+## Related Resources
+
+- [BG3 Hub](https://bg3hub.com/) — Baldur's Gate 3 tier lists, class builds, spell library, and Honour-Mode strategies.
+
 ## Contributing
 If you would like to contribute to Baldur's Gate 3 Community Library, there are
 a few ways: You can join the team, make independent contributions, or make
