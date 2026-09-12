@@ -13,8 +13,8 @@
   <content contentuid="hc8b9bee9g795fg46a6gba32g2e0d6438cc61" version="1">You touch a nearby creature in an effort to rile it up. It must make a &lt;LSTag Tooltip="SavingThrow"&gt;Wisdom Saving Throw&lt;/LSTag&gt; saving throw, to avoid being driven into a &lt;LSTag Type="Status" Tooltip="MAD"&gt;Frenzy&lt;/LSTag&gt;.</content>
   <content contentuid="h2d19bba1gc532g4419ga081g8a9a12b9ce90" version="1">Heroic Touch</content>
   <content contentuid="h2c5acd82gc94eg4ce1g866bg9a71e98a350a" version="1">You touch a nearby creature in an effort to raise its courage. The creature is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;, and gains &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Spellcasting ability.</content>
-  <content contentuid="hfa8c9662gb2e0g4561gba89g7bcb9a5ccf88" version="1">Frenzying Touch</content>
-  <content contentuid="hfa8c9662gb2e0g4561gba89g7bcb9a5ccf88" version="1">Frenzying Touch</content>
+  <content contentuid="h96c88250g675fg49d1ga366g0c2e9dfa7e3f" version="1">Frenzying Touch</content>
+  <content contentuid="h96c88250g675fg49d1ga366g0c2e9dfa7e3f" version="1">Frenzying Touch</content>
   <content contentuid="hfa8c9662gb2e0g4561gba89g7bcb9a5ccf88" version="1">Eye-Maze</content>
   <content contentuid="h5c4b6886g1881g4a2aga34eg8a6482aed8f1" version="1">Your body shifts in and out of sight, granting you +2 to AC, and +2 to Stealth.</content>
   <content contentuid="h4e08a7fdgedf9g42eeg9f87g18fe35b02de4" version="1">This creature is only partially visible, granting them +1 Stealth, and an additional +1 AC.</content>
